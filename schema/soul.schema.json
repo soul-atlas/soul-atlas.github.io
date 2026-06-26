@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://open-soul.github.io/schema/soul.schema.json",
+  "title": "SOUL Atlas Record",
+  "description": "The fully assembled, machine-readable representation of a single SOUL, as emitted at /api/<slug>.json. Combines validated metadata, parsed document sections, and build-time computed fields.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "title", "metadata", "sections", "computed"],
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "title": { "type": "string" },
+    "metadata": { "$ref": "https://open-soul.github.io/schema/metadata.schema.json" },
+    "sections": {
+      "type": "array",
+      "description": "Parsed H2 sections of SOUL.md, in document order.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["heading", "id", "markdown", "wordCount"],
+        "properties": {
+          "heading": { "type": "string" },
+          "id": { "type": "string" },
+          "markdown": { "type": "string" },
+          "html": { "type": "string" },
+          "wordCount": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "computed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["wordCount", "readingTimeMinutes", "completeness"],
+      "properties": {
+        "wordCount": { "type": "integer", "minimum": 0 },
+        "readingTimeMinutes": { "type": "number", "minimum": 0 },
+        "completeness": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Fraction of required sections that meet their minimum-word threshold."
+        },
+        "backlinks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Slugs of SOULs that reference this one."
+        }
+      }
+    },
+    "git": {
+      "type": "object",
+      "description": "Version-control history, populated at build time when available.",
+      "additionalProperties": false,
+      "properties": {
+        "created": { "type": ["string", "null"] },
+        "updated": { "type": ["string", "null"] },
+        "revisions": { "type": "integer", "minimum": 0 },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "commits": { "type": "integer" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

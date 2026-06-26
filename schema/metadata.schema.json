@@ -1,0 +1,165 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://open-soul.github.io/schema/metadata.schema.json",
+  "title": "SOUL Atlas Metadata",
+  "description": "Structured metadata describing a single SOUL. Lives beside SOUL.md as metadata.yaml.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "slug", "category", "summary", "status", "created", "updated"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Human-readable name of the way of thinking, e.g. 'Software Engineer'.",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-safe identifier; must match the directory name.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative names and common synonyms used in search.",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "default": []
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary top-level domain.",
+      "enum": [
+        "Technology",
+        "Healthcare",
+        "Skilled Trades",
+        "Engineering",
+        "Science",
+        "Education",
+        "Business",
+        "Government",
+        "Military",
+        "Law",
+        "Transportation",
+        "Agriculture",
+        "Hospitality",
+        "Creative",
+        "Sports",
+        "Entertainment",
+        "Finance",
+        "Public Service",
+        "Historical",
+        "Emerging",
+        "Life Roles"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Free-form descriptive tags for faceted browsing.",
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "uniqueItems": true,
+      "default": []
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Rough depth of expertise required to perform the role well.",
+      "enum": ["foundational", "intermediate", "advanced", "expert"]
+    },
+    "summary": {
+      "type": "string",
+      "description": "One- or two-sentence essence of how this mind works. Shown in cards and search.",
+      "minLength": 20,
+      "maxLength": 320
+    },
+    "contributors": {
+      "type": "array",
+      "description": "GitHub handles or names of people who shaped this SOUL.",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "default": []
+    },
+    "last_reviewed": {
+      "type": ["string", "null"],
+      "description": "ISO date this SOUL was last reviewed for accuracy.",
+      "format": "date"
+    },
+    "created": {
+      "type": "string",
+      "description": "ISO date this SOUL was created.",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "description": "ISO date this SOUL was last substantively updated.",
+      "format": "date"
+    },
+    "related": {
+      "type": "array",
+      "description": "Typed relationships to other SOULs, used to build the knowledge graph.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["slug", "type"],
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "related",
+              "specialization",
+              "prerequisite",
+              "adjacent",
+              "collaboration",
+              "progression"
+            ]
+          },
+          "note": { "type": "string", "maxLength": 160 }
+        }
+      },
+      "default": []
+    },
+    "specializations": {
+      "type": "array",
+      "description": "Narrower variants of this role (also expressed as related[type=specialization]).",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "default": []
+    },
+    "country_variants": {
+      "type": "array",
+      "description": "Notable ways the role differs across countries/jurisdictions.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["region", "note"],
+        "properties": {
+          "region": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      },
+      "default": []
+    },
+    "sources": {
+      "type": "array",
+      "description": "References, standards, or bodies of knowledge this SOUL draws on.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "kind": {
+            "type": "string",
+            "enum": ["book", "standard", "article", "interview", "course", "documentation", "other"]
+          }
+        }
+      },
+      "default": []
+    },
+    "status": {
+      "type": "string",
+      "description": "Editorial maturity of the SOUL.",
+      "enum": ["stub", "draft", "review", "stable"]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "internal://soul-atlas/sections",
+  "description": "Canonical ordered list of SOUL.md sections. The validator checks that every SOUL contains the required H2 headings in order; the template and docs are generated from this file. To evolve the format, change this file in one place.",
+  "version": 1,
+  "sections": [
+    {
+      "heading": "Purpose",
+      "required": true,
+      "minWords": 25,
+      "prompt": "Why does this way of thinking exist? What does the world get from it that nothing else provides?"
+    },
+    {
+      "heading": "Core Mission",
+      "required": true,
+      "minWords": 15,
+      "prompt": "The single sentence the practitioner would defend under pressure. What are they ultimately responsible for?"
+    },
+    {
+      "heading": "Primary Responsibilities",
+      "required": true,
+      "minWords": 30,
+      "prompt": "The concrete work. What actually fills the days and where attention goes."
+    },
+    {
+      "heading": "Guiding Principles",
+      "required": true,
+      "minWords": 40,
+      "prompt": "The values and commitments that shape judgment when no rule applies."
+    },
+    {
+      "heading": "Mental Models",
+      "required": true,
+      "minWords": 50,
+      "prompt": "The reusable internal representations experts use to compress reality and predict outcomes."
+    },
+    {
+      "heading": "First Principles",
+      "required": false,
+      "minWords": 25,
+      "prompt": "The irreducible truths of the domain that everything else is reasoned up from."
+    },
+    {
+      "heading": "Questions Experts Constantly Ask",
+      "required": true,
+      "minWords": 20,
+      "prompt": "The recurring questions running in the background of an expert's mind."
+    },
+    {
+      "heading": "Decision Frameworks",
+      "required": true,
+      "minWords": 40,
+      "prompt": "Repeatable structures for making the hard, recurring calls of the role."
+    },
+    {
+      "heading": "Workflow",
+      "required": true,
+      "minWords": 40,
+      "prompt": "How work actually flows from trigger to completion, including the loops and checkpoints."
+    },
+    {
+      "heading": "Common Tradeoffs",
+      "required": true,
+      "minWords": 40,
+      "prompt": "The competing goods that can never all be maximized at once, and how experts navigate them."
+    },
+    {
+      "heading": "Rules of Thumb",
+      "required": true,
+      "minWords": 30,
+      "prompt": "Compressed heuristics that are usually right and cheap to apply."
+    },
+    {
+      "heading": "Failure Modes",
+      "required": true,
+      "minWords": 30,
+      "prompt": "How the work goes wrong in practice — the predictable, recurring failures."
+    },
+    {
+      "heading": "Anti-patterns",
+      "required": true,
+      "minWords": 30,
+      "prompt": "Tempting approaches that look right but reliably produce bad outcomes."
+    },
+    {
+      "heading": "Vocabulary",
+      "required": true,
+      "minWords": 25,
+      "prompt": "The terms of art an insider uses precisely and an outsider misuses."
+    },
+    {
+      "heading": "Tools",
+      "required": true,
+      "minWords": 20,
+      "prompt": "The instruments, software, and equipment of the trade, and what each is really for."
+    },
+    {
+      "heading": "Collaboration",
+      "required": true,
+      "minWords": 25,
+      "prompt": "Who the practitioner works with, how, and where the friction and handoffs live."
+    },
+    {
+      "heading": "Ethics",
+      "required": true,
+      "minWords": 30,
+      "prompt": "The duties, lines that must not be crossed, and the gray zones that demand judgment."
+    },
+    {
+      "heading": "Scenarios",
+      "required": true,
+      "minWords": 60,
+      "prompt": "Concrete situations worked through end to end, showing the reasoning in motion."
+    },
+    {
+      "heading": "Related Occupations",
+      "required": true,
+      "minWords": 15,
+      "prompt": "Neighboring minds — what they share and where they diverge."
+    },
+    {
+      "heading": "References",
+      "required": false,
+      "minWords": 0,
+      "prompt": "Bodies of knowledge, standards, and sources worth studying."
+    }
+  ]
+}

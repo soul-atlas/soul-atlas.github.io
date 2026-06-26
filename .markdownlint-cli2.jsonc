@@ -1,0 +1,15 @@
+{
+  // Markdown linting tuned for SOUL.md authoring. We care about structural
+  // consistency, not cosmetic line lengths in prose.
+  "config": {
+    "default": true,
+    "MD013": false, // line length — prose wraps naturally
+    "MD024": { "siblings_only": true }, // duplicate headings allowed across sections
+    "MD033": false, // inline HTML is allowed (e.g. <details>, mermaid blocks)
+    "MD041": false, // first line need not be a top-level heading
+    "MD046": false, // allow both fenced and indented code
+    "MD036": false // bold-as-heading sometimes used in scenarios
+  },
+  "globs": ["occupations/**/SOUL.md", "*.md", "docs/**/*.md"],
+  "ignores": ["node_modules", "dist", ".astro", "CHANGELOG.md"]
+}

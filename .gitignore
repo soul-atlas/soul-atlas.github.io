@@ -1,0 +1,24 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# generated data (rebuilt from occupations/ on every build)
+src/generated/
+public/api/
+public/pagefind/
+
+# logs & env
+*.log
+npm-debug.log*
+.env
+.env.*
+!.env.example
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp

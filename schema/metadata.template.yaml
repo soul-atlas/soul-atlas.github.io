@@ -1,0 +1,22 @@
+# Metadata for a SOUL. Validated against schema/metadata.schema.json on every build.
+# Required: title, slug, category, summary, status, created, updated.
+
+title: "{{Title}}"
+slug: "{{slug}}"
+aliases: []
+category: "{{Category}}" # see schema/metadata.schema.json for the allowed set
+tags: []
+difficulty: intermediate # foundational | intermediate | advanced | expert
+summary: "{{One or two sentences on how this mind works.}}"
+contributors: []
+last_reviewed: null
+created: "{{YYYY-MM-DD}}"
+updated: "{{YYYY-MM-DD}}"
+related:
+  # - { slug: "another-occupation", type: "adjacent", note: "share X, differ on Y" }
+  # types: related | specialization | prerequisite | adjacent | collaboration | progression
+specializations: []
+country_variants: []
+sources:
+  # - { title: "A Body of Knowledge", url: "https://example.org", kind: "standard" }
+status: draft # stub | draft | review | stable

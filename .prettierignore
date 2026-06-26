@@ -1,0 +1,8 @@
+dist
+node_modules
+.astro
+src/generated
+public/api
+public/pagefind
+package-lock.json
+*.md
