@@ -8,7 +8,9 @@ export function getStaticPaths() {
 }
 
 const { tag } = Astro.props;
-const list = souls.filter((s) => (s.tags || []).includes(tag)).sort((a, b) => a.title.localeCompare(b.title));
+const list = souls
+  .filter((s) => (s.tags || []).includes(tag))
+  .sort((a, b) => a.title.localeCompare(b.title));
 ---
 
 <Layout title={`#${tag}`} description={`SOULs tagged ${tag}.`}>

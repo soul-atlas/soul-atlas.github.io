@@ -1,10 +1,10 @@
-title: "Midwife"
-slug: "midwife"
+title: 'Midwife'
+slug: 'midwife'
 aliases:
-  - "Certified Nurse-Midwife"
-  - "Registered Midwife"
-  - "Accoucheuse"
-category: "Healthcare"
+  - 'Certified Nurse-Midwife'
+  - 'Registered Midwife'
+  - 'Accoucheuse'
+category: 'Healthcare'
 tags:
   - maternity
   - childbirth
@@ -12,24 +12,44 @@ tags:
   - prenatal
   - newborn
 difficulty: advanced
-summary: "Safeguards normal birth by trusting physiology while watching for the moment it stops being normal, escalating to medical care at exactly the right time and keeping the woman in control."
+summary: 'Safeguards normal birth by trusting physiology while watching for the moment it stops being normal, escalating to medical care at exactly the right time and keeping the woman in control.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "pediatrician", type: "collaboration", note: "takes over care of the sick or premature newborn" }
-  - { slug: "registered-nurse", type: "adjacent", note: "shares continuous-assessment discipline and ward setting" }
-  - { slug: "paramedic", type: "related", note: "shares recognition and management of time-critical emergencies without backup" }
-  - { slug: "anesthesiologist", type: "collaboration", note: "provides epidurals and anesthesia for operative birth" }
-  - { slug: "physician", type: "collaboration", note: "obstetric and GP escalation for high-risk pregnancy" }
+  - {
+      slug: 'pediatrician',
+      type: 'collaboration',
+      note: 'takes over care of the sick or premature newborn',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'adjacent',
+      note: 'shares continuous-assessment discipline and ward setting',
+    }
+  - {
+      slug: 'paramedic',
+      type: 'related',
+      note: 'shares recognition and management of time-critical emergencies without backup',
+    }
+  - {
+      slug: 'anesthesiologist',
+      type: 'collaboration',
+      note: 'provides epidurals and anesthesia for operative birth',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'obstetric and GP escalation for high-risk pregnancy',
+    }
 specializations:
-  - "Community Midwife"
-  - "Hospital Midwife"
-  - "Independent Midwife"
+  - 'Community Midwife'
+  - 'Hospital Midwife'
+  - 'Independent Midwife'
 country_variants: []
 sources:
-  - { title: "Myles' Textbook for Midwives", kind: "book" }
-  - { title: "WHO recommendations on intrapartum care", kind: "standard" }
+  - { title: "Myles' Textbook for Midwives", kind: 'book' }
+  - { title: 'WHO recommendations on intrapartum care', kind: 'standard' }
 status: stable

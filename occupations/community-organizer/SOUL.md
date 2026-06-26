@@ -39,7 +39,6 @@ it all is the discipline of the iron rule.
 - **Identify leaders, not activists.** A leader has followers; an activist shows up alone.
 - **The action is in the reaction.** A tactic provokes a response that exposes the target.
 
-
 ## Mental Models
 
 - **Self-interest as the engine (Alinsky).** People are moved by their own stakes, not
@@ -128,7 +127,6 @@ it all is the discipline of the iron rule.
 - The threat is usually more terrifying than the thing itself.
 - Count your turnout first; never call an action you might lose.
 
-
 ## Failure Modes
 
 - **The savior organizer.** Becoming indispensable and leaving nothing behind.
@@ -164,7 +162,6 @@ it all is the discipline of the iron rule.
 - **Public narrative** — Ganz's story of self, us, and now.
 - **Power analysis** — who can grant a demand and how to pressure them.
 - **The world as it is vs. as it should be** — engaging reality, pursuing the ideal.
-
 
 ## Tools
 

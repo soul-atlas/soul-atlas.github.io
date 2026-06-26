@@ -1,10 +1,10 @@
-title: "Backend Engineer"
-slug: "backend-engineer"
+title: 'Backend Engineer'
+slug: 'backend-engineer'
 aliases:
-  - "Back-End Developer"
-  - "Server-Side Engineer"
-  - "API Engineer"
-category: "Technology"
+  - 'Back-End Developer'
+  - 'Server-Side Engineer'
+  - 'API Engineer'
+category: 'Technology'
 tags:
   - backend
   - apis
@@ -12,26 +12,50 @@ tags:
   - distributed-systems
   - concurrency
 difficulty: advanced
-summary: "Thinks in invariants, idempotency, and partial failure; keeps data correct and durable under concurrency so a retried request or a crash never corrupts the truth."
+summary: 'Thinks in invariants, idempotency, and partial failure; keeps data correct and durable under concurrency so a retried request or a crash never corrupts the truth.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "software-engineer", type: "specialization", note: "a software engineer specialized toward data, concurrency, and distributed systems" }
-  - { slug: "frontend-engineer", type: "adjacent", note: "owns the other side of the API contract; the two negotiate response shapes" }
-  - { slug: "data-engineer", type: "collaboration", note: "consumes the backend's event streams to build pipelines and warehouses" }
-  - { slug: "database-administrator", type: "collaboration", note: "tunes and operates the stores the backend designs schemas for" }
-  - { slug: "site-reliability-engineer", type: "adjacent", note: "shares ownership of the running service and its SLOs" }
-  - { slug: "security-engineer", type: "adjacent", note: "hardens the perimeter the backend enforces" }
+  - {
+      slug: 'software-engineer',
+      type: 'specialization',
+      note: 'a software engineer specialized toward data, concurrency, and distributed systems',
+    }
+  - {
+      slug: 'frontend-engineer',
+      type: 'adjacent',
+      note: 'owns the other side of the API contract; the two negotiate response shapes',
+    }
+  - {
+      slug: 'data-engineer',
+      type: 'collaboration',
+      note: "consumes the backend's event streams to build pipelines and warehouses",
+    }
+  - {
+      slug: 'database-administrator',
+      type: 'collaboration',
+      note: 'tunes and operates the stores the backend designs schemas for',
+    }
+  - {
+      slug: 'site-reliability-engineer',
+      type: 'adjacent',
+      note: 'shares ownership of the running service and its SLOs',
+    }
+  - {
+      slug: 'security-engineer',
+      type: 'adjacent',
+      note: 'hardens the perimeter the backend enforces',
+    }
 specializations:
-  - "API Platform Engineer"
-  - "Distributed Systems Engineer"
-  - "Payments Engineer"
+  - 'API Platform Engineer'
+  - 'Distributed Systems Engineer'
+  - 'Payments Engineer'
 country_variants: []
 sources:
-  - { title: "Designing Data-Intensive Applications", kind: "book" }
-  - { title: "Release It!", kind: "book" }
-  - { title: "Database Internals", kind: "book" }
+  - { title: 'Designing Data-Intensive Applications', kind: 'book' }
+  - { title: 'Release It!', kind: 'book' }
+  - { title: 'Database Internals', kind: 'book' }
 status: stable

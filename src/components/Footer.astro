@@ -34,20 +34,26 @@ const sections = [
 ];
 ---
 
-<footer class="no-print mt-20 border-t" style="border-color:var(--border); background:var(--bg-soft)">
+<footer
+  class="no-print mt-20 border-t"
+  style="border-color:var(--border); background:var(--bg-soft)"
+>
   <div class="mx-auto max-w-6xl px-4 py-12">
     <div class="grid gap-10 md:grid-cols-4">
       <div>
         <div class="mb-2 font-semibold" style="color:var(--ink)">SOUL Atlas</div>
         <p class="text-sm" style="color:var(--ink-soft)">
-          {SITE.tagline} An open, MIT-licensed collection of {souls.length.toLocaleString('en-US')} structured portraits
-          of expert thinking.
+          {SITE.tagline} An open, MIT-licensed collection of {souls.length.toLocaleString('en-US')} structured
+          portraits of expert thinking.
         </p>
       </div>
       {
         sections.map((s) => (
           <nav aria-label={s.title}>
-            <div class="mb-3 text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
+            <div
+              class="mb-3 text-xs font-semibold uppercase tracking-wide"
+              style="color:var(--ink-faint)"
+            >
               {s.title}
             </div>
             <ul class="space-y-1.5 text-sm">
@@ -69,7 +75,11 @@ const sections = [
     >
       <div>MIT Licensed · Free to reuse, remix, redistribute, and train on.</div>
       <div>
-        Built with Astro · <a href={GITHUB_URL} class="hover:underline" style="color:var(--ink-soft)">Edit on GitHub</a>
+        Built with Astro · <a
+          href={GITHUB_URL}
+          class="hover:underline"
+          style="color:var(--ink-soft)">Edit on GitHub</a
+        >
       </div>
     </div>
   </div>

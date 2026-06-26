@@ -1,23 +1,39 @@
-title: "Operations Manager"
-slug: "operations-manager"
-aliases: ["Ops Manager", "Plant Manager", "Production Manager"]
-category: "Business"
-tags: ["operations", "lean", "theory-of-constraints", "six-sigma", "throughput"]
-difficulty: "advanced"
-summary: "Sees the whole system, finds the single constraint that governs throughput, and improves flow rather than utilization while building quality in at the source."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+title: 'Operations Manager'
+slug: 'operations-manager'
+aliases: ['Ops Manager', 'Plant Manager', 'Production Manager']
+category: 'Business'
+tags: ['operations', 'lean', 'theory-of-constraints', 'six-sigma', 'throughput']
+difficulty: 'advanced'
+summary: 'Sees the whole system, finds the single constraint that governs throughput, and improves flow rather than utilization while building quality in at the source.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "supply-chain-manager", type: "collaboration", note: "Feeds materials into the operation" }
-  - { slug: "industrial-engineer", type: "related", note: "Designs the systems operations managers run" }
-  - { slug: "project-manager", type: "adjacent", note: "Runs the improvement initiatives" }
-  - { slug: "logistics-coordinator", type: "collaboration", note: "Manages flow into and out of the operation" }
-  - { slug: "management-consultant", type: "adjacent", note: "Advises on the operational problems ops managers own" }
-specializations: ["Plant Manager", "Logistics Operations Manager", "Service Operations Manager"]
+  - {
+      slug: 'supply-chain-manager',
+      type: 'collaboration',
+      note: 'Feeds materials into the operation',
+    }
+  - {
+      slug: 'industrial-engineer',
+      type: 'related',
+      note: 'Designs the systems operations managers run',
+    }
+  - { slug: 'project-manager', type: 'adjacent', note: 'Runs the improvement initiatives' }
+  - {
+      slug: 'logistics-coordinator',
+      type: 'collaboration',
+      note: 'Manages flow into and out of the operation',
+    }
+  - {
+      slug: 'management-consultant',
+      type: 'adjacent',
+      note: 'Advises on the operational problems ops managers own',
+    }
+specializations: ['Plant Manager', 'Logistics Operations Manager', 'Service Operations Manager']
 country_variants: []
 sources:
-  - { title: "The Goal (Eliyahu Goldratt)", kind: "book" }
-  - { title: "Lean Thinking (Womack & Jones)", kind: "book" }
+  - { title: 'The Goal (Eliyahu Goldratt)', kind: 'book' }
+  - { title: 'Lean Thinking (Womack & Jones)', kind: 'book' }
 status: stable

@@ -1,23 +1,53 @@
-title: "Product Manager"
-slug: "product-manager"
-aliases: ["PM", "Product Owner", "Technical Product Manager"]
-category: "Business"
-tags: ["product-management", "discovery", "prioritization", "roadmap", "outcomes"]
+title: 'Product Manager'
+slug: 'product-manager'
+aliases: ['PM', 'Product Owner', 'Technical Product Manager']
+category: 'Business'
+tags: ['product-management', 'discovery', 'prioritization', 'roadmap', 'outcomes']
 difficulty: advanced
-summary: "How an excellent product manager thinks: obsessed with customer problems and outcomes over output, validating the riskiest assumption cheaply and deciding ruthlessly what not to build."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an excellent product manager thinks: obsessed with customer problems and outcomes over output, validating the riskiest assumption cheaply and deciding ruthlessly what not to build.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "engineering-manager", type: "collaboration", note: "co-owns roadmap and scope, negotiating value against feasibility" }
-  - { slug: "ux-designer", type: "collaboration", note: "the third leg of the product triad, owning usability and experience" }
-  - { slug: "software-engineer", type: "collaboration", note: "the builder the PM partners with daily on what and why" }
-  - { slug: "project-manager", type: "adjacent", note: "owns the when/how of execution while the PM owns the why/what" }
-  - { slug: "entrepreneur", type: "progression", note: "shares bet-making and product/market-fit thinking at greater scope" }
-  - { slug: "ux-researcher", type: "collaboration", note: "supplies the discovery evidence the PM acts on" }
-specializations: ["growth-product-manager", "platform-product-manager", "technical-product-manager", "group-product-manager"]
+  - {
+      slug: 'engineering-manager',
+      type: 'collaboration',
+      note: 'co-owns roadmap and scope, negotiating value against feasibility',
+    }
+  - {
+      slug: 'ux-designer',
+      type: 'collaboration',
+      note: 'the third leg of the product triad, owning usability and experience',
+    }
+  - {
+      slug: 'software-engineer',
+      type: 'collaboration',
+      note: 'the builder the PM partners with daily on what and why',
+    }
+  - {
+      slug: 'project-manager',
+      type: 'adjacent',
+      note: 'owns the when/how of execution while the PM owns the why/what',
+    }
+  - {
+      slug: 'entrepreneur',
+      type: 'progression',
+      note: 'shares bet-making and product/market-fit thinking at greater scope',
+    }
+  - {
+      slug: 'ux-researcher',
+      type: 'collaboration',
+      note: 'supplies the discovery evidence the PM acts on',
+    }
+specializations:
+  [
+    'growth-product-manager',
+    'platform-product-manager',
+    'technical-product-manager',
+    'group-product-manager',
+  ]
 country_variants: []
 sources:
-  - { title: "Inspired (Marty Cagan)", kind: "book" }
+  - { title: 'Inspired (Marty Cagan)', kind: 'book' }
 status: stable

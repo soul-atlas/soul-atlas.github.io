@@ -1,23 +1,40 @@
-title: "Marketing Manager"
-slug: "marketing-manager"
-aliases: ["Growth Marketer", "Brand Manager", "Demand Generation Manager"]
-category: "Business"
-tags: ["marketing", "positioning", "growth", "cac-ltv", "brand"]
-difficulty: "advanced"
+title: 'Marketing Manager'
+slug: 'marketing-manager'
+aliases: ['Growth Marketer', 'Brand Manager', 'Demand Generation Manager']
+category: 'Business'
+tags: ['marketing', 'positioning', 'growth', 'cac-ltv', 'brand']
+difficulty: 'advanced'
 summary: "Treats growth as arithmetic (CAC under LTV) and empathy (the segment's real job), refuses vanity metrics, and balances brand-building against performance harvesting."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "sales-representative", type: "collaboration", note: "Closes the pipeline marketing generates" }
-  - { slug: "product-manager", type: "adjacent", note: "Partners on positioning, pricing, and launch" }
-  - { slug: "data-scientist", type: "related", note: "Shares attribution and experimentation methods" }
-  - { slug: "financial-analyst", type: "related", note: "Shares the unit-economics discipline" }
-  - { slug: "customer-success-manager", type: "adjacent", note: "Shares the retention and LTV focus" }
-specializations: ["Brand Manager", "Growth Marketer", "Demand Generation Manager", "Product Marketing Manager"]
+  - {
+      slug: 'sales-representative',
+      type: 'collaboration',
+      note: 'Closes the pipeline marketing generates',
+    }
+  - {
+      slug: 'product-manager',
+      type: 'adjacent',
+      note: 'Partners on positioning, pricing, and launch',
+    }
+  - {
+      slug: 'data-scientist',
+      type: 'related',
+      note: 'Shares attribution and experimentation methods',
+    }
+  - { slug: 'financial-analyst', type: 'related', note: 'Shares the unit-economics discipline' }
+  - {
+      slug: 'customer-success-manager',
+      type: 'adjacent',
+      note: 'Shares the retention and LTV focus',
+    }
+specializations:
+  ['Brand Manager', 'Growth Marketer', 'Demand Generation Manager', 'Product Marketing Manager']
 country_variants: []
 sources:
-  - { title: "Obviously Awesome (April Dunford)", kind: "book" }
-  - { title: "How Brands Grow (Byron Sharp)", kind: "book" }
+  - { title: 'Obviously Awesome (April Dunford)', kind: 'book' }
+  - { title: 'How Brands Grow (Byron Sharp)', kind: 'book' }
 status: stable

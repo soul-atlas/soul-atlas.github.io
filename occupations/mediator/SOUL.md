@@ -38,7 +38,6 @@ I convene the process: get people with settlement authority in the room, set gro
 
 **Expanding the pie / integrative vs. distributive.** Distributive bargaining splits a fixed sum; integrative bargaining finds trades across issues each side values differently, so total value grows. Apology, timing, and payment schedules are non-monetary currencies.
 
-
 **The caucus.** The private meeting with one side, where candor lives: a party reveals the bottom line they'd never show across the table. I use it to reality-test and break impasse, against the risk of shuttle diplomacy.
 
 **Reality-testing.** Socratic pressure on a party's own case: "If the judge agrees on causation, what happens to your damages?" It shifts expectations without my opining.
@@ -73,7 +72,6 @@ People in conflict are usually not irrational; they operate on private informati
 **Opening.** Explain my neutrality, the voluntariness of any outcome, and confidentiality; set ground rules; invite each side to speak uninterrupted.
 
 **Exploration.** Let each side tell their story and reflect it back. Probe for interests, build an agenda, and begin separating people from problem.
-
 
 **Negotiation.** Caucus to reality-test each side's BATNA/WATNA and develop options. Expand the pie with non-monetary terms; shuttle offers, reframe positions as interests, and narrow toward the ZOPA.
 

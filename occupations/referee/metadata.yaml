@@ -1,10 +1,10 @@
-title: "Referee"
-slug: "referee"
+title: 'Referee'
+slug: 'referee'
 aliases:
-  - "Official"
-  - "Umpire"
-  - "Match Official"
-category: "Sports"
+  - 'Official'
+  - 'Umpire'
+  - 'Match Official'
+category: 'Sports'
 tags:
   - officiating
   - rules
@@ -12,28 +12,52 @@ tags:
   - impartiality
   - sports
 difficulty: advanced
-summary: "Holds a fair frame around a contest by applying one consistent standard, reading the temperature of a match, and managing players so the game decides itself."
+summary: 'Holds a fair frame around a contest by applying one consistent standard, reading the temperature of a match, and managing players so the game decides itself.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "judge", type: "adjacent", note: "applies a fixed rule set to messy facts and protects the legitimacy of the process" }
-  - { slug: "athlete", type: "collaboration", note: "the counterparty in the arena; understanding players is core to managing them" }
-  - { slug: "coach", type: "collaboration", note: "reads the same game from the technical area with the opposite agenda" }
-  - { slug: "mediator", type: "related", note: "shares the craft of defusing conflict between adversaries before it escalates" }
-  - { slug: "police-officer", type: "adjacent", note: "graduated response and the psychology of authority earned rather than assumed" }
-  - { slug: "sports-analyst", type: "adjacent", note: "dissects in slow motion the calls the referee made in a split second" }
+  - {
+      slug: 'judge',
+      type: 'adjacent',
+      note: 'applies a fixed rule set to messy facts and protects the legitimacy of the process',
+    }
+  - {
+      slug: 'athlete',
+      type: 'collaboration',
+      note: 'the counterparty in the arena; understanding players is core to managing them',
+    }
+  - {
+      slug: 'coach',
+      type: 'collaboration',
+      note: 'reads the same game from the technical area with the opposite agenda',
+    }
+  - {
+      slug: 'mediator',
+      type: 'related',
+      note: 'shares the craft of defusing conflict between adversaries before it escalates',
+    }
+  - {
+      slug: 'police-officer',
+      type: 'adjacent',
+      note: 'graduated response and the psychology of authority earned rather than assumed',
+    }
+  - {
+      slug: 'sports-analyst',
+      type: 'adjacent',
+      note: 'dissects in slow motion the calls the referee made in a split second',
+    }
 specializations:
-  - "Football (Soccer) Referee"
-  - "Rugby Referee"
-  - "Basketball Official"
-  - "Baseball Umpire"
+  - 'Football (Soccer) Referee'
+  - 'Rugby Referee'
+  - 'Basketball Official'
+  - 'Baseball Umpire'
 country_variants: []
 sources:
-  - { title: "Laws of the Game (IFAB)", kind: "standard" }
-  - { title: "World Rugby Laws of the Game", kind: "standard" }
-  - { title: "The Rules of the Game (Pierluigi Collina)", kind: "book" }
-  - { title: "FIFA VAR Protocol", kind: "standard" }
+  - { title: 'Laws of the Game (IFAB)', kind: 'standard' }
+  - { title: 'World Rugby Laws of the Game', kind: 'standard' }
+  - { title: 'The Rules of the Game (Pierluigi Collina)', kind: 'book' }
+  - { title: 'FIFA VAR Protocol', kind: 'standard' }
 status: stable

@@ -1,10 +1,10 @@
-title: "Robotics Engineer"
-slug: "robotics-engineer"
+title: 'Robotics Engineer'
+slug: 'robotics-engineer'
 aliases:
-  - "Robotics Software Engineer"
-  - "Automation Engineer"
-  - "Mechatronics Engineer"
-category: "Engineering"
+  - 'Robotics Software Engineer'
+  - 'Automation Engineer'
+  - 'Mechatronics Engineer'
+category: 'Engineering'
 tags:
   - robotics
   - control-systems
@@ -12,26 +12,50 @@ tags:
   - sensor-fusion
   - real-time
 difficulty: advanced
-summary: "Integrates mechanics, sensing, control, and software so machines perceive, plan, and act accurately and safely under real-world uncertainty."
+summary: 'Integrates mechanics, sensing, control, and software so machines perceive, plan, and act accurately and safely under real-world uncertainty.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "mechanical-engineer", type: "prerequisite", note: "builds the platform, actuation, and dynamics robotics depends on" }
-  - { slug: "electrical-engineer", type: "collaboration", note: "provides power electronics and embedded hardware" }
-  - { slug: "machine-learning-engineer", type: "collaboration", note: "develops perception and learned-control components" }
-  - { slug: "embedded-systems-engineer", type: "adjacent", note: "writes the real-time firmware for control" }
-  - { slug: "aerospace-engineer", type: "adjacent", note: "shares guidance, navigation, and control for autonomous vehicles" }
-  - { slug: "software-engineer", type: "adjacent", note: "shares real-time software and systems-integration discipline" }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'prerequisite',
+      note: 'builds the platform, actuation, and dynamics robotics depends on',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'collaboration',
+      note: 'provides power electronics and embedded hardware',
+    }
+  - {
+      slug: 'machine-learning-engineer',
+      type: 'collaboration',
+      note: 'develops perception and learned-control components',
+    }
+  - {
+      slug: 'embedded-systems-engineer',
+      type: 'adjacent',
+      note: 'writes the real-time firmware for control',
+    }
+  - {
+      slug: 'aerospace-engineer',
+      type: 'adjacent',
+      note: 'shares guidance, navigation, and control for autonomous vehicles',
+    }
+  - {
+      slug: 'software-engineer',
+      type: 'adjacent',
+      note: 'shares real-time software and systems-integration discipline',
+    }
 specializations:
-  - "Control Systems Engineer"
-  - "Perception Engineer"
-  - "Autonomous Systems Engineer"
-  - "Mechatronics Engineer"
+  - 'Control Systems Engineer'
+  - 'Perception Engineer'
+  - 'Autonomous Systems Engineer'
+  - 'Mechatronics Engineer'
 country_variants: []
 sources:
-  - { title: "Probabilistic Robotics", kind: "book" }
-  - { title: "Modern Robotics: Mechanics, Planning, and Control", kind: "book" }
+  - { title: 'Probabilistic Robotics', kind: 'book' }
+  - { title: 'Modern Robotics: Mechanics, Planning, and Control', kind: 'book' }
 status: stable

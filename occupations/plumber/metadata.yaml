@@ -1,10 +1,10 @@
-title: "Plumber"
-slug: "plumber"
+title: 'Plumber'
+slug: 'plumber'
 aliases:
-  - "Pipefitter"
-  - "Plumbing Technician"
-  - "Steamfitter"
-category: "Skilled Trades"
+  - 'Pipefitter'
+  - 'Plumbing Technician'
+  - 'Steamfitter'
+category: 'Skilled Trades'
 tags:
   - plumbing
   - pipefitting
@@ -12,26 +12,46 @@ tags:
   - water-systems
   - construction
 difficulty: advanced
-summary: "Keeps clean water in and dirty water out, isolating the pressurized potable supply from the gravity-fed waste system so the two never mix and sewer gas never enters."
+summary: 'Keeps clean water in and dirty water out, isolating the pressurized potable supply from the gravity-fed waste system so the two never mix and sewer gas never enters.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "electrician", type: "collaboration", note: "parallel trade competing for the same wall cavities in rough-in" }
-  - { slug: "hvac-technician", type: "collaboration", note: "shares pipe and duct routing and often overlaps in hydronic work" }
-  - { slug: "civil-engineer", type: "related", note: "designs the water and sewer mains the plumber ties into" }
-  - { slug: "mason", type: "adjacent", note: "sets the foundations the underground rough-in passes through" }
-  - { slug: "welder", type: "related", note: "joins large-bore and pressure pipe the pipefitter installs" }
+  - {
+      slug: 'electrician',
+      type: 'collaboration',
+      note: 'parallel trade competing for the same wall cavities in rough-in',
+    }
+  - {
+      slug: 'hvac-technician',
+      type: 'collaboration',
+      note: 'shares pipe and duct routing and often overlaps in hydronic work',
+    }
+  - {
+      slug: 'civil-engineer',
+      type: 'related',
+      note: 'designs the water and sewer mains the plumber ties into',
+    }
+  - {
+      slug: 'mason',
+      type: 'adjacent',
+      note: 'sets the foundations the underground rough-in passes through',
+    }
+  - {
+      slug: 'welder',
+      type: 'related',
+      note: 'joins large-bore and pressure pipe the pipefitter installs',
+    }
 specializations:
-  - "Service Plumber"
-  - "Pipefitter"
-  - "Steamfitter"
-  - "Drain Technician"
+  - 'Service Plumber'
+  - 'Pipefitter'
+  - 'Steamfitter'
+  - 'Drain Technician'
 country_variants: []
 sources:
-  - { title: "Uniform Plumbing Code (UPC)", kind: "standard" }
-  - { title: "International Plumbing Code (IPC)", kind: "standard" }
-  - { title: "Code Check Plumbing", kind: "book" }
+  - { title: 'Uniform Plumbing Code (UPC)', kind: 'standard' }
+  - { title: 'International Plumbing Code (IPC)', kind: 'standard' }
+  - { title: 'Code Check Plumbing', kind: 'book' }
 status: stable

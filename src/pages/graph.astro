@@ -18,8 +18,10 @@ const legend = Object.entries(CATEGORY_COLORS).filter(([name]) =>
       <div>
         <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Knowledge Graph</h1>
         <p class="mt-2 max-w-2xl" style="color:var(--ink-soft)">
-          Every occupation is a node; every typed relationship an edge. Drag to rearrange, scroll to zoom, hover to
-          isolate a neighborhood, click to open. {graph.nodes.length} nodes · {graph.edges.length} edges.
+          Every occupation is a node; every typed relationship an edge. Drag to rearrange, scroll to
+          zoom, hover to isolate a neighborhood, click to open. {graph.nodes.length} nodes · {
+            graph.edges.length
+          } edges.
         </p>
       </div>
       <a href={url('/dashboard')} class="btn text-sm">Graph statistics →</a>
@@ -42,15 +44,25 @@ const legend = Object.entries(CATEGORY_COLORS).filter(([name]) =>
 
     <div class="mt-8 grid gap-4 sm:grid-cols-3">
       <div class="card p-4">
-        <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">Graph density</div>
-        <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">{stats.totals.graphDensity}</div>
+        <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">
+          Graph density
+        </div>
+        <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">
+          {stats.totals.graphDensity}
+        </div>
       </div>
       <div class="card p-4">
-        <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">Orphan nodes</div>
-        <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">{stats.quality.orphanPages.length}</div>
+        <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">
+          Orphan nodes
+        </div>
+        <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">
+          {stats.quality.orphanPages.length}
+        </div>
       </div>
       <div class="card p-4">
-        <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">Most connected</div>
+        <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">
+          Most connected
+        </div>
         <div class="mt-1 text-lg font-semibold" style="color:var(--ink)">
           {stats.centrality[0]?.title ?? '—'}
         </div>

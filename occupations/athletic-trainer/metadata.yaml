@@ -1,10 +1,10 @@
-title: "Athletic Trainer"
-slug: "athletic-trainer"
+title: 'Athletic Trainer'
+slug: 'athletic-trainer'
 aliases:
-  - "Certified Athletic Trainer"
-  - "ATC"
-  - "Sports Medicine Trainer"
-category: "Sports"
+  - 'Certified Athletic Trainer'
+  - 'ATC'
+  - 'Sports Medicine Trainer'
+category: 'Sports'
 tags:
   - sports-medicine
   - injury-prevention
@@ -14,25 +14,49 @@ tags:
 difficulty: advanced
 summary: "Holds the athlete's health above the scoreboard, ruling out the catastrophe first and clearing return-to-play on criteria met, not the calendar or the crowd."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "athlete", type: "collaboration", note: "the patient and partner whose honest symptom reporting drives every decision" }
-  - { slug: "coach", type: "collaboration", note: "owns the competitive plan; pushes for availability against the AT's medical call" }
-  - { slug: "physical-therapist", type: "adjacent", note: "shares the rehabilitation continuum, trading cases across the surgical line" }
-  - { slug: "physician", type: "prerequisite", note: "team physician is the medical director and final clearance authority" }
-  - { slug: "paramedic", type: "adjacent", note: "executes the emergency action plan the AT activates on the field" }
-  - { slug: "registered-nurse", type: "related", note: "allied clinical care and acute patient assessment" }
+  - {
+      slug: 'athlete',
+      type: 'collaboration',
+      note: 'the patient and partner whose honest symptom reporting drives every decision',
+    }
+  - {
+      slug: 'coach',
+      type: 'collaboration',
+      note: "owns the competitive plan; pushes for availability against the AT's medical call",
+    }
+  - {
+      slug: 'physical-therapist',
+      type: 'adjacent',
+      note: 'shares the rehabilitation continuum, trading cases across the surgical line',
+    }
+  - {
+      slug: 'physician',
+      type: 'prerequisite',
+      note: 'team physician is the medical director and final clearance authority',
+    }
+  - {
+      slug: 'paramedic',
+      type: 'adjacent',
+      note: 'executes the emergency action plan the AT activates on the field',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'related',
+      note: 'allied clinical care and acute patient assessment',
+    }
 specializations:
-  - "Collegiate Athletic Trainer"
-  - "Professional Sports Athletic Trainer"
-  - "Industrial / Occupational Athletic Trainer"
-  - "Clinic-Based Athletic Trainer"
+  - 'Collegiate Athletic Trainer'
+  - 'Professional Sports Athletic Trainer'
+  - 'Industrial / Occupational Athletic Trainer'
+  - 'Clinic-Based Athletic Trainer'
 country_variants: []
 sources:
-  - { title: "NATA Position Statements", kind: "standard" }
-  - { title: "Examination of Orthopedic & Athletic Injuries (Starkey & Brown)", kind: "book" }
-  - { title: "Principles of Athletic Training (Prentice/Arnheim)", kind: "book" }
+  - { title: 'NATA Position Statements', kind: 'standard' }
+  - { title: 'Examination of Orthopedic & Athletic Injuries (Starkey & Brown)', kind: 'book' }
+  - { title: 'Principles of Athletic Training (Prentice/Arnheim)', kind: 'book' }
 status: stable

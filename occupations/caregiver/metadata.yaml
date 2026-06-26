@@ -1,10 +1,10 @@
-title: "Caregiver"
-slug: "caregiver"
+title: 'Caregiver'
+slug: 'caregiver'
 aliases:
-  - "Family Caregiver"
-  - "Carer"
-  - "Informal Caregiver"
-category: "Life Roles"
+  - 'Family Caregiver'
+  - 'Carer'
+  - 'Informal Caregiver'
+category: 'Life Roles'
 tags:
   - caregiving
   - aging
@@ -14,24 +14,48 @@ tags:
 difficulty: advanced
 summary: "Thinks in dignity and function — filling exactly the gaps a dependent person can't, never more, while staying intact enough to keep going."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "registered-nurse", type: "adjacent", note: "brings the clinical training the family caregiver improvises" }
-  - { slug: "nurse-practitioner", type: "collaboration", note: "diagnoses and prescribes but sees only the clinical slice" }
-  - { slug: "social-worker", type: "collaboration", note: "connects the caregiver to services, benefits, and placements" }
-  - { slug: "physician", type: "collaboration", note: "diagnoses and directs care the caregiver enacts at home" }
-  - { slug: "parent", type: "adjacent", note: "same protective craft pointed at declining rather than growing independence" }
-  - { slug: "mentor", type: "related", note: "shares the developmental, relationship-anchored support of a dependent person" }
+  - {
+      slug: 'registered-nurse',
+      type: 'adjacent',
+      note: 'brings the clinical training the family caregiver improvises',
+    }
+  - {
+      slug: 'nurse-practitioner',
+      type: 'collaboration',
+      note: 'diagnoses and prescribes but sees only the clinical slice',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'connects the caregiver to services, benefits, and placements',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'diagnoses and directs care the caregiver enacts at home',
+    }
+  - {
+      slug: 'parent',
+      type: 'adjacent',
+      note: 'same protective craft pointed at declining rather than growing independence',
+    }
+  - {
+      slug: 'mentor',
+      type: 'related',
+      note: 'shares the developmental, relationship-anchored support of a dependent person',
+    }
 specializations:
-  - "Dementia Caregiver"
-  - "Caregiver for a Disabled Child"
-  - "Spousal Caregiver"
+  - 'Dementia Caregiver'
+  - 'Caregiver for a Disabled Child'
+  - 'Spousal Caregiver'
 country_variants: []
 sources:
-  - { title: "Being Mortal", kind: "book" }
-  - { title: "The 36-Hour Day", kind: "book" }
-  - { title: "Dementia Reconsidered", kind: "book" }
+  - { title: 'Being Mortal', kind: 'book' }
+  - { title: 'The 36-Hour Day', kind: 'book' }
+  - { title: 'Dementia Reconsidered', kind: 'book' }
 status: stable

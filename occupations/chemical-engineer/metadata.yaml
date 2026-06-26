@@ -1,10 +1,10 @@
-title: "Chemical Engineer"
-slug: "chemical-engineer"
+title: 'Chemical Engineer'
+slug: 'chemical-engineer'
 aliases:
-  - "Process Engineer"
-  - "Chemical Process Engineer"
-  - "ChemE"
-category: "Engineering"
+  - 'Process Engineer'
+  - 'Chemical Process Engineer'
+  - 'ChemE'
+category: 'Engineering'
 tags:
   - process-design
   - reaction-engineering
@@ -12,25 +12,41 @@ tags:
   - process-safety
   - scale-up
 difficulty: advanced
-summary: "Designs and operates processes that convert feedstock to product at scale, closing mass and energy balances and engineering against runaway and release."
+summary: 'Designs and operates processes that convert feedstock to product at scale, closing mass and energy balances and engineering against runaway and release.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "chemist", type: "prerequisite", note: "develops the chemistry the chemical engineer scales up" }
-  - { slug: "environmental-engineer", type: "adjacent", note: "handles effluent, emissions, and remediation of the same processes" }
-  - { slug: "mechanical-engineer", type: "collaboration", note: "designs the vessels, exchangers, and rotating equipment" }
-  - { slug: "industrial-engineer", type: "adjacent", note: "optimizes plant flow and throughput" }
-  - { slug: "compliance-officer", type: "collaboration", note: "ensures process-safety and environmental regulatory compliance" }
+  - {
+      slug: 'chemist',
+      type: 'prerequisite',
+      note: 'develops the chemistry the chemical engineer scales up',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'adjacent',
+      note: 'handles effluent, emissions, and remediation of the same processes',
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'collaboration',
+      note: 'designs the vessels, exchangers, and rotating equipment',
+    }
+  - { slug: 'industrial-engineer', type: 'adjacent', note: 'optimizes plant flow and throughput' }
+  - {
+      slug: 'compliance-officer',
+      type: 'collaboration',
+      note: 'ensures process-safety and environmental regulatory compliance',
+    }
 specializations:
-  - "Process Safety Engineer"
-  - "Petroleum Refining Engineer"
-  - "Polymer Engineer"
-  - "Bioprocess Engineer"
+  - 'Process Safety Engineer'
+  - 'Petroleum Refining Engineer'
+  - 'Polymer Engineer'
+  - 'Bioprocess Engineer'
 country_variants: []
 sources:
-  - { title: "Transport Phenomena", kind: "book" }
-  - { title: "Chemical Process Safety", kind: "book" }
+  - { title: 'Transport Phenomena', kind: 'book' }
+  - { title: 'Chemical Process Safety', kind: 'book' }
 status: stable

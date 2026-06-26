@@ -1,10 +1,10 @@
-title: "Heavy Equipment Operator"
-slug: "heavy-equipment-operator"
+title: 'Heavy Equipment Operator'
+slug: 'heavy-equipment-operator'
 aliases:
-  - "Equipment Operator"
-  - "Excavator Operator"
-  - "Crane Operator"
-category: "Skilled Trades"
+  - 'Equipment Operator'
+  - 'Excavator Operator'
+  - 'Crane Operator'
+category: 'Skilled Trades'
 tags:
   - earthmoving
   - excavation
@@ -12,26 +12,46 @@ tags:
   - construction
   - heavy-machinery
 difficulty: advanced
-summary: "Controls tons of force with finesse to move earth and place loads to grade, reading ground, slope, and load charts to stay upright and keep people out of the danger zone."
+summary: 'Controls tons of force with finesse to move earth and place loads to grade, reading ground, slope, and load charts to stay upright and keep people out of the danger zone.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "civil-engineer", type: "collaboration", note: "designs the grade and site the operator shapes the earth to" }
-  - { slug: "mason", type: "adjacent", note: "builds footings into the excavations the operator digs" }
-  - { slug: "auto-mechanic", type: "related", note: "the diesel-and-hydraulics trade that keeps the machines running" }
-  - { slug: "carpenter", type: "adjacent", note: "builds on the ground the operator shapes first on site" }
-  - { slug: "plumber", type: "collaboration", note: "relies on the operator to excavate underground rough-in" }
+  - {
+      slug: 'civil-engineer',
+      type: 'collaboration',
+      note: 'designs the grade and site the operator shapes the earth to',
+    }
+  - {
+      slug: 'mason',
+      type: 'adjacent',
+      note: 'builds footings into the excavations the operator digs',
+    }
+  - {
+      slug: 'auto-mechanic',
+      type: 'related',
+      note: 'the diesel-and-hydraulics trade that keeps the machines running',
+    }
+  - {
+      slug: 'carpenter',
+      type: 'adjacent',
+      note: 'builds on the ground the operator shapes first on site',
+    }
+  - {
+      slug: 'plumber',
+      type: 'collaboration',
+      note: 'relies on the operator to excavate underground rough-in',
+    }
 specializations:
-  - "Excavator Operator"
-  - "Crane Operator"
-  - "Dozer/Grader Operator"
-  - "Loader Operator"
+  - 'Excavator Operator'
+  - 'Crane Operator'
+  - 'Dozer/Grader Operator'
+  - 'Loader Operator'
 country_variants: []
 sources:
-  - { title: "OSHA 29 CFR 1926 Subpart P and CC", kind: "standard" }
-  - { title: "NCCCO Crane Operator Certification", kind: "standard" }
-  - { title: "Moving the Earth", kind: "book" }
+  - { title: 'OSHA 29 CFR 1926 Subpart P and CC', kind: 'standard' }
+  - { title: 'NCCCO Crane Operator Certification', kind: 'standard' }
+  - { title: 'Moving the Earth', kind: 'book' }
 status: stable

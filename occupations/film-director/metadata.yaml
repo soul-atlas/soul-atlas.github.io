@@ -1,25 +1,50 @@
-title: "Film Director"
-slug: "film-director"
-aliases: ["director", "filmmaker", "movie director"]
-category: "Creative"
-tags: ["filmmaking", "directing", "staging", "performance", "storytelling"]
-difficulty: "expert"
-summary: "How a director holds one story in their head and shapes performance, staging, and coverage so the edit builds the intended emotional experience for an audience."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+title: 'Film Director'
+slug: 'film-director'
+aliases: ['director', 'filmmaker', 'movie director']
+category: 'Creative'
+tags: ['filmmaking', 'directing', 'staging', 'performance', 'storytelling']
+difficulty: 'expert'
+summary: 'How a director holds one story in their head and shapes performance, staging, and coverage so the edit builds the intended emotional experience for an audience.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "film-editor", type: "collaboration", note: "The closest creative partner in post; the film is rewritten in the cut" }
-  - { slug: "actor", type: "collaboration", note: "Primary on-set collaborator in pulling truthful performance" }
-  - { slug: "photographer", type: "adjacent", note: "Shared craft of framing, light, and reading a moment as image" }
-  - { slug: "sound-engineer", type: "collaboration", note: "Builds the film's audio half, half the emotional experience" }
-  - { slug: "writer", type: "prerequisite", note: "Provides the script the director reshapes into images" }
-  - { slug: "voice-actor", type: "related", note: "Performance direction extends to recorded voice work and ADR" }
-specializations: ["feature-director", "documentary-director", "television-director", "commercial-director"]
+  - {
+      slug: 'film-editor',
+      type: 'collaboration',
+      note: 'The closest creative partner in post; the film is rewritten in the cut',
+    }
+  - {
+      slug: 'actor',
+      type: 'collaboration',
+      note: 'Primary on-set collaborator in pulling truthful performance',
+    }
+  - {
+      slug: 'photographer',
+      type: 'adjacent',
+      note: 'Shared craft of framing, light, and reading a moment as image',
+    }
+  - {
+      slug: 'sound-engineer',
+      type: 'collaboration',
+      note: "Builds the film's audio half, half the emotional experience",
+    }
+  - {
+      slug: 'writer',
+      type: 'prerequisite',
+      note: 'Provides the script the director reshapes into images',
+    }
+  - {
+      slug: 'voice-actor',
+      type: 'related',
+      note: 'Performance direction extends to recorded voice work and ADR',
+    }
+specializations:
+  ['feature-director', 'documentary-director', 'television-director', 'commercial-director']
 country_variants: []
 sources:
-  - { title: "Making Movies (Sidney Lumet)", kind: "book" }
-  - { title: "On Directing Film (David Mamet)", kind: "book" }
-  - { title: "In the Blink of an Eye (Walter Murch)", kind: "book" }
+  - { title: 'Making Movies (Sidney Lumet)', kind: 'book' }
+  - { title: 'On Directing Film (David Mamet)', kind: 'book' }
+  - { title: 'In the Blink of an Eye (Walter Murch)', kind: 'book' }
 status: stable

@@ -1,10 +1,10 @@
-title: "School Counselor"
-slug: "school-counselor"
+title: 'School Counselor'
+slug: 'school-counselor'
 aliases:
-  - "Guidance Counselor"
-  - "School Guidance Counselor"
-  - "Student Counselor"
-category: "Education"
+  - 'Guidance Counselor'
+  - 'School Guidance Counselor'
+  - 'Student Counselor'
+category: 'Education'
 tags:
   - counseling
   - student-support
@@ -12,26 +12,50 @@ tags:
   - crisis-intervention
   - education
 difficulty: advanced
-summary: "Triages academic, emotional, and systemic barriers for a caseload of hundreds, holding student trust as a working tool bounded precisely by the duty to protect."
+summary: 'Triages academic, emotional, and systemic barriers for a caseload of hundreds, holding student trust as a working tool bounded precisely by the duty to protect.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "social-worker", type: "adjacent", note: "overlapping helping work with stronger family, community, and basic-needs bridges" }
-  - { slug: "psychiatrist", type: "related", note: "provides the diagnosis and treatment the counselor refers to and cannot deliver" }
-  - { slug: "teacher", type: "collaboration", note: "front-line observer who refers and consults, owning the academic relationship" }
-  - { slug: "mentor", type: "adjacent", note: "one-to-one developmental guidance a counselor can't scale to a large caseload" }
-  - { slug: "school-principal", type: "collaboration", note: "owns discipline and resources; counselor stays distinct from enforcement" }
-  - { slug: "special-education-teacher", type: "collaboration", note: "co-coordinates IEP and 504 supports for students with disabilities" }
+  - {
+      slug: 'social-worker',
+      type: 'adjacent',
+      note: 'overlapping helping work with stronger family, community, and basic-needs bridges',
+    }
+  - {
+      slug: 'psychiatrist',
+      type: 'related',
+      note: 'provides the diagnosis and treatment the counselor refers to and cannot deliver',
+    }
+  - {
+      slug: 'teacher',
+      type: 'collaboration',
+      note: 'front-line observer who refers and consults, owning the academic relationship',
+    }
+  - {
+      slug: 'mentor',
+      type: 'adjacent',
+      note: "one-to-one developmental guidance a counselor can't scale to a large caseload",
+    }
+  - {
+      slug: 'school-principal',
+      type: 'collaboration',
+      note: 'owns discipline and resources; counselor stays distinct from enforcement',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'collaboration',
+      note: 'co-coordinates IEP and 504 supports for students with disabilities',
+    }
 specializations:
-  - "High School Counselor"
-  - "Elementary School Counselor"
-  - "College and Career Counselor"
+  - 'High School Counselor'
+  - 'Elementary School Counselor'
+  - 'College and Career Counselor'
 country_variants: []
 sources:
-  - { title: "ASCA National Model and Ethical Standards", kind: "standard" }
-  - { title: "Columbia-Suicide Severity Rating Scale (C-SSRS)", kind: "standard" }
-  - { title: "Motivational Interviewing", kind: "book" }
+  - { title: 'ASCA National Model and Ethical Standards', kind: 'standard' }
+  - { title: 'Columbia-Suicide Severity Rating Scale (C-SSRS)', kind: 'standard' }
+  - { title: 'Motivational Interviewing', kind: 'book' }
 status: stable

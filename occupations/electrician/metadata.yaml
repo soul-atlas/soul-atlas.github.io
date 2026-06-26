@@ -1,10 +1,10 @@
-title: "Electrician"
-slug: "electrician"
+title: 'Electrician'
+slug: 'electrician'
 aliases:
-  - "Electrical Technician"
-  - "Sparky"
-  - "Wireman"
-category: "Skilled Trades"
+  - 'Electrical Technician'
+  - 'Sparky'
+  - 'Wireman'
+category: 'Skilled Trades'
 tags:
   - electrical
   - wiring
@@ -12,26 +12,42 @@ tags:
   - construction
   - safety
 difficulty: advanced
-summary: "Moves electrical energy to where it does work without fire or shock, treating every conductor as live until a meter proves otherwise and the ground path as the safety system."
+summary: 'Moves electrical energy to where it does work without fire or shock, treating every conductor as live until a meter proves otherwise and the ground path as the safety system.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "electrical-engineer", type: "adjacent", note: "shares the physics; works on paper while the electrician works against real walls" }
-  - { slug: "hvac-technician", type: "collaboration", note: "shares job sites and competes for the same chases" }
-  - { slug: "plumber", type: "collaboration", note: "parallel trade in the same rough-in sequence" }
-  - { slug: "network-engineer", type: "adjacent", note: "pulls low-voltage cable through the same raceways" }
-  - { slug: "civil-engineer", type: "related", note: "sets the structure the electrician wires into" }
+  - {
+      slug: 'electrical-engineer',
+      type: 'adjacent',
+      note: 'shares the physics; works on paper while the electrician works against real walls',
+    }
+  - {
+      slug: 'hvac-technician',
+      type: 'collaboration',
+      note: 'shares job sites and competes for the same chases',
+    }
+  - { slug: 'plumber', type: 'collaboration', note: 'parallel trade in the same rough-in sequence' }
+  - {
+      slug: 'network-engineer',
+      type: 'adjacent',
+      note: 'pulls low-voltage cable through the same raceways',
+    }
+  - {
+      slug: 'civil-engineer',
+      type: 'related',
+      note: 'sets the structure the electrician wires into',
+    }
 specializations:
-  - "Residential Electrician"
-  - "Commercial/Industrial Electrician"
-  - "Lineman"
-  - "Low-Voltage Technician"
+  - 'Residential Electrician'
+  - 'Commercial/Industrial Electrician'
+  - 'Lineman'
+  - 'Low-Voltage Technician'
 country_variants: []
 sources:
-  - { title: "National Electrical Code (NFPA 70)", kind: "standard" }
-  - { title: "American Electricians' Handbook", kind: "book" }
-  - { title: "Ugly's Electrical References", kind: "book" }
+  - { title: 'National Electrical Code (NFPA 70)', kind: 'standard' }
+  - { title: "American Electricians' Handbook", kind: 'book' }
+  - { title: "Ugly's Electrical References", kind: 'book' }
 status: stable

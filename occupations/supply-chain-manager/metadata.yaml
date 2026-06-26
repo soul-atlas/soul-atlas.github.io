@@ -1,24 +1,51 @@
-title: "Supply Chain Manager"
-slug: "supply-chain-manager"
-aliases: ["Supply Chain Planner", "Logistics Manager", "Operations Planner"]
-category: "Business"
-tags: ["supply-chain", "inventory", "forecasting", "logistics", "s-and-op"]
+title: 'Supply Chain Manager'
+slug: 'supply-chain-manager'
+aliases: ['Supply Chain Planner', 'Logistics Manager', 'Operations Planner']
+category: 'Business'
+tags: ['supply-chain', 'inventory', 'forecasting', 'logistics', 's-and-op']
 difficulty: advanced
-summary: "How an excellent supply chain manager balances service, cost, and cash by managing variability and lead time across an uncertain global network."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an excellent supply chain manager balances service, cost, and cash by managing variability and lead time across an uncertain global network.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "operations-manager", type: "related", note: "Runs the broader production and operations system" }
-  - { slug: "procurement-specialist", type: "specialization", note: "Owns supplier sourcing within the chain" }
-  - { slug: "logistics-coordinator", type: "collaboration", note: "Executes the physical movement of goods" }
-  - { slug: "industrial-engineer", type: "adjacent", note: "Optimizes the processes and flows being planned" }
-  - { slug: "logistics-officer", type: "related", note: "Equivalent discipline in a military context" }
-  - { slug: "financial-analyst", type: "collaboration", note: "Partners on working capital and cash-to-cash" }
-specializations: ["demand-planner", "inventory-manager", "procurement-manager", "logistics-manager"]
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'Runs the broader production and operations system',
+    }
+  - {
+      slug: 'procurement-specialist',
+      type: 'specialization',
+      note: 'Owns supplier sourcing within the chain',
+    }
+  - {
+      slug: 'logistics-coordinator',
+      type: 'collaboration',
+      note: 'Executes the physical movement of goods',
+    }
+  - {
+      slug: 'industrial-engineer',
+      type: 'adjacent',
+      note: 'Optimizes the processes and flows being planned',
+    }
+  - {
+      slug: 'logistics-officer',
+      type: 'related',
+      note: 'Equivalent discipline in a military context',
+    }
+  - {
+      slug: 'financial-analyst',
+      type: 'collaboration',
+      note: 'Partners on working capital and cash-to-cash',
+    }
+specializations: ['demand-planner', 'inventory-manager', 'procurement-manager', 'logistics-manager']
 country_variants: []
 sources:
-  - { title: "Supply Chain Management: Strategy, Planning, and Operation (Chopra & Meindl)", kind: "book" }
-  - { title: "APICS/ASCM SCOR model and CPIM body of knowledge", kind: "standard" }
+  - {
+      title: 'Supply Chain Management: Strategy, Planning, and Operation (Chopra & Meindl)',
+      kind: 'book',
+    }
+  - { title: 'APICS/ASCM SCOR model and CPIM body of knowledge', kind: 'standard' }
 status: stable

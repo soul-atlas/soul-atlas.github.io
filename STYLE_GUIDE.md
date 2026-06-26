@@ -79,7 +79,7 @@ Also avoid empty intensifiers (*very, really, extremely*), throat-clearing
 
 ## A quick self-test before you open a PR
 
-1. Could a thoughtful beginner make a better decision after reading this? 
+1. Could a thoughtful beginner make a better decision after reading this?
 2. Would a 20-year veteran nod, or wince?
 3. Is there a single sentence a textbook wouldn't already contain? (There should be many.)
 4. Did you cut every banned phrase and every line of filler?

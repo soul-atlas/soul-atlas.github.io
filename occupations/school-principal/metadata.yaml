@@ -1,11 +1,11 @@
-title: "School Principal"
-slug: "school-principal"
+title: 'School Principal'
+slug: 'school-principal'
 aliases:
-  - "Head Teacher"
-  - "Headmaster"
-  - "School Head"
-  - "Building Principal"
-category: "Education"
+  - 'Head Teacher'
+  - 'Headmaster'
+  - 'School Head'
+  - 'Building Principal'
+category: 'Education'
 tags:
   - leadership
   - education
@@ -13,26 +13,50 @@ tags:
   - instructional-leadership
   - management
 difficulty: expert
-summary: "Runs a school as a system to be designed and improved, trading off instruction against operations, developing teachers, and protecting learning under accountability pressure."
+summary: 'Runs a school as a system to be designed and improved, trading off instruction against operations, developing teachers, and protecting learning under accountability pressure.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "teacher", type: "prerequisite", note: "the craft a principal masters first and then exists to develop in others" }
-  - { slug: "special-education-teacher", type: "collaboration", note: "partners on IEPs, LRE, and the supports the classroom alone can't deliver" }
-  - { slug: "school-counselor", type: "collaboration", note: "handles the out-of-school barriers the principal connects students to" }
-  - { slug: "instructional-designer", type: "adjacent", note: "improves teaching without the accountability of running the building" }
-  - { slug: "operations-manager", type: "related", note: "shares the resource, logistics, and people-management half of the role" }
-  - { slug: "social-worker", type: "collaboration", note: "links students to wraparound services and shares mandatory-reporting duty" }
+  - {
+      slug: 'teacher',
+      type: 'prerequisite',
+      note: 'the craft a principal masters first and then exists to develop in others',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'collaboration',
+      note: "partners on IEPs, LRE, and the supports the classroom alone can't deliver",
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'collaboration',
+      note: 'handles the out-of-school barriers the principal connects students to',
+    }
+  - {
+      slug: 'instructional-designer',
+      type: 'adjacent',
+      note: 'improves teaching without the accountability of running the building',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'shares the resource, logistics, and people-management half of the role',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'links students to wraparound services and shares mandatory-reporting duty',
+    }
 specializations:
-  - "Elementary School Principal"
-  - "Secondary/High School Principal"
-  - "Assistant Principal"
+  - 'Elementary School Principal'
+  - 'Secondary/High School Principal'
+  - 'Assistant Principal'
 country_variants: []
 sources:
-  - { title: "Balanced Leadership", kind: "book" }
-  - { title: "Learning by Doing (Professional Learning Communities)", kind: "book" }
-  - { title: "Professional Standards for Educational Leaders (PSEL)", kind: "standard" }
+  - { title: 'Balanced Leadership', kind: 'book' }
+  - { title: 'Learning by Doing (Professional Learning Communities)', kind: 'book' }
+  - { title: 'Professional Standards for Educational Leaders (PSEL)', kind: 'standard' }
 status: stable

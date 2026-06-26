@@ -1,11 +1,11 @@
-title: "Police Officer"
-slug: "police-officer"
+title: 'Police Officer'
+slug: 'police-officer'
 aliases:
-  - "Law Enforcement Officer"
-  - "Patrol Officer"
-  - "Constable"
-  - "Cop"
-category: "Public Service"
+  - 'Law Enforcement Officer'
+  - 'Patrol Officer'
+  - 'Constable'
+  - 'Cop'
+category: 'Public Service'
 tags:
   - law-enforcement
   - public-safety
@@ -13,26 +13,50 @@ tags:
   - use-of-force
   - criminal-justice
 difficulty: advanced
-summary: "Wields borrowed, revocable authority to protect life and uphold law using the least force and the most legitimacy possible, treating restraint as the core skill."
+summary: 'Wields borrowed, revocable authority to protect life and uphold law using the least force and the most legitimacy possible, treating restraint as the core skill.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "firefighter", type: "collaboration", note: "shares the scene and the run-toward-danger reflex on every wreck and fire" }
-  - { slug: "paramedic", type: "collaboration", note: "co-responds on overdoses and trauma; unarmed counterpart" }
-  - { slug: "social-worker", type: "adjacent", note: "owns the mental-health crises increasingly landing on patrol" }
-  - { slug: "prosecutor", type: "related", note: "tests every lawful decision and converts evidence into conviction" }
-  - { slug: "mediator", type: "adjacent", note: "resolves conflict without force the officer often wishes he could" }
-  - { slug: "infantry-officer", type: "adjacent", note: "shares command presence and force discipline under uncertainty" }
+  - {
+      slug: 'firefighter',
+      type: 'collaboration',
+      note: 'shares the scene and the run-toward-danger reflex on every wreck and fire',
+    }
+  - {
+      slug: 'paramedic',
+      type: 'collaboration',
+      note: 'co-responds on overdoses and trauma; unarmed counterpart',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'adjacent',
+      note: 'owns the mental-health crises increasingly landing on patrol',
+    }
+  - {
+      slug: 'prosecutor',
+      type: 'related',
+      note: 'tests every lawful decision and converts evidence into conviction',
+    }
+  - {
+      slug: 'mediator',
+      type: 'adjacent',
+      note: 'resolves conflict without force the officer often wishes he could',
+    }
+  - {
+      slug: 'infantry-officer',
+      type: 'adjacent',
+      note: 'shares command presence and force discipline under uncertainty',
+    }
 specializations:
-  - "Detective"
-  - "SWAT Operator"
-  - "K-9 Handler"
-  - "Crisis Negotiator"
+  - 'Detective'
+  - 'SWAT Operator'
+  - 'K-9 Handler'
+  - 'Crisis Negotiator'
 country_variants: []
 sources:
-  - { title: "Why People Obey the Law (Procedural Justice)", kind: "book" }
-  - { title: "Graham v. Connor, 490 U.S. 386 (1989)", kind: "standard" }
+  - { title: 'Why People Obey the Law (Procedural Justice)', kind: 'book' }
+  - { title: 'Graham v. Connor, 490 U.S. 386 (1989)', kind: 'standard' }
 status: stable

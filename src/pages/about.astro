@@ -9,55 +9,78 @@ import { souls } from '../lib/data';
     <div class="prose">
       <h1 style="font-size:2rem; font-weight:700; margin-bottom:0.5rem">About SOUL Atlas</h1>
       <p style="color:var(--ink-soft)">
-        SOUL Atlas is the open, community-maintained collection of <strong>SOUL.md</strong> files — structured portraits
-        of how experts think. The long-term vision is simple and large: <em>one SOUL for every way humans think.</em>
+        SOUL Atlas is the open, community-maintained collection of <strong>SOUL.md</strong> files — structured
+        portraits of how experts think. The long-term vision is simple and large: <em
+          >one SOUL for every way humans think.</em
+        >
       </p>
 
       <h2>What is a SOUL?</h2>
       <p>
-        A SOUL is not documentation, and it is not a prompt. Documentation captures <em>what</em> something is or how a
-        procedure runs. A prompt instructs a model for a single task. A SOUL captures the <strong>tacit knowledge</strong>
-        a practitioner carries: their goals, priorities, instincts, mental models, decision frameworks, heuristics,
-        tradeoffs, failure modes, and the questions they keep running in the background. It answers a different
-        question — not <em>“what does an architect know?”</em> but <em>“how does an excellent architect think?”</em>
+        A SOUL is not documentation, and it is not a prompt. Documentation captures <em>what</em> something
+        is or how a procedure runs. A prompt instructs a model for a single task. A SOUL captures the
+        <strong>tacit knowledge</strong>
+        a practitioner carries: their goals, priorities, instincts, mental models, decision frameworks,
+        heuristics, tradeoffs, failure modes, and the questions they keep running in the background. It
+        answers a different question — not <em>“what does an architect know?”</em> but <em
+          >“how does an excellent architect think?”</em
+        >
       </p>
 
       <h2>How a SOUL differs from a prompt</h2>
       <ul>
-        <li><strong>Durable, not disposable.</strong> A prompt is tuned for one model and one task. A SOUL is a stable artifact about a domain.</li>
-        <li><strong>Human-first.</strong> A SOUL is written to be read by people, and happens to be excellent context for machines.</li>
-        <li><strong>Citable and versioned.</strong> Every SOUL has history, contributors, and a place in a graph of related minds.</li>
+        <li>
+          <strong>Durable, not disposable.</strong> A prompt is tuned for one model and one task. A SOUL
+          is a stable artifact about a domain.
+        </li>
+        <li>
+          <strong>Human-first.</strong> A SOUL is written to be read by people, and happens to be excellent
+          context for machines.
+        </li>
+        <li>
+          <strong>Citable and versioned.</strong> Every SOUL has history, contributors, and a place in
+          a graph of related minds.
+        </li>
       </ul>
 
       <h2>How a SOUL differs from documentation</h2>
       <p>
-        Documentation describes systems and procedures. A SOUL describes the <em>judgment</em> that chooses between
-        procedures — the reasoning an expert applies when the manual runs out. Two people can read the same manual; only
-        one of them thinks like a master of the craft. The SOUL tries to capture that difference.
+        Documentation describes systems and procedures. A SOUL describes the <em>judgment</em> that chooses
+        between procedures — the reasoning an expert applies when the manual runs out. Two people can
+        read the same manual; only one of them thinks like a master of the craft. The SOUL tries to capture
+        that difference.
       </p>
 
       <h2>For humans and AI</h2>
       <p>
-        Read a SOUL to onboard into an unfamiliar field in an afternoon, to mentor, or to check your own blind spots.
-        Or consume the machine-readable <a href={url('/api/index.json')}>JSON API</a> to ground an AI system in how a
-        domain expert actually reasons. Everything is static, open, and MIT-licensed — free to reuse, remix, and train on.
+        Read a SOUL to onboard into an unfamiliar field in an afternoon, to mentor, or to check your
+        own blind spots. Or consume the machine-readable <a href={url('/api/index.json')}
+          >JSON API</a
+        > to ground an AI system in how a domain expert actually reasons. Everything is static, open,
+        and MIT-licensed — free to reuse, remix, and train on.
       </p>
 
       <h2>How to contribute</h2>
       <p>
         The Atlas grows through pull requests. Every SOUL is two files — <code>SOUL.md</code> and
-        <code>metadata.yaml</code> — validated against a shared schema. Run <code>npm run new</code> to scaffold one,
-        write from real expertise, and open a PR.
+        <code>metadata.yaml</code> — validated against a shared schema. Run <code>npm run new</code> to
+        scaffold one, write from real expertise, and open a PR.
       </p>
       <p>
-        <a class="btn btn-accent" href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`} style="color:#fff; text-decoration:none">Read the contributing guide</a>
+        <a
+          class="btn btn-accent"
+          href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`}
+          style="color:#fff; text-decoration:none">Read the contributing guide</a
+        >
         &nbsp;
-        <a class="btn" href={`${GITHUB_URL}/blob/main/STYLE_GUIDE.md`} style="text-decoration:none">Style guide</a>
+        <a class="btn" href={`${GITHUB_URL}/blob/main/STYLE_GUIDE.md`} style="text-decoration:none"
+          >Style guide</a
+        >
       </p>
 
       <p style="color:var(--ink-faint); font-size:0.9rem">
-        The Atlas currently holds {souls.length.toLocaleString('en-US')} SOULs. Every one of them can be better — that's
-        the point of an open atlas.
+        The Atlas currently holds {souls.length.toLocaleString('en-US')} SOULs. Every one of them can
+        be better — that's the point of an open atlas.
       </p>
     </div>
   </div>

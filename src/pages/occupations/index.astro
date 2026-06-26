@@ -23,7 +23,8 @@ const clientData = sorted.map((s) => ({
   <div class="mx-auto max-w-6xl px-4 py-10">
     <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Explore the Atlas</h1>
     <p class="mt-2 max-w-2xl" style="color:var(--ink-soft)">
-      {souls.length.toLocaleString('en-US')} ways of thinking across {categories.length} domains. Filter, sort, and dive in.
+      {souls.length.toLocaleString('en-US')} ways of thinking across {categories.length} domains. Filter,
+      sort, and dive in.
     </p>
 
     <div class="mt-6 flex flex-wrap items-center gap-2" id="controls">
@@ -34,41 +35,93 @@ const clientData = sorted.map((s) => ({
         class="min-w-[14rem] flex-1 rounded-md border bg-transparent px-3 py-2 text-sm outline-none"
         style="border-color:var(--border); color:var(--ink)"
       />
-      <select id="cat" class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none" style="border-color:var(--border); color:var(--ink)">
+      <select
+        id="cat"
+        class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink)"
+      >
         <option value="">All domains</option>
-        {categories.map((c) => <option value={c.name}>{c.name} ({c.count})</option>)}
+        {
+          categories.map((c) => (
+            <option value={c.name}>
+              {c.name} ({c.count})
+            </option>
+          ))
+        }
       </select>
-      <select id="diff" class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none" style="border-color:var(--border); color:var(--ink)">
+      <select
+        id="diff"
+        class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink)"
+      >
         <option value="">Any level</option>
-        {difficulties.map((d) => <option value={d} class="capitalize">{d}</option>)}
+        {
+          difficulties.map((d) => (
+            <option value={d} class="capitalize">
+              {d}
+            </option>
+          ))
+        }
       </select>
-      <select id="sort" class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none" style="border-color:var(--border); color:var(--ink)">
+      <select
+        id="sort"
+        class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink)"
+      >
         <option value="az">A–Z</option>
         <option value="words">Longest</option>
         <option value="links">Most connected</option>
         <option value="updated">Recently updated</option>
       </select>
       <div class="ml-auto flex rounded-md border" style="border-color:var(--border)">
-        <button id="view-grid" class="px-3 py-2 text-sm" aria-pressed="true" style="color:var(--ink)">Grid</button>
-        <button id="view-list" class="px-3 py-2 text-sm" aria-pressed="false" style="color:var(--ink-faint)">List</button>
+        <button
+          id="view-grid"
+          class="px-3 py-2 text-sm"
+          aria-pressed="true"
+          style="color:var(--ink)">Grid</button
+        >
+        <button
+          id="view-list"
+          class="px-3 py-2 text-sm"
+          aria-pressed="false"
+          style="color:var(--ink-faint)">List</button
+        >
       </div>
     </div>
 
     <div class="mt-2 text-sm" style="color:var(--ink-faint)"><span id="count"></span></div>
 
     <div id="results" class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
-    <div id="empty" class="hidden py-20 text-center" style="color:var(--ink-faint)">No SOULs match those filters.</div>
+    <div id="empty" class="hidden py-20 text-center" style="color:var(--ink-faint)">
+      No SOULs match those filters.
+    </div>
   </div>
 
   <script is:inline define:vars={{ data: clientData, base: import.meta.env.BASE_URL }}>
     (function () {
       const root = base.replace(/\/$/, '');
       const colors = {
-        Technology: '#3b82f6', Healthcare: '#ef4444', 'Skilled Trades': '#f59e0b', Engineering: '#8b5cf6',
-        Science: '#06b6d4', Education: '#10b981', Business: '#6366f1', Government: '#64748b', Military: '#4b5563',
-        Law: '#0ea5e9', Transportation: '#14b8a6', Agriculture: '#84cc16', Hospitality: '#ec4899', Creative: '#f472b6',
-        Sports: '#22c55e', Entertainment: '#a855f7', Finance: '#eab308', 'Public Service': '#0891b2',
-        Historical: '#a16207', Emerging: '#d946ef', 'Life Roles': '#fb7185',
+        Technology: '#3b82f6',
+        Healthcare: '#ef4444',
+        'Skilled Trades': '#f59e0b',
+        Engineering: '#8b5cf6',
+        Science: '#06b6d4',
+        Education: '#10b981',
+        Business: '#6366f1',
+        Government: '#64748b',
+        Military: '#4b5563',
+        Law: '#0ea5e9',
+        Transportation: '#14b8a6',
+        Agriculture: '#84cc16',
+        Hospitality: '#ec4899',
+        Creative: '#f472b6',
+        Sports: '#22c55e',
+        Entertainment: '#a855f7',
+        Finance: '#eab308',
+        'Public Service': '#0891b2',
+        Historical: '#a16207',
+        Emerging: '#d946ef',
+        'Life Roles': '#fb7185',
       };
       const results = document.getElementById('results');
       const empty = document.getElementById('empty');
@@ -94,12 +147,22 @@ const clientData = sorted.map((s) => ({
 
       function apply() {
         const term = q.value.trim().toLowerCase();
-        const fc = cat.value, fd = diff.value, fs = sort.value;
+        const fc = cat.value,
+          fd = diff.value,
+          fs = sort.value;
         let list = data.filter((s) => {
           if (fc && s.category !== fc) return false;
           if (fd && s.difficulty !== fd) return false;
           if (term) {
-            const hay = (s.title + ' ' + s.summary + ' ' + (s.tags || []).join(' ') + ' ' + s.category).toLowerCase();
+            const hay = (
+              s.title +
+              ' ' +
+              s.summary +
+              ' ' +
+              (s.tags || []).join(' ') +
+              ' ' +
+              s.category
+            ).toLowerCase();
             if (!hay.includes(term)) return false;
           }
           return true;
@@ -110,22 +173,29 @@ const clientData = sorted.map((s) => ({
           if (fs === 'updated') return (b.updated || '').localeCompare(a.updated || '');
           return a.title.localeCompare(b.title);
         });
-        results.className = view === 'grid'
-          ? 'mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3'
-          : 'mt-5 grid gap-3';
+        results.className =
+          view === 'grid' ? 'mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3' : 'mt-5 grid gap-3';
         results.innerHTML = list.map(card).join('');
         count.textContent = `${list.length} of ${data.length} SOULs`;
         empty.classList.toggle('hidden', list.length > 0);
       }
 
       [q, cat, diff, sort].forEach((el) => el.addEventListener('input', apply));
-      document.getElementById('view-grid').addEventListener('click', () => { view = 'grid'; setView(); });
-      document.getElementById('view-list').addEventListener('click', () => { view = 'list'; setView(); });
+      document.getElementById('view-grid').addEventListener('click', () => {
+        view = 'grid';
+        setView();
+      });
+      document.getElementById('view-list').addEventListener('click', () => {
+        view = 'list';
+        setView();
+      });
       function setView() {
         document.getElementById('view-grid').setAttribute('aria-pressed', view === 'grid');
         document.getElementById('view-list').setAttribute('aria-pressed', view === 'list');
-        document.getElementById('view-grid').style.color = view === 'grid' ? 'var(--ink)' : 'var(--ink-faint)';
-        document.getElementById('view-list').style.color = view === 'list' ? 'var(--ink)' : 'var(--ink-faint)';
+        document.getElementById('view-grid').style.color =
+          view === 'grid' ? 'var(--ink)' : 'var(--ink-faint)';
+        document.getElementById('view-list').style.color =
+          view === 'list' ? 'var(--ink)' : 'var(--ink-faint)';
         apply();
       }
       // Deep-link support: ?q= / ?category=

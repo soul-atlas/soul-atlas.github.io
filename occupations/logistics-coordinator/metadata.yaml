@@ -1,11 +1,11 @@
-title: "Logistics Coordinator"
-slug: "logistics-coordinator"
+title: 'Logistics Coordinator'
+slug: 'logistics-coordinator'
 aliases:
-  - "Logistics Specialist"
-  - "Freight Coordinator"
-  - "Transportation Coordinator"
-  - "Shipping Coordinator"
-category: "Transportation"
+  - 'Logistics Specialist'
+  - 'Freight Coordinator'
+  - 'Transportation Coordinator'
+  - 'Shipping Coordinator'
+category: 'Transportation'
 tags:
   - logistics
   - freight
@@ -13,25 +13,49 @@ tags:
   - shipping
   - transportation
 difficulty: intermediate
-summary: "Holds the whole order-to-delivery flow in their head, trading time against cost against risk to land freight on time and in full while the chain breaks underneath them."
+summary: 'Holds the whole order-to-delivery flow in their head, trading time against cost against risk to land freight on time and in full while the chain breaks underneath them.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "supply-chain-manager", type: "progression", note: "owns the network strategy the coordinator executes within" }
-  - { slug: "truck-driver", type: "collaboration", note: "the carrier whose pickups and line-haul the coordinator books and tracks" }
-  - { slug: "ship-captain", type: "collaboration", note: "moves the ocean freight the coordinator routes and traces" }
-  - { slug: "procurement-specialist", type: "adjacent", note: "sources the goods at the inbound end of the chain" }
-  - { slug: "operations-manager", type: "related", note: "runs the warehouse and dock nodes freight flows through" }
+  - {
+      slug: 'supply-chain-manager',
+      type: 'progression',
+      note: 'owns the network strategy the coordinator executes within',
+    }
+  - {
+      slug: 'truck-driver',
+      type: 'collaboration',
+      note: 'the carrier whose pickups and line-haul the coordinator books and tracks',
+    }
+  - {
+      slug: 'ship-captain',
+      type: 'collaboration',
+      note: 'moves the ocean freight the coordinator routes and traces',
+    }
+  - {
+      slug: 'procurement-specialist',
+      type: 'adjacent',
+      note: 'sources the goods at the inbound end of the chain',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'runs the warehouse and dock nodes freight flows through',
+    }
 specializations:
-  - "International Freight Coordinator"
-  - "Cold-Chain Logistics Coordinator"
-  - "Inbound Logistics Coordinator"
+  - 'International Freight Coordinator'
+  - 'Cold-Chain Logistics Coordinator'
+  - 'Inbound Logistics Coordinator'
 country_variants: []
 sources:
-  - { title: "APICS/ASCM Body of Knowledge (CPIM/CSCP)", kind: "standard" }
-  - { title: "Designing and Managing the Supply Chain", kind: "book" }
-  - { title: "Incoterms 2020", url: "https://iccwbo.org/business-solutions/incoterms-rules/", kind: "standard" }
+  - { title: 'APICS/ASCM Body of Knowledge (CPIM/CSCP)', kind: 'standard' }
+  - { title: 'Designing and Managing the Supply Chain', kind: 'book' }
+  - {
+      title: 'Incoterms 2020',
+      url: 'https://iccwbo.org/business-solutions/incoterms-rules/',
+      kind: 'standard',
+    }
 status: stable

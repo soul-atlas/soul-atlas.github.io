@@ -7,7 +7,15 @@ export async function GET(context: APIContext) {
   const origin = (context.site?.origin ?? 'https://soul-atlas.github.io').replace(/\/$/, '');
   const abs = (path: string) => `${origin}${path}`;
 
-  const staticPages = ['/', '/occupations', '/graph', '/dashboard', '/compare', '/about', '/search'];
+  const staticPages = [
+    '/',
+    '/occupations',
+    '/graph',
+    '/dashboard',
+    '/compare',
+    '/about',
+    '/search',
+  ];
   const urls: { loc: string; lastmod?: string }[] = [];
 
   for (const p of staticPages) urls.push({ loc: abs(url(p)) });
@@ -19,8 +27,7 @@ export async function GET(context: APIContext) {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
   .map(
-    (u) =>
-      `  <url><loc>${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`,
+    (u) => `  <url><loc>${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`,
   )
   .join('\n')}
 </urlset>

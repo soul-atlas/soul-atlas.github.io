@@ -1,10 +1,10 @@
-title: "Film Editor"
-slug: "film-editor"
+title: 'Film Editor'
+slug: 'film-editor'
 aliases:
-  - "Picture Editor"
-  - "Video Editor"
-  - "Cutter"
-category: "Entertainment"
+  - 'Picture Editor'
+  - 'Video Editor'
+  - 'Cutter'
+category: 'Entertainment'
 tags:
   - editing
   - post-production
@@ -12,26 +12,42 @@ tags:
   - rhythm
   - continuity
 difficulty: advanced
-summary: "Thinks in attention and time, cutting on emotion first to author the final performance and pace so the seams are felt, never seen."
+summary: 'Thinks in attention and time, cutting on emotion first to author the final performance and pace so the seams are felt, never seen.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "film-director", type: "collaboration", note: "closest creative partner whose intent the cut serves and sometimes corrects" }
-  - { slug: "actor", type: "prerequisite", note: "supplies the raw takes the editor reassembles into a performance" }
-  - { slug: "sound-engineer", type: "adjacent", note: "shares the timeline; J-cuts and L-cuts are where the crafts overlap" }
-  - { slug: "animator", type: "related", note: "also shapes time and attention frame by frame" }
-  - { slug: "photographer", type: "related", note: "both compose the eye's path through an image" }
-  - { slug: "writer", type: "adjacent", note: "editing is the film's last rewrite; both author story structure" }
+  - {
+      slug: 'film-director',
+      type: 'collaboration',
+      note: 'closest creative partner whose intent the cut serves and sometimes corrects',
+    }
+  - {
+      slug: 'actor',
+      type: 'prerequisite',
+      note: 'supplies the raw takes the editor reassembles into a performance',
+    }
+  - {
+      slug: 'sound-engineer',
+      type: 'adjacent',
+      note: 'shares the timeline; J-cuts and L-cuts are where the crafts overlap',
+    }
+  - { slug: 'animator', type: 'related', note: 'also shapes time and attention frame by frame' }
+  - { slug: 'photographer', type: 'related', note: "both compose the eye's path through an image" }
+  - {
+      slug: 'writer',
+      type: 'adjacent',
+      note: "editing is the film's last rewrite; both author story structure",
+    }
 specializations:
-  - "Trailer Editor"
-  - "Documentary Editor"
-  - "Assistant Editor"
+  - 'Trailer Editor'
+  - 'Documentary Editor'
+  - 'Assistant Editor'
 country_variants: []
 sources:
-  - { title: "In the Blink of an Eye", kind: "book" }
-  - { title: "The Conversations: Walter Murch and the Art of Editing Film", kind: "book" }
-  - { title: "The Technique of Film and Video Editing", kind: "book" }
+  - { title: 'In the Blink of an Eye', kind: 'book' }
+  - { title: 'The Conversations: Walter Murch and the Art of Editing Film', kind: 'book' }
+  - { title: 'The Technique of Film and Video Editing', kind: 'book' }
 status: stable

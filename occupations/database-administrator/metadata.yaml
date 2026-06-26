@@ -1,10 +1,10 @@
-title: "Database Administrator"
-slug: "database-administrator"
+title: 'Database Administrator'
+slug: 'database-administrator'
 aliases:
-  - "DBA"
-  - "Database Engineer"
-  - "Database Reliability Engineer"
-category: "Technology"
+  - 'DBA'
+  - 'Database Engineer'
+  - 'Database Reliability Engineer'
+category: 'Technology'
 tags:
   - databases
   - sql
@@ -12,26 +12,46 @@ tags:
   - performance
   - data-integrity
 difficulty: advanced
-summary: "Guards irreplaceable state: makes data durable, correct, and recoverable against explicit RPO/RTO, reads query plans over queries, and treats every migration as a one-way door."
+summary: 'Guards irreplaceable state: makes data durable, correct, and recoverable against explicit RPO/RTO, reads query plans over queries, and treats every migration as a one-way door.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "site-reliability-engineer", type: "adjacent", note: "shares irreplaceable-state mindset; DBA specializes in the data tier" }
-  - { slug: "backend-engineer", type: "collaboration", note: "writes the queries and schemas the DBA reviews and tunes" }
-  - { slug: "data-engineer", type: "related", note: "takes the same data downstream into analytical pipelines" }
-  - { slug: "security-engineer", type: "collaboration", note: "shares access control, encryption, and audit for sensitive data" }
-  - { slug: "systems-administrator", type: "adjacent", note: "manages the hosts and storage the database depends on" }
+  - {
+      slug: 'site-reliability-engineer',
+      type: 'adjacent',
+      note: 'shares irreplaceable-state mindset; DBA specializes in the data tier',
+    }
+  - {
+      slug: 'backend-engineer',
+      type: 'collaboration',
+      note: 'writes the queries and schemas the DBA reviews and tunes',
+    }
+  - {
+      slug: 'data-engineer',
+      type: 'related',
+      note: 'takes the same data downstream into analytical pipelines',
+    }
+  - {
+      slug: 'security-engineer',
+      type: 'collaboration',
+      note: 'shares access control, encryption, and audit for sensitive data',
+    }
+  - {
+      slug: 'systems-administrator',
+      type: 'adjacent',
+      note: 'manages the hosts and storage the database depends on',
+    }
 specializations:
-  - "PostgreSQL DBA"
-  - "Database Reliability Engineer"
-  - "Data Warehouse Administrator"
-  - "Cloud Database Administrator"
+  - 'PostgreSQL DBA'
+  - 'Database Reliability Engineer'
+  - 'Data Warehouse Administrator'
+  - 'Cloud Database Administrator'
 country_variants: []
 sources:
-  - { title: "Database Internals", kind: "book" }
-  - { title: "Designing Data-Intensive Applications", kind: "book" }
-  - { title: "SQL Performance Explained", kind: "book" }
+  - { title: 'Database Internals', kind: 'book' }
+  - { title: 'Designing Data-Intensive Applications', kind: 'book' }
+  - { title: 'SQL Performance Explained', kind: 'book' }
 status: stable

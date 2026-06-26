@@ -45,20 +45,40 @@ const statCards = [
 ];
 
 const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
-  { title: 'Most connected', rows: stats.centrality.slice(0, 10), render: (r) => `${r.degree} links` },
-  { title: 'Most interdisciplinary', rows: stats.interdisciplinary.slice(0, 10), render: (r) => `${r.categories} domains` },
-  { title: 'Largest SOULs', rows: stats.largest.slice(0, 10), render: (r) => `${r.words.toLocaleString('en-US')} words` },
+  {
+    title: 'Most connected',
+    rows: stats.centrality.slice(0, 10),
+    render: (r) => `${r.degree} links`,
+  },
+  {
+    title: 'Most interdisciplinary',
+    rows: stats.interdisciplinary.slice(0, 10),
+    render: (r) => `${r.categories} domains`,
+  },
+  {
+    title: 'Largest SOULs',
+    rows: stats.largest.slice(0, 10),
+    render: (r) => `${r.words.toLocaleString('en-US')} words`,
+  },
   { title: 'Recently updated', rows: stats.recentlyUpdated.slice(0, 10), render: (r) => r.date },
   { title: 'Newest', rows: stats.newest.slice(0, 10), render: (r) => r.date },
-  { title: 'Smallest SOULs', rows: stats.smallest.slice(0, 10), render: (r) => `${r.words.toLocaleString('en-US')} words` },
+  {
+    title: 'Smallest SOULs',
+    rows: stats.smallest.slice(0, 10),
+    render: (r) => `${r.words.toLocaleString('en-US')} words`,
+  },
 ];
 ---
 
-<Layout title="Dashboard" description="Live statistics for the SOUL Atlas: coverage, connectivity, contributors, and quality.">
+<Layout
+  title="Dashboard"
+  description="Live statistics for the SOUL Atlas: coverage, connectivity, contributors, and quality."
+>
   <div class="mx-auto max-w-6xl px-4 py-10">
     <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Dashboard</h1>
     <p class="mt-2 max-w-2xl" style="color:var(--ink-soft)">
-      Everything here is computed at build time from the repository itself — no analytics, no tracking.
+      Everything here is computed at build time from the repository itself — no analytics, no
+      tracking.
     </p>
 
     <!-- Stat cards -->
@@ -66,8 +86,12 @@ const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
       {
         statCards.map((s) => (
           <div class="card p-4">
-            <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">{s.label}</div>
-            <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">{s.value}</div>
+            <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">
+              {s.label}
+            </div>
+            <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">
+              {s.value}
+            </div>
           </div>
         ))
       }
@@ -79,7 +103,10 @@ const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
       <div class="card mt-3 space-y-2 p-5">
         {
           categories.map((c: any) => (
-            <a href={url(`/categories/${c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)} class="block">
+            <a
+              href={url(`/categories/${c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)}
+              class="block"
+            >
               <div class="flex items-center justify-between text-sm">
                 <span style="color:var(--ink-soft)">{c.name}</span>
                 <span style="color:var(--ink-faint)">{c.count}</span>
@@ -115,7 +142,9 @@ const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
             ))
           }
         </div>
-        <div class="mt-3 text-xs" style="color:var(--ink-faint)">Commits to occupations/ over the last 26 weeks.</div>
+        <div class="mt-3 text-xs" style="color:var(--ink-faint)">
+          Commits to occupations/ over the last 26 weeks.
+        </div>
       </div>
     </section>
 
@@ -124,14 +153,25 @@ const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
       {
         tables.map((tb) => (
           <div class="card p-5">
-            <h3 class="mb-3 text-sm font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">{tb.title}</h3>
+            <h3
+              class="mb-3 text-sm font-semibold uppercase tracking-wide"
+              style="color:var(--ink-faint)"
+            >
+              {tb.title}
+            </h3>
             <ol class="space-y-1.5 text-sm">
               {tb.rows.map((r: any, i: number) => (
                 <li class="flex items-center justify-between gap-2">
-                  <a href={soulUrl(r.slug)} class="truncate hover:underline" style="color:var(--ink)">
+                  <a
+                    href={soulUrl(r.slug)}
+                    class="truncate hover:underline"
+                    style="color:var(--ink)"
+                  >
                     <span style="color:var(--ink-faint)">{i + 1}.</span> {r.title}
                   </a>
-                  <span class="shrink-0 text-xs" style="color:var(--ink-faint)">{tb.render(r)}</span>
+                  <span class="shrink-0 text-xs" style="color:var(--ink-faint)">
+                    {tb.render(r)}
+                  </span>
                 </li>
               ))}
             </ol>
@@ -143,13 +183,22 @@ const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
     <!-- Contributor leaderboard -->
     <section class="mt-4 grid gap-4 md:grid-cols-2">
       <div class="card p-5">
-        <h3 class="mb-3 text-sm font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">Top contributors</h3>
+        <h3
+          class="mb-3 text-sm font-semibold uppercase tracking-wide"
+          style="color:var(--ink-faint)"
+        >
+          Top contributors
+        </h3>
         <ol class="space-y-1.5 text-sm">
           {
             stats.contributors.slice(0, 12).map((cn: any, i: number) => (
               <li class="flex items-center justify-between">
-                <span style="color:var(--ink)"><span style="color:var(--ink-faint)">{i + 1}.</span> {cn.name}</span>
-                <span class="text-xs" style="color:var(--ink-faint)">{cn.count} SOULs</span>
+                <span style="color:var(--ink)">
+                  <span style="color:var(--ink-faint)">{i + 1}.</span> {cn.name}
+                </span>
+                <span class="text-xs" style="color:var(--ink-faint)">
+                  {cn.count} SOULs
+                </span>
               </li>
             ))
           }
@@ -158,14 +207,43 @@ const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
 
       <!-- Quality / health -->
       <div class="card p-5">
-        <h3 class="mb-3 text-sm font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">Health</h3>
+        <h3
+          class="mb-3 text-sm font-semibold uppercase tracking-wide"
+          style="color:var(--ink-faint)"
+        >
+          Health
+        </h3>
         <ul class="space-y-2 text-sm" style="color:var(--ink-soft)">
-          <li class="flex justify-between"><span>Incomplete SOULs</span><span style="color:var(--ink)">{stats.quality.incomplete.length}</span></li>
-          <li class="flex justify-between"><span>Orphan pages (no links)</span><span style="color:var(--ink)">{stats.quality.orphanPages.length}</span></li>
-          <li class="flex justify-between"><span>Missing metadata</span><span style="color:var(--ink)">{stats.quality.missingMetadata.length}</span></li>
-          <li class="flex justify-between"><span>Stale (&gt;1yr unreviewed)</span><span style="color:var(--ink)">{stats.quality.stalePages.length}</span></li>
-          <li class="flex justify-between"><span>Dangling references</span><span style="color:var(--ink)">{stats.quality.danglingReferences.length}</span></li>
-          <li class="flex justify-between"><span>Stable share</span><span style="color:var(--ink)">{Math.round(t.stableShare * 100)}%</span></li>
+          <li class="flex justify-between">
+            <span>Incomplete SOULs</span><span style="color:var(--ink)"
+              >{stats.quality.incomplete.length}</span
+            >
+          </li>
+          <li class="flex justify-between">
+            <span>Orphan pages (no links)</span><span style="color:var(--ink)"
+              >{stats.quality.orphanPages.length}</span
+            >
+          </li>
+          <li class="flex justify-between">
+            <span>Missing metadata</span><span style="color:var(--ink)"
+              >{stats.quality.missingMetadata.length}</span
+            >
+          </li>
+          <li class="flex justify-between">
+            <span>Stale (&gt;1yr unreviewed)</span><span style="color:var(--ink)"
+              >{stats.quality.stalePages.length}</span
+            >
+          </li>
+          <li class="flex justify-between">
+            <span>Dangling references</span><span style="color:var(--ink)"
+              >{stats.quality.danglingReferences.length}</span
+            >
+          </li>
+          <li class="flex justify-between">
+            <span>Stable share</span><span style="color:var(--ink)"
+              >{Math.round(t.stableShare * 100)}%</span
+            >
+          </li>
         </ul>
       </div>
     </section>

@@ -1,22 +1,42 @@
-title: "Bartender"
-slug: "bartender"
-aliases: ["mixologist", "barkeep", "bar tender"]
-category: "Hospitality"
-tags: ["bartending", "cocktails", "mise-en-place", "hospitality", "responsible-service"]
+title: 'Bartender'
+slug: 'bartender'
+aliases: ['mixologist', 'barkeep', 'bar tender']
+category: 'Hospitality'
+tags: ['bartending', 'cocktails', 'mise-en-place', 'hospitality', 'responsible-service']
 difficulty: intermediate
-summary: "How an expert bartender thinks: spec and balance under speed, the well as cockpit, reading the room continuously, and treating responsible service and cut-offs as core craft."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert bartender thinks: spec and balance under speed, the well as cockpit, reading the room continuously, and treating responsible service and cut-offs as core craft.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "sommelier", type: "adjacent", note: "beverage expert focused on wine service and pairing" }
-  - { slug: "chef", type: "related", note: "shares mise en place and a-la-minute rush-line discipline" }
-  - { slug: "hotel-manager", type: "collaboration", note: "oversees the bar within food and beverage operations" }
-  - { slug: "event-planner", type: "collaboration", note: "books and staffs bars and sets service expectations" }
-  - { slug: "customer-success-manager", type: "adjacent", note: "reads people and manages live relationships under pressure" }
-specializations: ["craft-cocktail-bartender", "high-volume-bartender", "head-bartender"]
+  - {
+      slug: 'sommelier',
+      type: 'adjacent',
+      note: 'beverage expert focused on wine service and pairing',
+    }
+  - {
+      slug: 'chef',
+      type: 'related',
+      note: 'shares mise en place and a-la-minute rush-line discipline',
+    }
+  - {
+      slug: 'hotel-manager',
+      type: 'collaboration',
+      note: 'oversees the bar within food and beverage operations',
+    }
+  - {
+      slug: 'event-planner',
+      type: 'collaboration',
+      note: 'books and staffs bars and sets service expectations',
+    }
+  - {
+      slug: 'customer-success-manager',
+      type: 'adjacent',
+      note: 'reads people and manages live relationships under pressure',
+    }
+specializations: ['craft-cocktail-bartender', 'high-volume-bartender', 'head-bartender']
 country_variants: []
 sources:
-  - { title: "The Joy of Mixology (Gary Regan)", kind: "book" }
+  - { title: 'The Joy of Mixology (Gary Regan)', kind: 'book' }
 status: stable

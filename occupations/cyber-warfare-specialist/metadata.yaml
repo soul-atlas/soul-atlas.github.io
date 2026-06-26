@@ -1,10 +1,10 @@
-title: "Cyber Warfare Specialist"
-slug: "cyber-warfare-specialist"
+title: 'Cyber Warfare Specialist'
+slug: 'cyber-warfare-specialist'
 aliases:
-  - "Cyber Operator"
-  - "Offensive Cyber Operator"
-  - "Computer Network Operations Specialist"
-category: "Military"
+  - 'Cyber Operator'
+  - 'Offensive Cyber Operator'
+  - 'Computer Network Operations Specialist'
+category: 'Military'
 tags:
   - military
   - cyber
@@ -14,23 +14,46 @@ tags:
 difficulty: expert
 summary: "Fights in and through networks with an intelligence officer's patience and a lawful combatant's restraint — gaining access, collecting or denying, staying unseen, and bounding effects that propagate."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "security-engineer", type: "adjacent", note: "the defensive mirror image, breaking the same kill chain the operator walks" }
-  - { slug: "network-engineer", type: "related", note: "understands the protocol-and-topology terrain both fight over" }
-  - { slug: "software-engineer", type: "prerequisite", note: "builds and reverse-engineers the capabilities the work depends on" }
-  - { slug: "military-intelligence-analyst", type: "collaboration", note: "tasks the collection and consumes its product, often on the same adversary" }
-  - { slug: "ai-safety-researcher", type: "adjacent", note: "shares reasoning about powerful dual-use capabilities hard to bound" }
+  - {
+      slug: 'security-engineer',
+      type: 'adjacent',
+      note: 'the defensive mirror image, breaking the same kill chain the operator walks',
+    }
+  - {
+      slug: 'network-engineer',
+      type: 'related',
+      note: 'understands the protocol-and-topology terrain both fight over',
+    }
+  - {
+      slug: 'software-engineer',
+      type: 'prerequisite',
+      note: 'builds and reverse-engineers the capabilities the work depends on',
+    }
+  - {
+      slug: 'military-intelligence-analyst',
+      type: 'collaboration',
+      note: 'tasks the collection and consumes its product, often on the same adversary',
+    }
+  - {
+      slug: 'ai-safety-researcher',
+      type: 'adjacent',
+      note: 'shares reasoning about powerful dual-use capabilities hard to bound',
+    }
 specializations:
-  - "Exploitation Developer"
-  - "Access Operator"
-  - "Effects Operator (CNA)"
-  - "Adversary Emulation"
+  - 'Exploitation Developer'
+  - 'Access Operator'
+  - 'Effects Operator (CNA)'
+  - 'Adversary Emulation'
 country_variants: []
 sources:
-  - { title: "Intelligence-Driven Computer Network Defense (Cyber Kill Chain)", kind: "article" }
-  - { title: "Tallinn Manual on the International Law Applicable to Cyber Operations", kind: "book" }
+  - { title: 'Intelligence-Driven Computer Network Defense (Cyber Kill Chain)', kind: 'article' }
+  - {
+      title: 'Tallinn Manual on the International Law Applicable to Cyber Operations',
+      kind: 'book',
+    }
 status: stable

@@ -12,7 +12,6 @@ Build and test quantitative models of nature that predict measurable quantities 
 
 The daily work is the dialogue between theory and experiment. A physicist frames a phenomenon as a model with free parameters; designs an experiment or simulation to discriminate it from rivals; calibrates instruments and quantifies every statistical and systematic error; propagates uncertainty into the final number; checks dimensions, limiting cases, and conservation laws throughout; and reviews claims assuming an extraordinary result is probably an uncontrolled systematic. Theory and experiment answer to the same court: the number on the dial.
 
-
 ## Guiding Principles
 
 - **A theory that predicts everything predicts nothing.** A model must forbid specific outcomes; if no measurement could embarrass it, it is philosophy, not physics.

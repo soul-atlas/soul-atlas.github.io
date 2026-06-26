@@ -1,11 +1,11 @@
-title: "Instructional Designer"
-slug: "instructional-designer"
+title: 'Instructional Designer'
+slug: 'instructional-designer'
 aliases:
-  - "Learning Experience Designer"
-  - "E-Learning Developer"
-  - "Learning Designer"
-  - "ID"
-category: "Education"
+  - 'Learning Experience Designer'
+  - 'E-Learning Developer'
+  - 'Learning Designer'
+  - 'ID'
+category: 'Education'
 tags:
   - instructional-design
   - e-learning
@@ -13,26 +13,50 @@ tags:
   - training
   - curriculum
 difficulty: intermediate
-summary: "Engineers learning experiences without a live room, subtracting ruthlessly toward measurable objectives and proving transfer rather than trusting smile sheets."
+summary: 'Engineers learning experiences without a live room, subtracting ruthlessly toward measurable objectives and proving transfer rather than trusting smile sheets.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "teacher", type: "adjacent", note: "delivers learning live; the designer engineers it for no live room" }
-  - { slug: "ux-designer", type: "related", note: "shares the fight against cognitive load and design for context of use" }
-  - { slug: "technical-writer", type: "adjacent", note: "documents how things work; often the better answer when the gap is reference" }
-  - { slug: "ux-researcher", type: "collaboration", note: "supplies the audience-analysis muscle the designer relies on" }
-  - { slug: "research-scientist", type: "prerequisite", note: "the learning-science evidence base the discipline rests on" }
-  - { slug: "project-manager", type: "collaboration", note: "coordinates the SME, media, and LMS pipeline the designer runs" }
+  - {
+      slug: 'teacher',
+      type: 'adjacent',
+      note: 'delivers learning live; the designer engineers it for no live room',
+    }
+  - {
+      slug: 'ux-designer',
+      type: 'related',
+      note: 'shares the fight against cognitive load and design for context of use',
+    }
+  - {
+      slug: 'technical-writer',
+      type: 'adjacent',
+      note: 'documents how things work; often the better answer when the gap is reference',
+    }
+  - {
+      slug: 'ux-researcher',
+      type: 'collaboration',
+      note: 'supplies the audience-analysis muscle the designer relies on',
+    }
+  - {
+      slug: 'research-scientist',
+      type: 'prerequisite',
+      note: 'the learning-science evidence base the discipline rests on',
+    }
+  - {
+      slug: 'project-manager',
+      type: 'collaboration',
+      note: 'coordinates the SME, media, and LMS pipeline the designer runs',
+    }
 specializations:
-  - "Corporate Learning Designer"
-  - "E-Learning Developer"
-  - "Curriculum Developer"
+  - 'Corporate Learning Designer'
+  - 'E-Learning Developer'
+  - 'Curriculum Developer'
 country_variants: []
 sources:
-  - { title: "Design for How People Learn", kind: "book" }
-  - { title: "Multimedia Learning", kind: "book" }
-  - { title: "Evaluating Training Programs (Kirkpatrick)", kind: "book" }
+  - { title: 'Design for How People Learn', kind: 'book' }
+  - { title: 'Multimedia Learning', kind: 'book' }
+  - { title: 'Evaluating Training Programs (Kirkpatrick)', kind: 'book' }
 status: stable

@@ -1,37 +1,61 @@
-title: "Mediator"
-slug: "mediator"
+title: 'Mediator'
+slug: 'mediator'
 aliases:
-  - "Dispute Resolution Specialist"
-  - "Conciliator"
-  - "Neutral Facilitator"
-category: "Law"
+  - 'Dispute Resolution Specialist'
+  - 'Conciliator'
+  - 'Neutral Facilitator'
+category: 'Law'
 tags:
-  - "dispute-resolution"
-  - "negotiation"
-  - "conflict-resolution"
-  - "mediation"
+  - 'dispute-resolution'
+  - 'negotiation'
+  - 'conflict-resolution'
+  - 'mediation'
 difficulty: advanced
-summary: "How a neutral thinks: serving the process while parties own the outcome, converting positions into interests, and reality-testing alternatives to reach durable agreements."
+summary: 'How a neutral thinks: serving the process while parties own the outcome, converting positions into interests, and reality-testing alternatives to reach durable agreements.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 specializations:
-  - "Family Mediation"
-  - "Commercial Mediation"
-  - "Employment Mediation"
+  - 'Family Mediation'
+  - 'Commercial Mediation'
+  - 'Employment Mediation'
 country_variants: []
 sources:
-  - title: "Getting to Yes: Negotiating Agreement Without Giving In"
+  - title: 'Getting to Yes: Negotiating Agreement Without Giving In'
     kind: book
-  - title: "The Mediation Process"
+  - title: 'The Mediation Process'
     kind: book
 status: stable
 related:
-  - { slug: "lawyer", type: "collaboration", note: "represents the parties in mediation; the mediator stays neutral between them" }
-  - { slug: "judge", type: "adjacent", note: "imposes a binding ruling where the mediator helps parties reach their own" }
-  - { slug: "diplomat", type: "related", note: "brokers agreement between adversaries using interests, BATNA, and face-saving" }
-  - { slug: "human-resources-manager", type: "related", note: "mediates workplace conflict and grievances with the same facilitation craft" }
-  - { slug: "social-worker", type: "adjacent", note: "shares rapport-building and de-escalation skills with parties under stress" }
-  - { slug: "school-counselor", type: "adjacent", note: "uses the same active-listening and reframing tools in peer conflict" }
+  - {
+      slug: 'lawyer',
+      type: 'collaboration',
+      note: 'represents the parties in mediation; the mediator stays neutral between them',
+    }
+  - {
+      slug: 'judge',
+      type: 'adjacent',
+      note: 'imposes a binding ruling where the mediator helps parties reach their own',
+    }
+  - {
+      slug: 'diplomat',
+      type: 'related',
+      note: 'brokers agreement between adversaries using interests, BATNA, and face-saving',
+    }
+  - {
+      slug: 'human-resources-manager',
+      type: 'related',
+      note: 'mediates workplace conflict and grievances with the same facilitation craft',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'adjacent',
+      note: 'shares rapport-building and de-escalation skills with parties under stress',
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'adjacent',
+      note: 'uses the same active-listening and reframing tools in peer conflict',
+    }

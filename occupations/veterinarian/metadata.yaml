@@ -1,10 +1,10 @@
-title: "Veterinarian"
-slug: "veterinarian"
+title: 'Veterinarian'
+slug: 'veterinarian'
 aliases:
-  - "Vet"
-  - "Veterinary Surgeon"
-  - "Doctor of Veterinary Medicine"
-category: "Healthcare"
+  - 'Vet'
+  - 'Veterinary Surgeon'
+  - 'Doctor of Veterinary Medicine'
+category: 'Healthcare'
 tags:
   - animal-health
   - veterinary-medicine
@@ -14,23 +14,43 @@ tags:
 difficulty: advanced
 summary: "Diagnoses and treats patients that cannot speak, across species, balancing animal welfare, the owner's wishes and means, and public safety — and knowing when the kindest medicine is to stop."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "physician", type: "adjacent", note: "shares full diagnostic-and-surgical breadth across many species" }
-  - { slug: "surgeon", type: "adjacent", note: "shares operative skill and respect for irreversible procedure" }
-  - { slug: "public-health-officer", type: "collaboration", note: "partner in One Health work on zoonoses and food safety" }
-  - { slug: "farmer", type: "collaboration", note: "collaborator in production-animal medicine where welfare meets economics" }
-  - { slug: "anesthesiologist", type: "adjacent", note: "shares duty to a patient who cannot report distress" }
+  - {
+      slug: 'physician',
+      type: 'adjacent',
+      note: 'shares full diagnostic-and-surgical breadth across many species',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'adjacent',
+      note: 'shares operative skill and respect for irreversible procedure',
+    }
+  - {
+      slug: 'public-health-officer',
+      type: 'collaboration',
+      note: 'partner in One Health work on zoonoses and food safety',
+    }
+  - {
+      slug: 'farmer',
+      type: 'collaboration',
+      note: 'collaborator in production-animal medicine where welfare meets economics',
+    }
+  - {
+      slug: 'anesthesiologist',
+      type: 'adjacent',
+      note: 'shares duty to a patient who cannot report distress',
+    }
 specializations:
-  - "Small Animal Veterinarian"
-  - "Large Animal Veterinarian"
-  - "Equine Veterinarian"
-  - "Veterinary Surgeon"
+  - 'Small Animal Veterinarian'
+  - 'Large Animal Veterinarian'
+  - 'Equine Veterinarian'
+  - 'Veterinary Surgeon'
 country_variants: []
 sources:
-  - { title: "The Merck Veterinary Manual", kind: "book" }
-  - { title: "Textbook of Veterinary Internal Medicine (Ettinger & Feldman)", kind: "book" }
+  - { title: 'The Merck Veterinary Manual', kind: 'book' }
+  - { title: 'Textbook of Veterinary Internal Medicine (Ettinger & Feldman)', kind: 'book' }
 status: stable

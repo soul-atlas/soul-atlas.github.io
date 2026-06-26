@@ -1,10 +1,10 @@
-title: "Site Reliability Engineer"
-slug: "site-reliability-engineer"
+title: 'Site Reliability Engineer'
+slug: 'site-reliability-engineer'
 aliases:
-  - "SRE"
-  - "Reliability Engineer"
-  - "Production Engineer"
-category: "Technology"
+  - 'SRE'
+  - 'Reliability Engineer'
+  - 'Production Engineer'
+category: 'Technology'
 tags:
   - reliability
   - operations
@@ -12,24 +12,48 @@ tags:
   - automation
   - infrastructure
 difficulty: advanced
-summary: "Treats operations as a software problem: budgets reliability against velocity with SLOs and error budgets, and engineers toil away so systems stay boring."
+summary: 'Treats operations as a software problem: budgets reliability against velocity with SLOs and error budgets, and engineers toil away so systems stay boring.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "software-engineer", type: "adjacent", note: "shares code fluency aimed at survival rather than features" }
-  - { slug: "devops-engineer", type: "related", note: "both automate the path to production; SRE is SLO-driven" }
-  - { slug: "systems-administrator", type: "progression", note: "the operational ancestor before ops became software" }
-  - { slug: "cloud-architect", type: "collaboration", note: "designs the redundant substrate SREs keep alive" }
-  - { slug: "security-engineer", type: "adjacent", note: "shares incident-response discipline for a different threat" }
+  - {
+      slug: 'software-engineer',
+      type: 'adjacent',
+      note: 'shares code fluency aimed at survival rather than features',
+    }
+  - {
+      slug: 'devops-engineer',
+      type: 'related',
+      note: 'both automate the path to production; SRE is SLO-driven',
+    }
+  - {
+      slug: 'systems-administrator',
+      type: 'progression',
+      note: 'the operational ancestor before ops became software',
+    }
+  - {
+      slug: 'cloud-architect',
+      type: 'collaboration',
+      note: 'designs the redundant substrate SREs keep alive',
+    }
+  - {
+      slug: 'security-engineer',
+      type: 'adjacent',
+      note: 'shares incident-response discipline for a different threat',
+    }
 specializations:
-  - "Platform Reliability Engineer"
-  - "Database Reliability Engineer"
+  - 'Platform Reliability Engineer'
+  - 'Database Reliability Engineer'
 country_variants: []
 sources:
-  - { title: "Site Reliability Engineering (Google)", url: "https://sre.google/books/", kind: "book" }
-  - { title: "Release It!", kind: "book" }
-  - { title: "Designing Data-Intensive Applications", kind: "book" }
+  - {
+      title: 'Site Reliability Engineering (Google)',
+      url: 'https://sre.google/books/',
+      kind: 'book',
+    }
+  - { title: 'Release It!', kind: 'book' }
+  - { title: 'Designing Data-Intensive Applications', kind: 'book' }
 status: stable

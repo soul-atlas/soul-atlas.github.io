@@ -1,37 +1,57 @@
-title: "Trader"
-slug: "trader"
+title: 'Trader'
+slug: 'trader'
 aliases:
-  - "Markets Trader"
-  - "Proprietary Trader"
-  - "Market Maker"
-category: "Finance"
+  - 'Markets Trader'
+  - 'Proprietary Trader'
+  - 'Market Maker'
+category: 'Finance'
 tags:
-  - "trading"
-  - "risk-management"
-  - "markets"
-  - "position-sizing"
-  - "execution"
-difficulty: "expert"
-summary: "How an expert trader thinks: convert a defensible edge into positive expectancy, size by risk-of-ruin, cut losers, run winners, and never confuse luck with skill."
+  - 'trading'
+  - 'risk-management'
+  - 'markets'
+  - 'position-sizing'
+  - 'execution'
+difficulty: 'expert'
+summary: 'How an expert trader thinks: convert a defensible edge into positive expectancy, size by risk-of-ruin, cut losers, run winners, and never confuse luck with skill.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 specializations:
-  - "Market Maker"
-  - "Proprietary Trader"
-  - "Execution Trader"
+  - 'Market Maker'
+  - 'Proprietary Trader'
+  - 'Execution Trader'
 country_variants: []
 sources:
-  - title: "Reminiscences of a Stock Operator"
+  - title: 'Reminiscences of a Stock Operator'
     kind: book
-  - title: "Fooled by Randomness"
+  - title: 'Fooled by Randomness'
     kind: book
-status: "stable"
+status: 'stable'
 related:
-  - { slug: "financial-analyst", type: "related", note: "forms a thesis on value where the trader monetizes timing and flow" }
-  - { slug: "investment-banker", type: "adjacent", note: "prices and places risk in the primary market the trader works in the secondary" }
-  - { slug: "financial-advisor", type: "adjacent", note: "manages long-horizon portfolios the trader's execution and risk discipline informs" }
-  - { slug: "data-scientist", type: "collaboration", note: "builds the signals, backtests, and models systematic trading depends on" }
-  - { slug: "compliance-officer", type: "collaboration", note: "polices best execution, market abuse, and the line the trader cannot cross" }
+  - {
+      slug: 'financial-analyst',
+      type: 'related',
+      note: 'forms a thesis on value where the trader monetizes timing and flow',
+    }
+  - {
+      slug: 'investment-banker',
+      type: 'adjacent',
+      note: 'prices and places risk in the primary market the trader works in the secondary',
+    }
+  - {
+      slug: 'financial-advisor',
+      type: 'adjacent',
+      note: "manages long-horizon portfolios the trader's execution and risk discipline informs",
+    }
+  - {
+      slug: 'data-scientist',
+      type: 'collaboration',
+      note: 'builds the signals, backtests, and models systematic trading depends on',
+    }
+  - {
+      slug: 'compliance-officer',
+      type: 'collaboration',
+      note: 'polices best execution, market abuse, and the line the trader cannot cross',
+    }

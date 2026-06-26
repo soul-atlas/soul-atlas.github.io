@@ -1,10 +1,10 @@
-title: "Mechanical Engineer"
-slug: "mechanical-engineer"
+title: 'Mechanical Engineer'
+slug: 'mechanical-engineer'
 aliases:
-  - "Machine Design Engineer"
-  - "Mechanical Design Engineer"
-  - "MechE"
-category: "Engineering"
+  - 'Machine Design Engineer'
+  - 'Mechanical Design Engineer'
+  - 'MechE'
+category: 'Engineering'
 tags:
   - machine-design
   - thermodynamics
@@ -12,26 +12,50 @@ tags:
   - manufacturing
   - mechanics
 difficulty: advanced
-summary: "Designs machines and parts that carry load with margin, manage heat and vibration, and can actually be manufactured within real tolerances."
+summary: 'Designs machines and parts that carry load with margin, manage heat and vibration, and can actually be manufactured within real tolerances.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "structural-engineer", type: "adjacent", note: "shares stress and load analysis applied to static structures" }
-  - { slug: "aerospace-engineer", type: "specialization", note: "mechanical design against the hardest weight constraints" }
-  - { slug: "industrial-designer", type: "collaboration", note: "owns form and ergonomics of the products" }
-  - { slug: "machinist", type: "collaboration", note: "turns drawings into parts; sets what is buildable" }
-  - { slug: "robotics-engineer", type: "related", note: "combines mechanical design with control and sensing" }
-  - { slug: "electrical-engineer", type: "collaboration", note: "shares package and thermal budget in electromechanical products" }
+  - {
+      slug: 'structural-engineer',
+      type: 'adjacent',
+      note: 'shares stress and load analysis applied to static structures',
+    }
+  - {
+      slug: 'aerospace-engineer',
+      type: 'specialization',
+      note: 'mechanical design against the hardest weight constraints',
+    }
+  - {
+      slug: 'industrial-designer',
+      type: 'collaboration',
+      note: 'owns form and ergonomics of the products',
+    }
+  - {
+      slug: 'machinist',
+      type: 'collaboration',
+      note: 'turns drawings into parts; sets what is buildable',
+    }
+  - {
+      slug: 'robotics-engineer',
+      type: 'related',
+      note: 'combines mechanical design with control and sensing',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'collaboration',
+      note: 'shares package and thermal budget in electromechanical products',
+    }
 specializations:
-  - "HVAC Engineer"
-  - "Automotive Engineer"
-  - "Thermal Systems Engineer"
-  - "Machine Design Engineer"
+  - 'HVAC Engineer'
+  - 'Automotive Engineer'
+  - 'Thermal Systems Engineer'
+  - 'Machine Design Engineer'
 country_variants: []
 sources:
-  - { title: "Shigley's Mechanical Engineering Design", kind: "book" }
-  - { title: "Materials Selection in Mechanical Design", kind: "book" }
+  - { title: "Shigley's Mechanical Engineering Design", kind: 'book' }
+  - { title: 'Materials Selection in Mechanical Design', kind: 'book' }
 status: stable

@@ -1,10 +1,10 @@
-title: "Biomedical Engineer"
-slug: "biomedical-engineer"
+title: 'Biomedical Engineer'
+slug: 'biomedical-engineer'
 aliases:
-  - "Medical Device Engineer"
-  - "Bioengineer"
-  - "Clinical Engineer"
-category: "Engineering"
+  - 'Medical Device Engineer'
+  - 'Bioengineer'
+  - 'Clinical Engineer'
+category: 'Engineering'
 tags:
   - medical-devices
   - biocompatibility
@@ -12,25 +12,45 @@ tags:
   - regulatory
   - verification-validation
 difficulty: advanced
-summary: "Designs and validates medical devices that work safely on real patients, biocompatible and durable, meeting the risk-management and regulatory bar that earns trust."
+summary: 'Designs and validates medical devices that work safely on real patients, biocompatible and durable, meeting the risk-management and regulatory bar that earns trust.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "mechanical-engineer", type: "adjacent", note: "contributes structural, fatigue, and materials analysis for implants" }
-  - { slug: "electrical-engineer", type: "adjacent", note: "designs the electronics of active medical devices" }
-  - { slug: "physician", type: "collaboration", note: "defines the clinical need and uses the device" }
-  - { slug: "medical-laboratory-scientist", type: "collaboration", note: "works with the diagnostics biomedical engineers build" }
-  - { slug: "research-scientist", type: "prerequisite", note: "develops the underlying biology and materials science" }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'adjacent',
+      note: 'contributes structural, fatigue, and materials analysis for implants',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'adjacent',
+      note: 'designs the electronics of active medical devices',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'defines the clinical need and uses the device',
+    }
+  - {
+      slug: 'medical-laboratory-scientist',
+      type: 'collaboration',
+      note: 'works with the diagnostics biomedical engineers build',
+    }
+  - {
+      slug: 'research-scientist',
+      type: 'prerequisite',
+      note: 'develops the underlying biology and materials science',
+    }
 specializations:
-  - "Medical Device Engineer"
-  - "Biomaterials Engineer"
-  - "Clinical Engineer"
-  - "Tissue Engineer"
+  - 'Medical Device Engineer'
+  - 'Biomaterials Engineer'
+  - 'Clinical Engineer'
+  - 'Tissue Engineer'
 country_variants: []
 sources:
-  - { title: "ISO 14971 Risk Management for Medical Devices", kind: "standard" }
-  - { title: "Introduction to Biomedical Engineering", kind: "book" }
+  - { title: 'ISO 14971 Risk Management for Medical Devices', kind: 'standard' }
+  - { title: 'Introduction to Biomedical Engineering', kind: 'book' }
 status: stable

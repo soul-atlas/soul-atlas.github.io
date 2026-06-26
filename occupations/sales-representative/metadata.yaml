@@ -1,23 +1,43 @@
-title: "Sales Representative"
-slug: "sales-representative"
-aliases: ["Account Executive", "Sales Rep", "B2B Salesperson"]
-category: "Business"
-tags: ["sales", "pipeline", "qualification", "negotiation", "revenue"]
+title: 'Sales Representative'
+slug: 'sales-representative'
+aliases: ['Account Executive', 'Sales Rep', 'B2B Salesperson']
+category: 'Business'
+tags: ['sales', 'pipeline', 'qualification', 'negotiation', 'revenue']
 difficulty: intermediate
-summary: "How an excellent sales rep diagnoses buyer pain, qualifies ruthlessly, and orchestrates a multi-stakeholder decision into predictable revenue."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an excellent sales rep diagnoses buyer pain, qualifies ruthlessly, and orchestrates a multi-stakeholder decision into predictable revenue.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "customer-success-manager", type: "collaboration", note: "Inherits the relationship post-sale and feeds expansion signals" }
-  - { slug: "marketing-manager", type: "collaboration", note: "Generates and qualifies the top of the funnel" }
-  - { slug: "procurement-specialist", type: "adjacent", note: "The structured counterpart on the buying side of negotiation" }
-  - { slug: "product-manager", type: "related", note: "Owns the roadmap reps sell and commit against" }
-  - { slug: "entrepreneur", type: "progression", note: "Founders must sell before they can hire reps" }
-specializations: ["enterprise-account-executive", "sales-development-rep", "inside-sales-rep"]
+  - {
+      slug: 'customer-success-manager',
+      type: 'collaboration',
+      note: 'Inherits the relationship post-sale and feeds expansion signals',
+    }
+  - {
+      slug: 'marketing-manager',
+      type: 'collaboration',
+      note: 'Generates and qualifies the top of the funnel',
+    }
+  - {
+      slug: 'procurement-specialist',
+      type: 'adjacent',
+      note: 'The structured counterpart on the buying side of negotiation',
+    }
+  - {
+      slug: 'product-manager',
+      type: 'related',
+      note: 'Owns the roadmap reps sell and commit against',
+    }
+  - {
+      slug: 'entrepreneur',
+      type: 'progression',
+      note: 'Founders must sell before they can hire reps',
+    }
+specializations: ['enterprise-account-executive', 'sales-development-rep', 'inside-sales-rep']
 country_variants: []
 sources:
-  - { title: "SPIN Selling (Neil Rackham)", kind: "book" }
-  - { title: "The Challenger Sale (Dixon & Adamson)", kind: "book" }
+  - { title: 'SPIN Selling (Neil Rackham)', kind: 'book' }
+  - { title: 'The Challenger Sale (Dixon & Adamson)', kind: 'book' }
 status: stable

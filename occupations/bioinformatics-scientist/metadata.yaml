@@ -1,24 +1,56 @@
-title: "Bioinformatics Scientist"
-slug: "bioinformatics-scientist"
-aliases: ["computational biologist", "genomics data scientist", "bioinformatician"]
-category: "Emerging"
-tags: ["bioinformatics", "genomics", "reproducible-pipelines", "multiple-testing", "high-dimensional-data"]
+title: 'Bioinformatics Scientist'
+slug: 'bioinformatics-scientist'
+aliases: ['computational biologist', 'genomics data scientist', 'bioinformatician']
+category: 'Emerging'
+tags:
+  [
+    'bioinformatics',
+    'genomics',
+    'reproducible-pipelines',
+    'multiple-testing',
+    'high-dimensional-data',
+  ]
 difficulty: expert
-summary: "Extracts biological signal from terabyte-scale molecular data while fighting batch effects, multiple testing, and p >> n, then validates every finding in an independent cohort."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'Extracts biological signal from terabyte-scale molecular data while fighting batch effects, multiple testing, and p >> n, then validates every finding in an independent cohort.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "biologist", type: "prerequisite", note: "supplies the molecular questions and wet-lab validation" }
-  - { slug: "data-scientist", type: "related", note: "shares high-dimensional statistics and cross-validation, applied to molecular data" }
-  - { slug: "data-engineer", type: "adjacent", note: "shares the reproducible-pipeline and large-scale data craft" }
-  - { slug: "machine-learning-engineer", type: "adjacent", note: "shares modeling and overfitting-control methods" }
-  - { slug: "research-scientist", type: "collaboration", note: "frames the hypothesis-driven study the analysis tests" }
-  - { slug: "medical-laboratory-scientist", type: "collaboration", note: "generates and QCs the wet-lab samples feeding the pipeline" }
-specializations: ["genomics", "transcriptomics / RNA-seq", "clinical bioinformatics", "single-cell analysis"]
+  - {
+      slug: 'biologist',
+      type: 'prerequisite',
+      note: 'supplies the molecular questions and wet-lab validation',
+    }
+  - {
+      slug: 'data-scientist',
+      type: 'related',
+      note: 'shares high-dimensional statistics and cross-validation, applied to molecular data',
+    }
+  - {
+      slug: 'data-engineer',
+      type: 'adjacent',
+      note: 'shares the reproducible-pipeline and large-scale data craft',
+    }
+  - {
+      slug: 'machine-learning-engineer',
+      type: 'adjacent',
+      note: 'shares modeling and overfitting-control methods',
+    }
+  - {
+      slug: 'research-scientist',
+      type: 'collaboration',
+      note: 'frames the hypothesis-driven study the analysis tests',
+    }
+  - {
+      slug: 'medical-laboratory-scientist',
+      type: 'collaboration',
+      note: 'generates and QCs the wet-lab samples feeding the pipeline',
+    }
+specializations:
+  ['genomics', 'transcriptomics / RNA-seq', 'clinical bioinformatics', 'single-cell analysis']
 country_variants: []
 sources:
-  - { title: "Bioinformatics and Functional Genomics (Jonathan Pevsner)", kind: "book" }
-  - { title: "Modern Statistics for Modern Biology (Holmes & Huber)", kind: "book" }
+  - { title: 'Bioinformatics and Functional Genomics (Jonathan Pevsner)', kind: 'book' }
+  - { title: 'Modern Statistics for Modern Biology (Holmes & Huber)', kind: 'book' }
 status: stable

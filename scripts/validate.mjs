@@ -8,12 +8,20 @@ import addFormats from 'ajv-formats';
 import { SCHEMA_DIR } from './lib/paths.mjs';
 import { listSlugs, loadSoul, loadSectionSpec, buildCorpus } from './lib/corpus.mjs';
 
-const ANSI = { red: '\x1b[31m', yellow: '\x1b[33m', green: '\x1b[32m', dim: '\x1b[2m', reset: '\x1b[0m' };
+const ANSI = {
+  red: '\x1b[31m',
+  yellow: '\x1b[33m',
+  green: '\x1b[32m',
+  dim: '\x1b[2m',
+  reset: '\x1b[0m',
+};
 const c = (color, s) => `${ANSI[color]}${s}${ANSI.reset}`;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
 addFormats(ajv);
-const metaSchema = JSON.parse(fs.readFileSync(path.join(SCHEMA_DIR, 'metadata.schema.json'), 'utf8'));
+const metaSchema = JSON.parse(
+  fs.readFileSync(path.join(SCHEMA_DIR, 'metadata.schema.json'), 'utf8'),
+);
 const validateMeta = ajv.compile(metaSchema);
 
 const errors = [];
@@ -75,7 +83,10 @@ for (const slug of slugs) {
 
   if ((m.summary || '').length > 320) err(slug, `summary exceeds 320 characters`);
   if (m.status === 'stable' && soul.computed.completeness < 1) {
-    warn(slug, `status is "stable" but completeness is ${Math.round(soul.computed.completeness * 100)}%`);
+    warn(
+      slug,
+      `status is "stable" but completeness is ${Math.round(soul.computed.completeness * 100)}%`,
+    );
   }
 }
 

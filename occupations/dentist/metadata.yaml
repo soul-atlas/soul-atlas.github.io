@@ -1,10 +1,10 @@
-title: "Dentist"
-slug: "dentist"
+title: 'Dentist'
+slug: 'dentist'
 aliases:
-  - "Dental Surgeon"
-  - "DDS"
-  - "DMD"
-category: "Healthcare"
+  - 'Dental Surgeon'
+  - 'DDS'
+  - 'DMD'
+category: 'Healthcare'
 tags:
   - dentistry
   - oral-health
@@ -12,25 +12,45 @@ tags:
   - prevention
   - surgery
 difficulty: advanced
-summary: "Preserves the function and health of a non-regenerating part of the body for a lifetime, intervening as little as disease allows while controlling the pain and fear that keep people from the chair."
+summary: 'Preserves the function and health of a non-regenerating part of the body for a lifetime, intervening as little as disease allows while controlling the pain and fear that keep people from the chair.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "surgeon", type: "adjacent", note: "shares respect for irreversible tissue and sterile precise procedure" }
-  - { slug: "physician", type: "collaboration", note: "partner on medically complex patients and systemic disease the mouth reveals" }
-  - { slug: "pharmacist", type: "collaboration", note: "shared responsibility for safe analgesia and antibiotic stewardship" }
-  - { slug: "anesthesiologist", type: "adjacent", note: "shares the discipline of safe local and sedation anesthesia" }
-  - { slug: "registered-nurse", type: "collaboration", note: "shares chairside care, infection control, and patient management" }
+  - {
+      slug: 'surgeon',
+      type: 'adjacent',
+      note: 'shares respect for irreversible tissue and sterile precise procedure',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'partner on medically complex patients and systemic disease the mouth reveals',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'shared responsibility for safe analgesia and antibiotic stewardship',
+    }
+  - {
+      slug: 'anesthesiologist',
+      type: 'adjacent',
+      note: 'shares the discipline of safe local and sedation anesthesia',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'shares chairside care, infection control, and patient management',
+    }
 specializations:
-  - "Orthodontist"
-  - "Endodontist"
-  - "Periodontist"
-  - "Oral and Maxillofacial Surgeon"
+  - 'Orthodontist'
+  - 'Endodontist'
+  - 'Periodontist'
+  - 'Oral and Maxillofacial Surgeon'
 country_variants: []
 sources:
-  - { title: "Sturdevant's Art and Science of Operative Dentistry", kind: "book" }
-  - { title: "Carranza's Clinical Periodontology", kind: "book" }
+  - { title: "Sturdevant's Art and Science of Operative Dentistry", kind: 'book' }
+  - { title: "Carranza's Clinical Periodontology", kind: 'book' }
 status: stable

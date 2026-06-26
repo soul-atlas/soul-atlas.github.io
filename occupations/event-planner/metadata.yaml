@@ -1,23 +1,47 @@
-title: "Event Planner"
-slug: "event-planner"
-aliases: ["event coordinator", "event producer", "meeting planner"]
-category: "Hospitality"
-tags: ["events", "run-of-show", "vendor-management", "logistics", "hospitality"]
+title: 'Event Planner'
+slug: 'event-planner'
+aliases: ['event coordinator', 'event producer', 'meeting planner']
+category: 'Hospitality'
+tags: ['events', 'run-of-show', 'vendor-management', 'logistics', 'hospitality']
 difficulty: advanced
 summary: "How an expert event planner thinks: backward from a fixed date along the critical path, with Plan B baked into Plan A and the client's emotions managed as carefully as the timeline."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "hotel-manager", type: "collaboration", note: "controls the venue, F&B, and rooms the event depends on" }
-  - { slug: "chef", type: "collaboration", note: "drives catering timing and kitchen fire-time constraints" }
-  - { slug: "project-manager", type: "related", note: "shares critical-path and stakeholder-management toolkit" }
-  - { slug: "logistics-coordinator", type: "adjacent", note: "overlapping discipline for load-in, transport, and supply timing" }
-  - { slug: "sommelier", type: "collaboration", note: "partners on beverage programs for upscale events" }
-  - { slug: "operations-manager", type: "related", note: "running live, time-bound operations with vendors and staff" }
-specializations: ["wedding-planner", "corporate-event-producer", "conference-organizer"]
+  - {
+      slug: 'hotel-manager',
+      type: 'collaboration',
+      note: 'controls the venue, F&B, and rooms the event depends on',
+    }
+  - {
+      slug: 'chef',
+      type: 'collaboration',
+      note: 'drives catering timing and kitchen fire-time constraints',
+    }
+  - {
+      slug: 'project-manager',
+      type: 'related',
+      note: 'shares critical-path and stakeholder-management toolkit',
+    }
+  - {
+      slug: 'logistics-coordinator',
+      type: 'adjacent',
+      note: 'overlapping discipline for load-in, transport, and supply timing',
+    }
+  - {
+      slug: 'sommelier',
+      type: 'collaboration',
+      note: 'partners on beverage programs for upscale events',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'running live, time-bound operations with vendors and staff',
+    }
+specializations: ['wedding-planner', 'corporate-event-producer', 'conference-organizer']
 country_variants: []
 sources:
-  - { title: "The Business of Event Planning (Judy Allen)", kind: "book" }
+  - { title: 'The Business of Event Planning (Judy Allen)', kind: 'book' }
 status: stable

@@ -1,10 +1,10 @@
-title: "Ship Captain"
-slug: "ship-captain"
+title: 'Ship Captain'
+slug: 'ship-captain'
 aliases:
-  - "Master Mariner"
+  - 'Master Mariner'
   - "Ship's Master"
-  - "Sea Captain"
-category: "Transportation"
+  - 'Sea Captain'
+category: 'Transportation'
 tags:
   - maritime
   - safety-critical
@@ -12,25 +12,51 @@ tags:
   - command
   - seamanship
 difficulty: expert
-summary: "Bears personal overriding authority for a vessel, planning every passage berth to berth and applying the rules of the road to protect life, ship, and cargo over schedule."
+summary: 'Bears personal overriding authority for a vessel, planning every passage berth to berth and applying the rules of the road to protect life, ship, and cargo over schedule.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "commercial-pilot", type: "related", note: "same priority of life over schedule and crew-resource-management discipline" }
-  - { slug: "air-traffic-controller", type: "related", note: "analogous separation and right-of-way rules in another domain" }
-  - { slug: "commercial-fisher", type: "adjacent", note: "works the same waters under harsher economics" }
-  - { slug: "logistics-coordinator", type: "collaboration", note: "connects the voyage to the wider chain of cargo and schedule" }
-  - { slug: "truck-driver", type: "adjacent", note: "another solo-command transport role under schedule pressure" }
+  - {
+      slug: 'commercial-pilot',
+      type: 'related',
+      note: 'same priority of life over schedule and crew-resource-management discipline',
+    }
+  - {
+      slug: 'air-traffic-controller',
+      type: 'related',
+      note: 'analogous separation and right-of-way rules in another domain',
+    }
+  - {
+      slug: 'commercial-fisher',
+      type: 'adjacent',
+      note: 'works the same waters under harsher economics',
+    }
+  - {
+      slug: 'logistics-coordinator',
+      type: 'collaboration',
+      note: 'connects the voyage to the wider chain of cargo and schedule',
+    }
+  - {
+      slug: 'truck-driver',
+      type: 'adjacent',
+      note: 'another solo-command transport role under schedule pressure',
+    }
 specializations:
-  - "Tanker Master"
-  - "Container Ship Master"
-  - "Cruise Ship Captain"
+  - 'Tanker Master'
+  - 'Container Ship Master'
+  - 'Cruise Ship Captain'
 country_variants: []
 sources:
-  - { title: "COLREGs (International Regulations for Preventing Collisions at Sea, 1972)", kind: "standard" }
-  - { title: "STCW Convention (Standards of Training, Certification and Watchkeeping)", kind: "standard" }
-  - { title: "Bridge Team Management (The Nautical Institute)", kind: "book" }
+  - {
+      title: 'COLREGs (International Regulations for Preventing Collisions at Sea, 1972)',
+      kind: 'standard',
+    }
+  - {
+      title: 'STCW Convention (Standards of Training, Certification and Watchkeeping)',
+      kind: 'standard',
+    }
+  - { title: 'Bridge Team Management (The Nautical Institute)', kind: 'book' }
 status: stable

@@ -1,10 +1,10 @@
-title: "Librarian"
-slug: "librarian"
+title: 'Librarian'
+slug: 'librarian'
 aliases:
-  - "Information Specialist"
-  - "Reference Librarian"
-  - "Information Professional"
-category: "Education"
+  - 'Information Specialist'
+  - 'Reference Librarian'
+  - 'Information Professional'
+category: 'Education'
 tags:
   - libraries
   - information-literacy
@@ -12,26 +12,46 @@ tags:
   - intellectual-freedom
   - reference
 difficulty: intermediate
-summary: "Connects people with information through the reference interview and disciplined search, while stewarding findable collections and guarding intellectual freedom and patron privacy."
+summary: 'Connects people with information through the reference interview and disciplined search, while stewarding findable collections and guarding intellectual freedom and patron privacy.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "technical-writer", type: "adjacent", note: "organizes and presents information for findability, like cataloging, but authors it" }
-  - { slug: "teacher", type: "collaboration", note: "both teach information literacy; the librarian across no fixed curriculum" }
-  - { slug: "ux-researcher", type: "related", note: "the reference interview is a cousin of the research interview into real needs" }
-  - { slug: "research-scientist", type: "collaboration", note: "expert patron whose literature searches the librarian enables and teaches" }
-  - { slug: "school-counselor", type: "adjacent", note: "fellow non-teaching support professional inside the school building" }
+  - {
+      slug: 'technical-writer',
+      type: 'adjacent',
+      note: 'organizes and presents information for findability, like cataloging, but authors it',
+    }
+  - {
+      slug: 'teacher',
+      type: 'collaboration',
+      note: 'both teach information literacy; the librarian across no fixed curriculum',
+    }
+  - {
+      slug: 'ux-researcher',
+      type: 'related',
+      note: 'the reference interview is a cousin of the research interview into real needs',
+    }
+  - {
+      slug: 'research-scientist',
+      type: 'collaboration',
+      note: 'expert patron whose literature searches the librarian enables and teaches',
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'adjacent',
+      note: 'fellow non-teaching support professional inside the school building',
+    }
 specializations:
-  - "Reference Librarian"
-  - "Cataloger / Metadata Librarian"
-  - "Academic Librarian"
-  - "Public Librarian"
+  - 'Reference Librarian'
+  - 'Cataloger / Metadata Librarian'
+  - 'Academic Librarian'
+  - 'Public Librarian'
 country_variants: []
 sources:
-  - { title: "ALA Code of Ethics and Library Bill of Rights", kind: "standard" }
-  - { title: "ACRL Framework for Information Literacy", kind: "standard" }
-  - { title: "Introduction to Cataloging and Classification", kind: "book" }
+  - { title: 'ALA Code of Ethics and Library Bill of Rights', kind: 'standard' }
+  - { title: 'ACRL Framework for Information Literacy', kind: 'standard' }
+  - { title: 'Introduction to Cataloging and Classification', kind: 'book' }
 status: stable

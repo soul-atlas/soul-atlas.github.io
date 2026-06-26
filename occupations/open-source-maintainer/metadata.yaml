@@ -1,10 +1,10 @@
-title: "Open Source Maintainer"
-slug: "open-source-maintainer"
+title: 'Open Source Maintainer'
+slug: 'open-source-maintainer'
 aliases:
-  - "Project Maintainer"
-  - "OSS Maintainer"
-  - "Repository Maintainer"
-category: "Life Roles"
+  - 'Project Maintainer'
+  - 'OSS Maintainer'
+  - 'Repository Maintainer'
+category: 'Life Roles'
 tags:
   - open-source
   - stewardship
@@ -12,27 +12,47 @@ tags:
   - governance
   - maintenance
 difficulty: advanced
-summary: "Stewards a software commons by saying no more than yes, treating every merge as a forever liability, and guarding scope, trust, and their own attention against burnout."
+summary: 'Stewards a software commons by saying no more than yes, treating every merge as a forever liability, and guarding scope, trust, and their own attention against burnout.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "software-engineer", type: "prerequisite", note: "the craft beneath maintaining; maintainer inverts its priorities toward saying no" }
-  - { slug: "security-engineer", type: "collaboration", note: "partner in responsible disclosure and supply-chain defense" }
-  - { slug: "technical-writer", type: "adjacent", note: "the docs and CONTRIBUTING file are the maintainer's real product" }
-  - { slug: "community-organizer", type: "adjacent", note: "shares building and protecting a volunteer community" }
-  - { slug: "engineering-manager", type: "related", note: "faces the same delegation and bus-factor problems inside a company" }
-  - { slug: "mentor", type: "related", note: "shares the long game of growing successors" }
+  - {
+      slug: 'software-engineer',
+      type: 'prerequisite',
+      note: 'the craft beneath maintaining; maintainer inverts its priorities toward saying no',
+    }
+  - {
+      slug: 'security-engineer',
+      type: 'collaboration',
+      note: 'partner in responsible disclosure and supply-chain defense',
+    }
+  - {
+      slug: 'technical-writer',
+      type: 'adjacent',
+      note: "the docs and CONTRIBUTING file are the maintainer's real product",
+    }
+  - {
+      slug: 'community-organizer',
+      type: 'adjacent',
+      note: 'shares building and protecting a volunteer community',
+    }
+  - {
+      slug: 'engineering-manager',
+      type: 'related',
+      note: 'faces the same delegation and bus-factor problems inside a company',
+    }
+  - { slug: 'mentor', type: 'related', note: 'shares the long game of growing successors' }
 specializations:
-  - "Linux Kernel Maintainer"
-  - "Package Registry Maintainer"
-  - "Foundation Project Lead"
+  - 'Linux Kernel Maintainer'
+  - 'Package Registry Maintainer'
+  - 'Foundation Project Lead'
 country_variants: []
 sources:
-  - { title: "Working in Public: The Making and Maintenance of Open Source Software", kind: "book" }
-  - { title: "Producing Open Source Software", kind: "book" }
-  - { title: "The Cathedral and the Bazaar", kind: "book" }
-  - { title: "Semantic Versioning Specification", url: "https://semver.org/", kind: "standard" }
+  - { title: 'Working in Public: The Making and Maintenance of Open Source Software', kind: 'book' }
+  - { title: 'Producing Open Source Software', kind: 'book' }
+  - { title: 'The Cathedral and the Bazaar', kind: 'book' }
+  - { title: 'Semantic Versioning Specification', url: 'https://semver.org/', kind: 'standard' }
 status: stable

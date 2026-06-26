@@ -1,10 +1,10 @@
-title: "Embedded Systems Engineer"
-slug: "embedded-systems-engineer"
+title: 'Embedded Systems Engineer'
+slug: 'embedded-systems-engineer'
 aliases:
-  - "Firmware Engineer"
-  - "Embedded Software Engineer"
-  - "Firmware Developer"
-category: "Technology"
+  - 'Firmware Engineer'
+  - 'Embedded Software Engineer'
+  - 'Firmware Developer'
+category: 'Technology'
 tags:
   - firmware
   - embedded
@@ -12,27 +12,51 @@ tags:
   - microcontrollers
   - rtos
 difficulty: expert
-summary: "Makes resource-starved silicon meet hard real-time and reliability requirements deterministically, debugging with a scope where there is no printf, and failing safe when hardware misbehaves."
+summary: 'Makes resource-starved silicon meet hard real-time and reliability requirements deterministically, debugging with a scope where there is no printf, and failing safe when hardware misbehaves.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "software-engineer", type: "prerequisite", note: "software engineering pressed against the wall of physics and timing" }
-  - { slug: "electrical-engineer", type: "collaboration", note: "co-designs the board the firmware runs on" }
-  - { slug: "robotics-engineer", type: "adjacent", note: "builds real-time control on the same class of hardware" }
-  - { slug: "mobile-developer", type: "adjacent", note: "shares discipline of tight power and memory budgets one layer up" }
-  - { slug: "aerospace-engineer", type: "collaboration", note: "defines the physical, safety-critical system the firmware commands" }
-  - { slug: "site-reliability-engineer", type: "adjacent", note: "shares the obsession with safe failure and recovery" }
+  - {
+      slug: 'software-engineer',
+      type: 'prerequisite',
+      note: 'software engineering pressed against the wall of physics and timing',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'collaboration',
+      note: 'co-designs the board the firmware runs on',
+    }
+  - {
+      slug: 'robotics-engineer',
+      type: 'adjacent',
+      note: 'builds real-time control on the same class of hardware',
+    }
+  - {
+      slug: 'mobile-developer',
+      type: 'adjacent',
+      note: 'shares discipline of tight power and memory budgets one layer up',
+    }
+  - {
+      slug: 'aerospace-engineer',
+      type: 'collaboration',
+      note: 'defines the physical, safety-critical system the firmware commands',
+    }
+  - {
+      slug: 'site-reliability-engineer',
+      type: 'adjacent',
+      note: 'shares the obsession with safe failure and recovery',
+    }
 specializations:
-  - "RTOS / Real-Time Engineer"
-  - "Driver / BSP Developer"
-  - "Safety-Critical Firmware Engineer"
-  - "IoT / Connected Device Engineer"
+  - 'RTOS / Real-Time Engineer'
+  - 'Driver / BSP Developer'
+  - 'Safety-Critical Firmware Engineer'
+  - 'IoT / Connected Device Engineer'
 country_variants: []
 sources:
-  - { title: "Making Embedded Systems", kind: "book" }
-  - { title: "Programming Embedded Systems", kind: "book" }
-  - { title: "MISRA C Guidelines", kind: "standard" }
+  - { title: 'Making Embedded Systems', kind: 'book' }
+  - { title: 'Programming Embedded Systems', kind: 'book' }
+  - { title: 'MISRA C Guidelines', kind: 'standard' }
 status: stable

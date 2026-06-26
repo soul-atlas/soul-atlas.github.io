@@ -225,7 +225,6 @@ intellectual: report the evidence that contradicts the desired conclusion as
 plainly as the evidence that supports it — the rocks do not care what the client
 hoped to find.
 
-
 ## Scenarios
 
 **An anomalous date.** A U-Pb zircon analysis returns an age far younger than the

@@ -1,10 +1,10 @@
-title: "Forester"
-slug: "forester"
+title: 'Forester'
+slug: 'forester'
 aliases:
-  - "Silviculturist"
-  - "Forest Manager"
-  - "Woodland Manager"
-category: "Agriculture"
+  - 'Silviculturist'
+  - 'Forest Manager'
+  - 'Woodland Manager'
+category: 'Agriculture'
 tags:
   - forestry
   - silviculture
@@ -12,25 +12,45 @@ tags:
   - land-management
   - conservation
 difficulty: advanced
-summary: "Thinks in rotations of decades, deciding what to cut, grow, and leave so the forest sustains its yield, health, and watershed long after the decision is made."
+summary: 'Thinks in rotations of decades, deciding what to cut, grow, and leave so the forest sustains its yield, health, and watershed long after the decision is made.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "agronomist", type: "adjacent", note: "shares soil-plant-climate reasoning on an annual crop rather than a decades-long one" }
-  - { slug: "biologist", type: "related", note: "supplies the habitat and forest-health science the forester acts on" }
-  - { slug: "environmental-engineer", type: "adjacent", note: "shares watershed protection and erosion-control concerns" }
-  - { slug: "civil-engineer", type: "collaboration", note: "designs forest roads, drainage, and stream crossings on the harvest" }
-  - { slug: "sustainability-manager", type: "related", note: "overlaps on carbon, conservation, and long-term land stewardship" }
+  - {
+      slug: 'agronomist',
+      type: 'adjacent',
+      note: 'shares soil-plant-climate reasoning on an annual crop rather than a decades-long one',
+    }
+  - {
+      slug: 'biologist',
+      type: 'related',
+      note: 'supplies the habitat and forest-health science the forester acts on',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'adjacent',
+      note: 'shares watershed protection and erosion-control concerns',
+    }
+  - {
+      slug: 'civil-engineer',
+      type: 'collaboration',
+      note: 'designs forest roads, drainage, and stream crossings on the harvest',
+    }
+  - {
+      slug: 'sustainability-manager',
+      type: 'related',
+      note: 'overlaps on carbon, conservation, and long-term land stewardship',
+    }
 specializations:
-  - "Silviculturist"
-  - "Urban Forester"
-  - "Fire / Fuels Management Forester"
+  - 'Silviculturist'
+  - 'Urban Forester'
+  - 'Fire / Fuels Management Forester'
 country_variants: []
 sources:
-  - { title: "The Practice of Silviculture: Applied Forest Ecology", kind: "book" }
-  - { title: "Forest Mensuration", kind: "book" }
-  - { title: "Forest Management: To Sustain Ecological, Economic, and Social Values", kind: "book" }
+  - { title: 'The Practice of Silviculture: Applied Forest Ecology', kind: 'book' }
+  - { title: 'Forest Mensuration', kind: 'book' }
+  - { title: 'Forest Management: To Sustain Ecological, Economic, and Social Values', kind: 'book' }
 status: stable

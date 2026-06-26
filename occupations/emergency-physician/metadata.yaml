@@ -46,7 +46,7 @@ country_variants:
   - region: A&E Consultant (UK)
     note: A&E Consultant (UK)
 sources:
-  - title: 'Rosen''s Emergency Medicine: Concepts and Clinical Practice'
+  - title: "Rosen's Emergency Medicine: Concepts and Clinical Practice"
     kind: book
   - title: Tintinalli's Emergency Medicine
     kind: book

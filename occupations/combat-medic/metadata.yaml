@@ -1,10 +1,10 @@
-title: "Combat Medic"
-slug: "combat-medic"
+title: 'Combat Medic'
+slug: 'combat-medic'
 aliases:
-  - "Medic"
-  - "Tactical Medic"
-  - "Healthcare Specialist"
-category: "Military"
+  - 'Medic'
+  - 'Tactical Medic'
+  - 'Healthcare Specialist'
+category: 'Military'
 tags:
   - trauma
   - tccc
@@ -14,22 +14,42 @@ tags:
 difficulty: advanced
 summary: "Keeps wounded soldiers alive at the point of injury under fire, treating the few causes of preventable death in the right order while balancing the casualty, the mission, and the medic's own survival."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "paramedic", type: "related", note: "shares trauma-first hemorrhage-control medicine, here under fire" }
-  - { slug: "emergency-physician", type: "collaboration", note: "receiving clinician whose trauma resuscitation the field care feeds" }
-  - { slug: "infantry-officer", type: "collaboration", note: "commander whose mission and tactics frame every medical choice" }
-  - { slug: "logistics-officer", type: "collaboration", note: "keeps the medical supply and evacuation chain moving" }
-  - { slug: "surgeon", type: "adjacent", note: "the definitive trauma care the medic buys time to reach" }
+  - {
+      slug: 'paramedic',
+      type: 'related',
+      note: 'shares trauma-first hemorrhage-control medicine, here under fire',
+    }
+  - {
+      slug: 'emergency-physician',
+      type: 'collaboration',
+      note: 'receiving clinician whose trauma resuscitation the field care feeds',
+    }
+  - {
+      slug: 'infantry-officer',
+      type: 'collaboration',
+      note: 'commander whose mission and tactics frame every medical choice',
+    }
+  - {
+      slug: 'logistics-officer',
+      type: 'collaboration',
+      note: 'keeps the medical supply and evacuation chain moving',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'adjacent',
+      note: 'the definitive trauma care the medic buys time to reach',
+    }
 specializations:
-  - "Flight Medic"
-  - "Special Operations Combat Medic"
-  - "Tactical Paramedic"
+  - 'Flight Medic'
+  - 'Special Operations Combat Medic'
+  - 'Tactical Paramedic'
 country_variants: []
 sources:
-  - { title: "Tactical Combat Casualty Care (TCCC) Guidelines", kind: "standard" }
-  - { title: "Emergency War Surgery (U.S. DoD)", kind: "book" }
+  - { title: 'Tactical Combat Casualty Care (TCCC) Guidelines', kind: 'standard' }
+  - { title: 'Emergency War Surgery (U.S. DoD)', kind: 'book' }
 status: stable

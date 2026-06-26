@@ -1,11 +1,11 @@
-title: "Sound Engineer"
-slug: "sound-engineer"
+title: 'Sound Engineer'
+slug: 'sound-engineer'
 aliases:
-  - "Audio Engineer"
-  - "Mixing Engineer"
-  - "Recording Engineer"
-  - "FOH Engineer"
-category: "Entertainment"
+  - 'Audio Engineer'
+  - 'Mixing Engineer'
+  - 'Recording Engineer'
+  - 'FOH Engineer'
+category: 'Entertainment'
 tags:
   - audio
   - mixing
@@ -13,27 +13,51 @@ tags:
   - live-sound
   - acoustics
 difficulty: advanced
-summary: "Shapes air pressure into emotion by capturing it right at the source and carving frequency space so every element is heard, deciding by ear over meter."
+summary: 'Shapes air pressure into emotion by capturing it right at the source and carving frequency space so every element is heard, deciding by ear over meter.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "musician", type: "collaboration", note: "the source and the artistic intent the engineer serves" }
-  - { slug: "film-editor", type: "adjacent", note: "shapes pacing and emotion in a parallel medium" }
-  - { slug: "voice-actor", type: "collaboration", note: "a performer the engineer captures and presents" }
-  - { slug: "broadcast-journalist", type: "collaboration", note: "relies on the engineer for clean, intelligible audio" }
-  - { slug: "electrical-engineer", type: "prerequisite", note: "underlies the physics of signal flow and acoustics" }
-  - { slug: "film-director", type: "related", note: "shares the goal of serving an overarching vision through craft" }
+  - {
+      slug: 'musician',
+      type: 'collaboration',
+      note: 'the source and the artistic intent the engineer serves',
+    }
+  - {
+      slug: 'film-editor',
+      type: 'adjacent',
+      note: 'shapes pacing and emotion in a parallel medium',
+    }
+  - {
+      slug: 'voice-actor',
+      type: 'collaboration',
+      note: 'a performer the engineer captures and presents',
+    }
+  - {
+      slug: 'broadcast-journalist',
+      type: 'collaboration',
+      note: 'relies on the engineer for clean, intelligible audio',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'prerequisite',
+      note: 'underlies the physics of signal flow and acoustics',
+    }
+  - {
+      slug: 'film-director',
+      type: 'related',
+      note: 'shares the goal of serving an overarching vision through craft',
+    }
 specializations:
-  - "Mixing Engineer"
-  - "Mastering Engineer"
-  - "Live Sound / FOH Engineer"
-  - "Monitor Engineer"
+  - 'Mixing Engineer'
+  - 'Mastering Engineer'
+  - 'Live Sound / FOH Engineer'
+  - 'Monitor Engineer'
 country_variants: []
 sources:
-  - { title: "The Mixing Engineer's Handbook", kind: "book" }
-  - { title: "Mixing Secrets for the Small Studio", kind: "book" }
-  - { title: "Mastering Audio: The Art and the Science", kind: "book" }
+  - { title: "The Mixing Engineer's Handbook", kind: 'book' }
+  - { title: 'Mixing Secrets for the Small Studio', kind: 'book' }
+  - { title: 'Mastering Audio: The Art and the Science', kind: 'book' }
 status: stable

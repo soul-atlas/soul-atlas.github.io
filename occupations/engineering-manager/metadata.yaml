@@ -1,23 +1,54 @@
-title: "Engineering Manager"
-slug: "engineering-manager"
-aliases: ["EM", "Software Engineering Manager", "Dev Team Lead", "Development Manager"]
-category: "Business"
-tags: ["engineering-management", "people-leadership", "software-delivery", "team-building", "tech-leadership"]
+title: 'Engineering Manager'
+slug: 'engineering-manager'
+aliases: ['EM', 'Software Engineering Manager', 'Dev Team Lead', 'Development Manager']
+category: 'Business'
+tags:
+  [
+    'engineering-management',
+    'people-leadership',
+    'software-delivery',
+    'team-building',
+    'tech-leadership',
+  ]
 difficulty: advanced
 summary: "How an excellent engineering manager thinks: as a force multiplier balancing delivery, people, and direction so the team's output exceeds the sum of its individuals."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "software-engineer", type: "progression", note: "the IC role this management track most often grows from and collaborates with daily" }
-  - { slug: "product-manager", type: "collaboration", note: "co-owns roadmap and scope, negotiating feasibility against value" }
-  - { slug: "project-manager", type: "adjacent", note: "shares delivery coordination and dependency management" }
-  - { slug: "operations-manager", type: "related", note: "shares team throughput, process, and people-leadership concerns" }
-  - { slug: "human-resources-manager", type: "collaboration", note: "partners on hiring, performance management, and compensation" }
-  - { slug: "site-reliability-engineer", type: "related", note: "shares SLOs, on-call, and operational-health responsibility" }
-specializations: ["director-of-engineering", "platform-engineering-manager", "frontline-team-lead"]
+  - {
+      slug: 'software-engineer',
+      type: 'progression',
+      note: 'the IC role this management track most often grows from and collaborates with daily',
+    }
+  - {
+      slug: 'product-manager',
+      type: 'collaboration',
+      note: 'co-owns roadmap and scope, negotiating feasibility against value',
+    }
+  - {
+      slug: 'project-manager',
+      type: 'adjacent',
+      note: 'shares delivery coordination and dependency management',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'shares team throughput, process, and people-leadership concerns',
+    }
+  - {
+      slug: 'human-resources-manager',
+      type: 'collaboration',
+      note: 'partners on hiring, performance management, and compensation',
+    }
+  - {
+      slug: 'site-reliability-engineer',
+      type: 'related',
+      note: 'shares SLOs, on-call, and operational-health responsibility',
+    }
+specializations: ['director-of-engineering', 'platform-engineering-manager', 'frontline-team-lead']
 country_variants: []
 sources:
-  - { title: "The Manager's Path (Camille Fournier)", kind: "book" }
+  - { title: "The Manager's Path (Camille Fournier)", kind: 'book' }
 status: stable

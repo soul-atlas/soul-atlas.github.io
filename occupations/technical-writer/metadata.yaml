@@ -1,11 +1,11 @@
-title: "Technical Writer"
-slug: "technical-writer"
+title: 'Technical Writer'
+slug: 'technical-writer'
 aliases:
-  - "Documentation Engineer"
-  - "Technical Communicator"
-  - "Docs Writer"
-  - "Information Developer"
-category: "Technology"
+  - 'Documentation Engineer'
+  - 'Technical Communicator'
+  - 'Docs Writer'
+  - 'Information Developer'
+category: 'Technology'
 tags:
   - documentation
   - docs-as-code
@@ -15,24 +15,48 @@ tags:
 difficulty: advanced
 summary: "Stands in for the absent expert: anticipates a stranger's question and answers it in the fewest words, keeping it true as the product changes underneath."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "software-engineer", type: "collaboration", note: "primary source of facts and co-author through docs-as-code" }
-  - { slug: "ux-designer", type: "adjacent", note: "owns in-product text and flows to the writer's surrounding docs" }
-  - { slug: "instructional-designer", type: "adjacent", note: "shares learning-design lens but builds courses, not reference" }
-  - { slug: "ux-researcher", type: "related", note: "shares discipline of studying what real users actually do" }
-  - { slug: "writer", type: "related", note: "shares prose craft without the accuracy and versioning constraints" }
-  - { slug: "prompt-engineer", type: "adjacent", note: "both engineer precise instructions read by a literal audience" }
+  - {
+      slug: 'software-engineer',
+      type: 'collaboration',
+      note: 'primary source of facts and co-author through docs-as-code',
+    }
+  - {
+      slug: 'ux-designer',
+      type: 'adjacent',
+      note: "owns in-product text and flows to the writer's surrounding docs",
+    }
+  - {
+      slug: 'instructional-designer',
+      type: 'adjacent',
+      note: 'shares learning-design lens but builds courses, not reference',
+    }
+  - {
+      slug: 'ux-researcher',
+      type: 'related',
+      note: 'shares discipline of studying what real users actually do',
+    }
+  - {
+      slug: 'writer',
+      type: 'related',
+      note: 'shares prose craft without the accuracy and versioning constraints',
+    }
+  - {
+      slug: 'prompt-engineer',
+      type: 'adjacent',
+      note: 'both engineer precise instructions read by a literal audience',
+    }
 specializations:
-  - "API Documentation Specialist"
-  - "Developer Advocate"
-  - "Content Strategist"
+  - 'API Documentation Specialist'
+  - 'Developer Advocate'
+  - 'Content Strategist'
 country_variants: []
 sources:
-  - { title: "Developing Quality Technical Information", kind: "book" }
-  - { title: "The Nurnberg Funnel", kind: "book" }
-  - { title: "Diataxis Framework", url: "https://diataxis.fr/", kind: "standard" }
+  - { title: 'Developing Quality Technical Information', kind: 'book' }
+  - { title: 'The Nurnberg Funnel', kind: 'book' }
+  - { title: 'Diataxis Framework', url: 'https://diataxis.fr/', kind: 'standard' }
 status: stable

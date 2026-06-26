@@ -1,10 +1,10 @@
-title: "Structural Engineer"
-slug: "structural-engineer"
+title: 'Structural Engineer'
+slug: 'structural-engineer'
 aliases:
-  - "Structural Design Engineer"
-  - "Building Engineer"
-  - "Structures Engineer"
-category: "Engineering"
+  - 'Structural Design Engineer'
+  - 'Building Engineer'
+  - 'Structures Engineer'
+category: 'Engineering'
 tags:
   - structures
   - load-path
@@ -12,26 +12,46 @@ tags:
   - connections
   - building-codes
 difficulty: advanced
-summary: "Designs the load-carrying skeleton so every load reaches the ground through a redundant, ductile path with code margins against collapse and extreme events."
+summary: 'Designs the load-carrying skeleton so every load reaches the ground through a redundant, ductile path with code margins against collapse and extreme events.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "civil-engineer", type: "prerequisite", note: "the broader public-works discipline structural specializes within" }
-  - { slug: "architect", type: "collaboration", note: "owns the form the structure realizes and holds up" }
-  - { slug: "mechanical-engineer", type: "adjacent", note: "shares stress and dynamics analysis applied to machinery" }
-  - { slug: "aerospace-engineer", type: "adjacent", note: "applies the same margin philosophy to flight vehicles" }
-  - { slug: "mason", type: "collaboration", note: "builds what the structural drawings specify" }
-  - { slug: "geologist", type: "adjacent", note: "characterizes the ground the structure founds on" }
+  - {
+      slug: 'civil-engineer',
+      type: 'prerequisite',
+      note: 'the broader public-works discipline structural specializes within',
+    }
+  - {
+      slug: 'architect',
+      type: 'collaboration',
+      note: 'owns the form the structure realizes and holds up',
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'adjacent',
+      note: 'shares stress and dynamics analysis applied to machinery',
+    }
+  - {
+      slug: 'aerospace-engineer',
+      type: 'adjacent',
+      note: 'applies the same margin philosophy to flight vehicles',
+    }
+  - { slug: 'mason', type: 'collaboration', note: 'builds what the structural drawings specify' }
+  - {
+      slug: 'geologist',
+      type: 'adjacent',
+      note: 'characterizes the ground the structure founds on',
+    }
 specializations:
-  - "Seismic Engineer"
-  - "Bridge Engineer"
-  - "Forensic Structural Engineer"
-  - "Façade Engineer"
+  - 'Seismic Engineer'
+  - 'Bridge Engineer'
+  - 'Forensic Structural Engineer'
+  - 'Façade Engineer'
 country_variants: []
 sources:
-  - { title: "ASCE 7 Minimum Design Loads", kind: "standard" }
-  - { title: "AISC Steel Construction Manual", kind: "book" }
+  - { title: 'ASCE 7 Minimum Design Loads', kind: 'standard' }
+  - { title: 'AISC Steel Construction Manual', kind: 'book' }
 status: stable

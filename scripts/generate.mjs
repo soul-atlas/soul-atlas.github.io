@@ -159,10 +159,18 @@ for (const s of corpus.souls) {
   const fm = `---\n${yaml.dump(s.metadata).trim()}\n---\n\n`;
   const bodyMd = `# ${s.title}\n\n${s.sections.map((sec) => `## ${sec.heading}\n\n${sec.markdown}`).join('\n\n')}\n`;
   writeText(path.join(PUBLIC_API_SOULS_DIR, `${s.slug}.md`), fm + bodyMd);
-  writeText(path.join(PUBLIC_API_SOULS_DIR, `${s.slug}.yaml`), yaml.dump({ ...s.metadata, sections: s.sections.map((x) => ({ heading: x.heading, markdown: x.markdown })) }));
+  writeText(
+    path.join(PUBLIC_API_SOULS_DIR, `${s.slug}.yaml`),
+    yaml.dump({
+      ...s.metadata,
+      sections: s.sections.map((x) => ({ heading: x.heading, markdown: x.markdown })),
+    }),
+  );
 }
 
 console.log(`✓ Generated ${corpus.souls.length} occupations in ${Date.now() - t0}ms`);
 if (corpus.danglers.length) {
-  console.log(`  ⚠ ${corpus.danglers.length} dangling references (see /api/stats.json → quality.danglingReferences)`);
+  console.log(
+    `  ⚠ ${corpus.danglers.length} dangling references (see /api/stats.json → quality.danglingReferences)`,
+  );
 }

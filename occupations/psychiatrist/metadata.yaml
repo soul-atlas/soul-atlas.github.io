@@ -1,10 +1,10 @@
-title: "Psychiatrist"
-slug: "psychiatrist"
+title: 'Psychiatrist'
+slug: 'psychiatrist'
 aliases:
-  - "Psychiatric Physician"
-  - "Mental Health Doctor"
-  - "Shrink"
-category: "Healthcare"
+  - 'Psychiatric Physician'
+  - 'Mental Health Doctor'
+  - 'Shrink'
+category: 'Healthcare'
 tags:
   - psychiatry
   - mental-health
@@ -12,26 +12,46 @@ tags:
   - psychopharmacology
   - healthcare
 difficulty: expert
-summary: "Relieves mental suffering by distinguishing the biological, psychological, and social drivers of distress and choosing the treatment that fits the cause and the person, while keeping them safe."
+summary: 'Relieves mental suffering by distinguishing the biological, psychological, and social drivers of distress and choosing the treatment that fits the cause and the person, while keeping them safe.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "physician", type: "specialization", note: "a physician specialized in the brain and behavior, sharing the duty to exclude organic disease" }
-  - { slug: "registered-nurse", type: "collaboration", note: "psychiatric nurses observe the inpatient course and administer treatment" }
-  - { slug: "social-worker", type: "collaboration", note: "addresses the social drivers of mental illness and community care" }
-  - { slug: "pediatrician", type: "collaboration", note: "collaborates on developmental and behavioral conditions of childhood" }
-  - { slug: "pharmacist", type: "collaboration", note: "partners on the interactions and monitoring psychotropic regimens demand" }
+  - {
+      slug: 'physician',
+      type: 'specialization',
+      note: 'a physician specialized in the brain and behavior, sharing the duty to exclude organic disease',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'psychiatric nurses observe the inpatient course and administer treatment',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'addresses the social drivers of mental illness and community care',
+    }
+  - {
+      slug: 'pediatrician',
+      type: 'collaboration',
+      note: 'collaborates on developmental and behavioral conditions of childhood',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'partners on the interactions and monitoring psychotropic regimens demand',
+    }
 specializations:
-  - "Child and Adolescent Psychiatrist"
-  - "Forensic Psychiatrist"
-  - "Addiction Psychiatrist"
-  - "Geriatric Psychiatrist"
+  - 'Child and Adolescent Psychiatrist'
+  - 'Forensic Psychiatrist'
+  - 'Addiction Psychiatrist'
+  - 'Geriatric Psychiatrist'
 country_variants: []
 sources:
-  - { title: "Kaplan & Sadock's Synopsis of Psychiatry", kind: "book" }
-  - { title: "Diagnostic and Statistical Manual of Mental Disorders (DSM-5-TR)", kind: "standard" }
-  - { title: "APA Principles of Medical Ethics for Psychiatry", kind: "standard" }
+  - { title: "Kaplan & Sadock's Synopsis of Psychiatry", kind: 'book' }
+  - { title: 'Diagnostic and Statistical Manual of Mental Disorders (DSM-5-TR)', kind: 'standard' }
+  - { title: 'APA Principles of Medical Ethics for Psychiatry', kind: 'standard' }
 status: stable

@@ -1,24 +1,52 @@
-title: "Industrial Designer"
-slug: "industrial-designer"
-aliases: ["product designer", "ID designer", "consumer product designer"]
-category: "Creative"
-tags: ["industrial-design", "product-design", "design-for-manufacture", "ergonomics", "affordance"]
-difficulty: "expert"
-summary: "How an industrial designer reconciles human need, engineering function, and manufacturing constraint into one buildable, desirable physical form."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+title: 'Industrial Designer'
+slug: 'industrial-designer'
+aliases: ['product designer', 'ID designer', 'consumer product designer']
+category: 'Creative'
+tags: ['industrial-design', 'product-design', 'design-for-manufacture', 'ergonomics', 'affordance']
+difficulty: 'expert'
+summary: 'How an industrial designer reconciles human need, engineering function, and manufacturing constraint into one buildable, desirable physical form.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "mechanical-engineer", type: "collaboration", note: "co-designs internal architecture and validates the structure under the form" }
-  - { slug: "ux-designer", type: "adjacent", note: "extends product design into interaction, especially on connected hardware" }
-  - { slug: "ux-researcher", type: "collaboration", note: "supplies the user evidence the form is designed to" }
-  - { slug: "graphic-designer", type: "related", note: "shared visual-form language and product branding" }
-  - { slug: "architect", type: "related", note: "same human-scale, material, and structural problems at building scale" }
-  - { slug: "fashion-designer", type: "adjacent", note: "same form-function-manufacture triangle in flexible materials" }
-specializations: ["furniture-designer", "automotive-designer", "medical-device-designer", "cmf-designer"]
+  - {
+      slug: 'mechanical-engineer',
+      type: 'collaboration',
+      note: 'co-designs internal architecture and validates the structure under the form',
+    }
+  - {
+      slug: 'ux-designer',
+      type: 'adjacent',
+      note: 'extends product design into interaction, especially on connected hardware',
+    }
+  - {
+      slug: 'ux-researcher',
+      type: 'collaboration',
+      note: 'supplies the user evidence the form is designed to',
+    }
+  - {
+      slug: 'graphic-designer',
+      type: 'related',
+      note: 'shared visual-form language and product branding',
+    }
+  - {
+      slug: 'architect',
+      type: 'related',
+      note: 'same human-scale, material, and structural problems at building scale',
+    }
+  - {
+      slug: 'fashion-designer',
+      type: 'adjacent',
+      note: 'same form-function-manufacture triangle in flexible materials',
+    }
+specializations:
+  ['furniture-designer', 'automotive-designer', 'medical-device-designer', 'cmf-designer']
 country_variants: []
 sources:
-  - { title: "The Design of Everyday Things (Don Norman)", kind: "book" }
-  - { title: "Product Design for Manufacture and Assembly (Boothroyd, Dewhurst & Knight)", kind: "book" }
+  - { title: 'The Design of Everyday Things (Don Norman)', kind: 'book' }
+  - {
+      title: 'Product Design for Manufacture and Assembly (Boothroyd, Dewhurst & Knight)',
+      kind: 'book',
+    }
 status: stable

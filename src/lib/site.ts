@@ -34,7 +34,10 @@ export function tagUrl(tag: string): string {
 }
 
 export function slugifyCat(name: string): string {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
 }
 
 // GitHub deep links for a given occupation.

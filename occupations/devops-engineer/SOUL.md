@@ -238,7 +238,6 @@ so staging matches production, and build a one-command rollback. The first win
 isn't daily deploys; it's making the quarterly deploy boring, after which
 frequency rises on its own.
 
-
 **A 3 a.m. deploy goes bad.** A canary release shows error rates climbing in the
 5% slice it was sent to. Because the pipeline watches the golden signals and the
 deploy was a canary, the automated rollback triggers before the change ever

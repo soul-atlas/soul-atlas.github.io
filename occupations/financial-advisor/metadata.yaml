@@ -1,37 +1,57 @@
-title: "Financial Advisor"
-slug: "financial-advisor"
+title: 'Financial Advisor'
+slug: 'financial-advisor'
 aliases:
-  - "Wealth Manager"
-  - "Financial Planner"
-  - "Investment Advisor"
-category: "Finance"
+  - 'Wealth Manager'
+  - 'Financial Planner'
+  - 'Investment Advisor'
+category: 'Finance'
 tags:
-  - "financial-planning"
-  - "wealth-management"
-  - "retirement"
-  - "behavioral-finance"
-  - "fiduciary"
+  - 'financial-planning'
+  - 'wealth-management'
+  - 'retirement'
+  - 'behavioral-finance'
+  - 'fiduciary'
 difficulty: advanced
-summary: "Thinks goals-first and fiduciary-first: solves allocation backward from liabilities, weighs risk capacity over tolerance, and treats behavior, costs, and taxes as the real levers."
+summary: 'Thinks goals-first and fiduciary-first: solves allocation backward from liabilities, weighs risk capacity over tolerance, and treats behavior, costs, and taxes as the real levers.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 specializations:
-  - "Retirement Planning"
-  - "Tax-Aware Investing"
-  - "Portfolio Construction"
+  - 'Retirement Planning'
+  - 'Tax-Aware Investing'
+  - 'Portfolio Construction'
 country_variants: []
 sources:
-  - title: "A Random Walk Down Wall Street"
+  - title: 'A Random Walk Down Wall Street'
     kind: book
-  - title: "Thinking, Fast and Slow"
+  - title: 'Thinking, Fast and Slow'
     kind: book
 status: stable
 related:
-  - { slug: "financial-analyst", type: "related", note: "values securities the advisor allocates to, but the advisor optimizes for a household's goals" }
-  - { slug: "actuary", type: "adjacent", note: "models longevity and sequence-of-returns risk the advisor plans a retirement around" }
-  - { slug: "accountant", type: "collaboration", note: "coordinates on tax-efficient withdrawals, Roth conversions, and estate planning" }
-  - { slug: "compliance-officer", type: "related", note: "shares and enforces the fiduciary and suitability standards the advisor operates under" }
-  - { slug: "investment-banker", type: "adjacent", note: "another finance role, but transaction-driven where the advisor is relationship- and plan-driven" }
+  - {
+      slug: 'financial-analyst',
+      type: 'related',
+      note: "values securities the advisor allocates to, but the advisor optimizes for a household's goals",
+    }
+  - {
+      slug: 'actuary',
+      type: 'adjacent',
+      note: 'models longevity and sequence-of-returns risk the advisor plans a retirement around',
+    }
+  - {
+      slug: 'accountant',
+      type: 'collaboration',
+      note: 'coordinates on tax-efficient withdrawals, Roth conversions, and estate planning',
+    }
+  - {
+      slug: 'compliance-officer',
+      type: 'related',
+      note: 'shares and enforces the fiduciary and suitability standards the advisor operates under',
+    }
+  - {
+      slug: 'investment-banker',
+      type: 'adjacent',
+      note: 'another finance role, but transaction-driven where the advisor is relationship- and plan-driven',
+    }

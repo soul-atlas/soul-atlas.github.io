@@ -1,10 +1,10 @@
-title: "Teacher"
-slug: "teacher"
+title: 'Teacher'
+slug: 'teacher'
 aliases:
-  - "Educator"
-  - "Schoolteacher"
-  - "Classroom Teacher"
-category: "Education"
+  - 'Educator'
+  - 'Schoolteacher'
+  - 'Classroom Teacher'
+category: 'Education'
 tags:
   - teaching
   - pedagogy
@@ -12,26 +12,46 @@ tags:
   - classroom
   - education
 difficulty: advanced
-summary: "Engineers the conditions under which thirty individual minds actually change what they can think and do, reading errors as data and fading the scaffold."
+summary: 'Engineers the conditions under which thirty individual minds actually change what they can think and do, reading errors as data and fading the scaffold.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "special-education-teacher", type: "specialization", note: "same craft at individualized intensity for diverse learners" }
-  - { slug: "school-counselor", type: "collaboration", note: "handles the social-emotional barriers that block learning" }
-  - { slug: "professor", type: "adjacent", note: "teaches at the disciplinary frontier to adults" }
-  - { slug: "instructional-designer", type: "adjacent", note: "engineers learning without the live classroom" }
-  - { slug: "school-principal", type: "progression", note: "common step from master teacher into school leadership" }
-  - { slug: "mentor", type: "related", note: "one-to-one developmental teaching outside the institution" }
+  - {
+      slug: 'special-education-teacher',
+      type: 'specialization',
+      note: 'same craft at individualized intensity for diverse learners',
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'collaboration',
+      note: 'handles the social-emotional barriers that block learning',
+    }
+  - { slug: 'professor', type: 'adjacent', note: 'teaches at the disciplinary frontier to adults' }
+  - {
+      slug: 'instructional-designer',
+      type: 'adjacent',
+      note: 'engineers learning without the live classroom',
+    }
+  - {
+      slug: 'school-principal',
+      type: 'progression',
+      note: 'common step from master teacher into school leadership',
+    }
+  - {
+      slug: 'mentor',
+      type: 'related',
+      note: 'one-to-one developmental teaching outside the institution',
+    }
 specializations:
-  - "Elementary Teacher"
-  - "Secondary Subject Teacher"
-  - "EAL/ESL Teacher"
+  - 'Elementary Teacher'
+  - 'Secondary Subject Teacher'
+  - 'EAL/ESL Teacher'
 country_variants: []
 sources:
-  - { title: "Understanding by Design", kind: "book" }
-  - { title: "Make It Stick", kind: "book" }
-  - { title: "Visible Learning", kind: "book" }
+  - { title: 'Understanding by Design', kind: 'book' }
+  - { title: 'Make It Stick', kind: 'book' }
+  - { title: 'Visible Learning', kind: 'book' }
 status: stable

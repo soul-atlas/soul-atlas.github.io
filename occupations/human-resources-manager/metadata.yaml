@@ -1,23 +1,40 @@
-title: "Human Resources Manager"
-slug: "human-resources-manager"
-aliases: ["HR Manager", "People Manager", "HR Business Partner"]
-category: "Business"
-tags: ["human-resources", "total-rewards", "performance-management", "employment-law", "talent"]
-difficulty: "advanced"
-summary: "Balances real care for employees with hard accountability, holds fairness and legal compliance as the floor, and builds people systems and psychological safety so trust drives performance."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+title: 'Human Resources Manager'
+slug: 'human-resources-manager'
+aliases: ['HR Manager', 'People Manager', 'HR Business Partner']
+category: 'Business'
+tags: ['human-resources', 'total-rewards', 'performance-management', 'employment-law', 'talent']
+difficulty: 'advanced'
+summary: 'Balances real care for employees with hard accountability, holds fairness and legal compliance as the floor, and builds people systems and psychological safety so trust drives performance.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "operations-manager", type: "collaboration", note: "Coached through hiring and people decisions" }
-  - { slug: "engineering-manager", type: "collaboration", note: "Partners on talent and performance for technical teams" }
-  - { slug: "compliance-officer", type: "adjacent", note: "Shares legal-risk and policy terrain" }
-  - { slug: "social-worker", type: "related", note: "Shares human-relations and confidentiality instincts" }
-  - { slug: "management-consultant", type: "adjacent", note: "Collaborates on org design and change" }
-specializations: ["Talent Acquisition Manager", "Compensation and Benefits Manager", "Employee Relations Manager"]
+  - {
+      slug: 'operations-manager',
+      type: 'collaboration',
+      note: 'Coached through hiring and people decisions',
+    }
+  - {
+      slug: 'engineering-manager',
+      type: 'collaboration',
+      note: 'Partners on talent and performance for technical teams',
+    }
+  - { slug: 'compliance-officer', type: 'adjacent', note: 'Shares legal-risk and policy terrain' }
+  - {
+      slug: 'social-worker',
+      type: 'related',
+      note: 'Shares human-relations and confidentiality instincts',
+    }
+  - {
+      slug: 'management-consultant',
+      type: 'adjacent',
+      note: 'Collaborates on org design and change',
+    }
+specializations:
+  ['Talent Acquisition Manager', 'Compensation and Benefits Manager', 'Employee Relations Manager']
 country_variants: []
 sources:
-  - { title: "The Fearless Organization (Amy Edmondson)", kind: "book" }
-  - { title: "SHRM Body of Competency and Knowledge", kind: "standard" }
+  - { title: 'The Fearless Organization (Amy Edmondson)', kind: 'book' }
+  - { title: 'SHRM Body of Competency and Knowledge', kind: 'standard' }
 status: stable

@@ -1,11 +1,11 @@
-title: "UX Designer"
-slug: "ux-designer"
+title: 'UX Designer'
+slug: 'ux-designer'
 aliases:
-  - "User Experience Designer"
-  - "Interaction Designer"
-  - "Product Designer"
-  - "UX/UI Designer"
-category: "Creative"
+  - 'User Experience Designer'
+  - 'Interaction Designer'
+  - 'Product Designer'
+  - 'UX/UI Designer'
+category: 'Creative'
 tags:
   - user-experience
   - interaction-design
@@ -13,27 +13,51 @@ tags:
   - accessibility
   - human-centered-design
 difficulty: intermediate
-summary: "Closes the gap between what people want to do and what a product makes them do, shaping flow and structure around how minds work and proving it with real users."
+summary: 'Closes the gap between what people want to do and what a product makes them do, shaping flow and structure around how minds work and proving it with real users.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "ux-researcher", type: "collaboration", note: "goes deeper on understanding users and feeds the designer evidence" }
-  - { slug: "product-manager", type: "collaboration", note: "owns the why and what to the designer's how-it-works" }
-  - { slug: "graphic-designer", type: "adjacent", note: "owns the surface aesthetics the UX designer arranges into a usable whole" }
-  - { slug: "frontend-engineer", type: "collaboration", note: "turns designs into living interfaces and owns feasibility constraints" }
-  - { slug: "industrial-designer", type: "related", note: "applies the same human-centered, affordance-driven thinking to physical objects" }
-  - { slug: "game-developer", type: "adjacent", note: "shares the focus on perceived versus actual system behavior" }
+  - {
+      slug: 'ux-researcher',
+      type: 'collaboration',
+      note: 'goes deeper on understanding users and feeds the designer evidence',
+    }
+  - {
+      slug: 'product-manager',
+      type: 'collaboration',
+      note: "owns the why and what to the designer's how-it-works",
+    }
+  - {
+      slug: 'graphic-designer',
+      type: 'adjacent',
+      note: 'owns the surface aesthetics the UX designer arranges into a usable whole',
+    }
+  - {
+      slug: 'frontend-engineer',
+      type: 'collaboration',
+      note: 'turns designs into living interfaces and owns feasibility constraints',
+    }
+  - {
+      slug: 'industrial-designer',
+      type: 'related',
+      note: 'applies the same human-centered, affordance-driven thinking to physical objects',
+    }
+  - {
+      slug: 'game-developer',
+      type: 'adjacent',
+      note: 'shares the focus on perceived versus actual system behavior',
+    }
 specializations:
-  - "Interaction Designer"
-  - "Information Architect"
-  - "Product Designer"
-  - "Accessibility Specialist"
+  - 'Interaction Designer'
+  - 'Information Architect'
+  - 'Product Designer'
+  - 'Accessibility Specialist'
 country_variants: []
 sources:
-  - { title: "The Design of Everyday Things", kind: "book" }
-  - { title: "Don't Make Me Think", kind: "book" }
-  - { title: "About Face: The Essentials of Interaction Design", kind: "book" }
+  - { title: 'The Design of Everyday Things', kind: 'book' }
+  - { title: "Don't Make Me Think", kind: 'book' }
+  - { title: 'About Face: The Essentials of Interaction Design', kind: 'book' }
 status: stable

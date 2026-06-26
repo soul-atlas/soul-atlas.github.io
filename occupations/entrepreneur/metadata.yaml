@@ -1,24 +1,48 @@
-title: "Entrepreneur"
-slug: "entrepreneur"
-aliases: ["Founder", "Startup Founder", "Business Owner"]
-category: "Business"
-tags: ["startup", "product-market-fit", "fundraising", "lean-startup", "strategy"]
+title: 'Entrepreneur'
+slug: 'entrepreneur'
+aliases: ['Founder', 'Startup Founder', 'Business Owner']
+category: 'Business'
+tags: ['startup', 'product-market-fit', 'fundraising', 'lean-startup', 'strategy']
 difficulty: advanced
-summary: "How an excellent founder treats a venture as a search for a repeatable business model under uncertainty, learning faster than they burn and scaling only what is proven."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an excellent founder treats a venture as a search for a repeatable business model under uncertainty, learning faster than they burn and scaling only what is proven.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "product-manager", type: "related", note: "Shares the discovery and prioritization discipline founders rely on" }
-  - { slug: "sales-representative", type: "prerequisite", note: "Founders must sell before they can hire a sales team" }
-  - { slug: "operations-manager", type: "progression", note: "Execution discipline needed as the venture scales" }
-  - { slug: "management-consultant", type: "adjacent", note: "Structured strategy and problem-solving informs venture decisions" }
-  - { slug: "marketing-manager", type: "collaboration", note: "Owns growth and positioning once PMF is found" }
-  - { slug: "engineering-manager", type: "collaboration", note: "Builds the product and team as the company grows" }
-specializations: ["solo-founder", "technical-founder", "serial-entrepreneur", "social-entrepreneur"]
+  - {
+      slug: 'product-manager',
+      type: 'related',
+      note: 'Shares the discovery and prioritization discipline founders rely on',
+    }
+  - {
+      slug: 'sales-representative',
+      type: 'prerequisite',
+      note: 'Founders must sell before they can hire a sales team',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'progression',
+      note: 'Execution discipline needed as the venture scales',
+    }
+  - {
+      slug: 'management-consultant',
+      type: 'adjacent',
+      note: 'Structured strategy and problem-solving informs venture decisions',
+    }
+  - {
+      slug: 'marketing-manager',
+      type: 'collaboration',
+      note: 'Owns growth and positioning once PMF is found',
+    }
+  - {
+      slug: 'engineering-manager',
+      type: 'collaboration',
+      note: 'Builds the product and team as the company grows',
+    }
+specializations: ['solo-founder', 'technical-founder', 'serial-entrepreneur', 'social-entrepreneur']
 country_variants: []
 sources:
-  - { title: "The Lean Startup (Eric Ries)", kind: "book" }
-  - { title: "The Hard Thing About Hard Things (Ben Horowitz)", kind: "book" }
+  - { title: 'The Lean Startup (Eric Ries)', kind: 'book' }
+  - { title: 'The Hard Thing About Hard Things (Ben Horowitz)', kind: 'book' }
 status: stable

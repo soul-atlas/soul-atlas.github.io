@@ -38,20 +38,32 @@ html {
   scroll-padding-top: 5rem;
 }
 @media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
   background: var(--bg);
   color: var(--ink);
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family:
+    'Inter',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
-::selection { background: var(--accent-soft); }
+::selection {
+  background: var(--accent-soft);
+}
 
-a { color: var(--accent); }
+a {
+  color: var(--accent);
+}
 
 /* Focus visibility for keyboard users (WCAG 2.4.7). */
 :focus-visible {
@@ -71,7 +83,9 @@ a { color: var(--accent); }
   border: 1px solid var(--border);
   border-radius: 0.5rem;
 }
-.skip-link:focus { left: 0.5rem; }
+.skip-link:focus {
+  left: 0.5rem;
+}
 
 /* ---------------------------------------------------------------------------
    Prose — the rendered SOUL body. Tuned for long-form reading.
@@ -96,12 +110,27 @@ a { color: var(--accent); }
   margin: 1.8rem 0 0.6rem;
   scroll-margin-top: 5rem;
 }
-.prose p { margin: 0.85rem 0; }
-.prose ul, .prose ol { margin: 0.85rem 0; padding-left: 1.4rem; }
-.prose li { margin: 0.3rem 0; }
-.prose ul { list-style: disc; }
-.prose ol { list-style: decimal; }
-.prose strong { color: var(--ink); font-weight: 660; }
+.prose p {
+  margin: 0.85rem 0;
+}
+.prose ul,
+.prose ol {
+  margin: 0.85rem 0;
+  padding-left: 1.4rem;
+}
+.prose li {
+  margin: 0.3rem 0;
+}
+.prose ul {
+  list-style: disc;
+}
+.prose ol {
+  list-style: decimal;
+}
+.prose strong {
+  color: var(--ink);
+  font-weight: 660;
+}
 .prose code {
   font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
   font-size: 0.86em;
@@ -118,7 +147,11 @@ a { color: var(--accent); }
   overflow-x: auto;
   margin: 1.2rem 0;
 }
-.prose pre code { background: none; border: none; padding: 0; }
+.prose pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
 .prose blockquote {
   border-left: 3px solid var(--accent);
   padding-left: 1rem;
@@ -126,15 +159,39 @@ a { color: var(--accent); }
   font-style: italic;
   margin: 1.2rem 0;
 }
-.prose a { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
-.prose table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; font-size: 0.95rem; }
-.prose th, .prose td { border: 1px solid var(--border); padding: 0.5rem 0.7rem; text-align: left; }
-.prose th { background: var(--bg-soft); font-weight: 640; }
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  font-size: 0.95rem;
+}
+.prose th,
+.prose td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.7rem;
+  text-align: left;
+}
+.prose th {
+  background: var(--bg-soft);
+  font-weight: 640;
+}
 
 /* Anchor link affordance on hover */
 .prose h2:hover .heading-anchor,
-.prose h3:hover .heading-anchor { opacity: 1; }
-.heading-anchor { opacity: 0; transition: opacity 0.15s; text-decoration: none; color: var(--ink-faint); }
+.prose h3:hover .heading-anchor {
+  opacity: 1;
+}
+.heading-anchor {
+  opacity: 0;
+  transition: opacity 0.15s;
+  text-decoration: none;
+  color: var(--ink-faint);
+}
 
 /* ---------------------------------------------------------------------------
    Reusable surface classes
@@ -167,16 +224,31 @@ a { color: var(--accent); }
   color: var(--ink);
   font-size: 0.9rem;
   font-weight: 540;
-  transition: background 0.15s, border-color 0.15s, transform 0.05s;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    transform 0.05s;
 }
-.btn:hover { background: var(--bg-soft); }
-.btn:active { transform: translateY(1px); }
-.btn-accent { background: var(--accent); color: #fff; border-color: var(--accent); }
-.btn-accent:hover { filter: brightness(1.06); background: var(--accent); }
+.btn:hover {
+  background: var(--bg-soft);
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn-accent {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.btn-accent:hover {
+  filter: brightness(1.06);
+  background: var(--accent);
+}
 
 .reading-progress {
   position: fixed;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   height: 3px;
   background: var(--accent);
   width: 0;
@@ -186,7 +258,17 @@ a { color: var(--accent); }
 
 /* print */
 @media print {
-  header, footer, .no-print { display: none !important; }
-  .prose { max-width: none; font-size: 11pt; }
-  a { color: inherit; text-decoration: none; }
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  .prose {
+    max-width: none;
+    font-size: 11pt;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }

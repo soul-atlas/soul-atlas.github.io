@@ -16,7 +16,9 @@ function arg(name) {
 
 const title = arg('title');
 if (!title) {
-  console.error('Usage: npm run new -- --title "Role Name" --category "Category" --summary "…" [--slug]');
+  console.error(
+    'Usage: npm run new -- --title "Role Name" --category "Category" --summary "…" [--slug]',
+  );
   process.exit(1);
 }
 const slug = arg('slug') || slugify(title);

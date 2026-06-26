@@ -1,10 +1,10 @@
-title: "Medical Laboratory Scientist"
-slug: "medical-laboratory-scientist"
+title: 'Medical Laboratory Scientist'
+slug: 'medical-laboratory-scientist'
 aliases:
-  - "Clinical Laboratory Scientist"
-  - "Biomedical Scientist"
-  - "Medical Technologist"
-category: "Healthcare"
+  - 'Clinical Laboratory Scientist'
+  - 'Biomedical Scientist'
+  - 'Medical Technologist'
+category: 'Healthcare'
 tags:
   - diagnostics
   - laboratory
@@ -12,25 +12,45 @@ tags:
   - pathology
   - transfusion
 difficulty: advanced
-summary: "Turns a sample into a number clinicians can trust without seeing the work, guarding the whole chain from vein to report against the artifacts and errors that would make a result lie."
+summary: 'Turns a sample into a number clinicians can trust without seeing the work, guarding the whole chain from vein to report against the artifacts and errors that would make a result lie.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "physician", type: "collaboration", note: "acts on the results and consults on the right test and odd values" }
-  - { slug: "pharmacist", type: "adjacent", note: "relies on the same chemistry values and shares the analytical temperament" }
-  - { slug: "research-scientist", type: "related", note: "shares methodological rigor, controls, and reproducibility" }
-  - { slug: "emergency-physician", type: "collaboration", note: "depends on fast, accurate critical values to act" }
-  - { slug: "registered-nurse", type: "collaboration", note: "sample collection and critical-value communication at the bedside" }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'acts on the results and consults on the right test and odd values',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'adjacent',
+      note: 'relies on the same chemistry values and shares the analytical temperament',
+    }
+  - {
+      slug: 'research-scientist',
+      type: 'related',
+      note: 'shares methodological rigor, controls, and reproducibility',
+    }
+  - {
+      slug: 'emergency-physician',
+      type: 'collaboration',
+      note: 'depends on fast, accurate critical values to act',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'sample collection and critical-value communication at the bedside',
+    }
 specializations:
-  - "Clinical Microbiologist"
-  - "Transfusion Scientist"
-  - "Histopathology Scientist"
-  - "Clinical Chemistry Scientist"
+  - 'Clinical Microbiologist'
+  - 'Transfusion Scientist'
+  - 'Histopathology Scientist'
+  - 'Clinical Chemistry Scientist'
 country_variants: []
 sources:
-  - { title: "Henry's Clinical Diagnosis and Management by Laboratory Methods", kind: "book" }
-  - { title: "Tietz Textbook of Clinical Chemistry and Molecular Diagnostics", kind: "book" }
+  - { title: "Henry's Clinical Diagnosis and Management by Laboratory Methods", kind: 'book' }
+  - { title: 'Tietz Textbook of Clinical Chemistry and Molecular Diagnostics', kind: 'book' }
 status: stable

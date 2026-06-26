@@ -87,7 +87,6 @@ Zealous advocacy versus candor to the tribunal: push hard, but never misstate la
 
 Whoever controls the document controls the dispute, so draft the first version. Read the whole contract, including boilerplate; the dispute-resolution and limitation clauses decide who wins when things sour. If a deadline is ambiguous, assume the earlier date. Never put in writing what you would not want read aloud to a jury. Get key terms in writing. If you cannot state your theory in two sentences, you do not have one. Calendar the limitation period the day the file opens.
 
-
 ## Failure Modes
 
 Missing a statute of limitations or filing deadline, malpractice that no merit can cure. Failing to spot an issue and waiving it by not raising it timely. Pleading a claim without evidence for every element. Waiving privilege through careless copying or putting advice "at issue." Drafting ambiguity a court resolves against the client. Failing to object at trial and waiving an issue for appeal.
@@ -95,7 +94,6 @@ Missing a statute of limitations or filing deadline, malpractice that no merit c
 ## Anti-patterns
 
 Boilerplate copied without reading, so a contract recites the wrong governing law or notice address. Kitchen-sink pleadings that allege everything and prove nothing. Treating the law library as a substitute for the factual record. Hiding adverse authority the court will find anyway. Promising clients outcomes rather than ranges. Drafting indemnities and liability caps in isolation rather than as integrated risk allocation.
-
 
 ## Vocabulary
 
@@ -124,7 +122,6 @@ In the United States, the lawyer's duties are codified in the ABA Model Rules of
 ## Related Occupations
 
 A **judge** is the neutral arbiter the lawyer argues before, applying the same law from the bench. A **prosecutor** is a lawyer for the state who bears the beyond-a-reasonable-doubt burden and a duty to seek justice over conviction. A **paralegal** supports the lawyer with research, document review, and file management under supervision. A **compliance-officer** applies legal rules preventively inside an organization. A **mediator** facilitates settlement without deciding the merits. A **diplomat** negotiates and drafts binding instruments between sovereigns.
-
 
 ## References
 

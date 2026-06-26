@@ -1,11 +1,11 @@
-title: "Actor"
-slug: "actor"
+title: 'Actor'
+slug: 'actor'
 aliases:
-  - "Performer"
-  - "Thespian"
-  - "Screen Actor"
-  - "Stage Actor"
-category: "Entertainment"
+  - 'Performer'
+  - 'Thespian'
+  - 'Screen Actor'
+  - 'Stage Actor'
+category: 'Entertainment'
 tags:
   - acting
   - performance
@@ -15,26 +15,50 @@ tags:
 difficulty: expert
 summary: "Lives truthfully under imaginary circumstances by pursuing a character's objective against an obstacle, playing action not emotion, and listening so the scene happens rather than gets shown."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "voice-actor", type: "specialization", note: "same instrument and truth carried by the voice alone" }
-  - { slug: "film-director", type: "collaboration", note: "owns the whole and gives the adjustment that re-aims a performance" }
-  - { slug: "film-editor", type: "adjacent", note: "decides which take and reaction the audience ever sees" }
-  - { slug: "musician", type: "related", note: "repeats a fixed score while keeping it alive each night" }
-  - { slug: "sound-engineer", type: "collaboration", note: "captures the voice and depends on the actor's consistency" }
-  - { slug: "writer", type: "prerequisite", note: "supplies the text and clues the actor mines for every choice" }
+  - {
+      slug: 'voice-actor',
+      type: 'specialization',
+      note: 'same instrument and truth carried by the voice alone',
+    }
+  - {
+      slug: 'film-director',
+      type: 'collaboration',
+      note: 'owns the whole and gives the adjustment that re-aims a performance',
+    }
+  - {
+      slug: 'film-editor',
+      type: 'adjacent',
+      note: 'decides which take and reaction the audience ever sees',
+    }
+  - {
+      slug: 'musician',
+      type: 'related',
+      note: 'repeats a fixed score while keeping it alive each night',
+    }
+  - {
+      slug: 'sound-engineer',
+      type: 'collaboration',
+      note: "captures the voice and depends on the actor's consistency",
+    }
+  - {
+      slug: 'writer',
+      type: 'prerequisite',
+      note: 'supplies the text and clues the actor mines for every choice',
+    }
 specializations:
-  - "Stage Actor"
-  - "Film and Television Actor"
-  - "Voice and Motion-Capture Actor"
-  - "Musical Theater Performer"
+  - 'Stage Actor'
+  - 'Film and Television Actor'
+  - 'Voice and Motion-Capture Actor'
+  - 'Musical Theater Performer'
 country_variants: []
 sources:
-  - { title: "An Actor Prepares", kind: "book" }
-  - { title: "Sanford Meisner on Acting", kind: "book" }
-  - { title: "Respect for Acting", kind: "book" }
-  - { title: "The Actor and the Target", kind: "book" }
+  - { title: 'An Actor Prepares', kind: 'book' }
+  - { title: 'Sanford Meisner on Acting', kind: 'book' }
+  - { title: 'Respect for Acting', kind: 'book' }
+  - { title: 'The Actor and the Target', kind: 'book' }
 status: stable

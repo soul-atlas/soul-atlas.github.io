@@ -1,10 +1,10 @@
-title: "Network Engineer"
-slug: "network-engineer"
+title: 'Network Engineer'
+slug: 'network-engineer'
 aliases:
-  - "Network Administrator"
-  - "Network Architect"
-  - "NetEng"
-category: "Technology"
+  - 'Network Administrator'
+  - 'Network Architect'
+  - 'NetEng'
+category: 'Technology'
 tags:
   - networking
   - routing
@@ -12,26 +12,46 @@ tags:
   - tcp-ip
   - security
 difficulty: advanced
-summary: "Treats the network as a shared contended resource, troubleshoots bottom-up through the OSI stack, and engineers redundancy and segmentation so a single failure stays local."
+summary: 'Treats the network as a shared contended resource, troubleshoots bottom-up through the OSI stack, and engineers redundancy and segmentation so a single failure stays local.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "site-reliability-engineer", type: "adjacent", note: "shares failure-first instinct, reasons in services rather than packets" }
-  - { slug: "systems-administrator", type: "related", note: "closest operational cousin; network engineering often grows from it" }
-  - { slug: "security-engineer", type: "collaboration", note: "shares segmentation and firewall policy, thinks adversarially" }
-  - { slug: "cloud-architect", type: "adjacent", note: "extends routing and segmentation into virtual overlays" }
-  - { slug: "electrical-engineer", type: "prerequisite", note: "owns the physical layer beneath layer 1" }
+  - {
+      slug: 'site-reliability-engineer',
+      type: 'adjacent',
+      note: 'shares failure-first instinct, reasons in services rather than packets',
+    }
+  - {
+      slug: 'systems-administrator',
+      type: 'related',
+      note: 'closest operational cousin; network engineering often grows from it',
+    }
+  - {
+      slug: 'security-engineer',
+      type: 'collaboration',
+      note: 'shares segmentation and firewall policy, thinks adversarially',
+    }
+  - {
+      slug: 'cloud-architect',
+      type: 'adjacent',
+      note: 'extends routing and segmentation into virtual overlays',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'prerequisite',
+      note: 'owns the physical layer beneath layer 1',
+    }
 specializations:
-  - "Data Center Network Engineer"
-  - "Network Security Engineer"
-  - "Wireless Network Engineer"
-  - "Cloud Network Engineer"
+  - 'Data Center Network Engineer'
+  - 'Network Security Engineer'
+  - 'Wireless Network Engineer'
+  - 'Cloud Network Engineer'
 country_variants: []
 sources:
-  - { title: "TCP/IP Illustrated, Volume 1", kind: "book" }
-  - { title: "Computer Networks (Tanenbaum)", kind: "book" }
-  - { title: "RFC 4271 (BGP-4)", url: "https://www.rfc-editor.org/rfc/rfc4271", kind: "standard" }
+  - { title: 'TCP/IP Illustrated, Volume 1', kind: 'book' }
+  - { title: 'Computer Networks (Tanenbaum)', kind: 'book' }
+  - { title: 'RFC 4271 (BGP-4)', url: 'https://www.rfc-editor.org/rfc/rfc4271', kind: 'standard' }
 status: stable

@@ -1,10 +1,10 @@
-title: "Mentor"
-slug: "mentor"
+title: 'Mentor'
+slug: 'mentor'
 aliases:
-  - "Advisor"
-  - "Sponsor"
-  - "Guide"
-category: "Life Roles"
+  - 'Advisor'
+  - 'Sponsor'
+  - 'Guide'
+category: 'Life Roles'
 tags:
   - mentorship
   - development
@@ -14,23 +14,39 @@ tags:
 difficulty: advanced
 summary: "Grows another person's capability and judgment over time by lending experience as scaffolding, then deliberately removing it — building independence, not dependence."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "student", type: "collaboration", note: "the mentee; the active learner whose effort and agency are the engine" }
-  - { slug: "coach", type: "adjacent", note: "works a defined goal by asking; mentors also tell from a track record" }
-  - { slug: "teacher", type: "related", note: "causes learning in groups on a curriculum rather than one-to-one over time" }
-  - { slug: "professor", type: "related", note: "develops at the frontier of a discipline" }
-  - { slug: "engineering-manager", type: "adjacent", note: "mentors with authority and a performance-evaluation duty a pure mentor lacks" }
+  - {
+      slug: 'student',
+      type: 'collaboration',
+      note: 'the mentee; the active learner whose effort and agency are the engine',
+    }
+  - {
+      slug: 'coach',
+      type: 'adjacent',
+      note: 'works a defined goal by asking; mentors also tell from a track record',
+    }
+  - {
+      slug: 'teacher',
+      type: 'related',
+      note: 'causes learning in groups on a curriculum rather than one-to-one over time',
+    }
+  - { slug: 'professor', type: 'related', note: 'develops at the frontier of a discipline' }
+  - {
+      slug: 'engineering-manager',
+      type: 'adjacent',
+      note: 'mentors with authority and a performance-evaluation duty a pure mentor lacks',
+    }
 specializations:
-  - "Career Mentor"
-  - "Technical Mentor"
-  - "Peer Mentor"
+  - 'Career Mentor'
+  - 'Technical Mentor'
+  - 'Peer Mentor'
 country_variants: []
 sources:
-  - { title: "Mind in Society", kind: "book" }
-  - { title: "Mindset", kind: "book" }
-  - { title: "Coaching for Performance", kind: "book" }
+  - { title: 'Mind in Society', kind: 'book' }
+  - { title: 'Mindset', kind: 'book' }
+  - { title: 'Coaching for Performance', kind: 'book' }
 status: stable

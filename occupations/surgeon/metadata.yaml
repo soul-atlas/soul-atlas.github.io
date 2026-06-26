@@ -1,10 +1,10 @@
-title: "Surgeon"
-slug: "surgeon"
+title: 'Surgeon'
+slug: 'surgeon'
 aliases:
-  - "Surgical Specialist"
-  - "Operating Surgeon"
-  - "General Surgeon"
-category: "Healthcare"
+  - 'Surgical Specialist'
+  - 'Operating Surgeon'
+  - 'General Surgeon'
+category: 'Healthcare'
 tags:
   - surgery
   - operative-care
@@ -12,26 +12,46 @@ tags:
   - patient-safety
   - healthcare
 difficulty: expert
-summary: "Knows when controlled, deliberate injury is worth it, executes the operation flawlessly when it is, and refuses it when the knife would harm more than it helps."
+summary: 'Knows when controlled, deliberate injury is worth it, executes the operation flawlessly when it is, and refuses it when the knife would harm more than it helps.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "anesthesiologist", type: "collaboration", note: "keeps the patient alive and stable through the controlled injury of surgery" }
-  - { slug: "physician", type: "adjacent", note: "shares diagnostic burden but resolves disease medically rather than operatively" }
-  - { slug: "emergency-physician", type: "collaboration", note: "stabilizes and triages trauma and the acute abdomen before surgery" }
-  - { slug: "registered-nurse", type: "collaboration", note: "the surgeon's eyes in the OR and the postoperative early-warning system" }
-  - { slug: "radiologist", type: "collaboration", note: "provides the preoperative anatomical map and image guidance" }
+  - {
+      slug: 'anesthesiologist',
+      type: 'collaboration',
+      note: 'keeps the patient alive and stable through the controlled injury of surgery',
+    }
+  - {
+      slug: 'physician',
+      type: 'adjacent',
+      note: 'shares diagnostic burden but resolves disease medically rather than operatively',
+    }
+  - {
+      slug: 'emergency-physician',
+      type: 'collaboration',
+      note: 'stabilizes and triages trauma and the acute abdomen before surgery',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: "the surgeon's eyes in the OR and the postoperative early-warning system",
+    }
+  - {
+      slug: 'radiologist',
+      type: 'collaboration',
+      note: 'provides the preoperative anatomical map and image guidance',
+    }
 specializations:
-  - "Trauma Surgeon"
-  - "Cardiothoracic Surgeon"
-  - "Neurosurgeon"
-  - "Orthopedic Surgeon"
+  - 'Trauma Surgeon'
+  - 'Cardiothoracic Surgeon'
+  - 'Neurosurgeon'
+  - 'Orthopedic Surgeon'
 country_variants: []
 sources:
-  - { title: "Sabiston Textbook of Surgery", kind: "book" }
-  - { title: "The Checklist Manifesto (Atul Gawande)", kind: "book" }
-  - { title: "Advanced Trauma Life Support (ATLS)", kind: "standard" }
+  - { title: 'Sabiston Textbook of Surgery', kind: 'book' }
+  - { title: 'The Checklist Manifesto (Atul Gawande)', kind: 'book' }
+  - { title: 'Advanced Trauma Life Support (ATLS)', kind: 'standard' }
 status: stable

@@ -1,11 +1,11 @@
-title: "Broadcast Journalist"
-slug: "broadcast-journalist"
+title: 'Broadcast Journalist'
+slug: 'broadcast-journalist'
 aliases:
-  - "TV Reporter"
-  - "News Correspondent"
-  - "News Anchor"
-  - "Radio Reporter"
-category: "Entertainment"
+  - 'TV Reporter'
+  - 'News Correspondent'
+  - 'News Anchor'
+  - 'Radio Reporter'
+category: 'Entertainment'
 tags:
   - journalism
   - broadcasting
@@ -15,25 +15,49 @@ tags:
 difficulty: advanced
 summary: "Turns a confusing, fast-moving event into a verified true story told in pictures and sound, fast enough to matter without sacrificing the accuracy that holds the audience's trust."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "writer", type: "adjacent", note: "shares the storyteller's instinct but writes for the eye, not the ear and screen" }
-  - { slug: "sound-engineer", type: "collaboration", note: "clean audio and actualities make or break a broadcast story" }
-  - { slug: "film-editor", type: "collaboration", note: "cuts the package; the edit decides what the story says" }
-  - { slug: "photographer", type: "related", note: "shares the visual grammar of framing and the decisive moment" }
-  - { slug: "policy-analyst", type: "related", note: "recurring source and subject; understanding their reasoning sharpens verification" }
-  - { slug: "diplomat", type: "related", note: "frequent interview subject; reading their evasions is core to the craft" }
+  - {
+      slug: 'writer',
+      type: 'adjacent',
+      note: "shares the storyteller's instinct but writes for the eye, not the ear and screen",
+    }
+  - {
+      slug: 'sound-engineer',
+      type: 'collaboration',
+      note: 'clean audio and actualities make or break a broadcast story',
+    }
+  - {
+      slug: 'film-editor',
+      type: 'collaboration',
+      note: 'cuts the package; the edit decides what the story says',
+    }
+  - {
+      slug: 'photographer',
+      type: 'related',
+      note: 'shares the visual grammar of framing and the decisive moment',
+    }
+  - {
+      slug: 'policy-analyst',
+      type: 'related',
+      note: 'recurring source and subject; understanding their reasoning sharpens verification',
+    }
+  - {
+      slug: 'diplomat',
+      type: 'related',
+      note: 'frequent interview subject; reading their evasions is core to the craft',
+    }
 specializations:
-  - "Investigative Reporter"
-  - "News Anchor"
-  - "Foreign Correspondent"
-  - "Radio Reporter"
+  - 'Investigative Reporter'
+  - 'News Anchor'
+  - 'Foreign Correspondent'
+  - 'Radio Reporter'
 country_variants: []
 sources:
-  - { title: "The Elements of Journalism", kind: "book" }
-  - { title: "Aim for the Heart", kind: "book" }
-  - { title: "SPJ Code of Ethics", url: "https://www.spj.org/ethicscode.asp", kind: "standard" }
+  - { title: 'The Elements of Journalism', kind: 'book' }
+  - { title: 'Aim for the Heart', kind: 'book' }
+  - { title: 'SPJ Code of Ethics', url: 'https://www.spj.org/ethicscode.asp', kind: 'standard' }
 status: stable

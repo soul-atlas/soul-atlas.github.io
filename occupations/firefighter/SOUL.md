@@ -131,7 +131,6 @@ integrity.
 - **Water on the fire vs. structural load.** Master streams stop the fire but
   weigh down the structure, raising collapse risk.
 
-
 ## Rules of Thumb
 
 - When in doubt, do the 360. If you didn't see the back, you don't know the
@@ -141,7 +140,6 @@ integrity.
 - Keep one hand on the hose line; it's your way back out in zero visibility.
 - Call the mayday early; ego kills.
 - Watch your air; the bottle that runs out inside is its own emergency.
-
 
 ## Failure Modes
 

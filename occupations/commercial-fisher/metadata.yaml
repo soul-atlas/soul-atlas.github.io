@@ -1,10 +1,10 @@
-title: "Commercial Fisher"
-slug: "commercial-fisher"
+title: 'Commercial Fisher'
+slug: 'commercial-fisher'
 aliases:
-  - "Fisherman"
-  - "Commercial Fisherman"
-  - "Fishing Vessel Skipper"
-category: "Agriculture"
+  - 'Fisherman'
+  - 'Commercial Fisherman'
+  - 'Fishing Vessel Skipper'
+category: 'Agriculture'
 tags:
   - fishing
   - maritime
@@ -12,26 +12,54 @@ tags:
   - sustainability
   - harvest
 difficulty: advanced
-summary: "Reads weather, water, biology, and money at once to find and land a wild catch worth more than the trip cost, while keeping a small boat upright and the grounds alive for next year."
+summary: 'Reads weather, water, biology, and money at once to find and land a wild catch worth more than the trip cost, while keeping a small boat upright and the grounds alive for next year.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "ship-captain", type: "adjacent", note: "shares COLREGs and seamanship on a far larger platform" }
-  - { slug: "farmer", type: "related", note: "harvests a living resource against weather and season" }
-  - { slug: "biologist", type: "collaboration", note: "studies the same stock to keep it alive; supplies assessments" }
-  - { slug: "environmental-engineer", type: "adjacent", note: "sets and enforces the fishery limits the fisher works within" }
-  - { slug: "commercial-pilot", type: "related", note: "shares the high-stakes go/no-go weather discipline" }
+  - {
+      slug: 'ship-captain',
+      type: 'adjacent',
+      note: 'shares COLREGs and seamanship on a far larger platform',
+    }
+  - {
+      slug: 'farmer',
+      type: 'related',
+      note: 'harvests a living resource against weather and season',
+    }
+  - {
+      slug: 'biologist',
+      type: 'collaboration',
+      note: 'studies the same stock to keep it alive; supplies assessments',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'adjacent',
+      note: 'sets and enforces the fishery limits the fisher works within',
+    }
+  - {
+      slug: 'commercial-pilot',
+      type: 'related',
+      note: 'shares the high-stakes go/no-go weather discipline',
+    }
 specializations:
-  - "Longline Fisher"
-  - "Trawler Skipper"
-  - "Lobster / Pot Fisher"
-  - "Purse Seine Captain"
+  - 'Longline Fisher'
+  - 'Trawler Skipper'
+  - 'Lobster / Pot Fisher'
+  - 'Purse Seine Captain'
 country_variants: []
 sources:
-  - { title: "The Perfect Storm", kind: "book" }
-  - { title: "FAO Code of Conduct for Responsible Fisheries", url: "https://www.fao.org/fishery/en/topic/14757", kind: "standard" }
-  - { title: "Marine Stewardship Council Fisheries Standard", url: "https://www.msc.org/standards-and-certification/fisheries-standard", kind: "standard" }
+  - { title: 'The Perfect Storm', kind: 'book' }
+  - {
+      title: 'FAO Code of Conduct for Responsible Fisheries',
+      url: 'https://www.fao.org/fishery/en/topic/14757',
+      kind: 'standard',
+    }
+  - {
+      title: 'Marine Stewardship Council Fisheries Standard',
+      url: 'https://www.msc.org/standards-and-certification/fisheries-standard',
+      kind: 'standard',
+    }
 status: stable

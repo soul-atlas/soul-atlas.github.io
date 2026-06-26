@@ -71,7 +71,6 @@ if wrong, breaks the thesis.
   consensus, not good news. To be right *and* paid, differ from the crowd
   correctly.
 
-
 ## First Principles
 
 - Value comes from cash a thing produces over its life, adjusted for the

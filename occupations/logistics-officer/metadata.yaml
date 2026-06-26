@@ -1,10 +1,10 @@
-title: "Logistics Officer"
-slug: "logistics-officer"
+title: 'Logistics Officer'
+slug: 'logistics-officer'
 aliases:
-  - "Sustainment Officer"
-  - "Quartermaster"
-  - "S-4 / G-4"
-category: "Military"
+  - 'Sustainment Officer'
+  - 'Quartermaster'
+  - 'S-4 / G-4'
+category: 'Military'
 tags:
   - military
   - logistics
@@ -14,24 +14,48 @@ tags:
 difficulty: advanced
 summary: "Bounds the commander's plan in the reality of fuel, ammunition, and movement — managing flow against bottlenecks, distance, and an enemy, and naming the culminating point before the force runs dry."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "supply-chain-manager", type: "adjacent", note: "solves the same flow-and-constraint problem in a commercial setting" }
-  - { slug: "logistics-coordinator", type: "related", note: "executes the movement and tracking the officer plans" }
-  - { slug: "operations-manager", type: "adjacent", note: "shares bottleneck-and-throughput thinking applied to production" }
-  - { slug: "procurement-specialist", type: "collaboration", note: "sources the materiel the officer distributes" }
-  - { slug: "infantry-officer", type: "collaboration", note: "the supported force whose reach the logistician determines" }
-  - { slug: "ship-captain", type: "related", note: "commands one critical node and mover in the chain" }
+  - {
+      slug: 'supply-chain-manager',
+      type: 'adjacent',
+      note: 'solves the same flow-and-constraint problem in a commercial setting',
+    }
+  - {
+      slug: 'logistics-coordinator',
+      type: 'related',
+      note: 'executes the movement and tracking the officer plans',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'adjacent',
+      note: 'shares bottleneck-and-throughput thinking applied to production',
+    }
+  - {
+      slug: 'procurement-specialist',
+      type: 'collaboration',
+      note: 'sources the materiel the officer distributes',
+    }
+  - {
+      slug: 'infantry-officer',
+      type: 'collaboration',
+      note: 'the supported force whose reach the logistician determines',
+    }
+  - {
+      slug: 'ship-captain',
+      type: 'related',
+      note: 'commands one critical node and mover in the chain',
+    }
 specializations:
-  - "Transportation"
-  - "Supply and Services"
-  - "Maintenance/Ordnance"
-  - "Petroleum and Water"
+  - 'Transportation'
+  - 'Supply and Services'
+  - 'Maintenance/Ordnance'
+  - 'Petroleum and Water'
 country_variants: []
 sources:
-  - { title: "Supplying War: Logistics from Wallenstein to Patton", kind: "book" }
-  - { title: "Sustainment Operations (ADP 4-0)", kind: "standard" }
+  - { title: 'Supplying War: Logistics from Wallenstein to Patton', kind: 'book' }
+  - { title: 'Sustainment Operations (ADP 4-0)', kind: 'standard' }
 status: stable

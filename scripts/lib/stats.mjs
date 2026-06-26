@@ -109,7 +109,10 @@ export function computeStats(corpus, gitBySlug = {}) {
     if (m.difficulty) byDifficulty[m.difficulty] = (byDifficulty[m.difficulty] || 0) + 1;
     for (const t of m.tags) tagCounts[t] = (tagCounts[t] || 0) + 1;
     const git = gitBySlug[s.slug];
-    const contributors = new Set([...(m.contributors || []), ...((git && git.authors) || []).map((a) => a.name)]);
+    const contributors = new Set([
+      ...(m.contributors || []),
+      ...((git && git.authors) || []).map((a) => a.name),
+    ]);
     for (const c of contributors) contributorCounts[c] = (contributorCounts[c] || 0) + 1;
 
     totalWords += s.computed.wordCount;
@@ -160,7 +163,11 @@ export function computeStats(corpus, gitBySlug = {}) {
 
   const dated = (key) =>
     souls
-      .map((s) => ({ slug: s.slug, title: s.title, date: gitBySlug[s.slug]?.[key] || s.metadata[key] }))
+      .map((s) => ({
+        slug: s.slug,
+        title: s.title,
+        date: gitBySlug[s.slug]?.[key] || s.metadata[key],
+      }))
       .filter((x) => x.date)
       .sort((a, b) => b.date.localeCompare(a.date));
 
@@ -181,7 +188,10 @@ export function computeStats(corpus, gitBySlug = {}) {
       tags: Object.keys(tagCounts).length,
       contributors: Object.keys(contributorCounts).length,
       avgWords: total ? Math.round(totalWords / total) : 0,
-      avgReadingTime: total ? Math.round((souls.reduce((n, s) => n + s.computed.readingTimeMinutes, 0) / total) * 10) / 10 : 0,
+      avgReadingTime: total
+        ? Math.round((souls.reduce((n, s) => n + s.computed.readingTimeMinutes, 0) / total) * 10) /
+          10
+        : 0,
       graphDensity: Math.round(density * 100000) / 100000,
       stableShare: total ? Math.round(((byStatus.stable || 0) / total) * 1000) / 1000 : 0,
     },

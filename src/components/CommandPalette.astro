@@ -40,7 +40,14 @@ const commands = [
     style="background:var(--surface)"
   >
     <div class="flex items-center gap-2 border-b px-4" style="border-color:var(--border)">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="color:var(--ink-faint)" aria-hidden="true">
+      <svg
+        width="16"
+        height="16"
+        viewBox="0 0 24 24"
+        fill="none"
+        style="color:var(--ink-faint)"
+        aria-hidden="true"
+      >
         <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle>
         <path d="m20 20-3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
       </svg>
@@ -54,8 +61,9 @@ const commands = [
         style="color:var(--ink)"
         aria-label="Search query"
       />
-      <kbd class="rounded border px-1.5 py-0.5 text-[10px]" style="border-color:var(--border); color:var(--ink-faint)"
-        >ESC</kbd
+      <kbd
+        class="rounded border px-1.5 py-0.5 text-[10px]"
+        style="border-color:var(--border); color:var(--ink-faint)">ESC</kbd
       >
     </div>
     <ul id="cmdk-results" class="max-h-[55vh] overflow-y-auto py-2" role="listbox"></ul>
@@ -69,10 +77,7 @@ const commands = [
   </div>
 </div>
 
-<script
-  is:inline
-  define:vars={{ docs, commands, base: import.meta.env.BASE_URL }}
->
+<script is:inline define:vars={{ docs, commands, base: import.meta.env.BASE_URL }}>
   (function () {
     const modal = document.getElementById('cmdk');
     const input = document.getElementById('cmdk-input');
@@ -83,7 +88,15 @@ const commands = [
     const soulUrl = (slug) => `${base.replace(/\/$/, '')}/occupations/${slug}`;
 
     function score(doc, q) {
-      const hay = (doc.t + ' ' + doc.a.join(' ') + ' ' + doc.g.join(' ') + ' ' + doc.c).toLowerCase();
+      const hay = (
+        doc.t +
+        ' ' +
+        doc.a.join(' ') +
+        ' ' +
+        doc.g.join(' ') +
+        ' ' +
+        doc.c
+      ).toLowerCase();
       const title = doc.t.toLowerCase();
       if (title === q) return 100;
       if (title.startsWith(q)) return 80;
@@ -127,7 +140,8 @@ const commands = [
         const li = document.createElement('li');
         li.setAttribute('role', 'option');
         li.dataset.idx = idx;
-        li.className = 'cmdk-item flex cursor-pointer items-center justify-between gap-3 px-4 py-2.5 text-sm';
+        li.className =
+          'cmdk-item flex cursor-pointer items-center justify-between gap-3 px-4 py-2.5 text-sm';
         li.innerHTML = `<span style="color:var(--ink)">${it.label}</span><span class="chip">${it.sub}</span>`;
         li.addEventListener('mouseenter', () => setActive(idx));
         li.addEventListener('click', () => go(idx));
@@ -165,7 +179,10 @@ const commands = [
     input.addEventListener('input', () => render(input.value));
     document.addEventListener('keydown', (e) => {
       const isOpen = !modal.classList.contains('hidden');
-      if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !isOpen && !/input|textarea/i.test(e.target.tagName))) {
+      if (
+        (e.key === 'k' && (e.metaKey || e.ctrlKey)) ||
+        (e.key === '/' && !isOpen && !/input|textarea/i.test(e.target.tagName))
+      ) {
         e.preventDefault();
         isOpen ? close() : open();
         return;

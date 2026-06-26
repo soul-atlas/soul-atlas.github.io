@@ -97,7 +97,6 @@ The visible output is figures and gene lists, but the actual work is defending a
 - **Overfitting a biomarker** — a 95%-accurate classifier on 40 samples and 20,000 genes that collapses on new data.
 - **p-hacking via feature selection** — trying gene sets and thresholds until something crosses significance.
 
-
 ## Vocabulary
 
 - **Alignment** — placing sequencing reads against a reference genome or transcriptome (BWA, Bowtie, STAR, minimap2).

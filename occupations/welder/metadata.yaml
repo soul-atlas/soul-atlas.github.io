@@ -1,10 +1,10 @@
-title: "Welder"
-slug: "welder"
+title: 'Welder'
+slug: 'welder'
 aliases:
-  - "Welder-Fabricator"
-  - "Fusion Welder"
-  - "Joiner of Metals"
-category: "Skilled Trades"
+  - 'Welder-Fabricator'
+  - 'Fusion Welder'
+  - 'Joiner of Metals'
+category: 'Skilled Trades'
 tags:
   - welding
   - fabrication
@@ -12,26 +12,42 @@ tags:
   - aws
   - manufacturing
 difficulty: advanced
-summary: "Fuses metal into joints as strong as the parent material by controlling the weld pool, heat input, and metallurgy so the deposit holds under load and passes non-destructive testing."
+summary: 'Fuses metal into joints as strong as the parent material by controlling the weld pool, heat input, and metallurgy so the deposit holds under load and passes non-destructive testing.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "machinist", type: "collaboration", note: "finishes the welded parts to tolerance in the same shop" }
-  - { slug: "mechanical-engineer", type: "related", note: "designs the loaded structures the welder joins" }
-  - { slug: "plumber", type: "adjacent", note: "shares pressure and process pipe joining work" }
-  - { slug: "heavy-equipment-operator", type: "related", note: "runs the machines whose worn parts the welder builds up" }
-  - { slug: "structural-engineer", type: "related", note: "specifies the connections the welder must qualify to code" }
+  - {
+      slug: 'machinist',
+      type: 'collaboration',
+      note: 'finishes the welded parts to tolerance in the same shop',
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'related',
+      note: 'designs the loaded structures the welder joins',
+    }
+  - { slug: 'plumber', type: 'adjacent', note: 'shares pressure and process pipe joining work' }
+  - {
+      slug: 'heavy-equipment-operator',
+      type: 'related',
+      note: 'runs the machines whose worn parts the welder builds up',
+    }
+  - {
+      slug: 'structural-engineer',
+      type: 'related',
+      note: 'specifies the connections the welder must qualify to code',
+    }
 specializations:
-  - "Pipe Welder"
-  - "Structural Welder"
-  - "TIG/Aerospace Welder"
-  - "Underwater Welder"
+  - 'Pipe Welder'
+  - 'Structural Welder'
+  - 'TIG/Aerospace Welder'
+  - 'Underwater Welder'
 country_variants: []
 sources:
-  - { title: "AWS D1.1 Structural Welding Code - Steel", kind: "standard" }
-  - { title: "ASME Boiler and Pressure Vessel Code, Section IX", kind: "standard" }
-  - { title: "Welding Handbook (American Welding Society)", kind: "book" }
+  - { title: 'AWS D1.1 Structural Welding Code - Steel', kind: 'standard' }
+  - { title: 'ASME Boiler and Pressure Vessel Code, Section IX', kind: 'standard' }
+  - { title: 'Welding Handbook (American Welding Society)', kind: 'book' }
 status: stable

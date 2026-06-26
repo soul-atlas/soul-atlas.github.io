@@ -1,38 +1,62 @@
-title: "Actuary"
-slug: "actuary"
+title: 'Actuary'
+slug: 'actuary'
 aliases:
-  - "Actuarial Analyst"
-  - "Insurance Actuary"
-  - "Pricing and Reserving Actuary"
-category: "Finance"
+  - 'Actuarial Analyst'
+  - 'Insurance Actuary'
+  - 'Pricing and Reserving Actuary'
+category: 'Finance'
 tags:
   - insurance
   - risk-modeling
   - reserving
   - solvency-capital
 difficulty: expert
-summary: "Quantifies uncertain future obligations by pooling risk, triangulating reserves, pricing against the tail, and defending every assumption to keep promises solvent."
+summary: 'Quantifies uncertain future obligations by pooling risk, triangulating reserves, pricing against the tail, and defending every assumption to keep promises solvent.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 specializations:
-  - "Life and Annuities"
-  - "Property and Casualty Reserving"
-  - "Pensions and Retirement"
-  - "Capital and Solvency"
+  - 'Life and Annuities'
+  - 'Property and Casualty Reserving'
+  - 'Pensions and Retirement'
+  - 'Capital and Solvency'
 country_variants: []
 sources:
-  - title: "Loss Models: From Data to Decisions (Klugman, Panjer & Willmot)"
+  - title: 'Loss Models: From Data to Decisions (Klugman, Panjer & Willmot)'
     kind: book
-  - title: "Actuarial Mathematics (Bowers, Gerber, Hickman, Jones & Nesbitt)"
+  - title: 'Actuarial Mathematics (Bowers, Gerber, Hickman, Jones & Nesbitt)'
     kind: book
 status: stable
 related:
-  - { slug: "financial-analyst", type: "related", note: "discounts future cash flows too, but the actuary models the liability and tail risk" }
-  - { slug: "data-scientist", type: "adjacent", note: "shares GLMs and statistical modeling; the actuary adds reserving and solvency rigor" }
-  - { slug: "mathematician", type: "prerequisite", note: "probability and statistics are the foundation the actuarial craft is built on" }
-  - { slug: "auditor", type: "collaboration", note: "opines on whether the actuary's reserves are fairly stated in the accounts" }
-  - { slug: "compliance-officer", type: "adjacent", note: "shares the duty to reserve and report adequately under Solvency II and regulators" }
-  - { slug: "accountant", type: "collaboration", note: "the reserves and capital figures flow into the financial statements they prepare" }
+  - {
+      slug: 'financial-analyst',
+      type: 'related',
+      note: 'discounts future cash flows too, but the actuary models the liability and tail risk',
+    }
+  - {
+      slug: 'data-scientist',
+      type: 'adjacent',
+      note: 'shares GLMs and statistical modeling; the actuary adds reserving and solvency rigor',
+    }
+  - {
+      slug: 'mathematician',
+      type: 'prerequisite',
+      note: 'probability and statistics are the foundation the actuarial craft is built on',
+    }
+  - {
+      slug: 'auditor',
+      type: 'collaboration',
+      note: "opines on whether the actuary's reserves are fairly stated in the accounts",
+    }
+  - {
+      slug: 'compliance-officer',
+      type: 'adjacent',
+      note: 'shares the duty to reserve and report adequately under Solvency II and regulators',
+    }
+  - {
+      slug: 'accountant',
+      type: 'collaboration',
+      note: 'the reserves and capital figures flow into the financial statements they prepare',
+    }

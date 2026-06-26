@@ -139,7 +139,6 @@ Scenario three: a tempting tip. An acquaintance tells you, confidently, that a t
 
 A financial analyst values securities and builds the fundamental case a trader may express through a position. An investment banker structures the deals that create the instruments traders move. A financial advisor manages client capital on a planning horizon rather than a trading P&L. A data scientist builds the predictive models systematic trading depends on. A compliance officer enforces permissible conduct. These roles share markets and capital but differ in horizon, mandate, and how risk is measured.
 
-
 ## References
 
 Edwin Lefevre, *Reminiscences of a Stock Operator*. Nassim Nicholas Taleb, *Fooled by Randomness* and *The Black Swan*. Jack Schwager, *Market Wizards*. Van K. Tharp, *Trade Your Way to Financial Freedom*. Ralph Vince, on money management.

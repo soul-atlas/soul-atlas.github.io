@@ -1,10 +1,10 @@
-title: "Nurse Practitioner"
-slug: "nurse-practitioner"
+title: 'Nurse Practitioner'
+slug: 'nurse-practitioner'
 aliases:
-  - "NP"
-  - "Advanced Practice Registered Nurse"
-  - "APRN"
-category: "Healthcare"
+  - 'NP'
+  - 'Advanced Practice Registered Nurse'
+  - 'APRN'
+category: 'Healthcare'
 tags:
   - primary-care
   - diagnosis
@@ -12,25 +12,45 @@ tags:
   - chronic-disease
   - advanced-practice
 difficulty: advanced
-summary: "A diagnostician who never stopped being a nurse: autonomously manages the common and chronic, recognizes the dangerous, and knows precisely the edge of its own competence."
+summary: 'A diagnostician who never stopped being a nurse: autonomously manages the common and chronic, recognizes the dangerous, and knows precisely the edge of its own competence.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "registered-nurse", type: "progression", note: "the role NPs advance from, carrying its whole-person ethos forward" }
-  - { slug: "physician", type: "collaboration", note: "collaborator, escalation partner, and adjacent diagnostic role" }
-  - { slug: "pharmacist", type: "collaboration", note: "partner in safe prescribing and deprescribing" }
-  - { slug: "pediatrician", type: "adjacent", note: "shares prevention-first management of a defined population" }
-  - { slug: "emergency-physician", type: "adjacent", note: "shares acute differential reasoning and red-flag screening" }
+  - {
+      slug: 'registered-nurse',
+      type: 'progression',
+      note: 'the role NPs advance from, carrying its whole-person ethos forward',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'collaborator, escalation partner, and adjacent diagnostic role',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'partner in safe prescribing and deprescribing',
+    }
+  - {
+      slug: 'pediatrician',
+      type: 'adjacent',
+      note: 'shares prevention-first management of a defined population',
+    }
+  - {
+      slug: 'emergency-physician',
+      type: 'adjacent',
+      note: 'shares acute differential reasoning and red-flag screening',
+    }
 specializations:
-  - "Family Nurse Practitioner"
-  - "Acute Care Nurse Practitioner"
-  - "Psychiatric Nurse Practitioner"
-  - "Pediatric Nurse Practitioner"
+  - 'Family Nurse Practitioner'
+  - 'Acute Care Nurse Practitioner'
+  - 'Psychiatric Nurse Practitioner'
+  - 'Pediatric Nurse Practitioner'
 country_variants: []
 sources:
-  - { title: "Bates' Guide to Physical Examination and History Taking", kind: "book" }
-  - { title: "NONPF Nurse Practitioner Core Competencies", kind: "standard" }
+  - { title: "Bates' Guide to Physical Examination and History Taking", kind: 'book' }
+  - { title: 'NONPF Nurse Practitioner Core Competencies', kind: 'standard' }
 status: stable

@@ -1,10 +1,10 @@
-title: "Dietitian"
-slug: "dietitian"
+title: 'Dietitian'
+slug: 'dietitian'
 aliases:
-  - "Registered Dietitian"
-  - "Clinical Dietitian"
-  - "Nutritionist"
-category: "Healthcare"
+  - 'Registered Dietitian'
+  - 'Clinical Dietitian'
+  - 'Nutritionist'
+category: 'Healthcare'
 tags:
   - nutrition
   - clinical-nutrition
@@ -12,25 +12,45 @@ tags:
   - behavior-change
   - chronic-disease
 difficulty: advanced
-summary: "Translates the biochemistry of nutrition into what a particular person will actually eat, using food and artificial feeding as clinical tools while guarding against the dangers of feeding itself."
+summary: 'Translates the biochemistry of nutrition into what a particular person will actually eat, using food and artificial feeding as clinical tools while guarding against the dangers of feeding itself.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "physician", type: "collaboration", note: "manages disease alongside the dietitian's nutritional plan" }
-  - { slug: "registered-nurse", type: "collaboration", note: "delivers and monitors feeds at the bedside" }
-  - { slug: "pharmacist", type: "collaboration", note: "partner on parenteral nutrition and drug-nutrient interactions" }
-  - { slug: "physical-therapist", type: "related", note: "shares the long-game chronic-disease behavior-change craft" }
-  - { slug: "chef", type: "adjacent", note: "shares the practical translation of nutrition needs into real food" }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: "manages disease alongside the dietitian's nutritional plan",
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'delivers and monitors feeds at the bedside',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'partner on parenteral nutrition and drug-nutrient interactions',
+    }
+  - {
+      slug: 'physical-therapist',
+      type: 'related',
+      note: 'shares the long-game chronic-disease behavior-change craft',
+    }
+  - {
+      slug: 'chef',
+      type: 'adjacent',
+      note: 'shares the practical translation of nutrition needs into real food',
+    }
 specializations:
-  - "Renal Dietitian"
-  - "Pediatric Dietitian"
-  - "Oncology Dietitian"
-  - "Critical Care Dietitian"
+  - 'Renal Dietitian'
+  - 'Pediatric Dietitian'
+  - 'Oncology Dietitian'
+  - 'Critical Care Dietitian'
 country_variants: []
 sources:
-  - { title: "Krause and Mahan's Food and the Nutrition Care Process", kind: "book" }
-  - { title: "Manual of Dietetic Practice (British Dietetic Association)", kind: "book" }
+  - { title: "Krause and Mahan's Food and the Nutrition Care Process", kind: 'book' }
+  - { title: 'Manual of Dietetic Practice (British Dietetic Association)', kind: 'book' }
 status: stable

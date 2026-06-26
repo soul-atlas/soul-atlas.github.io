@@ -1,10 +1,10 @@
-title: "Policy Analyst"
-slug: "policy-analyst"
+title: 'Policy Analyst'
+slug: 'policy-analyst'
 aliases:
-  - "Public Policy Analyst"
-  - "Policy Advisor"
-  - "Policy Researcher"
-category: "Government"
+  - 'Public Policy Analyst'
+  - 'Policy Advisor'
+  - 'Policy Researcher'
+category: 'Government'
 tags:
   - public-policy
   - analysis
@@ -12,27 +12,47 @@ tags:
   - evidence
   - evaluation
 difficulty: advanced
-summary: "Brings disciplined reasoning to consequential choices, framing the real problem and comparing alternatives against the counterfactual while telling the truth about tradeoffs."
+summary: 'Brings disciplined reasoning to consequential choices, framing the real problem and comparing alternatives against the counterfactual while telling the truth about tradeoffs.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "management-consultant", type: "adjacent", note: "shares structured reasoning but serves a client's bottom line, not the public interest" }
-  - { slug: "data-scientist", type: "collaboration", note: "supplies the causal-inference firepower the analyst relies on" }
-  - { slug: "auditor", type: "related", note: "checks whether policies did what they claimed" }
-  - { slug: "public-health-officer", type: "related", note: "domain cousin applying the same evaluative discipline to health" }
-  - { slug: "financial-analyst", type: "related", note: "shares cost-benefit and forecasting craft in a private-sector register" }
-  - { slug: "urban-planner", type: "related", note: "applies the same evaluative rigor to spatial questions" }
+  - {
+      slug: 'management-consultant',
+      type: 'adjacent',
+      note: "shares structured reasoning but serves a client's bottom line, not the public interest",
+    }
+  - {
+      slug: 'data-scientist',
+      type: 'collaboration',
+      note: 'supplies the causal-inference firepower the analyst relies on',
+    }
+  - { slug: 'auditor', type: 'related', note: 'checks whether policies did what they claimed' }
+  - {
+      slug: 'public-health-officer',
+      type: 'related',
+      note: 'domain cousin applying the same evaluative discipline to health',
+    }
+  - {
+      slug: 'financial-analyst',
+      type: 'related',
+      note: 'shares cost-benefit and forecasting craft in a private-sector register',
+    }
+  - {
+      slug: 'urban-planner',
+      type: 'related',
+      note: 'applies the same evaluative rigor to spatial questions',
+    }
 specializations:
-  - "Regulatory Analyst"
-  - "Program Evaluator"
-  - "Legislative Analyst"
-  - "Health Policy Analyst"
+  - 'Regulatory Analyst'
+  - 'Program Evaluator'
+  - 'Legislative Analyst'
+  - 'Health Policy Analyst'
 country_variants: []
 sources:
-  - { title: "A Practical Guide for Policy Analysis: The Eightfold Path", kind: "book" }
-  - { title: "Poor Economics", kind: "book" }
-  - { title: "OECD Best Practice Principles for Regulatory Impact Assessment", kind: "standard" }
+  - { title: 'A Practical Guide for Policy Analysis: The Eightfold Path', kind: 'book' }
+  - { title: 'Poor Economics', kind: 'book' }
+  - { title: 'OECD Best Practice Principles for Regulatory Impact Assessment', kind: 'standard' }
 status: stable

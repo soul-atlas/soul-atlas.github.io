@@ -227,7 +227,6 @@ advocacy: every analyst has values, and pretending to none is its own dishonesty
 The discipline is to keep value judgments separable from empirical claims, so the
 decision-maker owns the choice of values.
 
-
 ## Scenarios
 
 **A minister wants to cut crime and proposes mandatory minimum sentences.** The

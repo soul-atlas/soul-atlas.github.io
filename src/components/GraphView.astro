@@ -49,10 +49,14 @@ const base = import.meta.env.BASE_URL;
           data-graph-filter
         >
           <option value="">All categories</option>
-          {cats.map(([name]) => <option value={name}>{name}</option>)}
+          {cats.map(([name]) => (
+            <option value={name}>{name}</option>
+          ))}
         </select>
-        <span class="text-xs" style="color:var(--ink-faint)" data-graph-count></span>
-        <span class="ml-auto text-xs" style="color:var(--ink-faint)">drag · scroll to zoom · click to open</span>
+        <span class="text-xs" style="color:var(--ink-faint)" data-graph-count />
+        <span class="ml-auto text-xs" style="color:var(--ink-faint)">
+          drag · scroll to zoom · click to open
+        </span>
       </div>
     )
   }
@@ -79,11 +83,27 @@ const base = import.meta.env.BASE_URL;
   import * as d3 from 'd3';
 
   const CATEGORY_COLORS: Record<string, string> = {
-    Technology: '#3b82f6', Healthcare: '#ef4444', 'Skilled Trades': '#f59e0b', Engineering: '#8b5cf6',
-    Science: '#06b6d4', Education: '#10b981', Business: '#6366f1', Government: '#64748b', Military: '#4b5563',
-    Law: '#0ea5e9', Transportation: '#14b8a6', Agriculture: '#84cc16', Hospitality: '#ec4899', Creative: '#f472b6',
-    Sports: '#22c55e', Entertainment: '#a855f7', Finance: '#eab308', 'Public Service': '#0891b2',
-    Historical: '#a16207', Emerging: '#d946ef', 'Life Roles': '#fb7185',
+    Technology: '#3b82f6',
+    Healthcare: '#ef4444',
+    'Skilled Trades': '#f59e0b',
+    Engineering: '#8b5cf6',
+    Science: '#06b6d4',
+    Education: '#10b981',
+    Business: '#6366f1',
+    Government: '#64748b',
+    Military: '#4b5563',
+    Law: '#0ea5e9',
+    Transportation: '#14b8a6',
+    Agriculture: '#84cc16',
+    Hospitality: '#ec4899',
+    Creative: '#f472b6',
+    Sports: '#22c55e',
+    Entertainment: '#a855f7',
+    Finance: '#eab308',
+    'Public Service': '#0891b2',
+    Historical: '#a16207',
+    Emerging: '#d946ef',
+    'Life Roles': '#fb7185',
   };
   const color = (c: string) => CATEGORY_COLORS[c] ?? '#94a3b8';
 
@@ -123,32 +143,47 @@ const base = import.meta.env.BASE_URL;
     svg.selectAll('*').remove();
     const root = svg.append('g');
 
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
+    const zoom = d3
+      .zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.15, 6])
       .on('zoom', (ev) => root.attr('transform', ev.transform));
     svg.call(zoom as any);
 
     const linkStroke: Record<string, string> = {
-      related: 'var(--border)', specialization: '#8b5cf6', prerequisite: '#f59e0b',
-      adjacent: '#06b6d4', collaboration: '#10b981', progression: '#ec4899',
+      related: 'var(--border)',
+      specialization: '#8b5cf6',
+      prerequisite: '#f59e0b',
+      adjacent: '#06b6d4',
+      collaboration: '#10b981',
+      progression: '#ec4899',
     };
 
-    const sizeScale = d3.scaleSqrt().domain([0, d3.max(nodes, (d: any) => d.degree) || 1]).range([3.5, 16]);
+    const sizeScale = d3
+      .scaleSqrt()
+      .domain([0, d3.max(nodes, (d: any) => d.degree) || 1])
+      .range([3.5, 16]);
 
-    const link = root.append('g').attr('fill', 'none').attr('stroke-opacity', 0.5)
-      .selectAll('line').data(links).join('line')
+    const link = root
+      .append('g')
+      .attr('fill', 'none')
+      .attr('stroke-opacity', 0.5)
+      .selectAll('line')
+      .data(links)
+      .join('line')
       .attr('stroke', (d: any) => linkStroke[d.type] || 'var(--border)')
       .attr('stroke-width', 1);
 
     const node = root.append('g').selectAll('g').data(nodes).join('g').style('cursor', 'pointer');
 
-    node.append('circle')
+    node
+      .append('circle')
       .attr('r', (d: any) => sizeScale(d.degree))
       .attr('fill', (d: any) => color(d.category))
       .attr('stroke', (d: any) => (d.id === focus ? 'var(--ink)' : 'var(--surface)'))
       .attr('stroke-width', (d: any) => (d.id === focus ? 2.5 : 1));
 
-    const label = node.append('text')
+    const label = node
+      .append('text')
       .text((d: any) => d.title)
       .attr('x', (d: any) => sizeScale(d.degree) + 4)
       .attr('y', 4)
@@ -166,7 +201,9 @@ const base = import.meta.env.BASE_URL;
 
     function highlight(id: string | null) {
       node.style('opacity', (d: any) => (!id || neighbors.get(id)?.has(d.id) ? 1 : 0.12));
-      link.style('opacity', (d: any) => (!id || d.source.id === id || d.target.id === id ? 0.8 : 0.04));
+      link.style('opacity', (d: any) =>
+        !id || d.source.id === id || d.target.id === id ? 0.8 : 0.04,
+      );
       label.style('opacity', (d: any) =>
         id ? (neighbors.get(id)?.has(d.id) ? 1 : 0) : nodes.length > 120 ? 0 : 1,
       );
@@ -186,23 +223,48 @@ const base = import.meta.env.BASE_URL;
         window.location.href = `${base}/occupations/${d.id}`;
       });
 
-    const sim = d3.forceSimulation(nodes as any)
-      .force('link', d3.forceLink(links).id((d: any) => d.id).distance(focus ? 60 : 45).strength(0.4))
+    const sim = d3
+      .forceSimulation(nodes as any)
+      .force(
+        'link',
+        d3
+          .forceLink(links)
+          .id((d: any) => d.id)
+          .distance(focus ? 60 : 45)
+          .strength(0.4),
+      )
       .force('charge', d3.forceManyBody().strength(nodes.length > 200 ? -40 : -120))
       .force('center', d3.forceCenter(W / 2, H / 2))
-      .force('collide', d3.forceCollide().radius((d: any) => sizeScale(d.degree) + 3))
+      .force(
+        'collide',
+        d3.forceCollide().radius((d: any) => sizeScale(d.degree) + 3),
+      )
       .on('tick', () => {
         link
-          .attr('x1', (d: any) => d.source.x).attr('y1', (d: any) => d.source.y)
-          .attr('x2', (d: any) => d.target.x).attr('y2', (d: any) => d.target.y);
+          .attr('x1', (d: any) => d.source.x)
+          .attr('y1', (d: any) => d.source.y)
+          .attr('x2', (d: any) => d.target.x)
+          .attr('y2', (d: any) => d.target.y);
         node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
       });
 
     node.call(
-      d3.drag<any, any>()
-        .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
-        .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
-        .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }) as any,
+      d3
+        .drag<any, any>()
+        .on('start', (ev, d) => {
+          if (!ev.active) sim.alphaTarget(0.3).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+        })
+        .on('drag', (ev, d) => {
+          d.fx = ev.x;
+          d.fy = ev.y;
+        })
+        .on('end', (ev, d) => {
+          if (!ev.active) sim.alphaTarget(0);
+          d.fx = null;
+          d.fy = null;
+        }) as any,
     );
 
     if (focus) highlight(focus);
@@ -215,15 +277,24 @@ const base = import.meta.env.BASE_URL;
     if (search) {
       search.addEventListener('input', () => {
         const q = search.value.trim().toLowerCase();
-        if (!q) { highlight(null); return; }
+        if (!q) {
+          highlight(null);
+          return;
+        }
         const match = nodes.find((n: any) => n.title.toLowerCase().includes(q));
         node.style('opacity', (d: any) => (d.title.toLowerCase().includes(q) ? 1 : 0.1));
         label.style('opacity', (d: any) => (d.title.toLowerCase().includes(q) ? 1 : 0));
         if (match) {
-          svg.transition().duration(500).call(
-            zoom.transform as any,
-            d3.zoomIdentity.translate(W / 2, H / 2).scale(1.4).translate(-(match as any).x, -(match as any).y),
-          );
+          svg
+            .transition()
+            .duration(500)
+            .call(
+              zoom.transform as any,
+              d3.zoomIdentity
+                .translate(W / 2, H / 2)
+                .scale(1.4)
+                .translate(-(match as any).x, -(match as any).y),
+            );
         }
       });
     }

@@ -1,10 +1,10 @@
-title: "Commercial Pilot"
-slug: "commercial-pilot"
+title: 'Commercial Pilot'
+slug: 'commercial-pilot'
 aliases:
-  - "Airline Pilot"
-  - "First Officer"
-  - "Captain"
-category: "Transportation"
+  - 'Airline Pilot'
+  - 'First Officer'
+  - 'Captain'
+category: 'Transportation'
 tags:
   - aviation
   - flight
@@ -12,25 +12,41 @@ tags:
   - transportation
   - crew-resource-management
 difficulty: expert
-summary: "Manages risk to a fraction of a percent on a schedule, flying a cabin of strangers through weather, traffic, and machinery that is always trying to surprise the crew."
+summary: 'Manages risk to a fraction of a percent on a schedule, flying a cabin of strangers through weather, traffic, and machinery that is always trying to surprise the crew.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "air-traffic-controller", type: "collaboration", note: "owns the separation between aircraft the pilot depends on" }
-  - { slug: "aerospace-engineer", type: "adjacent", note: "designs the machine and the limits the pilot flies within" }
-  - { slug: "ship-captain", type: "related", note: "shares final authority and the continue/divert calculus against weather" }
-  - { slug: "drone-pilot", type: "adjacent", note: "flies the same airspace under different rules" }
-  - { slug: "logistics-coordinator", type: "collaboration", note: "schedules the crews and cargo that fill the aircraft" }
+  - {
+      slug: 'air-traffic-controller',
+      type: 'collaboration',
+      note: 'owns the separation between aircraft the pilot depends on',
+    }
+  - {
+      slug: 'aerospace-engineer',
+      type: 'adjacent',
+      note: 'designs the machine and the limits the pilot flies within',
+    }
+  - {
+      slug: 'ship-captain',
+      type: 'related',
+      note: 'shares final authority and the continue/divert calculus against weather',
+    }
+  - { slug: 'drone-pilot', type: 'adjacent', note: 'flies the same airspace under different rules' }
+  - {
+      slug: 'logistics-coordinator',
+      type: 'collaboration',
+      note: 'schedules the crews and cargo that fill the aircraft',
+    }
 specializations:
-  - "Cargo Pilot"
-  - "Regional Airline Pilot"
-  - "Corporate / Business Jet Pilot"
+  - 'Cargo Pilot'
+  - 'Regional Airline Pilot'
+  - 'Corporate / Business Jet Pilot'
 country_variants: []
 sources:
-  - { title: "Stick and Rudder", kind: "book" }
-  - { title: "FAA Pilot's Handbook of Aeronautical Knowledge", kind: "book" }
-  - { title: "ICAO Annex 6 — Operation of Aircraft", kind: "standard" }
+  - { title: 'Stick and Rudder', kind: 'book' }
+  - { title: "FAA Pilot's Handbook of Aeronautical Knowledge", kind: 'book' }
+  - { title: 'ICAO Annex 6 — Operation of Aircraft', kind: 'standard' }
 status: stable

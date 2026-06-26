@@ -1,11 +1,11 @@
-title: "Physician"
-slug: "physician"
+title: 'Physician'
+slug: 'physician'
 aliases:
-  - "Doctor"
-  - "Medical Doctor"
-  - "Internist"
-  - "MD"
-category: "Healthcare"
+  - 'Doctor'
+  - 'Medical Doctor'
+  - 'Internist'
+  - 'MD'
+category: 'Healthcare'
 tags:
   - medicine
   - diagnosis
@@ -13,27 +13,47 @@ tags:
   - patient-care
   - healthcare
 difficulty: expert
-summary: "Converts incomplete, noisy clinical information into the most probable diagnosis and least harmful effective treatment for one patient at a time, under unrelenting uncertainty."
+summary: 'Converts incomplete, noisy clinical information into the most probable diagnosis and least harmful effective treatment for one patient at a time, under unrelenting uncertainty.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "registered-nurse", type: "collaboration", note: "continuous bedside presence and early-warning system for deterioration" }
-  - { slug: "surgeon", type: "specialization", note: "resolves diagnoses in the operating room rather than over time" }
-  - { slug: "emergency-physician", type: "specialization", note: "compresses the same reasoning into minutes under maximal uncertainty" }
-  - { slug: "pharmacist", type: "collaboration", note: "owns the safety and pharmacology of every prescribed drug" }
-  - { slug: "nurse-practitioner", type: "adjacent", note: "overlapping diagnostic and prescribing scope in primary care" }
-  - { slug: "psychiatrist", type: "specialization", note: "applies clinical reasoning to the mind" }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'continuous bedside presence and early-warning system for deterioration',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'specialization',
+      note: 'resolves diagnoses in the operating room rather than over time',
+    }
+  - {
+      slug: 'emergency-physician',
+      type: 'specialization',
+      note: 'compresses the same reasoning into minutes under maximal uncertainty',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'owns the safety and pharmacology of every prescribed drug',
+    }
+  - {
+      slug: 'nurse-practitioner',
+      type: 'adjacent',
+      note: 'overlapping diagnostic and prescribing scope in primary care',
+    }
+  - { slug: 'psychiatrist', type: 'specialization', note: 'applies clinical reasoning to the mind' }
 specializations:
-  - "Internist"
-  - "Family Physician"
-  - "Cardiologist"
-  - "Hospitalist"
+  - 'Internist'
+  - 'Family Physician'
+  - 'Cardiologist'
+  - 'Hospitalist'
 country_variants: []
 sources:
-  - { title: "Harrison's Principles of Internal Medicine", kind: "book" }
-  - { title: "How Doctors Think", kind: "book" }
-  - { title: "Principles of Biomedical Ethics (Beauchamp & Childress)", kind: "book" }
+  - { title: "Harrison's Principles of Internal Medicine", kind: 'book' }
+  - { title: 'How Doctors Think', kind: 'book' }
+  - { title: 'Principles of Biomedical Ethics (Beauchamp & Childress)', kind: 'book' }
 status: stable

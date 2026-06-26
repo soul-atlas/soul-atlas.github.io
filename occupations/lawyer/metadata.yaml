@@ -15,9 +15,9 @@ difficulty: advanced
 summary: How a lawyer reasons from elements and burdens to facts and remedies, advocating zealously within the bounds of law and ethics.
 contributors:
   - soul-atlas
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 specializations:
   - Litigation
   - Transactional
@@ -30,8 +30,28 @@ sources:
     kind: book
 status: stable
 related:
-  - { slug: "judge", type: "progression", note: "many litigators ascend to the bench; the lawyer argues to the neutral the judge becomes" }
-  - { slug: "prosecutor", type: "adjacent", note: "the criminal-law counterpart and frequent adversary, bound by the same officer-of-the-court duties" }
-  - { slug: "paralegal", type: "collaboration", note: "manages the record, discovery, and deadlines under the lawyer's supervision" }
-  - { slug: "mediator", type: "collaboration", note: "the neutral the lawyer takes a dispute to when settlement beats trial" }
-  - { slug: "compliance-officer", type: "related", note: "applies legal rules preventively inside an organization rather than in litigation" }
+  - {
+      slug: 'judge',
+      type: 'progression',
+      note: 'many litigators ascend to the bench; the lawyer argues to the neutral the judge becomes',
+    }
+  - {
+      slug: 'prosecutor',
+      type: 'adjacent',
+      note: 'the criminal-law counterpart and frequent adversary, bound by the same officer-of-the-court duties',
+    }
+  - {
+      slug: 'paralegal',
+      type: 'collaboration',
+      note: "manages the record, discovery, and deadlines under the lawyer's supervision",
+    }
+  - {
+      slug: 'mediator',
+      type: 'collaboration',
+      note: 'the neutral the lawyer takes a dispute to when settlement beats trial',
+    }
+  - {
+      slug: 'compliance-officer',
+      type: 'related',
+      note: 'applies legal rules preventively inside an organization rather than in litigation',
+    }

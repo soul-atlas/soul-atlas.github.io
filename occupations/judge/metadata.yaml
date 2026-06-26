@@ -1,10 +1,10 @@
-title: "Judge"
-slug: "judge"
+title: 'Judge'
+slug: 'judge'
 aliases:
-  - "Magistrate"
-  - "Justice"
-  - "Jurist"
-category: "Law"
+  - 'Magistrate'
+  - 'Justice'
+  - 'Jurist'
+category: 'Law'
 tags:
   - judicial-reasoning
   - rule-of-law
@@ -12,26 +12,46 @@ tags:
   - evidence
   - impartiality
 difficulty: expert
-summary: "How a judge reasons: allocating burdens, weighing precedent and evidence, interpreting text, and binding power to fair process and stated reasons."
+summary: 'How a judge reasons: allocating burdens, weighing precedent and evidence, interpreting text, and binding power to fair process and stated reasons.'
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 specializations:
-  - "Trial Judge"
-  - "Appellate Justice"
-  - "Magistrate Judge"
+  - 'Trial Judge'
+  - 'Appellate Justice'
+  - 'Magistrate Judge'
 country_variants: []
 sources:
-  - title: "Reading Law: The Interpretation of Legal Texts"
+  - title: 'Reading Law: The Interpretation of Legal Texts'
     kind: book
-  - title: "The Nature of the Judicial Process"
+  - title: 'The Nature of the Judicial Process'
     kind: book
 status: stable
 related:
-  - { slug: "lawyer", type: "progression", note: "the bench is the common destination for an experienced advocate" }
-  - { slug: "prosecutor", type: "collaboration", note: "appears before the judge and owes candor to the tribunal" }
-  - { slug: "mediator", type: "adjacent", note: "resolves disputes by agreement where the judge resolves them by binding ruling" }
-  - { slug: "paralegal", type: "related", note: "prepares the record and filings the judge rules on" }
-  - { slug: "policy-analyst", type: "adjacent", note: "reasons about statutes and their effects, as the judge does when interpreting text" }
+  - {
+      slug: 'lawyer',
+      type: 'progression',
+      note: 'the bench is the common destination for an experienced advocate',
+    }
+  - {
+      slug: 'prosecutor',
+      type: 'collaboration',
+      note: 'appears before the judge and owes candor to the tribunal',
+    }
+  - {
+      slug: 'mediator',
+      type: 'adjacent',
+      note: 'resolves disputes by agreement where the judge resolves them by binding ruling',
+    }
+  - {
+      slug: 'paralegal',
+      type: 'related',
+      note: 'prepares the record and filings the judge rules on',
+    }
+  - {
+      slug: 'policy-analyst',
+      type: 'adjacent',
+      note: 'reasons about statutes and their effects, as the judge does when interpreting text',
+    }

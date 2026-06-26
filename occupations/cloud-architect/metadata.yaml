@@ -1,10 +1,10 @@
-title: "Cloud Architect"
-slug: "cloud-architect"
+title: 'Cloud Architect'
+slug: 'cloud-architect'
 aliases:
-  - "Cloud Solutions Architect"
-  - "Infrastructure Architect"
-  - "Solutions Architect"
-category: "Technology"
+  - 'Cloud Solutions Architect'
+  - 'Infrastructure Architect'
+  - 'Solutions Architect'
+category: 'Technology'
 tags:
   - cloud
   - architecture
@@ -14,24 +14,52 @@ tags:
 difficulty: expert
 summary: "Makes the hardest-to-reverse infrastructure decisions on purpose: treats cost, reliability, and security as design parameters and reads the cloud bill as a readout of the architecture's quality."
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "site-reliability-engineer", type: "collaboration", note: "operates the redundant substrate the architect designs" }
-  - { slug: "devops-engineer", type: "adjacent", note: "builds the IaC and pipelines that realize the architecture" }
-  - { slug: "software-engineer", type: "progression", note: "the architect is an engineer zoomed out to topology and cost" }
-  - { slug: "security-engineer", type: "collaboration", note: "co-owns guardrails and the threat model" }
-  - { slug: "network-engineer", type: "related", note: "handles connectivity within and between cloud topologies" }
-  - { slug: "data-engineer", type: "related", note: "depends on the storage and compute substrate provisioned" }
+  - {
+      slug: 'site-reliability-engineer',
+      type: 'collaboration',
+      note: 'operates the redundant substrate the architect designs',
+    }
+  - {
+      slug: 'devops-engineer',
+      type: 'adjacent',
+      note: 'builds the IaC and pipelines that realize the architecture',
+    }
+  - {
+      slug: 'software-engineer',
+      type: 'progression',
+      note: 'the architect is an engineer zoomed out to topology and cost',
+    }
+  - {
+      slug: 'security-engineer',
+      type: 'collaboration',
+      note: 'co-owns guardrails and the threat model',
+    }
+  - {
+      slug: 'network-engineer',
+      type: 'related',
+      note: 'handles connectivity within and between cloud topologies',
+    }
+  - {
+      slug: 'data-engineer',
+      type: 'related',
+      note: 'depends on the storage and compute substrate provisioned',
+    }
 specializations:
-  - "Multi-Cloud Architect"
-  - "FinOps Architect"
-  - "Security Architect"
+  - 'Multi-Cloud Architect'
+  - 'FinOps Architect'
+  - 'Security Architect'
 country_variants: []
 sources:
-  - { title: "AWS Well-Architected Framework", url: "https://aws.amazon.com/architecture/well-architected/", kind: "standard" }
-  - { title: "Fundamentals of Software Architecture", kind: "book" }
-  - { title: "Designing Data-Intensive Applications", kind: "book" }
+  - {
+      title: 'AWS Well-Architected Framework',
+      url: 'https://aws.amazon.com/architecture/well-architected/',
+      kind: 'standard',
+    }
+  - { title: 'Fundamentals of Software Architecture', kind: 'book' }
+  - { title: 'Designing Data-Intensive Applications', kind: 'book' }
 status: stable

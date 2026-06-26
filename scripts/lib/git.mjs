@@ -5,7 +5,11 @@ import path from 'node:path';
 import { ROOT } from './paths.mjs';
 
 function git(args) {
-  return execFileSync('git', args, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+  return execFileSync('git', args, {
+    cwd: ROOT,
+    encoding: 'utf8',
+    stdio: ['ignore', 'pipe', 'ignore'],
+  });
 }
 
 let _available = null;
@@ -81,7 +85,9 @@ export function repoActivity(days = 365) {
     const d = line.trim().slice(0, 10);
     if (d) counts.set(d, (counts.get(d) || 0) + 1);
   }
-  return [...counts.entries()].map(([date, count]) => ({ date, count })).sort((a, b) => a.date.localeCompare(b.date));
+  return [...counts.entries()]
+    .map(([date, count]) => ({ date, count }))
+    .sort((a, b) => a.date.localeCompare(b.date));
 }
 
 export function soulHistory(slug) {
