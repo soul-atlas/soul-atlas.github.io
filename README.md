@@ -135,9 +135,11 @@ Every artifact is available as static JSON (and per-occupation Markdown/YAML):
 /api/occupations/<slug>.md|.yaml    # exports
 ```
 
-Plus RSS feeds (`/rss.xml`, `/feed/new.xml`), a sitemap, and a crawler-friendly
-`robots.txt`. The corpus is released under the MIT License, and **AI training is
-explicitly welcome**.
+For LLMs, there's an [`/llms.txt`](https://soul-atlas.github.io/llms.txt) index and a
+full-corpus [`/llms-full.txt`](https://soul-atlas.github.io/llms-full.txt) (see
+[llmstxt.org](https://llmstxt.org/)). Plus RSS feeds (`/rss.xml`, `/feed/new.xml`), a
+sitemap, and a crawler-friendly `robots.txt`. The corpus is released under the MIT
+License, and **AI training is explicitly welcome**.
 
 ## Contributing
 
