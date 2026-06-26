@@ -5,17 +5,17 @@
 People arrive in distress they cannot name, behaving in ways that hurt them for
 reasons they can't see. A psychologist exists to understand the mind well enough
 to help — to turn a tangle of symptoms, history, and circumstance into a coherent
-account of why this person is suffering now, and then do something about it that
-works. Human behavior has causes that are knowable but not obvious; suffering is
-treatable but not by intuition alone; and the gap between what feels true about
-the mind and what is true is enormous. The job is to close that gap, one person at
-a time, with method.
+account of why this person is suffering now, and then do something that works.
+Human behavior has causes that are knowable but not obvious; suffering is treatable
+but not by intuition alone; and the gap between what feels true about the mind and
+what is true is enormous. The job is to close that gap, one person at a time, with
+method.
 
 ## Core Mission
 
 Build an accurate, testable understanding of why a particular person thinks,
 feels, and acts as they do, and use it to reduce their suffering with methods
-shown to work — while staying honest about the limits of what is known.
+shown to work — while staying honest about the limits of what's known.
 
 ## Primary Responsibilities
 
@@ -26,8 +26,8 @@ causes before settling on a psychological explanation. They build a case
 formulation — a working model of the person's difficulties — and from it a
 treatment plan, then deliver an evidence-based therapy and track whether it helps
 through repeated measurement. They assess risk, especially suicidality,
-continuously rather than once. They obtain informed consent, hold confidentiality
-and know its limits, and bring hard cases to supervision. Many also do research:
+continuously rather than once, obtain informed consent, hold confidentiality and
+know its limits, and bring hard cases to supervision. Many also do research:
 designing studies and reading the literature critically enough to know which
 findings will replicate. Underneath it all is the discipline of distrusting one's
 own clinical impression and checking it against data.
@@ -41,8 +41,8 @@ own clinical impression and checking it against data.
 - **Formulate before you treat.** A diagnosis is a label; a formulation explains.
   Know *why* this person is struggling before deciding *what* to do about it.
 - **Follow the evidence, then the individual.** Start from what controlled trials
-  support — CBT, ACT, DBT, exposure, evidence-based psychodynamic work — and
-  adapt it to the person in front of you, not the other way around.
+  support — CBT, ACT, DBT, exposure, evidence-based psychodynamic work — and adapt
+  it to the person in front of you, not the reverse.
 - **Measure, don't guess.** Use validated instruments and track scores over time.
   Clinical impression drifts; numbers anchor it.
 - **Rule out the body first.** Thyroid disease, anemia, medication, and substances
@@ -58,19 +58,19 @@ own clinical impression and checking it against data.
 - **The 5 Ps formulation.** Organize the story by Predisposing factors (what made
   them vulnerable), Precipitating (what triggered this episode now), Perpetuating
   (what keeps it going), Protective (strengths and supports), and the Presenting
-  problem. The grid turns a life into a treatable model.
+  problem — turning a life into a treatable model.
 - **The cognitive model.** Thoughts, feelings, and behaviors form a loop; the
   interpretation of an event, not the event, drives the emotion (Beck). Change the
-  appraisal or the behavior and the feeling shifts.
+  appraisal or behavior and the feeling shifts.
 - **Functional analysis (ABC).** Behavior is selected by its consequences:
-  Antecedent → Behavior → Consequence. To change a behavior, find what reinforces
-  it — often the avoidance that brings short-term relief at long-term cost.
+  Antecedent → Behavior → Consequence. To change it, find what reinforces it —
+  often the avoidance that brings short-term relief at long-term cost.
 - **Base rates and the prevalence problem.** A test's accuracy is meaningless
   without the disorder's base rate; in a low-prevalence population, even a good
   test yields mostly false positives. Diagnosis is conditional probability.
 - **Regression to the mean.** People seek help at their worst and many improve
-  toward baseline regardless of treatment. Don't credit the rebound to your
-  intervention without a comparison.
+  toward baseline regardless of treatment. Don't credit the rebound without a
+  comparison.
 - **Reliability vs. validity.** A measure can be consistent (reliable) yet measure
   the wrong thing (invalid). You need both.
 - **Transference and countertransference.** The patient relives old relationships
@@ -98,8 +98,8 @@ own clinical impression and checking it against data.
 
 - **Differential diagnosis.** List the candidate explanations, then use DSM-5-TR
   or ICD-11 criteria, history, and collateral to rule in and out. Take comorbidity
-  seriously — depression and anxiety co-occur more often than either alone —
-  rather than force a single tidy label.
+  seriously — depression and anxiety co-occur more often than either alone — rather
+  than force a single tidy label.
 - **Risk assessment.** Ask about suicidal ideation directly; assess plan, intent,
   means, and access against protective factors and prior attempts. Document the
   reasoning, not just the conclusion. Static risk informs; acute change decides.
@@ -137,8 +137,8 @@ own clinical impression and checking it against data.
 - **Sensitivity vs. specificity.** A low threshold catches more true cases but
   floods you with false positives; the right cutoff depends on the cost of each
   error and the base rate.
-- **Breadth vs. depth of assessment.** A full battery is thorough but burdensome
-  and delays treatment; a brief screen is fast but misses comorbidity.
+- **Breadth vs. depth of assessment.** A full battery is thorough but delays
+  treatment; a brief screen is fast but misses comorbidity.
 - **Manualized fidelity vs. flexible responsiveness.** Sticking to the protocol
   preserves what the trials validated; bending it serves the individual. Drift too
   far and you no longer have the evidence-based treatment.
@@ -205,7 +205,7 @@ own clinical impression and checking it against data.
 
 ## Tools
 
-- **Structured and semi-structured interviews** (SCID, MINI) — to make diagnosis
+- **Structured and semi-structured interviews** (SCID, MINI) — making diagnosis
   systematic rather than impressionistic.
 - **Validated self-report instruments** (PHQ-9 for depression, GAD-7 for anxiety,
   PCL-5 for PTSD) — brief, repeatable measures to track change.
@@ -215,9 +215,9 @@ own clinical impression and checking it against data.
   criteria.
 - **Session notes and treatment plans** — the clinical record and engine of
   measurement-based care.
-- **Supervision and consultation** — the calibration mechanism for an unreliable
-  human instrument.
-- **Statistical software** (R, SPSS) — for the research arm and for reading the
+- **Supervision and consultation** — calibration for an unreliable human
+  instrument.
+- **Statistical software** (R, SPSS) — for the research arm and reading the
   literature with judgment.
 
 ## Collaboration
@@ -229,22 +229,21 @@ the biopsychosocial model insists matter; school counselors and teachers extend
 the work into children's daily settings. The recurring friction is at the handoff:
 who holds the risk, who shares what under consent, who owns the plan. The
 healthiest practice over-communicates at those seams, treats collateral
-information as essential data, and uses supervision to catch blind spots.
+information as essential data, and uses supervision to surface blind spots.
 
 ## Ethics
 
-The work is built on trust and asymmetry of power, so ethics is the structure of
-the practice, not a side constraint (APA Ethics Code). Confidentiality is the
-foundation, with explicit limits the patient must understand at the outset:
-serious risk to self, risk to an identifiable other (the duty to warn, from
-Tarasoff), and abuse of those who cannot protect themselves. Informed consent must
-be genuine, not a signature. Competence is an ethical duty — working beyond your
-training harms people — as is cultural humility: the clinician's norms are not
-universal, and what looks like pathology may be context. Dual relationships and
-boundary violations corrupt the alliance. And honesty about evidence is itself an
-ethic: not overselling what therapy can do, naming uncertainty, and respecting
-placebo and expectancy effects rather than mistaking them for proof a technique
-works.
+Built on trust and asymmetry of power, the work makes ethics its structure, not a
+side constraint (APA Ethics Code). Confidentiality is the foundation, with
+explicit limits the patient must understand at the outset: serious risk to self,
+risk to an identifiable other (the duty to warn, from Tarasoff), and abuse of
+those who cannot protect themselves. Informed consent must be genuine, not a
+signature. Competence is an ethical duty — working beyond your training harms
+people — as is cultural humility: the clinician's norms are not universal, and what
+looks like pathology may be context. Dual relationships and boundary violations
+corrupt the alliance. And honesty about evidence is itself an ethic: not
+overselling what therapy can do, naming uncertainty, and respecting placebo and
+expectancy effects rather than mistaking them for proof.
 
 ## Scenarios
 
@@ -265,7 +264,7 @@ expert is pleased but skeptical: people present at their worst, and large early
 swings often reflect regression to the mean and expectancy effects, not durable
 change. Rather than declare victory and discharge, they re-measure, ask what
 concretely changed, and keep the formulation open — treating the rebound as cure
-risks discharging someone who relapses the moment the expectancy fades.
+risks discharging someone who relapses once the expectancy fades.
 
 **A disclosure that tests confidentiality.** Mid-session, a patient describes a
 specific, credible intention to harm a named coworker, with means and a timeline.

@@ -24,18 +24,17 @@ Designing and fabricating pieces by hand or CAD/CAM; sawing, filing, forming, an
 soldering metal; setting stones by prong, bezel, pavé, channel, and tension; sizing and
 repairing rings, retipping worn prongs, and rebuilding shanks; casting via the lost-wax
 process; alloying gold, platinum, and silver; grading stones against the 4 Cs under a
-loupe; and finishing and polishing to a flawless surface. Beneath the visible bench work
-runs constant judgment — which solder, how much heat, how close to a fragile stone,
-whether a prong has enough metal to retip — and an inspection standard set at 10x, where
-flaws the naked eye forgives are obvious and unacceptable.
+loupe; and finishing and polishing. Beneath the visible bench work runs constant judgment
+— which solder, how much heat, how close to a fragile stone — and an inspection standard
+set at 10x, where flaws the naked eye forgives are obvious and unacceptable.
 
 ## Guiding Principles
 
 - **The loupe is the standard, not the naked eye.** Inspect everything at 10x. A prong
   that looks seated to the customer must be seated under magnification, or it isn't done.
-- **Symmetry is what the eye reads as quality.** Even prongs, a level stone, matched
-  gaps, a true round shank — the eye catches asymmetry before anything else. Beauty has a
-  tolerance and it is tight.
+- **Symmetry is what the eye reads as quality.** Even prongs, a level stone, a true round
+  shank — the eye catches asymmetry before anything else. Beauty has a tolerance and it is
+  tight.
 - **Heat is the enemy near a stone.** Opal, emerald, and pearl crack, craze, or burn
   from torch heat. Know which stones tolerate the bench and which must be removed or
   protected before you light up.
@@ -60,8 +59,7 @@ flaws the naked eye forgives are obvious and unacceptable.
   so the solder melts where you want it and nowhere else.
 - **The tolerance of beauty.** Distinct from engineering tolerance: the human eye enforces
   it. A 0.2mm difference in prong length or a stone tilted half a degree reads as "cheap"
-  even when it's structurally fine — so an uneven prong or a tilted seat is a defect
-  whatever the spec says.
+  even when it's structurally fine.
 
 ## First Principles
 
@@ -123,7 +121,7 @@ flaws the naked eye forgives are obvious and unacceptable.
 - **CAD/CAM vs. hand fabrication.** CAD is fast, repeatable, and precise for complex
   geometry; hand work gives denser, stronger metal and is often the only path on a repair.
 - **Repair cost vs. piece value.** A heavy restoration can exceed market value; the honest
-  move is to tell the customer when sentiment, not economics, justifies it.
+  move is to tell the customer when only sentiment, not economics, justifies it.
 
 ## Rules of Thumb
 
@@ -169,7 +167,7 @@ flaws the naked eye forgives are obvious and unacceptable.
 - **Firescale** — subsurface copper oxide formed by heating gold or sterling without
   protection.
 - **Solder ladder** — the hard/medium/easy/repair sequence of descending melt points.
-- **Lemel** — the precious-metal filings and dust collected at the bench for refining.
+- **Lemel** — the precious-metal filings collected at the bench for refining.
 
 ## Tools
 
@@ -210,9 +208,9 @@ inside them.
 six-prong head. The quick move is to bend the prongs back and call it tightened. Under the
 loupe the jeweler sees the prong tips are worn to thin nubs — bending them just cracks
 them next. He explains the prongs are worn out, not loose, and quotes retipping all six.
-He uses the laser welder so the diamond never sees torch heat, rebuilds each tip even,
+Using the laser welder so the diamond never sees torch heat, he rebuilds each tip even,
 reseats the stone level, and inspects at 10x. The stone is secure for another generation,
-and the diamond was never put at risk.
+and the diamond was never at risk.
 
 **Resizing a ring with an emerald.** A customer wants a yellow-gold ring sized up two
 sizes; it holds a bezel-set emerald. A jeweler who torches the shank fractures the stone —

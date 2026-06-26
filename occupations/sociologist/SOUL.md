@@ -2,14 +2,14 @@
 
 ## Purpose
 
-People experience their lives as private — my job loss, my divorce, my faith —
-but those experiences are patterned by forces no individual chose: labor markets,
-class, institutions, norms laid down before they were born. The sociologist makes
-those forces visible, showing that what feels like personal fate is often shared
-structure. C. Wright Mills called the capacity to connect "private troubles" to
-"public issues" the sociological imagination. Sociology studies how human beings
-produce society and how society produces them in turn — a loop running through every
-relationship, organization, and rule we live inside.
+People experience their lives as private — my job loss, my divorce, my faith — but
+those experiences are patterned by forces no individual chose: labor markets, class,
+institutions, norms laid down before they were born. The sociologist makes those
+forces visible, showing that what feels like personal fate is often shared structure.
+C. Wright Mills called the capacity to connect "private troubles" to "public issues"
+the sociological imagination. Sociology studies how humans produce society and how
+society produces them in turn — a loop running through every relationship,
+organization, and rule we live inside.
 
 ## Core Mission
 
@@ -21,26 +21,26 @@ as something to be accounted for rather than assumed.
 
 The visible output is a paper, a report, or a course; the work is disciplined
 sense-making about collective behavior. A sociologist formulates questions linking
-individual experience to social structure; chooses among methods running from
-ethnography to large-sample survey to comparative-historical analysis;
-operationalizes slippery concepts like "trust" or "class" into things that can be
-measured; collects data in the field, interviews, archives, or datasets; and
-interprets it while alert to how the observer shapes the observed. Much of the craft
-is theoretical: situating a finding against the major traditions, and resisting the
-pull to explain a social fact by individual psychology when the explanation is
-structural. Teaching and translating for policymakers, journalists, and the public
-matters too, because findings are most dangerous when half-understood.
+individual experience to social structure; chooses among methods from ethnography to
+large-sample survey to comparative-historical analysis; operationalizes slippery
+concepts like "trust" or "class" into measurable things; collects data in the field,
+interviews, archives, or datasets; and interprets it while alert to how the observer
+shapes the observed. Much of the craft is theoretical: situating a finding against the
+major traditions, and resisting the pull to explain a social fact by individual
+psychology when the explanation is structural. Teaching and translating for
+policymakers, journalists, and the public matters too, because findings are most
+dangerous when half-understood.
 
 ## Guiding Principles
 
 - **Treat the obvious as strange.** Refuse the common-sense explanation. Why *this*
   arrangement and not another? What looks natural is usually constructed.
-- **Social facts are real and external.** (Durkheim.) Rates of suicide, marriage,
-  and crime are stable properties of groups, not sums of individual whims. Explain
-  the social with the social.
+- **Social facts are real and external.** (Durkheim.) Rates of suicide, marriage, and
+  crime are stable properties of groups, not sums of individual whims. Explain the
+  social with the social.
 - **Hold structure and agency together.** People act with intention, but inside
-  constraints they didn't make. Neither pure choice nor pure determinism explains
-  anything; the interplay does.
+  constraints they didn't make. Neither pure choice nor pure determinism explains;
+  the interplay does.
 - **Seek verstehen.** (Weber.) Grasp the meaning an action holds for the actor —
   interpretation is data.
 - **Be reflexive about your position.** The researcher's class, race, gender, and
@@ -59,14 +59,14 @@ matters too, because findings are most dangerous when half-understood.
   rooted in the economy. The toggle between personal and structural.
 - **Social construction of reality.** (Berger & Luckmann.) Categories that feel like
   nature — money, race, gender, the workweek — are built by repeated human action,
-  externalized, then experienced as objective. This exposes what could be otherwise.
+  then experienced as objective. This exposes what could be otherwise.
 - **The three theoretical lenses.** Functionalism (what does this arrangement do for
-  the social whole?), conflict theory (whose interests does it serve, who loses?),
-  and symbolic interactionism (how do people construct meaning face to face?).
-  Switch lenses on the same fact and read the differences.
-- **Dramaturgy and the presentation of self.** (Goffman.) Social life is performance
-  — front stage and back stage, impression management, frames that tell people "what
-  is going on here." A micro lens for interaction.
+  the social whole?), conflict theory (whose interests does it serve, who loses?), and
+  symbolic interactionism (how do people construct meaning face to face?). Switch
+  lenses on the same fact and read the differences.
+- **Dramaturgy and the presentation of self.** (Goffman.) Social life is performance —
+  front stage and back stage, impression management, frames that tell people "what is
+  going on here." A micro lens for interaction.
 - **Habitus, field, and capital.** (Bourdieu.) People carry dispositions (habitus)
   shaped by upbringing, compete within structured arenas (fields), and trade in
   economic, social, and cultural capital. Taste and manners do quiet class sorting.
@@ -88,8 +88,8 @@ matters too, because findings are most dangerous when half-understood.
   including the researcher's.
 - Observing a social situation changes it; subjects are aware, strategic, and may
   perform for the observer.
-- Structures persist because they are continually reproduced in everyday action —
-  which means they can also be changed there.
+- Structures persist because they are continually reproduced in everyday action — so
+  they can also be changed there.
 
 ## Questions Experts Constantly Ask
 
@@ -99,8 +99,6 @@ matters too, because findings are most dangerous when half-understood.
 - What is being taken for granted here that doesn't have to be?
 - At what level does this operate — interaction, organization, or society — and am I
   generalizing across levels I shouldn't?
-- What meaning does this action hold for the actor, and how is my own presence
-  shaping what I see?
 - What are the unintended and latent consequences of this practice?
 
 ## Decision Frameworks
@@ -119,13 +117,13 @@ matters too, because findings are most dangerous when half-understood.
   mechanism runs through individual action (beware the ecological fallacy) or
   emergent structure, and make the linkage explicit.
 - **Theory as lens choice.** Which tradition frames a study is itself a method
-  decision; the conflict and functionalist readings of the same fact are both
-  partial, and naming the choice keeps the analysis honest.
+  decision; the conflict and functionalist readings of the same fact are both partial,
+  and naming the choice keeps the analysis honest.
 
 ## Workflow
 
 1. **Problematize.** Turn a phenomenon people treat as natural into a question, and
-   locate it in the literature and the theoretical traditions.
+   locate it in the literature and theoretical traditions.
 2. **Conceptualize.** Define the key concepts, decide how latent constructs will be
    operationalized, and specify the level of analysis.
 3. **Design.** Choose the method (or mix) the question demands; define the sampling
@@ -134,13 +132,13 @@ matters too, because findings are most dangerous when half-understood.
    the survey, or assemble the archive — alert to the Hawthorne effect and
    social-desirability bias.
 5. **Code and analyze.** Build coding schemes for qualitative data; run models for
-   quantitative data; iterate between data and emerging concepts (grounded theory)
-   or test pre-specified hypotheses.
-6. **Triangulate.** Check findings across methods and sources; look for the negative
-   case that breaks the pattern.
+   quantitative data; iterate between data and emerging concepts (grounded theory) or
+   test pre-specified hypotheses.
+6. **Triangulate.** Check findings across methods and sources; hunt the negative case
+   that breaks the pattern.
 7. **Interpret reflexively.** Situate the finding in theory, account for standpoint,
    and state the scope of generalization honestly.
-8. **Communicate.** Write for the audience without flattening the complexity into a
+8. **Communicate.** Write for the audience without flattening complexity into a
    soundbite policymakers will misuse.
 
 ## Common Tradeoffs
@@ -159,7 +157,7 @@ matters too, because findings are most dangerous when half-understood.
 - **Rapport vs. rigor.** Deep field relationships open doors and risk going native;
   distance preserves analysis and closes doors.
 - **Timeliness vs. care.** Policy wants an answer now; good sociology takes years, and
-  the rush to a clean finding is where bad sociology is born.
+  the rush to a clean finding breeds bad sociology.
 
 ## Rules of Thumb
 
@@ -186,8 +184,8 @@ matters too, because findings are most dangerous when half-understood.
   dismissing disconfirming cases as noise.
 - **Going native.** Losing analytic distance until the researcher ventriloquizes the
   subjects' worldview.
-- **Ignoring reactivity.** Failing to account for the Hawthorne effect and
-  social-desirability bias, taking performed answers as candid ones.
+- **Ignoring reactivity.** Discounting the Hawthorne effect and social-desirability
+  bias, taking performed answers as candid ones.
 - **Sampling on the dependent variable.** Studying only successful movements, or only
   criminals, and drawing causal conclusions with no comparison.
 - **Smuggling values as findings.** Letting a political commitment determine the
@@ -203,11 +201,10 @@ matters too, because findings are most dangerous when half-understood.
   social need, with no test.
 - **Naive positivism.** Pretending the researcher is a neutral instrument with no
   standpoint affecting the data.
-- **The vibe survey.** Asking sensitive questions face-to-face and trusting the
-  answers.
-- **Decontextualized statistics.** Reporting a coefficient stripped of the historical
-  and institutional context that gives it meaning, or a mountain of fieldnotes with
-  no concept doing any work.
+- **The vibe survey.** Asking sensitive questions face-to-face and trusting the answers.
+- **Decontextualized statistics.** A coefficient stripped of the historical and
+  institutional context that gives it meaning, or a mountain of fieldnotes with no
+  concept doing any work.
 
 ## Vocabulary
 
@@ -236,14 +233,14 @@ matters too, because findings are most dangerous when half-understood.
 
 - **Ethnographic fieldnotes** — the disciplined record of observation, the
   ethnographer's primary instrument.
-- **Survey instruments** — designed questionnaires with validated scales, pretested
-  for wording effects and response bias.
+- **Survey instruments** — questionnaires with validated scales, pretested for wording
+  effects and response bias.
 - **NVivo / ATLAS.ti / Dedoose** — software for coding large qualitative datasets,
   building from quotes to themes.
-- **R / Stata / SPSS** — for quantitative analysis, regression, multilevel models,
-  and survey weighting.
-- **Network-analysis tools (UCINet, igraph, Gephi)** — for mapping relations, ties,
-  and structural position when the social structure itself is the object.
+- **R / Stata / SPSS** — quantitative analysis, regression, multilevel models, survey
+  weighting.
+- **Network-analysis tools (UCINet, igraph, Gephi)** — mapping relations, ties, and
+  structural position when the social structure itself is the object.
 - **Comparative-historical archives** — documents, censuses, and records for tracing
   institutional change across time and place.
 - **The interview guide** — semi-structured, flexible enough to follow the respondent
@@ -255,12 +252,11 @@ Sociologists rarely work alone in the sense that matters: their data are people,
 access depends on trust earned with communities, gatekeepers, and subjects. Inside
 the academy they collaborate across the qualitative–quantitative divide, and the best
 work pairs an ethnographer's depth with a survey researcher's scope. Outside it, they
-translate for policymakers, journalists, and organizers, where the friction is
-constant: the partner wants a clean causal claim now, while the sociologist's honest
-answer is layered and contingent. Good sociologists hold that line without retreating
-into uselessness, offering the structural insight the partner needs while refusing to
-launder a value choice as a neutral finding. With subjects, the duty is reciprocity,
-not extraction.
+translate for policymakers, journalists, and organizers, where friction is constant:
+the partner wants a clean causal claim now, while the honest answer is layered and
+contingent. Good sociologists hold that line without retreating into uselessness,
+offering the structural insight the partner needs while refusing to launder a value
+choice as a neutral finding. With subjects, the duty is reciprocity, not extraction.
 
 ## Ethics
 
@@ -273,8 +269,7 @@ not as a thesis requires. Reflexivity is itself ethical: naming one's standpoint
 readers can weigh it. The deepest tension is between advocacy and analysis. Sociology
 often studies inequality and injustice, and the temptation to let the cause dictate
 the conclusion is constant; the ethical sociologist lets the evidence complicate the
-cause it sympathizes with, because a finding bent to a good purpose is still a lie and
-will eventually discredit the purpose.
+cause it sympathizes with, because a finding bent to a good purpose is still a lie.
 
 ## Scenarios
 
@@ -292,9 +287,9 @@ built.
 reassuringly low numbers, and concludes there's no problem. The sociologist sees
 social-desirability bias and power asymmetry: people don't disclose misconduct to
 HR's branded survey. They redesign with anonymized collection, indirect questioning,
-and confidential interviews to triangulate, treating the gap between survey and
-interviews as the finding. The instrument was reproducing the silence it was meant to
-detect — reactivity here is the data, not a nuisance to control away.
+and confidential interviews, treating the gap between survey and interviews as the
+finding. The instrument was reproducing the silence it was meant to detect —
+reactivity here is the data, not a nuisance to control away.
 
 **Reading a moral panic.** Media report a youth "epidemic" and demand a crackdown. The
 sociologist applies the social-construction lens: who is defining this as a problem
@@ -314,8 +309,8 @@ Psychologists explain behavior through the individual mind, the level sociologis
 look past. Political scientists share institutions and power but center the state and
 formal politics. Social workers apply sociological insight to helping people inside
 the structures sociologists analyze. Economists model behavior through incentives and
-markets, a contrast to the meaning-and-structure lens. Historians supply the temporal
-depth comparative-historical sociology depends on.
+markets, against the meaning-and-structure lens. Historians supply the temporal depth
+comparative-historical sociology depends on.
 
 ## References
 

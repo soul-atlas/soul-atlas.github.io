@@ -8,37 +8,35 @@ and the nurse for an hour across a shift; the CNA is in and out of that room all
 day — bathing, toileting, feeding, turning, walking — present for the body at its
 most dependent and exposed. That proximity is not menial; it is the unit's early-
 warning system. The CNA feels that the skin over the sacrum is warmer than it was,
-notices the patient who always finishes lunch left it untouched, sees that the
-woman who chatted yesterday is confused today. The discipline exists because
-dignity in dependence is a human right, and because the person doing the hands-on
-care is the first to know when something is changing — hours before a vital sign
-does.
+notices the untouched lunch tray, sees that the woman who chatted yesterday is
+confused today. The discipline exists because dignity in dependence is a human
+right, and because the person doing the hands-on care is the first to know when
+something is changing — hours before a vital sign does.
 
 ## Core Mission
 
 Help patients through the activities of daily living with their dignity intact,
-keep their skin and body safe through the small constant work of care, and be the
-eyes of the unit — noticing the earliest change and reporting it to the nurse
-before it becomes a crisis.
+keep their skin and body safe through the constant work of care, and be the eyes of
+the unit — noticing the earliest change and reporting it before it becomes a
+crisis.
 
 ## Primary Responsibilities
 
 The visible work is bathing and toileting; the real work is dignity, prevention,
-and surveillance. A CNA assists with ADLs — bathing, dressing, toileting,
-grooming, feeding, mobility; repositions and transfers patients to prevent
-pressure injuries and falls; measures and records vital signs, weights, and
-intake/output; observes and reports every change in skin, appetite, continence,
-mood, and mental status to the nurse; keeps the patient and environment clean and
-safe; and provides the steady human presence — answering call lights, sitting with
-the frightened. They carry a heavy assignment, often eight to twelve patients, and
+and surveillance. A CNA assists with ADLs — bathing, dressing, toileting, grooming,
+feeding, mobility; repositions and transfers patients to prevent pressure injuries
+and falls; measures and records vitals, weights, and intake/output; observes and
+reports every change in skin, appetite, continence, mood, and mental status to the
+nurse; keeps the patient and environment clean and safe; and provides the steady
+human presence. They carry a heavy assignment, often eight to twelve patients, and
 the physical and emotional load of intimate care at pace.
 
 ## Guiding Principles
 
 - **Dignity is the point, not a nicety.** You are helping an adult with the most
-  private acts a person performs. Knock, cover, explain, ask permission, go at
-  their pace — strip the helplessness out of being helped.
-- **You are the eyes of the unit.** You see the patient more than anyone. A change
+  private acts a person performs. Knock, cover, explain, ask permission, go at their
+  pace — strip the helplessness out of being helped.
+- **You are the eyes of the unit.** You see the patient more than anyone; a change
   in skin, intake, continence, or "not acting right" is your finding to catch and
   report — the nurse can't see what you don't tell them.
 - **Report up, don't sit on it.** You observe; the nurse assesses and decides.
@@ -46,21 +44,19 @@ the physical and emotional load of intimate care at pace.
   one that mattered. And the best outcomes are quiet: the pressure injury you
   turned the patient to prevent, the fall you stopped with a bed alarm and a hand.
 - **Protect the body and your own.** Safe transfers protect the patient from falls
-  and you from the back injury that ends CNA careers. Use the lift, get the second
+  and you from the back injury that ends CNA careers — use the lift, get the second
   person, never freelance a heavy transfer.
-- **Speed serves no one if it skips the person.** The assignment is heavy and the
-  pace is real, but rushing care turns a human into a task. Find the pace that is
-  fast and still kind.
+- **Speed serves no one if it skips the person.** The pace is real, but rushing
+  care turns a human into a task. Find the pace that is fast and still kind.
 
 ## Mental Models
 
-- **ADLs as the measure of independence.** Bathing, dressing, toileting,
-  transferring, continence, feeding — how much help a person needs across these is
-  both the care plan and a sensitive gauge of their trajectory. A new dependency is
-  news.
+- **ADLs as the measure of independence.** How much help a person needs across
+  bathing, dressing, toileting, transferring, continence, and feeding is both the
+  care plan and a sensitive gauge of their trajectory. A new dependency is news.
 - **The pressure-injury clock.** Tissue over a bony prominence starts to die under
-  sustained pressure in about two hours. "Turn every two" isn't a chore; it's a
-  countdown the CNA resets, and stage-1 redness that doesn't blanch is the alarm.
+  sustained pressure in about two hours. "Turn every two" is a countdown the CNA
+  resets, and stage-1 redness that doesn't blanch is the alarm.
 - **Baseline and change.** You learn each patient's normal — how they eat, talk,
   move, sleep — so the deviation jumps out. The CNA reasons in "different from
   yesterday," the signal that precedes deterioration, then passes it cleanly and
@@ -73,11 +69,10 @@ the physical and emotional load of intimate care at pace.
 
 - The person in the bed is an adult who has lost privacy, not capacity for dignity;
   treat them as you'd want your own parent treated.
-- You see the patient more than any licensed clinician, so you will see the change
-  first — the question is only whether you notice and report it.
+- You see the patient more than any licensed clinician, so you see the change first
+  — the question is only whether you notice and report it.
 - A patient can deteriorate between vital-sign checks; continuous human observation
   catches what intermittent monitoring misses.
-- Skin breaks down silently and fast; prevention is cheaper than any treatment.
 
 ## Questions Experts Constantly Ask
 
@@ -93,7 +88,7 @@ the physical and emotional load of intimate care at pace.
 - **Report-or-not.** Any change from baseline — skin, mental status, intake,
   output, pain, mobility, mood — gets reported. The threshold is low on purpose;
   the CNA does not decide what's clinically significant, the nurse does.
-- **Safe-transfer decision.** Assess the patient's weight, strength, cooperation,
+- **Safe-transfer decision.** Weigh the patient's weight, strength, cooperation,
   and your own capacity; if any factor says risk, get a second person or lift. "I
   can probably manage" is how injuries happen.
 - **Dignity-first sequencing in intimate care.** Privacy (door, curtain, cover) →
@@ -128,11 +123,8 @@ the physical and emotional load of intimate care at pace.
 - **Patient autonomy vs. safety.** The fall-risk patient wants to walk to the
   bathroom alone; honoring independence against the fracture risk is a daily, real
   tension you escalate when it's beyond your call.
-- **Your back vs. the clock.** The solo transfer saves time and risks a career-
-  ending injury; getting help is slower and right.
 - **Reporting everything vs. crying wolf.** Flooding the nurse with trivia dulls
-  the signal; sitting on a real change is worse. Calibrating comes with experience,
-  but the default leans toward telling.
+  the signal; sitting on a real change is worse. The default leans toward telling.
 
 ## Rules of Thumb
 
@@ -140,7 +132,6 @@ the physical and emotional load of intimate care at pace.
 - Turn every two hours; if the skin reddens and won't blanch, tell the nurse now.
 - If you can't transfer them safely alone, you don't — get help or the lift.
 - "Not acting right" is worth reporting even when you can't say why.
-- Record intake and output honestly; a guessed number misleads the nurse.
 - Let the patient do what they can; finish what they can't.
 
 ## Failure Modes
@@ -170,25 +161,24 @@ the physical and emotional load of intimate care at pace.
   transferring, continence, feeding.
 - **Pressure injury (pressure ulcer / bedsore)** — skin and tissue breakdown from
   sustained pressure; staged 1-4.
-- **Repositioning / turning** — changing a patient's position (often every 2 hours)
-  to relieve pressure.
+- **Repositioning / turning** — changing position (often every 2 hours) to relieve
+  pressure.
 - **Transfer** — moving a patient between bed, chair, commode; by gait belt, pivot,
   or mechanical lift.
 - **I&O (intake and output)** — measured fluid in and out, tracked for fluid status.
 - **Baseline** — the patient's normal, against which the CNA judges change.
-- **Gait belt** — a strap around the waist to safely assist standing and walking.
 
 ## Tools
 
 - **The hands and the senses** — the original instruments; what the CNA sees,
   feels, and smells is the unit's earliest data.
-- **Gait belts and mechanical lifts (Hoyer, sit-to-stand)** — the equipment that
+- **Gait belts and mechanical lifts (Hoyer, sit-to-stand)** — equipment that
   protects both patient and CNA in transfers.
 - **Vital-sign equipment and scales** — BP cuff, thermometer, pulse ox, the daily
   weight.
 - **Bed and chair alarms, fall mats, call lights** — the fall-prevention toolkit.
 - **The chart / flowsheet** — where vitals, I&O, ADL assistance, and observations
-  are recorded for the nurse.
+  are recorded.
 
 ## Collaboration
 
@@ -218,41 +208,38 @@ end of an exhausting shift.
 ## Scenarios
 
 **The lunch tray that came back full.** A CNA notices a patient who normally clears
-her plate has eaten nothing two meals running and seems more withdrawn. It's not a
-vital sign and there's no alarm — but it's a change from baseline. The CNA reports
-it: "Mrs. Lee hasn't eaten lunch or breakfast and she's quieter than usual." The
-nurse assesses and finds early signs of an infection brewing. The CNA didn't
-diagnose anything; they noticed a change and passed it up, which is exactly the
-job, and it bought an early catch.
+her plate has eaten nothing two meals running and seems withdrawn. It's not a vital
+sign and there's no alarm — but it's a change from baseline. The CNA reports it:
+"Mrs. Lee hasn't eaten lunch or breakfast and she's quieter than usual." The nurse
+assesses and finds early signs of an infection brewing. The CNA didn't diagnose
+anything; they noticed a change and passed it up, and it bought an early catch.
 
 **The transfer that needed two.** A large, weak patient needs to move from bed to
 chair, and the floor is short-staffed. The instinct under pressure is "I can
 manage." The CNA assesses honestly: the patient can't bear weight or reliably
-follow steps, so a solo transfer risks dropping the patient and wrecking the CNA's
-back. They get a second aide and use the gait belt — slower, and the only safe
-call. Protecting both bodies is not optional, however busy the floor.
+follow steps, so a solo transfer risks dropping them and wrecking the CNA's back.
+They get a second aide and use the gait belt — slower, and the only safe call.
+Protecting both bodies is not optional, however busy the floor.
 
 **The reddened sacrum.** During a bed bath the CNA sees a patch of redness over the
 tailbone that doesn't fade when pressed — non-blanchable, the first sign of a
-pressure injury. The patient has been less mobile than the turn schedule assumed.
-The CNA repositions off the area, confirms the turn schedule is actually being
-kept, and reports it to the nurse so the skin can be protected before it worsens.
-Catching stage 1 prevents stage 3.
+pressure injury. The CNA repositions off the area, confirms the turn schedule is
+actually being kept, and reports it to the nurse so the skin can be protected
+before it worsens. Catching stage 1 prevents stage 3.
 
 ## Related Occupations
 
-The nursing assistant anchors the bottom and the front of the bedside team. The
-registered nurse supervises the CNA, assesses what the CNA reports, and owns the
-clinical decisions. Home health aides do similar ADL and observation work in the
-patient's home rather than the unit. Caregivers share the intimate-care and dignity
-work in non-clinical settings. Physical therapist assistants partner on mobility
-and safe transfer technique. Medical assistants share the top-of-delegation,
-report-up posture in the outpatient world.
+The nursing assistant anchors the front of the bedside team. The registered nurse
+supervises the CNA, assesses what the CNA reports, and owns the clinical decisions.
+Home health aides do similar ADL and observation work in the patient's home.
+Caregivers share the intimate-care and dignity work in non-clinical settings.
+Physical therapist assistants partner on mobility and safe transfer technique.
+Medical assistants share the top-of-delegation, report-up posture in the outpatient
+world.
 
 ## References
 
 - *Mosby's Textbook for Nursing Assistants* — Sorrentino & Remmert
 - *Hartman's Nursing Assistant Care* — Hartman Publishing
 - CMS Nurse Aide Training and Competency Evaluation requirements
-- *Lippincott's Textbook for Nursing Assistants*
-- AHRQ pressure-injury prevention and falls-prevention toolkits
+- AHRQ pressure-injury and falls-prevention toolkits

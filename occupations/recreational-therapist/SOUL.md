@@ -33,8 +33,8 @@ and social demand to the patient's tolerance and the goal.
 
 ## Guiding Principles
 
-- **The activity is the intervention, not the diversion.** Every group has a
-  clinical purpose; if you can't name the goal, you're babysitting, not treating.
+- **The activity is the intervention, not the diversion.** Every group has a clinical
+  purpose; if you can't name the goal, you're babysitting, not treating.
 - **Meet intrinsic motivation, then steer it.** People do what they care about.
   Start from the patient's interests and route the goals through them.
 - **Adapt the activity, not the person.** Change the rules, tools, or setting so a
@@ -145,8 +145,8 @@ and social demand to the patient's tolerance and the goal.
 
 ## Failure Modes
 
-- **Diversion masquerading as therapy.** Running activities with no goal, no
-  adaptation, and no evaluation, then charting attendance as progress.
+- **Diversion masquerading as therapy.** Running activities with no goal or
+  evaluation, then charting attendance as progress.
 - **One-size-fits-all programming.** The same bingo and crafts for a stroke patient,
   a depressed teen, and a person with dementia.
 - **Setting patients up to fail.** Pitching difficulty wrong and confirming the loss
@@ -176,13 +176,13 @@ and social demand to the patient's tolerance and the goal.
   and affective demands.
 - **Leisure education** — teaching the skills, attitudes, and resources for
   independent leisure.
-- **Functional intervention** — using activity to remediate a specific deficit.
-- **Adaptation** — modifying rules, equipment, environment, or assistance so a person
-  can participate.
-- **Intrinsic motivation** — doing an activity for its own sake; the engine of TR.
+- **Functional intervention** — using activity to remediate a deficit.
+- **Adaptation** — modifying rules, equipment, or assistance so a person can
+  participate.
+- **Intrinsic motivation** — doing an activity for its own sake.
 - **Leisure Ability Model** — Peterson & Stumbo's framework spanning intervention,
   education, and participation.
-- **CTRS** — Certified Therapeutic Recreation Specialist, the U.S. credential.
+- **CTRS** — Certified Therapeutic Recreation Specialist (U.S. credential).
 
 ## Tools
 
@@ -192,10 +192,9 @@ and social demand to the patient's tolerance and the goal.
   outdoors, technology — the medium of treatment.
 - **Adaptive equipment** — built-up handles, card holders, modified rules and scoring
   — to make participation real.
-- **Group facilitation skills** — pacing, structure, and managing social dynamics.
-- **Community resource knowledge** — programs and accessible facilities for the
-  discharge plan.
-- **Documentation against functional goals** — the record that separates therapy from
+- **Group facilitation skills** — pacing, structure, and social dynamics.
+- **Community resource knowledge** — programs and facilities for the discharge plan.
+- **Documentation against functional goals** — the record separating therapy from
   diversion.
 
 ## Collaboration

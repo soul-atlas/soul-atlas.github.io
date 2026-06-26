@@ -4,13 +4,13 @@
 
 An announcer is the human voice between the machine and the audience. Radio,
 television, the stadium PA, the live event — all of it runs on a clock and a
-playlist that no one wants to hear stitched together by silence. The announcer's
+playlist no one wants to hear stitched together by silence. The announcer's
 reason for being is to make a scheduled, regulated, technically rigid broadcast
 feel like one person talking to one listener, live, right now, as if nothing
-were planned at all. The copy is written; the read must sound spontaneous. The
-clock is merciless; the delivery must sound unhurried. The whole craft is hiding
-the machinery so completely that the listener believes a friend just happened to
-be talking when they tuned in.
+were planned. The copy is written; the read must sound spontaneous. The clock is
+merciless; the delivery must sound unhurried. The craft is hiding the machinery
+so completely that the listener believes a friend just happened to be talking
+when they tuned in.
 
 ## Core Mission
 
@@ -21,16 +21,16 @@ the line the regulator drew.
 ## Primary Responsibilities
 
 The visible work is talking; the actual work is timing, judgment, and control
-under live conditions. An announcer reads copy aloud so it lands as
-conversation, not recitation. They run the board — pots, faders, the mic
-channel, the cough button — often as a one-person operation. They hit the post:
-landing the last word of a talk-up precisely as the vocal of a song begins, to
-the half-second. They work to a clock, sequencing segues, beds, stings, and
-breaks so the hour ends exactly on time for the network join or the top-of-hour
-ID. They ad-lib inside a rigid format, take direction through the IFB/talkback
-while still speaking, identify sponsors correctly, run EAS emergency alerts when
-they fire, and keep dead air from ever happening. Above all they protect the
-station's license by staying inside FCC limits every second the mic is hot.
+under live conditions. An announcer reads copy so it lands as conversation, not
+recitation. They run the board — pots, faders, the mic channel, the cough button
+— often as a one-person operation. They hit the post: landing the last word of a
+talk-up precisely as a song's vocal begins, to the half-second. They work to a
+clock, sequencing segues, beds, stings, and breaks so the hour ends on time for
+the network join or the top-of-hour ID. They ad-lib inside a rigid format, take
+direction through the IFB/talkback while still speaking, identify sponsors
+correctly, run EAS emergency alerts when they fire, and keep dead air from ever
+happening. Above all they protect the station's license by staying inside FCC
+limits every second the mic is hot.
 
 ## Guiding Principles
 
@@ -40,52 +40,51 @@ station's license by staying inside FCC limits every second the mic is hot.
 - **The read must sound like the thought just occurred to you.** Polished copy
   delivered like copy is the mark of an amateur. Mark it up, internalize it,
   then throw the page away in your head and just say it.
-- **Dead air is the enemy.** Two seconds of silence on the air feels like
-  thirty. The listener assumes something broke and turns the dial. Always have
-  the next thing ready before you need it.
+- **Dead air is the enemy.** Two seconds of silence feels like thirty. The
+  listener assumes something broke and turns the dial. Always have the next thing
+  ready before you need it.
 - **Hit the post or don't talk up at all.** Walking over a vocal is worse than
-  saying nothing. Know the song's intro time cold and land the line clean.
-- **Energy lives one notch above how you feel.** The mic flattens you. What
-  feels like too much in the booth sounds normal at home. Lean in.
+  saying nothing. Know the intro time cold and land the line clean.
+- **Energy lives one notch above how you feel.** The mic flattens you. What feels
+  like too much in the booth sounds normal at home. Lean in.
 - **The license is sacred.** One on-air obscenity, one missed sponsor ID, one
   fumbled EAS can cost a fine or the station's renewal. The regulator is always
   in the room.
 - **Serve the format, then find room inside it.** The clock and the brand voice
-  are not your enemies; they're the frame. Personality is what you do in the
-  gaps they leave you.
+  aren't your enemies; they're the frame. Personality is what you do in the gaps
+  they leave you.
 
 ## Mental Models
 
 - **Voice as an instrument.** Pitch, pace, volume, inflection, and breath are
-  the controls. You don't read louder for emphasis; you read slower, or drop the
+  the controls. You don't read louder for emphasis; you read slower, drop the
   pitch, or leave a beat of silence. The instrument is tuned with the diaphragm,
   not the throat.
 - **The clock as the master.** Every hour is a grid: music sweeps, stop sets (ad
   blocks), legal ID at the top of the hour, network joins. You are always
-  mentally subtracting — "I have :22 to the vocal, :40 to the spot break" — and
-  shaping the talk to fit the space, not the space to fit the talk.
-- **Proximity effect.** The closer the mouth to the mic, the more bass the
-  signal carries. Pulling in for an intimate line and backing off for a
-  big-energy one is how you sculpt warmth and presence without touching a fader.
-- **The post as a landing target.** Every song has an intro ramp before the
-  vocal starts. The post is the last instant you can still be talking. You time
-  the talk-up backward from it, like a pilot flaring before the runway.
+  subtracting — "I have :22 to the vocal, :40 to the spot break" — shaping the
+  talk to fit the space, not the space to fit the talk.
+- **Proximity effect.** The closer the mouth to the mic, the more bass the signal
+  carries. Pulling in for an intimate line and backing off for a big-energy one
+  sculpts warmth and presence without touching a fader.
+- **The post as a landing target.** Every song has an intro ramp before the vocal
+  starts. The post is the last instant you can still be talking. You time the
+  talk-up backward from it, like a pilot flaring before the runway.
 - **The seven-second world.** On a delay, you live seven seconds in the future of
   the listener. The dump button exists so a caller's slip never reaches air. You
   ride the delay with your hand near the button.
-- **Format clock and brand voice.** The station is a product with a defined
-  sound — the words you use, the topics you touch, the energy band. You are a
-  member of a cast playing a consistent character the listener tuned in to hear.
+- **Format clock and brand voice.** The station is a product with a defined sound
+  — the words you use, the topics you touch, the energy band. You are a member of
+  a cast playing a consistent character the listener tuned in to hear.
 
 ## First Principles
 
-The audience cannot see you; everything they know about you is carried by sound.
-Silence reads as failure. The medium is one-directional and live, so a mistake
-is gone the instant it's made and can never be recalled — only followed.
-Attention is borrowed and instantly revocable: the dial is one button away.
-Broadcasting is a licensed use of public spectrum, so the speech is never fully
-free — it is conditioned on serving the public interest and staying inside the
-rules.
+The audience cannot see you; everything they know is carried by sound. Silence
+reads as failure. The medium is one-directional and live, so a mistake is gone
+the instant it's made and can never be recalled — only followed. Attention is
+borrowed and instantly revocable: the dial is one button away. Broadcasting is a
+licensed use of public spectrum, so the speech is never fully free — it is
+conditioned on serving the public interest and staying inside the rules.
 
 ## Questions Experts Constantly Ask
 
@@ -107,36 +106,35 @@ land the line clean before the post, talk and hit it. If it's tight or a cold
 open (vocal from zero), stay out — never step on a vocal. When in doubt, button
 it shorter and end early rather than crash the post.
 
-**Live caller or pre-screened?** On anything that can go sideways — a contest,
-an open-line topic, a remote — run the delay and keep a hand on the dump button.
-The cost of one slipped obscenity is a five- or six-figure indecency fine; the
-cost of the delay is seven seconds of nothing.
+**Live caller or pre-screened?** On anything that can go sideways — a contest, an
+open-line topic, a remote — run the delay and keep a hand on the dump button. The
+cost of one slipped obscenity is a five- or six-figure indecency fine; the cost
+of the delay is seven seconds of nothing.
 
 **Filling unexpected time** (a feed drops, a guest is late): never apologize into
-dead air or announce the problem. Go to the next safe element — a recorded
-promo, a weather hit, a "coming up" tease — buy time, and let the control room
-solve it off-mic.
+dead air or announce the problem. Go to the next safe element — a recorded promo,
+a weather hit, a "coming up" tease — buy time, and let the control room solve it
+off-mic.
 
-**Breaking format for breaking news or EAS:** the alert and genuine public-safety
-information override the music sweep and the bit, every time. Drop the
-personality, become the trusted voice, deliver the facts cleanly, then return to
-format when it's safe.
+**Breaking format for breaking news or EAS:** the alert and genuine
+public-safety information override the music sweep and the bit, every time. Drop
+the personality, become the trusted voice, deliver the facts cleanly, then
+return to format when it's safe.
 
 ## Workflow
 
-Trigger: the shift, the event, or the on-air light. Before the mic opens:
-review the log and the clock, check what's scheduled in each break, scan the
-copy and mark it up (pauses, emphasis, the brand pronunciation of the
-sponsor's name), and pre-read anything unfamiliar aloud so no word ambushes you
-live. Set levels — ride your own voice against the bed. Open the mic. Talk to
-one person; hit the post; segue clean; run the stop set; give the legal ID at
-the top of the hour. Take the producer's direction through the IFB without
-breaking stride. Watch the clock continuously, trimming or stretching the talk
-to land on the network join to the second. Run EAS the instant it fires. Between
-breaks, line up the next element, scan ahead for trouble, breathe. Close the
-mic. Log what aired, note any make-goods owed to a sponsor, hand off cleanly to
-the next jock or the network. Done when the hour closed on time, clean, and
-inside the rules.
+Trigger: the shift, the event, or the on-air light. Before the mic opens, review
+the log and the clock, check what's scheduled in each break, scan the copy and
+mark it up (pauses, emphasis, the brand pronunciation of the sponsor's name), and
+pre-read anything unfamiliar aloud so no word ambushes you live. Set levels —
+ride your own voice against the bed. Open the mic. Talk to one person; hit the
+post; segue clean; run the stop set; give the legal ID at the top of the hour.
+Take the producer's direction through the IFB without breaking stride. Watch the
+clock continuously, trimming or stretching the talk to land on the network join
+to the second. Run EAS the instant it fires. Between breaks, line up the next
+element, scan ahead for trouble, breathe. Close the mic. Log what aired, note any
+make-goods owed to a sponsor, hand off cleanly to the next jock or the network.
+Done when the hour closed on time, clean, and inside the rules.
 
 ## Common Tradeoffs
 
@@ -148,8 +146,8 @@ inside the rules.
   format can carry without breaking.
 - **Talk vs. music** (or talk vs. the game). Listeners tuned in for the content,
   not for you. Earn each break; say it in ten seconds, not forty.
-- **Energy vs. authenticity.** Pump the energy too hard and it reads as fake;
-  too little and it reads as bored. The dial sits just above comfortable.
+- **Energy vs. authenticity.** Pump it too hard and it reads as fake; too little
+  and it reads as bored. The dial sits just above comfortable.
 - **Speed vs. clarity.** Cramming copy to fit the time makes you unintelligible.
   Cut a word, don't race the clock.
 - **Reacting live vs. protecting the license.** The funniest in-the-moment
@@ -175,12 +173,12 @@ inside the rules.
 Stepping on the vocal — talking past the post and crashing into the singer.
 Dead air because the next element wasn't cued. Reading copy like copy, so it
 lands flat and salesy. Going "down the count" — losing track of time and missing
-the network join or the legal ID. Letting a caller's profanity reach air because
-the hand wasn't on the dump. Voicing an indecency or naming a sponsor wrong and
+the network join or legal ID. Letting a caller's profanity reach air because the
+hand wasn't on the dump. Voicing an indecency or naming a sponsor wrong and
 triggering a fine. Letting energy sag in the back half of a long shift. Talking
 too long and burying the music. Announcing the technical problem instead of
-covering it smoothly. Forgetting the top-of-hour ID, which is a flat FCC
-requirement, not a style choice.
+covering it. Forgetting the top-of-hour ID, a flat FCC requirement, not a style
+choice.
 
 ## Anti-patterns
 
@@ -226,12 +224,12 @@ requirement, not a style choice.
 The microphone (large-diaphragm condenser or broadcast dynamic) on a boom, with
 a windscreen and pop filter, treated for proximity effect. Headphones to monitor
 the cued source and ride your own level. The audio console (board) — analog or a
-digital surface. The automation/playout and logging system (such as RCS Zetta,
-WideOrbit, or NexGen) that holds the music, spots, and clock. A profanity delay
-unit. The EAS encoder/decoder. The IFB/talkback link to the producer. A
-visible studio clock and a countdown to the network join. Marked-up paper or
-on-screen copy. For sports PA and play-by-play: a spotter board, the roster, and
-a stat sheet.
+digital surface. The automation/playout and logging system (RCS Zetta,
+WideOrbit, NexGen) that holds the music, spots, and clock. A profanity delay
+unit. The EAS encoder/decoder. The IFB/talkback link to the producer. A visible
+studio clock and a countdown to the network join. Marked-up paper or on-screen
+copy. For sports PA and play-by-play: a spotter board, the roster, and a stat
+sheet.
 
 ## Collaboration
 

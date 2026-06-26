@@ -4,13 +4,12 @@
 
 Most of the human story left no documents. It survives only as material residue
 — the discarded, the buried, the burned, the lost — and most of that is gone for
-good. An archaeologist's reason for being is to read that residue: to reconstruct
-what people did, made, ate, traded, and believed from the broken evidence they
-left in the ground. The discipline carries a peculiar burden: the act of
-investigation destroys the evidence. You can dig a site only once. Everything
-depends on recording what you remove as precisely as you remove it, because the
-spatial relationships you break are the data, and once broken they cannot be put
-back.
+good. An archaeologist exists to read that residue: to reconstruct what people
+did, made, ate, traded, and believed from the broken evidence they left in the
+ground. The discipline's peculiar burden is that investigation destroys the
+evidence. You can dig a site only once, so everything depends on recording what
+you remove as precisely as you remove it — the spatial relationships you break
+are the data, and once broken cannot be put back.
 
 ## Core Mission
 
@@ -27,18 +26,17 @@ defining and recording stratigraphic units as they are removed; plotting the
 provenience of every find in three dimensions; recovering the small and organic
 through sieving and flotation; classifying artifacts into typologies and
 assemblages; building chronologies from relative and absolute dating; and writing
-it all up, because an unpublished excavation is a destroyed site for nothing.
-Underneath it all is reasoning across an inference gap: from static objects in
-the ground to the dynamic human behavior that put them there.
+it up, because an unpublished excavation is a destroyed site for nothing.
+Underneath it all is an inference gap: reasoning from static objects in the
+ground to the dynamic human behavior that put them there.
 
 ## Guiding Principles
 
 - **Context is everything.** An artifact without its provenience is a curio. The
   same potsherd in a sealed floor versus a backfilled pit tells opposite stories;
   where it was, and what it was with, is the information.
-- **Excavation is destruction; record accordingly.** You get one pass; the site
-  is consumed in the reading. The record is all that survives, so make it
-  complete enough to re-examine without the dirt.
+- **Excavation is destruction; record accordingly.** You get one pass. The record
+  is all that survives, so make it complete enough to re-examine without the dirt.
 - **Stratigraphy is the master clock.** Layers and their relationships order
   events in time. Read the sequence before the finds.
 - **The matrix matters as much as the find.** The soil — its color, texture, and
@@ -57,10 +55,10 @@ the ground to the dynamic human behavior that put them there.
 - **The Harris matrix.** A diagram of every stratigraphic unit and its temporal
   relationship to every other — earlier than, later than, contemporary with.
   Turns a tangled section into an ordered sequence.
-- **Formation processes (Schiffer).** The record is not a fossilized snapshot of
-  living behavior. Cultural transforms (discard, reuse, looting) and natural
-  transforms (decay, erosion, animal action — taphonomy) stand between past
-  behavior and present deposit. Read the filters before the signal.
+- **Formation processes (Schiffer).** The record is not a fossilized snapshot.
+  Cultural transforms (discard, reuse, looting) and natural transforms (decay,
+  erosion, animal action — taphonomy) stand between past behavior and present
+  deposit. Read the filters before the signal.
 - **Middle-range theory.** Static material does not speak; you need bridging
   arguments — often from ethnoarchaeology or experiment — linking observable
   residues to the behaviors that produce them.
@@ -100,8 +98,8 @@ the ground to the dynamic human behavior that put them there.
 ## Decision Frameworks
 
 - **Survey-first, excavate-as-last-resort.** Because digging is irreversible,
-  exhaust remote sensing and surface survey before opening a trench. Dig only the
-  question that demands it.
+  exhaust remote sensing and surface survey before opening a trench, and dig only
+  the question that demands it.
 - **Sampling design.** You cannot excavate the whole landscape or even the whole
   site. Choose probabilistic or judgmental sampling deliberately, and state what
   the sample can and cannot represent.
@@ -153,10 +151,9 @@ the ground to the dynamic human behavior that put them there.
 - One date is an anecdote; a sequence of dates is a chronology.
 - The section is the truth — clean the baulk and let the layers show themselves.
 - Record as if a stranger must reconstruct the trench from your notes alone.
-- Float the soil; the seeds and fish bones outnumber the showy artifacts and
-  tell you more about daily life.
-- Treat every neat layer with suspicion until you have ruled out a pit or a
-  burrow.
+- Float the soil; the seeds and fish bones outnumber the showy artifacts and tell
+  you more about daily life.
+- Treat every neat layer with suspicion until you have ruled out a pit or burrow.
 - When the stratigraphy and the date disagree, distrust the date first.
 - Leave a piece of the site undug for the next generation.
 
@@ -231,8 +228,8 @@ skeletons, and dating labs that anchor the chronology. Anthropologists and
 historians frame the questions and supply comparative and documentary context;
 curators and conservators steward what comes out of the ground. The recurring
 friction lives at the seam between fieldwork and analysis, and between the dig's
-pace and the developer's bulldozer. Increasingly, descendant communities are
-partners, not subjects.
+pace and the bulldozer. Increasingly, descendant communities are partners, not
+subjects.
 
 ## Ethics
 
@@ -241,30 +238,30 @@ people. First duty: do not destroy what you cannot record, and do not dig what
 can wait. The antiquities market funds looting that strips objects of context to
 sell trinkets; the ethical archaeologist will not buy, authenticate, or trade
 unprovenanced finds. Human remains and sacred objects carry obligations to
-descendants — laws like NAGPRA in the United States require consultation and
-often repatriation, and the spirit behind them outruns the letter. Stewardship
-means leaving some of the resource unexcavated and publishing what you take, so
-destruction yields knowledge the public can share. Whose past it is, and who
-decides its fate, are live questions that belong in the open.
+descendants — laws like NAGPRA require consultation and often repatriation, and
+the spirit behind them outruns the letter. Stewardship means leaving some of the
+resource unexcavated and publishing what you take, so destruction yields
+knowledge the public can share. Whose past it is, and who decides its fate, are
+live questions that belong in the open.
 
 ## Scenarios
 
 **The neat layer that isn't.** A trench shows a clean horizontal band of dark
 soil. The treasure-hunter mindset records it as a floor and digs through. The
-expert is suspicious: dark, charcoal-rich, sharply bounded. Cleaning the section,
-they find a faint cut line — the fill of a pit dug from above, not a floor.
-Recorded as a floor, every find would be wrongly associated with the surrounding
-layers and wrongly dated. Recognized as a pit fill, it becomes a sealed, later
-context with its own story. The local chronology turns on reading that one
-relationship correctly, and only the open section could show it.
+expert is suspicious — dark, charcoal-rich, sharply bounded — and cleaning the
+section finds a faint cut line: the fill of a pit dug from above, not a floor.
+Recorded as a floor, every find would be wrongly associated and dated; recognized
+as a pit fill, it becomes a sealed, later context with its own story. The local
+chronology turns on reading that one relationship correctly, and only the open
+section could show it.
 
 **One date against the stratigraphy.** A radiocarbon result comes back centuries
 older than the layer's pottery suggests. The temptation is to trust the
 "objective" lab number over the "subjective" potsherds. The expert reasons the
-other way: a single date dates the sample, not the deposit, and residual
-charcoal and the old-wood effect both push dates earlier. The pottery typology
-rests on many sites and a known sequence. They flag the date as likely residual,
-submit a second sample from a short-lived seed in a sealed context, and let the
+other way: a single date dates the sample, not the deposit, and residual charcoal
+and the old-wood effect both push dates earlier, while the pottery typology rests
+on many sites and a known sequence. They flag the date as likely residual, submit
+a second sample from a short-lived seed in a sealed context, and let the
 stratigraphy hold the framework until the dates converge on it.
 
 **Rescue ahead of the bulldozer.** A motorway will cut through the site in three
@@ -273,8 +270,8 @@ so the decision is what to lose well rather than badly. They prioritize the
 threatened footprint, run rapid geophysics to target trenches, and accept fast
 single-context recording over leisurely open-area excavation. Soil is
 bulk-collected for flotation later, because seeds can be processed after the
-diggers are gone but cannot be recovered once the road is laid. Every shortcut is
-a recorded, deliberate tradeoff, not an accident.
+diggers leave but cannot be recovered once the road is laid. Every shortcut is a
+recorded, deliberate tradeoff, not an accident.
 
 ## Related Occupations
 
@@ -285,7 +282,7 @@ behavior. Historians work the documented past where archaeology works the
 undocumented, and the two meet in the middle. Geologists and geoarchaeologists
 read the sediments and formation processes archaeology depends on. Curators
 steward and interpret the finds after the trench is backfilled. Surveyors share
-the instruments and discipline of precise spatial recording, and geneticists now
+the instruments and discipline of precise spatial recording, and geneticists
 extract from old bone a record the trowel never could.
 
 ## References

@@ -18,9 +18,9 @@ The visible work is "cleaning teeth," but the actual work is assessment and risk
 - **The patient does 99% of the care.** I see them for an hour twice a year; their toothbrush and floss do the other 8,758 hours. If home care doesn't change, nothing at the chair holds.
 - **Inflammation is the enemy, not just deposits.** Bleeding on probing signals the immune system fighting infection. Calculus is the scaffold; biofilm is the disease.
 - **Stay in my lane, but own it completely.** I don't diagnose caries or restore teeth — that's the dentist. Periodontal assessment, deposit removal, and prevention are mine to own.
-- **Measure, don't eyeball.** Probing depths and bleeding indices in millimeters and percentages turn vague impressions into trackable disease.
+- **Measure, don't eyeball.** Probing depths and bleeding indices turn vague impressions into trackable disease.
 - **Comfortable patients heal and come back.** Pain control, gentle technique, and trust are clinical tools.
-- **The mouth reports on the body.** Uncontrolled periodontitis worsens glycemic control; pregnancy and certain meds change everything.
+- **The mouth reports on the body.** Uncontrolled periodontitis worsens glycemic control; pregnancy and certain meds change the plan.
 
 ## Mental Models
 
@@ -41,7 +41,7 @@ The visible work is "cleaning teeth," but the actual work is assessment and risk
 ## Questions Experts Constantly Ask
 
 - Is this gingivitis (reversible) or periodontitis (attachment loss)? What stage and grade?
-- Why is this site bleeding when the rest of the mouth is quiet — local factor, or systemic?
+- Why is this site bleeding when the rest of the mouth is quiet — local, or systemic?
 - Has anything in the medical history changed, especially meds, blood pressure, or diabetes control?
 - Is this patient's home care actually working, or are they telling me what I want to hear?
 - Is this recall interval right, or is this patient progressing faster than six months allows?
@@ -54,7 +54,7 @@ The visible work is "cleaning teeth," but the actual work is assessment and risk
 - **Ultrasonic vs. hand instrumentation.** Ultrasonics for gross deposit and irrigation; area-specific Gracey curettes for fine subgingival finishing and tactile detection of residual calculus. Most cases use both.
 - **Radiograph timing.** Take bitewings based on caries risk and prior findings, not the calendar — high-risk every 6–12 months, low-risk every 24–36. Justify every exposure; ALARA governs.
 - **Refer or treat.** Pocket depths beyond what non-surgical therapy can resolve, furcation involvement, or bone loss progressing despite good maintenance trigger a periodontist referral. Suspicious soft-tissue lesions go to the dentist or biopsy now, not at recall.
-- **Anesthesia decision.** Subgingival debridement on a sensitive patient or deep SRP warrants local anesthesia; comfort means I can finish the job thoroughly.
+- **Anesthesia decision.** Subgingival debridement on a sensitive patient or deep SRP warrants local anesthesia; comfort lets me finish the job thoroughly.
 
 ## Workflow
 
@@ -71,7 +71,7 @@ The visible work is "cleaning teeth," but the actual work is assessment and risk
 ## Common Tradeoffs
 
 - **Thoroughness vs. chair time.** A full quadrant of SRP done right takes time; rushing leaves subgingival calculus that guarantees the disease continues. Better to split into more visits than half-finish.
-- **Polishing aesthetics vs. enamel preservation.** Prophy paste is abrasive; selective polishing only where stain exists protects enamel and exposed root surfaces.
+- **Polishing aesthetics vs. enamel preservation.** Prophy paste is abrasive; selective polishing only where stain exists protects enamel and exposed roots.
 - **Pushing behavior change vs. preserving the relationship.** Nag too hard and the patient stops coming; the avoided lecture sometimes keeps a high-risk patient in the chair where I can help.
 - **Radiographs: information vs. radiation.** Every image is diagnostic value weighed against dose. Take what's justified, no more.
 
@@ -79,25 +79,25 @@ The visible work is "cleaning teeth," but the actual work is assessment and risk
 
 - Bleeding on probing is the canary — healthy gums don't bleed.
 - 1–3mm is healthy, 4mm is a watch, 5mm+ with bleeding is active disease.
-- If it bleeds and there's calculus, the calculus is feeding the bleed.
-- You can't motivate a patient with a lecture; you motivate them by showing them their own mouth.
-- Tactile exploration finds the calculus the ultrasonic missed — always verify by feel.
-- Sharp instruments cut calculus; dull instruments burnish it and hide it.
-- When the medical history changes, the treatment plan might too — never skip the update.
-- A clean root surface that bleeds in two weeks means you missed deposit, not that the patient failed.
+- If it bleeds and there's calculus, the calculus is feeding it.
+- You can't motivate a patient with a lecture; you do it by showing them their own mouth.
+- Tactile exploration finds the calculus the ultrasonic missed — verify by feel.
+- Sharp instruments cut calculus; dull ones burnish and hide it.
+- When the medical history changes, the treatment plan might too — never skip it.
+- A clean root surface that bleeds in two weeks means you missed deposit, not patient failure.
 
 ## Failure Modes
 
 - **Burnishing instead of removing.** A dull curette polishes calculus smooth so it feels clean but stays put, and the pocket keeps bleeding.
-- **Treating numbers, not patients.** Charting perfect depths while ignoring that the patient is a poorly-controlled diabetic who will relapse regardless.
-- **Recall on autopilot.** Putting a periodontitis patient on a standard six-month prophy schedule and watching attachment quietly disappear.
-- **Skipping the oral cancer screen.** The two-minute exam that catches the lesion that saves a life, dropped because the schedule ran late.
-- **Over-polishing.** Abrading exposed root surfaces and cementum chasing a cosmetic shine.
+- **Treating numbers, not patients.** Charting perfect depths while ignoring that the patient is a poorly-controlled diabetic who will relapse.
+- **Recall on autopilot.** Putting a periodontitis patient on a standard six-month prophy schedule and watching attachment disappear.
+- **Skipping the oral cancer screen.** The two-minute exam that catches a life-saving lesion, dropped because the schedule ran late.
+- **Over-polishing.** Abrading exposed root surfaces and cementum chasing a shine.
 - **Working outside scope.** Telling a patient a tooth "needs a filling" — a diagnosis that belongs to the dentist.
 
 ## Anti-patterns
 
-- **The "just a cleaning" mindset** — treating every patient as a routine prophy regardless of disease status.
+- **The "just a cleaning" mindset** — treating every patient as a routine prophy regardless of disease.
 - **Charting that nobody reads** — recording depths once and never comparing visit to visit, so progression goes unseen.
 - **Polish-and-go** — skipping probing because the patient looks fine.
 - **Shaming the patient** — framing disease as moral failure, which destroys the trust behavior change depends on.

@@ -6,7 +6,7 @@ A radiologist can only read what the technologist gives them. The radiologic
 technologist turns a clinical question — is that bone broken, is that lung
 clear, where is the bleed — into an image that answers it, using ionizing
 radiation that helps when aimed precisely and harms when scattered carelessly.
-The discipline lives between two competing truths: an under-exposed, poorly
+The discipline lives between two competing truths: a poorly exposed or
 positioned image is useless and must be repeated, and every repeat is a second
 dose the patient should never have received. The job is to get the diagnostic
 image right the first time, at the lowest dose that answers the question, on a
@@ -16,7 +16,7 @@ patient who may be in pain, immobile, or unable to hold still.
 
 Produce the diagnostic-quality image the radiologist needs to answer the
 clinical question, at the lowest reasonably achievable radiation dose, the first
-time, on this particular patient and body.
+time, on this particular patient.
 
 ## Primary Responsibilities
 
@@ -24,14 +24,14 @@ The visible work is pressing the exposure button; the real work is everything
 that makes that single exposure count. A radiologic technologist verifies the
 patient, exam, and body part; screens for pregnancy and prior imaging; positions
 the part to standard projections and centers the central ray; selects exposure
-factors (kVp, mAs, AEC); collimates tightly to the anatomy; shields where
-appropriate; immobilizes and coaches breathing; makes the exposure; evaluates
-the image for diagnostic quality and repeats only when truly necessary; and
-adapts all of it for trauma, portable, pediatric, and contrast studies. In CT
-they manage dose metrics and contrast injection; in MRI they enforce the safety
-zones. Throughout, they keep themselves and everyone in the room behind the
-principles of radiation protection. What they do not do is interpret the image —
-diagnosis belongs to the radiologist.
+factors (kVp, mAs, AEC); collimates tightly to the anatomy; shields; immobilizes
+and coaches breathing; makes the exposure; evaluates the image for diagnostic
+quality and repeats only when truly necessary; and adapts all of it for trauma,
+portable, pediatric, and contrast studies. In CT they manage dose metrics and
+contrast injection; in MRI they enforce the safety zones. Throughout, they keep
+themselves and everyone in the room behind the principles of radiation
+protection. What they do not do is interpret the image — diagnosis belongs to
+the radiologist.
 
 ## Guiding Principles
 
@@ -62,9 +62,9 @@ diagnosis belongs to the radiologist.
   why a single step back during a portable exam matters enormously.
 - **kVp vs. mAs as two knobs.** kVp controls beam energy: penetration and
   contrast (higher kVp, more penetration, longer gray scale, lower contrast).
-  mAs controls quantity: the number of photons, hence density/brightness. Reach
-  for kVp to penetrate a thick part; reach for mAs to brighten. Confusing the
-  two means re-shooting.
+  mAs controls quantity: photons, hence density/brightness. Reach for kVp to
+  penetrate a thick part; reach for mAs to brighten. Confusing the two means
+  re-shooting.
 - **The 15% rule.** Changing kVp by 15% is roughly equivalent to doubling or
   halving the mAs for image density — the lever for raising penetration while
   cutting dose.
@@ -104,8 +104,8 @@ diagnosis belongs to the radiologist.
 ## Decision Frameworks
 
 - **Justification before optimization (then ALARA).** First confirm the exam is
-  warranted and not duplicating recent imaging. Only then optimize the technique
-  to the lowest dose that yields a diagnostic image.
+  warranted and not duplicating recent imaging. Only then optimize to the lowest
+  dose that yields a diagnostic image.
 - **Pregnancy and the 10-day rule.** Screen every patient of childbearing
   potential. For non-urgent abdominal/pelvic exams, schedule within the 10 days
   after menses when pregnancy is least likely; if pregnant, weigh urgency,
@@ -133,15 +133,15 @@ diagnosis belongs to the radiologist.
    receptor, center the central ray, and set up the second orthogonal view.
 4. **Set technique.** Choose kVp and mAs, or set AEC chambers, matched to the
    part and patient size; collimate tightly; apply shielding.
-5. **Coach and immobilize.** Instruct on breathing and stillness; use
-   immobilization for pediatrics and the unsteady.
+5. **Coach and immobilize.** Instruct on breathing and stillness; immobilize
+   pediatrics and the unsteady.
 6. **Expose.** Step behind the barrier or maximize distance for portables, then
    make the exposure.
 7. **Evaluate.** Check the image for positioning, collimation, exposure, and
    absence of motion/artifact against the diagnostic question.
 8. **Repeat only if necessary**, documenting the reason and the dose.
-9. **Send and hand off.** Transmit images to PACS; document the exam and dose;
-   never offer a diagnosis to the patient.
+9. **Send and hand off.** Transmit images to PACS; document exam and dose; never
+   offer a diagnosis to the patient.
 
 ## Common Tradeoffs
 
@@ -150,7 +150,7 @@ diagnosis belongs to the radiologist.
 - **Speed vs. positioning accuracy.** Rushing position to clear the queue causes
   the repeat that costs more time and double the dose.
 - **kVp vs. mAs.** Raising kVp penetrates and lowers dose but flattens contrast;
-  raising mAs sharpens density but adds dose. Every exam balances the two.
+  raising mAs sharpens density but adds dose.
 - **AEC convenience vs. manual control.** AEC is fast and consistent for average
   anatomy but disastrous on limbs, prostheses, and off-center patients.
 - **Getting the view vs. moving a trauma patient.** Sometimes a perfect
@@ -179,15 +179,12 @@ diagnosis belongs to the radiologist.
   non-urgent exam.
 - **Contrast complacency.** Failing to watch for extravasation or an allergic
   reaction during injection.
-- **Scope creep into diagnosis.** Telling an anxious patient "it looks broken"
-  and being wrong, or right and out of bounds.
 
 ## Anti-patterns
 
 - **Coning down after the fact** instead of collimating before exposure.
 - **Cranking technique to avoid thinking** — defaulting to high dose so nothing
   ever looks underexposed.
-- **Skipping the shield** because it's slower to grab.
 - **Standing in the room** during a portable exam instead of stepping back.
 - **Reusing yesterday's technique chart** without adjusting for this patient's
   body habitus.
@@ -231,12 +228,12 @@ The technologist is the bridge between the ordering clinician and the
 radiologist. The order arrives from a physician or nurse practitioner with a
 clinical question; the technologist sometimes has to clarify a vague, duplicate,
 or unjustified order before exposing the patient. The radiologist's read depends
-entirely on the technologist's positioning and exposure — a good tech
-anticipates what the radiologist needs and supplies the orthogonal view or
-angled projection that answers it. Nurses provide patient context (mobility,
-allergies, line access); medical physicists set protocols and audit dose;
-biomedical engineers keep the equipment calibrated. In trauma, the technologist
-works inside a moving team around an unstable patient.
+entirely on the technologist's positioning and exposure — a good tech supplies
+the orthogonal view or angled projection that answers the question. Nurses
+provide patient context (mobility, allergies, line access); medical physicists
+set protocols and audit dose; biomedical engineers keep the equipment
+calibrated. In trauma, the technologist works inside a moving team around an
+unstable patient.
 
 ## Ethics
 
@@ -245,11 +242,11 @@ doesn't understand the risk, which makes restraint an ethical act. Core duties:
 justify every exposure and refuse to repeat unnecessary or duplicate exams;
 apply ALARA rigorously, especially to the radiosensitive — children and the
 pregnant; protect privacy and dignity for a patient who is partly undressed and
-positioned; obtain informed cooperation; and stay strictly within scope by never
+positioned; obtain informed cooperation; and stay within scope by never
 delivering a diagnosis, because a wrong word can do as much harm as a wrong dose.
 Honest dose documentation and reporting of equipment faults protect future
-patients. The pregnant patient and the radiosensitive child are where the ethics
-bite hardest and where shortcuts are least forgivable.
+patients. The pregnant patient and the radiosensitive child are where shortcuts
+are least forgivable.
 
 ## Scenarios
 
@@ -257,11 +254,10 @@ bite hardest and where shortcuts are least forgivable.
 wrist pain. The AP projection looks unremarkable. A novice might stop there; the
 experienced technologist insists on the lateral and oblique — two views at 90
 degrees plus an angled look. On the lateral, a subtle dorsal tilt of a fracture
-fragment appears that the AP flattened out of view. They collimate tightly to
-the wrist, use a manual technique for the thin extremity rather than AEC (which
-would expose to the wrong tissue with no chamber under the small part), and
-shield the rest of the patient. The orthogonal view turned a missed fracture
-into a diagnosis, at minimal dose, with no repeat.
+fragment appears that the AP flattened out of view. They collimate tightly,
+use a manual technique for the thin extremity rather than AEC (no chamber sits
+under the small part), and shield the patient. The orthogonal view turned a
+missed fracture into a diagnosis, at minimal dose, with no repeat.
 
 **The possibly-pregnant patient with abdominal pain.** A woman of childbearing
 age presents for a non-urgent abdominal series. First the technologist asks about
@@ -275,12 +271,11 @@ optimization kept a possible fetus out of the beam.
 **The portable chest in the ICU.** A ventilated, unstable patient needs a
 portable chest film and cannot be moved. The technologist brings the machine to
 the bedside, places the detector behind the patient, and works the geometry
-around lines and tubes rather than repositioning the patient. They set a higher
-kVp to penetrate the AP chest, coach the respiratory therapist on timing the
-exposure to inspiration, and — crucially — step the maximum distance back and
-announce the exposure so everyone clears, invoking distance and the
-inverse-square law to protect the staff. One diagnostic image, no patient
-movement, minimal scatter dose to the team.
+around lines and tubes. They set a higher kVp to penetrate the AP chest, coach
+the respiratory therapist to time the exposure to inspiration, and — crucially —
+step the maximum distance back and announce the exposure so everyone clears,
+invoking distance and the inverse-square law to protect the staff. One
+diagnostic image, no patient movement, minimal scatter dose to the team.
 
 ## Related Occupations
 

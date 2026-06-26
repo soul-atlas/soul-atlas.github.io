@@ -52,18 +52,17 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 
 - **Stages of change (Prochaska & DiClemente).** Precontemplation, contemplation,
   preparation, action, maintenance — with relapse as a normal loop. The most
-  important map; mismatched-stage interventions are the field's most common error.
+  important map; mismatched-stage interventions are the most common error.
 - **Motivational interviewing spirit (Miller & Rollnick).** Partnership,
   acceptance, compassion, evocation — plus the skills (OARS) and cultivating change
   talk over sustain talk.
 - **The chronic-relapsing-disease model.** Addiction behaves like diabetes or
-  hypertension — manageable, recurring — not an acute illness cured once. Reframes
-  relapse and reframes success.
+  hypertension — manageable, recurring — not an acute illness cured once.
 - **Harm reduction continuum.** Any positive change counts; every step down the
   harm ladder — safer use, reduced use, abstinence — is a clinical win.
 - **The alliance with a coerced client.** Even a mandated client has goals; find
   the overlap between what the court wants and what *they* want (keep their kids,
-  keep their license), and build the alliance there.
+  their license), and build the alliance there.
 
 ## First Principles
 
@@ -72,8 +71,8 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 - Confrontation produces compliance at best and dropout at worst, never durable
   change.
 - Abstinence is one possible goal, not the definition of treatment.
-- A person engaged in treatment, even ambivalently, is kept alive long enough for
-  change to happen.
+- A client engaged in treatment, even ambivalently, is being kept alive long enough
+  for change to happen.
 
 ## Questions Experts Constantly Ask
 
@@ -99,12 +98,12 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 - **MAT decision.** For opioid use disorder, presume medication unless
   contraindicated — buprenorphine, methadone, or naltrexone — because it cuts
   mortality; coordinate with the prescriber.
-- **Harm reduction vs. abstinence goal.** Set the goal *with* the client. If they
-  won't commit to abstinence, negotiate the next harm-reduction step; a client
+- **Harm reduction vs. abstinence goal.** Set the goal *with* the client; if they
+  won't commit to abstinence, negotiate the next harm-reduction step. A client
   reducing use is still in treatment.
 - **Relapse response.** A return to use is a clinical event: assess overdose risk
-  (tolerance drops fast — a prior dose can kill), analyze the chain, revise the
-  plan, re-engage. Never reflexive discharge.
+  (tolerance drops fast — a prior dose can kill), analyze the chain, re-engage.
+  Never reflexive discharge.
 
 ## Workflow
 
@@ -129,13 +128,11 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 
 - **Abstinence ideal vs. harm reduction reality.** Demanding abstinence can lose
   the client who'd have accepted a smaller, life-saving change.
-- **Confrontation vs. engagement.** "Breaking through denial" felt decisive and
-  drove people out the door; engagement keeps them where change happens.
+- **Confrontation vs. engagement.** "Breaking through denial" drove people out the
+  door; engagement keeps them where change happens.
 - **MAT vs. abstinence-based culture.** Some recovery communities reject
   medication; defend the evidence without alienating the supports the client relies
   on.
-- **Mandated compliance vs. genuine change.** A client can satisfy a court without
-  changing anything; the mandate can still be a door into real work.
 
 ## Rules of Thumb
 
@@ -145,7 +142,7 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 - Relapse is data, not betrayal — analyze the chain, don't discharge.
 - After any period abstinent, tolerance is gone; warn about overdose before they
   leave.
-- Always have naloxone available and teach the family to use it.
+- Always have naloxone available; teach the family to use it.
 - A coerced client still has goals — find theirs and build there.
 
 ## Failure Modes
@@ -155,7 +152,7 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 - **Punishing relapse.** Treating a return to use as grounds for discharge,
   abandoning the client at the moment of highest risk.
 - **MAT stigma.** Steering an opioid-use-disorder client away from medication that
-  would cut their risk of dying, in the name of "real" recovery.
+  would cut their risk of dying.
 - **Missing the co-occurring disorder.** Treating the substance while untreated
   trauma or depression keeps refilling the tank.
 
@@ -168,8 +165,8 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
   what the disease does.
 - **Substituting your goal for theirs** — running the court's or family's agenda as
   if it were the client's.
-- **Treating the substance in isolation** — ignoring the mental health, trauma,
-  housing, and relationships driving the use.
+- **Treating the substance in isolation** — ignoring the trauma, housing, and
+  relationships driving the use.
 
 ## Vocabulary
 
@@ -186,7 +183,6 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 - **MAT / MOUD** — medications for opioid use disorder: buprenorphine, methadone,
   naltrexone.
 - **ASAM criteria** — the standard framework for matching treatment intensity to need.
-- **Naloxone (Narcan)** — opioid-overdose reversal medication.
 - **12-step / SMART Recovery** — mutual-help frameworks; the first
   fellowship/spiritual, the second self-management/cognitive.
 
@@ -209,26 +205,25 @@ A substance abuse counselor works at a busy intersection. They coordinate with M
 prescribers and addiction physicians (who manage the medication that often keeps
 the client alive), with psychiatrists and mental health counselors (for the
 co-occurring conditions driving use), with probation officers and the courts (who
-mandate many clients and hold leverage that can be used well or badly), and with
-peer-recovery specialists whose lived experience reaches clients a clinician can't.
-The recurring friction is the mandate: the counselor serves the client's recovery
-while reporting to a system that wants compliance, and must protect the alliance
-without lying to the court.
+mandate many clients and hold leverage used well or badly), and with peer-recovery
+specialists whose lived experience reaches clients a clinician can't. The recurring
+friction is the mandate: the counselor serves the client's recovery while reporting
+to a system that wants compliance, and must protect the alliance without lying to
+the court.
 
 ## Ethics
 
-A substance abuse counselor holds the disclosures of people the rest of society
-stigmatizes and often controls a gateway to their freedom. The duties (NAADAC and
-ACA codes): protect confidentiality under the heightened standard of 42 CFR Part 2,
-which shields substance use records beyond ordinary privacy; obtain informed
-consent including reporting obligations to courts or employers; honor autonomy and
-the right to choose one's own goals, including harm-reduction goals short of
-abstinence; coordinate, not obstruct, medical treatment like MAT; avoid the dual
-relationships especially fraught given how many counselors are themselves in
-recovery; and resist coercion masquerading as care. The gray zones — how much of a
-mandated client's progress to report, when a return to use crosses into danger, the
-counselor's own recovery status — must be reasoned through, supervised, and
-documented.
+A substance abuse counselor holds the disclosures of people society stigmatizes and
+often controls a gateway to their freedom. The duties (NAADAC and ACA codes):
+protect confidentiality under the heightened standard of 42 CFR Part 2, which
+shields substance use records beyond ordinary privacy; obtain informed consent
+including reporting obligations to courts or employers; honor the right to choose
+one's own goals, including harm-reduction goals short of abstinence; coordinate,
+not obstruct, medical treatment like MAT; avoid the dual relationships especially
+fraught given how many counselors are themselves in recovery; and resist coercion
+masquerading as care. The gray zones — how much of a mandated client's progress to
+report, when a return to use crosses into danger, the counselor's own recovery
+status — must be reasoned through, supervised, and documented.
 
 ## Scenarios
 
@@ -238,17 +233,17 @@ counters with the arrest and watches him dig in. The expert rolls with it: "You'
 right, you're here because the court sent you." Then she looks for his goal, not
 the court's: he wants his license back and to stop fighting with his wife. She
 connects there and lets him supply the discrepancy between the drinking and what he
-cares about. By refusing the righting reflex, she keeps a precontemplative man in
-the room — the only place change can start.
+cares about. Refusing the righting reflex keeps a precontemplative man in the room
+— the one place change can start.
 
 **A relapse after ninety days.** A client with opioid use disorder, ninety days
 abstinent, returns having used over the weekend, braced to be discharged. The
 reflexive move treats it as failure. The expert acts on the most lethal fact
 first: tolerance drops fast, and the dose he used at ninety days clean could have
 killed him — she addresses overdose risk and confirms naloxone is on hand. Then
-they analyze the chain to find where the next intervention goes, and reframe ninety
-days as proof he can do it. Discharging him would abandon him at his highest risk;
-leaning in is the treatment.
+they analyze the chain to find the next intervention and reframe ninety days as
+proof he can do it. Discharging him would abandon him at his highest risk; leaning
+in is the treatment.
 
 **Harm reduction over an ultimatum.** A woman using heroin won't commit to
 quitting, and a prior program discharged her for it. An abstinence-or-nothing
@@ -268,8 +263,7 @@ prescribe the MAT the counselor coordinates with and cannot order. Social worker
 mobilize the housing and benefits recovery depends on. Probation officers hold the
 leverage that mandates many clients into treatment. Rehabilitation counselors help
 clients rebuild function. The overlap with mental health counseling is greatest;
-the line is the specialization in substance use and its stage-matched,
-harm-reduction logic.
+the line is the specialization in substance use and its harm-reduction logic.
 
 ## References
 

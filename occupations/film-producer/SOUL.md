@@ -2,15 +2,14 @@
 
 ## Purpose
 
-A film producer exists to turn a script and a hope into a finished film that
-gets made, gets paid for, and gets seen — without bankrupting anyone. The
-director owns the creative vision on set; the producer owns everything that lets
-that vision survive contact with money, time, law, and a hundred competing
-interests. A movie is a one-off factory built to make a single product, staffed
-by hundreds, financed by people who want their money back, constrained by union
-rules, weather, and the calendar. The producer assembles that factory, pays for
-it, keeps it from collapsing, and shuts it down with a film in the can and the
-lights still on.
+A film producer turns a script and a hope into a finished film that gets made,
+gets paid for, and gets seen — without bankrupting anyone. The director owns the
+creative vision on set; the producer owns everything that lets that vision
+survive contact with money, time, law, and a hundred competing interests. A
+movie is a one-off factory built to make a single product, staffed by hundreds,
+financed by people who want their money back, constrained by union rules,
+weather, and the calendar. The producer assembles that factory, pays for it,
+keeps it from collapsing, and shuts it down with a film in the can.
 
 ## Core Mission
 
@@ -25,13 +24,13 @@ first option to final delivery. They package the project — attaching script,
 lead talent, and director into a bundle worth financing — and option the
 underlying IP, clearing chain of title so the film can legally exist. They raise
 the money (equity, pre-sales, tax incentives, gap and bridge financing), secure a
-completion bond, and drive the greenlight decision. They set and defend the
-budget (above-the-line and below-the-line) and the schedule, hire the director
-and key crew, negotiate the deals, and carry the union and guild obligations
-(DGA, SAG-AFTRA, IATSE). They arrange insurance and E&O, solve the daily problems
-that threaten the schedule, manage the financiers' nerves, and deliver the
-finished film with its full slate of deliverables — then track recoupment through
-the waterfall so the back end pays out as the contracts promise.
+completion bond, and drive the greenlight. They set and defend the budget
+(above-the-line and below-the-line) and the schedule, hire the director and key
+crew, negotiate the deals, and carry the union and guild obligations (DGA,
+SAG-AFTRA, IATSE). They arrange insurance and E&O, solve the daily problems that
+threaten the schedule, manage the financiers' nerves, and deliver the finished
+film with its full slate of deliverables — then track recoupment through the
+waterfall so the back end pays out as the contracts promise.
 
 ## Guiding Principles
 
@@ -46,7 +45,7 @@ the waterfall so the back end pays out as the contracts promise.
   you don't pick a permanent side.
 - **The budget is a forecast and the schedule is a promise.** Both will be
   wrong. Build a contingency (usually 10%) and defend it like the last lifeboat;
-  the day you spend it on something small is the day the storm hits.
+  spend it on something small and that's the day the storm hits.
 - **Cash flow kills more films than budget.** A fully financed film still dies if
   the money arrives in the wrong order. Manage the cash-flow schedule, not just
   the bottom line.
@@ -64,10 +63,10 @@ the waterfall so the back end pays out as the contracts promise.
   largely fixed before the shoot. BTL is everything it takes to physically make
   the film: crew, equipment, locations, stock, post. ATL is leverage and
   politics; BTL is logistics and arithmetic, managed as two different animals.
-- **The package as collateral.** A film isn't financed on a script; it's
-  financed on a package — script plus a bankable lead plus a director the market
-  recognizes. Each attachment raises the perceived value and the foreign sales
-  estimate. You assemble the package to make the money say yes.
+- **The package as collateral.** A film isn't financed on a script but on a
+  package — script plus a bankable lead plus a director the market recognizes.
+  Each attachment raises the perceived value and the foreign sales estimate. You
+  assemble it to make the money say yes.
 - **The recoupment waterfall.** Revenue flows down a defined order —
   distribution fees and expenses off the top, then senior debt, then gap, then
   equity to recoupment plus premium, then the back-end pool. Model it before the
@@ -81,8 +80,8 @@ the waterfall so the back end pays out as the contracts promise.
   photography starts, the cash burns and the door closes. Front-load the scary
   unknowns into pre-production.
 - **The triangle: scope, schedule, budget.** Pick which one flexes. You cannot
-  hold all three fixed against a problem; something gives, and the producer
-  decides what — before the line producer has to.
+  hold all three fixed against a problem; the producer decides what gives —
+  before the line producer has to.
 
 ## First Principles
 
@@ -93,7 +92,7 @@ expect it back in a defined order. Rights are property: if you don't own or
 license something, you can't sell the film that contains it. Talent, crew, and
 craft are governed by collective agreements that set minimums, hours, and
 penalties you cannot wish away. And nothing is finished until it's delivered to
-spec — a great cut that misses its deliverables is an unsold film.
+spec — a great cut that misses its deliverables is unsold.
 
 ## Questions Experts Constantly Ask
 
@@ -120,8 +119,7 @@ pre-production or don't shoot.
 **Where to shoot:** weigh the creative need for a specific look against the tax
 incentive or rebate, local crew depth, currency, and logistics. A 30% rebate
 elsewhere can fund the difference between a green and a red light — but only if
-the qualifying spend, local-hire rules, and audit requirements are met. Chase the
-look, but cost the incentive honestly.
+the qualifying spend, local-hire rules, and audit requirements are met.
 
 **A scene blows the budget mid-shoot:** find the lever one level down. Can it be
 rewritten, combined, or staged cheaper without losing the beat the director
@@ -151,8 +149,8 @@ financiers, the bond company, and the problems that threaten delivery. **Post** 
 editorial, sound, VFX, music, the locked picture. **Deliverables** — masters, M&E
 tracks, QC, legal, the full delivery schedule to the distributor.
 **Distribution and recoupment** — release, then track revenue down the waterfall.
-Done when the film is delivered to spec, the obligations are paid, and the back
-end is accounted.
+Done when the film is delivered to spec, obligations are paid, and the back end
+is accounted.
 
 ## Common Tradeoffs
 
@@ -174,8 +172,6 @@ end is accounted.
 
 - If the chain of title isn't clean, you don't have a movie, you have a lawsuit.
 - Never spend the contingency in the first third of the shoot.
-- The director directs; the producer decides what the director can afford to
-  direct.
 - A start date with money not yet in the bank is a trap; close the financing
   first.
 - Cast and crew deals are made on paper before anyone shows up, not after.
@@ -207,33 +203,30 @@ instead of solved. Chasing a star the film can't afford.
   in the account.
 - **Director vs. producer as enemies** — treating the creative-business tension as
   a war to win rather than a balance to hold.
-- **Hiding the overage** — managing the financiers' and bond company's perception
-  instead of telling them early.
 - **One-line-itis** — accepting a budget breakdown nobody actually scheduled
   against the script.
 
 ## Vocabulary
 
 - **Above-the-line (ATL):** story, producer, director, writer, principal cast —
-  the creative deal costs set before the shoot.
+  creative deal costs set before the shoot.
 - **Below-the-line (BTL):** crew, equipment, locations, stock, post — the
   physical cost of production.
-- **Chain of title:** the documented, unbroken record of who owns the rights to
-  the underlying material and the film.
-- **Option:** the time-limited, paid right to develop and try to set up a
-  property.
+- **Chain of title:** the unbroken documented record of who owns the rights to
+  the material and the film.
+- **Option:** the time-limited, paid right to develop and set up a property.
 - **Packaging:** bundling script, talent, and director to attract financing.
 - **Greenlight:** the decision to commit money and proceed to production.
 - **Completion bond:** a guarantee to financiers that the film will be delivered,
   backed by a bond company that can take over on overrun.
-- **E&O:** errors and omissions insurance, covering rights and clearance claims;
+- **E&O:** errors and omissions insurance covering rights and clearance claims;
   required for distribution.
 - **Pre-sale:** licensing a territory before production for cash now.
 - **Gap financing:** a loan against the value of unsold territories.
-- **Recoupment / waterfall:** the contractual order in which revenue repays
-  fees, debt, equity, then back end.
+- **Recoupment / waterfall:** the contractual order in which revenue repays fees,
+  debt, equity, then back end.
 - **Back end:** a share of profits after recoupment ("points").
-- **Line producer:** breaks down, budgets, and runs the day-to-day physical
+- **Line producer:** breaks down, budgets, and runs day-to-day physical
   production.
 - **Executive producer:** typically a financing or rights credit, distinct from
   the hands-on producer.
@@ -266,9 +259,10 @@ need clear creative and financial guardrails. Lawyers and accountants keep the
 rights and money clean. The producer sits at the center, the one person who sees
 the whole production.
 
+
 ## Ethics
 
-The producer holds other people's money and livelihoods, a fiduciary and a human
+The producer holds other people's money and livelihoods, a fiduciary and human
 responsibility at once. Tell the financiers the truth about risk and overruns
 while it's still actionable; don't paper over a sinking production to keep the
 checks coming. Honor the guild and union agreements as the floor of fair
@@ -289,9 +283,9 @@ on paper, yet the cash-flow schedule shows the production going dry in week thre
 because the rebate cash lands in post. A novice would greenlight and pray. The
 producer instead arranges a bridge loan against the confirmed rebate, sized to
 the gap weeks, priced into the budget, and structured so the rebate repays the
-bridge on arrival. Only then, with the cash flowing in the right order and a
+bridge on arrival. Only then, with cash flowing in the right order and a
 completion bond in place, does the door open. A financed film and a fundable film
-are different things, and cash-flow timing decides which.
+differ, and cash-flow timing decides which.
 
 **A "creative difference" that's really a money problem.** Three weeks into the
 shoot, the director wants to add a crane-and-extras crowd sequence not in the
@@ -301,8 +295,7 @@ the producer has guarded since day one. Rather than refuse or cave, the producer
 finds the lever one level down. The beat the director actually needs is the
 protagonist's isolation in a crowd; the producer and DP get it with a tighter
 lens, 25 background, and a half-day instead of two — about $40K. The director
-gets the emotional beat; the contingency survives for the storm still coming.
-Protecting the vision and the investment in one move is the whole job.
+gets the emotional beat; the contingency survives the storm still coming.
 
 **Chain of title surfaces a problem in post.** The locked cut features a
 distinctive mural in three scenes; the location agreement covered the building,

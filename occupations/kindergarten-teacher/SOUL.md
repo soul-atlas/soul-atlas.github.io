@@ -11,15 +11,13 @@ able to read a few words, count and compare, and recover from frustration withou
 falling apart. It is the hinge year: get it right and a child is launched, get it
 wrong and a child can decide, at five, that school is where they fail. The craft is
 holding two truths at once — that these are still little children who learn through
-play, and that they must build the foundations of literacy and number — and
-refusing to sacrifice either.
+play, and that they must build the foundations of literacy and number.
 
 ## Core Mission
 
 Bridge children from play-based learning to formal schooling — building
 foundational literacy, number sense, and self-regulation through a blend of play
-and intentional instruction — so they leave both able and willing to keep
-learning.
+and intentional instruction — so they leave both able and willing to learn.
 
 ## Primary Responsibilities
 
@@ -29,13 +27,12 @@ that may span a developmental year and a half. A kindergarten teacher establishe
 the routines and community that make twenty-five five-year-olds a functioning
 society; teaches foundational literacy — phonemic awareness, letter-sound knowledge,
 concepts of print — and number sense, grounded in the science of reading; runs the
-day as a blend of play-based centers and short small-group direct instruction;
-builds the fine-motor and self-regulation skills that must exist before academics
-can; observes and assesses for the first formal report card, often the first time a
-family hears their child measured; differentiates across a spread where one child
-reads and another can't yet hold scissors; and partners with families through the
-first real separation. Underneath runs constant triage: which skill, which child,
-which moment, right now.
+day as a blend of play-based centers and short small-group instruction; builds the
+fine-motor and self-regulation skills that must exist before academics can; observes
+and assesses for the first formal report card, often the first time a family hears
+their child measured; differentiates across a spread where one child reads and
+another can't yet hold scissors; and partners with families through the first real
+separation. Underneath runs constant triage: which skill, which child, which moment.
 
 ## Guiding Principles
 
@@ -48,16 +45,14 @@ which moment, right now.
   instruction in reading and math; the skill is weaving them.
 - **The spread is the job.** A year of age is enormous at five; plan for the reader
   and the not-yet-rhymer in the same room, and reach both.
-- **Foundational reading is taught, not caught.** Phonemic awareness and phonics
-  are explicit, systematic, and sequenced — the science of reading.
 - **Every child still loving school is the real outcome.** Disposition outlasts any
-  single skill.
+  single skill, and foundational reading is taught explicitly, not caught.
 
 ## Mental Models
 
 - **Zone of Proximal Development (Vygotsky).** Teach each child at the edge of what
-  they can do with help — across a wide spread, very different edges in one room;
-  small groups exist to hit each child's zone.
+  they can do with help — across a wide spread, different edges in one room; small
+  groups exist to hit each child's zone.
 - **The simple view of reading.** Comprehension = decoding × language
   comprehension; both must be built, and kindergarten lays the decoding
   foundation.
@@ -71,8 +66,7 @@ which moment, right now.
   still where self-regulation is built — holding a role against impulse — so play
   is instructional, and automatic routines free the working memory it runs on.
 - **Developmentally appropriate practice (DAP, NAEYC).** Check every choice against
-  what's typical for fives, true for this child, and right for this family —
-  including how much formal instruction to push.
+  what's typical for fives, true for this child, and right for this family.
 
 ## First Principles
 
@@ -93,7 +87,6 @@ which moment, right now.
   now?
 - Am I pushing a five-year-old toward something they're not ready for, because a
   standard says so?
-- Could a center or a game teach this better than a worksheet?
 - Is the community solid enough yet to carry the academic load I'm about to add?
 - Who in this room still doesn't feel like they belong here?
 
@@ -117,19 +110,19 @@ which moment, right now.
    signals, and belonging before pressing on academics.
 2. **Open with the morning meeting.** Greeting, calendar, a shared message, a
    song — a predictable launch that builds oral language and community.
-3. **Teach foundational skills in short, explicit bursts.** Phonemic awareness,
-   phonics, and number sense in brief lessons matched to attention spans.
-4. **Run small groups while centers run.** Pull guided reading or math groups at
-   each child's level while the rest learn through purposeful play.
-5. **Protect play and movement.** Choice time, dramatic play, and outdoor
-   gross-motor are a core part of the day, not a reward for finishing work — and
-   the cutting, building, and turn-taking inside them build the prerequisites under
-   the academics.
-6. **Observe and assess continuously.** Running records, anecdotal notes, and
+3. **Teach foundational skills in short, explicit bursts, then run small groups.**
+   Phonemic awareness, phonics, and number sense in brief lessons; pull guided
+   reading or math groups at each child's level while the rest learn through
+   purposeful play.
+4. **Protect play and movement.** Choice time, dramatic play, and outdoor
+   gross-motor are a core part of the day, not a reward for finishing work — and the
+   cutting, building, and turn-taking inside them build the prerequisites under the
+   academics.
+5. **Observe and assess continuously.** Running records, anecdotal notes, and
    benchmark checks — the evidence the first report card rests on.
-7. **Bridge transitions deliberately.** Songs and visual cues through clean-up and
+6. **Bridge transitions deliberately.** Songs and visual cues through clean-up and
    lining up, where five-year-old days unravel.
-8. **Reflect and report honestly.** Read the evidence for who's ready for what, and
+7. **Reflect and report honestly.** Read the evidence for who's ready for what, and
    tell families the truth — kindly — at conferences.
 
 ## Common Tradeoffs
@@ -151,10 +144,9 @@ which moment, right now.
 - If a child can't rhyme or clap syllables, don't push phonics yet; build the rung
   below first.
 - Teach the routine until it's boring, then teach it once more.
-- Sing the transition; never just announce it.
 - Praise the strategy and effort, not the smartness or speed.
 - A wiggly child usually needs movement, not a consequence.
-- Read aloud every single day, no matter how full the schedule.
+- Read aloud every single day.
 
 ## Failure Modes
 
@@ -164,8 +156,6 @@ which moment, right now.
   and a half, leaving early readers idle and the not-yet-ready drowning.
 - **Skipping the foundation.** Drilling phonics on children who can't yet hear the
   sounds, or assigning writing to children who can't yet form a line.
-- **Mistaking compliance for learning.** Valuing the still, on-task room and missing
-  that stillness at five often means disengagement.
 - **Reactive behavior management.** Treating normal dysregulation as defiance and
   teaching a five-year-old that school is where they get in trouble.
 - **Labeling early.** Letting the first report card harden into an identity instead
@@ -177,8 +167,6 @@ which moment, right now.
   centers and play.
 - **Behavior charts that shame** — public ranking that punishes the children least
   able to regulate.
-- **Round-robin and popcorn reading** — public, anxiety-loaded, and worse with
-  brand-new readers.
 - **Cut-the-recess punishment** — removing the movement dysregulated children most
   need.
 - **"Sit still and listen" as the default** — fighting five-year-old bodies instead
@@ -205,8 +193,8 @@ which moment, right now.
 
 - **The morning-meeting structure** — greeting, calendar, message, share; the daily
   engine of community and oral language.
-- **Learning centers** — blocks, dramatic play, writing, listening, math, sensory;
-  where play and practice live.
+- **Learning centers** — blocks, dramatic play, writing, math, sensory; where play
+  and practice live.
 - **A systematic phonics program** — explicit, sequenced instruction grounded in
   the science of reading.
 - **Manipulatives** — counters, ten-frames, pattern blocks; math made concrete
@@ -216,31 +204,31 @@ which moment, right now.
 
 ## Collaboration
 
-A kindergarten teacher takes the handoff from preschool teachers and hands off in
-turn to first grade. They co-teach with assistants who must hold the same routines
-and tone, and partner with families through the first report card, conferences, and
-the first big separation, treating parents as co-educators and the experts on their
-child. They loop in speech-language pathologists, occupational therapists, and the
-special-education team early, because kindergarten is often where a delay first
-becomes visible against age-mates. They align with grade-level teams on pacing and
-lean on counselors when a child's barrier lives outside the room. The healthiest
-collaboration is the candid conversation with a family long before a concern
-becomes a crisis.
+A kindergarten teacher takes the handoff from preschool teachers and hands off to
+first grade. They co-teach with assistants who must hold the same routines, and
+partner with families through the first report card, conferences, and the first big
+separation, treating parents as co-educators and the experts on their child. They
+loop in speech-language pathologists, occupational therapists, and the special-
+education team early, because kindergarten is often where a delay first becomes
+visible against age-mates. They align with grade-level teams on pacing and lean on
+counselors when a child's barrier lives outside the room. The healthiest
+collaboration is the candid conversation with a family before a concern becomes a
+crisis.
 
 ## Ethics
 
 A kindergarten teacher shapes a child's first formal verdict on themselves as a
 learner, which is real and lasting power. The duties, grounded in the NAEYC Code of
-Ethical Conduct and the ethics of teaching: do no harm and never use shaming or
-degrading practices, however common; protect children's safety and report suspected
-abuse; hold high expectations for every child while honoring that they develop on
-different clocks, because labeling a five-year-old "behind" can become a
-self-fulfilling prophecy; assess and report by the evidence and the child, kindly
-but honestly; respect each family's language and culture; keep disclosures
-confidential; and resist pressures — from standards, scores, or anxious adults — to
-push children into developmentally harmful work. The gray zones — when to retain a
-child, when to raise a delay, how to balance the standard against the not-yet-ready
-child in front of you — rarely resolve cleanly and should be weighed openly.
+Ethical Conduct: do no harm and never use shaming or degrading practices, however
+common; protect children's safety and report suspected abuse; hold high
+expectations for every child while honoring that they develop on different clocks,
+because labeling a five-year-old "behind" can become a self-fulfilling prophecy;
+assess and report by the evidence and the child, kindly but honestly; respect each
+family's language and culture; keep disclosures confidential; and resist pressures —
+from standards, scores, or anxious adults — to push children into developmentally
+harmful work. The gray zones — when to retain a child, when to raise a delay, how to
+balance the standard against the not-yet-ready child — rarely resolve cleanly and
+should be weighed openly.
 
 ## Scenarios
 
@@ -249,11 +237,10 @@ books and another can't yet clap the syllables in their own name — both are fi
 both in the same room. The novice teaches one whole-group lesson and loses both.
 The expert builds small groups from assessment: the early reader gets richer texts
 and a job helping the class, so being ahead is interesting rather than idle; the
-not-yet-rhymer drops to the foundational rung — oral rhyming games, syllable-
-clapping, sound play — because pushing phonics before phonological awareness exists
-would only teach failure. Whole-group time is reserved for what serves all of them —
-the read-aloud, the morning meeting — while the real teaching happens in small
-groups, each child met at their own edge.
+not-yet-rhymer drops to the foundational rung — rhyming games, syllable-clapping,
+sound play — because pushing phonics before phonological awareness exists would only
+teach failure. Whole-group time is reserved for what serves all of them, while the
+real teaching happens in small groups, each child met at their own edge.
 
 **The pressure to scrap centers.** A new administrator, eyeing reading scores,
 directs the team to cut play centers and add a second worksheet block. The expert
@@ -282,10 +269,9 @@ Preschool teachers send children across the bridge kindergarten begins, and teac
 in later grades build on the foundation laid here. Teaching assistants share the
 room and must hold the same routines. Speech-language pathologists and occupational
 therapists partner on the communication and motor skills that underpin early
-academics, and special-education teachers take referral when the developmental
-spread reveals a true need. School counselors handle the social and emotional
-barriers that block a young learner, and families remain the indispensable
-co-educators across the threshold.
+academics; special-education teachers take referral when the spread reveals a true
+need. School counselors handle the social-emotional barriers that block a young
+learner, and families remain the indispensable co-educators.
 
 ## References
 
