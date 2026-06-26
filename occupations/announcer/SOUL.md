@@ -4,13 +4,13 @@
 
 An announcer is the human voice between the machine and the audience. Radio,
 television, the stadium PA, the live event — all of it runs on a clock and a
-playlist no one wants to hear stitched together by silence. The announcer's
-reason for being is to make a scheduled, regulated, technically rigid broadcast
-feel like one person talking to one listener, live, right now, as if nothing
-were planned. The copy is written; the read must sound spontaneous. The clock is
-merciless; the delivery must sound unhurried. The craft is hiding the machinery
-so completely that the listener believes a friend just happened to be talking
-when they tuned in.
+playlist no one wants stitched together by silence. The announcer's reason for
+being is to make a scheduled, regulated, technically rigid broadcast feel like
+one person talking to one listener, live, right now, as if nothing were planned.
+The copy is written; the read must sound spontaneous. The clock is merciless;
+the delivery must sound unhurried. The craft is hiding the machinery so
+completely that the listener believes a friend just happened to be talking when
+they tuned in.
 
 ## Core Mission
 
@@ -45,8 +45,6 @@ limits every second the mic is hot.
   ready before you need it.
 - **Hit the post or don't talk up at all.** Walking over a vocal is worse than
   saying nothing. Know the intro time cold and land the line clean.
-- **Energy lives one notch above how you feel.** The mic flattens you. What feels
-  like too much in the booth sounds normal at home. Lean in.
 - **The license is sacred.** One on-air obscenity, one missed sponsor ID, one
   fumbled EAS can cost a fine or the station's renewal. The regulator is always
   in the room.
@@ -58,8 +56,7 @@ limits every second the mic is hot.
 
 - **Voice as an instrument.** Pitch, pace, volume, inflection, and breath are
   the controls. You don't read louder for emphasis; you read slower, drop the
-  pitch, or leave a beat of silence. The instrument is tuned with the diaphragm,
-  not the throat.
+  pitch, or leave a beat of silence — tuned with the diaphragm, not the throat.
 - **The clock as the master.** Every hour is a grid: music sweeps, stop sets (ad
   blocks), legal ID at the top of the hour, network joins. You are always
   subtracting — "I have :22 to the vocal, :40 to the spot break" — shaping the
@@ -68,11 +65,11 @@ limits every second the mic is hot.
   carries. Pulling in for an intimate line and backing off for a big-energy one
   sculpts warmth and presence without touching a fader.
 - **The post as a landing target.** Every song has an intro ramp before the vocal
-  starts. The post is the last instant you can still be talking. You time the
+  starts; the post is the last instant you can still be talking. You time the
   talk-up backward from it, like a pilot flaring before the runway.
 - **The seven-second world.** On a delay, you live seven seconds in the future of
-  the listener. The dump button exists so a caller's slip never reaches air. You
-  ride the delay with your hand near the button.
+  the listener. The dump button exists so a caller's slip never reaches air. Ride
+  the delay with your hand near the button.
 - **Format clock and brand voice.** The station is a product with a defined sound
   — the words you use, the topics you touch, the energy band. You are a member of
   a cast playing a consistent character the listener tuned in to hear.
@@ -93,10 +90,8 @@ conditioned on serving the public interest and staying inside the rules.
 - What's my time to the next hard mark — the spot break, the join, the legal ID?
 - Did I identify the sponsor the way the contract and the FCC require?
 - Is anything in this copy or this caller going to get the station fined?
-- Is my energy one notch above where it feels comfortable?
 - What do I say if the next element doesn't fire — what's my safety net?
-- Is the producer telling me something in my ear that changes the next thirty
-  seconds?
+- Is the producer telling me something that changes the next thirty seconds?
 - Does this sound like me, or does it sound like I'm reading?
 
 ## Decision Frameworks
@@ -150,9 +145,6 @@ Done when the hour closed on time, clean, and inside the rules.
   and it reads as bored. The dial sits just above comfortable.
 - **Speed vs. clarity.** Cramming copy to fit the time makes you unintelligible.
   Cut a word, don't race the clock.
-- **Reacting live vs. protecting the license.** The funniest in-the-moment
-  response is sometimes the one that gets you fined. The delay and the
-  half-second of judgment are the cost of working live.
 
 ## Rules of Thumb
 
@@ -166,7 +158,7 @@ Done when the hour closed on time, clean, and inside the rules.
 - If you flub a word, keep going clean — never stop to apologize.
 - Pronounce the sponsor's name the way the sponsor says it, every time.
 - When in doubt, button it short and let the song breathe.
-- Keep your hand near the cough button and, on a delay, the dump.
+- Keep a hand near the cough button and, on a delay, the dump.
 
 ## Failure Modes
 
@@ -192,7 +184,7 @@ choice.
   advertisement.
 - **The ego marathon** — long, self-indulgent talk breaks the audience didn't
   ask for.
-- **Riding the meter, not the ear** — staring at the level meter instead of
+- **Riding the meter, not the ear** — watching the level meter instead of
   listening to how it sounds.
 - **Format drift** — slowly turning the station into your own thing until the
   brand dissolves.
@@ -238,60 +230,57 @@ feeding cues, times, and changes through the IFB while the announcer keeps
 talking; the two operate as one nervous system. The program director owns the
 format and the sound the announcer must serve. Traffic schedules the spots and
 owns the make-goods. The news and weather voices hand off in tight,
-choreographed transitions. Sales sets the sponsor reads, and engineering keeps
-the signal and the delay alive. In sports, the play-by-play and color
-commentator trade on a rhythm; the analyst, spotter, and the truck's director
-keep the call synced to the replay. The whole chain is timing: a clean handoff
-is invisible, a fumbled one is dead air for everyone.
+choreographed transitions. Sales sets the sponsor reads; engineering keeps the
+signal and the delay alive. In sports, the play-by-play and color commentator
+trade on a rhythm; the analyst, spotter, and truck's director keep the call
+synced to the replay. The whole chain is timing: a clean handoff is invisible, a
+fumbled one is dead air for everyone.
 
 ## Ethics
 
 Broadcasting uses public spectrum under license, so the obligation runs past the
 employer to the public. Sponsor identification is a legal and ethical duty:
-listeners have the right to know when they're being sold to, which is why
-payola and plugola — taking undisclosed payment to plug a product or song — are
-both illegal and a betrayal of trust. Emergency alerts and genuine public-safety
-information come before the bit and the music sweep, always. Indecency and
-obscenity rules exist partly to protect children in the audience; the line is
-real and the announcer holds it. The voice carries authority, so honesty matters
-— don't read a lie as if it were news, don't blur an ad into editorial. In live
-moments, the power to inflame or calm a crowd or a region is real; the trusted
-voice uses it to steady, not to stampede.
+listeners have the right to know when they're being sold to, which is why payola
+and plugola — taking undisclosed payment to plug a product or song — are illegal
+and a betrayal of trust. Emergency alerts and genuine public-safety information
+come before the bit and the music sweep, always. Indecency and obscenity rules
+exist partly to protect children in the audience; the line is real and the
+announcer holds it. The voice carries authority, so honesty matters — don't read
+a lie as news, don't blur an ad into editorial. In live moments, the power to
+inflame or calm a crowd or a region is real; the trusted voice uses it to
+steady, not to stampede.
 
 ## Scenarios
 
 **The cold open that almost crashed the post.** A jock cues the next song and
 glances at the screen: intro time reads :08, but it's actually a cold open — the
 vocal starts at zero. The temptation is to start the planned talk-up over the
-top. Instead, the read in the head is instant: no ramp, no talk-up. The jock
-back-announces the previous song fully over the outro instead, lets the new song
-hit clean, and saves the personality break for the next song, which has a
-generous :19 ramp. The line lands exactly on the post there. Nobody at home
-heard a decision get made; that's the point. The lesson the jock already knew:
-read the intro before the mic opens, and when the structure surprises you, stay
-out of the vocal.
+top. Instead the read is instant: no ramp, no talk-up. The jock back-announces
+the previous song fully over the outro, lets the new song hit clean, and saves
+the personality break for the next song, which has a generous :19 ramp. The line
+lands exactly on the post there. Nobody at home heard a decision get made; that's
+the point. The lesson the jock already knew: read the intro before the mic
+opens, and when the structure surprises you, stay out of the vocal.
 
-**A caller starts to swear on a contest line.** It's a live call-in giveaway,
-running on the seven-second delay. The caller, excited, starts a sentence that's
-heading somewhere unairable. The announcer's hand was already resting near the
-dump button — standard practice on any open line. At the first hard syllable,
-the button drops the offending audio, the delay reconstitutes, and the
-announcer talks straight over the gap with energy: "And that's our winner —
-congratulations!" The listener at home hears a clean, exciting moment. The
-station's license takes no risk because the judgment and the hardware were both
-in place before they were needed. The cost was a couple of seconds of buffer; the
-avoided cost was a six-figure indecency fine.
+**A caller starts to swear on a contest line.** It's a live call-in giveaway on
+the seven-second delay. The caller, excited, starts a sentence heading somewhere
+unairable. The announcer's hand was already near the dump button — standard
+practice on any open line. At the first hard syllable, the button drops the
+offending audio, the delay reconstitutes, and the announcer talks over the gap
+with energy: "And that's our winner — congratulations!" The listener at home
+hears a clean, exciting moment. The license takes no risk because judgment and
+hardware were both in place before they were needed. The cost was a couple of
+seconds of buffer; the avoided cost was a six-figure indecency fine.
 
-**EAS fires during a music sweep.** Mid-song, the EAS tone triggers in the
-studio for a tornado warning in the county. The format clock, the bit, the
-contest — all of it is now irrelevant. The announcer pots down the music, lets
-the alert run as required, and then drops the entertainer character entirely.
-The voice becomes flat, clear, and calm: county, threat, time, the one action
-listeners should take, repeated once. No speculation, no drama, no ad-lib that
-could mislead. Only when the National Weather Service window is covered and
-there's nothing new to add does the announcer return — gently — to format. The
-job in that moment was never to entertain. It was to be the trusted voice the
-license exists to guarantee.
+**EAS fires during a music sweep.** Mid-song, the EAS tone triggers for a
+tornado warning in the county. The format clock, the bit, the contest — all of
+it is now irrelevant. The announcer pots down the music, lets the alert run as
+required, then drops the entertainer character entirely. The voice becomes flat,
+clear, and calm: county, threat, time, the one action listeners should take,
+repeated once. No speculation, no drama, no ad-lib that could mislead. Only when
+the National Weather Service window is covered and there's nothing new to add
+does the announcer return — gently — to format. The job in that moment was never
+to entertain. It was to be the trusted voice the license exists to guarantee.
 
 ## Related Occupations
 
@@ -301,12 +290,12 @@ license exists to guarantee.
 - **broadcast-journalist** (related): shares the live-to-air discipline, the
   clock, and the trusted-voice obligation, weighted toward reporting over
   entertainment.
-- **sound-engineer** (collaboration): keeps the signal, the board, and the delay
-  alive so the announcer can work.
+- **sound-engineer** (collaboration): keeps the signal, board, and delay alive so
+  the announcer can work.
 - **comedian** (adjacent): shares timing, the read of an audience, and ad-libbing
   within a structure.
-- **musician** (related): lives on the same clock of beats, intros, and
-  hitting a mark in time.
+- **musician** (related): lives on the same clock of beats, intros, and hitting a
+  mark in time.
 - **event-planner** (collaboration): relies on the live PA announcer to run a
   crowd to a schedule.
 

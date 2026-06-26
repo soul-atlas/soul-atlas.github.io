@@ -42,7 +42,7 @@ separation. Underneath runs constant triage: which skill, which child, which mom
 - **The community is the curriculum first.** Until the room is a safe, predictable
   society where children trust each other and you, no academic learning holds.
 - **Both/and, not either/or.** Children this age need both joyful play and explicit
-  instruction in reading and math; the skill is weaving them.
+  instruction; the skill is weaving them.
 - **The spread is the job.** A year of age is enormous at five; plan for the reader
   and the not-yet-rhymer in the same room, and reach both.
 - **Every child still loving school is the real outcome.** Disposition outlasts any
@@ -63,8 +63,8 @@ separation. Underneath runs constant triage: which skill, which child, which mom
   guilt* toward *industry vs. inferiority*, beginning to measure themselves against
   peers; school-self-esteem is set here.
 - **Play as the leading activity (Vygotsky).** Dramatic and rule-based play is
-  still where self-regulation is built — holding a role against impulse — so play
-  is instructional, and automatic routines free the working memory it runs on.
+  still where self-regulation is built — holding a role against impulse — so play is
+  instructional, and automatic routines free the working memory it runs on.
 - **Developmentally appropriate practice (DAP, NAEYC).** Check every choice against
   what's typical for fives, true for this child, and right for this family.
 
@@ -96,8 +96,8 @@ separation. Underneath runs constant triage: which skill, which child, which mom
   push where the skill is teachable with support; hold where pushing would only
   teach failure.
 - **Whole-group, small-group, or center?** Teach whole-class only what all need and
-  can attend to, use small groups to hit each child's reading and math zone, use
-  centers for practice and play. Match format to purpose, not habit.
+  can attend to, small groups to hit each child's reading and math zone, centers for
+  practice and play. Match format to purpose, not habit.
 - **Decode or develop language?** Reading trouble splits two ways: a child who
   can't crack the code needs explicit phonics; one who decodes but doesn't
   understand needs vocabulary. Diagnose which first.
@@ -107,7 +107,7 @@ separation. Underneath runs constant triage: which skill, which child, which mom
 ## Workflow
 
 1. **Build the community first.** Spend the opening weeks teaching routines, names,
-   signals, and belonging before pressing on academics.
+   and belonging before pressing on academics.
 2. **Open with the morning meeting.** Greeting, calendar, a shared message, a
    song — a predictable launch that builds oral language and community.
 3. **Teach foundational skills in short, explicit bursts, then run small groups.**
@@ -127,11 +127,9 @@ separation. Underneath runs constant triage: which skill, which child, which mom
 
 ## Common Tradeoffs
 
-- **Whole-class pace vs. the developmental spread.** Teach to the middle and you
-  bore the reader and lose the not-yet-rhymer; small groups are the only way to
-  reach both tails.
 - **Meeting the standard vs. honoring the child.** Pushing what a child isn't ready
-  for teaches failure; ignoring it leaves a gap — you triage child by child.
+  for teaches failure; ignoring it leaves a gap — and teaching to the middle bores
+  the reader while losing the not-yet-rhymer, so you triage child by child.
 - **Honest assessment vs. protecting a fragile self.** The first report card can
   label a child "behind" at five; you owe families truth and the child a
   disposition that survives it.
@@ -151,7 +149,7 @@ separation. Underneath runs constant triage: which skill, which child, which mom
 ## Failure Modes
 
 - **First-grade-ification.** Replacing play and centers with seatwork to chase
-  standards, burning out five-year-olds on school before it begins.
+  standards, burning out five-year-olds before school begins.
 - **Teaching to the middle.** One pace for a class spanning a developmental year
   and a half, leaving early readers idle and the not-yet-ready drowning.
 - **Skipping the foundation.** Drilling phonics on children who can't yet hear the
@@ -199,21 +197,20 @@ separation. Underneath runs constant triage: which skill, which child, which mom
   the science of reading.
 - **Manipulatives** — counters, ten-frames, pattern blocks; math made concrete
   before abstract.
-- **Decodable and read-aloud books** — decodables to practice the code, rich
-  read-alouds to build language and love of story.
+- **Decodable and read-aloud books** — decodables to practice the code, read-alouds
+  to build language and love of story.
 
 ## Collaboration
 
 A kindergarten teacher takes the handoff from preschool teachers and hands off to
 first grade. They co-teach with assistants who must hold the same routines, and
 partner with families through the first report card, conferences, and the first big
-separation, treating parents as co-educators and the experts on their child. They
-loop in speech-language pathologists, occupational therapists, and the special-
-education team early, because kindergarten is often where a delay first becomes
-visible against age-mates. They align with grade-level teams on pacing and lean on
-counselors when a child's barrier lives outside the room. The healthiest
-collaboration is the candid conversation with a family before a concern becomes a
-crisis.
+separation, treating parents as co-educators. They loop in speech-language
+pathologists, occupational therapists, and the special-education team early, because
+kindergarten is often where a delay first becomes visible against age-mates. They
+align with grade-level teams on pacing and lean on counselors when a child's barrier
+lives outside the room. The healthiest collaboration is the candid conversation with
+a family before a concern becomes a crisis.
 
 ## Ethics
 
@@ -239,8 +236,8 @@ The expert builds small groups from assessment: the early reader gets richer tex
 and a job helping the class, so being ahead is interesting rather than idle; the
 not-yet-rhymer drops to the foundational rung — rhyming games, syllable-clapping,
 sound play — because pushing phonics before phonological awareness exists would only
-teach failure. Whole-group time is reserved for what serves all of them, while the
-real teaching happens in small groups, each child met at their own edge.
+teach failure. Whole-group time is reserved for what serves all of them; the real
+teaching happens in small groups, each child met at their own edge.
 
 **The pressure to scrap centers.** A new administrator, eyeing reading scores,
 directs the team to cut play centers and add a second worksheet block. The expert
@@ -249,16 +246,16 @@ the self-regulation, oral language, and fine-motor control built in dramatic pla
 and the block corner are prerequisites for the very reading the scores chase, and
 burning fives out on seatwork costs more in disposition than it buys in skill. They
 offer a both/and — keep the centers, seed literacy and math purpose into the play,
-and add the explicit phonics the science of reading supports in short bursts. The
-defense isn't "play is fun"; it's "play is how this skill gets built."
+add explicit phonics in short bursts. The defense isn't "play is fun"; it's "play is
+how this skill gets built."
 
 **The first hard report card.** A sweet, well-liked child is, by every benchmark,
 well behind on letter sounds and number recognition, and the parents have no idea.
 The reactive moves are to soften the data into meaninglessness or deliver it as a
 verdict. The expert prepares the conference as a partnership: lead with the child's
 real strengths, then share the evidence plainly — here's what she can do, what we're
-working on next, what we'll watch. Frame it as a shared plan with home steps, not a
-label, and protect the child's sense of herself as a learner, because at five a
+working on next, what we'll watch — framing it as a shared plan with home steps, not
+a label, and protecting the child's sense of herself as a learner, because at five a
 damaged disposition is harder to repair than a skill that's merely late.
 
 ## Related Occupations
@@ -271,7 +268,7 @@ room and must hold the same routines. Speech-language pathologists and occupatio
 therapists partner on the communication and motor skills that underpin early
 academics; special-education teachers take referral when the spread reveals a true
 need. School counselors handle the social-emotional barriers that block a young
-learner, and families remain the indispensable co-educators.
+learner; families remain the indispensable co-educators.
 
 ## References
 

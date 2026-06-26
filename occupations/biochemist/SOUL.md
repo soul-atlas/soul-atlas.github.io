@@ -105,9 +105,9 @@ The output is mechanisms, rate constants, structures, and binding affinities, bu
 - **Ki / Kd / IC50** — inhibitor dissociation / binding dissociation / half-maximal inhibition constant.
 - **Competitive / non-competitive / uncompetitive inhibition** — distinguished by their effect on apparent Km and Vmax.
 - **Allostery / cooperativity / Hill coefficient** — regulation via distant sites and the steepness of the binding response.
-- **Specific activity** — units of activity per milligram of protein; the purity-of-function metric.
+- **Specific activity** — activity per milligram of protein; the purity-of-function metric.
 - **ΔG / ΔG°'** — actual / standard free-energy change setting direction and equilibrium.
-- **Steady state** — constant intermediate concentrations under continuous flux, distinct from equilibrium.
+- **Steady state** — constant intermediate concentrations under flux, distinct from equilibrium.
 
 ## Tools
 
@@ -116,7 +116,7 @@ The output is mechanisms, rate constants, structures, and binding affinities, bu
 - **Mass spectrometry** — protein identity, mass, modifications, and intact-complex analysis.
 - **X-ray crystallography / cryo-EM / NMR** — atomic and near-atomic structure, plus solution dynamics.
 - **Isothermal titration calorimetry (ITC)** — label-free binding affinity, stoichiometry, and enthalpy.
-- **AlphaFold** — fast structural hypotheses to guide design, not to replace experiment.
+- **AlphaFold** — fast structural hypotheses to guide design, not replace experiment.
 - **SDS-PAGE and Western blot** — purity, size, and identity checks through purification.
 
 ## Collaboration

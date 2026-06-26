@@ -27,9 +27,9 @@ tympanometry, and acoustic reflexes — assembling the type, degree, and
 configuration of hearing loss. They add otoacoustic emissions and auditory
 brainstem response to test the cochlea or nerve directly, and vestibular testing
 (VNG, calorics, VEMP) when balance is the complaint. From that they decide:
-medical referral, hearing aids, cochlear implant candidacy, or rehabilitation.
-They fit and verify amplification with real-ear measurement, counsel patients,
-manage tinnitus, and run pediatric and newborn screening. The throughline is
+referral, hearing aids, cochlear implant candidacy, or rehabilitation. They fit
+and verify amplification with real-ear measurement, counsel patients, manage
+tinnitus, and run pediatric and newborn screening. The throughline is
 interpretation — the audiogram is only as good as the clinician reading it.
 
 ## Guiding Principles
@@ -42,7 +42,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
 - **Mask when you must, or you're measuring the wrong ear.** Without masking, the
   better ear answers for the worse one and the audiogram lies.
 - **Fit to the real ear, not the average ear.** Manufacturer settings are a
-  starting guess; real-ear measurement proves what the eardrum receives.
+  guess; real-ear measurement proves what the eardrum receives.
 - **Speech is the goal, not the audiogram.** Thresholds matter because they
   predict understanding; the patient cares about a grandchild's voice, not dB.
 - **Children are not small adults.** Pediatric loss is a language emergency on a
@@ -62,14 +62,14 @@ interpretation — the audiogram is only as good as the clinician reading it.
   with a gap (wax, fluid, otosclerosis); sensorineural = both equally depressed,
   no gap (cochlea/nerve); mixed = both.
 - **The cross-hearing problem and masking.** Sound to a dead ear can be heard by
-  the good ear through the skull; masking the good ear forces the test ear to
-  answer for itself.
+  the good ear through the skull; masking it forces the test ear to answer for
+  itself.
 - **Speech recognition vs. audibility.** Loud enough doesn't guarantee
   intelligible; word recognition out of proportion to thresholds points to nerve
   or central problems.
 - **The objective–subjective ladder.** OAEs and ABR are objective and anchor
   pediatric and difficult cases; behavioral audiometry is subjective but richer.
-  Use the objective to cross-check the behavioral.
+  Cross-check one against the other.
 
 ## First Principles
 
@@ -101,15 +101,14 @@ interpretation — the audiogram is only as good as the clinician reading it.
   first.
 - **Red-flag referral gate.** Sudden sensorineural loss (urgent steroid within
   days), asymmetric loss or unilateral tinnitus (image to exclude acoustic
-  neuroma), pulsatile tinnitus, otorrhea, vertigo with neurological signs, or any
+  neuroma), pulsatile tinnitus, otorrhea, vertigo with neurological signs, or
   pain/discharge → medical referral before rehabilitation.
 - **Cochlear implant candidacy.** When hearing aids no longer deliver useful
   speech understanding despite optimal fitting — severe-to-profound loss with poor
-  aided word recognition — evaluate for implant; the threshold is functional
-  benefit.
+  aided word recognition — evaluate for implant on functional benefit.
 - **Hearing aid fitting protocol.** Prescriptive target (NAL-NL2 or DSL for
   children) → fit → verify with real-ear measurement → validate with outcome and
-  speech-in-noise. No verification means no proof it works.
+  speech-in-noise. No verification, no proof it works.
 - **Pediatric pathway.** Failed newborn screen → diagnostic ABR/OAE → confirm and
   fit early → enroll in early intervention; speed is the framework.
 
@@ -124,7 +123,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
 4. **Pure-tone audiometry.** Air and bone conduction with proper masking; plot the
    audiogram and read type, degree, and configuration.
 5. **Speech testing.** Speech reception threshold and word recognition;
-   speech-in-noise when the complaint is "I hear but don't understand."
+   speech-in-noise when the complaint is "I hear but can't understand."
 6. **Objective tests as needed.** OAEs and ABR for pediatric, non-organic, or
    retrocochlear questions; vestibular battery if balance is involved.
 7. **Synthesize and decide.** Localize the lesion, flag red flags, refer or
@@ -139,7 +138,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
   solution.
 - **Gain vs. comfort and feedback.** More gain improves audibility but risks
   discomfort, feedback, and rejection; the prescription the patient won't wear
-  helps no one.
+  helps nobody.
 - **Audibility vs. speech-in-noise.** Turning everything up can worsen
   understanding in noise; directional and noise-management features trade gain
   for clarity.
@@ -176,7 +175,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
   measuring real-ear output, leaving the patient under- or over-amplified.
 - **Over-amplifying distortion.** Cranking gain on a damaged cochlea, making
   speech less intelligible.
-- **Slow pediatric pathway.** Letting a confirmed infant loss drift, spending the
+- **Slow pediatric pathway.** Letting a confirmed infant loss drift, spending
   irreplaceable months of language acquisition.
 
 ## Anti-patterns
@@ -188,7 +187,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
 - **Volume as the only lever** — answering every complaint with more gain instead
   of noise management or referral.
 - **Selling premium tiers by reflex** — fitting the most expensive device rather
-  than the one that matches the listening needs.
+  than the one matching the listening needs.
 - **Ignoring the unaided ear** — treating the better ear and leaving asymmetry
   uninvestigated.
 - **Tinnitus brush-off** — dismissing tinnitus without screening for the
@@ -208,8 +207,8 @@ interpretation — the audiogram is only as good as the clinician reading it.
   fluid), C (negative pressure).
 - **OAE** — otoacoustic emissions; an objective screen of outer-hair-cell
   function.
-- **ABR** — auditory brainstem response; an objective electrophysiologic test of
-  the nerve and brainstem pathway.
+- **ABR** — auditory brainstem response; an objective test of the nerve and
+  brainstem pathway.
 - **Real-ear measurement (REM)** — probe-microphone verification of the sound the
   aid delivers at the eardrum.
 - **Speech recognition / discrimination score** — percent of words understood;
@@ -226,7 +225,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
 - **OAE and ABR systems** — objective cochlear and neural testing.
 - **Real-ear measurement system** — probe-microphone hearing aid verification.
 - **Hearing aid programming software and fitting prescriptions** (NAL-NL2, DSL).
-- **Vestibular battery** (VNG, rotary chair, VEMP) — for balance assessment.
+- **Vestibular battery** (VNG, rotary chair, VEMP) — balance assessment.
 - **Cochlear implant evaluation and mapping equipment.**
 
 ## Collaboration
@@ -240,7 +239,7 @@ speech-language pathologist turns restored audibility into language. They work
 with neurologists on vestibular and retrocochlear cases and primary care on
 systemic and medication-related contributors. The recurring friction is the
 medical-vs-hearing boundary: which findings must go to a physician before any aid
-is fitted, and not letting a dispensing relationship blur that line.
+is fitted, and not letting dispensing blur that line.
 
 ## Ethics
 
@@ -283,8 +282,8 @@ The speech-language pathologist is the rehabilitation counterpart, turning
 restored hearing into communication. The optometrist is a structural parallel —
 another sensory-organ specialist running the same
 measure-the-function-then-screen-for-the-hidden-disease logic on a different
-organ. Neurology takes vestibular and retrocochlear cases; pediatricians are the
-gateway for newborn screening.
+organ. Neurology takes vestibular and retrocochlear cases; pediatricians gate the
+newborn screening pathway.
 
 ## References
 

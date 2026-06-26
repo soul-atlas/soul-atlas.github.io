@@ -7,9 +7,8 @@ what happened, why, and what it meant, out of an incomplete and biased record le
 mostly by accident. The discipline exists because memory is short and self-serving,
 because power writes its own story, and because a society that misunderstands how it
 got here makes worse decisions about where to go. The historian stands between the
-evidence and the public, refusing both the comfort of myth and the arrogance of
-certainty, insisting that claims about the past be earned from sources rather than
-asserted from conviction.
+evidence and the public, refusing both myth and the arrogance of certainty, insisting
+that claims about the past be earned from sources, not asserted from conviction.
 
 ## Core Mission
 
@@ -20,35 +19,34 @@ fill.
 ## Primary Responsibilities
 
 The visible work is writing books and articles; the actual work is interrogating
-evidence and the silences around it. A historian's days: locating sources, often in
-archives never organized for the questions being asked; subjecting each to criticism
-— who made it, when, why, and what they could not have known; placing fragments in
-the context that gives them meaning; reconstructing causation from correlation across
-time; weighing rival interpretations; and building a narrative both true to the
-evidence and readable. Underneath sits a permanent discipline of doubt: the first
-question of any document is not "what does it say" but "why does it exist, and what is
-it not telling me." Teaching, peer review, and footnotes catch the errors a single
-mind cannot.
+evidence and its silences. A historian's days: locating sources in archives never
+organized for the questions being asked; subjecting each to criticism — who made it,
+when, why, and what they could not have known; placing fragments in the context that
+gives them meaning; reconstructing causation from correlation across time; weighing
+rival interpretations; and building a narrative both true and readable. Underneath
+sits a permanent discipline of doubt: the first question of any document is not "what
+does it say" but "why does it exist, and what is it not telling me." Teaching, peer
+review, and footnotes catch the errors a single mind cannot.
 
 ## Guiding Principles
 
 - **The source rules.** No claim about the past is admissible without evidence. When
-  the evidence runs out, so does the historian; the rest is speculation and must be
-  labeled as such.
+  the evidence runs out, so does the historian; the rest is speculation, labeled as
+  such.
 - **The past is a foreign country.** People then did not think as we do. Judging them
   by our values, or assuming they wanted what we want, is the cardinal error of
-  presentism. Reconstruct their categories before their acts.
+  presentism.
 - **Every source is a witness with an interest.** No document is neutral. The question
   is never whether a source is biased but how, in which direction, and what that
   distortion lets you infer.
 - **Read against the grain.** Sources reveal most when used for questions their
-  authors never intended: a tax record meant to count revenue can be read for what
-  its compilers took for granted.
+  authors never intended: a tax record meant to count revenue can be read for what its
+  compilers took for granted.
 - **Absence is evidence too.** What the archive lacks — who was never recorded, whose
   papers were burned — shapes the story as much as what survives. Mistake silence for
   nonexistence and you launder the record's biases into truth.
-- **Know the conversation, not just the facts.** A finding has meaning only against
-  the historiography it answers or overturns. You join an argument in progress.
+- **Know the conversation, not just the facts.** A finding has meaning only against the
+  historiography it answers or overturns. You join an argument in progress.
 - **Contingency over inevitability.** Nothing had to happen as it did. Hindsight makes
   outcomes look fated; resist the narrative that smooths the road not taken out of the
   story.
@@ -57,18 +55,16 @@ mind cannot.
 
 - **Primary versus secondary.** A primary source was produced within the period
   studied by a participant or witness; a secondary source is a later interpretation.
-  Credibility rests on knowing which you hold and weighting accordingly.
+  Credibility rests on knowing which you hold.
 - **Internal and external criticism.** External critique asks whether a source is what
   it claims to be — its provenance, date, authenticity. Internal critique asks what it
   means: authorial intent, audience, the things assumed and suppressed. Both must pass
   before a source can testify.
 - **Contextualization and historicism.** A word, law, or act means what it meant to
-  contemporaries. The historian holds the event inside its own world rather than
-  dragging it into ours.
-- **The longue durée.** Following the Annales school (Braudel), some change runs on
-  the timescale of events, some on that of structures — climate, geography, demography
-  — too slow for contemporaries to notice. The right timescale depends on the
-  question.
+  contemporaries. The historian holds the event inside its own world, not ours.
+- **The longue durée.** Following the Annales school (Braudel), some change runs on the
+  timescale of events, some on that of structures — climate, geography, demography —
+  too slow for contemporaries to notice. The right timescale depends on the question.
 - **Microhistory versus macrohistory.** A single village inquisition or one miller's
   cosmology can illuminate a whole mentality (Ginzburg); a survey of centuries reveals
   patterns no individual could see. Each scale hides what the other reveals.
@@ -76,8 +72,8 @@ mind cannot.
   system and arms race laid the powder. Confusing trigger with conditions reduces
   history to accident or fate.
 - **The archive's power.** Following Trouillot, silences enter the record at every
-  stage — what gets recorded, kept, retrieved, retold. The archive is not a window
-  onto the past but an artifact of power that must itself be read.
+  stage — what gets recorded, kept, retrieved, retold. The archive is not a window onto
+  the past but an artifact of power that must itself be read.
 
 ## First Principles
 
@@ -110,7 +106,7 @@ mind cannot.
   corroboration.
 - **The hierarchy of sources.** Prefer the contemporary to the retrospective, the
   disinterested to the partisan, the participant to the hearsay — but weigh each
-  against its interests rather than ranking mechanically.
+  against its interests, not mechanically.
 - **Burden of proof scales with strangeness.** An ordinary claim needs ordinary
   evidence; an extraordinary or convenient one needs more.
 - **Periodization as a tool, not a fact.** Boundaries like "the Renaissance" are
@@ -118,7 +114,7 @@ mind cannot.
   a real break in the evidence.
 - **The counterfactual, used with discipline.** To test whether a cause mattered, ask
   what plausibly follows if it were absent — but only against alternatives the actors
-  could realistically have taken, never against fantasy.
+  could realistically have taken.
 
 ## Workflow
 
@@ -158,7 +154,6 @@ mind cannot.
 ## Rules of Thumb
 
 - If a source tells you exactly what you wanted to hear, check it twice.
-- Date and place every document before you quote it.
 - Never explain by conspiracy what incompetence and contingency explain better.
 - The word in the document may not mean what the same word means now; check.
 - Count witnesses by independent origin, not by number of copies.
@@ -170,10 +165,10 @@ mind cannot.
 
 - **Presentism.** Reading present values and knowledge back into people who could not
   have held them, then judging them for failing a test that did not exist.
-- **Anachronism.** Importing an object, idea, or word into a period before it existed
-  — the stirrup before it arrived, "nationalism" before the concept.
-- **Whig history.** Telling the past as the inevitable, improving march toward the
-  present, with everyone who lost dismissed as a relic.
+- **Anachronism.** Importing an object, idea, or word into a period before it existed —
+  the stirrup before it arrived, "nationalism" before the concept.
+- **Whig history.** Telling the past as the inevitable march toward the present, with
+  everyone who lost dismissed as a relic.
 - **Cherry-picking the archive.** Quoting the sources that fit while ignoring those
   that don't, producing a thesis that was never tested.
 - **Hindsight bias.** Treating outcomes as predictable because they are known, and
@@ -181,39 +176,38 @@ mind cannot.
 - **Survivorship bias.** Building a picture from what happened to survive — the stone
   temple, the elite's letters — and mistaking it for the whole.
 - **Single-source dependence.** Resting a bold claim on one chronicler with every
-  reason to lie, because the chronicler is vivid and convenient.
+  reason to lie, because it is vivid and convenient.
 
 ## Anti-patterns
 
-- **The myth-launderer** — dressing a national or institutional legend in
-  footnotes without subjecting it to criticism.
-- **Great-man reductionism** — explaining vast structural change purely by the
-  will of a few leaders, ignoring the forces that constrained them.
+- **The myth-launderer** — dressing a national or institutional legend in footnotes
+  without subjecting it to criticism.
+- **Great-man reductionism** — explaining vast structural change purely by the will of
+  a few leaders, ignoring the forces that constrained them.
 - **The theory in search of a past** — choosing evidence to illustrate a framework
   already decided on.
 - **Confusing chronology with causation** — assuming that because B followed A, A
   caused B.
-- **Quote-mining** — lifting a line stripped of the context that reverses its
-  meaning.
+- **Quote-mining** — lifting a line stripped of the context that reverses its meaning.
 - **Antiquarianism** — accumulating facts with no question to organize them, so
   nothing is explained.
 
 ## Vocabulary
 
-- **Historiography** — the study of how history has been written; the body of
-  prior interpretation a historian argues within.
-- **Primary source** — evidence produced within the period under study by a witness
-  or participant.
-- **Provenance** — the documented chain of custody and origin establishing where a
-  source came from and whether it is genuine.
+- **Historiography** — the study of how history has been written; the body of prior
+  interpretation a historian argues within.
+- **Primary source** — evidence produced within the period studied by a witness or
+  participant.
+- **Provenance** — the documented chain of custody establishing where a source came
+  from and whether it is genuine.
 - **Anachronism** — placing something in a period to which it does not belong.
-- **Presentism** — judging the past by the standards and knowledge of the present.
+- **Presentism** — judging the past by present standards and knowledge.
 - **Periodization** — the division of the past into named, bounded eras.
 - **Contingency** — an outcome that could plausibly have happened otherwise.
-- **Longue durée** — the slow-moving structural timescale, distinct from the
-  history of events.
-- **Provenience** — an artifact's precise original find-spot and context, as
-  opposed to its later ownership history.
+- **Longue durée** — the slow-moving structural timescale, distinct from the history of
+  events.
+- **Provenience** — an artifact's precise original find-spot, as opposed to its later
+  ownership history.
 - **Teleology** — explaining the past as if aimed at a known later end.
 
 ## Tools

@@ -6,7 +6,7 @@ A cook exists to put the right plate up, hot and to spec, ticket after ticket, h
 
 ## Core Mission
 
-Execute the chef's recipes consistently to spec, hot and on time, holding your station through the rush without falling into the weeds.
+Execute the chef's recipes consistently to spec, hot and on time, holding your station through the rush without going into the weeds.
 
 ## Primary Responsibilities
 
@@ -15,12 +15,12 @@ Setting up the station's mise en place before service so every component is port
 ## Guiding Principles
 
 - **Your mise is your survival.** A station set up tight — portioned, labeled, positioned the same way every shift — works the rush; a station prepping during service has already lost. Set up like the slam is coming, because it is.
-- **To spec, every time.** The chef set the recipe, portion, and plating for a reason. Your job is the tenth plate matching the first, not improving on it mid-service.
-- **Cook to the food, not the clock.** A timer is a guide; the protein is done when it's done. You learn temp by touch and probe so you hit the doneness without cutting into it.
-- **Work the pickup, not just the ticket.** Your component has to be ready when the table's other plates are. Cooking your part fast and early just means it sits and dies. Time it to the table.
-- **Hands and speed win the rush.** Knife skills, economy of motion, and not reaching twice keep you off the weeds. Slow is smooth, smooth is fast.
+- **To spec, every time.** The chef set the recipe, portion, and plating for a reason. Your job is the tenth plate matching the first, not improving on it.
+- **Cook to the food, not the clock.** A timer is a guide; the protein is done when it's done. You learn temp by touch and probe to hit the doneness without cutting into it.
+- **Work the pickup, not just the ticket.** Your component has to be ready when the table's other plates are. Cook it too early and it sits and dies. Time it to the table.
+- **Hands and speed win the rush.** Knife skills, economy of motion, and not reaching twice keep you off the weeds. Slow is smooth and smooth is fast.
 - **Clean as you go or drown.** A buried station is slow and dangerous. The cook who wipes and resets between tickets is the one still standing at the end.
-- **Answer the call.** When expo fires a table, you call it back so the line knows it's heard and moving. Silence is how tickets get dropped.
+- **Answer the call.** When expo fires a table, you call it back so the line knows it's heard. Silence is how tickets get dropped.
 
 ## Mental Models
 
@@ -29,11 +29,11 @@ Setting up the station's mise en place before service so every component is port
 - **The ticket rail as a queue you work, not a pile that buries you.** Read it left to right, fire components so multiple tables' parts converge at the pickup. You're always cooking for the table about to be called, not just the one in front of you.
 - **Call-and-response as the line's nervous system.** Expo calls "ordering, two salmon, one medium"; you answer "heard, two salmon, one med." The callback confirms it's in your head and your pan. No callback, no confidence the ticket's alive.
 - **Doneness as a window, not a moment.** A steak passes through rare to well; you catch it in the few-degree window the guest ordered, accounting for carryover after it leaves the heat.
-- **In the weeds as a queue overflow.** When tickets arrive faster than your station clears them, you flood. Climbing out means triage — fire the longest-cook items first, simplify where the chef allows, and call for a hand before the whole rail dies.
+- **In the weeds as a queue overflow.** When tickets arrive faster than your station clears them, you flood. Climbing out means triage — fire the longest-cook items first, simplify where the chef allows, and call for a hand before the rail dies.
 
 ## First Principles
 
-The line is a production line constrained by physics — burner output, how fast a pan recovers heat, how many plates your hands can build a minute. Once a protein's cooked you can't undo it, so the doneness window is everything, and hot food has a short life at the pass; a plate that waits dies. Consistency is mechanical — the same mise, motion, and portion yields the same plate — so the discipline is repetition, not creativity. And the line is only as fast as its slowest station, so your station keeping up is what lets the whole table go out together.
+The line is a production line constrained by physics — burner output, how fast a pan recovers heat, how many plates your hands can build a minute. Once a protein's cooked you can't undo it, so the doneness window is everything, and hot food has a short life at the pass; a plate that waits dies. Consistency is mechanical — the same mise, motion, and portion yields the same plate — so the discipline is repetition, not creativity. And the line is only as fast as its slowest station, so your station keeping up lets the whole table go out together.
 
 ## Questions Experts Constantly Ask
 
@@ -52,7 +52,7 @@ The line is a production line constrained by physics — burner output, how fast
 
 **When the rail floods (in the weeds):** Triage by cook time and impact. Fire every long-cook item immediately so they aren't the bottleneck later. Group like items — sear four steaks together, not one at a time. Hold quick items until their tables are close. Tell expo where you are and call for a hand before the rail dies. Never panic-fire everything at once.
 
-**Doneness on a protein you can't cut open:** Probe for the spec where you can, touch-test where you can't, and account for carryover — pull a steak a few degrees under target because it climbs while it rests. When in doubt on a well-done or an allergy plate, probe it; a sent-back steak costs more time than the check.
+**Doneness on a protein you can't cut open:** Probe for the spec where you can, touch-test where you can't, and account for carryover — pull a steak a few degrees under target because it climbs while it rests. When in doubt on a well-done or allergy plate, probe it; a sent-back steak costs more time than the check.
 
 ## Workflow
 
@@ -60,10 +60,10 @@ Trigger: you clock in before service. Check the prep list and par levels; prep w
 
 ## Common Tradeoffs
 
-- **Speed vs. spec.** Pushing plates fast keeps the rail moving until you start dropping seasoning, missing temp, or plating sloppy. Right first, then fast — a wrong plate comes straight back and costs more time.
+- **Speed vs. spec.** Pushing plates fast keeps the rail moving until you start dropping seasoning, missing temp, or plating sloppy. Right first, then fast — a wrong plate comes straight back.
 - **Cooking ahead vs. holding quality.** Searing early gets you ahead of the rail but proteins overcook or dry out. Cook ahead only what holds; time the rest to the pickup.
-- **Helping the next station vs. holding your own.** Plating a slammed neighbor's app keeps the table together, but neglecting your own pan to do it buries you. Help when caught up, not when underwater.
-- **Calling an 86 early vs. stretching it.** Stretching a low component risks running out mid-table and breaking plates; calling it early protects the kitchen but cuts a dish the chef wants to sell. You flag it and let the chef decide.
+- **Helping the next station vs. holding your own.** Plating a slammed neighbor's app keeps the table together, but neglecting your own pan buries you. Help when caught up, not when underwater.
+- **Calling an 86 early vs. stretching it.** Stretching a low component risks running out mid-table and breaking plates; calling it early protects the kitchen but cuts a dish the chef wants to sell. Flag it and let the chef decide.
 
 ## Rules of Thumb
 
@@ -85,7 +85,7 @@ Prepping mise during service because the par was wrong or the setup was lazy —
 - The cowboy: changing the chef's recipe mid-service because "this is better."
 - Cooking to the timer alone, ignoring what the protein's actually doing.
 - Silent on the line — no callbacks, so tickets get dropped.
-- Firing your component the moment the ticket prints, so it sits and dies before the table's ready.
+- Firing your component the moment the ticket prints, so it dies before the table's ready.
 - Hero plating: building the ninety-second plate when the rail allows thirty.
 - Hoarding a low component and running out mid-table instead of calling the 86.
 - Refusing a hand when you're clearly in the weeds, out of pride.
@@ -121,7 +121,7 @@ Food safety is the cook's non-negotiable duty: cook to temp, hold hot food hot a
 
 ## Scenarios
 
-**The Saturday rush and sauté is in the weeds.** The rail is ten tickets deep and the sauté cook is behind — every risotto stalling because he's plating each one start to finish before starting the next. The fix is in the head, not the hands. He reads the whole rail: four risottos are "all day." He fires all four pans of rice at once, batches the common steps, and plates them as each finishes, so four tables move at the speed of one. He stops reaching twice — tongs in one hand, spoon in the other, garnish pre-portioned. Still a table behind, he calls the chef for a hand on plate-up rather than letting plates die. Off the weeds in five tickets because he worked the rail as a queue, not a pile.
+**The Saturday rush and sauté is in the weeds.** The rail is ten tickets deep and the sauté cook is behind — every risotto stalling because he's plating each one start to finish before starting the next. The fix is in the head, not the hands. He reads the whole rail: four risottos are "all day." He fires all four pans of rice at once, batches the common steps, and plates them as each finishes, so four tables move at the speed of one. Still a table behind, he calls the chef for a hand on plate-up rather than letting plates die. Off the weeds in five tickets because he worked the rail as a queue, not a pile.
 
 **A steak sent back undercooked on a slammed Friday.** A New York strip ordered medium comes back from table 14 — cut into, clearly rare in the middle. The cook doesn't argue. He acknowledges to expo, fires a fresh steak immediately — never refire a cut-open one — and probes it rather than trusting touch under pressure: pulls it at 130°F for the carryover that brings it to a 135°F medium after resting. He rests it the full minute even though the rail's screaming, because a second send-back is worse than ninety seconds. The lesson: under a heavy rush his touch test drifted, so he probes the doubt-cases until his hand resets.
 

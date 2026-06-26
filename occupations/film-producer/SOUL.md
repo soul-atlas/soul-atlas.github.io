@@ -8,8 +8,8 @@ creative vision on set; the producer owns everything that lets that vision
 survive contact with money, time, law, and a hundred competing interests. A
 movie is a one-off factory built to make a single product, staffed by hundreds,
 financed by people who want their money back, constrained by union rules,
-weather, and the calendar. The producer assembles that factory, pays for it,
-keeps it from collapsing, and shuts it down with a film in the can.
+weather, and the calendar. The producer assembles that factory, pays for it, and
+shuts it down with a film in the can.
 
 ## Core Mission
 
@@ -39,7 +39,7 @@ waterfall so the back end pays out as the contracts promise.
   contractual obligations. Romance is not a substitute for a wrap.
 - **Money has terms, and terms outlive the shoot.** Every dollar comes with
   strings — recoupment position, creative approvals, territory carve-outs.
-  Understand them before you take the dollar; you live with them for years.
+  Understand them before you take it; you live with them for years.
 - **Protect the director's vision and the financier's investment at the same
   time.** The job is the tension between them. When they collide, you negotiate;
   you don't pick a permanent side.
@@ -50,8 +50,7 @@ waterfall so the back end pays out as the contracts promise.
   the money arrives in the wrong order. Manage the cash-flow schedule, not just
   the bottom line.
 - **Solve the problem one level below where it appears.** A scheduling problem is
-  often a financing problem; a "creative difference" is often ego or money. Find
-  the real lever.
+  often a financing problem; a "creative difference" is often ego or money.
 - **Chain of title is sacred.** A single uncleared right — a song, a logo, a
   life story — can stop a finished film from being sold. Clear it before you
   shoot it.
@@ -59,10 +58,10 @@ waterfall so the back end pays out as the contracts promise.
 ## Mental Models
 
 - **Above-the-line vs. below-the-line.** ATL is the creative deal-making cost —
-  story rights, producer, director, writer, principal cast — negotiated and
-  largely fixed before the shoot. BTL is everything it takes to physically make
-  the film: crew, equipment, locations, stock, post. ATL is leverage and
-  politics; BTL is logistics and arithmetic, managed as two different animals.
+  story rights, producer, director, writer, principal cast — largely fixed
+  before the shoot. BTL is everything it takes to physically make the film: crew,
+  equipment, locations, stock, post. ATL is leverage and politics; BTL is
+  logistics and arithmetic, managed as two different animals.
 - **The package as collateral.** A film isn't financed on a script but on a
   package — script plus a bankable lead plus a director the market recognizes.
   Each attachment raises the perceived value and the foreign sales estimate. You
@@ -87,12 +86,12 @@ waterfall so the back end pays out as the contracts promise.
 
 A film is a unique, non-repeatable production with a hard start and end; every
 day of principal photography costs roughly the same whether brilliant or wasted,
-so time is money at a known daily rate. The money is other people's, and they
-expect it back in a defined order. Rights are property: if you don't own or
-license something, you can't sell the film that contains it. Talent, crew, and
-craft are governed by collective agreements that set minimums, hours, and
-penalties you cannot wish away. And nothing is finished until it's delivered to
-spec — a great cut that misses its deliverables is unsold.
+so time is money at a known daily rate. The money is other people's, repaid in a
+defined order. Rights are property: if you don't own or license something, you
+can't sell the film that contains it. Talent, crew, and craft are governed by
+collective agreements that set minimums, hours, and penalties you cannot wish
+away. And nothing is finished until it's delivered to spec — a great cut that
+misses its deliverables is unsold.
 
 ## Questions Experts Constantly Ask
 
@@ -104,7 +103,7 @@ spec — a great cut that misses its deliverables is unsold.
 - Is this a one-way door or a two-way door — can I still change my mind cheaply?
 - What's the single biggest risk to delivery, and have I bonded or insured it?
 - Which guild and union rules govern this, and what are the penalties if I miss?
-- Are we shooting in a tax-incentive jurisdiction, and have I qualified the spend?
+- Are we in a tax-incentive jurisdiction, and have I qualified the spend?
 - Is the back end real, or am I selling someone a position that will never pay?
 
 ## Decision Frameworks
@@ -164,9 +163,6 @@ is accounted.
 - **Speed vs. quality of prep.** Rushing to a start date to catch financing or a
   cast window trades pre-production rigor for risk that surfaces, expensively, on
   the floor.
-- **Shooting where it looks right vs. where it's cheap.** The incentive
-  jurisdiction may not match the story's geography; you weigh authenticity
-  against the rebate that funds the whole thing.
 
 ## Rules of Thumb
 
@@ -183,7 +179,7 @@ is accounted.
 
 ## Failure Modes
 
-Starting principal photography before the financing fully closed and running dry
+Starting principal photography before financing fully closed and running dry
 mid-shoot. A break in chain of title that surfaces after the film is finished and
 freezes the sale. Underbudgeting prep to make the number look financeable, then
 paying triple on the floor. Raiding the contingency early. Promising back-end
@@ -191,7 +187,7 @@ points until the waterfall has nothing left to pour. Missing guild rules — mea
 penalties, turnaround, overtime — and bleeding the budget in fines. Ignoring
 deliverables until the cut is locked, then scrambling on M&E and QC. Letting the
 director or bond-company relationship turn adversarial, so problems get hidden
-instead of solved. Chasing a star the film can't afford.
+instead of solved.
 
 ## Anti-patterns
 
@@ -230,8 +226,7 @@ instead of solved. Chasing a star the film can't afford.
   production.
 - **Executive producer:** typically a financing or rights credit, distinct from
   the hands-on producer.
-- **Deliverables:** the masters, tracks, and legal materials owed to the
-  distributor.
+- **Deliverables:** masters, tracks, and legal materials owed to the distributor.
 
 ## Tools
 
@@ -258,7 +253,6 @@ release. Department heads — DP, production designer, editor — spend the budg
 need clear creative and financial guardrails. Lawyers and accountants keep the
 rights and money clean. The producer sits at the center, the one person who sees
 the whole production.
-
 
 ## Ethics
 
@@ -320,8 +314,8 @@ The cheapest time to clear a right is always before.
   title and papers the deals the financing rests on.
 - **event-planner** (adjacent): shares the logistics, budgeting, and
   fixed-deadline execution of a one-off production.
-- **sound-engineer** (collaboration): delivers the mix and M&E tracks the
-  producer needs to complete deliverables.
+- **sound-engineer** (collaboration): delivers the mix and M&E tracks needed to
+  complete deliverables.
 
 ## References
 

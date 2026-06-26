@@ -29,7 +29,7 @@ and collections that outlive their consultants. Others run experiments, model
 variation, reconstruct proto-languages, or advise on policy, forensics, and
 language technology. Underneath it all is the discipline of separating what
 speakers *say* from what they *think they say*, and what they *do* from what
-they've been *told* to do.
+they're *told* to do.
 
 ## Guiding Principles
 
@@ -53,8 +53,7 @@ they've been *told* to do.
 - **The levels of analysis.** Language is a stack: phonetics (physical sounds),
   phonology (the sound system), morphology (word structure), syntax (sentence
   structure), semantics (literal meaning), pragmatics (meaning in context), and
-  discourse (above the sentence). Most confusion comes from arguing across
-  levels — answering a phonetic fact with a syntactic claim.
+  discourse (above the sentence). Most confusion comes from arguing across levels.
 - **Phoneme vs. allophone.** A phoneme distinguishes meaning; its allophones are
   predictable variants that don't. English [pʰ] in *pin* and [p] in *spin* are
   one phoneme; the minimal pair (*pin* / *bin*) is the test.
@@ -68,7 +67,7 @@ they've been *told* to do.
   an unbounded lexicon.
 - **The comparative method.** Systematic sound correspondences across related
   languages let you reconstruct an unattested parent. Grimm's Law (PIE *p → f*,
-  *t → θ* in Germanic) is the model: change is regular, so reversible.
+  *t → θ* in Germanic) is the model: change is regular, hence reversible.
 - **Grammaticalization.** Content words erode into grammar over time — Latin
   *cantare habeo* ("I have to sing") becoming the French future *chanterai*.
 - **The variable** (Labov). A point where speakers choose between equivalent
@@ -95,8 +94,8 @@ they've been *told* to do.
 ## Decision Frameworks
 
 - **Contrastive analysis.** To decide whether two sounds are separate phonemes,
-  search for a minimal pair. Found one → contrastive. None, and the variants sit
-  in complementary distribution → allophones of one phoneme.
+  search for a minimal pair. Found one → contrastive. None, with the variants in
+  complementary distribution → allophones of one phoneme.
 - **Elicitation vs. corpus vs. experiment.** For a rare construction or an
   undocumented language, elicit; for frequency and natural usage, use a corpus;
   for processing or acquisition, run an experiment. Match the method to whether
@@ -109,7 +108,7 @@ they've been *told* to do.
   usage data for what's *probable*.
 - **Sapir-Whorf, handled carefully.** Entertain that language shapes thought, but
   demand the strong claim be tested behaviorally, never assumed. Color terms and
-  spatial frames are the defensible cases; "Eskimos have N words for snow" is the
+  spatial frames are the defensible cases; "Eskimos have N words for snow" the
   cautionary tale.
 
 ## Workflow
@@ -137,9 +136,9 @@ they've been *told* to do.
 - **Descriptive coverage vs. theoretical elegance.** A theory that captures 95%
   of cases beautifully may force you to ignore the awkward 5% — often where the
   insight hides.
-- **Breadth vs. depth.** A typological survey of 200 languages trades the deep
-  knowledge a single grammar gives for claims that generalize.
-- **The observer's paradox** (Labov). You want to record how people speak when
+- **Breadth vs. depth.** A typological survey of 200 languages trades the depth a
+  single grammar gives for claims that generalize.
+- **The observer's paradox** (Labov). You want to record how people speak
   unobserved, but the recording is the observation. Long interviews and emotional
   topics try to lower the speaker's guard.
 - **Speed vs. the speakers.** Endangered-language work races a clock, but rushing
@@ -151,8 +150,8 @@ they've been *told* to do.
 - If you can't find a minimal pair, the contrast may not be phonemic — keep
   looking, but suspect allophony.
 - Gloss everything; an example without a gloss is an assertion, not evidence.
-- "Sounds weird" is not the same as "ungrammatical" — separate semantics and
-  pragmatics from syntax.
+- "Sounds weird" is not "ungrammatical" — separate semantics and pragmatics from
+  syntax.
 - The exception you want to dismiss is usually the most informative datum.
 - Ask the speaker to translate *into* the language, then back — discrepancies
   reveal structure.
@@ -208,7 +207,7 @@ they've been *told* to do.
 - **Corpora and concordancers** (COCA, BNC, treebanks) — for frequency,
   collocation, and naturally occurring usage at scale.
 - **Elicitation kits** — paradigm sheets, picture tasks, and stimulus sets for
-  drawing out targeted forms in the field.
+  drawing out targeted forms.
 - **R and statistical models** — mixed-effects regression for variation, Rbrul
   for sociolinguistic variables.
 - **Leipzig Glossing Rules** — the convention that makes examples legible across

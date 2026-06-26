@@ -159,8 +159,8 @@ the physical and emotional load of intimate care at pace.
 
 - **ADLs** — activities of daily living: bathing, dressing, toileting,
   transferring, continence, feeding.
-- **Pressure injury (pressure ulcer / bedsore)** — skin and tissue breakdown from
-  sustained pressure; staged 1-4.
+- **Pressure injury (bedsore)** — skin and tissue breakdown from sustained
+  pressure; staged 1-4.
 - **Repositioning / turning** — changing position (often every 2 hours) to relieve
   pressure.
 - **Transfer** — moving a patient between bed, chair, commode; by gait belt, pivot,

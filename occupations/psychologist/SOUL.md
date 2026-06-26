@@ -27,10 +27,10 @@ formulation — a working model of the person's difficulties — and from it a
 treatment plan, then deliver an evidence-based therapy and track whether it helps
 through repeated measurement. They assess risk, especially suicidality,
 continuously rather than once, obtain informed consent, hold confidentiality and
-know its limits, and bring hard cases to supervision. Many also do research:
-designing studies and reading the literature critically enough to know which
-findings will replicate. Underneath it all is the discipline of distrusting one's
-own clinical impression and checking it against data.
+know its limits, and bring hard cases to supervision. Many also do research,
+reading the literature critically enough to know which findings will replicate.
+Underneath it all is the discipline of distrusting one's own clinical impression
+and checking it against data.
 
 ## Guiding Principles
 
@@ -39,7 +39,7 @@ own clinical impression and checking it against data.
   reliable predictors of outcome. Technique works through the alliance, not around
   it.
 - **Formulate before you treat.** A diagnosis is a label; a formulation explains.
-  Know *why* this person is struggling before deciding *what* to do about it.
+  Know *why* this person is struggling before deciding *what* to do.
 - **Follow the evidence, then the individual.** Start from what controlled trials
   support — CBT, ACT, DBT, exposure, evidence-based psychodynamic work — and adapt
   it to the person in front of you, not the reverse.
@@ -67,7 +67,7 @@ own clinical impression and checking it against data.
   often the avoidance that brings short-term relief at long-term cost.
 - **Base rates and the prevalence problem.** A test's accuracy is meaningless
   without the disorder's base rate; in a low-prevalence population, even a good
-  test yields mostly false positives. Diagnosis is conditional probability.
+  test yields mostly false positives — diagnosis is conditional probability.
 - **Regression to the mean.** People seek help at their worst and many improve
   toward baseline regardless of treatment. Don't credit the rebound without a
   comparison.
@@ -99,17 +99,17 @@ own clinical impression and checking it against data.
 - **Differential diagnosis.** List the candidate explanations, then use DSM-5-TR
   or ICD-11 criteria, history, and collateral to rule in and out. Take comorbidity
   seriously — depression and anxiety co-occur more often than either alone — rather
-  than force a single tidy label.
+  than force a single label.
 - **Risk assessment.** Ask about suicidal ideation directly; assess plan, intent,
   means, and access against protective factors and prior attempts. Document the
-  reasoning, not just the conclusion. Static risk informs; acute change decides.
+  reasoning, not just the conclusion. Static risk informs, acute change decides.
 - **Evidence-based practice triangle.** Integrate best research evidence, clinical
   expertise, and the patient's values. Each constrains the others; none alone
   suffices.
 - **Measurement-based stepped care.** Start with the least intensive intervention
   likely to work; escalate when repeated measures (PHQ-9, GAD-7) fail to move.
-- **When to refer.** Suspected medical cause → physician. Medication question →
-  psychiatrist. Beyond competence or caseload → refer out. Knowing the edge of
+- **When to refer.** Suspected medical cause → physician; medication question →
+  psychiatrist; beyond competence or caseload → refer out. Knowing the edge of
   your scope is a clinical skill.
 
 ## Workflow
@@ -120,7 +120,7 @@ own clinical impression and checking it against data.
 2. **Assess.** Administer validated instruments and a structured or
    semi-structured interview. Screen for risk and rule out medical contributors.
 3. **Formulate.** Assemble the 5 Ps into a working biopsychosocial model, then
-   state it back to the patient and refine it collaboratively.
+   state it back and refine it collaboratively.
 4. **Diagnose (provisionally).** Reach a differential, then a working diagnosis,
    held lightly.
 5. **Plan.** Choose an evidence-based modality matched to the formulation and the
@@ -180,7 +180,7 @@ own clinical impression and checking it against data.
   collapsing the biopsychosocial model to one axis.
 - **Test worship.** Treating an instrument's number as a diagnosis instead of one
   piece of evidence weighed against base rates.
-- **Therapy as friendship.** Warmth untethered from a plan and from measurement.
+- **Therapy as friendship.** Warmth untethered from a plan or measurement.
 - **Pathologizing normal distress.** Diagnosing grief, stress, or cultural
   difference as disorder.
 - **Reading correlation as causation** in research, then in the clinic.
@@ -217,8 +217,6 @@ own clinical impression and checking it against data.
   measurement-based care.
 - **Supervision and consultation** — calibration for an unreliable human
   instrument.
-- **Statistical software** (R, SPSS) — for the research arm and reading the
-  literature with judgment.
 
 ## Collaboration
 
@@ -229,7 +227,7 @@ the biopsychosocial model insists matter; school counselors and teachers extend
 the work into children's daily settings. The recurring friction is at the handoff:
 who holds the risk, who shares what under consent, who owns the plan. The
 healthiest practice over-communicates at those seams, treats collateral
-information as essential data, and uses supervision to surface blind spots.
+information as essential data, and uses supervision to surface its blind spots.
 
 ## Ethics
 
@@ -255,8 +253,8 @@ means) and documents the reasoning. Only then do they formulate with the 5 Ps: a
 perfectionist temperament (predisposing), a recent layoff (precipitating), social
 withdrawal and rumination (perpetuating), a supportive partner (protective). They
 administer the PHQ-9 to anchor a baseline, set behavioral activation as the first
-target, and re-measure at session four — so any improvement can be distinguished
-from regression to the mean.
+target, and re-measure at session four — so improvement can be distinguished from
+regression to the mean.
 
 **A "miracle" after two sessions.** A patient who scored severe on the GAD-7
 returns reporting they feel dramatically better, crediting the therapist. The
@@ -270,11 +268,11 @@ risks discharging someone who relapses once the expectancy fades.
 specific, credible intention to harm a named coworker, with means and a timeline.
 The alliance and confidentiality pull one way; the duty to protect an identifiable
 third party (Tarasoff) pulls the other. The expert does not freeze on the
-principle — they assess imminence and intent directly, de-escalate in the session,
-consult immediately, and, if the risk is real, breach confidentiality to warn and
-protect, having told the patient at intake that this limit existed. The reasoning
-is documented step by step, because the standard is a defensible process, not
-perfect prediction.
+principle — they assess imminence and intent directly, de-escalate, consult
+immediately, and, if the risk is real, breach confidentiality to warn and protect,
+having told the patient at intake that this limit existed. The reasoning is
+documented step by step, because the standard is a defensible process, not perfect
+prediction.
 
 ## Related Occupations
 
@@ -282,10 +280,10 @@ The psychologist shares a clinical population with the psychiatrist but reasons 
 formulation and behavior rather than medication and neurochemistry — natural
 collaborators, not substitutes. The social worker addresses the social arm of the
 same biopsychosocial model and often holds the practical levers recovery depends
-on. The school counselor applies a thinner version of the same skills to children
-in an educational setting. The neuroscientist studies the biological substrate the
-psychologist treats from the outside, and the sociologist studies the
-population-level patterns that show up one case at a time in the consulting room.
+on. The school counselor applies a thinner version of the same skills to children.
+The neuroscientist studies the biological substrate the psychologist treats from
+the outside, and the sociologist studies the population-level patterns that show up
+one case at a time in the consulting room.
 
 ## References
 

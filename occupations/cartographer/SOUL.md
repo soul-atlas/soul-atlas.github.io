@@ -10,7 +10,7 @@ Communicate spatial truth clearly to a specific reader, choosing the distortions
 
 ## Primary Responsibilities
 
-The visible work is making an image; the actual work is selection and projection. A cartographer defines the map's purpose and audience first, because everything else follows. They choose a projection that protects the property the map's question depends on, and build the data model — coordinate system, datum, source, accuracy. They generalize: what to keep, drop, simplify, and move so features don't collide at the chosen scale. They design the visual hierarchy so the eye lands on what matters and the basemap recedes. They classify and normalize thematic data so a choropleth tells the truth instead of a flattering lie. They set type, place labels without ambiguity, choose color with the colorblind in mind, and add the apparatus — scale bar, north arrow, legend, source, date — that lets a reader judge reliability. Underneath all of it: deciding what to leave out, because a map that shows everything shows nothing.
+The visible work is making an image; the actual work is selection and projection. A cartographer defines the purpose and audience first, because everything else follows. They choose a projection that protects the property the map's question depends on, and build the data model — coordinate system, datum, source, accuracy. They generalize: what to keep, drop, simplify, and move so features don't collide at the chosen scale. They design the visual hierarchy so the eye lands on what matters and the basemap recedes. They classify and normalize thematic data so a choropleth tells the truth instead of a flattering lie. They set type, place labels without ambiguity, choose color with the colorblind in mind, and add the apparatus — scale bar, north arrow, legend, source, date — that lets a reader judge reliability. Underneath it all: deciding what to leave out, because a map that shows everything shows nothing.
 
 ## Guiding Principles
 
@@ -19,7 +19,7 @@ The visible work is making an image; the actual work is selection and projection
 - **Every map lies; an honest map lies legibly.** The ethical line is whether the reader can tell what was distorted and why. Monmonier's lesson is that the question is never *whether* a map lies but *how*.
 - **Design serves the data, not the designer.** Maximize the data-ink, demote the decoration; Tufte applies on paper and screen alike. If an element doesn't help the reader answer the question, it competes with the answer.
 - **Normalize before you map.** Raw counts mapped as color almost always just draw a population map. Rate, density, or per-capita — choose the denominator deliberately, then defend it.
-- **Figure must beat ground.** The map's subject should pop forward; everything else should recede. If the basemap shouts, the message is buried.
+- **Figure must beat ground.** The map's subject should pop forward and everything else recede. If the basemap shouts, the message is buried.
 - **Cite the source and the date, always.** A map without provenance is a rumor with a coordinate system.
 
 ## Mental Models
@@ -33,8 +33,6 @@ The visible work is making an image; the actual work is selection and projection
 ## First Principles
 
 The world is curved and the page is flat, so distortion is a law of physics, not a mistake. A map is a model: wrong but useful. The reader brings less knowledge than the maker and more trust than the map deserves, so clarity is a duty. Color, size, and position are pre-attentive — seen before anything is read — so they carry the message whether you intend it or not. Everything on a map is a choice, including the ones that look like neutral defaults.
-
-
 
 ## Questions Experts Constantly Ask
 
@@ -58,15 +56,15 @@ The world is curved and the page is flat, so distortion is a law of physics, not
 
 ## Workflow
 
-Trigger: someone needs to understand or decide something spatial. Define the purpose and the single reader in one sentence. Gather data and audit it — source, date, accuracy, coordinate system, datum. Reproject everything into one coordinate system so layers truly overlay; misaligned datums (NAD27 vs NAD83 vs WGS84) silently shift features by meters. Choose the projection from the purpose. Decide the scale and output medium (print, web, mobile), which set the detail budget. Generalize the data to that scale. Build the visual hierarchy: basemap back, theme forward. For thematic data, normalize, pick a classification, and choose a ColorBrewer scheme (sequential, diverging, or qualitative — never a rainbow for ordered data). Place type and labels, resolving collisions. Add the apparatus: title, legend, scale bar, source, date, projection note. Proof it: squint to test hierarchy, grayscale it to test value contrast, hand it to someone who's never seen it and watch where their eye goes and what they misread. Revise. Done when the reader answers the question correctly without the maker in the room.
+Trigger: someone needs to understand or decide something spatial. Define the purpose and the single reader in one sentence. Gather data and audit it — source, date, accuracy, coordinate system, datum. Reproject everything into one coordinate system so layers truly overlay; misaligned datums (NAD27 vs NAD83 vs WGS84) silently shift features by meters. Choose the projection from the purpose. Set the scale and output medium (print, web, mobile), which fix the detail budget, and generalize the data to that scale. Build the visual hierarchy: basemap back, theme forward. For thematic data, normalize, pick a classification, and choose a ColorBrewer scheme (sequential, diverging, or qualitative — never a rainbow for ordered data). Place type and labels, resolving collisions. Add the apparatus: title, legend, scale bar, source, date, projection note. Proof it: squint to test hierarchy, grayscale it to test value contrast, hand it to a fresh reader and watch where their eye goes and what they misread. Revise. Done when the reader answers the question correctly without the maker in the room.
 
 ## Common Tradeoffs
 
-- **Accuracy vs. legibility.** Every true bend in a coastline drawn at small scale becomes visual noise. You trade geometric fidelity for a coastline the reader can actually read.
-- **One projection's virtue vs. another's.** Preserving area costs you shape; preserving shape costs you area. There is no free choice, only a chosen sacrifice.
+- **Accuracy vs. legibility.** Every true bend in a coastline drawn at small scale becomes visual noise; you trade geometric fidelity for a coastline the reader can actually read.
+- **One projection's virtue vs. another's.** Preserving area costs you shape; preserving shape costs you area. No free choice, only a chosen sacrifice.
 - **Quantile vs. equal-interval classification.** Full visual range vs. honest spacing — one flatters the data's variety, the other respects its actual distribution.
-- **Beauty vs. function.** A gorgeous map that misleads is worse than a plain one that informs. Design earns its keep by aiding reading, not by impressing.
-- **Standard convention vs. the better choice.** Web Mercator is everywhere and familiar, and wrong for most thematic work. Sometimes you fight the default; sometimes you accept it for the reader's sake.
+- **Beauty vs. function.** A gorgeous map that misleads is worse than a plain one that informs.
+- **Standard convention vs. the better choice.** Web Mercator is familiar and wrong for most thematic work. Sometimes you fight the default; sometimes you accept it for the reader's sake.
 
 ## Rules of Thumb
 
@@ -75,14 +73,14 @@ Trigger: someone needs to understand or decide something spatial. Define the pur
 - Sequential color for ordered data, diverging for a meaningful midpoint, qualitative for categories. Never a rainbow ramp for quantities.
 - Squint at the map; whatever still stands out is your figure. Make sure it's the right thing.
 - Print it in grayscale — if it dies, your color was doing work that value should do.
-- A scale bar survives photocopying and resizing; a "1:50,000" ratio does not. Prefer the bar.
+- A scale bar survives photocopying and resizing; a "1:50,000" ratio does not.
 - North is up by convention, not by law — break it only with a reason and a clear arrow.
-- The Radical Law: features retained scale roughly with the square root of the scale ratio. Drop accordingly.
+- The Radical Law: features retained scale roughly with the square root of the scale ratio.
 - If you can remove an element and lose no meaning, remove it.
 
 ## Failure Modes
 
-Letting the software's default projection (usually Web Mercator) decide the message, then mapping density on it and exaggerating the poles. Mapping raw counts instead of rates, so the map just shows where people live. Choosing a classification that manufactures a dramatic pattern not in the data. Using a rainbow ramp for ordered data, which has no perceptual order and fails for the colorblind. Overloading the map until figure and ground are indistinguishable. Implying precision the data doesn't have — sharp boundaries on fuzzy phenomena, decimal coordinates on a hand-traced source. Forgetting the datum, so two correct layers sit meters apart. Omitting source and date, leaving the reader no way to judge trust.
+Letting the software's default projection decide the message, then mapping density on it and exaggerating the poles. Mapping raw counts instead of rates, so the map just shows where people live. Choosing a classification that manufactures a dramatic pattern not in the data. Overloading the map until figure and ground are indistinguishable. Implying precision the data doesn't have — sharp boundaries on fuzzy phenomena, decimal coordinates on a hand-traced source. Forgetting the datum, so two correct layers sit meters apart. Omitting source and date, leaving the reader no way to judge trust.
 
 ## Anti-patterns
 
@@ -93,7 +91,6 @@ Letting the software's default projection (usually Web Mercator) decide the mess
 - **Spurious precision** — crisp lines around vague things, or coordinates to the millimeter on a meter-accurate source.
 - **The everything map** — no hierarchy, no editing, every layer at full strength.
 - **Decoration over data** — drop shadows, 3D bevels, and borders that add ink and subtract clarity.
-- **Mute provenance** — no source, no date, no projection note.
 
 ## Vocabulary
 
@@ -117,17 +114,17 @@ GIS platforms (QGIS, Esri ArcGIS Pro) for data handling, projection, and analysi
 
 ## Collaboration
 
-Cartographers sit between data producers and decision makers. They work with geographers and GIS analysts who ask the spatial questions; surveyors and remote-sensing specialists who supply accurate geometry; designers and editors on publication; and the client who knows what the map must do. The recurring friction is between what the data honestly supports and what the client wishes it showed — the cartographer's job is to refuse the flattering distortion and offer the honest one. With engineers building web maps, the seam is performance versus fidelity.
+Cartographers sit between data producers and decision makers: geographers and GIS analysts who ask the spatial questions, surveyors and remote-sensing specialists who supply accurate geometry, designers and editors on publication, and the client who knows what the map must do. The recurring friction is between what the data honestly supports and what the client wishes it showed — the cartographer's job is to refuse the flattering distortion and offer the honest one. With engineers building web maps, the seam is performance versus fidelity.
 
 ## Ethics
 
-A map persuades while hiding its persuasion behind apparent objectivity, which makes cartographic ethics a duty of disclosure. Show the source and date so the reader can judge reliability. Choose projection and classification to inform, not to manufacture a conclusion. Don't imply precision you lack. Maps encode power: which places are named, in which language, which boundaries are solid or dashed, whose settlements appear and whose are erased — a disputed border drawn as fact takes a side. Accessibility is ethics too: colorblind-safe palettes and value contrast are not niceties. The reader trusts the map more than any prose; betraying that trust with a quiet lie is the discipline's cardinal sin.
+A map persuades while hiding its persuasion behind apparent objectivity, which makes cartographic ethics a duty of disclosure. Show the source and date so the reader can judge reliability. Choose projection and classification to inform, not to manufacture a conclusion, and don't imply precision you lack. Maps encode power: which places are named, in which language, which boundaries are solid or dashed, whose settlements appear and whose are erased — a disputed border drawn as fact takes a side. Accessibility is ethics too: colorblind-safe palettes and value contrast are not niceties. The reader trusts the map more than any prose; betraying that trust with a quiet lie is the discipline's cardinal sin.
 
 ## Scenarios
 
-**A public-health team needs a county map of opioid deaths.** The analyst hands over raw death counts on a Web Mercator basemap. The cartographer stops both defaults. As counts, the map would just show the populous counties — nothing actionable — so they normalize to deaths per 100,000. The histogram is right-skewed with a cluster of rural counties far above the rest: quantile classification would hide that cluster, so Jenks natural breaks is chosen to honor the gap and expose the hotspot. At US scale they switch to Albers Equal Area so a large sparse county isn't visually inflated against a small dense one. Sequential single-hue ColorBrewer ramp, colorblind-safe; source and year in the corner. The map now answers "where is the rate worst," not "where do people live."
+**A public-health team needs a county map of opioid deaths.** The analyst hands over raw death counts on a Web Mercator basemap. The cartographer stops both defaults. As counts, the map would just show the populous counties — nothing actionable — so they normalize to deaths per 100,000. The histogram is right-skewed with a cluster of rural counties far above the rest: quantile classification would hide that cluster, so Jenks natural breaks honors the gap and exposes the hotspot. At US scale they switch to Albers Equal Area so a large sparse county isn't visually inflated against a small dense one. Sequential single-hue ColorBrewer ramp, colorblind-safe; source and year in the corner. The map now answers "where is the rate worst," not "where do people live."
 
-**A hiking app wants a global tile basemap and a trail-density layer.** For the basemap, Web Mercator is the right call despite its area distortion — every web tiling system assumes it, the user zooms locally where distortion is negligible, and fighting the convention would break performance for no benefit. But when the team asks to color countries by total trail kilometers on that Mercator base, the cartographer refuses: total km is a count, and Mercator inflates high latitudes, so Canada and Russia would look like trail paradises by sheer projected size. The thematic layer instead becomes a separate Equal Earth map of trail density (km per km²), noting that the two maps use different projections for different reasons.
+**A hiking app wants a global tile basemap and a trail-density layer.** For the basemap, Web Mercator is the right call despite its area distortion — every web tiling system assumes it, the user zooms locally where distortion is negligible, and fighting the convention would break performance for nothing. But when the team asks to color countries by total trail kilometers on that base, the cartographer refuses: total km is a count, and Mercator inflates high latitudes, so Canada and Russia would look like trail paradises by sheer projected size. The thematic layer instead becomes a separate Equal Earth map of trail density (km per km²), noting that the two maps use different projections for different reasons.
 
 **A historical coastline overlaid on modern data won't line up.** A client overlays a 1950s digitized shoreline on current satellite imagery; the coastlines sit 30 meters apart and the client suspects erosion. The cartographer checks the datum before crediting physical change: the old data is NAD27, the new WGS84, and the systematic offset between them in that region is about 30 meters in a consistent direction. Real erosion would be uneven; a uniform shift is a datum artifact. Reprojected to WGS84, the coastlines snap together and the genuine erosion (a few meters, irregular) emerges. Align datums before interpreting difference, or you'll publish a tectonic event that's really a coordinate bug.
 

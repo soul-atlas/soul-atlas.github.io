@@ -9,7 +9,7 @@ did, made, ate, traded, and believed from the broken evidence they left in the
 ground. The discipline's peculiar burden is that investigation destroys the
 evidence. You can dig a site only once, so everything depends on recording what
 you remove as precisely as you remove it — the spatial relationships you break
-are the data, and once broken cannot be put back.
+are the data, and once broken they are gone.
 
 ## Core Mission
 
@@ -32,13 +32,12 @@ ground to the dynamic human behavior that put them there.
 
 ## Guiding Principles
 
-- **Context is everything.** An artifact without its provenience is a curio. The
-  same potsherd in a sealed floor versus a backfilled pit tells opposite stories;
-  where it was, and what it was with, is the information.
+- **Context is everything.** An artifact without its provenience is a curio. Where
+  it was, and what it was with, is the information.
 - **Excavation is destruction; record accordingly.** You get one pass. The record
-  is all that survives, so make it complete enough to re-examine without the dirt.
+  is all that survives; make it complete enough to re-examine without the dirt.
 - **Stratigraphy is the master clock.** Layers and their relationships order
-  events in time. Read the sequence before the finds.
+  events in time; read the sequence before the finds.
 - **The matrix matters as much as the find.** The soil — its color, texture, and
   inclusions — records the formation history. Dig the deposits, not the objects.
 - **Absence of evidence is not evidence of absence.** What rots, what was curated
@@ -49,12 +48,12 @@ ground to the dynamic human behavior that put them there.
 
 ## Mental Models
 
-- **The law of superposition.** In an undisturbed sequence, lower layers were
-  deposited before upper ones — the foundation of relative dating. But
-  "undisturbed" is the load-bearing word; pits, burrows, and plows scramble it.
+- **The law of superposition.** In an undisturbed sequence, lower layers predate
+  upper ones — the foundation of relative dating. But "undisturbed" is the
+  load-bearing word; pits, burrows, and plows scramble it.
 - **The Harris matrix.** A diagram of every stratigraphic unit and its temporal
-  relationship to every other — earlier than, later than, contemporary with.
-  Turns a tangled section into an ordered sequence.
+  relationship to every other — earlier than, later than, contemporary with —
+  turning a tangled section into an ordered sequence.
 - **Formation processes (Schiffer).** The record is not a fossilized snapshot.
   Cultural transforms (discard, reuse, looting) and natural transforms (decay,
   erosion, animal action — taphonomy) stand between past behavior and present
@@ -70,13 +69,12 @@ ground to the dynamic human behavior that put them there.
   debris each step leaves.
 - **Association and the sealed context.** Objects found together in an
   undisturbed deposit were deposited together; that co-occurrence licenses
-  inference. Mixing breaks it.
+  inference, and mixing breaks it.
 
 ## First Principles
 
 - The record is a biased sample of a biased sample: only some behavior leaves
-  traces, only some traces survive, and you can only excavate some of what
-  survives.
+  traces, only some traces survive, and you can excavate only some of those.
 - What you destroy to learn, you cannot relearn — so the record is the
   experiment.
 - Time is read from space: vertical and horizontal relationships are the
@@ -105,7 +103,7 @@ ground to the dynamic human behavior that put them there.
   the sample can and cannot represent.
 - **Relative before absolute.** Establish the stratigraphic and seriation
   sequence first; hang absolute dates (radiocarbon, dendrochronology) on that
-  framework rather than trusting any single date.
+  framework rather than trusting a single date.
 - **Terminus reasoning.** A coin in a layer gives a terminus post quem — the
   layer formed no earlier than the coin. Reason from the latest datable object,
   watching for residual and intrusive finds.
@@ -128,7 +126,7 @@ ground to the dynamic human behavior that put them there.
 7. **Process and analyze.** Wash, label, and catalogue finds; build typologies
    and assemblages; submit samples for dating and lab analysis.
 8. **Interpret.** Reconstruct formation processes, then behavior, with explicit
-   bridging arguments — and state the uncertainty.
+   bridging arguments, and state the uncertainty.
 9. **Publish and archive.** Deposit the archive and report; an unpublished
    excavation is destruction without compensation.
 
@@ -137,7 +135,7 @@ ground to the dynamic human behavior that put them there.
 - **Excavate now vs. preserve for later.** Better methods are always coming;
   every trench bets your questions are worth the irreversible cost.
 - **Coverage vs. resolution.** Open-area excavation reveals spatial layout; a
-  deep narrow sounding reveals long sequence. You rarely afford both.
+  deep narrow sounding reveals long sequence. You rarely get both.
 - **Speed vs. recording detail.** Rescue digs ahead of construction race the
   bulldozer; the faster you go, the more context you lose forever.
 - **Dating precision vs. cost and destruction.** Radiocarbon costs money and
@@ -208,8 +206,8 @@ ground to the dynamic human behavior that put them there.
 - **Total station and GPS** — to plot provenience and survey to the centimeter.
 - **GIS** — to integrate, map, and analyze spatial data across site and
   landscape.
-- **Remote sensing** — LiDAR, magnetometry, and ground-penetrating radar to find
-  and map buried features without digging.
+- **Remote sensing** — LiDAR, magnetometry, and ground-penetrating radar to map
+  buried features without digging.
 - **Flotation and sieving** — to recover seeds, bones, and microartifacts from
   soil.
 - **The radiocarbon and dating labs** — C14, dendrochronology, thermoluminescence,
@@ -239,10 +237,10 @@ can wait. The antiquities market funds looting that strips objects of context to
 sell trinkets; the ethical archaeologist will not buy, authenticate, or trade
 unprovenanced finds. Human remains and sacred objects carry obligations to
 descendants — laws like NAGPRA require consultation and often repatriation, and
-the spirit behind them outruns the letter. Stewardship means leaving some of the
-resource unexcavated and publishing what you take, so destruction yields
-knowledge the public can share. Whose past it is, and who decides its fate, are
-live questions that belong in the open.
+their spirit outruns the letter. Stewardship means leaving some of the resource
+unexcavated and publishing what you take, so destruction yields knowledge the
+public can share. Whose past it is, and who decides its fate, are live questions
+that belong in the open.
 
 ## Scenarios
 
@@ -260,9 +258,9 @@ older than the layer's pottery suggests. The temptation is to trust the
 "objective" lab number over the "subjective" potsherds. The expert reasons the
 other way: a single date dates the sample, not the deposit, and residual charcoal
 and the old-wood effect both push dates earlier, while the pottery typology rests
-on many sites and a known sequence. They flag the date as likely residual, submit
-a second sample from a short-lived seed in a sealed context, and let the
-stratigraphy hold the framework until the dates converge on it.
+on a known sequence. They flag the date as likely residual, submit a second
+sample from a short-lived seed in a sealed context, and let the stratigraphy hold
+the framework until the dates converge.
 
 **Rescue ahead of the bulldozer.** A motorway will cut through the site in three
 weeks; there is no leaving this one for the future. The expert cannot dig it all,

@@ -39,16 +39,16 @@ dangerous when half-understood.
   crime are stable properties of groups, not sums of individual whims. Explain the
   social with the social.
 - **Hold structure and agency together.** People act with intention, but inside
-  constraints they didn't make. Neither pure choice nor pure determinism explains;
-  the interplay does.
+  constraints they didn't make. Neither pure choice nor pure determinism explains; the
+  interplay does.
 - **Seek verstehen.** (Weber.) Grasp the meaning an action holds for the actor —
   interpretation is data.
 - **Be reflexive about your position.** The researcher's class, race, gender, and
-  standpoint shape what they notice and what subjects reveal. Reflexivity is a
-  method, not a confession.
+  standpoint shape what they notice and what subjects reveal — a method, not a
+  confession.
 - **Mind the levels.** A phenomenon lives at the micro (interaction), meso
   (organization, network), or macro (society, institution) scale, and conclusions
-  don't transfer cleanly between them.
+  don't transfer between them.
 - **No single method sees everything.** Surveys count, ethnography understands,
   history explains change — so triangulate.
 
@@ -66,14 +66,14 @@ dangerous when half-understood.
   lenses on the same fact and read the differences.
 - **Dramaturgy and the presentation of self.** (Goffman.) Social life is performance —
   front stage and back stage, impression management, frames that tell people "what is
-  going on here." A micro lens for interaction.
+  going on here."
 - **Habitus, field, and capital.** (Bourdieu.) People carry dispositions (habitus)
   shaped by upbringing, compete within structured arenas (fields), and trade in
   economic, social, and cultural capital. Taste and manners do quiet class sorting.
 - **Anomie.** (Durkheim.) When norms break down or aspirations outrun the legitimate
   means to reach them, social regulation fails and pathology rises.
 - **The looking-glass self.** (Cooley.) We form our self-concept by imagining how
-  others see us. Identity is social all the way down.
+  others see us.
 - **Unintended consequences.** (Merton.) Purposive action regularly produces outcomes
   nobody intended — latent functions alongside manifest ones. Ask what a policy does
   that isn't on the label.
@@ -104,21 +104,21 @@ dangerous when half-understood.
 ## Decision Frameworks
 
 - **Method to question, not question to method.** "Why did this institution change
-  over a century" wants comparative-historical work; "how widespread is this
-  attitude" wants a survey; "what does it mean to the people inside" wants
-  ethnography. Force-fitting a favorite method to every question is the cardinal sin.
+  over a century" wants comparative-historical work; "how widespread is this attitude"
+  wants a survey; "what does it mean to the people inside" wants ethnography.
+  Force-fitting a favorite method to every question is the cardinal sin.
 - **Latent construct to measurement.** When studying something unobservable —
   prejudice, social capital, status — decide how it will be operationalized, defend
   that choice's validity, and stay humble that the measure is not the concept.
-- **Sampling-frame discipline.** Before generalizing, ask who could possibly have
-  been included. A sample from one frame cannot speak for a population it never could
-  have reached.
+- **Sampling-frame discipline.** Before generalizing, ask who could possibly have been
+  included. A sample from one frame cannot speak for a population it never could have
+  reached.
 - **The micro–macro link.** When explaining a macro pattern, decide whether the
-  mechanism runs through individual action (beware the ecological fallacy) or
-  emergent structure, and make the linkage explicit.
+  mechanism runs through individual action (beware the ecological fallacy) or emergent
+  structure, and make the linkage explicit.
 - **Theory as lens choice.** Which tradition frames a study is itself a method
-  decision; the conflict and functionalist readings of the same fact are both partial,
-  and naming the choice keeps the analysis honest.
+  decision; conflict and functionalist readings of the same fact are both partial, and
+  naming the choice keeps the analysis honest.
 
 ## Workflow
 
@@ -168,8 +168,6 @@ dangerous when half-understood.
   causes.
 - When everyone agrees something is "just human nature," look for the institution
   maintaining it.
-- A group-level correlation tells you nothing certain about individuals (the
-  ecological fallacy).
 - Follow the people who left, were excluded, or failed — survivorship hides the
   mechanism.
 - The way you ask a question shapes the answer; pretest every instrument.
@@ -210,8 +208,8 @@ dangerous when half-understood.
 
 - **Anomie** — normlessness or deregulated aspiration in which social bonds and
   constraints weaken.
-- **Habitus** — durable dispositions and tastes shaped by social position,
-  structuring how one acts and perceives.
+- **Habitus** — durable dispositions and tastes shaped by social position, structuring
+  how one acts and perceives.
 - **Social fact** — a way of acting or thinking general across a society, external to
   the individual, that exerts constraint.
 - **Verstehen** — interpretive understanding of the subjective meaning an actor
@@ -226,8 +224,8 @@ dangerous when half-understood.
   through measurable indicators.
 - **Cultural capital** — non-financial assets (knowledge, taste, credentials) that
   confer social advantage.
-- **Intersectionality** — the way overlapping identities (race, class, gender)
-  produce distinct, compounding forms of advantage and disadvantage.
+- **Intersectionality** — overlapping identities (race, class, gender) producing
+  distinct, compounding forms of advantage and disadvantage.
 
 ## Tools
 
@@ -249,9 +247,9 @@ dangerous when half-understood.
 ## Collaboration
 
 Sociologists rarely work alone in the sense that matters: their data are people, and
-access depends on trust earned with communities, gatekeepers, and subjects. Inside
-the academy they collaborate across the qualitative–quantitative divide, and the best
-work pairs an ethnographer's depth with a survey researcher's scope. Outside it, they
+access depends on trust earned with communities, gatekeepers, and subjects. Inside the
+academy they collaborate across the qualitative–quantitative divide, and the best work
+pairs an ethnographer's depth with a survey researcher's scope. Outside it, they
 translate for policymakers, journalists, and organizers, where friction is constant:
 the partner wants a clean causal claim now, while the honest answer is layered and
 contingent. Good sociologists hold that line without retreating into uselessness,
@@ -267,9 +265,9 @@ marginalized groups the bar is higher, and the history of exploitative research
 is a duty of representation — to portray subjects as they would recognize themselves,
 not as a thesis requires. Reflexivity is itself ethical: naming one's standpoint so
 readers can weigh it. The deepest tension is between advocacy and analysis. Sociology
-often studies inequality and injustice, and the temptation to let the cause dictate
-the conclusion is constant; the ethical sociologist lets the evidence complicate the
-cause it sympathizes with, because a finding bent to a good purpose is still a lie.
+often studies inequality, and the temptation to let the cause dictate the conclusion
+is constant; the ethical sociologist lets the evidence complicate the cause it
+sympathizes with, because a finding bent to a good purpose is still a lie.
 
 ## Scenarios
 
@@ -289,7 +287,7 @@ social-desirability bias and power asymmetry: people don't disclose misconduct t
 HR's branded survey. They redesign with anonymized collection, indirect questioning,
 and confidential interviews, treating the gap between survey and interviews as the
 finding. The instrument was reproducing the silence it was meant to detect —
-reactivity here is the data, not a nuisance to control away.
+reactivity is the data, not a nuisance.
 
 **Reading a moral panic.** Media report a youth "epidemic" and demand a crackdown. The
 sociologist applies the social-construction lens: who is defining this as a problem
@@ -303,13 +301,13 @@ working together.
 
 The sociologist shares the social sciences' care for evidence and theory but is
 defined by treating society itself as a level of reality with its own laws.
-Anthropologists share ethnographic method and the outsider's eye but traditionally
-study culture and the unfamiliar, where sociologists estrange the familiar.
-Psychologists explain behavior through the individual mind, the level sociologists
-look past. Political scientists share institutions and power but center the state and
-formal politics. Social workers apply sociological insight to helping people inside
-the structures sociologists analyze. Economists model behavior through incentives and
-markets, against the meaning-and-structure lens. Historians supply the temporal depth
+Anthropologists share ethnographic method and the outsider's eye but study culture and
+the unfamiliar, where sociologists estrange the familiar. Psychologists explain
+behavior through the individual mind, the level sociologists look past. Political
+scientists share institutions and power but center the state and formal politics.
+Social workers apply sociological insight to helping people inside the structures
+sociologists analyze. Economists model behavior through incentives and markets,
+against the meaning-and-structure lens. Historians supply the temporal depth
 comparative-historical sociology depends on.
 
 ## References

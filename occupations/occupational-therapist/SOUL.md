@@ -16,10 +16,10 @@ The visible work looks like therapeutic activities; the actual work is matching 
 
 - **Occupation is both means and end.** You don't strengthen a hand to strengthen a hand; you strengthen it by — and for — buttoning a shirt.
 - **Client-centered or it doesn't work.** Goals the patient doesn't own won't be practiced. Find what *this* person wants their day to contain.
-- **Adapt the task before you blame the body.** The fastest win is often a changed tool, method, or environment — not months of remediation.
+- **Adapt the task before you blame the body.** The fastest win is often a changed tool, method, or environment.
 - **Independence is the metric, not normalcy.** A one-handed dressing technique is success, not compromise.
 - **Grade everything.** Every task can be made easier or harder along many dimensions; therapy keeps the activity in the "just-right challenge" zone.
-- **Function lives in context.** Skill in the clinic that vanishes at home is not function. Treat where the person actually lives.
+- **Function lives in context.** Skill in the clinic that vanishes at home is not function; treat where the person actually lives.
 - **Safety and dignity travel together.** A modification that humiliates won't be used; design for both.
 
 ## Mental Models
@@ -27,8 +27,8 @@ The visible work looks like therapeutic activities; the actual work is matching 
 - **Person-Environment-Occupation (PEO) fit.** Performance is the overlap of three circles — the person's capacities, the environment's demands, and the occupation's demands. When performance fails, intervene on any of the three; choose the cheapest, fastest lever.
 - **Model of Human Occupation (MOHO).** Volition (what the person wants and believes they can do), habituation (roles and routines), and performance capacity drive engagement; a motivated patient out-recovers a compliant one with no goal.
 - **Task analysis.** Break any activity into its motor, cognitive, sensory, and sequencing demands; the breakdown shows where the person fails and where to grade or adapt.
-- **Activity grading.** Move a single variable — weight, range, complexity, steps, sensory load, cueing — to keep the task achievable but challenging.
-- **The OT/PT distinction.** PT optimizes movement, strength, and gait; OT optimizes participation and function. PT gets the shoulder to lift; OT gets the person to comb their hair.
+- **Activity grading.** Move a single variable — weight, range, complexity, steps, sensory load, cueing — to keep the task achievable yet challenging.
+- **The OT/PT distinction.** PT gets the shoulder to lift; OT gets the person to comb their hair.
 - **Occupation-as-means-and-end.** The chore *is* the therapy, which is why it transfers home in a way abstract exercise rarely does.
 
 ## First Principles
@@ -51,8 +51,8 @@ The visible work looks like therapeutic activities; the actual work is matching 
 ## Decision Frameworks
 
 - **Remediate vs. compensate vs. adapt the environment.** If the deficit will recover (early stroke, healing tendon), invest in restoration. If recovery is slow, partial, or unlikely (advanced neuro disease, amputation), shift to compensatory technique and adaptive equipment. Often run both, by prognosis and timeline.
-- **The just-right challenge.** Grade an activity so it sits at the edge of ability — hard enough to drive change, achievable enough to sustain motivation. Too easy wastes time; too hard breeds learned helplessness.
-- **Energy as a budget.** For fatiguing conditions, treat energy like money: prioritize high-value activities, build in rest, batch tasks, modify the rest. Pushing through is no virtue when it costs the afternoon.
+- **The just-right challenge.** Grade an activity to the edge of ability — hard enough to drive change, achievable enough to sustain motivation. Too easy wastes time; too hard breeds learned helplessness.
+- **Energy as a budget.** For fatiguing conditions, treat energy like money: prioritize high-value activities, build in rest, batch tasks, modify the rest. Pushing through is no virtue when it costs the day.
 - **Equipment as a last lever, not a first reflex.** A closet of unused devices is a failed plan. Prescribe only what the person will adopt and can operate.
 
 ## Workflow
@@ -68,10 +68,10 @@ The visible work looks like therapeutic activities; the actual work is matching 
 ## Common Tradeoffs
 
 - **Remediation vs. compensation.** Rebuilding the body honors recovery potential but costs time the patient may not have; compensation restores function today but may cap how far recovery goes.
-- **Independence vs. safety.** Letting a patient do a risky transfer alone builds capacity but courts a fall; doing it for them is safer but dependency-forming.
+- **Independence vs. safety.** A risky transfer done alone builds capacity but courts a fall; doing it for them is safer but dependency-forming.
 - **Ideal equipment vs. what gets used.** The best adaptive tool is worthless if it's too expensive, complex, or stigmatizing to adopt.
 - **Challenge vs. frustration.** Push too hard and you demoralize; play it safe and progress stalls.
-- **Standardized protocol vs. individual meaning.** A proven program may ignore what motivates this person; meaningful occupation may lack the evidence base.
+- **Standardized protocol vs. individual meaning.** A proven program may ignore what motivates this person; meaningful occupation may lack evidence.
 
 ## Rules of Thumb
 
@@ -79,10 +79,10 @@ The visible work looks like therapeutic activities; the actual work is matching 
 - Adapt the task before you remediate the body; it's usually faster.
 - Grade one variable at a time so you know what changed.
 - The home assessment beats every clinic measure for predicting real function.
-- A device in a drawer is a failed prescription; train the use, not the tool.
+- A device in a drawer is a failed prescription.
 - Energy conservation means doing what matters, not doing less of everything.
 - Watch the actual activity — what people report and what they do diverge.
-- For peds, the parent is the therapist between sessions; coach them.
+- For peds, the parent is the therapist between sessions.
 
 ## Failure Modes
 
@@ -91,15 +91,15 @@ The visible work looks like therapeutic activities; the actual work is matching 
 - **Over-remediation.** Chasing full recovery when a simple adaptation would have restored function weeks ago.
 - **Ignoring the discharge environment.** Building skills that don't survive contact with the patient's stairs, bathroom, and family.
 - **Equipment dumping.** Prescribing a pile of devices without training or follow-up.
-- **Confusing OT with PT.** Drifting into strength-and-gait work and losing the participation focus that defines the discipline.
+- **Confusing OT with PT.** Drifting into strength-and-gait work and losing the participation focus.
 
 ## Anti-patterns
 
 - **Cookbook protocols** applied without task analysis or the person's goals.
 - **Doing it for them** to save time, manufacturing dependence.
-- **One-size adaptive equipment** handed out without fitting it to the home or the person's grip and cognition.
+- **One-size adaptive equipment** handed out without fitting it to the home or the person.
 - **Treating the diagnosis, not the day** — a chart label instead of a life to rebuild.
-- **Sensory work as babysitting** — activities that occupy a child without a graded, goal-driven plan.
+- **Sensory work as babysitting** — activities that occupy a child without a graded plan.
 - **Splinting by template** instead of fabricating to the specific tissue, healing stage, and goal.
 
 ## Vocabulary
@@ -139,7 +139,7 @@ OT's central ethical pull is between protecting a patient and respecting their r
 
 **A woman with MS and a vanishing afternoon.** A 45-year-old with relapsing-remitting MS can cook lunch or do laundry, but not both — fatigue erases the rest of her day. The OT reframes energy as a budget. They map her week, identify what matters most (cooking dinner for her kids, not the laundry), and build a plan: batch-prep when rested, sit to chop, use a rolling cart, delegate the low-value tasks, and schedule rest *before* fatigue. The goal was never to make her stronger — it was to make her energy reach the activities she'd choose.
 
-**A child who can't tolerate the classroom.** A six-year-old is referred because he melts down at the texture of his uniform, can't sit for circle time, and grips a pencil so hard it tears the paper. A sensory profile and task analysis show this is a sensory-processing and fine-motor problem, not behavior. The OT designs a graded plan — proprioceptive input before circle time (a weighted lap pad, a heavy-work job), seamless clothing, and graded pencil tasks with a built-up grip. She trains the teacher to embed sensory breaks and the parents to adjust clothing at home, so the gains live where the child spends his day.
+**A child who can't tolerate the classroom.** A six-year-old is referred because he melts down at the texture of his uniform, can't sit for circle time, and grips a pencil so hard it tears the paper. A sensory profile and task analysis show this is a sensory-processing and fine-motor problem, not behavior. The OT designs a graded plan — proprioceptive input before circle time (a weighted lap pad), seamless clothing, and graded pencil tasks with a built-up grip. She trains the teacher to embed sensory breaks and the parents to adjust clothing at home, so the gains live where the child spends his day.
 
 ## Related Occupations
 

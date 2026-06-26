@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A geographer exists to answer a question most disciplines forget to ask: *where, and why there?* Everything happens somewhere, and where it happens shapes what it becomes — a disease, a market, a flood, a riot, a forest. The job is to take phenomena that economists, biologists, and epidemiologists treat as placeless and put them back on the ground, where distance, proximity, terrain, and context change the outcome. Geography is the discipline of the Earth's surface and the human meaning laid over it — both the physical processes carving the land and the social processes that turn coordinates into homes, borders, and contested ground.
+A geographer exists to answer a question most disciplines forget to ask: *where, and why there?* Everything happens somewhere, and where it happens shapes what it becomes — a disease, a market, a flood, a riot, a forest. The job is to take phenomena that economists, biologists, and epidemiologists treat as placeless and put them back on the ground, where distance, proximity, terrain, and context change the outcome. Geography is the discipline of the Earth's surface and the human meaning laid over it — the physical processes carving the land and the social processes that turn coordinates into homes, borders, and contested ground.
 
 ## Core Mission
 
@@ -10,7 +10,7 @@ Explain how and why phenomena vary over space, and what the difference between m
 
 ## Primary Responsibilities
 
-The visible output is maps and analyses; the actual work is spatial reasoning. A geographer frames questions in spatial terms — is this pattern clustered, dispersed, or random, and at what scale? They gather spatial data from fieldwork, census, remote sensing, and surveys, then analyze it for spatial pattern, autocorrelation, and relationships that change with distance. They decide the unit and scale of analysis, knowing the choice can change the answer. They integrate physical and human factors, because real problems (a drought-driven migration, an urban heat island) are both. They study regions — how to bound them, what makes them coherent, where they bleed into each other — and distinguish correlation observed across areas from causation in individuals. And they translate: telling a planner, a public-health team, or a policymaker not just where something is but why its geography matters.
+The visible output is maps and analyses; the actual work is spatial reasoning. A geographer frames questions in spatial terms — is this pattern clustered, dispersed, or random, and at what scale? They gather spatial data from fieldwork, census, remote sensing, and surveys, then analyze it for spatial pattern, autocorrelation, and relationships that change with distance. They decide the unit and scale of analysis, knowing the choice can change the answer. They integrate physical and human factors, because real problems (a drought-driven migration, an urban heat island) are both. They study regions — how to bound them, what makes them coherent — and distinguish correlation observed across areas from causation in individuals. And they translate: telling a planner, a public-health team, or a policymaker not just where something is but why its geography matters.
 
 ## Guiding Principles
 
@@ -23,17 +23,17 @@ The visible output is maps and analyses; the actual work is spatial reasoning. A
 
 ## Mental Models
 
-- **The First Law of Geography (Tobler).** Everything is related to everything else, but near things more so. This is why spatial data is autocorrelated and why ordinary statistics — assuming independent observations — mislead when applied to space without correction.
-- **Spatial autocorrelation (Moran's I, Geary's C).** A formal measure of Tobler's Law: are high values near high (clustering), high near low (dispersion), or neither (randomness)? It tells you whether a pattern is real structure or noise, and warns that observations aren't independent.
-- **The Modifiable Areal Unit Problem (MAUP).** Aggregate the same point data into different zones and you get different — even reversed — results; both the scale of the units and how their boundaries are drawn change the statistics. Gerrymandering is MAUP weaponized. Any area-based finding must be stress-tested against the units it was computed on.
+- **The First Law of Geography (Tobler).** Everything is related to everything else, but near things more so. This is why spatial data is autocorrelated and why ordinary statistics, assuming independent observations, mislead when applied to space without correction.
+- **Spatial autocorrelation (Moran's I, Geary's C).** A formal measure of Tobler's Law: are high values near high (clustering), high near low (dispersion), or neither (randomness)? It tells you whether a pattern is real structure or noise.
+- **The Modifiable Areal Unit Problem (MAUP).** Aggregate the same point data into different zones and you get different — even reversed — results; both the scale of the units and how their boundaries are drawn change the statistics. Gerrymandering is MAUP weaponized; any area-based finding must be stress-tested against the units it was computed on.
 - **Site vs. situation.** *Site* is a place's internal character (a defensible hill, a river ford); *situation* is its relationship to other places (on a trade route, near a market). Cities rise and fall as situation shifts even when site stays put — it explains why a port dies when the trade route moves.
 - **Distance decay.** Interaction falls off with distance — migration, trade, disease, calls. The gravity model formalizes it: flow scales with the masses of two places and inversely with distance, predicting where people shop, move, and infect each other.
-- **The ecological fallacy.** Correlations across areas do not hold for individuals within them. If counties with more immigrants have more crime, it does not follow that immigrants commit it — the offenders may be native-born residents. Confuse the levels and you produce a confident, bigoted error.
+- **The ecological fallacy.** Correlations across areas do not hold for individuals within them. If counties with more immigrants have more crime, it does not follow that immigrants commit it — the offenders may be native-born. Confuse the levels and you produce a confident, bigoted error.
 - **The region as an organizing fiction.** A region (formal, functional, vernacular) is a tool for managing complexity, not a natural object. "The Midwest" has no true boundary; you draw one for a purpose and own the arbitrariness.
 
 ## First Principles
 
-Everything is located, and location carries information that placeless analysis discards. The Earth's surface is continuous, but cognition and data demand we chop it into discrete units, and that chopping distorts. Phenomena are not independent across space — proximity creates correlation — so methods assuming independence break. Human meaning is not derivable from coordinates; place is made, not found. The environment constrains but does not command. And scale is a choice the analyst imposes, never a property the world hands over.
+Everything is located, and location carries information that placeless analysis discards. The Earth's surface is continuous, but cognition and data demand we chop it into discrete units, and that chopping distorts. Phenomena are not independent across space — proximity creates correlation — so methods assuming independence break. Human meaning is not derivable from coordinates; place is made, not found. The environment constrains but does not command. And scale is a choice the analyst imposes, not a property the world hands over.
 
 ## Questions Experts Constantly Ask
 
@@ -49,7 +49,7 @@ Everything is located, and location carries information that placeless analysis 
 
 ## Decision Frameworks
 
-**Choosing the unit and scale of analysis.** Match the unit to the process, not to the data's convenience. Disease clusters at the neighborhood scale; climate operates at the regional. If forced to use administrative areas (census tracts, counties), test sensitivity by re-running at a second scale or with different boundaries — if the answer flips, you've hit MAUP and must report it rather than pick the flattering version.
+**Choosing the unit and scale of analysis.** Match the unit to the process, not to the data's convenience: disease clusters at the neighborhood scale, climate operates at the regional. If forced to use administrative areas (census tracts, counties), test sensitivity by re-running at a second scale or with different boundaries — if the answer flips, you've hit MAUP and must report it rather than pick the flattering version.
 
 **Global model or local?** Before fitting one regression to the whole study area, check for spatial non-stationarity: does the relationship between, say, income and health vary by place? If Moran's I on the residuals is significant, a single global coefficient hides real geographic difference; switch to geographically weighted regression or stratify by region.
 
@@ -61,11 +61,11 @@ Trigger: a question with a spatial dimension, often disguised as an aspatial one
 
 ## Common Tradeoffs
 
-- **Generality vs. local truth.** One model across the whole region is simple and portable, but often masks the local variation that's the real story. The geographer's instinct is to suspect the global average.
+- **Generality vs. local truth.** One model across the whole region is simple and portable, but often masks the local variation that's the real story; the geographer's instinct is to suspect the global average.
 - **Fine units vs. stable statistics.** Small areal units capture detail but produce noisy, sparse data; large units smooth the noise but blur the pattern and worsen MAUP.
 - **Physical vs. human framing.** Treating a problem as purely physical (a flood is hydrology) or purely social (it's poverty and housing) is cleaner but wrong — most real problems are both.
 - **Precision of GIS vs. messiness of place.** The software renders crisp polygons; lived places have fuzzy, contested edges, so crisp output can imply a certainty the world doesn't have.
-- **Fieldwork vs. remote data.** Boots-on-the-ground gives meaning and ground truth but is slow and small-sample; remote sensing gives coverage and scale but can't see why a place matters to the people in it.
+- **Fieldwork vs. remote data.** Boots-on-the-ground gives meaning and ground truth but is slow; remote sensing gives coverage and scale but can't see why a place matters to the people in it.
 
 ## Rules of Thumb
 
@@ -87,11 +87,10 @@ Committing the ecological fallacy — reading individual behavior off area stati
 - **GIS-as-geography** — mistaking the software for the discipline; clicking buttons without a spatial hypothesis.
 - **The ecological-fallacy slide** — inferring individuals from areas.
 - **MAUP blindness** — one set of units, no sensitivity check, conclusions stated as fact.
-- **Determinism dressed as data** — climate or terrain "explaining" cultural or economic outcomes.
 - **The global-coefficient default** — one regression for a whole heterogeneous region.
 - **Scale opportunism** — silently picking the scale that confirms the hypothesis.
 - **Pattern without process** — describing where without explaining why.
-- **Autocorrelation ignored** — treating clustered observations as independent and overstating significance.
+- **Autocorrelation ignored** — treating clustered observations as independent, inflating significance.
 
 ## Vocabulary
 
@@ -105,20 +104,19 @@ Committing the ecological fallacy — reading individual behavior off area stati
 - **Distance decay:** the weakening of interaction or similarity with distance (the gravity model).
 - **Region:** an area defined by shared characteristics (formal), connections (functional), or perception (vernacular).
 - **Possibilism:** environment sets options; culture selects among them.
-- **Spatial non-stationarity:** a relationship that varies across space rather than holding everywhere.
 - **Georeferencing:** assigning real-world coordinates to data so it locates correctly.
 
 ## Tools
 
-GIS platforms (QGIS, ArcGIS Pro) for data, analysis, and mapping. Spatial statistics software (GeoDa for exploratory analysis, R with sf/spdep, Python with GeoPandas/PySAL) for autocorrelation, clustering, and geographically weighted regression. Remote sensing imagery (Landsat, Sentinel, Google Earth Engine) for land cover and change over time. GPS and field instruments for ground truth. Census and administrative datasets, gazetteers, and digital elevation models. Field notebooks and interviews, because place is reported, not just measured.
+GIS platforms (QGIS, ArcGIS Pro) for data, analysis, and mapping. Spatial statistics software (GeoDa, R with sf/spdep, Python with GeoPandas/PySAL) for autocorrelation, clustering, and geographically weighted regression. Remote sensing imagery (Landsat, Sentinel, Google Earth Engine) for land cover and change over time. GPS and field instruments for ground truth. Census and administrative datasets, gazetteers, and digital elevation models. Field notebooks and interviews, because place is reported, not just measured.
 
 ## Collaboration
 
-Geographers work across disciplines because space is everywhere. With cartographers, who turn the analysis into honest, legible maps. With urban planners, who apply spatial reasoning to land use and need a read on context and scale. With epidemiologists and public-health teams, where spatial clustering and the ecological fallacy are matters of life and policy. With ecologists and climate scientists on physical-geography questions. With statisticians and data scientists, who supply method but often miss that spatial data breaks the independence assumption. The recurring friction is convincing a non-geographer that the unit of analysis and the scale are not technicalities but determinants of the answer.
+Geographers work across disciplines because space is everywhere: with cartographers, who turn the analysis into honest, legible maps; with urban planners, who apply spatial reasoning to land use and need a read on context and scale; with epidemiologists and public-health teams, where spatial clustering and the ecological fallacy are matters of life and policy; with ecologists and climate scientists on physical-geography questions; with statisticians and data scientists, who supply method but often miss that spatial data breaks the independence assumption. The recurring friction is convincing a non-geographer that the unit of analysis and the scale are not technicalities but determinants of the answer.
 
 ## Ethics
 
-Geography has a dark history — environmental determinism gave a scientific veneer to racism and imperialism, and the map has always been a tool of conquest and dispossession. The modern geographer carries the duty not to repeat it: refuse deterministic explanations of human worth or capacity; recognize that drawing a boundary, naming a place, or choosing a projection takes sides; and be honest that areal data cannot indict individuals. Spatial data is privacy-sensitive — a precise location is identifying, and aggregating to protect people is an ethical act, not just a statistical one. When mapping vulnerable populations, ask always who benefits from this map and who could be harmed by it. Geography that ignores the people in its places is incomplete; geography that flattens them into coordinates is complicit.
+Geography has a dark history — environmental determinism gave a scientific veneer to racism and imperialism, and the map has always been a tool of conquest and dispossession. The modern geographer's duty is not to repeat it: refuse deterministic explanations of human worth or capacity; recognize that drawing a boundary, naming a place, or choosing a projection takes sides; and be honest that areal data cannot indict individuals. Spatial data is privacy-sensitive — a precise location is identifying, and aggregating to protect people is an ethical act, not just a statistical one. When mapping vulnerable populations, ask always who benefits and who could be harmed. Geography that ignores the people in its places is incomplete; geography that flattens them into coordinates is complicit.
 
 ## Scenarios
 

@@ -25,12 +25,11 @@ independent identifiers before touching anyone; confirms test orders, fasting
 status, and timing requirements; selects the site and equipment for that
 patient's veins; performs venipuncture or capillary collection in the correct
 order of draw; labels every tube at the bedside; mixes additive tubes properly;
-manages bleeding, fainting, and needlestick exposure; transports and stores
-specimens at the right temperature within stability windows; and documents
-everything. Many also run point-of-care tests, collect blood cultures with
-sterile technique, and handle chain-of-custody for forensic and drug-screen
-draws — the human face of the lab to a patient who never sees the technologist
-running the analyzer.
+manages bleeding, fainting, and needlestick exposure; transports specimens at
+the right temperature within stability windows; and documents everything. Many
+also run point-of-care tests, collect blood cultures with sterile technique, and
+handle chain-of-custody for forensic and drug-screen draws — the human face of
+the lab to a patient who never sees the technologist running the analyzer.
 
 ## Guiding Principles
 
@@ -50,8 +49,8 @@ running the analyzer.
 - **Gentle hands make good specimens.** Pulling hard, probing, and digging
   hemolyze the sample and bruise the patient. The smooth draw is the accurate
   one.
-- **A wrong specimen is worse than none.** A redraw costs minutes; acting on a
-  false potassium costs a life.
+- **A wrong specimen is worse than none.** A redraw costs minutes; a false
+  potassium costs a life.
 
 ## Mental Models
 
@@ -61,8 +60,7 @@ running the analyzer.
   ratio), then serum/SST (clot activator, gold/red), then green heparin, then
   lavender EDTA, then gray oxalate/fluoride. EDTA before a chemistry tube is the
   classic disaster: EDTA-potassium falsely elevates K+ and chelates calcium,
-  falsely lowering Ca2+ and Mg2+. The most damaging additives come last by
-  design.
+  lowering Ca2+ and Mg2+. The most damaging additives come last by design.
 - **Vein anatomy as a risk map.** Median cubital is the safe default —
   well-anchored, away from nerves and arteries. Cephalic (thumb side) is the
   backup. The basilic vein is the trap: it sits next to the brachial artery and
@@ -75,7 +73,7 @@ running the analyzer.
   anchoring, smaller gauge, lower vacuum — not more force.
 - **Specimen-as-evidence.** For drug screens and forensics, the tube is legal
   evidence; chain of custody means every transfer is signed, sealed, and
-  documented, or the result is worthless in court.
+  documented, or it is worthless in court.
 
 ## First Principles
 
@@ -99,7 +97,6 @@ running the analyzer.
 - Which vein anchors best and sits farthest from the artery and nerve?
 - Straight needle or butterfly? What gauge for these veins?
 - Is the tourniquet about to cross a minute?
-- Did the alcohol dry before I pierced?
 - Have I labeled every tube here, now, before I walk away?
 
 ## Decision Frameworks
@@ -133,7 +130,7 @@ running the analyzer.
    in correct order, release the tourniquet within a minute, invert additive
    tubes immediately.
 6. **Withdraw and protect.** Remove needle, engage safety, apply pressure,
-   bandage. Needle straight to the sharps container.
+   bandage. Needle straight to sharps.
 7. **Label at bedside.** Label each tube in the patient's presence and confirm
    the match before leaving.
 8. **Aftercare.** Watch for delayed fainting, advise on pressure and bruising.
@@ -146,11 +143,10 @@ running the analyzer.
   the slower butterfly with low vacuum gets a usable sample. Slow is faster than
   a redraw.
 - **One stick vs. the right tubes.** Skipping a tube or shortcutting order of
-  draw to spare a second poke means a contaminated or short tube, another stick
-  anyway, plus a wrong result in between.
+  draw to spare a poke means a contaminated or short tube, another stick anyway,
+  plus a wrong result in between.
 - **Patient comfort vs. site quality.** The painless hand vein may not give a
-  valid sample for the ordered test; the better antecubital site may sting more.
-  Explain and choose for accuracy.
+  valid sample; the better antecubital site may sting more. Choose for accuracy.
 - **Persistence vs. escalation.** Trying once more might land it — or injure a
   nerve and destroy trust. Know when stubbornness becomes harm.
 - **Throughput vs. attention.** A busy draw room rewards speed, but every
@@ -160,10 +156,10 @@ running the analyzer.
 
 - If the alcohol's still wet, you're early — wait, or you'll sting and hemolyze.
 - Feel for the bounce; a vein that rolls is anchored, not chased.
-- Tourniquet on, find it; tourniquet off the moment blood flows.
+- Tourniquet off the moment blood flows; stay below a minute or your potassium
+  is fiction.
 - Never label a tube anywhere but at the patient's side.
 - When in doubt, butterfly and a smaller gauge.
-- Stay below a minute on the tourniquet or your potassium is fiction.
 - If you can't feel it, don't fish for it; reposition or reassess.
 - Two tries, then tap out — the patient is not your proving ground.
 
@@ -179,8 +175,8 @@ running the analyzer.
   inversion, or probing burst cells and falsely raise potassium and LDH.
 - **Prolonged tourniquet.** Hemoconcentration inflating proteins and
   electrolytes.
-- **Probing and digging.** Fishing for a vein risks nerve injury, hematoma, and
-  arterial puncture.
+- **Probing and digging.** Fishing for a vein risks nerve injury and arterial
+  puncture.
 - **Underfilled additive tubes.** A short citrate tube wrecks the 9:1 ratio,
   prolonging coag times.
 
@@ -223,8 +219,7 @@ running the analyzer.
 - **Antiseptics** — 70% alcohol for routine, chlorhexidine/iodine for cultures.
 - **Sharps container and needle safety devices** — for needlestick prevention.
 - **Lancets and microcontainers** — for capillary collection.
-- **Centrifuge, transport coolers, labels/barcodes** — for processing and
-  stability.
+- **Centrifuge, transport coolers, labels/barcodes** — processing, stability.
 
 ## Collaboration
 
@@ -235,9 +230,9 @@ sometimes question. Downstream are the medical laboratory scientists who reject
 hemolyzed, clotted, or mislabeled specimens — a rejection meaning a redraw and
 a delayed diagnosis. Good phlebotomists treat lab rejection criteria as their
 own standards, communicate collection times for timed tests, and flag hard
-sticks so the next collector arrives prepared. With patients, especially anxious
-children and needle-phobic adults, the collector is part clinician, part calming
-presence.
+sticks so the next collector arrives prepared. With patients, especially
+needle-phobic adults and children, the collector is part clinician, part
+calming presence.
 
 ## Ethics
 
@@ -245,11 +240,10 @@ The phlebotomist holds a needle and a stranger's trust at the same time. Core
 duties: obtain consent and respect refusal; never draw on the wrong patient or
 mislabel, because that error harms someone who isn't even in the room; protect
 the dignity of a frightened patient; minimize pain and stop when continuing
-becomes harm; and report needlestick exposures honestly. Forensic and
-drug-screen draws carry legal weight, so chain of custody is an ethical
-obligation, not paperwork. Scope discipline matters too: a phlebotomist collects
-and does not diagnose, counsel on results, or exceed the two-attempt limit out
-of pride.
+becomes harm; report needlestick exposures honestly. Forensic and drug-screen
+draws carry legal weight, so chain of custody is an ethical obligation, not
+paperwork. Scope discipline matters too: a phlebotomist collects and does not
+diagnose, counsel on results, or exceed the two-attempt limit out of pride.
 
 ## Scenarios
 

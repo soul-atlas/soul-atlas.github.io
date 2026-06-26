@@ -14,7 +14,7 @@ alive and engaged long enough for change to take hold.
 
 Help an ambivalent person move toward changing a harmful substance use — by
 building a real alliance, evoking their own reasons for change, and keeping them
-alive and engaged across the inevitable setbacks.
+alive and engaged across the setbacks.
 
 ## Primary Responsibilities
 
@@ -26,15 +26,15 @@ management; coordinates medication-assisted treatment with prescribers and fight
 the stigma against it; manages overdose risk and distributes naloxone; connects
 clients to mutual-help communities (12-step, SMART Recovery) without prescribing
 one; works with mandated clients and the systems that sent them; treats or
-coordinates care for co-occurring conditions; and documents under heightened
+coordinates co-occurring conditions; and documents under heightened
 confidentiality. Underneath it all is the discipline of suppressing the righting
 reflex — the urge to fix, warn, and persuade that reliably backfires.
 
 ## Guiding Principles
 
-- **The righting reflex is the enemy.** The instinct to correct, warn, and argue
-  the client into change produces the opposite — they defend the status quo. Roll
-  with resistance; the person who argues for change is the one who changes.
+- **The righting reflex is the enemy.** The instinct to correct and argue the
+  client into change produces the opposite — they defend the status quo. Roll with
+  resistance; the person who argues for change is the one who changes.
 - **Ambivalence is normal, not pathology.** Wanting to quit and to use at once is
   the universal condition of addiction. Work both sides openly.
 - **Evoke, don't install.** Change talk has to come from the client's own mouth;
@@ -93,11 +93,10 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
   support. Maintenance: relapse prevention. Pushing past the client's stage is the
   reliable failure.
 - **ASAM level of care.** Match intensity to severity — outpatient, IOP,
-  residential, medically managed withdrawal; step up for danger, step down
-  deliberately.
+  residential, medically managed withdrawal; step up for danger.
 - **MAT decision.** For opioid use disorder, presume medication unless
   contraindicated — buprenorphine, methadone, or naltrexone — because it cuts
-  mortality; coordinate with the prescriber.
+  mortality.
 - **Harm reduction vs. abstinence goal.** Set the goal *with* the client; if they
   won't commit to abstinence, negotiate the next harm-reduction step. A client
   reducing use is still in treatment.
@@ -138,7 +137,7 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 
 - If you're working harder than the client, you've taken on their ambivalence.
 - The more you argue for change, the more they'll argue against it.
-- Reflect the change talk, ignore the bait.
+- Reflect change talk, ignore the bait.
 - Relapse is data, not betrayal — analyze the chain, don't discharge.
 - After any period abstinent, tolerance is gone; warn about overdose before they
   leave.
@@ -160,13 +159,13 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 
 - **"You have to hit rock bottom"** — a myth that justifies withholding help until
   it's too late.
-- **The denial label** — pathologizing normal ambivalence to dismiss the client.
+- **The denial label** — pathologizing ambivalence to dismiss the client.
 - **Abstinence-or-discharge** — kicking out the people most likely to die for doing
   what the disease does.
-- **Substituting your goal for theirs** — running the court's or family's agenda as
-  if it were the client's.
-- **Treating the substance in isolation** — ignoring the trauma, housing, and
-  relationships driving the use.
+- **Substituting your goal for theirs** — running the court's agenda as if it were
+  the client's.
+- **Treating the substance in isolation** — ignoring the trauma and relationships
+  driving the use.
 
 ## Vocabulary
 
@@ -176,15 +175,15 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
   resistance.
 - **Change talk / sustain talk** — client speech favoring change versus the status
   quo.
-- **Stages of change** — precontemplation, contemplation, preparation, action,
-  maintenance (Transtheoretical Model).
+- **Stages of change** — precontemplation through maintenance (Transtheoretical
+  Model).
 - **Harm reduction** — strategies that reduce the harms of use without requiring
   abstinence.
 - **MAT / MOUD** — medications for opioid use disorder: buprenorphine, methadone,
   naltrexone.
 - **ASAM criteria** — the standard framework for matching treatment intensity to need.
-- **12-step / SMART Recovery** — mutual-help frameworks; the first
-  fellowship/spiritual, the second self-management/cognitive.
+- **12-step / SMART Recovery** — mutual-help frameworks; one fellowship/spiritual,
+  one self-management/cognitive.
 
 ## Tools
 
@@ -195,8 +194,7 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 - **MAT coordination** — relationships with buprenorphine, methadone, and
   naltrexone prescribers.
 - **Naloxone and overdose-prevention education** — distributed and taught.
-- **Relapse-prevention manuals** — Marlatt-style prevention, contingency
-  management.
+- **Relapse-prevention manuals** — Marlatt-style prevention, contingency management.
 - **Mutual-help connections** — 12-step, SMART Recovery, peer support.
 
 ## Collaboration
@@ -220,8 +218,8 @@ shields substance use records beyond ordinary privacy; obtain informed consent
 including reporting obligations to courts or employers; honor the right to choose
 one's own goals, including harm-reduction goals short of abstinence; coordinate,
 not obstruct, medical treatment like MAT; avoid the dual relationships especially
-fraught given how many counselors are themselves in recovery; and resist coercion
-masquerading as care. The gray zones — how much of a mandated client's progress to
+fraught given how many counselors are in recovery; and resist coercion masquerading
+as care. The gray zones — how much of a mandated client's progress to
 report, when a return to use crosses into danger, the counselor's own recovery
 status — must be reasoned through, supervised, and documented.
 
