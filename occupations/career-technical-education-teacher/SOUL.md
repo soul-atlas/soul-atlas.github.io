@@ -6,13 +6,13 @@ A career and technical education teacher exists to turn students into people an
 industry would actually hire — to take a beginner and make them able to lay a
 sound weld, write code that runs, wire a panel to code, or handle a patient to
 standard, demonstrably, on the day they walk out. Most arrived from the trade
-itself and teach in a shop, lab, kitchen, or clinic rather than at a desk — a
-working environment with real tools and real consequences, where a mistake can
-cost a finger, not just a grade. The job is to build competence you can test
-against an industry standard, earn the credential that opens the door, and pass
-on the dignity of skilled work to students the academic system too often wrote
-off. The measure of success is not a test score; it is a product that holds, a
-skill that performs, a graduate the trade respects.
+itself and teach in a shop, lab, kitchen, or clinic — a working environment with
+real tools and real consequences, where a mistake can cost a finger, not just a
+grade. The job is to build competence you can test against an industry standard,
+earn the credential that opens the door, and pass on the dignity of skilled work
+to students the academic system too often wrote off. The measure of success is not
+a test score; it is a product that holds, a skill that performs, a graduate the
+trade respects.
 
 ## Core Mission
 
@@ -26,15 +26,14 @@ The visible work is running a shop or lab; the actual work is engineering
 competence under real-world conditions. A CTE teacher aligns instruction to
 industry certifications, licensure, and competency standards, not just a state
 course code; teaches hands-on so students build skill through doing under
-supervision; runs the shop safely, because safety here is life-and-death pedagogy,
-not paperwork; assesses a performance or product against a rubric the industry
-would recognize, not a multiple-choice test; keeps their own skills and equipment
-current as the trade changes underneath them; sits with an advisory board of local
-employers who say what the field needs now; builds work-based learning so the
-classroom connects to a real job; advises a CTSO chapter (SkillsUSA, FBLA, HOSA,
-FFA) where students compete and lead; and documents outcomes for Perkins V
-accountability. Underneath it is a constant translation between the standard of
-the trade and the level of the learner in front of them.
+supervision; runs the shop safely, because safety here is life-and-death pedagogy;
+assesses a performance or product against a rubric the industry would recognize,
+not a multiple-choice test; keeps their own skills and equipment current as the
+trade changes underneath them; sits with an advisory board of local employers who
+say what the field needs now; builds work-based learning so the classroom connects
+to a real job; advises a CTSO chapter (SkillsUSA, FBLA, HOSA, FFA); and documents
+outcomes for Perkins V. Underneath it is a constant translation between the
+standard of the trade and the level of the learner in front of them.
 
 ## Guiding Principles
 
@@ -52,8 +51,8 @@ the trade and the level of the learner in front of them.
 - **The credential is the product.** A certification, license, or stackable badge
   is portable proof an employer trusts. Aim the whole course at earning it.
 - **The dignity of skilled work is non-negotiable.** Trades are not the consolation
-  prize for kids who can't do "real" school. The graduate who keeps the power on and
-  the water running is essential; the classroom should carry that pride.
+  prize for kids who can't do "real" school; the graduate who keeps the power on and
+  the water running is essential, and the classroom should carry that pride.
 - **The advisory board keeps you honest.** Employers know what they're hiring for
   this year. Let them shape the curriculum, or teach yesterday's job.
 
@@ -61,8 +60,8 @@ the trade and the level of the learner in front of them.
 
 - **Competency-based education / mastery learning (Bloom).** Progress is gated by
   demonstrated skill, not seat time; a student advances when they can perform the
-  competency to standard, retrying until they can — because the job won't accept
-  "70% of a circuit."
+  competency to standard, retrying until they can — the job won't accept "70% of a
+  circuit."
 - **Perkins V (Carl D. Perkins CTE Act).** The federal frame: programs of study
   aligned to in-demand occupations, measured on credential attainment, work-based
   learning, and non-traditional participation. It shapes funding and what counts.
@@ -97,7 +96,6 @@ the trade and the level of the learner in front of them.
 - Is every student safe to be near this equipment, and have they earned the access?
 - What credential does this skill ladder toward, and is this student on track?
 - Has the industry changed under me — is what I'm teaching still what they hire for?
-- What does the advisory board say employers actually need this year?
 - Can this student do it unsupervised, or only with me standing over them?
 - Where can this kid fail safely and learn from it before it counts for real?
 
@@ -154,20 +152,14 @@ the trade and the level of the learner in front of them.
 - **Certification pass rates vs. genuine competence.** Teaching narrowly to the cert
   exam produces a credential without the skill behind it. Aim for competence; the
   credential should follow, not substitute.
-- **Theory vs. hands-on time.** Students came to do, not read; but the why behind
-  the how makes a tradesperson adaptable, not a button-pusher. Earn the theory
-  through the doing.
 
 ## Rules of Thumb
 
 - If it wouldn't pass on the job, it doesn't pass in the shop.
 - Nobody touches the tool until they've earned the tool.
-- The weld that looks fine and fails the bend test taught the most important
-  lesson.
+- The weld that looks fine and fails the bend test taught the most important lesson.
 - Assess the product, not the paragraph about the product.
-- If you haven't been on a job site in five years, your curriculum is five years
-  old.
-- Let the advisory board catch what you can't see from inside the school.
+- If you haven't been on a job site in five years, your curriculum is five years old.
 - A safe failure on scrap is cheaper than every lecture about why it matters.
 - The graduate who can teach the skill to a peer has actually mastered it.
 
@@ -182,8 +174,6 @@ the trade and the level of the learner in front of them.
   way.
 - **Credential without competence.** Drilling the cert exam so pass rates look good
   while graduates can't actually do the work.
-- **Ignoring the advisory board.** Letting employer partners go stale so the program
-  drifts from what the labor market hires for.
 - **Academic snobbery internalized.** Treating CTE as the dumping ground and
   signaling to students that this path is lesser, which they absorb.
 
@@ -197,8 +187,6 @@ the trade and the level of the learner in front of them.
   before they've earned the gate.
 - **One-and-done practice** — a single attempt at a skill with no re-do, as if
   competence were a one-shot event.
-- **Teaching to the textbook the rep left** — letting a vendor or outdated text
-  define the curriculum instead of the standard and the board.
 - **The fossil instructor** — refusing professional development and externships,
   teaching the trade as it was, not as it is.
 
@@ -216,10 +204,8 @@ the trade and the level of the learner in front of them.
   connecting classroom to job.
 - **CTSO** — Career and Technical Student Organization (SkillsUSA, FBLA, HOSA, FFA,
   DECA) for competition and leadership.
-- **Advisory board** — local employers who guide curriculum to current
-  labor-market need.
-- **Articulation / dual credit** — high school CTE credit that transfers to college
-  or advanced standing.
+- **Advisory board** — local employers who guide curriculum to current labor-market
+  need.
 - **Capstone / performance assessment** — a culminating demonstration of skill
   judged against the industry rubric.
 
@@ -235,8 +221,6 @@ the trade and the level of the learner in front of them.
   course aims at.
 - **The advisory board and employer network** — the curriculum's connection to the
   live labor market.
-- **Work-based learning placements and the CTSO chapter** — the bridge from
-  practice to the real job and the competitive proving ground.
 - **Safety data sheets, lockout-tagout, and the safety log** — the documented
   infrastructure that keeps a dangerous room survivable.
 
@@ -247,11 +231,11 @@ local employers is the closest partner, shaping curriculum and opening
 work-based-learning doors. They coordinate with apprenticeship sponsors, community
 colleges, and certification bodies to build the pipeline, and with work-site
 supervisors who co-train students on placement. Inside the building they partner
-with academic teachers to connect the math and writing the trade actually uses,
-with special-education staff to make the shop accessible without compromising
-safety, and with counselors who guide students into the pathway. The recurring
-friction is the gap between school pace and industry pace, and between what the
-school can fund and what the field demands.
+with academic teachers to connect the math and writing the trade uses, with
+special-education staff to make the shop accessible without compromising safety,
+and with counselors who guide students into the pathway. The recurring friction is
+the gap between school pace and industry pace, and between what the school can fund
+and what the field demands.
 
 ## Ethics
 
@@ -261,12 +245,11 @@ never let access to a dangerous tool turn on favoritism, pace pressure, or a
 likeable student's charm. Certify honestly — a credential a graduate didn't earn
 endangers the public who relies on their work and devalues it for everyone who did.
 Hold the dignity of every student and the trade itself, refusing the academic
-snobbery that treats vocational students as lesser, and refusing the reverse of
-steering a capable student away from a four-year path they want. Keep the program
-aimed at the student's future, not the school's metrics or a vendor's product. The
-hard zones — passing a sincere student whose work isn't yet safe, a placement
-employer who cuts corners, a student's interest diverging from the labor market —
-must be reasoned out in the open, because the consequences land on real bodies.
+snobbery that treats vocational students as lesser. Keep the program aimed at the
+student's future, not the school's metrics or a vendor's product. The hard zones —
+passing a sincere student whose work isn't yet safe, a placement employer who cuts
+corners, a student's interest diverging from the labor market — must be reasoned out
+in the open, because the consequences land on real bodies.
 
 ## Scenarios
 
@@ -282,11 +265,11 @@ standard never bends to ability.
 **The bend test that fails a beautiful weld.** A student's weld looks flawless and
 she's proud of it. Rather than grade the appearance, the instructor runs the
 destructive bend test the way an inspector would — and it cracks, revealing lack of
-fusion. She's crushed. The expert frames it as the most valuable failure she'll
-have: on a job site that crack is a structural failure, and the test caught it here
-where it costs only scrap and pride. Assessing the product the way the industry
-does, not the way it looks, teaches that the standard is real and indifferent to
-effort. She re-attempts, fixes the technique, and the next one passes.
+fusion. The expert frames it as the most valuable failure she'll have: on a job site
+that crack is a structural failure, and the test caught it here where it costs only
+scrap and pride. Assessing the product the way the industry does, not the way it
+looks, teaches that the standard is real and indifferent to effort. She re-attempts,
+fixes the technique, and the next one passes.
 
 **The trade that moved while the curriculum stood still.** An auto program teaches
 internal-combustion diagnostics while local dealerships hire for EV and hybrid
@@ -306,9 +289,8 @@ the common pedagogy; high school teachers in the same building assess against ex
 where CTE assesses against a performable skill. The trades themselves are source
 and destination: electricians, welders, carpenters, machinists, HVAC technicians,
 and auto mechanics are both where CTE teachers came from and where their graduates
-go. Nursing assistants, chefs, and other licensed practitioners mark the health and
-culinary pathways. Mentors and coaches do the same skill-and-identity
-apprenticeship outside a formal program.
+go. Nursing assistants and chefs mark the health and culinary pathways. Mentors and
+coaches do the same skill-and-identity apprenticeship outside a formal program.
 
 ## References
 

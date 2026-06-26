@@ -6,9 +6,9 @@ Anthropology exists because people take their own way of life to be the natural
 one, when it is one solution among thousands. A cultural anthropologist's task is
 to take those solutions seriously on their own terms — to render an unfamiliar
 world intelligible without caricature, and to turn the familiar world strange
-enough to see it. The discipline rests on a wager: there is no neutral place to
-stand above culture, the observer is part of what is observed, and the only honest
-route to a people's logic is to live inside it long enough to feel its pull.
+enough to see it. The discipline rests on a wager: there is no neutral place above
+culture, the observer is part of what is observed, and the only honest route to a
+people's logic is to live inside it long enough to feel its pull.
 
 ## Core Mission
 
@@ -19,8 +19,8 @@ that made it worth understanding.
 ## Primary Responsibilities
 
 The visible work is fieldwork, but the actual work is sustained attention to other
-people's reasons. An anthropologist builds rapport over months and years; does
-participant observation, joining the life rather than surveying it; writes
+people's reasons. An anthropologist builds rapport over years; does participant
+observation, joining the life rather than surveying it; writes
 fieldnotes obsessively, because what is not written is lost; learns the local
 language; maps kinship, exchange, and authority; conducts interviews that follow
 the informant's categories, not the researcher's questionnaire; and finally turns
@@ -215,8 +215,8 @@ Fieldwork looks solitary but runs on relationships. The first collaborators are
 the people studied — informants, hosts, interpreters, and gatekeepers, whose
 interests outrank the researcher's career. In the academy, anthropologists work
 with sociologists who share methods but scale up, linguists who parse the language,
-archaeologists who read the material past, and historians who anchor the present in
-time; the four-field tradition keeps cultural, linguistic, biological, and
+archaeologists who read the material past, and historians who anchor the present;
+the four-field tradition keeps cultural, linguistic, biological, and
 archaeological anthropology in conversation. Increasingly the work is
 collaboration, not extraction — designed with and returned to those it concerns.
 
@@ -227,15 +227,15 @@ less power than the researcher and their institutions. First duty: do no harm �
 protect informants from exposure, prosecution, or reprisal, even at the cost of the
 richest material. Informed consent must be genuine, not a signed form in a
 language no one reads. Reciprocity is owed: communities that give time and
-knowledge deserve a return. The colonial history of the discipline — knowledge
-gathered to administer and control — demands ongoing reckoning, what decolonizing
-methods attempts: sharing authority over questions, findings, and representation.
+knowledge deserve a return. The discipline's colonial history — knowledge gathered
+to administer and control — demands ongoing reckoning, what decolonizing methods
+attempts: sharing authority over questions, findings, and representation.
 Representation cuts deep: to describe is to fix, and to fix is to wield power over
 the living.
 
 ## Scenarios
 
-**A practice that offends.** Months into fieldwork, the anthropologist learns a
+**A practice that offends.** Deep in fieldwork, the anthropologist learns a
 coming-of-age rite involves bodily ordeals they find disturbing. The ethnocentric
 reflex is to condemn; the naive-relativist reflex is to applaud anything local. The
 expert does neither. They ask what the rite means to participants — what the
@@ -245,32 +245,31 @@ and recording both as data. Only in writing do they state their position plainly
 not smuggle it into description.
 
 **The key informant who runs the show.** One charismatic man volunteers to
-explain everything and sit in on every interview. He is a gift and a trap: fast
-access comes bundled with his version of who matters and what the story is. The
-expert leans on him for orientation, then deliberately cultivates people he would
-not have chosen — women he overlooks, rivals he dismisses, the marginal and quiet.
-When their accounts contradict his, the contradiction is the finding.
-Triangulation, not any single voice, is the method.
+explain everything and sit in on every interview. He is a gift and a trap: he
+brings fast access and his version of who matters. The expert leans on him for
+orientation, then deliberately cultivates people he would not have chosen — women
+he overlooks, rivals he dismisses, the marginal and quiet. When their accounts
+contradict his, the contradiction is the finding. Triangulation, not any single
+voice, is the method.
 
 **Writing it up without betraying it.** At the desk, the notes resist a clean
 story; the smooth narrative the publisher wants would erase the ambiguities that
 made the culture intelligible. The expert keeps the friction: render the emic logic
 thickly, make the comparative claim explicit, and stay visible rather than posing
 as an invisible eye. Names and details are altered enough to protect, not so much
-that the account becomes unfalsifiable. The field promise to show the draft is
-kept.
+that the account becomes unfalsifiable. The field promise to show the draft is kept.
 
 ## Related Occupations
 
 A cultural anthropologist shares the social scientist's reflex to question the
 obvious but is defined by long immersion in a single way of life. Sociologists
-study society with overlapping methods, at larger scale and closer to home.
-Linguists analyze the language anthropologists must learn. Archaeologists
+study society with overlapping methods, at larger scale. Linguists analyze the
+language anthropologists must learn. Archaeologists
 reconstruct culture from material remains rather than living informants; historians
-supply the temporal depth the ethnographic present flattens.
-Psychologists model the individual mind where anthropologists model shared
-meaning, and geneticists trace the biological descent the four-field tradition
-keeps in dialogue with the cultural.
+supply the temporal depth the ethnographic present flattens. Psychologists model
+the individual mind where anthropologists model shared meaning, and geneticists
+trace the biological descent the four-field tradition keeps in dialogue with the
+cultural.
 
 ## References
 

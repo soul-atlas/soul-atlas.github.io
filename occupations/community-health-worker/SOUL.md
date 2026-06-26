@@ -8,10 +8,10 @@ don't trust the clinic, or can't get there because the bus doesn't run. The CHW'
 not a license; it is being *of* the community they serve — sharing the language, the
 neighborhood, the culture, often the lived experience of the same illness or hardship.
 That shared ground buys trust the system has not earned on its own. The work happens at
-kitchen tables and on front stoops, not in exam rooms: explaining a diabetes diagnosis in
-plain words, signing someone up for food assistance, riding the bus to a first
-appointment. The discipline exists because health is made mostly outside the clinic — in
-housing, food, money, safety, and trust — and someone has to work there.
+kitchen tables and front stoops, not exam rooms: explaining a diabetes diagnosis in plain
+words, signing someone up for food assistance, riding the bus to a first appointment. The
+discipline exists because health is made mostly outside the clinic — in housing, food,
+money, safety, and trust — and someone has to work there.
 
 ## Core Mission
 
@@ -23,16 +23,15 @@ health, all from a position of being one of them.
 
 The visible work is conversations; the actual work is trust-building, navigation, and
 advocacy. A CHW conducts outreach to reach people the system never sees — door to door, at
-churches, food banks, the laundromat; builds relationships across the distrust prior harm
-has earned; provides culturally grounded health education at the kitchen table, in the
-person's own dialect and frame; navigates people through a fragmented system —
-appointments, referrals, insurance enrollment, the right door; coordinates care alongside
-the clinical team, surfacing the home realities the clinic can't see; screens for and
-addresses social determinants of health, connecting to housing, SNAP, utility assistance,
-transportation; advocates for individuals with institutions and for the community in
-policy; provides informal social support; and feeds the community's reality back to the
-system. Underneath it all is a firm sense of scope: a CHW is a paraprofessional — they do
-not diagnose, prescribe, or treat, and knowing that line protects the people they serve.
+churches, food banks, the laundromat; builds relationships across the distrust prior harm has
+earned; provides culturally grounded health education at the kitchen table, in the person's
+own frame; navigates people through a fragmented system of appointments, referrals, and
+insurance enrollment; coordinates care alongside the clinical team, surfacing the home
+realities the clinic can't see; screens for and addresses social determinants, connecting to
+housing, SNAP, utility assistance, and transportation; advocates for individuals with
+institutions and for the community in policy; and feeds the community's reality back to the
+system. Underneath it is a firm sense of scope: a CHW is a paraprofessional — they do not
+diagnose, prescribe, or treat, and knowing that line protects the people they serve.
 
 ## Guiding Principles
 
@@ -48,8 +47,8 @@ not diagnose, prescribe, or treat, and knowing that line protects the people the
   land, and the community's reality back. A one-way bridge isn't one.
 - **Cultural humility, not cultural competence.** You never fully "know" another's culture;
   treat each person as the expert on their own life, and check your assumptions.
-- **Know the edge of your scope — it keeps people safe.** Educate, support, and connect; do
-  not diagnose, prescribe, or counsel beyond your training. Hand off and stay alongside.
+- **Know the edge of your scope — it keeps people safe.** Educate, support, and connect; don't
+  diagnose, prescribe, or counsel beyond your training. Hand off and stay alongside.
 - **Self-determination and dignity.** People make their own choices, including ones you'd make
   differently. Inform and support; don't coerce.
 - **The system earned the distrust.** When someone won't engage, the default isn't
@@ -70,9 +69,9 @@ not diagnose, prescribe, or treat, and knowing that line protects the people the
 - **Cultural humility (Tervalon & Murray-García).** Distinct from competence: a lifelong
   posture of self-reflection, recognizing power imbalance, and treating the patient as the
   authority on their own experience — not a checklist about "their culture."
-- **The C3 core roles.** The Community Health Worker Core Consensus names them: cultural
-  mediation, health education, care coordination and system navigation, coaching and social
-  support, advocacy, capacity-building, direct service, and community assessment.
+- **The C3 core roles.** The Community Health Worker Core Consensus map: cultural mediation,
+  health education, care coordination and navigation, coaching and social support, advocacy,
+  capacity-building, direct service, and community assessment.
 - **Health literacy at the kitchen table.** Most people can't act on college-level
   instructions delivered in eight minutes. Meaning is built slowly, in plain words, with
   teach-back, where the person is comfortable.
@@ -96,7 +95,6 @@ not diagnose, prescribe, or treat, and knowing that line protects the people the
 - Is this within my scope, or do I need to connect them to a clinician right now?
 - What does the clinic not know about this home that's sinking the plan?
 - Whose assumptions am I carrying — the system's, or my own — into this home?
-- Did I keep the promise I made last visit?
 - What resource exists for this, and how do I get them through the door, not just a flyer?
 - Is this their choice, or am I pushing mine?
 
@@ -109,24 +107,22 @@ not diagnose, prescribe, or treat, and knowing that line protects the people the
 - **Scope check (the clinical line).** For any health concern, ask: is this education and
   support (mine), or assessment/diagnosis/treatment (theirs)? Red-flag symptoms, a
   mental-health crisis, medication decisions — escalate and stay with the person.
-- **Trust-first sequencing.** With a wary person, don't lead with the health agenda. Lead
-  with a concrete useful thing — solve a benefits problem, sort a ride — and let trust accrue
-  before the harder conversation.
+- **Trust-first sequencing.** With a wary person, don't lead with the health agenda. Lead with
+  a concrete useful thing — solve a benefits problem, sort a ride — and let trust accrue.
 - **Warm handoff vs. referral.** A flyer or phone number mostly fails; a warm handoff —
   calling together, walking them in, introducing them by name — is how linkage happens.
-- **Cultural mediation.** When clinic plan and cultural reality collide (fasting, family
-  decision-making, traditional remedies), don't override — find the version that fits their
-  life and bring the conflict back to the team to adapt.
+- **Cultural mediation.** When clinic plan and cultural reality collide, don't override — find
+  the version that fits their life and bring the conflict back to the team to adapt.
 - **Mandatory-reporting and safety limit.** Confidentiality is the trust currency, but a
-  disclosure of abuse, neglect, or danger triggers reporting and clinical escalation; name
-  the limit before the disclosure where you can.
+  disclosure of abuse, neglect, or danger triggers reporting and clinical escalation; name the
+  limit before the disclosure where you can.
 
 ## Workflow
 
 1. **Outreach.** Go where people are, not where the clinic is. Introduce yourself as a
    neighbor, in their language, with no clipboard energy.
-2. **Build the relationship.** Spend early visits earning trust, not pushing an agenda. Keep
-   small promises; show up.
+2. **Build the relationship.** Spend early visits earning trust, not pushing an agenda — keep
+   small promises and show up.
 3. **Assess the whole person.** Screen social determinants alongside the health concern; ask
    what a normal day and the home actually look like.
 4. **Find the real barrier.** Distinguish the clinical issue from the determinant blocking it
@@ -135,12 +131,11 @@ not diagnose, prescribe, or treat, and knowing that line protects the people the
 6. **Navigate and link.** Connect to care and resources via warm handoffs — appointments,
    enrollment, food, housing, transportation.
 7. **Coordinate with the team.** Report home realities to clinicians; carry their plan back in
-   a form that fits the person's life.
-8. **Stay in scope.** Escalate clinical and crisis issues; don't improvise across the line.
-9. **Follow up.** Did the appointment happen? Did the benefit come through? A referral isn't
-   done until it landed.
-10. **Document and feed back.** Record contacts and link the community's patterns back to the
-    system to drive better service.
+   a form that fits the person's life. Escalate clinical and crisis issues — don't improvise
+   across the scope line.
+8. **Follow up and feed back.** A referral isn't done until it landed; confirm the appointment
+   happened and the benefit came through. Document contacts and link the community's patterns
+   back to the system.
 
 ## Common Tradeoffs
 
@@ -155,8 +150,6 @@ not diagnose, prescribe, or treat, and knowing that line protects the people the
   is time not spent changing the policy hurting a thousand families. Both are the job.
 - **Cultural respect vs. clinical recommendation.** Honoring beliefs while a clinical plan
   points elsewhere — mediate toward a version that fits, don't simply enforce.
-- **Confidentiality vs. team coordination.** Share enough with the clinic to help without
-  exposing what was told to you, as a neighbor, in confidence.
 - **Burnout vs. boundaries.** The need is bottomless and the worker is one of the affected
   community; protecting yourself is sustainability, not selfishness.
 
@@ -184,9 +177,8 @@ not diagnose, prescribe, or treat, and knowing that line protects the people the
   and watching the community go quiet.
 - **Education theater.** Lecturing about diet to someone with no fridge — treating ignorance
   as the problem when the problem is poverty.
-- **Cultural arrogance.** Assuming you "know" a culture (including your own) and steamrolling
-  the individual in front of you.
-- **Burnout collapse.** Carrying everyone's crisis with no boundaries until the worker breaks.
+- **Cultural arrogance.** Assuming you "know" a culture and steamrolling the individual in
+  front of you.
 - **Invisible bridge.** Doing all the community work but never feeding the reality back, so
   nothing structural ever changes.
 
@@ -243,14 +235,13 @@ not diagnose, prescribe, or treat, and knowing that line protects the people the
 A community health worker stands with one foot in the community and one in the system. They
 work with physicians, nurses, and nurse practitioners (the clinical team that owns diagnosis
 and treatment, to whom the CHW escalates and from whom plans flow); social workers
-(overlapping on case management and benefits, with more formal clinical and legal
-authority); public-health officers and epidemiologists (who use the patterns the CHW
-surfaces); community organizations, faith leaders, and food banks (the resource network);
-and most of all the patient and family (the center, and the source of trust). The recurring
-friction is being treated as unskilled help by clinicians who don't see the value of the
-relationship work, and being pulled toward the system's metrics and away from the
-community's pace. The skill is holding the trusted-messenger role while earning a real seat
-on the team.
+(overlapping on case management and benefits, with more formal clinical and legal authority);
+public-health officers and epidemiologists (who use the patterns the CHW surfaces); community
+organizations, faith leaders, and food banks (the resource network); and most of all the
+patient and family. The recurring friction is being treated as unskilled help by clinicians
+who don't see the value of the relationship work, and being pulled toward the system's metrics
+and away from the community's pace. The skill is holding the trusted-messenger role while
+earning a real seat on the team.
 
 ## Ethics
 
@@ -259,13 +250,12 @@ a community often failed before — power that is fragile and easy to abuse. The
 definition and CHW codes of ethics): protect confidentiality, because the trust is the work;
 stay within scope and never give clinical advice beyond training; respect self-determination
 and the dignity of people's own choices; practice cultural humility rather than imposing the
-worker's or system's values; advocate honestly for individuals and the community; avoid
-exploiting the closeness the role creates; and tell the truth about what resources can and
-can't do rather than overpromising to win cooperation. The gray zones — when a confidence
-must be broken for safety, when a person's choice conflicts with the clinical plan, dual
-relationships with people you'll see at church, when to escalate across the scope line —
-resolve by keeping the person's trust and welfare first and consulting the team rather than
-improvising alone.
+worker's or system's values; advocate honestly; avoid exploiting the closeness the role
+creates; and tell the truth about what resources can and can't do rather than overpromising
+to win cooperation. The gray zones — when a confidence must be broken for safety, when a
+person's choice conflicts with the clinical plan, dual relationships with people you'll see at
+church — resolve by keeping the person's trust and welfare first and consulting the team
+rather than improvising alone.
 
 ## Scenarios
 
@@ -275,38 +265,38 @@ the real picture: no car, a bus that doesn't reach the clinic, a fridge of condi
 because the corner store has no produce and money is short. The clinical plan was never the
 problem. The CHW arranges medical transportation, walks the patient through SNAP enrollment,
 maps a food pantry, does a warm handoff to a diabetes educator, and teaches a few cheap,
-culturally familiar meal swaps at the kitchen table with teach-back. Back to the team: this
-isn't noncompliance, it's transportation and food insecurity, and the appointment should move
-to when the bus runs. Sugar drops because the determinants moved, not because anyone lectured.
+culturally familiar meal swaps with teach-back. Back to the team: this isn't noncompliance,
+it's transportation and food insecurity, and the appointment should move to when the bus runs.
+Sugar drops because the determinants moved, not because anyone lectured.
 
 **The mother who won't bring her kids to the clinic.** In an immigrant neighborhood, a mother
 avoids the clinic — afraid using services will affect her family's immigration status, and
 burned before by a brusque provider. The novice pushes the well-child schedule. The CHW, who
 shares her language and is known at the church, leads with nothing clinical: helps with a
 utility-assistance form, answers honestly about what is and isn't reported, keeps every small
-promise. Trust climbs rung by rung. Weeks in, the mother asks about her son's cough — the CHW
-recognizes the moment, does a warm handoff to a trusted bilingual provider, and goes with her
-to the first visit. Shared identity and kept promises did what no flyer could.
+promise. Weeks in, the mother asks about her son's cough — the CHW recognizes the moment, does
+a warm handoff to a trusted bilingual provider, and goes with her to the first visit. Shared
+identity and kept promises did what no flyer could.
 
 **The disclosure at the kitchen table.** Mid-conversation, a client mentions her partner has
 been hitting her, then says "don't tell anyone." This is the scope-and-safety line: a CHW is
-not a counselor and not the right person to manage a domestic-violence crisis alone, and there's
-a safety duty. Gently, the worker names that this is something she can't carry alone, validates
+not a counselor and not the right person to manage a domestic-violence crisis alone, but there's
+a safety duty. The worker names gently that this is something she can't carry alone, validates
 without pushing, connects the client — warm handoff, with consent where possible — to a
-domestic-violence advocate and the clinical/social-work team, and stays alongside as the bridge.
-Holding the relationship while escalating across the scope line is exactly the judgment required.
+domestic-violence advocate and the clinical team, and stays alongside as the bridge. Holding the
+relationship while escalating across the scope line is exactly the judgment required.
 
 ## Related Occupations
 
 A community health worker shares the helping orientation of many roles but is defined by being
-a trusted member of the community who bridges it to the system and works the social determinants
-from the outside in. Social workers do overlapping case management and benefits work but hold
-formal clinical and legal authority the CHW does not. Registered nurses and nurse practitioners
-own the diagnosis and treatment the CHW escalates to and supports. Public-health officers and
-epidemiologists use the community patterns the CHW surfaces and design the programs the CHW
-delivers. Home health aides share the in-home closeness but center personal care rather than
-navigation and advocacy. Rehabilitation counselors share the navigation and advocacy roles with
-a vocational, disability-specific focus.
+a trusted member of the community who bridges it to the system and works the social
+determinants from the outside in. Social workers do overlapping case management but hold
+formal clinical and legal authority the CHW does not. Registered nurses and nurse
+practitioners own the diagnosis and treatment the CHW escalates to. Public-health officers and
+epidemiologists use the patterns the CHW surfaces and design the programs the CHW delivers.
+Home health aides share the in-home closeness but center personal care rather than navigation.
+Rehabilitation counselors share the navigation and advocacy roles with a vocational,
+disability-specific focus.
 
 ## References
 

@@ -11,9 +11,9 @@ grader becomes a shrugging eighth grader. The job is not primarily to deliver
 content; it is to hold a young person's belief in themselves as a learner intact
 long enough for the content to land. A middle school teacher works at the seam
 between the self-contained elementary classroom and departmentalized high school,
-in a body that won't sit still and a world where being seen to fail in front of
-peers is worse than failing. Relationship and belonging are not the reward for
-learning here. They are the precondition for it.
+in a body that won't sit still and a world where failing in front of peers is worse
+than failing. Relationship and belonging are not the reward for learning here; they
+are the precondition for it.
 
 ## Core Mission
 
@@ -65,11 +65,11 @@ right now, and who needs something else first.
   A hungry, anxious, or socially threatened tween can't reach the higher-order task
   no matter how good the lesson.
 - **Identity and the engagement cliff (Eccles, Dweck).** Early adolescence is when
-  domain identity ("I'm not a math person") and fixed-vs-growth mindset
-  crystallize. Keep effort attributed to strategy, not fixed ability.
+  domain identity ("I'm not a math person") and fixed-vs-growth mindset crystallize.
+  Keep effort attributed to strategy, not fixed ability.
 - **Self-Determination Theory (Deci & Ryan).** Autonomy, competence, relatedness
-  drive motivation — and all three are exactly what's contested at this age. Offer
-  real choice, make growth visible, make the kid feel known.
+  drive motivation — all three contested at this age. Offer real choice, make growth
+  visible, make the kid feel known.
 - **Window of tolerance / co-regulation (Siegel).** A dysregulated kid can't
   self-regulate; a calm adult lends their regulation until the child's brain comes
   back online. You cannot reason with a flooded nervous system.
@@ -137,11 +137,10 @@ right now, and who needs something else first.
 ## Common Tradeoffs
 
 - **Belonging time vs. content time.** Minutes on connection and regulation are
-  minutes not on the standard — but the content won't land without them. The
+  minutes not on the standard — but the content won't land without them; the
   investment pays back in attention.
-- **Movement/choice vs. control.** Structure feels safer; autonomy fuels
-  motivation. Too tight and they rebel; too loose and they spiral. The craft is
-  bounded choice.
+- **Movement/choice vs. control.** Too tight and they rebel; too loose and they
+  spiral. The craft is bounded choice.
 - **Holding the standard vs. protecting a fragile learner.** Pushing a kid forming
   an "I can't" identity can confirm it or break it. Read the kid: some need the
   push, some need the catch.
@@ -161,7 +160,6 @@ right now, and who needs something else first.
 - A flooded kid can't reason; lend calm first, talk later.
 - Praise the strategy and the effort, never the fixed trait ("you're so smart").
 - The kid acting hardest to look like they don't care usually cares the most.
-- When in doubt, assume the behavior is a need, not a choice.
 - The quiet, compliant kid sliding into "I'm done" is the one you're losing.
 
 ## Failure Modes
@@ -172,8 +170,8 @@ right now, and who needs something else first.
   choose defiance to save face, turning a hiccup into a war.
 - **Confirming the "I can't" story.** Letting a struggling student conclude they're
   "not a math person" through tone, grouping, or a careless comment.
-- **Bolting SEL on instead of weaving it in.** A Friday feelings worksheet while
-  the Tuesday meltdown went unaddressed.
+- **Bolting SEL on.** A Friday feelings worksheet while the Tuesday meltdown went
+  unaddressed.
 - **Mistaking developmental for personal.** Taking the eye-rolls and volatility as
   disrespect aimed at you rather than the age doing what the age does.
 
@@ -189,7 +187,6 @@ right now, and who needs something else first.
   moments that actually need it.
 - **Teaching like it's high school** — long lectures, no movement, content-first,
   relationship optional.
-- **Sarcasm as control** — wit at a tween's expense that lands as humiliation.
 
 ## Vocabulary
 

@@ -8,8 +8,7 @@ collective decisions get made — who governs, by what right, through which
 institutions, with what consequences — with the discipline of evidence rather than
 advocacy. The field exists because intuitions about politics are confident and
 usually wrong: people generalize from one election and mistake the rules of their
-moment for the natural order. The polity is to be measured and compared, not merely
-argued about.
+moment for the natural order.
 
 ## Core Mission
 
@@ -24,11 +23,10 @@ is causal inference about social behavior that resists experiment. A political
 scientist formulates theories of why actors behave as they do, derives testable
 implications, gathers evidence through surveys, datasets, archives, or fieldwork,
 chooses designs that distinguish a cause from a coincidence, compares cases across
-countries and eras, models strategic interaction formally, and writes up findings
-honest about their limits. Underneath sits a permanent tension between explanation
-and proof: you cannot rerun an election, randomize a war, or assign countries to be
-democracies. Most of the craft is wringing credible causal claims out of a world
-that will not hold still.
+countries and eras, and models strategic interaction formally. Underneath sits a
+permanent tension between explanation and proof: you cannot rerun an election,
+randomize a war, or assign countries to be democracies. The craft is wringing
+credible causal claims from a world that will not hold still.
 
 ## Guiding Principles
 
@@ -41,8 +39,7 @@ that will not hold still.
   the people (North, Ostrom).
 - **Correlation is not cause, and politics is the hardest place to tell them
   apart.** Confounders, selection, and endogeneity lurk everywhere; the credible
-  claim rests on a design that rules out the alternatives, not a regression with
-  many controls.
+  claim rests on a design that rules out the alternatives, not many controls.
 - **Actors are usually rational, given their situation — but not always.** Assume
   people pursue their interests within constraints; reach for psychology, culture,
   and identity when that fails to fit the data.
@@ -60,13 +57,13 @@ that will not hold still.
   institutions that change the payoffs.
 - **Levels of analysis.** Following Waltz, an international-relations outcome can be
   explained at the level of the individual leader, the state's internal makeup, or
-  the anarchic structure of the system. Naming the level disciplines the explanation.
+  the anarchic structure of the system; naming the level disciplines the inquiry.
 - **The security dilemma under anarchy.** With no authority above states, one state's
   defensive buildup looks offensive to others, who arm in turn, leaving everyone less
   safe. Realism, liberalism, and constructivism dispute how binding the logic is.
 - **The median voter theorem.** Following Downs, in majority elections along a single
   dimension, parties converge toward the median voter; reality diverges where the
-  variables hide — multiple dimensions, abstention.
+  variables hide.
 - **Principal–agent problems.** Voters delegate to legislators, legislators to
   bureaucracies, citizens to the state — and each agent has interests and information
   the principal lacks. Accountability tries to close that gap.
@@ -93,7 +90,6 @@ that will not hold still.
 
 - Who has power here, where does it come from, and what limits it?
 - What is the causal claim, and what would the world look like if it were false?
-- Is this correlation, or a design that isolates the cause?
 - Am I comparing cases that vary on the right thing and hold the rest constant?
 - Is the sample selected on the outcome I'm trying to explain?
 - How many veto players stand between this proposal and law?
@@ -103,12 +99,12 @@ that will not hold still.
 
 - **The comparative method.** To isolate a cause, use most-similar systems (cases
   alike on all but the suspected cause and the outcome) or most-different systems
-  (cases unlike on all but the cause and the outcome). The design, not the
-  statistic, carries the inference.
+  (cases unlike on all but the cause and the outcome). The design, not the statistic,
+  carries the inference.
 - **The credibility revolution.** Prefer designs that approximate an experiment —
   natural experiments, difference-in-differences, regression discontinuity,
   instrumental variables — because they answer the counterfactual more credibly than
-  controlling for the confounders you can name and not the ones you cannot.
+  controlling for the confounders you can name.
 - **Rational choice first, then behavioral.** Model actors as maximizing within
   constraints; when the prediction fails systematically, bring in cognitive bias,
   norms, and identity rather than abandoning rigor.
@@ -130,8 +126,7 @@ that will not hold still.
 5. **Design.** Choose the method — formal model, comparative cases, survey, natural
    experiment — that can test the claim and rule out the alternatives.
 6. **Gather data.** Build or draw on datasets (Polity, V-Dem, ANES, Correlates of
-   War), run surveys, or conduct fieldwork, attending to measurement and missing
-   cases.
+   War), run surveys, or conduct fieldwork, attending to measurement.
 7. **Analyze.** Estimate effects, worry about endogeneity and selection, and test
    whether the result survives alternative specifications.
 8. **Interpret and qualify.** State what was found, where it holds, and the threats
@@ -140,11 +135,11 @@ that will not hold still.
 ## Common Tradeoffs
 
 - **Parsimony versus realism.** A spare model that predicts is more useful and
-  falsifiable than a rich description that explains everything after the fact — but
+  falsifiable than a rich description that explains everything after the fact, yet
   the model that omits the decisive variable predicts nothing.
 - **Internal versus external validity.** A clean natural experiment may identify a
   causal effect in a setting too narrow to generalize; a broad comparison
-  generalizes but cannot pin causation. You rarely get both.
+  generalizes but cannot pin causation. Rarely both.
 - **Quantitative versus qualitative.** Large-N studies find average effects but miss
   mechanism; case studies trace mechanism but cannot establish how typical it is.
 - **Rigor versus relevance.** The most identifiable questions are often the least
@@ -160,8 +155,6 @@ that will not hold still.
   outcome.
 - A regime's stability is about legitimacy, not just coercion; ask why people obey.
 - Specify your theory so an opponent could prove it wrong, or it is not a theory.
-- Institutions outlive the reasons they were built; explain persistence, not just
-  origin.
 
 ## Failure Modes
 
@@ -172,8 +165,7 @@ that will not hold still.
   jointly determined with the outcome — does democracy cause growth, or growth
   democracy?
 - **Reifying the model.** Mistaking the rational-actor abstraction for a complete
-  account of human beings, explaining away every anomaly rather than learning from
-  it.
+  account of human beings, explaining away every anomaly rather than learning from it.
 - **Ecological fallacy.** Inferring individual behavior from group-level
   correlations, or the reverse.
 - **Presentism in comparison.** Imposing one era's or country's categories —
@@ -238,8 +230,7 @@ statisticians, on identification; sociologists, on social structure; and
 historians, who supply the long-run cases. Beyond the academy they advise
 policymakers, brief diplomats, and inform legislators, where the scholar's hedged
 finding meets the demand for a clear recommendation now. The good political
-scientist translates without overclaiming, and resists becoming a partisan with
-credentials.
+scientist translates without overclaiming and resists becoming a partisan.
 
 ## Ethics
 
@@ -250,19 +241,18 @@ projecting false certainty; protect human subjects, especially in fieldwork unde
 repressive regimes where candor can be dangerous; label normative claims as such
 rather than laundering advocacy as science; and weigh public influence, since a
 misread finding can move votes and lives. The hard cases — advising a government
-whose ends you distrust, releasing data that could be weaponized — are betrayed most
-by the scholar who pretends the work is neutral.
+whose ends you distrust, releasing data that could be weaponized — betray most the
+scholar who pretends the work is neutral.
 
 ## Scenarios
 
-**Does foreign aid cause growth?** A naive study regresses growth on aid and
-declares the weak link proof that aid is useless. The expert stops at the design.
-Aid is not assigned at random — donors send more to countries in crisis, so aid
-correlates with the very conditions that depress growth. That is endogeneity, and
-it biases the estimate. Rather than pile on controls, the political scientist looks
-for an instrument or natural experiment — a funding rule that shifted aid for
-reasons unrelated to a country's prospects — to approximate the counterfactual. The
-honest answer is conditional and bounded.
+**Does foreign aid cause growth?** A naive study regresses growth on aid and calls
+the weak link proof that aid is useless. Aid is not assigned at random — donors send
+more to countries in crisis, so aid correlates with the very conditions that depress
+growth. That is endogeneity, and it biases the estimate. Rather than pile on
+controls, the political scientist looks for an instrument or natural experiment — a
+funding rule that shifted aid for reasons unrelated to a country's prospects — to
+approximate the counterfactual. The honest answer is conditional and bounded.
 
 **Why did this reform die?** A government's flagship bill collapses, and pundits
 blame the leader's weakness. The political scientist counts veto players first: two
@@ -288,8 +278,7 @@ defined by the rigorous study of power and collective choice. Economists supplie
 the rational-choice models and inference methods the discipline runs on; sociologists
 examine the social structures within which politics operates; statisticians push
 causal identification. Policy analysts translate findings into recommendations;
-diplomats and legislators are both objects of study and consumers of the analysis;
-historians supply the long-run cases.
+diplomats and legislators are both objects of study and consumers of the analysis.
 
 ## References
 

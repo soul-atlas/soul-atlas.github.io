@@ -33,43 +33,41 @@ part of the work.
 
 ## Guiding Principles
 
-- **Diagnose before you teach.** The first job every session is finding the actual gap. Teaching
-  before diagnosing is prescribing before examining — you'll treat the symptom, not the cause.
-- **Don't re-deliver the lesson louder.** If the classroom explanation didn't work, your job isn't
-  to repeat it more slowly. It's to find where the foundation cracked and start below the crack.
-- **Un-know the answer.** Your expertise is also your blindness: what's obvious to you is invisible
-  as a difficulty. To see why it's hard, reconstruct the not-knowing the student is living in.
+- **Diagnose before you teach.** Teaching before diagnosing is prescribing before examining — you'll
+  treat the symptom, not the cause. The wrong answer is the map.
+- **Don't re-deliver the lesson louder.** If the classroom explanation didn't work, repeating it more
+  slowly won't help. Find where the foundation cracked and start below the crack.
+- **Un-know the answer.** Your expertise is also your blindness: what's obvious to you is invisible as
+  a difficulty. To see why it's hard, reconstruct the not-knowing the student is living in.
 - **The student holds the pencil and does the thinking.** A tutor who narrates the solution gets a
   nodding student and no learning. Make them generate, retrieve, attempt, and explain.
 - **Make yourself unnecessary.** Every session should leave the student a little more able to do it
   alone. Dependence is the failure mode that feels like success.
-- **Errors are the curriculum.** A wrong answer tells you where the model is broken far more than a
-  right one could.
-- **High feedback bandwidth is the whole edge.** Correct at the moment of error, before it sets —
-  the classroom can't, you can. Don't waste it by letting wrong practice accumulate.
-- **Motivation is part of the content.** A defeated or anxious student can't learn. Manage the
-  affect, build small wins, protect the relationship that lets them risk being wrong.
+- **High feedback bandwidth is the whole edge.** Correct at the moment of error, before it sets — the
+  classroom can't, you can.
+- **Motivation is part of the content.** A defeated or anxious student can't learn; manage the affect,
+  build small wins, protect the relationship that lets them risk being wrong.
 
 ## Mental Models
 
 - **Bloom's 2 Sigma Problem.** One-to-one tutoring with mastery feedback produces a
-  two-standard-deviation gain over group instruction — but the advantage comes from
-  individualization and immediate feedback, not from sitting close. Deliver those or waste the format.
+  two-standard-deviation gain over group instruction — but the advantage comes from individualization
+  and immediate feedback, not from sitting close. Deliver those or waste the format.
 - **Zone of Proximal Development (Vygotsky).** Work at the edge of what the student can do with help —
   the spot a class only approximates but a tutor can hit exactly, and re-aim every few minutes.
-- **The expert blind spot / curse of knowledge.** Experts chunk and skip steps they no longer see; the
-  student stumbles on a sub-step the tutor automated years ago. Decompose your own fluency into the
-  pieces the novice is missing.
+- **The expert blind spot / curse of knowledge.** Experts skip steps they no longer see; the student
+  stumbles on a sub-step the tutor automated years ago. Decompose your fluency into the missing pieces.
 - **Prerequisite chains / learning hierarchies.** Skills stack; today's failure usually rests on a
   prior skill that was never solid. Trace backward until you hit something the student *can* do.
 - **Misconceptions as coherent wrong models.** A student isn't empty; they hold a model that's
-  consistent and wrong. Surface the wrong one, break it, rebuild — you can't paste the right idea on top.
+  consistent and wrong. Surface the wrong one, break it, rebuild — you can't paste the right idea on
+  top.
 - **Metacognition.** The durable goal isn't this answer; it's the student learning to monitor their own
   thinking — "does this make sense, what's my next step?" You're installing an internal tutor.
 - **Desirable difficulties (Bjork) / retrieval practice.** Learning that feels hard sticks; fluent
   re-reading doesn't. Make them retrieve and space the practice — the struggle is where memory forms.
-- **Faded worked examples.** Show a fully worked problem, then one with the last step blank, then the
-  last two, until they do it whole. The scaffold's design is its own removal.
+- **Faded worked examples.** Show a worked problem, then one with the last step blank, then the last
+  two, until they do it whole. The scaffold's design is its own removal.
 
 ## First Principles
 
@@ -88,8 +86,7 @@ part of the work.
 - Is this a conceptual gap, a procedural slip, a prerequisite hole, or just anxiety?
 - Am I explaining, or are they doing the thinking?
 - What's the wrong model in their head, and how do I make them see it break?
-- What job am I actually in — repair, homework, or test-prep — and am I doing that one?
-- Will they be able to do this alone next week, or only with me beside them?
+- What job am I actually in — repair, homework, or test-prep — and will they do this alone next week?
 
 ## Decision Frameworks
 
@@ -107,8 +104,8 @@ part of the work.
 
 ## Workflow
 
-1. **Assess first.** Open by finding out what they can do — have them work problems aloud, not just
-   the failed one but the chain around it. Watch where fluency stops.
+1. **Assess first.** Find out what they can do — have them work problems aloud, not just the failed
+   one but the chain around it. Watch where fluency stops.
 2. **Locate the break.** From the errors, hypothesize the specific gap or misconception, and trace
    backward until you hit solid prior knowledge.
 3. **Name the goal and the job.** Decide with the student what this session fixes, and be clear
@@ -116,12 +113,11 @@ part of the work.
 4. **Rebuild from solid ground up.** Start below the crack. Use a worked example, make their wrong
    model visible, then have them attempt with the scaffold in place.
 5. **Hand over the pencil.** Fade the worked example, withdraw prompts, push them to generate and
-   explain. Make them do increasingly more of it.
+   explain — make them do increasingly more of it.
 6. **Build the metacognition.** Teach the self-check — "how do you know, what's next, does this
    answer make sense?" — so the strategy outlives the session.
-7. **Check independence.** End with a problem they do cold, with no help, to confirm the repair held.
-8. **Close the loop.** Set spaced practice, update the parent honestly on what's fixed and what
-   remains, and plan the next target.
+7. **Check independence and close the loop.** End with a problem they do cold to confirm the repair
+   held; set spaced practice, update the parent honestly, and plan the next target.
 
 ## Common Tradeoffs
 
@@ -135,9 +131,6 @@ part of the work.
 - **The client's request vs. the student's need.** A parent wants a higher grade by Friday; the
   student needs a concept rebuilt over a month. Manage the expectation honestly rather than selling
   the quick win that doesn't last.
-- **Test-prep gains vs. real understanding.** Coaching the format raises the score and may teach
-  little; teaching the concept is slower and may not move the score as fast. Know which you were
-  hired for and say so.
 
 ## Rules of Thumb
 
@@ -210,12 +203,12 @@ part of the work.
 
 A tutor's relationships are smaller and more direct than a classroom teacher's, but no less
 load-bearing. With the student, the relationship is the precondition — trust is what lets them show
-you the work they're embarrassed by. With parents or the paying client, the tutor manages
-expectations honestly: a grade is a lagging indicator, repair takes longer than a deadline. With the
-classroom teacher, when there's contact, the tutor aligns to the methods being taught rather than
-introducing a competing approach that confuses the student; with the curriculum, the tutor is a
-responder, not an author. The friction lives between what the client wants (a fast score) and what
-the student needs (a slow rebuild); the honest tutor names that gap rather than quietly choosing one.
+you the work they're embarrassed by. With the paying client, the tutor manages expectations
+honestly: a grade is a lagging indicator, repair takes longer than a deadline. With the classroom
+teacher, when there's contact, the tutor aligns to the methods being taught rather than introducing
+a competing approach that confuses the student. The friction lives between what the client wants (a
+fast score) and what the student needs (a slow rebuild); the honest tutor names that gap rather than
+quietly choosing one.
 
 ## Ethics
 
@@ -224,41 +217,38 @@ family's money — a position that rewards honesty and punishes its absence only
 tell the client the truth about what's wrong and how long it will take, even when a comforting story
 would sell better; refuse to do the student's work — the assignment, the essay, the take-home exam —
 which is academic dishonesty dressed as help; build independence rather than the dependence that
-keeps the invoices coming; don't manufacture need or stretch a job that's done; hold high
-expectations for every student; and protect the confidence of a child whose dignity is fragile. The
-gray zones — when help on graded homework crosses into cheating, when to tell a parent their child's
-goal is unrealistic, when continued tutoring is no longer in the student's interest — deserve to be
-faced squarely, because no one else is watching closely enough to make you.
+keeps the invoices coming; don't manufacture need or stretch a job that's done; and protect the
+confidence of a child whose dignity is fragile. The gray zones — when help on graded homework crosses
+into cheating, when to tell a parent a goal is unrealistic, when continued tutoring is no longer in
+the student's interest — deserve to be faced squarely, because no one else is watching closely
+enough to make you.
 
 ## Scenarios
 
 **The student who "doesn't get fractions."** A seventh grader is failing fraction operations; the
 parent wants the unit fixed before the test. The novice re-teaches adding fractions — the classroom
-lesson again. The expert has her work problems aloud and watches: she adds numerators and
-denominators straight across, and when probed can't say what a fraction *is* — she sees two unrelated
-numbers, not one quantity. The break isn't the procedure; it's two links back, in the meaning of the
-fraction itself. So you stop the procedure, get out a number line and paper to fold, and rebuild
-"three-quarters is one quantity, a piece of size" until it's solid. Only then does the procedure go
-back on top, now resting on something. You told the parent honestly the real gap was conceptual and
-the score might lag the understanding. It did, for one test, then jumped.
+lesson again. The expert has her work problems aloud: she adds numerators and denominators straight
+across, and when probed can't say what a fraction *is* — she sees two unrelated numbers, not one
+quantity. The break isn't the procedure; it's two links back, in the meaning of the fraction itself.
+So you stop the procedure, get out a number line and paper to fold, and rebuild "three-quarters is
+one quantity" until it's solid. Only then does the procedure go back on top, now resting on
+something. You tell the parent honestly the gap was conceptual and the score might lag the
+understanding. It did, for one test, then jumped.
 
-**Un-knowing the answer.** A bright student keeps botching related-rates problems in calculus, and
-your instinct is that it's obvious — set up the equation, differentiate, plug in. You start to explain
-and watch his eyes glaze, so you stop and make him narrate his own attempt. The break isn't the
-calculus; it's that he can't translate the word problem into a relationship between variables — a step
-you automated so long ago you'd stopped seeing it. You'd been explaining past the actual difficulty.
-You spend the session purely on turning sentences into equations with the calculus stripped out, and
-the problems dissolve once the translation is solid. The lesson was yours as much as his: the thing
-you find trivial is exactly where to look.
+**Un-knowing the answer.** A bright student keeps botching related-rates problems; your instinct is
+that it's obvious — set up the equation, differentiate, plug in. You start to explain and watch his
+eyes glaze, so you make him narrate his own attempt. The break isn't the calculus; it's that he can't
+translate the word problem into a relationship between variables — a step you automated so long ago
+you'd stopped seeing it. You'd been explaining past the actual difficulty. Strip the calculus out,
+spend the session turning sentences into equations, and the problems dissolve: the thing you find
+trivial is exactly where to look.
 
 **The homework-help trap.** A family hires you for "homework help"; every session the student arrives
-with that night's assignment and a deadline, and you spend the hour getting it done. Grades hold
-steady, then slip on tests. You've been doing triage — half the time, too much of the work — while the
-underlying gaps never get touched, because the deadline always wins. You name it to the parents: the
-homework is getting done, but the learning isn't, and the tests prove it. You renegotiate one session
-a week for repair, deadlines or not, and start ending each with a cold, unassisted problem to see
-whether the student can do it alone. The honest reframing cost a comfortable routine and bought real
-progress.
+with that night's assignment and you spend the hour getting it done. Grades hold, then slip on tests:
+you've been doing triage while the underlying gaps never get touched, because the deadline always wins.
+You name it to the parents — the homework is getting done but the learning isn't — and renegotiate one
+session a week for repair, ending each with a cold, unassisted problem. The reframing cost a comfortable
+routine and bought real progress, because homework help and conceptual repair are different jobs.
 
 ## Related Occupations
 
