@@ -36,7 +36,7 @@ jobs:
           SITE_URL: https://soul-atlas.github.io
           BASE_PATH: /
           GITHUB_REPO: soul-atlas/soul-atlas.github.io
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 
