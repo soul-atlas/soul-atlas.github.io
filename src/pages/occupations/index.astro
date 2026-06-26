@@ -1,0 +1,138 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { souls, categories } from '../../lib/data';
+import { url, soulUrl, categoryColor } from '../../lib/site';
+
+const sorted = [...souls].sort((a, b) => a.title.localeCompare(b.title));
+const difficulties = ['foundational', 'intermediate', 'advanced', 'expert'];
+const clientData = sorted.map((s) => ({
+  slug: s.slug,
+  title: s.title,
+  category: s.category,
+  difficulty: s.difficulty,
+  summary: s.summary,
+  tags: s.tags,
+  words: s.wordCount,
+  read: s.readingTimeMinutes,
+  links: s.backlinks.length,
+  updated: s.updated,
+}));
+---
+
+<Layout title="Explore" description="Browse every SOUL — filter by domain, difficulty, and more.">
+  <div class="mx-auto max-w-6xl px-4 py-10">
+    <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Explore the Atlas</h1>
+    <p class="mt-2 max-w-2xl" style="color:var(--ink-soft)">
+      {souls.length.toLocaleString('en-US')} ways of thinking across {categories.length} domains. Filter, sort, and dive in.
+    </p>
+
+    <div class="mt-6 flex flex-wrap items-center gap-2" id="controls">
+      <input
+        id="q"
+        type="search"
+        placeholder="Filter by name, tag, idea…"
+        class="min-w-[14rem] flex-1 rounded-md border bg-transparent px-3 py-2 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink)"
+      />
+      <select id="cat" class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none" style="border-color:var(--border); color:var(--ink)">
+        <option value="">All domains</option>
+        {categories.map((c) => <option value={c.name}>{c.name} ({c.count})</option>)}
+      </select>
+      <select id="diff" class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none" style="border-color:var(--border); color:var(--ink)">
+        <option value="">Any level</option>
+        {difficulties.map((d) => <option value={d} class="capitalize">{d}</option>)}
+      </select>
+      <select id="sort" class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none" style="border-color:var(--border); color:var(--ink)">
+        <option value="az">A–Z</option>
+        <option value="words">Longest</option>
+        <option value="links">Most connected</option>
+        <option value="updated">Recently updated</option>
+      </select>
+      <div class="ml-auto flex rounded-md border" style="border-color:var(--border)">
+        <button id="view-grid" class="px-3 py-2 text-sm" aria-pressed="true" style="color:var(--ink)">Grid</button>
+        <button id="view-list" class="px-3 py-2 text-sm" aria-pressed="false" style="color:var(--ink-faint)">List</button>
+      </div>
+    </div>
+
+    <div class="mt-2 text-sm" style="color:var(--ink-faint)"><span id="count"></span></div>
+
+    <div id="results" class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
+    <div id="empty" class="hidden py-20 text-center" style="color:var(--ink-faint)">No SOULs match those filters.</div>
+  </div>
+
+  <script is:inline define:vars={{ data: clientData, base: import.meta.env.BASE_URL }}>
+    (function () {
+      const root = base.replace(/\/$/, '');
+      const colors = {
+        Technology: '#3b82f6', Healthcare: '#ef4444', 'Skilled Trades': '#f59e0b', Engineering: '#8b5cf6',
+        Science: '#06b6d4', Education: '#10b981', Business: '#6366f1', Government: '#64748b', Military: '#4b5563',
+        Law: '#0ea5e9', Transportation: '#14b8a6', Agriculture: '#84cc16', Hospitality: '#ec4899', Creative: '#f472b6',
+        Sports: '#22c55e', Entertainment: '#a855f7', Finance: '#eab308', 'Public Service': '#0891b2',
+        Historical: '#a16207', Emerging: '#d946ef', 'Life Roles': '#fb7185',
+      };
+      const results = document.getElementById('results');
+      const empty = document.getElementById('empty');
+      const count = document.getElementById('count');
+      const q = document.getElementById('q');
+      const cat = document.getElementById('cat');
+      const diff = document.getElementById('diff');
+      const sort = document.getElementById('sort');
+      let view = 'grid';
+
+      function card(s) {
+        const c = colors[s.category] || '#94a3b8';
+        return `<a href="${root}/occupations/${s.slug}" class="card group flex flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5" style="text-decoration:none">
+          <div class="flex items-center justify-between gap-2">
+            <span class="inline-flex items-center gap-1.5 text-xs font-medium" style="color:${c}"><span class="inline-block h-2 w-2 rounded-full" style="background:${c}"></span>${s.category}</span>
+            ${s.difficulty ? `<span class="chip capitalize">${s.difficulty}</span>` : ''}
+          </div>
+          <h3 class="text-base font-semibold leading-snug" style="color:var(--ink)">${s.title}</h3>
+          ${view === 'grid' ? `<p class="text-sm leading-relaxed" style="color:var(--ink-soft)">${s.summary}</p>` : ''}
+          <div class="mt-auto flex items-center gap-3 pt-1 text-xs" style="color:var(--ink-faint)"><span>${s.read} min</span><span>·</span><span>${s.words.toLocaleString('en-US')} words</span>${s.links ? `<span>·</span><span>${s.links} links</span>` : ''}</div>
+        </a>`;
+      }
+
+      function apply() {
+        const term = q.value.trim().toLowerCase();
+        const fc = cat.value, fd = diff.value, fs = sort.value;
+        let list = data.filter((s) => {
+          if (fc && s.category !== fc) return false;
+          if (fd && s.difficulty !== fd) return false;
+          if (term) {
+            const hay = (s.title + ' ' + s.summary + ' ' + (s.tags || []).join(' ') + ' ' + s.category).toLowerCase();
+            if (!hay.includes(term)) return false;
+          }
+          return true;
+        });
+        list.sort((a, b) => {
+          if (fs === 'words') return b.words - a.words;
+          if (fs === 'links') return b.links - a.links;
+          if (fs === 'updated') return (b.updated || '').localeCompare(a.updated || '');
+          return a.title.localeCompare(b.title);
+        });
+        results.className = view === 'grid'
+          ? 'mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3'
+          : 'mt-5 grid gap-3';
+        results.innerHTML = list.map(card).join('');
+        count.textContent = `${list.length} of ${data.length} SOULs`;
+        empty.classList.toggle('hidden', list.length > 0);
+      }
+
+      [q, cat, diff, sort].forEach((el) => el.addEventListener('input', apply));
+      document.getElementById('view-grid').addEventListener('click', () => { view = 'grid'; setView(); });
+      document.getElementById('view-list').addEventListener('click', () => { view = 'list'; setView(); });
+      function setView() {
+        document.getElementById('view-grid').setAttribute('aria-pressed', view === 'grid');
+        document.getElementById('view-list').setAttribute('aria-pressed', view === 'list');
+        document.getElementById('view-grid').style.color = view === 'grid' ? 'var(--ink)' : 'var(--ink-faint)';
+        document.getElementById('view-list').style.color = view === 'list' ? 'var(--ink)' : 'var(--ink-faint)';
+        apply();
+      }
+      // Deep-link support: ?q= / ?category=
+      const params = new URLSearchParams(location.search);
+      if (params.get('category')) cat.value = params.get('category');
+      if (params.get('q')) q.value = params.get('q');
+      apply();
+    })();
+  </script>
+</Layout>

@@ -1,0 +1,194 @@
+---
+// Command palette + instant search (Ctrl/Cmd+K or "/"). Fuzzy-matches titles,
+// aliases, tags, summaries, and section headings against the lightweight index
+// generated at build time. Full-text body search is provided by Pagefind on the
+// dedicated /search page; this is the fast jump-to surface.
+import { searchDocs } from '../lib/data';
+import { url } from '../lib/site';
+
+const docs = searchDocs.map((d: any) => ({
+  s: d.slug,
+  t: d.title,
+  c: d.category,
+  a: d.aliases ?? [],
+  g: d.tags ?? [],
+  d: d.summary ?? '',
+  h: d.headings ?? [],
+}));
+
+const commands = [
+  { label: 'Go to Explore', href: url('/occupations'), kind: 'page' },
+  { label: 'Open Knowledge Graph', href: url('/graph'), kind: 'page' },
+  { label: 'Open Dashboard', href: url('/dashboard'), kind: 'page' },
+  { label: 'Compare two minds', href: url('/compare'), kind: 'page' },
+  { label: 'Random SOUL', href: url('/random'), kind: 'page' },
+  { label: 'Full-text search', href: url('/search'), kind: 'page' },
+];
+---
+
+<div
+  id="cmdk"
+  class="fixed inset-0 z-[80] hidden items-start justify-center p-4 pt-[12vh]"
+  style="background:rgba(10,10,12,0.45)"
+  aria-hidden="true"
+>
+  <div
+    class="card w-full max-w-xl overflow-hidden"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Search SOUL Atlas"
+    style="background:var(--surface)"
+  >
+    <div class="flex items-center gap-2 border-b px-4" style="border-color:var(--border)">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="color:var(--ink-faint)" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle>
+        <path d="m20 20-3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      </svg>
+      <input
+        id="cmdk-input"
+        type="text"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="Search occupations, headings, ideas…"
+        class="w-full bg-transparent py-3.5 text-sm outline-none"
+        style="color:var(--ink)"
+        aria-label="Search query"
+      />
+      <kbd class="rounded border px-1.5 py-0.5 text-[10px]" style="border-color:var(--border); color:var(--ink-faint)"
+        >ESC</kbd
+      >
+    </div>
+    <ul id="cmdk-results" class="max-h-[55vh] overflow-y-auto py-2" role="listbox"></ul>
+    <div
+      class="flex items-center justify-between border-t px-4 py-2 text-[11px]"
+      style="border-color:var(--border); color:var(--ink-faint)"
+    >
+      <span>↑ ↓ to navigate · ↵ to open</span>
+      <a href={url('/search')} class="hover:underline">Full-text search →</a>
+    </div>
+  </div>
+</div>
+
+<script
+  is:inline
+  define:vars={{ docs, commands, base: import.meta.env.BASE_URL }}
+>
+  (function () {
+    const modal = document.getElementById('cmdk');
+    const input = document.getElementById('cmdk-input');
+    const list = document.getElementById('cmdk-results');
+    let active = 0;
+    let current = [];
+
+    const soulUrl = (slug) => `${base.replace(/\/$/, '')}/occupations/${slug}`;
+
+    function score(doc, q) {
+      const hay = (doc.t + ' ' + doc.a.join(' ') + ' ' + doc.g.join(' ') + ' ' + doc.c).toLowerCase();
+      const title = doc.t.toLowerCase();
+      if (title === q) return 100;
+      if (title.startsWith(q)) return 80;
+      if (title.includes(q)) return 60;
+      if (doc.a.some((a) => a.toLowerCase().includes(q))) return 50;
+      if (doc.g.some((g) => g.toLowerCase().includes(q))) return 35;
+      if (doc.h.some((h) => h.toLowerCase().includes(q))) return 25;
+      if (doc.d.toLowerCase().includes(q)) return 20;
+      if (hay.includes(q)) return 15;
+      // subsequence fuzzy
+      let i = 0;
+      for (const ch of title) if (ch === q[i]) i++;
+      return i === q.length ? 8 : -1;
+    }
+
+    function render(q) {
+      list.innerHTML = '';
+      active = 0;
+      const ql = q.trim().toLowerCase();
+      let items = [];
+      if (!ql) {
+        items = commands.map((c) => ({ label: c.label, href: c.href, sub: 'Page' }));
+      } else {
+        const matchedCmds = commands
+          .filter((c) => c.label.toLowerCase().includes(ql))
+          .map((c) => ({ label: c.label, href: c.href, sub: 'Page' }));
+        const matchedSouls = docs
+          .map((d) => ({ d, sc: score(d, ql) }))
+          .filter((x) => x.sc > 0)
+          .sort((a, b) => b.sc - a.sc)
+          .slice(0, 24)
+          .map((x) => ({ label: x.d.t, href: soulUrl(x.d.s), sub: x.d.c }));
+        items = [...matchedSouls, ...matchedCmds];
+      }
+      current = items;
+      if (items.length === 0) {
+        list.innerHTML = `<li class="px-4 py-6 text-center text-sm" style="color:var(--ink-faint)">No matches for “${q}”. Try the full-text search.</li>`;
+        return;
+      }
+      items.forEach((it, idx) => {
+        const li = document.createElement('li');
+        li.setAttribute('role', 'option');
+        li.dataset.idx = idx;
+        li.className = 'cmdk-item flex cursor-pointer items-center justify-between gap-3 px-4 py-2.5 text-sm';
+        li.innerHTML = `<span style="color:var(--ink)">${it.label}</span><span class="chip">${it.sub}</span>`;
+        li.addEventListener('mouseenter', () => setActive(idx));
+        li.addEventListener('click', () => go(idx));
+        list.appendChild(li);
+      });
+      setActive(0);
+    }
+
+    function setActive(idx) {
+      active = idx;
+      [...list.children].forEach((el, i) => {
+        el.style.background = i === idx ? 'var(--bg-soft)' : 'transparent';
+        if (i === idx) el.scrollIntoView({ block: 'nearest' });
+      });
+    }
+    function go(idx) {
+      const it = current[idx];
+      if (it) window.location.href = it.href;
+    }
+
+    function open() {
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      modal.setAttribute('aria-hidden', 'false');
+      input.value = '';
+      render('');
+      setTimeout(() => input.focus(), 0);
+    }
+    function close() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      modal.setAttribute('aria-hidden', 'true');
+    }
+
+    input.addEventListener('input', () => render(input.value));
+    document.addEventListener('keydown', (e) => {
+      const isOpen = !modal.classList.contains('hidden');
+      if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !isOpen && !/input|textarea/i.test(e.target.tagName))) {
+        e.preventDefault();
+        isOpen ? close() : open();
+        return;
+      }
+      if (!isOpen) return;
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setActive(Math.min(active + 1, current.length - 1));
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setActive(Math.max(active - 1, 0));
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        go(active);
+      }
+    });
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) close();
+    });
+    ['open-search', 'open-search-mobile'].forEach((id) => {
+      const b = document.getElementById(id);
+      if (b) b.addEventListener('click', open);
+    });
+  })();
+</script>

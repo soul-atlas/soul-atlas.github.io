@@ -1,0 +1,242 @@
+---
+// Reusable interactive force-directed knowledge graph (D3). Used full-page on
+// /graph and as a scoped neighborhood on each occupation page.
+//
+// Props:
+//   endpoint  — URL to fetch {nodes, edges} from (default: the full graph API)
+//   data      — inline {nodes, edges} to render instead of fetching
+//   focus     — slug to center/highlight (neighborhood mode)
+//   height    — px height of the canvas
+//   controls  — show filter/search controls
+import { url } from '../lib/site';
+import { CATEGORY_COLORS } from '../lib/data';
+
+interface Props {
+  endpoint?: string;
+  data?: { nodes: any[]; edges: any[] } | null;
+  focus?: string | null;
+  height?: number;
+  controls?: boolean;
+  id?: string;
+}
+const {
+  endpoint = url('/api/graph.json'),
+  data = null,
+  focus = null,
+  height = 600,
+  controls = false,
+  id = 'graph',
+} = Astro.props;
+
+const cats = Object.entries(CATEGORY_COLORS);
+const base = import.meta.env.BASE_URL;
+---
+
+<div class="graph-wrap" data-graph-id={id}>
+  {
+    controls && (
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <input
+          type="text"
+          class="rounded-md border bg-transparent px-3 py-1.5 text-sm outline-none"
+          style="border-color:var(--border); color:var(--ink)"
+          placeholder="Find a node…"
+          data-graph-search
+        />
+        <select
+          class="rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
+          style="border-color:var(--border); color:var(--ink)"
+          data-graph-filter
+        >
+          <option value="">All categories</option>
+          {cats.map(([name]) => <option value={name}>{name}</option>)}
+        </select>
+        <span class="text-xs" style="color:var(--ink-faint)" data-graph-count></span>
+        <span class="ml-auto text-xs" style="color:var(--ink-faint)">drag · scroll to zoom · click to open</span>
+      </div>
+    )
+  }
+  <div
+    class="card relative overflow-hidden"
+    style={`height:${height}px`}
+    data-graph-canvas
+    data-endpoint={data ? '' : endpoint}
+    data-focus={focus ?? ''}
+    data-base={base}
+  >
+    <svg width="100%" height="100%" role="img" aria-label="Knowledge graph of occupations"></svg>
+    <div
+      class="pointer-events-none absolute left-3 top-3 hidden rounded-md px-2.5 py-1.5 text-xs shadow"
+      style="background:var(--surface); border:1px solid var(--border); color:var(--ink)"
+      data-graph-tip
+    >
+    </div>
+  </div>
+  {data && <script type="application/json" data-graph-data set:html={JSON.stringify(data)} />}
+</div>
+
+<script>
+  import * as d3 from 'd3';
+
+  const CATEGORY_COLORS: Record<string, string> = {
+    Technology: '#3b82f6', Healthcare: '#ef4444', 'Skilled Trades': '#f59e0b', Engineering: '#8b5cf6',
+    Science: '#06b6d4', Education: '#10b981', Business: '#6366f1', Government: '#64748b', Military: '#4b5563',
+    Law: '#0ea5e9', Transportation: '#14b8a6', Agriculture: '#84cc16', Hospitality: '#ec4899', Creative: '#f472b6',
+    Sports: '#22c55e', Entertainment: '#a855f7', Finance: '#eab308', 'Public Service': '#0891b2',
+    Historical: '#a16207', Emerging: '#d946ef', 'Life Roles': '#fb7185',
+  };
+  const color = (c: string) => CATEGORY_COLORS[c] ?? '#94a3b8';
+
+  async function initGraph(wrap: Element) {
+    const canvas = wrap.querySelector('[data-graph-canvas]') as HTMLElement;
+    if (!canvas) return;
+    const endpoint = canvas.dataset.endpoint;
+    const focus = canvas.dataset.focus || null;
+    const base = (canvas.dataset.base || '/').replace(/\/$/, '');
+
+    let data: { nodes: any[]; edges: any[] };
+    const inline = wrap.querySelector('[data-graph-data]');
+    if (inline) {
+      data = JSON.parse(inline.textContent || '{"nodes":[],"edges":[]}');
+    } else if (endpoint) {
+      try {
+        data = await (await fetch(endpoint)).json();
+      } catch {
+        return;
+      }
+    } else {
+      return;
+    }
+
+    const svgEl = canvas.querySelector('svg') as SVGSVGElement;
+    const tip = wrap.querySelector('[data-graph-tip]') as HTMLElement;
+    const W = canvas.clientWidth || 800;
+    const H = canvas.clientHeight || 600;
+
+    const nodes = data.nodes.map((n) => ({ ...n }));
+    const idset = new Set(nodes.map((n) => n.id));
+    const links = data.edges
+      .filter((e) => idset.has(e.source) && idset.has(e.target))
+      .map((e) => ({ ...e }));
+
+    const svg = d3.select(svgEl).attr('viewBox', `0 0 ${W} ${H}`);
+    svg.selectAll('*').remove();
+    const root = svg.append('g');
+
+    const zoom = d3.zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.15, 6])
+      .on('zoom', (ev) => root.attr('transform', ev.transform));
+    svg.call(zoom as any);
+
+    const linkStroke: Record<string, string> = {
+      related: 'var(--border)', specialization: '#8b5cf6', prerequisite: '#f59e0b',
+      adjacent: '#06b6d4', collaboration: '#10b981', progression: '#ec4899',
+    };
+
+    const sizeScale = d3.scaleSqrt().domain([0, d3.max(nodes, (d: any) => d.degree) || 1]).range([3.5, 16]);
+
+    const link = root.append('g').attr('fill', 'none').attr('stroke-opacity', 0.5)
+      .selectAll('line').data(links).join('line')
+      .attr('stroke', (d: any) => linkStroke[d.type] || 'var(--border)')
+      .attr('stroke-width', 1);
+
+    const node = root.append('g').selectAll('g').data(nodes).join('g').style('cursor', 'pointer');
+
+    node.append('circle')
+      .attr('r', (d: any) => sizeScale(d.degree))
+      .attr('fill', (d: any) => color(d.category))
+      .attr('stroke', (d: any) => (d.id === focus ? 'var(--ink)' : 'var(--surface)'))
+      .attr('stroke-width', (d: any) => (d.id === focus ? 2.5 : 1));
+
+    const label = node.append('text')
+      .text((d: any) => d.title)
+      .attr('x', (d: any) => sizeScale(d.degree) + 4)
+      .attr('y', 4)
+      .attr('font-size', 11)
+      .attr('fill', 'var(--ink-soft)')
+      .style('pointer-events', 'none')
+      .style('opacity', nodes.length > 120 && !focus ? 0 : 1);
+
+    const neighbors = new Map<string, Set<string>>();
+    nodes.forEach((n) => neighbors.set(n.id, new Set([n.id])));
+    links.forEach((l) => {
+      neighbors.get(l.source)?.add(l.target);
+      neighbors.get(l.target)?.add(l.source);
+    });
+
+    function highlight(id: string | null) {
+      node.style('opacity', (d: any) => (!id || neighbors.get(id)?.has(d.id) ? 1 : 0.12));
+      link.style('opacity', (d: any) => (!id || d.source.id === id || d.target.id === id ? 0.8 : 0.04));
+      label.style('opacity', (d: any) =>
+        id ? (neighbors.get(id)?.has(d.id) ? 1 : 0) : nodes.length > 120 ? 0 : 1,
+      );
+    }
+
+    node
+      .on('mouseenter', (ev: any, d: any) => {
+        highlight(d.id);
+        tip.style.display = 'block';
+        tip.textContent = `${d.title} — ${d.category} · ${d.degree} links`;
+      })
+      .on('mouseleave', () => {
+        highlight(focus);
+        tip.style.display = 'none';
+      })
+      .on('click', (ev: any, d: any) => {
+        window.location.href = `${base}/occupations/${d.id}`;
+      });
+
+    const sim = d3.forceSimulation(nodes as any)
+      .force('link', d3.forceLink(links).id((d: any) => d.id).distance(focus ? 60 : 45).strength(0.4))
+      .force('charge', d3.forceManyBody().strength(nodes.length > 200 ? -40 : -120))
+      .force('center', d3.forceCenter(W / 2, H / 2))
+      .force('collide', d3.forceCollide().radius((d: any) => sizeScale(d.degree) + 3))
+      .on('tick', () => {
+        link
+          .attr('x1', (d: any) => d.source.x).attr('y1', (d: any) => d.source.y)
+          .attr('x2', (d: any) => d.target.x).attr('y2', (d: any) => d.target.y);
+        node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
+      });
+
+    node.call(
+      d3.drag<any, any>()
+        .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+        .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }) as any,
+    );
+
+    if (focus) highlight(focus);
+
+    // Controls
+    const search = wrap.querySelector('[data-graph-search]') as HTMLInputElement | null;
+    const filter = wrap.querySelector('[data-graph-filter]') as HTMLSelectElement | null;
+    const count = wrap.querySelector('[data-graph-count]') as HTMLElement | null;
+    if (count) count.textContent = `${nodes.length} nodes · ${links.length} edges`;
+    if (search) {
+      search.addEventListener('input', () => {
+        const q = search.value.trim().toLowerCase();
+        if (!q) { highlight(null); return; }
+        const match = nodes.find((n: any) => n.title.toLowerCase().includes(q));
+        node.style('opacity', (d: any) => (d.title.toLowerCase().includes(q) ? 1 : 0.1));
+        label.style('opacity', (d: any) => (d.title.toLowerCase().includes(q) ? 1 : 0));
+        if (match) {
+          svg.transition().duration(500).call(
+            zoom.transform as any,
+            d3.zoomIdentity.translate(W / 2, H / 2).scale(1.4).translate(-(match as any).x, -(match as any).y),
+          );
+        }
+      });
+    }
+    if (filter) {
+      filter.addEventListener('change', () => {
+        const c = filter.value;
+        node.style('opacity', (d: any) => (!c || d.category === c ? 1 : 0.08));
+        link.style('opacity', (d: any) =>
+          !c || d.source.category === c || d.target.category === c ? 0.6 : 0.03,
+        );
+      });
+    }
+  }
+
+  document.querySelectorAll('.graph-wrap').forEach((w) => initGraph(w));
+</script>

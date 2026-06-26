@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { souls } from '../lib/data';
+import { url } from '../lib/site';
+
+const slugs = souls.map((s) => s.slug);
+---
+
+<Layout title="Random SOUL" description="Jump to a random way of thinking.">
+  <div class="mx-auto flex max-w-xl flex-col items-center px-4 py-32 text-center">
+    <div class="text-5xl">🎲</div>
+    <h1 class="mt-4 text-2xl font-semibold" style="color:var(--ink)">Finding a mind for you…</h1>
+    <p class="mt-2" style="color:var(--ink-soft)">If you're not redirected, <a id="fallback" class="underline" href={url('/occupations')}>browse the Atlas</a>.</p>
+  </div>
+  <script is:inline define:vars={{ slugs, base: import.meta.env.BASE_URL }}>
+    (function () {
+      if (!slugs.length) return;
+      const slug = slugs[Math.floor(Math.random() * slugs.length)];
+      location.replace(`${base.replace(/\/$/, '')}/occupations/${slug}`);
+    })();
+  </script>
+</Layout>

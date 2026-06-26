@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Design tokens. Ink-on-paper with a single calm accent. Light + dark.
+--------------------------------------------------------------------------- */
+:root {
+  --bg: #fbfbfa;
+  --bg-soft: #f3f3f1;
+  --surface: #ffffff;
+  --border: #e6e4df;
+  --ink: #1c1b19;
+  --ink-soft: #54514b;
+  --ink-faint: #8a8780;
+  --accent: #1f4fda;
+  --accent-soft: #eef3ff;
+  --shadow: 0 1px 2px rgba(20, 19, 17, 0.04), 0 4px 16px rgba(20, 19, 17, 0.05);
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --bg: #0e0f12;
+  --bg-soft: #15171c;
+  --surface: #16181d;
+  --border: #262a33;
+  --ink: #e8e8e6;
+  --ink-soft: #adb0b8;
+  --ink-faint: #71757f;
+  --accent: #6f9bff;
+  --accent-soft: #18233f;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 24px rgba(0, 0, 0, 0.35);
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--accent-soft); }
+
+a { color: var(--accent); }
+
+/* Focus visibility for keyboard users (WCAG 2.4.7). */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0.5rem;
+  z-index: 100;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+.skip-link:focus { left: 0.5rem; }
+
+/* ---------------------------------------------------------------------------
+   Prose — the rendered SOUL body. Tuned for long-form reading.
+--------------------------------------------------------------------------- */
+.prose {
+  font-size: 1.0625rem;
+  line-height: 1.72;
+  color: var(--ink);
+  max-width: 72ch;
+}
+.prose h2 {
+  font-size: 1.45rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin: 2.6rem 0 0.9rem;
+  padding-top: 0.4rem;
+  scroll-margin-top: 5rem;
+}
+.prose h3 {
+  font-size: 1.15rem;
+  font-weight: 640;
+  margin: 1.8rem 0 0.6rem;
+  scroll-margin-top: 5rem;
+}
+.prose p { margin: 0.85rem 0; }
+.prose ul, .prose ol { margin: 0.85rem 0; padding-left: 1.4rem; }
+.prose li { margin: 0.3rem 0; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose strong { color: var(--ink); font-weight: 660; }
+.prose code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.86em;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+.prose pre {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  margin: 1.2rem 0;
+}
+.prose pre code { background: none; border: none; padding: 0; }
+.prose blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 1.2rem 0;
+}
+.prose a { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+.prose table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; font-size: 0.95rem; }
+.prose th, .prose td { border: 1px solid var(--border); padding: 0.5rem 0.7rem; text-align: left; }
+.prose th { background: var(--bg-soft); font-weight: 640; }
+
+/* Anchor link affordance on hover */
+.prose h2:hover .heading-anchor,
+.prose h3:hover .heading-anchor { opacity: 1; }
+.heading-anchor { opacity: 0; transition: opacity 0.15s; text-decoration: none; color: var(--ink-faint); }
+
+/* ---------------------------------------------------------------------------
+   Reusable surface classes
+--------------------------------------------------------------------------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.8rem;
+  box-shadow: var(--shadow);
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  color: var(--ink-soft);
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 540;
+  transition: background 0.15s, border-color 0.15s, transform 0.05s;
+}
+.btn:hover { background: var(--bg-soft); }
+.btn:active { transform: translateY(1px); }
+.btn-accent { background: var(--accent); color: #fff; border-color: var(--accent); }
+.btn-accent:hover { filter: brightness(1.06); background: var(--accent); }
+
+.reading-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  background: var(--accent);
+  width: 0;
+  z-index: 60;
+  transition: width 0.1s linear;
+}
+
+/* print */
+@media print {
+  header, footer, .no-print { display: none !important; }
+  .prose { max-width: none; font-size: 11pt; }
+  a { color: inherit; text-decoration: none; }
+}

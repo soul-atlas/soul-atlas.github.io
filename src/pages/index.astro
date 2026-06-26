@@ -1,0 +1,147 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SoulCard from '../components/SoulCard.astro';
+import { souls, stats, categories } from '../lib/data';
+import { url, GITHUB_URL, SITE } from '../lib/site';
+
+// Occupation of the Day — deterministic per day so SSG output is stable but rotates.
+const dayIndex = Math.floor(Date.parse('2026-06-26') / 86400000) % Math.max(1, souls.length);
+const ofTheDay = souls[dayIndex];
+
+const featured = souls
+  .filter((s) => s.status === 'stable')
+  .sort((a, b) => b.completeness - a.completeness || b.wordCount - a.wordCount)
+  .slice(0, 6);
+
+const totalWords = stats.totals.words as number;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: 'https://open-soul.github.io',
+  description: SITE.description,
+};
+---
+
+<Layout jsonLd={jsonLd}>
+  <!-- Hero -->
+  <section class="border-b" style="border-color:var(--border)">
+    <div class="mx-auto max-w-5xl px-4 py-20 text-center">
+      <div class="mb-5 inline-flex items-center gap-2 chip">
+        <span class="inline-block h-1.5 w-1.5 rounded-full" style="background:var(--accent)"></span>
+        Open · MIT-licensed · {souls.length.toLocaleString('en-US')} SOULs and growing
+      </div>
+      <h1 class="mx-auto max-w-3xl text-4xl font-bold leading-[1.1] tracking-tight sm:text-6xl" style="color:var(--ink)">
+        How experts <span style="color:var(--accent)">think</span>.
+      </h1>
+      <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed" style="color:var(--ink-soft)">
+        A SOUL captures the tacit knowledge of a practitioner — the goals, instincts, mental models, tradeoffs, and
+        judgment behind a way of thinking. Not documentation. Not a prompt. A portrait of a mind at work.
+      </p>
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+        <a href={url('/occupations')} class="btn btn-accent">Explore the Atlas</a>
+        <a href={url('/graph')} class="btn">See the graph</a>
+        <a href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`} class="btn">Contribute a SOUL</a>
+      </div>
+      <p class="mt-6 text-xs" style="color:var(--ink-faint)">
+        Press <kbd class="rounded border px-1" style="border-color:var(--border)">⌘K</kbd> to search ·
+        {totalWords.toLocaleString('en-US')} words of distilled expertise
+      </p>
+    </div>
+  </section>
+
+  <!-- What is a SOUL -->
+  <section class="mx-auto max-w-5xl px-4 py-16">
+    <h2 class="text-2xl font-semibold tracking-tight" style="color:var(--ink)">What is a SOUL?</h2>
+    <p class="mt-3 max-w-3xl text-base leading-relaxed" style="color:var(--ink-soft)">
+      Documentation answers <em>“what does an architect know?”</em> A SOUL answers
+      <em>“how does an excellent architect <strong>think</strong>?”</em> Each SOUL is a structured Markdown file that
+      distills a way of thinking into its mental models, decision frameworks, heuristics, failure modes, and the
+      questions an expert keeps running in the background.
+    </p>
+
+    <div class="mt-8 grid gap-4 md:grid-cols-3">
+      <div class="card p-5">
+        <div class="mb-2 text-sm font-semibold" style="color:var(--ink)">A SOUL is not documentation</div>
+        <p class="text-sm leading-relaxed" style="color:var(--ink-soft)">
+          Docs describe a system or a procedure. A SOUL describes the <em>judgment</em> that chooses between procedures
+          — why an expert reaches for one tool over another when no rule applies.
+        </p>
+      </div>
+      <div class="card p-5">
+        <div class="mb-2 text-sm font-semibold" style="color:var(--ink)">A SOUL is not a prompt</div>
+        <p class="text-sm leading-relaxed" style="color:var(--ink-soft)">
+          A prompt instructs a model for one task. A SOUL is a durable, human-readable artifact about a domain — useful
+          on its own, citable, and versioned — that <em>can</em> ground a prompt but isn't one.
+        </p>
+      </div>
+      <div class="card p-5">
+        <div class="mb-2 text-sm font-semibold" style="color:var(--ink)">For humans and AI alike</div>
+        <p class="text-sm leading-relaxed" style="color:var(--ink-soft)">
+          Read one to onboard into a field in an afternoon. Or feed the machine-readable
+          <a href={url('/api/index.json')} class="underline">JSON API</a> to a system that needs to reason the way a
+          domain expert would.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Occupation of the day + featured -->
+  {
+    ofTheDay && (
+      <section class="border-y" style="border-color:var(--border); background:var(--bg-soft)">
+        <div class="mx-auto max-w-5xl px-4 py-12">
+          <div class="flex items-baseline justify-between">
+            <h2 class="text-xl font-semibold tracking-tight" style="color:var(--ink)">
+              Occupation of the day
+            </h2>
+            <a href={url('/random')} class="text-sm hover:underline" style="color:var(--accent)">
+              Surprise me →
+            </a>
+          </div>
+          <a
+            href={url(`/occupations/${ofTheDay.slug}`)}
+            class="card mt-4 block p-6 transition-transform hover:-translate-y-0.5"
+            style="text-decoration:none"
+          >
+            <div class="text-sm" style="color:var(--ink-faint)">
+              {ofTheDay.category}
+            </div>
+            <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">
+              {ofTheDay.title}
+            </div>
+            <p class="mt-2 max-w-3xl leading-relaxed" style="color:var(--ink-soft)">
+              {ofTheDay.summary}
+            </p>
+          </a>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="mx-auto max-w-5xl px-4 py-16">
+    <div class="flex items-baseline justify-between">
+      <h2 class="text-xl font-semibold tracking-tight" style="color:var(--ink)">Featured SOULs</h2>
+      <a href={url('/occupations')} class="text-sm hover:underline" style="color:var(--accent)">Browse all →</a>
+    </div>
+    <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {featured.map((s) => <SoulCard soul={s} />)}
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="mx-auto max-w-5xl px-4 pb-16">
+    <h2 class="text-xl font-semibold tracking-tight" style="color:var(--ink)">Browse by domain</h2>
+    <div class="mt-5 flex flex-wrap gap-2">
+      {
+        categories.map((c) => (
+          <a href={url(`/categories/${c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)} class="chip hover:underline">
+            {c.name}
+            <span style="color:var(--ink-faint)">{c.count}</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Layout>

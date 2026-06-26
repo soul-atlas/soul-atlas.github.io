@@ -1,0 +1,76 @@
+---
+import { url, GITHUB_URL, SITE } from '../lib/site';
+import { souls } from '../lib/data';
+
+const sections = [
+  {
+    title: 'Browse',
+    links: [
+      { label: 'All occupations', href: url('/occupations') },
+      { label: 'Knowledge graph', href: url('/graph') },
+      { label: 'Dashboard', href: url('/dashboard') },
+      { label: 'Compare minds', href: url('/compare') },
+      { label: 'Random SOUL', href: url('/random') },
+    ],
+  },
+  {
+    title: 'Contribute',
+    links: [
+      { label: 'How to contribute', href: `${GITHUB_URL}/blob/main/CONTRIBUTING.md` },
+      { label: 'Style guide', href: `${GITHUB_URL}/blob/main/STYLE_GUIDE.md` },
+      { label: 'Governance', href: `${GITHUB_URL}/blob/main/GOVERNANCE.md` },
+      { label: 'Roadmap', href: `${GITHUB_URL}/blob/main/ROADMAP.md` },
+    ],
+  },
+  {
+    title: 'Machine-readable',
+    links: [
+      { label: 'API index', href: url('/api/index.json') },
+      { label: 'All occupations (JSON)', href: url('/api/occupations.json') },
+      { label: 'Knowledge graph (JSON)', href: url('/api/graph.json') },
+      { label: 'RSS — recent changes', href: url('/rss.xml') },
+    ],
+  },
+];
+---
+
+<footer class="no-print mt-20 border-t" style="border-color:var(--border); background:var(--bg-soft)">
+  <div class="mx-auto max-w-6xl px-4 py-12">
+    <div class="grid gap-10 md:grid-cols-4">
+      <div>
+        <div class="mb-2 font-semibold" style="color:var(--ink)">SOUL Atlas</div>
+        <p class="text-sm" style="color:var(--ink-soft)">
+          {SITE.tagline} An open, MIT-licensed collection of {souls.length.toLocaleString('en-US')} structured portraits
+          of expert thinking.
+        </p>
+      </div>
+      {
+        sections.map((s) => (
+          <nav aria-label={s.title}>
+            <div class="mb-3 text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
+              {s.title}
+            </div>
+            <ul class="space-y-1.5 text-sm">
+              {s.links.map((l) => (
+                <li>
+                  <a href={l.href} style="color:var(--ink-soft)" class="hover:underline">
+                    {l.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))
+      }
+    </div>
+    <div
+      class="mt-10 flex flex-col gap-2 border-t pt-6 text-xs sm:flex-row sm:items-center sm:justify-between"
+      style="border-color:var(--border); color:var(--ink-faint)"
+    >
+      <div>MIT Licensed · Free to reuse, remix, redistribute, and train on.</div>
+      <div>
+        Built with Astro · <a href={GITHUB_URL} class="hover:underline" style="color:var(--ink-soft)">Edit on GitHub</a>
+      </div>
+    </div>
+  </div>
+</footer>

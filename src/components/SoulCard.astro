@@ -1,0 +1,37 @@
+---
+import type { SoulSummary } from '../lib/data';
+import { categoryColor } from '../lib/data';
+import { soulUrl, categoryUrl } from '../lib/site';
+
+interface Props {
+  soul: SoulSummary;
+  compact?: boolean;
+}
+const { soul, compact = false } = Astro.props;
+const color = categoryColor(soul.category);
+---
+
+<a
+  href={soulUrl(soul.slug)}
+  class="card group flex flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5"
+  style="text-decoration:none"
+>
+  <div class="flex items-center justify-between gap-2">
+    <span
+      class="inline-flex items-center gap-1.5 text-xs font-medium"
+      style={`color:${color}`}
+    >
+      <span class="inline-block h-2 w-2 rounded-full" style={`background:${color}`}></span>
+      {soul.category}
+    </span>
+    {soul.difficulty && <span class="chip capitalize">{soul.difficulty}</span>}
+  </div>
+  <h3 class="text-base font-semibold leading-snug" style="color:var(--ink)">{soul.title}</h3>
+  {!compact && <p class="text-sm leading-relaxed" style="color:var(--ink-soft)">{soul.summary}</p>}
+  <div class="mt-auto flex items-center gap-3 pt-1 text-xs" style="color:var(--ink-faint)">
+    <span>{soul.readingTimeMinutes} min read</span>
+    <span>·</span>
+    <span>{soul.wordCount.toLocaleString('en-US')} words</span>
+    {soul.backlinks.length > 0 && <><span>·</span><span>{soul.backlinks.length} links</span></>}
+  </div>
+</a>

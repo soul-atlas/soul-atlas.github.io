@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SoulCard from '../../components/SoulCard.astro';
+import { souls, tags } from '../../lib/data';
+
+export function getStaticPaths() {
+  return tags.map((t: any) => ({ params: { tag: t.tag }, props: { tag: t.tag } }));
+}
+
+const { tag } = Astro.props;
+const list = souls.filter((s) => (s.tags || []).includes(tag)).sort((a, b) => a.title.localeCompare(b.title));
+---
+
+<Layout title={`#${tag}`} description={`SOULs tagged ${tag}.`}>
+  <div class="mx-auto max-w-6xl px-4 py-10">
+    <div class="text-sm" style="color:var(--ink-faint)">Tag</div>
+    <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">#{tag}</h1>
+    <p class="mt-2" style="color:var(--ink-soft)">{list.length} SOULs share this tag.</p>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {list.map((s) => <SoulCard soul={s} />)}
+    </div>
+  </div>
+</Layout>

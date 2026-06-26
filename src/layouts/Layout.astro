@@ -1,0 +1,98 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CommandPalette from '../components/CommandPalette.astro';
+import { SITE } from '../lib/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogType?: string;
+  jsonLd?: Record<string, any> | null;
+  readingProgress?: boolean;
+}
+
+const {
+  title,
+  description = SITE.description,
+  ogType = 'website',
+  jsonLd = null,
+  readingProgress = false,
+} = Astro.props;
+
+const pageTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://open-soul.github.io').href;
+---
+
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="generator" content="SOUL Atlas" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title ?? SITE.name} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:url" content={canonical} />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title ?? SITE.name} />
+    <meta name="twitter:description" content={description} />
+
+    <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.svg`} type="image/svg+xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={`${SITE.name} — recent changes`}
+      href={`${import.meta.env.BASE_URL}rss.xml`}
+    />
+
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+    <!-- Apply the saved theme before paint to avoid a flash. -->
+    <script is:inline>
+      (function () {
+        try {
+          const t = localStorage.getItem('soul-theme');
+          const dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    {readingProgress && <div class="reading-progress" id="reading-progress"></div>}
+    <Header />
+    <main id="main" class="min-h-[70vh]">
+      <slot />
+    </main>
+    <Footer />
+    <CommandPalette />
+
+    {
+      readingProgress && (
+        <script is:inline>
+          (function () {
+            const bar = document.getElementById('reading-progress');
+            if (!bar) return;
+            const onScroll = () => {
+              const h = document.documentElement;
+              const max = h.scrollHeight - h.clientHeight;
+              bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+            };
+            document.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+          })();
+        </script>
+      )
+    }
+  </body>
+</html>

@@ -1,0 +1,154 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { souls } from '../lib/data';
+import { url } from '../lib/site';
+
+const options = [...souls]
+  .sort((a, b) => a.title.localeCompare(b.title))
+  .map((s) => ({ slug: s.slug, title: s.title, category: s.category }));
+---
+
+<Layout
+  title="Compare minds"
+  description="Place two ways of thinking side by side — see shared principles, unique heuristics, and the shortest path between them."
+>
+  <div class="mx-auto max-w-6xl px-4 py-10">
+    <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Compare minds</h1>
+    <p class="mt-2 max-w-2xl" style="color:var(--ink-soft)">
+      Choose two SOULs to read them section by section. Scrolling is synchronized, shared section headings are aligned,
+      and the graph distance between them is computed live.
+    </p>
+
+    <div class="mt-6 grid gap-3 sm:grid-cols-2">
+      <select id="sel-a" class="rounded-md border bg-transparent px-3 py-2 text-sm outline-none" style="border-color:var(--border); color:var(--ink)">
+        <option value="">Select the first mind…</option>
+        {options.map((o) => <option value={o.slug}>{o.title} — {o.category}</option>)}
+      </select>
+      <select id="sel-b" class="rounded-md border bg-transparent px-3 py-2 text-sm outline-none" style="border-color:var(--border); color:var(--ink)">
+        <option value="">Select the second mind…</option>
+        {options.map((o) => <option value={o.slug}>{o.title} — {o.category}</option>)}
+      </select>
+    </div>
+
+    <div id="path" class="mt-4 hidden text-sm" style="color:var(--ink-soft)"></div>
+
+    <label class="mt-4 flex items-center gap-2 text-sm" style="color:var(--ink-soft)">
+      <input type="checkbox" id="sync" checked /> Synchronized scrolling
+    </label>
+
+    <div id="compare" class="mt-6 grid gap-5 lg:grid-cols-2"></div>
+    <div id="hint" class="py-20 text-center" style="color:var(--ink-faint)">Pick two minds above to begin.</div>
+  </div>
+
+  <script is:inline define:vars={{ base: import.meta.env.BASE_URL }}>
+    (function () {
+      const root = base.replace(/\/$/, '');
+      const a = document.getElementById('sel-a');
+      const b = document.getElementById('sel-b');
+      const out = document.getElementById('compare');
+      const hint = document.getElementById('hint');
+      const pathEl = document.getElementById('path');
+      const sync = document.getElementById('sync');
+      const cache = {};
+      let graph = null;
+
+      async function load(slug) {
+        if (!slug) return null;
+        if (cache[slug]) return cache[slug];
+        const rec = await (await fetch(`${root}/api/occupations/${slug}.json`)).json();
+        cache[slug] = rec;
+        return rec;
+      }
+      async function getGraph() {
+        if (!graph) graph = await (await fetch(`${root}/api/graph.json`)).json();
+        return graph;
+      }
+
+      function bfs(g, from, to) {
+        if (from === to) return [from];
+        const adj = new Map(g.nodes.map((n) => [n.id, []]));
+        g.edges.forEach((e) => { adj.get(e.source)?.push(e.target); adj.get(e.target)?.push(e.source); });
+        const prev = new Map(); const seen = new Set([from]); const queue = [from];
+        while (queue.length) {
+          const v = queue.shift();
+          for (const w of adj.get(v) || []) {
+            if (seen.has(w)) continue;
+            seen.add(w); prev.set(w, v);
+            if (w === to) {
+              const p = [to]; let c = to;
+              while (prev.has(c)) { c = prev.get(c); p.unshift(c); }
+              return p;
+            }
+            queue.push(w);
+          }
+        }
+        return null;
+      }
+
+      function colHtml(rec, sharedHeadings) {
+        const secs = rec.sections.map((s) => {
+          const shared = sharedHeadings.has(s.heading);
+          return `<section class="compare-sec" data-heading="${s.heading}">
+            <h3 class="mt-6 mb-2 text-sm font-semibold uppercase tracking-wide" style="color:${shared ? 'var(--accent)' : 'var(--ink-faint)'}">${s.heading}${shared ? ' <span title=\"Shared section\">●</span>' : ''}</h3>
+            <div class="prose" style="font-size:0.95rem">${s.html}</div>
+          </section>`;
+        }).join('');
+        return `<div class="card p-5"><a href="${root}/occupations/${rec.slug}" class="text-xl font-semibold hover:underline" style="color:var(--ink)">${rec.title}</a><div class="text-sm" style="color:var(--ink-faint)">${rec.metadata.category} · ${rec.computed.wordCount.toLocaleString('en-US')} words</div>${secs}</div>`;
+      }
+
+      async function render() {
+        const sa = a.value, sb = b.value;
+        const url = new URL(location.href);
+        if (sa) url.searchParams.set('a', sa); else url.searchParams.delete('a');
+        if (sb) url.searchParams.set('b', sb); else url.searchParams.delete('b');
+        history.replaceState(null, '', url);
+        if (!sa || !sb) { out.innerHTML = ''; hint.classList.remove('hidden'); pathEl.classList.add('hidden'); return; }
+        hint.classList.add('hidden');
+        const [ra, rb] = await Promise.all([load(sa), load(sb)]);
+        const ha = new Set(ra.sections.map((s) => s.heading));
+        const hb = new Set(rb.sections.map((s) => s.heading));
+        const shared = new Set([...ha].filter((h) => hb.has(h)));
+        out.innerHTML = colHtml(ra, shared) + colHtml(rb, shared);
+
+        const g = await getGraph();
+        const p = bfs(g, sa, sb);
+        pathEl.classList.remove('hidden');
+        if (p) {
+          const idToTitle = new Map(g.nodes.map((n) => [n.id, n.title]));
+          pathEl.innerHTML = `<strong>Shortest path (${p.length - 1} hop${p.length - 1 === 1 ? '' : 's'}):</strong> ` +
+            p.map((id) => `<a class="underline" href="${root}/occupations/${id}">${idToTitle.get(id) || id}</a>`).join(' <span style="color:var(--ink-faint)">→</span> ');
+        } else {
+          pathEl.innerHTML = '<em>No path connects these two in the graph yet.</em>';
+        }
+        attachSync();
+      }
+
+      function attachSync() {
+        const cols = out.querySelectorAll('.card');
+        if (cols.length !== 2) return;
+        let lock = false;
+        cols.forEach((col, i) => {
+          col.addEventListener('scroll', () => {
+            if (!sync.checked || lock) return;
+            lock = true;
+            const other = cols[1 - i];
+            const ratio = col.scrollTop / (col.scrollHeight - col.clientHeight || 1);
+            other.scrollTop = ratio * (other.scrollHeight - other.clientHeight);
+            requestAnimationFrame(() => (lock = false));
+          });
+        });
+      }
+
+      a.addEventListener('change', render);
+      b.addEventListener('change', render);
+      const params = new URLSearchParams(location.search);
+      if (params.get('a')) a.value = params.get('a');
+      if (params.get('b')) b.value = params.get('b');
+      if (a.value && b.value) render();
+    })();
+  </script>
+
+  <style>
+    #compare .card { max-height: 80vh; overflow-y: auto; }
+  </style>
+</Layout>

@@ -1,0 +1,377 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import GraphView from '../../components/GraphView.astro';
+import {
+  allRecords,
+  getRecord,
+  souls,
+  graph,
+  getSummary,
+  titleOf,
+  categoryColor,
+  RELATION_LABELS,
+  type RelationshipType,
+} from '../../lib/data';
+import {
+  url,
+  soulUrl,
+  categoryUrl,
+  tagUrl,
+  ghEditUrl,
+  ghHistoryUrl,
+  ghBlameUrl,
+  ghNewIssueUrl,
+} from '../../lib/site';
+
+export function getStaticPaths() {
+  const records = allRecords();
+  const ordered = [...souls].sort((a, b) => a.title.localeCompare(b.title));
+  return records.map((rec) => {
+    const idx = ordered.findIndex((s) => s.slug === rec.slug);
+    const prev = idx > 0 ? ordered[idx - 1] : null;
+    const next = idx < ordered.length - 1 ? ordered[idx + 1] : null;
+    return { params: { slug: rec.slug }, props: { slug: rec.slug, prev, next } };
+  });
+}
+
+const { slug, prev, next } = Astro.props;
+const rec = getRecord(slug)!;
+const summary = getSummary(slug)!;
+const m = rec.metadata;
+const color = categoryColor(m.category);
+
+// Resolve typed relationships (only those that exist), grouped by type.
+const relations = (m.related || [])
+  .filter((r: any) => getSummary(r.slug))
+  .map((r: any) => ({ ...r, title: titleOf(r.slug) }));
+const relationsByType = relations.reduce((acc: Record<string, any[]>, r: any) => {
+  (acc[r.type] ??= []).push(r);
+  return acc;
+}, {});
+
+const backlinks = (rec.computed.backlinks || []).map((s: string) => ({ slug: s, title: titleOf(s) }));
+
+// One-hop neighborhood graph for this occupation.
+const neighborIds = new Set<string>([slug]);
+for (const e of graph.edges) {
+  if (e.source === slug) neighborIds.add(e.target);
+  if (e.target === slug) neighborIds.add(e.source);
+}
+const neighborhood = {
+  nodes: graph.nodes.filter((n) => neighborIds.has(n.id)),
+  edges: graph.edges.filter((e) => neighborIds.has(e.source) && neighborIds.has(e.target)),
+};
+
+const toc = rec.sections.map((s) => ({ id: s.id, heading: s.heading, words: s.wordCount }));
+const updated = rec.git?.updated || m.updated;
+const created = rec.git?.created || m.created;
+const revisions = rec.git?.revisions || 0;
+const authors = rec.git?.authors || [];
+const contributors = Array.from(
+  new Set([...(m.contributors || []), ...authors.map((a: any) => a.name)]),
+);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${rec.title} — SOUL`,
+  description: m.summary,
+  about: { '@type': 'Occupation', name: rec.title },
+  dateCreated: created,
+  dateModified: updated,
+  keywords: (m.tags || []).join(', '),
+  wordCount: rec.computed.wordCount,
+};
+
+const exports = [
+  { label: 'Markdown', href: url(`/api/occupations/${slug}.md`) },
+  { label: 'JSON', href: url(`/api/occupations/${slug}.json`) },
+  { label: 'YAML', href: url(`/api/occupations/${slug}.yaml`) },
+];
+---
+
+<Layout title={rec.title} description={m.summary} ogType="article" jsonLd={jsonLd} readingProgress={true}>
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="mb-6 flex flex-wrap items-center gap-1.5 text-sm" style="color:var(--ink-faint)" aria-label="Breadcrumb">
+      <a href={url('/')} class="hover:underline">Atlas</a>
+      <span>/</span>
+      <a href={url('/occupations')} class="hover:underline">Explore</a>
+      <span>/</span>
+      <a href={categoryUrl(m.category)} class="hover:underline" style={`color:${color}`}>{m.category}</a>
+      <span>/</span>
+      <span style="color:var(--ink-soft)">{rec.title}</span>
+    </nav>
+
+    <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px]">
+      <!-- Main column -->
+      <article>
+        <header class="mb-8">
+          <div class="mb-3 flex flex-wrap items-center gap-2">
+            <span class="inline-flex items-center gap-1.5 text-sm font-medium" style={`color:${color}`}>
+              <span class="inline-block h-2 w-2 rounded-full" style={`background:${color}`}></span>
+              {m.category}
+            </span>
+            {m.difficulty && <span class="chip capitalize">{m.difficulty}</span>}
+            <span class="chip capitalize">{m.status}</span>
+          </div>
+          <h1 class="text-4xl font-bold tracking-tight" style="color:var(--ink)">{rec.title}</h1>
+          <p class="mt-3 max-w-2xl text-lg leading-relaxed" style="color:var(--ink-soft)">{m.summary}</p>
+          {
+            (m.aliases || []).length > 0 && (
+              <p class="mt-2 text-sm" style="color:var(--ink-faint)">
+                Also known as: {m.aliases.join(', ')}
+              </p>
+            )
+          }
+          <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm" style="color:var(--ink-faint)">
+            <span>{rec.computed.readingTimeMinutes} min read</span>
+            <span>· {rec.computed.wordCount.toLocaleString('en-US')} words</span>
+            {updated && <span>· Updated {updated}</span>}
+            <span>· {Math.round(rec.computed.completeness * 100)}% complete</span>
+          </div>
+          {
+            (m.tags || []).length > 0 && (
+              <div class="mt-4 flex flex-wrap gap-2">
+                {m.tags.map((t: string) => (
+                  <a href={tagUrl(t)} class="chip hover:underline">
+                    #{t}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+        </header>
+
+        <!-- The SOUL body -->
+        <div class="prose" id="soul-body">
+          {rec.sections.map((sec) => <Fragment set:html={sec.html} />)}
+        </div>
+
+        <!-- Prev / Next -->
+        <nav class="mt-12 grid gap-3 border-t pt-6 sm:grid-cols-2" style="border-color:var(--border)" aria-label="Pager">
+          {
+            prev ? (
+              <a href={soulUrl(prev.slug)} class="card p-4 transition-transform hover:-translate-y-0.5">
+                <div class="text-xs" style="color:var(--ink-faint)">← Previous</div>
+                <div class="font-medium" style="color:var(--ink)">{prev.title}</div>
+              </a>
+            ) : (
+              <span />
+            )
+          }
+          {
+            next && (
+              <a href={soulUrl(next.slug)} class="card p-4 text-right transition-transform hover:-translate-y-0.5">
+                <div class="text-xs" style="color:var(--ink-faint)">Next →</div>
+                <div class="font-medium" style="color:var(--ink)">{next.title}</div>
+              </a>
+            )
+          }
+        </nav>
+      </article>
+
+      <!-- Sidebar -->
+      <aside class="no-print space-y-6 lg:sticky lg:top-20 lg:self-start">
+        <!-- TOC -->
+        <nav class="card p-4" aria-label="On this page">
+          <div class="mb-2 text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">On this page</div>
+          <ul class="space-y-1 text-sm" id="toc">
+            {
+              toc.map((t) => (
+                <li>
+                  <a href={`#${t.id}`} class="toc-link block truncate py-0.5 hover:underline" style="color:var(--ink-soft)">
+                    {t.heading}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+
+        <!-- Actions -->
+        <div class="card space-y-3 p-4">
+          <div class="text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">This SOUL</div>
+          <div class="flex flex-wrap gap-2">
+            <a href={ghEditUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">Edit</a>
+            <a href={ghHistoryUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">History</a>
+            <a href={ghBlameUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">Blame</a>
+            <a href={ghNewIssueUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">Suggest fix</a>
+            <button class="btn !py-1.5 text-sm" onclick="window.print()">Print / PDF</button>
+          </div>
+          <div class="text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">Export</div>
+          <div class="flex flex-wrap gap-2">
+            {exports.map((e) => <a href={e.href} class="chip hover:underline" download>{e.label}</a>)}
+          </div>
+        </div>
+
+        <!-- Git history -->
+        {
+          revisions > 0 && (
+            <div class="card p-4">
+              <div class="mb-2 text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">History</div>
+              <div class="grid grid-cols-3 gap-2 text-center">
+                <div>
+                  <div class="text-lg font-semibold" style="color:var(--ink)">{revisions}</div>
+                  <div class="text-[11px]" style="color:var(--ink-faint)">revisions</div>
+                </div>
+                <div>
+                  <div class="text-lg font-semibold" style="color:var(--ink)">{authors.length}</div>
+                  <div class="text-[11px]" style="color:var(--ink-faint)">authors</div>
+                </div>
+                <div>
+                  <div class="text-lg font-semibold" style="color:var(--ink)">{created?.slice(0, 4)}</div>
+                  <div class="text-[11px]" style="color:var(--ink-faint)">created</div>
+                </div>
+              </div>
+              {rec.git.timeline.length > 1 && (
+                <div class="mt-3 flex items-end gap-0.5" style="height:32px" title="Revision timeline">
+                  {rec.git.timeline.map(() => (
+                    <span class="flex-1 rounded-sm" style="background:var(--accent); opacity:0.5; height:100%" />
+                  ))}
+                </div>
+              )}
+            </div>
+          )
+        }
+
+        <!-- Contributors -->
+        {
+          contributors.length > 0 && (
+            <div class="card p-4">
+              <div class="mb-2 text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
+                Contributors
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+                {contributors.map((c: string) => (
+                  <span class="chip">{c}</span>
+                ))}
+              </div>
+            </div>
+          )
+        }
+      </aside>
+    </div>
+
+    <!-- Relationships + neighborhood graph -->
+    <section class="mt-14 border-t pt-10" style="border-color:var(--border)">
+      <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+        <div>
+          <h2 class="text-xl font-semibold tracking-tight" style="color:var(--ink)">Related minds</h2>
+          {
+            Object.keys(relationsByType).length === 0 && backlinks.length === 0 ? (
+              <p class="mt-3 text-sm" style="color:var(--ink-soft)">No relationships recorded yet.</p>
+            ) : (
+              <div class="mt-4 space-y-5">
+                {(Object.keys(relationsByType) as RelationshipType[]).map((type) => (
+                  <div>
+                    <div class="mb-2 text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
+                      {RELATION_LABELS[type]}
+                    </div>
+                    <div class="flex flex-col gap-2">
+                      {relationsByType[type].map((r: any) => (
+                        <a href={soulUrl(r.slug)} class="card flex items-center justify-between gap-3 p-3 text-sm hover:-translate-y-0.5">
+                          <span style="color:var(--ink)">{r.title}</span>
+                          {r.note && <span class="text-xs" style="color:var(--ink-faint)">{r.note}</span>}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+                {backlinks.length > 0 && (
+                  <div>
+                    <div class="mb-2 text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
+                      Referenced by
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                      {backlinks.map((b) => (
+                        <a href={soulUrl(b.slug)} class="chip hover:underline">
+                          {b.title}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )
+          }
+        </div>
+        <div>
+          <h2 class="mb-4 text-xl font-semibold tracking-tight" style="color:var(--ink)">Neighborhood</h2>
+          {
+            neighborhood.nodes.length > 1 ? (
+              <GraphView data={neighborhood} focus={slug} height={420} id={`nb-${slug}`} />
+            ) : (
+              <p class="text-sm" style="color:var(--ink-soft)">
+                This SOUL has no graph connections yet. <a href={ghEditUrl(slug)} class="underline">Add some</a>.
+              </p>
+            )
+          }
+          <div class="mt-3 text-center">
+            <a href={url(`/compare?a=${slug}`)} class="btn !py-1.5 text-sm">Compare with another mind →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Enhance headings: anchor links + copy, and scrollspy for the TOC. -->
+  <script is:inline define:vars={{ base: import.meta.env.BASE_URL }}>
+    (function () {
+      const body = document.getElementById('soul-body');
+      if (!body) return;
+      body.querySelectorAll('h2[id], h3[id]').forEach((h) => {
+        const a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.className = 'heading-anchor';
+        a.setAttribute('aria-label', 'Link to this section');
+        a.innerHTML = ' &#128279;';
+        a.style.marginLeft = '0.4rem';
+        a.style.fontSize = '0.8em';
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          const link = location.origin + location.pathname + '#' + h.id;
+          navigator.clipboard?.writeText(link);
+          history.replaceState(null, '', '#' + h.id);
+        });
+        h.appendChild(a);
+      });
+
+      const links = [...document.querySelectorAll('#toc .toc-link')];
+      const map = new Map(links.map((l) => [l.getAttribute('href').slice(1), l]));
+      const obs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((en) => {
+            if (en.isIntersecting) {
+              links.forEach((l) => (l.style.color = 'var(--ink-soft)'));
+              const active = map.get(en.target.id);
+              if (active) active.style.color = 'var(--accent)';
+            }
+          });
+        },
+        { rootMargin: '-10% 0px -75% 0px' },
+      );
+      body.querySelectorAll('h2[id]').forEach((h) => obs.observe(h));
+
+      // Render any mermaid diagrams lazily.
+      const blocks = body.querySelectorAll('code.language-mermaid, pre > code.language-mermaid');
+      if (blocks.length) {
+        import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs')
+          .then(({ default: mermaid }) => {
+            mermaid.initialize({ startOnLoad: false, theme: document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default' });
+            blocks.forEach(async (b, i) => {
+              const pre = b.closest('pre') || b;
+              const code = b.textContent || '';
+              try {
+                const { svg } = await mermaid.render('m' + i, code);
+                const div = document.createElement('div');
+                div.innerHTML = svg;
+                pre.replaceWith(div);
+              } catch (e) {}
+            });
+          })
+          .catch(() => {});
+      }
+    })();
+  </script>
+</Layout>

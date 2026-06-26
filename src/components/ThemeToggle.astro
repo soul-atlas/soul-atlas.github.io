@@ -1,0 +1,43 @@
+---
+// Light/dark toggle. The initial theme is set inline in Layout to avoid FOUC;
+// this only handles user toggles and persistence.
+---
+
+<button id="theme-toggle" class="btn !px-2.5 !py-1.5" aria-label="Toggle dark mode" title="Toggle theme">
+  <svg class="theme-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="2"></circle>
+    <path
+      d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"></path>
+  </svg>
+  <svg class="theme-moon hidden" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"
+    ></path>
+  </svg>
+</button>
+
+<script is:inline>
+  (function () {
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    const sun = btn.querySelector('.theme-sun');
+    const moon = btn.querySelector('.theme-moon');
+    const sync = () => {
+      const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      sun.classList.toggle('hidden', dark);
+      moon.classList.toggle('hidden', !dark);
+    };
+    sync();
+    btn.addEventListener('click', () => {
+      const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const next = dark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try {
+        localStorage.setItem('soul-theme', next);
+      } catch (e) {}
+      sync();
+    });
+  })();
+</script>

@@ -1,0 +1,37 @@
+title: "Software Engineer"
+slug: "software-engineer"
+aliases:
+  - "Software Developer"
+  - "Programmer"
+  - "Coder"
+  - "SWE"
+category: "Technology"
+tags:
+  - software
+  - programming
+  - systems
+  - engineering
+  - computing
+difficulty: advanced
+summary: "Turns ambiguous human intent into systems that behave correctly under conditions nobody fully anticipated, and keeps them working as everything changes underneath."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "site-reliability-engineer", type: "adjacent", note: "shares operational mindset; optimizes for survival over features" }
+  - { slug: "data-scientist", type: "adjacent", note: "reasons in distributions rather than correctness and state" }
+  - { slug: "product-manager", type: "collaboration", note: "owns the why and what to the engineer's how" }
+  - { slug: "security-engineer", type: "adjacent", note: "thinks adversarially about the same systems" }
+  - { slug: "engineering-manager", type: "progression", note: "common career step from senior engineer" }
+specializations:
+  - "Frontend Engineer"
+  - "Backend Engineer"
+  - "Embedded Systems Engineer"
+country_variants: []
+sources:
+  - { title: "The Pragmatic Programmer", kind: "book" }
+  - { title: "A Philosophy of Software Design", kind: "book" }
+  - { title: "Google SRE Book", url: "https://sre.google/books/", kind: "book" }
+status: stable

@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const bundlePath = `${base}/pagefind/`;
+---
+
+<Layout title="Search" description="Full-text search across every SOUL.">
+  <div class="mx-auto max-w-3xl px-4 py-12">
+    <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Search</h1>
+    <p class="mt-2" style="color:var(--ink-soft)">
+      Full-text search across every SOUL — titles, headings, and body. For quick navigation, press
+      <kbd class="rounded border px-1" style="border-color:var(--border)">⌘K</kbd> anywhere.
+    </p>
+
+    <div id="search" class="mt-8"></div>
+    <noscript>
+      <p class="mt-6" style="color:var(--ink-soft)">Search requires JavaScript. Browse the Atlas instead.</p>
+    </noscript>
+    <p id="search-fallback" class="mt-6 hidden text-sm" style="color:var(--ink-faint)">
+      The search index is built during deployment. Run <code>npm run build</code> locally to generate it, then
+      <code>npm run preview</code>.
+    </p>
+  </div>
+
+  <link href={`${bundlePath}pagefind-ui.css`} rel="stylesheet" />
+  <script is:inline define:vars={{ bundlePath }}>
+    (function () {
+      const fallback = document.getElementById('search-fallback');
+      import(`${bundlePath}pagefind-ui.js`)
+        .then(() => {
+          // eslint-disable-next-line no-undef
+          new PagefindUI({ element: '#search', bundlePath, showSubResults: true, pageSize: 8 });
+        })
+        .catch(() => fallback && fallback.classList.remove('hidden'));
+    })();
+  </script>
+
+  <style is:global>
+    :root {
+      --pagefind-ui-primary: var(--accent);
+      --pagefind-ui-text: var(--ink);
+      --pagefind-ui-background: var(--surface);
+      --pagefind-ui-border: var(--border);
+      --pagefind-ui-tag: var(--bg-soft);
+      --pagefind-ui-border-radius: 0.6rem;
+      --pagefind-ui-font: inherit;
+    }
+  </style>
+</Layout>

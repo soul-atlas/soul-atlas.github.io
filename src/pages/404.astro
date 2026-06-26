@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { url } from '../lib/site';
+---
+
+<Layout title="Not found" description="This page does not exist.">
+  <div class="mx-auto flex max-w-xl flex-col items-center px-4 py-32 text-center">
+    <div class="text-6xl font-bold" style="color:var(--accent)">404</div>
+    <h1 class="mt-4 text-2xl font-semibold" style="color:var(--ink)">This mind isn't mapped yet.</h1>
+    <p class="mt-2" style="color:var(--ink-soft)">
+      The page you're looking for doesn't exist — but the Atlas is always growing.
+    </p>
+    <div class="mt-6 flex gap-3">
+      <a href={url('/occupations')} class="btn btn-accent">Explore the Atlas</a>
+      <a href={url('/random')} class="btn">Random SOUL</a>
+    </div>
+  </div>
+</Layout>
