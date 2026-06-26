@@ -36,7 +36,7 @@ related:
     }
   - {
       slug: 'speech-language-pathologist',
-      type: 'collaboration',
+      type: 'related',
       note: 'partners on the communication development underpinning everything else',
     }
   - {
@@ -46,7 +46,7 @@ related:
     }
   - {
       slug: 'parent',
-      type: 'collaboration',
+      type: 'prerequisite',
       note: "the child's first teacher and the authority on who this child is",
     }
 specializations:

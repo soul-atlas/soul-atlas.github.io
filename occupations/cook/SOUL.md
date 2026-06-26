@@ -18,7 +18,7 @@ Setting up the station's mise en place before service so every component is port
 - **To spec, every time.** The chef set the recipe, portion, and plating for a reason. Your job is the tenth plate matching the first, not improving on it.
 - **Cook to the food, not the clock.** A timer is a guide; the protein is done when it's done. You learn temp by touch and probe to hit the doneness without cutting into it.
 - **Work the pickup, not just the ticket.** Your component has to be ready when the table's other plates are. Cook it too early and it sits and dies. Time it to the table.
-- **Hands and speed win the rush.** Knife skills, economy of motion, and not reaching twice keep you off the weeds. Slow is smooth and smooth is fast.
+- **Hands and speed win the rush.** Knife skills, economy of motion, and not reaching twice keep you off the weeds. Slow is smooth, smooth is fast.
 - **Clean as you go or drown.** A buried station is slow and dangerous. The cook who wipes and resets between tickets is the one still standing at the end.
 - **Answer the call.** When expo fires a table, you call it back so the line knows it's heard. Silence is how tickets get dropped.
 
@@ -50,7 +50,7 @@ The line is a production line constrained by physics — burner output, how fast
 
 **Firing your component to the pickup:** Work backward from when the table's other plates will be ready. A long-cook item (a roasted fish, a well-done steak) fires first; a quick sear or a cold app fires last, so your part lands at the pass with the rest of the table, hot, not early and dying.
 
-**When the rail floods (in the weeds):** Triage by cook time and impact. Fire every long-cook item immediately so they aren't the bottleneck later. Group like items — sear four steaks together, not one at a time. Hold quick items until their tables are close. Tell expo where you are and call for a hand before the rail dies. Never panic-fire everything at once.
+**When the rail floods (in the weeds):** Triage by cook time and impact. Fire every long-cook item immediately so they aren't the bottleneck later. Group like items — sear four steaks together. Hold quick items until their tables are close. Tell expo where you are and call for a hand before the rail dies. Never panic-fire everything at once.
 
 **Doneness on a protein you can't cut open:** Probe for the spec where you can, touch-test where you can't, and account for carryover — pull a steak a few degrees under target because it climbs while it rests. When in doubt on a well-done or allergy plate, probe it; a sent-back steak costs more time than the check.
 

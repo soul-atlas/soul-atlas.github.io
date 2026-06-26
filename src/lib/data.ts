@@ -55,6 +55,12 @@ export interface GitHistory {
   timeline: { date: string; author: string }[];
 }
 
+export interface Citation {
+  apa: string;
+  bibtex: string;
+  text: string;
+}
+
 export interface SoulRecord {
   slug: string;
   title: string;
@@ -67,6 +73,7 @@ export interface SoulRecord {
     backlinks: string[];
   };
   git: GitHistory;
+  citation: Citation;
 }
 
 export interface GraphData {

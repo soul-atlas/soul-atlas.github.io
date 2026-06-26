@@ -1,7 +1,9 @@
 <div align="center">
 
+<!-- Animated hero (assets/banner.gif). The static SVG version is kept at
+     assets/banner.svg as a fallback. Both are reproducible: `npm run banner`. -->
 <a href="https://soul-atlas.github.io">
-  <img src="./assets/banner.svg" alt="SOUL Atlas — a galaxy of connected minds" width="100%" />
+  <img src="./assets/banner.gif" alt="SOUL Atlas — a galaxy of connected minds" width="100%" />
 </a>
 
 # SOUL Atlas

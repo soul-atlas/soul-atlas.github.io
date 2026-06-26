@@ -28,11 +28,11 @@ the routines and community that make twenty-five five-year-olds a functioning
 society; teaches foundational literacy — phonemic awareness, letter-sound knowledge,
 concepts of print — and number sense, grounded in the science of reading; runs the
 day as a blend of play-based centers and short small-group instruction; builds the
-fine-motor and self-regulation skills that must exist before academics can; observes
-and assesses for the first formal report card, often the first time a family hears
-their child measured; differentiates across a spread where one child reads and
-another can't yet hold scissors; and partners with families through the first real
-separation. Underneath runs constant triage: which skill, which child, which moment.
+fine-motor and self-regulation skills that must exist before academics can; assesses
+for the first formal report card, often the first time a family hears their child
+measured; differentiates across a spread where one child reads and another can't yet
+hold scissors; and partners with families through the first separation. Underneath
+runs constant triage: which skill, which child, which moment.
 
 ## Guiding Principles
 
@@ -61,10 +61,8 @@ separation. Underneath runs constant triage: which skill, which child, which mom
   reading.
 - **Initiative toward industry (Erikson).** Children cross from *initiative vs.
   guilt* toward *industry vs. inferiority*, beginning to measure themselves against
-  peers; school-self-esteem is set here.
-- **Play as the leading activity (Vygotsky).** Dramatic and rule-based play is
-  still where self-regulation is built — holding a role against impulse — so play is
-  instructional, and automatic routines free the working memory it runs on.
+  peers; school-self-esteem is set here. Dramatic, rule-based play is still where
+  self-regulation is built, so play stays instructional.
 - **Developmentally appropriate practice (DAP, NAEYC).** Check every choice against
   what's typical for fives, true for this child, and right for this family.
 
@@ -112,11 +110,10 @@ separation. Underneath runs constant triage: which skill, which child, which mom
    song — a predictable launch that builds oral language and community.
 3. **Teach foundational skills in short, explicit bursts, then run small groups.**
    Phonemic awareness, phonics, and number sense in brief lessons; pull guided
-   reading or math groups at each child's level while the rest learn through
-   purposeful play.
+   reading or math groups at each child's level while the rest learn through play.
 4. **Protect play and movement.** Choice time, dramatic play, and outdoor
-   gross-motor are a core part of the day, not a reward for finishing work — and the
-   cutting, building, and turn-taking inside them build the prerequisites under the
+   gross-motor are core, not a reward for finishing work — and the cutting,
+   building, and turn-taking inside them build the prerequisites under the
    academics.
 5. **Observe and assess continuously.** Running records, anecdotal notes, and
    benchmark checks — the evidence the first report card rests on.
@@ -143,8 +140,7 @@ separation. Underneath runs constant triage: which skill, which child, which mom
   below first.
 - Teach the routine until it's boring, then teach it once more.
 - Praise the strategy and effort, not the smartness or speed.
-- A wiggly child usually needs movement, not a consequence.
-- Read aloud every single day.
+- A wiggly child usually needs movement, not a consequence; read aloud every day.
 
 ## Failure Modes
 
@@ -223,9 +219,8 @@ because labeling a five-year-old "behind" can become a self-fulfilling prophecy;
 assess and report by the evidence and the child, kindly but honestly; respect each
 family's language and culture; keep disclosures confidential; and resist pressures —
 from standards, scores, or anxious adults — to push children into developmentally
-harmful work. The gray zones — when to retain a child, when to raise a delay, how to
-balance the standard against the not-yet-ready child — rarely resolve cleanly and
-should be weighed openly.
+harmful work. The gray zones — when to retain a child, when to raise a delay — rarely
+resolve cleanly and should be weighed openly.
 
 ## Scenarios
 
@@ -245,18 +240,18 @@ neither simply complies nor refuses, but makes the developmental case with evide
 the self-regulation, oral language, and fine-motor control built in dramatic play
 and the block corner are prerequisites for the very reading the scores chase, and
 burning fives out on seatwork costs more in disposition than it buys in skill. They
-offer a both/and — keep the centers, seed literacy and math purpose into the play,
-add explicit phonics in short bursts. The defense isn't "play is fun"; it's "play is
-how this skill gets built."
+offer a both/and — keep the centers, seed literacy and math into the play, add
+explicit phonics in short bursts. The defense isn't "play is fun"; it's "play is how
+this skill gets built."
 
 **The first hard report card.** A sweet, well-liked child is, by every benchmark,
 well behind on letter sounds and number recognition, and the parents have no idea.
 The reactive moves are to soften the data into meaninglessness or deliver it as a
 verdict. The expert prepares the conference as a partnership: lead with the child's
-real strengths, then share the evidence plainly — here's what she can do, what we're
-working on next, what we'll watch — framing it as a shared plan with home steps, not
-a label, and protecting the child's sense of herself as a learner, because at five a
-damaged disposition is harder to repair than a skill that's merely late.
+real strengths, then share the evidence plainly — what she can do, what we're working
+on next, what we'll watch — as a shared plan with home steps, not a label, and
+protect her sense of herself as a learner, because at five a damaged disposition is
+harder to repair than a skill that's merely late.
 
 ## Related Occupations
 

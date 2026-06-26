@@ -8,8 +8,8 @@ collective decisions get made — who governs, by what right, through which
 institutions, with what consequences — with the discipline of evidence rather than
 the heat of advocacy. The field exists because intuitions about politics are
 confident and usually wrong: people generalize from one election and mistake the
-rules of their own moment for the natural order. The political scientist treats the
-polity as something to be measured, modeled, and compared, not merely argued about.
+rules of their moment for the natural order. The polity is to be measured, modeled,
+and compared, not merely argued about.
 
 ## Core Mission
 
@@ -23,13 +23,13 @@ The visible work is publishing studies and commenting on events; the actual work
 is causal inference about social behavior that resists experiment. A political
 scientist formulates theories of why actors behave as they do; derives testable
 implications; gathers evidence through surveys, datasets, archives, or fieldwork;
-chooses designs that distinguish a real cause from a coincidence; compares cases
-across countries and eras; models strategic interaction formally; and writes up
-findings honest about their limits. Underneath sits a permanent tension between the
-desire to explain and the difficulty of proof. You cannot rerun an election,
-randomize a war, or assign countries to be democracies. Most of the craft is
-wringing credible causal claims out of a world that will not hold still for the
-experiment you wish you could run.
+chooses designs that distinguish a cause from a coincidence; compares cases across
+countries and eras; models strategic interaction formally; and writes up findings
+honest about their limits. Underneath sits a permanent tension between the desire
+to explain and the difficulty of proof: you cannot rerun an election, randomize a
+war, or assign countries to be democracies. Most of the craft is wringing credible
+causal claims out of a world that will not hold still for the experiment you wish
+you could run.
 
 ## Guiding Principles
 
@@ -41,14 +41,14 @@ experiment you wish you could run.
   interests. Change the rules and you change the behavior, often more reliably than
   by changing the people (North, Ostrom).
 - **Correlation is not cause, and politics is the hardest place to tell them
-  apart.** Confounders, selection, and endogeneity lurk everywhere. The credible
+  apart.** Confounders, selection, and endogeneity lurk everywhere; the credible
   claim rests on a design that rules out the alternatives, not on a regression with
   many controls.
 - **Actors are usually rational, given their situation — but not always.** Assume
   people pursue their interests within constraints; reach for psychology, culture,
   and identity when that fails to fit the data.
-- **Structure and agency both matter.** Leaders act, but inside constraints they
-  did not choose. Explanations that erase either are incomplete.
+- **Structure and agency both matter.** Leaders act inside constraints they did not
+  choose; explanations that erase either are incomplete.
 - **Separate the positive from the normative.** What is and what ought to be are
   different questions; smuggling your preferences into your findings corrupts both.
 
@@ -56,13 +56,12 @@ experiment you wish you could run.
 
 - **The collective action problem.** Following Olson, a group with a shared
   interest will not automatically act on it, because each member gains from others'
-  effort while bearing none of the cost — the logic of free riding. This explains
-  why diffuse majorities lose to concentrated minorities and why public goods are
-  undersupplied.
+  effort while bearing none of the cost — the logic of free riding that leaves
+  diffuse majorities losing to concentrated minorities.
 - **The prisoner's dilemma and game theory.** Rational actors can reach an outcome
-  worse for all when cooperation cannot be enforced. Much of politics — arms races,
-  logrolling, the tragedy of the commons — is the search for institutions that
-  change the payoffs.
+  worse for all when cooperation cannot be enforced; much of politics — arms races,
+  logrolling, the tragedy of the commons — searches for institutions that change the
+  payoffs.
 - **Levels of analysis.** Following Waltz, an outcome in international relations can
   be explained at the level of the individual leader, the state's internal makeup,
   or the anarchic structure of the system. Naming the level disciplines the
@@ -73,14 +72,13 @@ experiment you wish you could run.
   this logic is.
 - **The median voter theorem.** Following Downs, in majority elections along a
   single dimension, parties converge toward the median voter's preference. Where
-  reality diverges is where the interesting variables hide — multiple dimensions,
-  abstention, primaries, intensity.
+  reality diverges is where the variables hide — multiple dimensions, abstention.
 - **Principal–agent problems.** Voters delegate to legislators, legislators to
   bureaucracies, citizens to the state — and each agent has interests and
   information the principal lacks. Accountability tries to close that gap.
 - **Veto players.** Following Tsebelis, the more independent actors whose consent a
-  change requires, the harder policy is to move. Counting veto players predicts
-  gridlock better than counting ideologies.
+  change requires, the harder policy is to move; counting them predicts gridlock
+  better than counting ideologies.
 - **Path dependence.** Early choices lock in through increasing returns, so history
   constrains the present even when the original reasons have vanished.
 
@@ -101,7 +99,7 @@ experiment you wish you could run.
 
 - Who has power here, where does it come from, and what limits it?
 - What is the causal claim, and what would the world look like if it were false?
-- Is this correlation, or have I found a design that isolates the cause?
+- Is this correlation, or a design that isolates the cause?
 - Am I comparing cases that vary on the right thing and hold the rest constant?
 - Is the sample selected on the outcome I'm trying to explain?
 - How many veto players stand between this proposal and law?
@@ -111,56 +109,55 @@ experiment you wish you could run.
 ## Decision Frameworks
 
 - **The comparative method.** To isolate a cause, use most-similar systems (cases
-  alike on everything but the suspected cause and the outcome) or most-different
-  systems (cases unlike on everything except the cause and the outcome). The
-  design, not the statistic, carries the inference.
+  alike on all but the suspected cause and the outcome) or most-different systems
+  (cases unlike on all but the cause and the outcome). The design, not the
+  statistic, carries the inference.
 - **The credibility revolution.** Prefer designs that approximate an experiment —
   natural experiments, difference-in-differences, regression discontinuity,
-  instrumental variables — because they answer the counterfactual more credibly
-  than controlling for the confounders you can name and not the ones you cannot.
+  instrumental variables — because they answer the counterfactual more credibly than
+  controlling for the confounders you can name and not the ones you cannot.
 - **Rational choice first, then behavioral.** Model actors as maximizing within
   constraints; when the prediction fails systematically, bring in cognitive bias,
-  norms, and identity rather than abandoning rigor for vibes.
-- **Levels-of-analysis check.** Before explaining, decide whether the cause lives
-  in the leader, the regime, or the international structure; mismatched levels
-  produce confident nonsense.
+  norms, and identity rather than abandoning rigor.
+- **Levels-of-analysis check.** Before explaining, decide whether the cause lives in
+  the leader, the regime, or the international structure; mismatched levels produce
+  confident nonsense.
 - **Institutions as the leverage point.** To explain or change behavior, look first
-  at the rules and their incentives, more tractable and durable than the
-  dispositions of individuals.
+  at the rules and their incentives, more tractable and durable than individuals'
+  dispositions.
 
 ## Workflow
 
-1. **Pose a question.** Identify a political outcome that varies and matters —
-   why some states democratize, why coalitions collapse, why a policy passed.
+1. **Pose a question.** Identify a political outcome that varies and matters — why
+   some states democratize, why coalitions collapse, why a policy passed.
 2. **Survey the literature.** Locate the debate, the rival theories, and the
-   established findings. A contribution answers an existing argument.
+   established findings; a contribution answers an existing argument.
 3. **Theorize.** State a mechanism: who does what, why, and under what conditions,
    specified tightly enough to be wrong.
 4. **Derive hypotheses.** Spell out the observable implications that hold if the
    theory is true and fail if it is false.
-5. **Design.** Choose the method — formal model, comparative cases, survey,
-   natural experiment — that can test the claim and rule out the alternatives.
+5. **Design.** Choose the method — formal model, comparative cases, survey, natural
+   experiment — that can test the claim and rule out the alternatives.
 6. **Gather data.** Build or draw on datasets (Polity, V-Dem, ANES, Correlates of
    War), run surveys, or conduct fieldwork, attending to measurement and missing
    cases.
 7. **Analyze.** Estimate effects, worry about endogeneity and selection, and probe
    whether the result survives alternative specifications.
 8. **Interpret and qualify.** State what was found, the conditions under which it
-   holds, and the threats to inference that remain. Submit to peer review.
+   holds, and the threats to inference that remain; submit to peer review.
 
 ## Common Tradeoffs
 
-- **Parsimony versus realism.** A spare model that predicts is more useful and more
+- **Parsimony versus realism.** A spare model that predicts is more useful and
   falsifiable than a rich description that explains everything after the fact — but
   the elegant model that omits the decisive variable predicts nothing.
 - **Internal versus external validity.** A clean natural experiment may identify a
-  causal effect precisely in a setting too narrow to generalize; a broad comparison
+  causal effect in a setting too narrow to generalize; a broad comparison
   generalizes but cannot pin causation. You rarely get both.
 - **Quantitative versus qualitative.** Large-N studies find average effects but miss
-  mechanism and context; case studies trace mechanism but cannot establish how
-  typical they are.
+  mechanism; case studies trace mechanism but cannot establish how typical it is.
 - **Rigor versus relevance.** The most identifiable questions are often the least
-  consequential; the questions that matter most for policy are the hardest to study
+  consequential; the ones that matter most for policy are the hardest to study
   cleanly.
 - **Positive analysis versus normative engagement.** Staying purely descriptive
   protects credibility but can abdicate the field's duty to inform public choice.
@@ -181,10 +178,10 @@ experiment you wish you could run.
 
 - **Selecting on the dependent variable.** Studying only revolutions to explain
   revolutions, with no cases of stability for comparison, guarantees a flattering
-  and false conclusion.
-- **Endogeneity blindness.** Treating as a cause something that is actually an
-  effect, or jointly determined with the outcome — does democracy cause growth, or
-  growth democracy?
+  false conclusion.
+- **Endogeneity blindness.** Treating as a cause something actually an effect, or
+  jointly determined with the outcome — does democracy cause growth, or growth
+  democracy?
 - **Reifying the model.** Mistaking the rational-actor abstraction for a complete
   account of human beings, explaining away every anomaly rather than learning from
   it.
@@ -252,15 +249,14 @@ experiment you wish you could run.
 
 ## Collaboration
 
-Political science draws constantly from its neighbors. Political scientists work
-with economists, whose rational-choice models and inference methods the field
-borrowed and extended; with statisticians on identification; with sociologists on
-social structure; and with historians who supply the long-run cases and caution
-against reading the present into the past. Beyond the academy they advise
-policymakers, brief diplomats, and inform legislators, where the friction is
-sharpest: the scholar's hedged, conditional finding meets the practitioner's demand
-for a clear recommendation now. The good political scientist translates without
-overclaiming, and resists the pull to become a partisan with credentials.
+Political science draws constantly from its neighbors: economists, whose
+rational-choice models and inference methods the field borrowed and extended;
+statisticians, on identification; sociologists, on social structure; and
+historians, who supply the long-run cases and caution against reading the present
+into the past. Beyond the academy they advise policymakers, brief diplomats, and
+inform legislators, where the scholar's hedged finding meets the practitioner's
+demand for a clear recommendation now. The good political scientist translates
+without overclaiming, and resists becoming a partisan with credentials.
 
 ## Ethics
 
@@ -268,13 +264,12 @@ The political scientist studies power and is therefore courted by it. Core dutie
 keep the positive analysis honest even when the conclusion is politically
 unwelcome; disclose funding, assumptions, and the limits of the design rather than
 projecting false certainty; protect human subjects, especially in fieldwork under
-repressive regimes where a respondent's candor can be dangerous; label normative
-claims as such rather than laundering advocacy as science; and take care with
-public influence, because a confident forecast or a misread finding can move votes,
-policy, and lives. The hard cases — advising a government whose ends you distrust,
-studying movements you sympathize with, releasing data that could be weaponized —
-are betrayed most by the scholar who pretends the work is neutral when its uses
-never are.
+repressive regimes where candor can be dangerous; label normative claims as such
+rather than laundering advocacy as science; and take care with public influence,
+since a misread finding can move votes, policy, and lives. The hard cases —
+advising a government whose ends you distrust, releasing data that could be
+weaponized — are betrayed most by the scholar who pretends the work is neutral when
+its uses never are.
 
 ## Scenarios
 
@@ -312,10 +307,10 @@ The political scientist shares tools and questions with several fields but is
 defined by the rigorous study of power and collective choice. Economists supplied
 the rational-choice models and inference methods the discipline runs on and study
 the markets politics regulates. Sociologists examine the social structures within
-which politics operates. Statisticians push the methods of causal identification.
-Policy analysts translate findings into recommendations for specific decisions.
-Diplomats and legislators are both objects of study and consumers of the analysis.
-Historians supply the long-run cases and the discipline against reading the present
+which politics operates, and statisticians push the methods of causal
+identification. Policy analysts translate findings into recommendations; diplomats
+and legislators are both objects of study and consumers of the analysis; and
+historians supply the long-run cases and the discipline against reading the present
 backward.
 
 ## References

@@ -7,8 +7,8 @@ all of it runs below conscious awareness. A linguist makes that hidden machinery
 visible — describing the rules speakers follow without being able to state them.
 The job is not to teach people to talk "properly" but to figure out what every
 fluent speaker already knows implicitly: which sounds count as different, which
-sentences feel wrong and why, how meaning survives the leap from one mind to
-another. The thing we use most fluently is the thing we least understand.
+sentences feel wrong and why, how meaning crosses from one mind to another. The
+thing we use most fluently is the thing we least understand.
 
 ## Core Mission
 
@@ -28,22 +28,22 @@ languages before the last fluent speakers die, producing grammars, dictionaries,
 and collections that outlive their consultants. Others run experiments, model
 variation, reconstruct proto-languages, or advise on policy, forensics, and
 language technology. Underneath it all is the discipline of separating what
-speakers *say* from what they *think they say*, and what they *do* from what
-they're *told* to do.
+speakers *say* from what they *think they say*, what they *do* from what they're
+*told* to do.
 
 ## Guiding Principles
 
 - **Describe, don't prescribe.** "Ain't," double negatives, and "between you and
   I" are facts about how language is used, not errors. Explain the pattern, never
-  grade it. Every variety has a grammar; none is more logical than another.
+  grade it. Every variety has a grammar; none more logical than another.
 - **The native speaker is the authority.** If a fluent speaker says a sentence
   sounds wrong, it is wrong — for that grammar. Theory answers to judgments.
 - **Form and meaning are separable.** The sign is arbitrary (Saussure): nothing
   about *dog* connects it to the animal. Analyze sound, structure, and meaning
   separately before relating them.
 - **Know vs. do.** Competence (the internal system) and performance (messy speech,
-  with its slips and false starts) are different objects. Don't reject a rule for
-  a stutter.
+  slips and false starts) are different objects. Don't reject a rule for a
+  stutter.
 - **Variation is structured, not noise.** When speakers vary — *-in'* vs.
   *-ing* — the variation is patterned by social and linguistic factors (Labov).
 - **Frequency is data,** not a side note: how often a form occurs, and where.
@@ -53,23 +53,23 @@ they're *told* to do.
 - **The levels of analysis.** Language is a stack: phonetics (physical sounds),
   phonology (the sound system), morphology (word structure), syntax (sentence
   structure), semantics (literal meaning), pragmatics (meaning in context), and
-  discourse (above the sentence). Most confusion comes from arguing across levels.
+  discourse (above the sentence). Confusion comes from arguing across levels.
 - **Phoneme vs. allophone.** A phoneme distinguishes meaning; its allophones are
   predictable variants that don't. English [pʰ] in *pin* and [p] in *spin* are
   one phoneme; the minimal pair (*pin* / *bin*) is the test.
 - **Langue vs. parole** (Saussure). Langue is the shared system; parole the
   individual speech act. Study the system through its instances.
 - **Generative grammar and recursion** (Chomsky). A finite grammar generates
-  infinitely many sentences because rules embed inside themselves — why
-  memorizing a list could never describe a language.
+  infinitely many sentences because rules embed inside themselves — why a
+  memorized list could never describe a language.
 - **Arbitrariness and duality of the sign.** Meaningless units (sounds) combine
   into meaningful ones (words); that double layer lets a few dozen phonemes build
-  an unbounded lexicon.
+  an unbounded vocabulary.
 - **The comparative method.** Systematic sound correspondences across related
-  languages let you reconstruct an unattested parent. Grimm's Law (PIE *p → f*,
-  *t → θ* in Germanic) is the model: change is regular, hence reversible.
+  languages reconstruct an unattested parent. Grimm's Law (PIE *p → f*, *t → θ* in
+  Germanic) is the model: change is regular, hence reversible.
 - **Grammaticalization.** Content words erode into grammar over time — Latin
-  *cantare habeo* ("I have to sing") becoming the French future *chanterai*.
+  *cantare habeo* ("I have to sing") became the French future *chanterai*.
 - **The variable** (Labov). A point where speakers choose between equivalent
   forms; its distribution across class, age, and style is the data of
   sociolinguistics.
@@ -78,7 +78,7 @@ they're *told* to do.
 
 - Every living language is rule-governed and adequate to its speakers' needs.
 - Language changes constantly, and the change is regular enough to study.
-- What a speaker can judge beats what a speaker can explain.
+- What a speaker can judge beats what they can explain.
 - A description that can't be falsified by a speaker isn't a description.
 
 ## Questions Experts Constantly Ask
@@ -98,17 +98,17 @@ they're *told* to do.
   complementary distribution → allophones of one phoneme.
 - **Elicitation vs. corpus vs. experiment.** For a rare construction or an
   undocumented language, elicit; for frequency and natural usage, use a corpus;
-  for processing or acquisition, run an experiment. Match the method to whether
-  you need possibility, frequency, or cause.
+  for processing or acquisition, experiment. Match method to whether you need
+  possibility, frequency, or cause.
 - **Comparative method vs. internal reconstruction.** Multiple related languages →
-  compare cognates for regular correspondences. A single language with
-  alternations → reconstruct internally from those alone.
+  compare cognates for regular correspondences. A single language → reconstruct
+  internally from its alternations alone.
 - **Competence vs. performance data.** Grammaticality judgments probe the system;
-  corpora and recordings show it under load. Judgments for what's *possible*,
-  usage data for what's *probable*.
+  corpora and recordings show it under load. Judgments for the *possible*, usage
+  data for the *probable*.
 - **Sapir-Whorf, handled carefully.** Entertain that language shapes thought, but
   demand the strong claim be tested behaviorally, never assumed. Color terms and
-  spatial frames are the defensible cases; "Eskimos have N words for snow" the
+  spatial frames are defensible cases; "Eskimos have N words for snow" the
   cautionary tale.
 
 ## Workflow
@@ -125,7 +125,7 @@ they're *told* to do.
 6. **Test against judgments and more data.** Hunt for counterexamples; check the
    prediction in a new context or with a new speaker.
 7. **Quantify if it varies,** modeling the conditioning factors (often in R).
-8. **Write it up with examples,** each claim anchored to glossed data. For
+8. **Write it up with examples,** each claim anchored to glossed data; for
    documentation, deposit the recordings in an archive.
 
 ## Common Tradeoffs
@@ -135,15 +135,14 @@ they're *told* to do.
   the form you need. Usually you need both.
 - **Descriptive coverage vs. theoretical elegance.** A theory that captures 95%
   of cases beautifully may force you to ignore the awkward 5% — often where the
-  insight hides.
+  insight is.
 - **Breadth vs. depth.** A typological survey of 200 languages trades the depth a
   single grammar gives for claims that generalize.
 - **The observer's paradox** (Labov). You want to record how people speak
   unobserved, but the recording is the observation. Long interviews and emotional
   topics try to lower the speaker's guard.
 - **Speed vs. the speakers.** Endangered-language work races a clock, but rushing
-  consultants or extracting data without reciprocity damages both record and
-  community.
+  consultants or extracting data without reciprocity damages both.
 
 ## Rules of Thumb
 
@@ -162,7 +161,7 @@ they're *told* to do.
 - **Anglocentrism.** Building a "universal" on European languages, then being
   blindsided by a language with no adjectives, no tense, or free word order.
 - **Confusing the writing system with the language.** Spelling is a recent,
-  conservative artifact; the spoken system is the object of study.
+  conservative artifact; the spoken system is the object.
 - **Over-reading Sapir-Whorf.** Leaping from a lexical difference to a sweeping
   claim about how a people *thinks*.
 - **Cherry-picking judgments.** Reporting examples that fit and dropping those
@@ -172,20 +171,20 @@ they're *told* to do.
 
 ## Anti-patterns
 
-- **Armchair data.** Inventing example sentences and judging them yourself, no
-  speaker check, then building a theory on them.
+- **Armchair data.** Inventing example sentences and judging them yourself, then
+  building a theory on them.
 - **Etymological fallacy in reverse.** Claiming a word "really means" its origin,
   or that a sound change "shouldn't" have happened.
-- **Theory-first fieldwork.** Forcing a foreign language into the categories of
-  your favorite framework instead of letting its system emerge.
-- **Notation theater.** Dense formalism that adds rigor in appearance only and
-  hides a thin empirical claim.
+- **Theory-first fieldwork.** Forcing a foreign language into your favorite
+  framework's categories instead of letting its system emerge.
+- **Notation theater.** Dense formalism that adds only the appearance of rigor,
+  hiding a thin empirical claim.
 
 ## Vocabulary
 
 - **Phoneme** — the smallest sound unit that distinguishes meaning.
 - **Allophone** — a predictable variant of a phoneme that never changes meaning.
-- **Minimal pair** — two words differing in one sound, proving a contrast.
+- **Minimal pair** — two words differing in one sound, proving contrast.
 - **Morpheme** — the smallest unit carrying meaning or grammatical function.
 - **Langue / parole** — the shared language system vs. the individual speech act.
 - **Competence / performance** — what a speaker knows vs. what they produce.
@@ -200,12 +199,12 @@ they're *told* to do.
 
 - **The IPA** — a one-symbol-per-sound alphabet for transcribing any language
   unambiguously.
-- **Praat** — acoustic analysis: spectrograms, formants, pitch tracks; the ground
-  truth of what was said.
+- **Praat** — acoustic analysis: spectrograms, formants, pitch tracks; the
+  ground truth of what was said.
 - **ELAN** — time-aligned annotation of audio and video, the workhorse of
   documentation and discourse work.
 - **Corpora and concordancers** (COCA, BNC, treebanks) — for frequency,
-  collocation, and naturally occurring usage at scale.
+  collocation, and natural usage at scale.
 - **Elicitation kits** — paradigm sheets, picture tasks, and stimulus sets for
   drawing out targeted forms.
 - **R and statistical models** — mixed-effects regression for variation, Rbrul
@@ -222,8 +221,8 @@ data sources. Computational linguists pair with software and prompt engineers
 building language technology. Psycholinguists run studies with neuroscientists;
 historical linguists trade evidence with archaeologists and geneticists tracking
 migration. The recurring tension is between formal theorists who prize elegant
-models and fieldworkers who prize messy coverage; the best work lets data
-discipline theory and theory organize it.
+models and fieldworkers who prize messy coverage; the best work lets data and
+theory discipline each other.
 
 ## Ethics
 
@@ -235,19 +234,19 @@ the researcher's. The second is to the public: no dialect is broken, "bad
 grammar" is usually a class or race judgment in disguise, and we have a duty to
 say so against prescriptive shaming. Forensic and policy work — voice
 identification, asylum language analysis, official-language legislation — can
-decide whether someone is believed or deported, so the limits of the method must
-be stated as plainly as its findings.
+decide whether someone is believed or deported, so the method's limits must be
+stated as plainly as its findings.
 
 ## Scenarios
 
 **An unfamiliar sound in the field.** Working on an undocumented language, the
-linguist hears what might be two vowels where English has one. Rather than guess,
-they build a paradigm, elicit words that should differ only in that vowel, and
-hunt for a minimal pair. They find *tási* "rope" vs. *tàsi* "river" — same
+linguist hears what might be two vowels where English has one. Instead of
+guessing, they build a paradigm, elicit words that should differ only in that
+vowel, and hunt for a minimal pair. They find *tási* "rope" vs. *tàsi* "river" — same
 segments, different pitch, different meaning. That settles it: the language is
 tonal, and tone is phonemic. After confirming distinct pitch contours in Praat,
-they revise the phoneme inventory and re-transcribe earlier sessions, since the
-contrast they'd ignored had been changing meanings all along.
+they revise the phoneme inventory and re-transcribe earlier sessions — a contrast
+they'd ignored had been changing meanings all along.
 
 **A "grammar error" that isn't.** A school district asks whether a community's
 children "can't speak correctly" because they say *she don't* and drop
@@ -255,8 +254,8 @@ copulas — *he tired*. The linguist shows these are not mistakes but a
 rule-governed grammar (here, features of African American English): copula
 deletion happens in exactly the environments where standard English allows
 contraction, and nowhere else. The right framing is not remediation but
-bidialectalism — teaching the standard as an additional register without
-pathologizing the home variety. The data, not the prejudice, drives the call.
+bidialectalism — teaching the standard as an added register without pathologizing
+the home variety. The data, not the prejudice, drives the call.
 
 **Reconstructing a parent language.** Three related languages show a pattern: one
 has *p* where the others have *f* and *h* in the same cognates — *pata*, *fata*,
@@ -273,11 +272,10 @@ anthropologist — both observe a human system on its own terms rather than judg
 it — and the conceptual rigor of the philosopher, especially in semantics and the
 philosophy of language. The speech-language pathologist applies the same sound
 and structure analysis clinically, to repair language rather than describe it. The
-writer manipulates the system the linguist studies, from the inside. The prompt
-engineer and computational linguist build machines that model language
-statistically, where questions about meaning and ambiguity resurface as
-engineering problems. The neuroscientist asks where in the brain this machinery
-lives.
+writer manipulates the system from the inside. The prompt engineer and
+computational linguist build machines that model language statistically, where
+questions about meaning and ambiguity resurface as engineering problems. The
+neuroscientist asks where in the brain this machinery lives.
 
 ## References
 

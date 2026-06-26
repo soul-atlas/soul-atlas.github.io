@@ -44,7 +44,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
 - **Fit to the real ear, not the average ear.** Manufacturer settings are a
   guess; real-ear measurement proves what the eardrum receives.
 - **Speech is the goal, not the audiogram.** Thresholds matter because they
-  predict understanding; the patient cares about a grandchild's voice, not dB.
+  predict understanding; the patient cares about a grandchild's voice.
 - **Children are not small adults.** Pediatric loss is a language emergency on a
   developmental clock; method, urgency, and stakes all change.
 - **Know the difference between hearing care and medical care; refer the medical
@@ -97,8 +97,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
 
 - **Type-of-loss algorithm.** Read the air and bone curves: gap present →
   conductive → medical/ENT (wax, effusion, otosclerosis). No gap, both depressed →
-  sensorineural → amplification path, but check symmetry and word recognition
-  first.
+  sensorineural → amplification, but check symmetry and word recognition first.
 - **Red-flag referral gate.** Sudden sensorineural loss (urgent steroid within
   days), asymmetric loss or unilateral tinnitus (image to exclude acoustic
   neuroma), pulsatile tinnitus, otorrhea, vertigo with neurological signs, or
@@ -134,8 +133,7 @@ interpretation — the audiogram is only as good as the clinician reading it.
 ## Common Tradeoffs
 
 - **Amplification vs. medical referral.** A conductive loss might be surgically
-  fixable; fitting an aid over a treatable middle-ear problem masks the wrong
-  solution.
+  fixable; fitting an aid over a treatable middle-ear problem masks it.
 - **Gain vs. comfort and feedback.** More gain improves audibility but risks
   discomfort, feedback, and rejection; the prescription the patient won't wear
   helps nobody.
@@ -143,9 +141,9 @@ interpretation — the audiogram is only as good as the clinician reading it.
   understanding in noise; directional and noise-management features trade gain
   for clarity.
 - **Hearing aid persistence vs. implant referral.** Pushing aids past their
-  usefulness delays a cochlear implant that would restore more.
-- **Cosmetic discretion vs. performance.** Tiny invisible aids limit power,
-  battery, and features.
+  usefulness delays a cochlear implant.
+- **Cosmetic discretion vs. performance.** Tiny invisible aids limit power and
+  features.
 - **Speed vs. certainty in pediatrics.** Move fast for language, but a wrong fit
   on a developing child has consequences — objective tests buy both.
 
@@ -168,13 +166,13 @@ interpretation — the audiogram is only as good as the clinician reading it.
 - **Missing the retrocochlear tumor.** Calling an asymmetric loss "age-related"
   and never imaging the acoustic neuroma behind it.
 - **Treating sudden loss as routine.** Booking a sudden sensorineural loss weeks
-  out and missing the steroid window.
+  out, missing the steroid window.
 - **Masking errors.** Under-masking lets the good ear answer; over-masking shifts
-  thresholds — either way the audiogram is wrong.
+  thresholds — either way the audiogram lies.
 - **Fitting without verification.** Trusting first-fit software and never
   measuring real-ear output, leaving the patient under- or over-amplified.
-- **Over-amplifying distortion.** Cranking gain on a damaged cochlea, making
-  speech less intelligible.
+- **Over-amplifying distortion.** Cranking gain on a damaged cochlea, worsening
+  intelligibility.
 - **Slow pediatric pathway.** Letting a confirmed infant loss drift, spending
   irreplaceable months of language acquisition.
 
@@ -182,13 +180,12 @@ interpretation — the audiogram is only as good as the clinician reading it.
 
 - **The age dismissal** — attributing every loss to aging without checking
   symmetry or red flags.
-- **First-fit-and-forget** — shipping defaults without real-ear verification or
-  follow-up.
-- **Volume as the only lever** — answering every complaint with more gain instead
-  of noise management or referral.
+- **First-fit-and-forget** — shipping defaults without verification or follow-up.
+- **Volume as the only lever** — answering every complaint with gain instead of
+  noise management or referral.
 - **Selling premium tiers by reflex** — fitting the most expensive device rather
   than the one matching the listening needs.
-- **Ignoring the unaided ear** — treating the better ear and leaving asymmetry
+- **Ignoring the unaided ear** — treating one ear and leaving asymmetry
   uninvestigated.
 - **Tinnitus brush-off** — dismissing tinnitus without screening for the
   unilateral or pulsatile patterns signaling pathology.

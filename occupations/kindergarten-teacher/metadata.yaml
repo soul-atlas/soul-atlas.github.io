@@ -36,7 +36,7 @@ related:
     }
   - {
       slug: 'special-education-teacher',
-      type: 'collaboration',
+      type: 'related',
       note: 'takes referral when the developmental spread reveals a true need',
     }
   - {

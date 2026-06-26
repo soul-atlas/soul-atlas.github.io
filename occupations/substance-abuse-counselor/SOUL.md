@@ -159,7 +159,7 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 
 - **"You have to hit rock bottom"** — a myth that justifies withholding help until
   it's too late.
-- **The denial label** — pathologizing ambivalence to dismiss the client.
+- **The denial label** — pathologizing ambivalence to dismiss them.
 - **Abstinence-or-discharge** — kicking out the people most likely to die for doing
   what the disease does.
 - **Substituting your goal for theirs** — running the court's agenda as if it were
@@ -171,8 +171,7 @@ reflex — the urge to fix, warn, and persuade that reliably backfires.
 
 - **Motivational interviewing (MI)** — a collaborative style that strengthens a
   person's own motivation for change by evoking it.
-- **Righting reflex** — the counselor's urge to fix and correct, which provokes
-  resistance.
+- **Righting reflex** — the counselor's urge to fix, which provokes resistance.
 - **Change talk / sustain talk** — client speech favoring change versus the status
   quo.
 - **Stages of change** — precontemplation through maintenance (Transtheoretical
@@ -268,4 +267,4 @@ the line is the specialization in substance use and its harm-reduction logic.
 - *Motivational Interviewing: Helping People Change* — Miller & Rollnick
 - *Transtheoretical Model / Stages of Change* — Prochaska & DiClemente
 - *ASAM Criteria* — American Society of Addiction Medicine
-- *SAMHSA TIP Series* (TIP 35, TIP 63 on MOUD); *NAADAC Code of Ethics*
+- *SAMHSA TIP Series*; *NAADAC Code of Ethics*

@@ -13,11 +13,13 @@ import { buildCorpus, loadSectionSpec } from './lib/corpus.mjs';
 import { soulHistory, repoActivity } from './lib/git.mjs';
 import { computeStats } from './lib/stats.mjs';
 import {
+  SCHEMA_DIR,
   GENERATED_DIR,
   SOULS_OUT_DIR,
   PUBLIC_API_DIR,
   PUBLIC_API_SOULS_DIR,
   GITHUB_URL,
+  SITE_URL,
 } from './lib/paths.mjs';
 
 const statsOnly = process.argv.includes('--stats-only');
@@ -33,6 +35,112 @@ function writeJSON(file, data) {
 function writeText(file, text) {
   ensureDir(path.dirname(file));
   fs.writeFileSync(file, text);
+}
+
+// A stable, reproducible citation for a single SOUL, in three common formats.
+// Authorship combines declared contributors with anyone in the git history.
+function buildCitation(s, git) {
+  const title = s.title;
+  const slug = s.slug;
+  const authors = Array.from(
+    new Set([...(s.metadata.contributors || []), ...(git?.authors || []).map((a) => a.name)]),
+  );
+  if (authors.length === 0) authors.push('SOUL Atlas');
+  const authorText = authors.join(', ');
+  const authorBibtex = authors.join(' and ');
+  const version = git?.updated || s.metadata.updated || git?.created || s.metadata.created || '';
+  const year = (version || `${new Date().getFullYear()}`).slice(0, 4);
+  const recordUrl = `${SITE_URL}/occupations/${slug}`;
+  return {
+    apa: `${authorText} (${year}). ${title} [SOUL]. SOUL Atlas. ${recordUrl}`,
+    bibtex:
+      `@misc{soulatlas-${slug},\n` +
+      `  title        = {${title}},\n` +
+      `  author       = {${authorBibtex}},\n` +
+      `  year         = {${year}},\n` +
+      `  howpublished = {SOUL Atlas},\n` +
+      `  note         = {SOUL.md${version ? `, version ${version}` : ''}},\n` +
+      `  url          = {${recordUrl}}\n` +
+      `}`,
+    text: `${authorText}. "${title}." SOUL Atlas, ${year}. ${recordUrl}.`,
+  };
+}
+
+// A minimal OpenAPI 3.1 description of the static JSON API. The corpus itself is
+// described by the JSON Schemas under /api/schema; this documents the endpoints.
+function openApiDoc(count) {
+  const okJson = { description: 'Success', content: { 'application/json': {} } };
+  return {
+    openapi: '3.1.0',
+    info: {
+      title: 'SOUL Atlas API',
+      version: '1.0.0',
+      description:
+        'A static, read-only JSON API over the SOUL Atlas corpus. Every endpoint is a ' +
+        'pre-rendered file served over HTTPS — no authentication, no rate limits. ' +
+        'The corpus is released under the MIT License; AI training is explicitly welcome.',
+      license: { name: 'MIT', url: `${GITHUB_URL}/blob/main/LICENSE` },
+      contact: { name: 'SOUL Atlas', url: SITE_URL },
+    },
+    servers: [{ url: `${SITE_URL}/api`, description: 'Production' }],
+    'x-corpus': { occupations: count },
+    paths: {
+      '/index.json': {
+        get: { summary: 'API root and endpoint map', responses: { 200: okJson } },
+      },
+      '/occupations.json': {
+        get: {
+          summary: 'Every SOUL as a summary record',
+          responses: { 200: okJson },
+        },
+      },
+      '/categories.json': {
+        get: { summary: 'Categories with counts', responses: { 200: okJson } },
+      },
+      '/tags.json': { get: { summary: 'Tags with counts', responses: { 200: okJson } } },
+      '/graph.json': {
+        get: { summary: 'Knowledge graph: nodes and typed edges', responses: { 200: okJson } },
+      },
+      '/stats.json': {
+        get: { summary: 'All computed analytics', responses: { 200: okJson } },
+      },
+      '/occupations/{slug}.json': {
+        get: {
+          summary: 'Full record: sections, rendered HTML, git history, citation',
+          parameters: [
+            {
+              name: 'slug',
+              in: 'path',
+              required: true,
+              schema: { type: 'string' },
+              example: 'software-engineer',
+            },
+          ],
+          responses: { 200: okJson, 404: { description: 'No such occupation' } },
+        },
+      },
+      '/occupations/{slug}.md': {
+        get: {
+          summary: 'The SOUL as Markdown (with YAML front matter)',
+          parameters: [{ name: 'slug', in: 'path', required: true, schema: { type: 'string' } }],
+          responses: { 200: { description: 'Success', content: { 'text/markdown': {} } } },
+        },
+      },
+      '/occupations/{slug}.yaml': {
+        get: {
+          summary: 'The SOUL as YAML (metadata + sections)',
+          parameters: [{ name: 'slug', in: 'path', required: true, schema: { type: 'string' } }],
+          responses: { 200: { description: 'Success', content: { 'application/yaml': {} } } },
+        },
+      },
+    },
+    components: {
+      schemas: {
+        Metadata: { $ref: `${SITE_URL}/api/schema/metadata.schema.json` },
+        Soul: { $ref: `${SITE_URL}/api/schema/soul.schema.json` },
+      },
+    },
+  };
 }
 
 console.log('• Loading corpus…');
@@ -86,9 +194,10 @@ const lightList = corpus.souls.map((s) => ({
   updated: gitBySlug[s.slug]?.updated || s.metadata.updated,
 }));
 
-// ---- Full records (with rendered HTML + git history) ----
+// ---- Full records (with rendered HTML + git history + citation) ----
 function fullRecord(s) {
-  return { ...s, git: gitBySlug[s.slug] };
+  const git = gitBySlug[s.slug];
+  return { ...s, git, citation: buildCitation(s, git) };
 }
 
 // ---- Search documents (headings + summary; body indexed by Pagefind) ----
@@ -129,7 +238,6 @@ for (const s of corpus.souls) {
 console.log('• Writing public/api …');
 writeJSON(path.join(PUBLIC_API_DIR, 'index.json'), {
   ...buildMeta,
-  schema: 'https://soul-atlas.github.io/schema/soul.schema.json',
   endpoints: {
     occupations: '/api/occupations.json',
     categories: '/api/categories.json',
@@ -137,9 +245,26 @@ writeJSON(path.join(PUBLIC_API_DIR, 'index.json'), {
     graph: '/api/graph.json',
     stats: '/api/stats.json',
     occupation: '/api/occupations/{slug}.json',
+    openapi: '/api/openapi.json',
+  },
+  schema: {
+    soul: '/api/schema/soul.schema.json',
+    metadata: '/api/schema/metadata.schema.json',
   },
   count: corpus.souls.length,
 });
+
+// OpenAPI description of this API + the JSON Schemas it references, served so the
+// contract is discoverable and the `$ref`s in openapi.json actually resolve.
+writeJSON(path.join(PUBLIC_API_DIR, 'openapi.json'), openApiDoc(corpus.souls.length));
+for (const file of fs.readdirSync(SCHEMA_DIR)) {
+  if (file.endsWith('.json')) {
+    writeText(
+      path.join(PUBLIC_API_DIR, 'schema', file),
+      fs.readFileSync(path.join(SCHEMA_DIR, file), 'utf8'),
+    );
+  }
+}
 writeJSON(path.join(PUBLIC_API_DIR, 'badge.json'), {
   schemaVersion: 1,
   label: 'SOULs',

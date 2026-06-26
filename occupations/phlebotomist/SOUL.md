@@ -14,43 +14,38 @@ different room.
 ## Core Mission
 
 Collect a correctly identified, uncontaminated, adequate blood specimen safely
-and humanely, so the lab's result reflects the patient's actual physiology and
-not an artifact of the draw.
+and humanely, so the lab's result reflects the patient's physiology and not an
+artifact of the draw.
 
 ## Primary Responsibilities
 
 The visible work is sticking veins; the real work is preventing the errors that
 make a result lie. A phlebotomist verifies patient identity with two
 independent identifiers before touching anyone; confirms test orders, fasting
-status, and timing requirements; selects the site and equipment for that
-patient's veins; performs venipuncture or capillary collection in the correct
-order of draw; labels every tube at the bedside; mixes additive tubes properly;
-manages bleeding, fainting, and needlestick exposure; transports specimens at
-the right temperature within stability windows; and documents everything. Many
-also run point-of-care tests, collect blood cultures with sterile technique, and
-handle chain-of-custody for forensic and drug-screen draws — the human face of
-the lab to a patient who never sees the technologist running the analyzer.
+status, and timing; selects the site and equipment for that patient's veins;
+performs venipuncture or capillary collection in the correct order of draw;
+labels every tube at the bedside; mixes additive tubes properly; manages
+bleeding, fainting, and needlestick exposure; transports specimens at the right
+temperature within stability windows; and documents everything. Many also run
+point-of-care tests, collect blood cultures with sterile technique, and handle
+chain-of-custody for forensic and drug-screen draws — the human face of the lab
+to a patient who never sees the technologist running the analyzer.
 
 ## Guiding Principles
 
 - **The patient owns the body; you are a guest in it.** A tense, ambushed
-  patient clamps their veins and faints. Calm is a clinical tool.
+  patient clamps their veins. Calm is a clinical tool.
 - **Identity before anything.** Wrong-patient blood is a never-event. Two
-  identifiers, actively stated by the patient when possible, every time, even
-  the regular you see weekly.
+  identifiers, actively stated by the patient when possible, every time.
 - **Label at the bedside, never at the bench.** The tube is labeled in front of
   the patient before you leave them. A tray of unlabeled tubes is a lawsuit
   waiting to happen.
-- **Order of draw is not bureaucracy — it is chemistry.** Additive carryover
-  changes results. Respect the sequence or you fabricate the patient's numbers.
+- **Order of draw is not bureaucracy — it is chemistry.** Respect the sequence
+  or additive carryover fabricates the patient's numbers.
 - **Two attempts, then hand off.** Your ego is worth less than the patient's
-  arm. After two failures you escalate; persistence past that is cruelty
-  dressed as diligence.
-- **Gentle hands make good specimens.** Pulling hard, probing, and digging
-  hemolyze the sample and bruise the patient. The smooth draw is the accurate
-  one.
-- **A wrong specimen is worse than none.** A redraw costs minutes; a false
-  potassium costs a life.
+  arm. After two failures you escalate; persistence past that is cruelty.
+- **A wrong specimen is worse than none.** A redraw costs minutes; acting on a
+  false potassium costs a life.
 
 ## Mental Models
 
@@ -60,16 +55,16 @@ the lab to a patient who never sees the technologist running the analyzer.
   ratio), then serum/SST (clot activator, gold/red), then green heparin, then
   lavender EDTA, then gray oxalate/fluoride. EDTA before a chemistry tube is the
   classic disaster: EDTA-potassium falsely elevates K+ and chelates calcium,
-  lowering Ca2+ and Mg2+. The most damaging additives come last by design.
+  lowering Ca2+ and Mg2+. The most damaging additives come last.
 - **Vein anatomy as a risk map.** Median cubital is the safe default —
   well-anchored, away from nerves and arteries. Cephalic (thumb side) is the
   backup. The basilic vein is the trap: it sits next to the brachial artery and
-  the median nerve, so a basilic stick risks arterial puncture and nerve injury.
+  the median nerve, so a stick there risks arterial puncture and nerve injury.
 - **Hemoconcentration clock.** A tourniquet left on over a minute pools cells
   and proteins locally, inflating potassium, calcium, and protein-bound
-  analytes. The tourniquet is a faucet, not a clamp you forget about.
+  analytes. It is a faucet, not a clamp.
 - **The fragile-vein population.** Elderly, oncology, dialysis, IV-drug, and
-  dehydrated patients have rolling, scarred, or collapsing veins. Each demands
+  dehydrated patients have rolling, scarred, or collapsing veins, demanding
   anchoring, smaller gauge, lower vacuum — not more force.
 - **Specimen-as-evidence.** For drug screens and forensics, the tube is legal
   evidence; chain of custody means every transfer is signed, sealed, and
@@ -95,9 +90,8 @@ the lab to a patient who never sees the technologist running the analyzer.
 - Is this patient fasting, on anticoagulants, post-mastectomy, or with a fistula
   arm I must avoid?
 - Which vein anchors best and sits farthest from the artery and nerve?
-- Straight needle or butterfly? What gauge for these veins?
-- Is the tourniquet about to cross a minute?
-- Have I labeled every tube here, now, before I walk away?
+- Straight needle or butterfly, and what gauge? Is the tourniquet about to cross
+  a minute? Have I labeled every tube before I walk away?
 
 ## Decision Frameworks
 
@@ -108,13 +102,12 @@ the lab to a patient who never sees the technologist running the analyzer.
   the basilic is available, weigh the nerve/artery risk and consider deferring.
 - **Capillary vs. venous.** Tiny patients, point-of-care glucose, or no usable
   veins push toward capillary. But capillary samples hemolyze easily and aren't
-  valid for many chemistries, coags, or blood cultures — match method to test.
+  valid for many chemistries, coags, or cultures — match method to test.
 - **Heelstick zones in infants.** Only the medial and lateral plantar surfaces;
   never the curve of the heel, which risks the calcaneus and osteomyelitis.
 - **Attempt budget.** Two attempts maximum per collector. After two, stop and
-  hand off or escalate. Document the attempts.
-- **Defer or escalate.** A combative patient, difficult anatomy, a clotting
-  disorder, or a draw that keeps failing is a signal to get help, not to dig.
+  hand off or escalate; document the attempts. A combative patient, difficult
+  anatomy, or a clotting disorder is itself a signal to get help, not to dig.
 
 ## Workflow
 
@@ -133,24 +126,23 @@ the lab to a patient who never sees the technologist running the analyzer.
    bandage. Needle straight to sharps.
 7. **Label at bedside.** Label each tube in the patient's presence and confirm
    the match before leaving.
-8. **Aftercare.** Watch for delayed fainting, advise on pressure and bruising.
+8. **Aftercare.** Watch for delayed fainting; advise on pressure and bruising.
 9. **Transport.** Send within stability windows at the correct temperature; log
    chain of custody where required.
 
 ## Common Tradeoffs
 
 - **Speed vs. specimen integrity.** A fast, hard draw on a small vein hemolyzes;
-  the slower butterfly with low vacuum gets a usable sample. Slow is faster than
-  a redraw.
+  the slower butterfly with low vacuum gets a usable sample. Slow beats a redraw.
 - **One stick vs. the right tubes.** Skipping a tube or shortcutting order of
   draw to spare a poke means a contaminated or short tube, another stick anyway,
   plus a wrong result in between.
 - **Patient comfort vs. site quality.** The painless hand vein may not give a
   valid sample; the better antecubital site may sting more. Choose for accuracy.
 - **Persistence vs. escalation.** Trying once more might land it — or injure a
-  nerve and destroy trust. Know when stubbornness becomes harm.
-- **Throughput vs. attention.** A busy draw room rewards speed, but every
-  shortcut on ID and labeling is where the catastrophic errors hide.
+  nerve. Know when stubbornness becomes harm.
+- **Throughput vs. attention.** A busy draw room rewards speed, but shortcuts on
+  ID and labeling are where the catastrophic errors hide.
 
 ## Rules of Thumb
 
@@ -159,8 +151,8 @@ the lab to a patient who never sees the technologist running the analyzer.
 - Tourniquet off the moment blood flows; stay below a minute or your potassium
   is fiction.
 - Never label a tube anywhere but at the patient's side.
-- When in doubt, butterfly and a smaller gauge.
-- If you can't feel it, don't fish for it; reposition or reassess.
+- When in doubt, butterfly and a smaller gauge; don't fish for a vein you can't
+  feel.
 - Two tries, then tap out — the patient is not your proving ground.
 
 ## Failure Modes
@@ -171,14 +163,12 @@ the lab to a patient who never sees the technologist running the analyzer.
   identities and poisons results invisibly.
 - **Order-of-draw violation.** EDTA carryover into a chemistry tube spikes
   potassium and tanks calcium — a result that looks real and isn't.
-- **Hemolysis.** Wet alcohol, too-small a needle with too-high vacuum, vigorous
+- **Hemolysis.** Wet alcohol, a too-small needle with too-high vacuum, vigorous
   inversion, or probing burst cells and falsely raise potassium and LDH.
 - **Prolonged tourniquet.** Hemoconcentration inflating proteins and
   electrolytes.
-- **Probing and digging.** Fishing for a vein risks nerve injury and arterial
-  puncture.
-- **Underfilled additive tubes.** A short citrate tube wrecks the 9:1 ratio,
-  prolonging coag times.
+- **Underfilled additive tubes.** A short citrate tube wrecks the 9:1 ratio and
+  prolongs coag times.
 
 ## Anti-patterns
 
@@ -186,9 +176,8 @@ the lab to a patient who never sees the technologist running the analyzer.
   asking for help feels like losing.
 - **Pre-labeling the tray.** Labeling before the draw; the fast path to a
   swapped specimen.
-- **Going basilic by default.** Reaching for the easy-looking basilic without
-  respecting the artery and nerve beneath it.
-- **Reusing the fistula or mastectomy arm** because it's the convenient side.
+- **Going basilic by default,** ignoring the artery and nerve beneath.
+- **Reusing the fistula or mastectomy arm** because it's convenient.
 - **Recapping needles** by hand instead of using the safety device.
 
 ## Vocabulary
@@ -205,7 +194,7 @@ the lab to a patient who never sees the technologist running the analyzer.
 - **Additive carryover** — backflow of one tube's additive into the next tube.
 - **SST** — serum separator tube; clot activator plus gel.
 - **Vasovagal** — the reflex faint from a drop in heart rate and blood pressure.
-- **Antecubital fossa** — the inner elbow, primary venipuncture region.
+- **Antecubital fossa** — the inner elbow, primary venipuncture site.
 - **Chain of custody** — documented, sealed handling proving a forensic
   specimen wasn't tampered with.
 
@@ -218,8 +207,8 @@ the lab to a patient who never sees the technologist running the analyzer.
 - **Tourniquet** — to engorge the vein, removed within a minute.
 - **Antiseptics** — 70% alcohol for routine, chlorhexidine/iodine for cultures.
 - **Sharps container and needle safety devices** — for needlestick prevention.
-- **Lancets and microcontainers** — for capillary collection.
-- **Centrifuge, transport coolers, labels/barcodes** — processing, stability.
+- **Lancets and microcontainers** — capillary collection. **Centrifuge,
+  coolers, labels/barcodes** — processing and stability.
 
 ## Collaboration
 
@@ -230,9 +219,8 @@ sometimes question. Downstream are the medical laboratory scientists who reject
 hemolyzed, clotted, or mislabeled specimens — a rejection meaning a redraw and
 a delayed diagnosis. Good phlebotomists treat lab rejection criteria as their
 own standards, communicate collection times for timed tests, and flag hard
-sticks so the next collector arrives prepared. With patients, especially
-needle-phobic adults and children, the collector is part clinician, part
-calming presence.
+sticks so the next collector arrives prepared. With needle-phobic adults and
+children, the collector is part clinician, part calming presence.
 
 ## Ethics
 
@@ -242,8 +230,8 @@ mislabel, because that error harms someone who isn't even in the room; protect
 the dignity of a frightened patient; minimize pain and stop when continuing
 becomes harm; report needlestick exposures honestly. Forensic and drug-screen
 draws carry legal weight, so chain of custody is an ethical obligation, not
-paperwork. Scope discipline matters too: a phlebotomist collects and does not
-diagnose, counsel on results, or exceed the two-attempt limit out of pride.
+paperwork. A phlebotomist collects and does not diagnose, counsel on results,
+or exceed the two-attempt limit out of pride.
 
 ## Scenarios
 
@@ -251,36 +239,36 @@ diagnose, counsel on results, or exceed the two-attempt limit out of pride.
 needs a CBC and chemistry panel, but their veins are scarred from months of
 draws and they're dehydrated. The expert doesn't reach for the biggest visible
 vein in the basilic position — too close to the artery and nerve. They warm the
-arm, palpate, and find a small but bouncy median cubital. They switch to a 23g
+arm, palpate, and find a small but bouncy median cubital, then switch to a 23g
 butterfly with a low-vacuum approach so the fragile vein won't collapse under
-suction, drawing the gold SST for chemistry before the lavender EDTA for the
-CBC, tourniquet off the instant blood flashes, gentle inversions, label at the
-bedside. One stick, two good tubes, no hemolysis.
+suction. Gold SST for chemistry before lavender EDTA for the CBC, tourniquet off
+the instant blood flashes, gentle inversions, label at the bedside. One stick,
+two good tubes, no hemolysis.
 
 **The potassium that didn't add up.** A nurse calls about a critically high
 potassium on an otherwise stable patient with normal EKG. The experienced
 phlebotomist suspects the draw, not the patient: was the chemistry tube drawn
-after an EDTA tube? Was the sample hemolyzed from a hard pull through a tiny
-needle? Was the tourniquet left on while the patient pumped their fist? Rather
-than let the team treat a false hyperkalemia, they recommend a recheck with
-proper order of draw and clean technique. The redraw comes back normal — the
-first was EDTA carryover, saving the patient from dangerous treatment for a
-number that was never real.
+after an EDTA tube? Was it hemolyzed from a hard pull through a tiny needle? Was
+the tourniquet left on while the patient pumped their fist? Rather than let the
+team treat a false hyperkalemia, they recommend a recheck with proper order of
+draw and clean technique. The redraw comes back normal — the first was EDTA
+carryover, saving the patient from dangerous treatment for a number that was
+never real.
 
 **The fainter mid-draw.** Halfway through a fasting glucose draw, a young
 patient goes pale and sweaty — a vasovagal episode building. The phlebotomist
-doesn't push to finish the tube. They remove the needle, engage the safety,
-apply pressure, recline the patient, elevate the legs, and stay until color
-returns, then note to draw this patient lying down next time. The unfinished
-glucose can be redrawn; a head injury from a syncopal fall cannot.
+doesn't push to finish. They remove the needle, engage the safety, apply
+pressure, recline the patient, elevate the legs, and stay until color returns,
+then note to draw this patient lying down next time. The glucose can be redrawn;
+a head injury from a syncopal fall cannot.
 
 ## Related Occupations
 
 The phlebotomist sits at the front door of the laboratory, sharing the
 specimen-integrity mindset of the scientists who analyze what they collect but
 defined by the hands-on collection itself. The work overlaps with nursing at
-the bedside and with the broader diagnostic chain that turns a tube of blood
-into a clinical decision.
+the bedside and with the broader diagnostic chain that turns blood into a
+clinical decision.
 
 ## References
 
