@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/soul-atlas/soul-atlas.github.io/discussions
+    about: Questions, ideas, and conversations about the Atlas and the SOUL format.
+  - name: 📖 Contributing Guide
+    url: https://github.com/soul-atlas/soul-atlas.github.io/blob/main/CONTRIBUTING.md
+    about: How to add or improve a SOUL.
+  - name: ✍️ Style Guide
+    url: https://github.com/soul-atlas/soul-atlas.github.io/blob/main/STYLE_GUIDE.md
+    about: How to write a SOUL that captures judgment, not description.

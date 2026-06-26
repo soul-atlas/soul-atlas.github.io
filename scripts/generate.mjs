@@ -140,6 +140,12 @@ writeJSON(path.join(PUBLIC_API_DIR, 'index.json'), {
   },
   count: corpus.souls.length,
 });
+writeJSON(path.join(PUBLIC_API_DIR, 'badge.json'), {
+  schemaVersion: 1,
+  label: 'SOULs',
+  message: String(corpus.souls.length),
+  color: 'blue',
+});
 writeJSON(path.join(PUBLIC_API_DIR, 'occupations.json'), lightList);
 writeJSON(path.join(PUBLIC_API_DIR, 'categories.json'), categories);
 writeJSON(path.join(PUBLIC_API_DIR, 'tags.json'), tags);

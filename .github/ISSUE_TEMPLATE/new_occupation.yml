@@ -1,0 +1,65 @@
+name: 🧠 Propose a new SOUL
+description: Suggest a new way of thinking (occupation, role, discipline, or life role) to add to the Atlas.
+title: '[New SOUL] '
+labels: ['new-soul', 'content']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the Atlas! If you can, consider opening a pull request
+        instead — run `npm run new -- --title "…" --category "…"` to scaffold it.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The display name of the way of thinking.
+      placeholder: Glassblower
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Technology
+        - Healthcare
+        - Skilled Trades
+        - Engineering
+        - Science
+        - Education
+        - Business
+        - Government
+        - Military
+        - Law
+        - Transportation
+        - Agriculture
+        - Hospitality
+        - Creative
+        - Sports
+        - Entertainment
+        - Finance
+        - Public Service
+        - Historical
+        - Emerging
+        - Life Roles
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this deserve a SOUL?
+      description: What is distinctive about how experts in this field *think*?
+    validations:
+      required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related existing SOULs
+      description: Slugs this would connect to in the graph (comma-separated).
+      placeholder: carpenter, sculptor, ceramicist
+  - type: checkboxes
+    id: offer
+    attributes:
+      label: Contribution
+      options:
+        - label: I'm willing to draft this SOUL myself.

@@ -1,0 +1,8 @@
+# Default owners for everything in the repo.
+# Maintainers review schema/platform changes; content reviews are open to domain reviewers.
+*                       @soul-atlas
+
+# The format contract gets extra scrutiny.
+/schema/                @soul-atlas
+/scripts/               @soul-atlas
+/.github/               @soul-atlas

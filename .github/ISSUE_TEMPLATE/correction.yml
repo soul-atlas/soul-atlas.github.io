@@ -1,0 +1,35 @@
+name: ✏️ Correct or improve a SOUL
+description: Report an inaccuracy or suggest an improvement to an existing SOUL.
+title: '[Correction] '
+labels: ['correction', 'content']
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Which SOUL?
+      description: The slug or title of the occupation.
+      placeholder: software-engineer
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which section needs work (e.g. Mental Models, Failure Modes)?
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong or missing?
+      description: Be specific. What does the current text get wrong, and how would a practitioner describe it?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording (optional)
+      description: Proposed replacement or addition.
+  - type: input
+    id: basis
+    attributes:
+      label: Basis
+      description: Your experience or a source that supports this correction.
