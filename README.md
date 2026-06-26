@@ -8,7 +8,7 @@
 
 **How experts think — one SOUL at a time.**
 
-The open, community-maintained collection of `SOUL.md` files: structured portraits
+The open, community-maintained collection of [`SOUL.md`](https://soul.md/) files: structured portraits
 of how experts in every field actually think, decide, and work.
 
 [**Explore the Atlas →**](https://soul-atlas.github.io) ·

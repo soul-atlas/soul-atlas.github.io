@@ -6,7 +6,7 @@ deadlines, and this is community-paced.
 
 ## Now — Foundations (launch)
 
-- [x] The `SOUL.md` format and schema (sections, metadata, relationship types).
+- [x] The [`SOUL.md`](https://soul.md/) format and schema (sections, metadata, relationship types).
 - [x] Static content engine: parse, validate, generate APIs, graph, statistics, search.
 - [x] Astro website: explorer, knowledge graph, dashboard, compare, per-SOUL pages.
 - [x] Machine-readable API (JSON) + per-occupation Markdown/YAML exports + RSS.

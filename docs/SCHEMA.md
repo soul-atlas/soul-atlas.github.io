@@ -2,14 +2,14 @@
 
 A SOUL is two files in `occupations/<slug>/`:
 
-- **`SOUL.md`** — the portrait: an `# H1` title followed by `## H2` sections.
+- **[`SOUL.md`](https://soul.md/)** — the portrait: an `# H1` title followed by `## H2` sections.
 - **`metadata.yaml`** — structured facts, validated against
   [`schema/metadata.schema.json`](../schema/metadata.schema.json).
 
 The fully assembled, computed record served at `/api/occupations/<slug>.json` is
 described by [`schema/soul.schema.json`](../schema/soul.schema.json).
 
-## `SOUL.md` sections
+## [`SOUL.md`](https://soul.md/) sections
 
 Defined canonically in [`schema/sections.json`](../schema/sections.json). Required
 sections must be present **and** meet a minimum word count to count toward a SOUL's

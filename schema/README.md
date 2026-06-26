@@ -6,7 +6,7 @@ here, in one place, and everything downstream follows.
 
 | File | Purpose |
 | --- | --- |
-| [`sections.json`](./sections.json) | The canonical, ordered list of SOUL.md sections, which are required, their minimum substance, and the authoring prompt for each. |
+| [`sections.json`](./sections.json) | The canonical, ordered list of [SOUL.md](https://soul.md/) sections, which are required, their minimum substance, and the authoring prompt for each. |
 | [`metadata.schema.json`](./metadata.schema.json) | JSON Schema (draft-07) for `metadata.yaml`. Validated on every build. |
 | [`soul.schema.json`](./soul.schema.json) | JSON Schema for the fully assembled record emitted at `/api/occupations/{slug}.json`. |
 | [`SOUL.template.md`](./SOUL.template.md) | The starting point for a new SOUL body. `npm run new` copies it. |
