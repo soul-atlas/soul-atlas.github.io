@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="https://soul-atlas.github.io">
+  <img src="./assets/banner.svg" alt="SOUL Atlas — How experts think, one SOUL at a time." width="100%" />
+</a>
+
 # SOUL Atlas
 
 **How experts think — one SOUL at a time.**

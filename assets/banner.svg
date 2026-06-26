@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="SOUL Atlas — How experts think, one SOUL at a time.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0d11"/>
+      <stop offset="0.55" stop-color="#11131a"/>
+      <stop offset="1" stop-color="#0a1430"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#1f4fda" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#1f4fda" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cdd6f4"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+
+  <!-- Knowledge-graph constellation (right side) -->
+  <g stroke="#5b6b9a" stroke-opacity="0.30" stroke-width="1.2">
+    <line x1="905" y1="150" x2="735" y2="112"/>
+    <line x1="905" y1="150" x2="826" y2="84"/>
+    <line x1="905" y1="150" x2="986" y2="96"/>
+    <line x1="905" y1="150" x2="868" y2="232"/>
+    <line x1="905" y1="150" x2="1058" y2="156"/>
+    <line x1="826" y1="84" x2="735" y2="112"/>
+    <line x1="986" y1="96" x2="1062" y2="150"/>
+    <line x1="868" y1="232" x2="772" y2="206"/>
+    <line x1="868" y1="232" x2="956" y2="262"/>
+    <line x1="956" y1="262" x2="1044" y2="244"/>
+    <line x1="956" y1="262" x2="908" y2="338"/>
+    <line x1="908" y1="338" x2="812" y2="330"/>
+    <line x1="908" y1="338" x2="1004" y2="330"/>
+    <line x1="1004" y1="330" x2="1090" y2="300"/>
+    <line x1="1044" y1="244" x2="1126" y2="210"/>
+    <line x1="772" y1="206" x2="712" y2="300"/>
+    <line x1="712" y1="300" x2="812" y2="330"/>
+    <line x1="668" y1="182" x2="772" y2="206"/>
+    <line x1="668" y1="182" x2="735" y2="112"/>
+  </g>
+
+  <!-- node halos -->
+  <g filter="url(#soft)" opacity="0.55">
+    <circle cx="905" cy="150" r="13" fill="#1f4fda"/>
+    <circle cx="1058" cy="156" r="9" fill="#ef4444"/>
+    <circle cx="868" cy="232" r="10" fill="#06b6d4"/>
+    <circle cx="712" cy="300" r="9" fill="#22c55e"/>
+  </g>
+
+  <!-- nodes (colored by domain) -->
+  <g stroke="#0c0d11" stroke-width="1.5">
+    <circle cx="905" cy="150" r="11" fill="#316bf4"/>
+    <circle cx="735" cy="112" r="7"  fill="#3b82f6"/>
+    <circle cx="826" cy="84"  r="6.5" fill="#10b981"/>
+    <circle cx="986" cy="96"  r="6"  fill="#f59e0b"/>
+    <circle cx="1058" cy="156" r="8" fill="#ef4444"/>
+    <circle cx="1062" cy="150" r="0" fill="none"/>
+    <circle cx="772" cy="206" r="6.5" fill="#8b5cf6"/>
+    <circle cx="868" cy="232" r="9"  fill="#06b6d4"/>
+    <circle cx="956" cy="262" r="7"  fill="#ec4899"/>
+    <circle cx="1044" cy="244" r="6" fill="#eab308"/>
+    <circle cx="712" cy="300" r="8"  fill="#22c55e"/>
+    <circle cx="812" cy="330" r="6"  fill="#a855f7"/>
+    <circle cx="908" cy="338" r="7"  fill="#14b8a6"/>
+    <circle cx="1004" cy="330" r="8.5" fill="#0891b2"/>
+    <circle cx="1090" cy="300" r="6" fill="#d946ef"/>
+    <circle cx="1126" cy="210" r="6.5" fill="#84cc16"/>
+    <circle cx="668" cy="182" r="6"  fill="#fb7185"/>
+  </g>
+
+  <!-- Logo mark -->
+  <g transform="translate(96 150)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#6f9bff" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="10" fill="#6f9bff"/>
+    <g stroke="#6f9bff" stroke-width="2.4" stroke-linecap="round">
+      <path d="M0 -30 V -18 M0 30 V 18 M-30 0 H -18 M30 0 H 18"/>
+    </g>
+    <circle cx="0" cy="-30" r="3.2" fill="#cdd6f4"/>
+    <circle cx="26" cy="15" r="3.2" fill="#cdd6f4"/>
+    <circle cx="-26" cy="15" r="3.2" fill="#cdd6f4"/>
+  </g>
+
+  <!-- Wordmark + tagline -->
+  <text x="150" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="62" font-weight="700" fill="url(#ink)" letter-spacing="-1.5">SOUL Atlas</text>
+  <text x="152" y="196" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#9fb0d8">How experts <tspan fill="#6f9bff" font-weight="700">think</tspan> — one SOUL at a time.</text>
+
+  <!-- thin accent rule -->
+  <rect x="152" y="222" width="300" height="3" rx="1.5" fill="#1f4fda"/>
+
+  <!-- meta chips -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a96b8">
+    <text x="152" y="272">Structured portraits of how every field actually reasons —</text>
+    <text x="152" y="296">mental models · decisions · tradeoffs · heuristics · ethics.</text>
+    <g transform="translate(152 322)">
+      <rect x="0" y="0" width="150" height="28" rx="14" fill="#16203d" stroke="#26365e"/>
+      <text x="16" y="19" fill="#cdd6f4">157 SOULs</text>
+      <rect x="162" y="0" width="150" height="28" rx="14" fill="#16203d" stroke="#26365e"/>
+      <text x="178" y="19" fill="#cdd6f4">20 domains</text>
+      <rect x="324" y="0" width="140" height="28" rx="14" fill="#16203d" stroke="#26365e"/>
+      <text x="340" y="19" fill="#cdd6f4">MIT · open</text>
+    </g>
+  </g>
+</svg>
