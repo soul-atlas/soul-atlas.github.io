@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://open-soul.github.io/schema/metadata.schema.json",
+  "$id": "https://soul-atlas.github.io/schema/metadata.schema.json",
   "title": "SOUL Atlas Metadata",
   "description": "Structured metadata describing a single SOUL. Lives beside SOUL.md as metadata.yaml.",
   "type": "object",

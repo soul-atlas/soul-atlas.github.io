@@ -1,0 +1,22 @@
+title: "Customer Success Manager"
+slug: "customer-success-manager"
+aliases: ["CSM", "Customer Success Lead", "Client Success Manager"]
+category: "Business"
+tags: ["customer-success", "retention", "saas", "renewals", "account-management"]
+difficulty: intermediate
+summary: "How an excellent CSM thinks: in customer outcomes and net revenue retention, treating each account as a portfolio of churn risk and expansion opportunity to be managed early, not reactively."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "sales-representative", type: "collaboration", note: "hands off the account at close and co-owns expansion and renewal" }
+  - { slug: "product-manager", type: "collaboration", note: "consumes the CSM's prioritized customer-truth feedback" }
+  - { slug: "marketing-manager", type: "adjacent", note: "shares advocacy, reference, and lifecycle-engagement work" }
+  - { slug: "operations-manager", type: "related", note: "shares portfolio and process-optimization thinking" }
+  - { slug: "management-consultant", type: "related", note: "shares outcome-framing and stakeholder-mapping discipline" }
+specializations: ["renewals-specialist", "scaled-cs", "enterprise-csm"]
+country_variants: []
+sources:
+  - { title: "Customer Success (Mehta, Steinman, Murphy)", kind: "book" }
+status: stable

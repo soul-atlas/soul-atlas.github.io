@@ -1,0 +1,38 @@
+title: "Game Developer"
+slug: "game-developer"
+aliases:
+  - "Game Programmer"
+  - "Gameplay Engineer"
+  - "Game Designer-Developer"
+category: "Technology"
+tags:
+  - games
+  - real-time
+  - graphics
+  - gameplay
+  - performance
+difficulty: advanced
+summary: "Builds interactive systems that manufacture a specific feeling at 60fps, then playtests and tunes until intended experience and felt experience converge."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "software-engineer", type: "related", note: "shares code discipline but optimizes for felt experience in a frame budget" }
+  - { slug: "mobile-developer", type: "adjacent", note: "shares the constraint of weak, fixed target hardware" }
+  - { slug: "animator", type: "collaboration", note: "owns the motion that becomes game feel" }
+  - { slug: "sound-engineer", type: "collaboration", note: "owns the audio layer of juice and feedback" }
+  - { slug: "embedded-systems-engineer", type: "adjacent", note: "shares fitting a real-time loop into a fixed budget" }
+  - { slug: "ux-designer", type: "adjacent", note: "shares focus on perceived versus actual system behavior" }
+specializations:
+  - "Gameplay Programmer"
+  - "Graphics/Engine Programmer"
+  - "Network Programmer"
+  - "Tools Programmer"
+country_variants: []
+sources:
+  - { title: "Game Programming Patterns", kind: "book" }
+  - { title: "Game Engine Architecture", kind: "book" }
+  - { title: "The Art of Game Design: A Book of Lenses", kind: "book" }
+status: stable

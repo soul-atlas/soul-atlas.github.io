@@ -1,0 +1,36 @@
+title: "Professional Athlete"
+slug: "athlete"
+aliases:
+  - "Pro Athlete"
+  - "Sportsperson"
+  - "Competitor"
+category: "Sports"
+tags:
+  - sports
+  - performance
+  - training
+  - competition
+  - recovery
+difficulty: expert
+summary: "Converts years of precise, painful preparation into peak performance under maximum pressure, managing load and recovery to peak when it matters across a short career."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "coach", type: "collaboration", note: "owns strategy and long-term development the athlete executes" }
+  - { slug: "athletic-trainer", type: "collaboration", note: "keeps the body available and rehabs injuries" }
+  - { slug: "sports-analyst", type: "adjacent", note: "supplies the patterns and edges the athlete turns into tactics" }
+  - { slug: "physical-therapist", type: "adjacent", note: "restores function after serious injury" }
+  - { slug: "dietitian", type: "collaboration", note: "owns the nutritional inputs that drive adaptation and recovery" }
+specializations:
+  - "Endurance Athlete"
+  - "Team-Sport Athlete"
+  - "Combat-Sport Athlete"
+country_variants: []
+sources:
+  - { title: "Peak: Secrets from the New Science of Expertise", kind: "book" }
+  - { title: "Periodization: Theory and Methodology of Training", kind: "book" }
+  - { title: "The Inner Game of Tennis", kind: "book" }
+status: stable

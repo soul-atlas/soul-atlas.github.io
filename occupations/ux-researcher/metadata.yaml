@@ -1,0 +1,37 @@
+title: "UX Researcher"
+slug: "ux-researcher"
+aliases:
+  - "User Researcher"
+  - "Design Researcher"
+  - "User Experience Researcher"
+category: "Technology"
+tags:
+  - ux
+  - research
+  - usability
+  - user-experience
+  - product
+difficulty: advanced
+summary: "Replaces a team's assumptions about users with evidence, picks the method that fits the decision, and defends the gap between what people say and what they actually do."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "ux-designer", type: "collaboration", note: "turns research insight into interface and form; constant partner" }
+  - { slug: "product-manager", type: "collaboration", note: "owns scope and decisions that research informs" }
+  - { slug: "data-scientist", type: "adjacent", note: "quantitative twin and ideal triangulation partner" }
+  - { slug: "graphic-designer", type: "related", note: "consumes research to shape visual communication" }
+  - { slug: "marketing-manager", type: "adjacent", note: "holds a sales-angled view of the same customers" }
+  - { slug: "technical-writer", type: "related", note: "uses findings to shape user-facing communication" }
+specializations:
+  - "Quantitative UX Researcher"
+  - "Mixed-Methods Researcher"
+  - "Research Operations Specialist"
+country_variants: []
+sources:
+  - { title: "Just Enough Research", kind: "book" }
+  - { title: "Observing the User Experience", kind: "book" }
+  - { title: "Quantifying the User Experience", kind: "book" }
+status: stable

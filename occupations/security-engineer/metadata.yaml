@@ -1,0 +1,39 @@
+title: "Security Engineer"
+slug: "security-engineer"
+aliases:
+  - "Application Security Engineer"
+  - "InfoSec Engineer"
+  - "Cybersecurity Engineer"
+category: "Technology"
+tags:
+  - security
+  - threat-modeling
+  - cryptography
+  - incident-response
+  - defense
+difficulty: advanced
+summary: "Thinks like a motivated adversary to close the defender's asymmetry: threat-models systems, prioritizes by real risk, and makes the secure path the easy path."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "software-engineer", type: "adjacent", note: "thinks adversarially about the systems engineers build" }
+  - { slug: "site-reliability-engineer", type: "related", note: "shares incident-response discipline for a different threat" }
+  - { slug: "devops-engineer", type: "collaboration", note: "owns the pipeline and infra the security engineer hardens" }
+  - { slug: "cyber-warfare-specialist", type: "adjacent", note: "operates the same offensive techniques under a different mandate" }
+  - { slug: "compliance-officer", type: "related", note: "governs the regulatory frame security must satisfy without mistaking it for safety" }
+  - { slug: "auditor", type: "collaboration", note: "verifies controls; security builds and defends them" }
+specializations:
+  - "Application Security Engineer"
+  - "Cloud Security Engineer"
+  - "Detection and Response Engineer"
+  - "Offensive Security / Red Team"
+country_variants: []
+sources:
+  - { title: "Security Engineering", kind: "book" }
+  - { title: "Threat Modeling: Designing for Security", kind: "book" }
+  - { title: "OWASP Top 10 and ASVS", url: "https://owasp.org/", kind: "standard" }
+  - { title: "MITRE ATT&CK", url: "https://attack.mitre.org/", kind: "framework" }
+status: stable

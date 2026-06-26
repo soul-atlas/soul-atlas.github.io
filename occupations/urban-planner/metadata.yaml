@@ -1,0 +1,38 @@
+title: "Urban Planner"
+slug: "urban-planner"
+aliases:
+  - "City Planner"
+  - "Town Planner"
+  - "Land Use Planner"
+category: "Government"
+tags:
+  - urban-planning
+  - land-use
+  - zoning
+  - transportation
+  - public-policy
+difficulty: advanced
+summary: "Shapes how land, movement, and people fit together over decades, balancing private property against shared public goods while naming who wins and who loses."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "architect", type: "adjacent", note: "shapes the building; planner shapes the rules that shape buildings" }
+  - { slug: "civil-engineer", type: "collaboration", note: "sizes the roads and pipes the plan depends on" }
+  - { slug: "environmental-engineer", type: "related", note: "shares long-horizon, externality-minded analysis" }
+  - { slug: "community-organizer", type: "adjacent", note: "works the same neighborhood politics from the other side" }
+  - { slug: "policy-analyst", type: "related", note: "applies the same evaluative rigor to non-spatial questions" }
+  - { slug: "sustainability-manager", type: "related", note: "shares the climate and resource-stewardship horizon" }
+specializations:
+  - "Transportation Planner"
+  - "Zoning Administrator"
+  - "Comprehensive Planner"
+  - "Urban Designer"
+country_variants: []
+sources:
+  - { title: "The Death and Life of Great American Cities", kind: "book" }
+  - { title: "The High Cost of Free Parking", kind: "book" }
+  - { title: "AICP Code of Ethics and Professional Conduct", kind: "standard" }
+status: stable

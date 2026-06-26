@@ -4,10 +4,10 @@
   "description": "The open, community-maintained collection of SOUL.md files — capturing how experts think.",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/open-soul/soul-atlas",
+  "homepage": "https://soul-atlas.github.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-soul/soul-atlas.git"
+    "url": "https://github.com/soul-atlas/soul-atlas.github.io.git"
   },
   "engines": {
     "node": ">=18.17.1"

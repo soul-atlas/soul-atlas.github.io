@@ -1,0 +1,37 @@
+title: "Data Scientist"
+slug: "data-scientist"
+aliases:
+  - "Applied Scientist"
+  - "Quantitative Analyst"
+  - "Data Analyst"
+category: "Technology"
+tags:
+  - statistics
+  - machine-learning
+  - experimentation
+  - inference
+  - analytics
+difficulty: advanced
+summary: "Reasons in distributions and uncertainty rather than correctness, quantifying how much to believe a pattern and refusing the causal claims data can't support."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "machine-learning-engineer", type: "adjacent", note: "productionizes the models a data scientist prototypes; optimizes systems over insight" }
+  - { slug: "data-engineer", type: "prerequisite", note: "builds the clean pipelines a data scientist depends on" }
+  - { slug: "research-scientist", type: "related", note: "shares the inferential and experimental discipline" }
+  - { slug: "software-engineer", type: "adjacent", note: "reasons in correctness and state where the data scientist reasons in uncertainty" }
+  - { slug: "product-manager", type: "collaboration", note: "supplies the questions and consumes the calibrated answers" }
+  - { slug: "ai-safety-researcher", type: "adjacent", note: "shares concern for model bias, evaluation, and honest uncertainty" }
+specializations:
+  - "Experimentation / Causal Inference Scientist"
+  - "NLP Data Scientist"
+  - "Product Analytics Scientist"
+country_variants: []
+sources:
+  - { title: "The Elements of Statistical Learning", kind: "book" }
+  - { title: "Statistical Rethinking", kind: "book" }
+  - { title: "Trustworthy Online Controlled Experiments", kind: "book" }
+status: stable

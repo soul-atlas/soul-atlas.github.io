@@ -1,7 +1,7 @@
 import type { APIContext } from 'astro';
 
 export async function GET(context: APIContext) {
-  const site = context.site?.href ?? 'https://open-soul.github.io/';
+  const site = context.site?.href ?? 'https://soul-atlas.github.io/';
   const body = `# SOUL Atlas — open and freely crawlable.
 User-agent: *
 Allow: /

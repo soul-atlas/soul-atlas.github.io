@@ -7,7 +7,7 @@ export const SITE = {
   tagline: 'How experts think — one SOUL at a time.',
   description:
     'The open, community-maintained collection of SOUL.md files: structured portraits of how experts in every field actually think, decide, and work.',
-  githubRepo: import.meta.env.GITHUB_REPO || 'open-soul/soul-atlas',
+  githubRepo: import.meta.env.GITHUB_REPO || 'soul-atlas/soul-atlas.github.io',
 };
 
 export const GITHUB_URL = `https://github.com/${SITE.githubRepo}`;

@@ -1,0 +1,24 @@
+title: "Chef"
+slug: "chef"
+aliases: ["Executive Chef", "Head Chef", "Chef de Cuisine", "Kitchen Manager"]
+category: "Hospitality"
+tags: ["culinary", "kitchen-management", "food-cost", "service", "menu-design"]
+difficulty: "expert"
+summary: "How a head chef thinks: mise en place as discipline, tasting as the only real instrument, and margin made in the walk-in as much as on the plate."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "sommelier", type: "collaboration", note: "Pairs wine to the kitchen's food and shares service tempo" }
+  - { slug: "bartender", type: "adjacent", note: "Same service rhythm and guest-experience goal front of house" }
+  - { slug: "hotel-manager", type: "related", note: "Runs the same 24/7 occupancy-driven hospitality operation at property scale" }
+  - { slug: "event-planner", type: "collaboration", note: "Relies on the kitchen for banquet volume on a fixed timeline" }
+  - { slug: "operations-manager", type: "related", note: "Shares bottleneck and throughput thinking applied elsewhere" }
+  - { slug: "dietitian", type: "adjacent", note: "Translates nutrition into food the kitchen executes" }
+specializations: ["pastry-chef", "sous-chef", "private-chef", "banquet-chef"]
+country_variants: []
+sources:
+  - { title: "Larousse Gastronomique", kind: "book" }
+  - { title: "On Food and Cooking (Harold McGee)", kind: "book" }
+status: stable

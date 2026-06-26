@@ -1,0 +1,38 @@
+title: "Registered Nurse"
+slug: "registered-nurse"
+aliases:
+  - "RN"
+  - "Nurse"
+  - "Staff Nurse"
+  - "Bedside Nurse"
+category: "Healthcare"
+tags:
+  - nursing
+  - patient-care
+  - clinical-assessment
+  - patient-safety
+  - healthcare
+difficulty: advanced
+summary: "Keeps patients physiologically stable and humanly cared for across the whole shift, catching deterioration early and advocating for the patient when no one else is in the room."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "physician", type: "collaboration", note: "executes and surveils continuously what the physician diagnoses in episodes" }
+  - { slug: "nurse-practitioner", type: "progression", note: "extends nursing into diagnosis and prescribing" }
+  - { slug: "paramedic", type: "adjacent", note: "applies rapid assessment and stabilization in the field" }
+  - { slug: "pharmacist", type: "collaboration", note: "partners on safe medication administration and dosing" }
+  - { slug: "physical-therapist", type: "related", note: "shares the goal of restoring function through hands-on care" }
+specializations:
+  - "ICU Nurse"
+  - "Emergency Nurse"
+  - "Operating Room Nurse"
+  - "Oncology Nurse"
+country_variants: []
+sources:
+  - { title: "Fundamentals of Nursing (Potter & Perry)", kind: "book" }
+  - { title: "ANA Code of Ethics for Nurses", kind: "standard" }
+  - { title: "AACN Critical Care Nursing Core Curriculum", kind: "book" }
+status: stable

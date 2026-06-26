@@ -4,7 +4,7 @@ import { url, soulUrl, categoryUrl, tagUrl } from '../lib/site';
 
 // Custom sitemap: deterministic, base-path aware, and covers every generated route.
 export async function GET(context: APIContext) {
-  const origin = (context.site?.origin ?? 'https://open-soul.github.io').replace(/\/$/, '');
+  const origin = (context.site?.origin ?? 'https://soul-atlas.github.io').replace(/\/$/, '');
   const abs = (path: string) => `${origin}${path}`;
 
   const staticPages = ['/', '/occupations', '/graph', '/dashboard', '/compare', '/about', '/search'];

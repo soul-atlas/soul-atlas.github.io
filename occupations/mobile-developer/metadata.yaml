@@ -1,0 +1,37 @@
+title: "Mobile Developer"
+slug: "mobile-developer"
+aliases:
+  - "iOS Developer"
+  - "Android Developer"
+  - "App Developer"
+category: "Technology"
+tags:
+  - mobile
+  - ios
+  - android
+  - app-development
+  - native
+difficulty: advanced
+summary: "Builds software that feels instant and native inside a hostile, battery-starved sandbox the OS can kill at any moment, across a thousand devices it never tested on."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "software-engineer", type: "prerequisite", note: "mobile dev is software engineering specialized to the device" }
+  - { slug: "frontend-engineer", type: "adjacent", note: "shares UI, rendering, and perceived-performance obsession" }
+  - { slug: "backend-engineer", type: "collaboration", note: "provides the APIs the app consumes over flaky links" }
+  - { slug: "ux-designer", type: "collaboration", note: "owns the experience the developer implements" }
+  - { slug: "embedded-systems-engineer", type: "adjacent", note: "shares discipline of working inside tight power and memory budgets" }
+  - { slug: "qa-engineer", type: "collaboration", note: "partners on device-matrix and lifecycle testing" }
+specializations:
+  - "iOS Developer"
+  - "Android Developer"
+  - "Cross-platform Developer"
+  - "Mobile Performance Engineer"
+country_variants: []
+sources:
+  - { title: "Apple Human Interface Guidelines", kind: "standard" }
+  - { title: "Android App Architecture Guide", kind: "standard" }
+status: stable

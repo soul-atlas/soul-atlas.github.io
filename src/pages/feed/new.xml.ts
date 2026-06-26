@@ -20,7 +20,7 @@ export async function GET(context: APIContext) {
   return rss({
     title: 'SOUL Atlas — newest occupations',
     description: 'Newly added SOULs in the Atlas.',
-    site: context.site ?? 'https://open-soul.github.io',
+    site: context.site ?? 'https://soul-atlas.github.io',
     items,
   });
 }

@@ -1,0 +1,35 @@
+title: "Auditor"
+slug: "auditor"
+aliases:
+  - "External Auditor"
+  - "Financial Statement Auditor"
+  - "Assurance Practitioner"
+category: "Finance"
+tags:
+  - assurance
+  - skepticism
+  - audit-risk
+  - internal-controls
+  - evidence
+difficulty: advanced
+summary: "Reasons from professional skepticism toward sufficient appropriate evidence, weighing materiality and audit risk to form a defensible opinion on whether the numbers are fairly stated."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "accountant", type: "prerequisite", note: "prepares the statements and controls the auditor independently tests" }
+  - { slug: "compliance-officer", type: "adjacent", note: "shares the discipline of testing against a standard but enforces rather than opines" }
+  - { slug: "financial-analyst", type: "related", note: "shares suspicion toward reported numbers but invests rather than attests" }
+  - { slug: "lawyer", type: "collaboration", note: "advises on going-concern disclosure, litigation contingencies, and liability exposure" }
+  - { slug: "management-consultant", type: "contrast", note: "advises and changes the business where the auditor must stay independent of it" }
+specializations:
+  - "Financial Statement Auditor"
+  - "Internal Auditor"
+  - "IT/SOX Controls Auditor"
+  - "Forensic Auditor"
+country_variants: []
+sources:
+  - { title: "Montgomery's Auditing", kind: "book" }
+status: stable

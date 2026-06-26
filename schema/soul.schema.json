@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://open-soul.github.io/schema/soul.schema.json",
+  "$id": "https://soul-atlas.github.io/schema/soul.schema.json",
   "title": "SOUL Atlas Record",
   "description": "The fully assembled, machine-readable representation of a single SOUL, as emitted at /api/<slug>.json. Combines validated metadata, parsed document sections, and build-time computed fields.",
   "type": "object",
@@ -9,7 +9,7 @@
   "properties": {
     "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
     "title": { "type": "string" },
-    "metadata": { "$ref": "https://open-soul.github.io/schema/metadata.schema.json" },
+    "metadata": { "$ref": "https://soul-atlas.github.io/schema/metadata.schema.json" },
     "sections": {
       "type": "array",
       "description": "Parsed H2 sections of SOUL.md, in document order.",

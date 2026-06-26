@@ -129,7 +129,7 @@ for (const s of corpus.souls) {
 console.log('• Writing public/api …');
 writeJSON(path.join(PUBLIC_API_DIR, 'index.json'), {
   ...buildMeta,
-  schema: 'https://open-soul.github.io/schema/soul.schema.json',
+  schema: 'https://soul-atlas.github.io/schema/soul.schema.json',
   endpoints: {
     occupations: '/api/occupations.json',
     categories: '/api/categories.json',

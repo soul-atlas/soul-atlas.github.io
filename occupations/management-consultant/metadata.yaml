@@ -1,0 +1,23 @@
+title: "Management Consultant"
+slug: "management-consultant"
+aliases: ["Strategy Consultant", "Business Consultant", "Advisory Consultant"]
+category: "Business"
+tags: ["strategy", "problem-solving", "advisory", "hypothesis-driven", "structuring"]
+difficulty: "advanced"
+summary: "Thinks hypothesis-first and MECE, reframing the stated problem into the real one and driving every fact to a 'so what' the client can actually execute."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "financial-analyst", type: "collaboration", note: "Owns the modeling backbone of most engagements" }
+  - { slug: "operations-manager", type: "adjacent", note: "Where strategy meets day-to-day execution" }
+  - { slug: "project-manager", type: "related", note: "Runs the implementation a consultant designs" }
+  - { slug: "product-manager", type: "adjacent", note: "Shares market and customer problem-solving" }
+  - { slug: "entrepreneur", type: "progression", note: "Common exit into founding and running ventures" }
+specializations: ["Strategy Consultant", "Operations Consultant", "M&A Due Diligence Consultant"]
+country_variants: []
+sources:
+  - { title: "The Pyramid Principle (Barbara Minto)", kind: "book" }
+  - { title: "Competitive Strategy (Michael Porter)", kind: "book" }
+status: stable

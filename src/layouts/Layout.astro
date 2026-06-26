@@ -22,7 +22,7 @@ const {
 } = Astro.props;
 
 const pageTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
-const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://open-soul.github.io').href;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://soul-atlas.github.io').href;
 ---
 
 <!doctype html>

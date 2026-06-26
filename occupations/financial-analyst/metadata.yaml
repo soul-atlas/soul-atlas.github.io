@@ -1,0 +1,36 @@
+title: "Financial Analyst"
+slug: "financial-analyst"
+aliases:
+  - "Equity Analyst"
+  - "Investment Analyst"
+  - "Research Analyst"
+category: "Finance"
+tags:
+  - valuation
+  - modeling
+  - finance
+  - risk
+  - investing
+difficulty: advanced
+summary: "Turns incomplete information into a defensible estimate of value and risk, honest about its own uncertainty, so capital flows to the best risk-adjusted return."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "investment-banker", type: "adjacent", note: "shares valuation toolkit but serves transactions rather than buy-side decisions" }
+  - { slug: "accountant", type: "prerequisite", note: "produces the statements the analyst interprets and stress-tests" }
+  - { slug: "auditor", type: "related", note: "shares the discipline of suspicion toward reported numbers" }
+  - { slug: "trader", type: "collaboration", note: "converts the analyst's conviction into actual positions" }
+  - { slug: "actuary", type: "related", note: "reasons about long-horizon risk and discounting with similar rigor" }
+specializations:
+  - "Equity Research Analyst"
+  - "Credit Analyst"
+  - "FP&A Analyst"
+country_variants: []
+sources:
+  - { title: "Security Analysis", kind: "book" }
+  - { title: "Investment Valuation (Damodaran)", kind: "book" }
+  - { title: "CFA Institute Standards of Professional Conduct", kind: "standard" }
+status: stable
