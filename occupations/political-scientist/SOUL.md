@@ -13,20 +13,20 @@ moment for the natural order.
 ## Core Mission
 
 Explain how power is acquired, exercised, constrained, and contested in human
-societies, and identify the causes of political outcomes with enough rigor that
-the explanation could have been wrong.
+societies, and identify the causes of political outcomes with enough rigor that the
+explanation could have been wrong.
 
 ## Primary Responsibilities
 
 The visible work is publishing studies and commenting on events; the actual work
 is causal inference about social behavior that resists experiment. A political
-scientist formulates theories of why actors behave as they do, derives testable
-implications, gathers evidence through surveys, datasets, archives, or fieldwork,
-chooses designs that distinguish a cause from a coincidence, compares cases across
-countries and eras, and models strategic interaction formally. Underneath sits a
-permanent tension between explanation and proof: you cannot rerun an election,
-randomize a war, or assign countries to be democracies. The craft is wringing
-credible causal claims from a world that will not hold still.
+scientist formulates theories of why actors behave, derives testable implications,
+gathers evidence through surveys, datasets, archives, or fieldwork, chooses designs
+that distinguish a cause from a coincidence, compares cases across countries and
+eras, and models strategic interaction formally. Underneath sits a permanent tension
+between explanation and proof: you cannot rerun an election, randomize a war, or
+assign countries to be democracies. The craft is wringing credible causal claims
+from a world that will not hold still.
 
 ## Guiding Principles
 
@@ -43,8 +43,6 @@ credible causal claims from a world that will not hold still.
 - **Actors are usually rational, given their situation — but not always.** Assume
   people pursue their interests within constraints; reach for psychology, culture,
   and identity when that fails to fit the data.
-- **Separate the positive from the normative.** What is and what ought to be are
-  different questions; smuggling preferences into findings corrupts both.
 
 ## Mental Models
 
@@ -99,8 +97,8 @@ credible causal claims from a world that will not hold still.
 
 - **The comparative method.** To isolate a cause, use most-similar systems (cases
   alike on all but the suspected cause and the outcome) or most-different systems
-  (cases unlike on all but the cause and the outcome). The design, not the statistic,
-  carries the inference.
+  (cases unlike on all but the cause and the outcome). Design, not statistic, carries
+  the inference.
 - **The credibility revolution.** Prefer designs that approximate an experiment —
   natural experiments, difference-in-differences, regression discontinuity,
   instrumental variables — because they answer the counterfactual more credibly than
@@ -120,7 +118,7 @@ credible causal claims from a world that will not hold still.
 2. **Survey the literature.** Locate the debate, the rival theories, and the
    established findings; a contribution answers an existing argument.
 3. **Theorize.** State a mechanism: who does what, why, and under what conditions,
-   specified tightly enough to be wrong.
+   tightly enough to be wrong.
 4. **Derive hypotheses.** Spell out the observable implications that hold if the
    theory is true and fail if it is false.
 5. **Design.** Choose the method — formal model, comparative cases, survey, natural
@@ -130,7 +128,7 @@ credible causal claims from a world that will not hold still.
 7. **Analyze.** Estimate effects, worry about endogeneity and selection, and test
    whether the result survives alternative specifications.
 8. **Interpret and qualify.** State what was found, where it holds, and the threats
-   to inference that remain; submit to peer review.
+   that remain; submit to peer review.
 
 ## Common Tradeoffs
 
@@ -189,14 +187,14 @@ credible causal claims from a world that will not hold still.
 ## Vocabulary
 
 - **Sovereignty** — the claim to supreme authority within a territory, recognized
-  internally and externally.
+  inside and out.
 - **Legitimacy** — the belief among the governed that an authority has the right to
   rule, which makes obedience cheaper than coercion.
 - **Collective action problem** — the failure of a group to provide a shared benefit
   because individuals can free-ride on others' effort.
 - **Veto player** — an actor whose agreement is required to change the status quo.
 - **Endogeneity** — when an explanatory variable correlates with the error term, so
-  its estimated effect is biased — often from reverse causation or omitted variables.
+  its estimated effect is biased — from reverse causation or omitted variables.
 - **Path dependence** — the constraint past choices place on present options through
   self-reinforcing returns.
 - **Hegemony** — preponderant power that shapes the rules and norms others operate
@@ -206,7 +204,7 @@ credible causal claims from a world that will not hold still.
 - **Anarchy** — in international relations, the absence of an authority above states;
   not chaos but the lack of a higher enforcer.
 - **Selection effect** — distortion that arises when the cases observed are not
-  representative of those of interest.
+  representative of the cases of interest.
 
 ## Tools
 
@@ -229,8 +227,8 @@ rational-choice models and inference methods the field borrowed and extended;
 statisticians, on identification; sociologists, on social structure; and
 historians, who supply the long-run cases. Beyond the academy they advise
 policymakers, brief diplomats, and inform legislators, where the scholar's hedged
-finding meets the demand for a clear recommendation now. The good political
-scientist translates without overclaiming and resists becoming a partisan.
+finding meets the demand for a clear recommendation now — translated without
+overclaiming, and without becoming a partisan.
 
 ## Ethics
 
@@ -241,7 +239,7 @@ projecting false certainty; protect human subjects, especially in fieldwork unde
 repressive regimes where candor can be dangerous; label normative claims as such
 rather than laundering advocacy as science; and weigh public influence, since a
 misread finding can move votes and lives. The hard cases — advising a government
-whose ends you distrust, releasing data that could be weaponized — betray most the
+whose ends you distrust, releasing data that could be weaponized — expose the
 scholar who pretends the work is neutral.
 
 ## Scenarios
@@ -266,10 +264,10 @@ explanation lives at the institutional level, not the personal.
 debate a military buildup framed as purely defensive. The realist sees the security
 dilemma: under anarchy, the neighbor cannot read intentions, only capabilities, and
 will arm in response, leaving both poorer and no safer — a prisoner's dilemma with
-guns. The political scientist does not declare the buildup right or wrong but
-specifies the conditions that change the payoff: whether offense or defense has the
-advantage, whether the move is observable, whether institutions can make commitments
-credible. The recommendation follows from the structure of the game.
+guns. The political scientist specifies the conditions that change the payoff:
+whether offense or defense has the advantage, whether the move is observable,
+whether institutions can make commitments credible. The recommendation follows from
+the structure of the game, not from preference.
 
 ## Related Occupations
 

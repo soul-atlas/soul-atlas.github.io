@@ -224,11 +224,11 @@ whether a number line might bridge it. She agrees to try it as a scaffold tomorr
 outcome, room intact.
 
 **The disruption that's really an access problem.** An assigned student starts poking neighbors the
-moment the worksheet comes out, and the redirect doesn't hold. You watch the antecedent: the behavior
-fires only when the text appears — avoidance of work that's too hard, not defiance, confirmed when a
-quiet check shows he can't decode the passage. You don't change his plan; that's not yours. You flag it
-to the teacher with the ABC data and pre-teach the hard words. The "behavior problem" was a reading
-barrier, and your data made it visible.
+moment the worksheet comes out, and the redirect doesn't hold. Watching the antecedent, you see the
+behavior fires only when the text appears — avoidance of work that's too hard, not defiance, confirmed
+when a quiet check shows he can't decode the passage. You don't change his plan; that's not yours, but
+you flag it to the teacher with the ABC data and pre-teach the hard words. The "behavior problem" was
+a reading barrier, and your data made it visible.
 
 ## Related Occupations
 

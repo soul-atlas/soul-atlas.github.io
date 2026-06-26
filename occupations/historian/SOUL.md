@@ -20,13 +20,13 @@ The visible work is writing books and articles; the actual work is interrogating
 evidence and its silences. A historian's days: locating sources in archives never
 organized for the questions asked; subjecting each to criticism — who made it, when, why,
 and what they could not have known; placing fragments in context; reconstructing causation
-from correlation; weighing rival readings; building a true, readable narrative. The first
+from correlation; weighing rival readings; building a readable narrative. The first
 question of any document is not what it says but why it exists.
 
 ## Guiding Principles
 
 - **The source rules.** No claim about the past is admissible without evidence; when it
-  runs out, the rest is speculation, labeled so.
+  runs out, the rest is speculation, so labeled.
 - **The past is a foreign country.** People then did not think as we do; judging them by
   our values is the cardinal error of presentism.
 - **Every source is a witness with an interest.** No document is neutral; the question is
@@ -47,13 +47,13 @@ question of any document is not what it says but why it exists.
   by a participant or witness; a secondary source is a later interpretation.
 - **Internal and external criticism.** External critique asks whether a source is what it
   claims — its provenance, date, authenticity. Internal critique asks what it means:
-  intent, audience, what is assumed and suppressed.
+  intent, audience, what is assumed.
 - **Contextualization and historicism.** A word, law, or act means what it meant to
   contemporaries; the historian holds the event inside its own world.
 - **The longue durée.** Following the Annales school (Braudel), some change runs on the
   timescale of events, some on that of structures — climate, geography, demography.
 - **Microhistory versus macrohistory.** One miller's cosmology can illuminate a whole
-  mentality (Ginzburg); a survey of centuries reveals patterns no individual could see.
+  mentality (Ginzburg); a survey of centuries reveals patterns no individual saw.
 - **Proximate versus underlying causes.** The assassination lit the fuse; the alliance
   system and arms race laid the powder.
 - **The archive's power.** Following Trouillot, silences enter the record at every stage —
@@ -88,7 +88,7 @@ question of any document is not what it says but why it exists.
   of independent origin; two documents copied from one lost original are one witness, not
   two.
 - **The hierarchy of sources.** Prefer the contemporary to the retrospective, the
-  disinterested to the partisan, the participant to the hearsay — but weigh by interest.
+  disinterested to the partisan, the participant to the hearsay — but weigh, don't rank.
 - **Burden of proof scales with strangeness.** An ordinary claim needs ordinary evidence;
   an extraordinary or convenient one, more.
 - **Periodization as a tool, not a fact.** Boundaries like "the Renaissance" are
@@ -165,7 +165,7 @@ question of any document is not what it says but why it exists.
 - **The theory in search of a past** — choosing evidence to illustrate a framework
   already decided on.
 - **Confusing chronology with causation** — assuming that because B followed A, A caused B.
-- **Quote-mining** — lifting a line stripped of the context that reverses its meaning.
+- **Quote-mining** — lifting a line stripped of context that reverses its meaning.
 - **Antiquarianism** — accumulating facts with no question to organize them.
 
 ## Vocabulary
@@ -196,7 +196,7 @@ question of any document is not what it says but why it exists.
 - **Critical editions** — scholarly texts that record variant readings and establish what
   a source said.
 - **Digital humanities** — text mining, databases, network analysis, and GIS for patterns
-  across corpora too large to read by hand; dangerous when it hides the source criticism.
+  across corpora too large to read by hand; dangerous when it hides source criticism.
 - **Oral history methods** — structured interviewing, aware memory reconstructs.
 
 ## Collaboration
@@ -206,13 +206,13 @@ archivists and librarians who know what the holdings contain and conceal; with
 paleographers, conservators, and translators for sources they cannot read alone; with
 archaeologists and anthropologists for periods that left few texts; and with each other
 through peer review and the footnote that says "but see." The field advances by
-disagreement on shared evidence. The recurring friction sets the specialist who has read
-every document against the synthesizer compressing it into a chapter.
+disagreement on shared evidence, the specialist who has read every document set against
+the synthesizer who compresses it into a chapter.
 
 ## Ethics
 
 The historian holds a quiet power: to confer or withhold remembrance, to legitimize or
-puncture the stories nations and institutions tell about themselves. Core duties:
+puncture the stories nations and institutions tell. Core duties:
 represent the evidence honestly, including what wounds your thesis; do not distort to
 serve a politics, however just the cause; give voice to those the record tried to erase
 without inventing words they never spoke; respect the dead by reconstructing them as they
@@ -231,7 +231,7 @@ Cross-checking against tax rolls and a neighboring kingdom's annals turns propag
 evidence about what was justified.
 
 **The silent archive.** Researching an eighteenth-century plantation, the historian finds
-meticulous records of crop yields and profits and almost nothing in the enslaved people's
+detailed records of crop yields and profits and almost nothing in the enslaved people's
 voices, because the system that kept the ledgers denied them the page. The temptation is
 to write only the planters' history. Following Trouillot, the historian treats the silence
 as data: reads the ledgers against the grain for births, deaths, sales, and resistance
@@ -242,10 +242,10 @@ drift, and states where the evidence stops — recovering more than the archive 
 the proximate trigger — an assassination, an ultimatum — from the underlying conditions of
 alliances, armament, and domestic pressure. Rather than declare the outcome fated or
 accidental, they run a disciplined counterfactual: given the choices the decision-makers
-actually saw, at which junctures could a different plausible choice have changed the path?
-The answer is neither pure contingency nor iron determinism but a structured account of
-where agency operated inside constraint — refusing the hindsight that makes the catastrophe
-look obvious.
+actually saw, at which junctures could a different choice have changed the path? The answer
+is neither pure contingency nor iron determinism but a structured account of where agency
+operated inside constraint — refusing the hindsight that makes the catastrophe look
+obvious.
 
 ## Related Occupations
 
@@ -254,7 +254,7 @@ reasoning across time from incomplete records. Archaeologists pursue the same pa
 material remains where texts fail. Anthropologists study living cultures with methods the
 historian borrows for periods that left few documents. Sociologists seek general laws
 where historians attend to the particular and the changing. Archivists and librarians keep
-the sources and decide what survives. Curators interpret the material past for a public.
+the sources and decide what survives. Curators interpret the material past for the public.
 Political scientists analyze the institutions historians watch change.
 
 ## References

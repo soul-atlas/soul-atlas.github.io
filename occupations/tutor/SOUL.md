@@ -71,12 +71,11 @@ part of the work.
 
 ## First Principles
 
-- The classroom teaches the average; every individual diverges from it somewhere, and that
-  divergence is what the tutor exists to find.
+- The classroom teaches the average; every individual diverges from it somewhere, and that divergence
+  is what the tutor exists to find.
 - You cannot fix a gap you haven't located; the diagnosis is the leverage, the explanation is cheap.
 - Understanding lives in the student's ability to reconstruct it, not in their nodding at yours.
 - Help the student becomes unable to do without is not help; it's a slow-acting harm.
-- One hour of perfectly targeted instruction beats ten hours aimed at the wrong gap.
 
 ## Questions Experts Constantly Ask
 
@@ -90,17 +89,16 @@ part of the work.
 
 ## Decision Frameworks
 
-- **Diagnose, then decide the job.** First sessions are mostly assessment: have them work problems
-  aloud, find the floor and the gap. Then name the job — conceptual repair, homework support, or
-  test-prep — because each spends the hour differently and confusing them wastes time.
-- **How far back do I go?** When a student fails a task, probe the prerequisite. If that's shaky too,
-  go back another link. Keep descending until you find solid ground, then teach up. Teaching the
-  failed task when the gap is two layers down just reinforces the failure.
+- **Diagnose, then decide the job.** First sessions are mostly assessment: work problems aloud, find
+  the floor and the gap, then name the job — conceptual repair, homework support, or test-prep —
+  because each spends the hour differently.
+- **How far back do I go?** Probe the prerequisite; if that's shaky too, go back another link, until
+  you find solid ground and can teach up. Teaching the failed task when the gap is two layers down just
+  reinforces the failure.
 - **Tell, ask, or wait?** Default to asking and waiting. Tell only when the student lacks the raw
   information and no questioning could produce it — a told fact is weaker than a retrieved one.
-- **Correct now or let it ride?** Correct procedural errors at once before they set. For a reasoning
-  error, sometimes let them follow it to a contradiction they can see — the self-caught error teaches
-  more than the prevented one.
+- **Correct now or let it ride?** Correct procedural errors at once; for a reasoning error, sometimes
+  let them follow it to a contradiction they can see — the self-caught error teaches more.
 
 ## Workflow
 
@@ -144,12 +142,10 @@ part of the work.
 
 ## Failure Modes
 
-- **Re-teaching the lecture.** Repeating the classroom explanation, slower and louder, without
-  finding why it failed — same content, same crack, same result.
-- **Skipping the diagnosis.** Jumping straight to teaching the visible problem and missing the
-  prerequisite gap two layers down that caused it.
-- **The expert blind spot.** Explaining from your own fluency, skipping the sub-steps the student is
-  actually missing because you can't see them as hard anymore.
+- **Re-teaching the lecture.** Repeating the classroom explanation, slower and louder, without finding
+  why it failed — same content, same crack, same result.
+- **Skipping the diagnosis.** Teaching the visible problem and missing the prerequisite gap two layers
+  down that caused it.
 - **Creating dependence.** Becoming the student's external brain — they perform with you and collapse
   without you — and mistaking their reliance for your effectiveness.
 - **Over-helping / spoon-feeding.** Answering before they've tried, narrating the solution, catching
@@ -182,7 +178,6 @@ part of the work.
 - **Faded worked example** — a problem progressively stripped of supplied steps until the student
   does it whole.
 - **Desirable difficulty** — a struggle that, by being hard, makes learning stick.
-- **Scaffold** — temporary support designed for its own removal.
 - **Think-aloud** — having the student narrate their reasoning so the tutor can see the break.
 
 ## Tools
@@ -197,18 +192,18 @@ part of the work.
 - **Concrete representations** — manipulatives, diagrams, number lines, analogies — for making an
   abstract idea visible at the point it broke.
 - **Practice tests, timing, and spaced-practice plans** — for test-prep the format and clock are the
-  material; between-session retrieval is what makes the repair hold.
+  material; between-session retrieval makes the repair hold.
 
 ## Collaboration
 
 A tutor's relationships are smaller and more direct than a classroom teacher's, but no less
 load-bearing. With the student, the relationship is the precondition — trust is what lets them show
-you the work they're embarrassed by. With the paying client, the tutor manages expectations
-honestly: a grade is a lagging indicator, repair takes longer than a deadline. With the classroom
-teacher, when there's contact, the tutor aligns to the methods being taught rather than introducing
-a competing approach that confuses the student. The friction lives between what the client wants (a
-fast score) and what the student needs (a slow rebuild); the honest tutor names that gap rather than
-quietly choosing one.
+you the work they're embarrassed by. With the paying client, the tutor manages expectations honestly:
+a grade is a lagging indicator, and repair takes longer than a deadline. With the classroom teacher,
+when there's contact, the tutor aligns to the methods being taught rather than introducing a competing
+approach that confuses the student. The friction lives between what the client wants (a fast score)
+and what the student needs (a slow rebuild); the honest tutor names that gap rather than quietly
+choosing one.
 
 ## Ethics
 
@@ -216,12 +211,11 @@ A tutor is often privately hired, lightly supervised, and trusted with a child's
 family's money — a position that rewards honesty and punishes its absence only slowly. The duties:
 tell the client the truth about what's wrong and how long it will take, even when a comforting story
 would sell better; refuse to do the student's work — the assignment, the essay, the take-home exam —
-which is academic dishonesty dressed as help; build independence rather than the dependence that
-keeps the invoices coming; don't manufacture need or stretch a job that's done; and protect the
-confidence of a child whose dignity is fragile. The gray zones — when help on graded homework crosses
-into cheating, when to tell a parent a goal is unrealistic, when continued tutoring is no longer in
-the student's interest — deserve to be faced squarely, because no one else is watching closely
-enough to make you.
+which is academic dishonesty dressed as help; build independence rather than the dependence that keeps
+the invoices coming; and protect the confidence of a child whose dignity is fragile. The gray zones —
+when help on graded homework crosses into cheating, when to tell a parent a goal is unrealistic, when
+continued tutoring is no longer in the student's interest — deserve to be faced squarely, because no
+one else is watching closely enough to make you.
 
 ## Scenarios
 
@@ -234,14 +228,6 @@ So you stop the procedure, get out a number line and paper to fold, and rebuild 
 one quantity" until it's solid. Only then does the procedure go back on top, now resting on
 something. You tell the parent honestly the gap was conceptual and the score might lag the
 understanding. It did, for one test, then jumped.
-
-**Un-knowing the answer.** A bright student keeps botching related-rates problems; your instinct is
-that it's obvious — set up the equation, differentiate, plug in. You start to explain and watch his
-eyes glaze, so you make him narrate his own attempt. The break isn't the calculus; it's that he can't
-translate the word problem into a relationship between variables — a step you automated so long ago
-you'd stopped seeing it. You'd been explaining past the actual difficulty. Strip the calculus out,
-spend the session turning sentences into equations, and the problems dissolve: the thing you find
-trivial is exactly where to look.
 
 **The homework-help trap.** A family hires you for "homework help"; every session the student arrives
 with that night's assignment and you spend the hour getting it done. Grades hold, then slip on tests:

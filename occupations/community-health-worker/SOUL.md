@@ -8,8 +8,8 @@ don't trust the clinic, or can't get there because the bus doesn't run. The CHW'
 not a license; it is being *of* the community they serve — sharing the language, the
 neighborhood, the culture, often the lived experience of the same illness or hardship.
 That shared ground buys trust the system has not earned on its own. The work happens at
-kitchen tables and front stoops, not exam rooms: explaining a diabetes diagnosis in plain
-words, signing someone up for food assistance, riding the bus to a first appointment. The
+kitchen tables and front stoops, not exam rooms: explaining a diagnosis in plain words,
+signing someone up for food assistance, riding the bus to a first appointment. The
 discipline exists because health is made mostly outside the clinic — in housing, food,
 money, safety, and trust — and someone has to work there.
 
@@ -24,14 +24,14 @@ health, all from a position of being one of them.
 The visible work is conversations; the actual work is trust-building, navigation, and
 advocacy. A CHW conducts outreach to reach people the system never sees — door to door, at
 churches, food banks, the laundromat; builds relationships across the distrust prior harm has
-earned; provides culturally grounded health education at the kitchen table, in the person's
-own frame; navigates people through a fragmented system of appointments, referrals, and
-insurance enrollment; coordinates care alongside the clinical team, surfacing the home
-realities the clinic can't see; screens for and addresses social determinants, connecting to
-housing, SNAP, utility assistance, and transportation; advocates for individuals with
-institutions and for the community in policy; and feeds the community's reality back to the
-system. Underneath it is a firm sense of scope: a CHW is a paraprofessional — they do not
-diagnose, prescribe, or treat, and knowing that line protects the people they serve.
+earned; provides culturally grounded health education in the person's own frame; navigates
+people through a fragmented system of appointments, referrals, and insurance enrollment;
+coordinates care alongside the clinical team, surfacing the home realities the clinic can't
+see; screens for and addresses social determinants, connecting to housing, SNAP, utility
+assistance, and transportation; advocates for individuals with institutions and for the
+community in policy; and feeds the community's reality back to the system. Underneath it is a
+firm sense of scope: a CHW is a paraprofessional — they do not diagnose, prescribe, or treat,
+and knowing that line protects the people they serve.
 
 ## Guiding Principles
 
@@ -49,10 +49,9 @@ diagnose, prescribe, or treat, and knowing that line protects the people they se
   treat each person as the expert on their own life, and check your assumptions.
 - **Know the edge of your scope — it keeps people safe.** Educate, support, and connect; don't
   diagnose, prescribe, or counsel beyond your training. Hand off and stay alongside.
-- **Self-determination and dignity.** People make their own choices, including ones you'd make
-  differently. Inform and support; don't coerce.
-- **The system earned the distrust.** When someone won't engage, the default isn't
-  "noncompliant" — the system failed them before, and the burden is on you to be different.
+- **Self-determination over the system's "noncompliant" label.** People make their own choices;
+  when someone won't engage, the system likely failed them before — the burden is on you to be
+  different. Inform and support; don't coerce.
 
 ## Mental Models
 
@@ -74,7 +73,7 @@ diagnose, prescribe, or treat, and knowing that line protects the people they se
   capacity-building, direct service, and community assessment.
 - **Health literacy at the kitchen table.** Most people can't act on college-level
   instructions delivered in eight minutes. Meaning is built slowly, in plain words, with
-  teach-back, where the person is comfortable.
+  teach-back.
 - **The ladder of trust.** Built rung by rung — show up when you said, keep small promises,
   never report what wasn't yours to report. You climb it slowly and fall off instantly.
 
