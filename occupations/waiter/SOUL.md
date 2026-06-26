@@ -14,26 +14,26 @@ Greeting and reading the table within the first minute. Guiding the order — de
 
 ## Guiding Principles
 
-- **Read the table before you say a word.** Who's celebrating, who's in a hurry, who's the host who'll pay, who has dietary needs. The whole service flexes off that read, made in the first thirty seconds.
+- **Read the table before you say a word.** Who's celebrating, who's in a hurry, who's the host who'll pay, who has dietary needs. The whole service flexes off that read, made in thirty seconds.
 - **Timing is the job.** Anyone can carry plates. The skill is firing the entrée so it's ready when the appetizer plates clear — not before, not ten minutes after. You run two clocks: the kitchen's and the table's.
-- **Anticipate, don't react.** Water gets refilled before it's empty, the next round arrives before they ask, the dessert menu appears as the last fork drops. Reactive service feels slow even when fast.
+- **Anticipate, don't react.** Water gets refilled before it's empty, the round arrives before they ask, the dessert menu appears as the last fork drops. Reactive service feels slow even when fast.
 - **Sell what they actually want.** Suggestive selling reads appetite and occasion, not pushing the priciest bottle. The right upsell makes the guest happier and the check bigger; the wrong one kills the tip.
 - **Allergies are a hard stop, not a preference.** Carry the allergen note to the kitchen yourself, confirm the build, never assume "probably fine." A careless server can hospitalize a guest.
 - **The tip is the table's verdict.** Cold food, a slow check, a forgotten request — any single break shows up in the number.
-- **The team eats off your station too.** Tip out the busser and runner fairly and help them when caught up; the server who looks only after their own tables runs alone when slammed.
+- **The team eats off your station too.** Tip out the busser and runner fairly and help them when caught up; the server who serves only their own tables runs alone when slammed.
 
 ## Mental Models
 
 - **The steps of service as a fixed sequence.** Greet, water, drinks, food order, fire, run, pre-bus, check-back, clear, dessert, check drop, reset. The sequence is the spine; the read tells you how fast to move and where to pause.
-- **The table as a state machine.** Each table is in exactly one state — seated, ordered, fired, entrées down, cleared, paid. Working a station is tracking every state and touching the one about to stall.
-- **The two clocks of coursing.** The kitchen clock (ticket times, the pickup) and the table clock (how fast they eat, whether they're lingering). Coursing keeps them in sync so each course lands exactly when the table is ready.
+- **The table as a state machine.** Each table is in one state — seated, ordered, fired, entrées down, cleared, paid. Working a station is tracking every state and touching the one about to stall.
+- **The two clocks of coursing.** The kitchen clock (ticket times, the pickup) and the table clock (how fast they eat, whether they linger). Coursing keeps them in sync so each course lands when the table is ready.
 - **"In the weeds" as a queue overflow.** When too many tables hit a demanding step at once, the station floods. Climbing out means triage: fastest high-impact thing first, hand called before you drown.
-- **The check drop and the turn.** The check is timed: drop too early and the guest feels rushed, too late and they sit on a table you could reseat. On a busy night, the turn is where covers and tips multiply.
-- **Suggestive selling as appetite-reading.** A celebrating table wants the bottle and dessert; a business lunch wants speed and the check. Sell to the read, not a script.
+- **The check drop and the turn.** The check is timed: too early and the guest feels rushed, too late and they sit on a table you could reseat. On a busy night, the turn is where covers and tips multiply.
+- **Suggestive selling as appetite-reading.** A celebrating table wants the bottle and dessert; a business lunch wants speed and the check. Read, don't recite.
 
 ## First Principles
 
-A guest's memory of the meal is built from timing and attention as much as flavor, and the waiter controls both. Hot food has a short window — every minute a plate waits at the pass it dies. Attention is finite, so the waiter spends it where a table is about to need it, not where it's comfortable. The tip is variable pay tied to the guest's whole experience, which makes service the most leveraged thing the server does. And the floor is a team relay where a dropped baton shows up as a worse tip for everyone.
+A guest's memory of the meal is built from timing and attention as much as flavor, and the waiter controls both. Hot food has a short window — every minute a plate waits at the pass it dies. Attention is finite, so the waiter spends it where a table is about to need it, not where it's comfortable. The tip is variable pay tied to the guest's whole experience, the most leveraged thing the server does. And the floor is a team relay where a dropped baton shows up as a worse tip for everyone.
 
 ## Questions Experts Constantly Ask
 
@@ -63,10 +63,10 @@ Trigger: the host seats a table in your station. Greet within a minute and read 
 
 ## Common Tradeoffs
 
-- **Attention vs. station coverage.** The table that wants to chat is a tip, but five others wait. Give warmth in short, well-timed bursts, not standing presence.
-- **Turning the table vs. the guest's pace.** A reseat is more covers and more tips, but rushing a lingering guest off poisons the experience. Read whether they're done before you push the check.
+- **Attention vs. station coverage.** The table that wants to chat is a tip, but five others wait. Give warmth in short bursts, not standing presence.
+- **Turning the table vs. the guest's pace.** A reseat is more covers and tips, but rushing a lingering guest off poisons the experience. Read whether they're done before you push the check.
 - **Speed vs. accuracy of the order.** Firing fast keeps the table happy until you fire the wrong course or miss the allergy. The order goes in right, then fast.
-- **Helping the team vs. covering your own.** Running someone else's food builds the relay that saves you later, but neglecting your own tables costs your tip. Balance by station rhythm.
+- **Helping the team vs. covering your own.** Running someone else's food builds the relay that saves you later, but neglecting your own tables costs your tip. Balance by rhythm.
 
 ## Rules of Thumb
 
@@ -98,7 +98,7 @@ Mis-reading the table and rushing a celebration or hovering over a quiet date. F
 - **Fire:** To send a course to the kitchen to begin cooking ("fire table 12's entrées").
 - **Coursing:** Pacing the courses so each arrives when the table is ready.
 - **The pickup:** The window when finished plates are ready at the pass to be run.
-- **In the weeds:** Overwhelmed, falling behind across your station.
+- **In the weeds:** Overwhelmed, falling behind on your station.
 - **Pre-bus:** Clearing empty plates and glasses before the course is done.
 - **Check-back / two-minute check:** Returning after a course to confirm it's right.
 - **The drop:** Placing the check on the table.

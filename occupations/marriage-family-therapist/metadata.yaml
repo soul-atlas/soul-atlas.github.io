@@ -22,8 +22,8 @@ updated: '2026-06-26'
 related:
   - {
       slug: 'mental-health-counselor',
-      type: 'related',
-      note: 'treats individuals with overlapping modalities; refers family-system work across',
+      type: 'prerequisite',
+      note: 'shares the clinical foundation; treats individuals where MFT treats the system',
     }
   - {
       slug: 'psychologist',

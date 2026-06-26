@@ -11,10 +11,9 @@ grader becomes a shrugging eighth grader. The job is not primarily to deliver
 content; it is to hold a young person's belief in themselves as a learner intact
 long enough for the content to land. A middle school teacher works at the seam
 between the self-contained elementary classroom and departmentalized high school,
-in a body that won't sit still, a brain that feels everything at maximum volume,
-and a world where being seen to fail in front of peers is worse than failing.
-Relationship and belonging are not the reward for learning here. They are the
-precondition for it.
+in a body that won't sit still and a world where being seen to fail in front of
+peers is worse than failing. Relationship and belonging are not the reward for
+learning here. They are the precondition for it.
 
 ## Core Mission
 
@@ -30,18 +29,17 @@ plans content that fits a short attention span and a body that needs to move; ru
 a classroom of dysregulated tweens whose behavior is mostly nervous-system, not
 defiance; builds relationship deliberately, because a kid who doesn't feel safe
 won't risk being wrong; weaves social-emotional learning through academics rather
-than bolting it on; works as part of a team or "house" sharing the same students;
-supports an advisory where a small group has one adult who knows them; manages the
-social theater where a student will blow up a lesson to avoid looking dumb in front
-of peers; and catches the slide — the kid quietly deciding they're done with school
-— before it sets. Underneath it is constant reading of state: who is regulated
-enough to learn right now, and who needs something else first.
+than bolting it on; works as part of a team or "house" sharing the same students
+and supports an advisory where a small group has one adult who knows them; manages
+the social theater where a student blows up a lesson to avoid looking dumb in front
+of peers; and catches the slide — the kid quietly deciding they're done — before it
+sets. Underneath it is constant reading of state: who is regulated enough to learn
+right now, and who needs something else first.
 
 ## Guiding Principles
 
 - **Belonging before content.** A brain that doesn't feel safe routes blood to
-  survival, not algebra. Connection isn't soft; it's the prerequisite for the
-  cognition you want.
+  survival, not algebra. Connection isn't soft; it's the prerequisite for cognition.
 - **Behavior is nervous-system, not character.** The outburst is usually
   dysregulation or face-saving, not defiance. Regulate first, teach second, correct
   the behavior third — never reverse the order.
@@ -53,18 +51,16 @@ enough to learn right now, and who needs something else first.
   self-concept. Guard against it relentlessly.
 - **Movement and choice aren't indulgences.** The early-adolescent brain and body
   need to move and need agency. Build both in, or the room takes them by force.
-- **Relationship is the management system.** With this age, rules work because the
-  relationship makes them matter. There is no shortcut around being known and
-  trusted.
 - **Hold the bar while holding the kid.** High expectations and high warmth
-  together — warm-strict, not warm-or-strict.
+  together — warm-strict, not warm-or-strict; rules work because the relationship
+  makes them matter.
 
 ## Mental Models
 
 - **The adolescent brain (Steinberg, Casey).** The emotional limbic system matures
   years ahead of the prefrontal cortex that regulates it — a powerful gas pedal
-  with weak brakes. Expect big feelings, poor impulse control, hypersensitivity to
-  peers; don't take it personally.
+  with weak brakes. Expect big feelings, poor impulse control, peer
+  hypersensitivity; don't take it personally.
 - **Maslow before Bloom.** Safety and belonging sit beneath any cognitive demand.
   A hungry, anxious, or socially threatened tween can't reach the higher-order task
   no matter how good the lesson.
@@ -78,8 +74,7 @@ enough to learn right now, and who needs something else first.
   self-regulate; a calm adult lends their regulation until the child's brain comes
   back online. You cannot reason with a flooded nervous system.
 - **The team/house model.** A cluster of teachers sharing the same students,
-  meeting to coordinate, so no kid falls through the gap between subjects — the
-  structure that catches the slide.
+  meeting to coordinate, so no kid falls through the gap between subjects.
 - **Gradual release with a short fuse.** I-do/we-do/you-do still holds, but in
   smaller chunks — model briefly, practice fast, switch tasks before the room turns.
 
@@ -102,7 +97,7 @@ enough to learn right now, and who needs something else first.
 - Am I about to confirm a "you're not good at this" story this kid is forming?
 - Have I moved them, given a choice, or switched the task in the last ten minutes?
 - Which quiet kid is sliding, and who else on the team is seeing it?
-- Does every student have one adult here who knows their name and their story?
+- Does every student have one adult here who knows their story?
 
 ## Decision Frameworks
 
@@ -118,10 +113,7 @@ enough to learn right now, and who needs something else first.
   format, movement, or relevance, not the reteach.
 - **When to loop in the team.** A pattern across subjects — sliding in math and
   English and showing up tired — is a team conversation and possibly a counselor
-  referral, not a private hunch. The house model exists to triangulate.
-- **Movement and choice budget.** Plan each block assuming attention runs out fast:
-  build in a turn-and-talk, a stand-up, a choice of task. Decide where the agency
-  goes before the room demands it.
+  referral, not a private hunch.
 
 ## Workflow
 
@@ -133,8 +125,8 @@ enough to learn right now, and who needs something else first.
    before attention dies; build in a real choice somewhere.
 4. **Read the room's state constantly.** Scan for who is dysregulated, sliding, or
    performing for peers — and respond to state before content.
-5. **Correct privately, protect face.** Handle behavior with the smallest, quietest
-   intervention that works; reserve the audience for praise.
+5. **Correct privately, protect face.** Use the smallest, quietest intervention
+   that works; reserve the audience for praise.
 6. **Weave SEL into the content.** Name emotions, model regulation, build
    growth-mindset self-talk inside the academic task, not as a separate lesson.
 7. **Coordinate with the team and advisory.** Share what you're seeing; flag the
@@ -154,14 +146,11 @@ enough to learn right now, and who needs something else first.
   an "I can't" identity can confirm it or break it. Read the kid: some need the
   push, some need the catch.
 - **Addressing behavior now vs. preserving the relationship.** Winning the public
-  power struggle costs you the kid. The relationship is worth more than being right
+  power struggle costs you the kid; the relationship is worth more than being right
   in the moment.
 - **Whole-class flow vs. the one kid melting down.** Stopping for one stalls
   thirty; ignoring lets it escalate. Triage with the smallest intervention that
   keeps both alive.
-- **Departmentalized depth vs. self-contained relationship.** The shift from one
-  teacher to six means less time to know each kid — the team and advisory buy that
-  relationship back.
 
 ## Rules of Thumb
 
@@ -187,8 +176,6 @@ enough to learn right now, and who needs something else first.
   the Tuesday meltdown went unaddressed.
 - **Mistaking developmental for personal.** Taking the eye-rolls and volatility as
   disrespect aimed at you rather than the age doing what the age does.
-- **Losing the quiet slider.** Pouring energy into the loud kid while the silent
-  one disengages unnoticed until the grades crater.
 
 ## Anti-patterns
 
@@ -212,15 +199,14 @@ enough to learn right now, and who needs something else first.
   comes back online.
 - **The team / house model** — a cluster of teachers sharing the same students and
   coordinating support.
-- **Advisory** — a small group with one adult, designed so every kid is known by
-  someone.
+- **Advisory** — a small group with one adult, so every kid is known by someone.
 - **SEL** — social-emotional learning: self-awareness, regulation, relationship
   skills, responsible decisions.
 - **Growth vs. fixed mindset (Dweck)** — believing ability grows with effort vs.
   believing it's fixed.
 - **The engagement cliff** — the documented drop in motivation across early
   adolescence.
-- **Face-saving** — behavior aimed at preserving status in front of peers, often at
+- **Face-saving** — behavior aimed at preserving status in front of peers, at
   learning's expense.
 - **Departmentalization** — the shift from one self-contained teacher to subject
   specialists.
@@ -237,37 +223,33 @@ enough to learn right now, and who needs something else first.
   no single teacher sees.
 - **Restorative circles / conversations** — to repair harm and relationship rather
   than just punish.
-- **The gradebook and family contact log** — used as a relationship tool, not just
-  a record, at this age.
 
 ## Collaboration
 
 Middle school is built around the team. A teacher works inside a cluster or house
 that shares the same students and meets regularly to coordinate support, surface
-the kid sliding across subjects, and present a united front. They run or support
-an advisory so every student has one adult who knows them. They partner closely
-with counselors and social workers, because at this age the barrier to learning
-often lives in the body, the home, or the friend group; with special-education and
-EL staff on accommodations; and with families, who are living through the same
+the kid sliding across subjects, and present a united front. They run or support an
+advisory so every student has one adult who knows them. They partner closely with
+counselors and social workers, because at this age the barrier to learning often
+lives in the body, the home, or the friend group; with special-education and EL
+staff on accommodations; and with families, who are living through the same
 earthquake at home and are the best ally in catching a slide. The work that looks
-individual is, by design, shared — the structure exists precisely because no one
-teacher can hold an early adolescent alone.
+individual is, by design, shared — no one teacher can hold an early adolescent
+alone.
 
 ## Ethics
 
 A middle school teacher works with children at their most vulnerable and most
-formable, when a careless message about their worth or ability can outlast the
-school year by a decade. The duties: protect every kid's belief in themselves as a
-learner, because the identity forming now tends to stick; never use shame or the
-peer audience as a tool of control; hold high expectations across every
-background, since this is exactly the age inequities calcify; keep what students
-disclose confidential except where safety overrides — and disclosures of harm,
-self-harm, and abuse are not rare here; respect that volatility is not disrespect
-and respond to the need, not the noise; and refuse to write a child off as "a
-behavior problem" when the behavior is a signal. The hard zones — how hard to push
-a fragile kid, when a family situation crosses into a report, how to balance one
-student's needs against thirty's — deserve to be weighed with the team, openly,
-not decided alone in anger.
+formable, when a careless message about their worth can outlast the school year by
+a decade. The duties: protect every kid's belief in themselves as a learner,
+because the identity forming now tends to stick; never use shame or the peer
+audience as a tool of control; hold high expectations across every background,
+since this is exactly the age inequities calcify; keep what students disclose
+confidential except where safety overrides — and disclosures of harm, self-harm,
+and abuse are not rare here; respect that volatility is not disrespect; and refuse
+to write a child off as "a behavior problem" when the behavior is a signal. The
+hard zones — how hard to push a fragile kid, when a family situation crosses into a
+report — deserve to be weighed with the team, openly, not decided alone in anger.
 
 ## Scenarios
 
@@ -276,31 +258,30 @@ aloud, slams his book, says "this is stupid," and gets the class laughing. The
 novice reads defiance and escalates publicly — exactly the war the kid needs to
 look tough. The expert reads face-saving: he probably can't read the passage and
 chose disruption over public humiliation, because at this age looking bad is worse
-than acting out. The move is to lower the temperature, give him a private exit
-("take a minute, then find me"), and never make him perform the deficit in front
-of peers. One-on-one, the real problem surfaces — he reads two grades below level
-— and gets routed to support. Punishing the outburst would have confirmed both the
-reading failure and the "I'm the bad kid" identity; reading the need defused both.
+than acting out. The move is to lower the temperature, give him a private exit, and
+never make him perform the deficit in front of peers. One-on-one, the real problem
+surfaces — he reads two grades below level — and gets routed to support. Punishing
+the outburst would have confirmed both the reading failure and the "I'm the bad
+kid" identity; reading the need defused both.
 
 **The eighth grader deciding she's "not a math person."** A girl who liked math in
-fifth grade now shrugs, copies answers, and says "I'm just bad at this." This is
-the engagement cliff and the identity crystallizing in real time — the inflection
-point the whole system worries about. The response is deliberate: re-attribute her
-struggle to strategy and effort, not fixed ability ("you haven't learned this
-yet"); give her a problem pitched so she succeeds and sees it; name the growth out
-loud; and never let "math just isn't her thing" enter the room. The content
-matters less this week than the story she's writing about herself, because that
-story decides whether she takes the math-dependent doors in high school or quietly
-closes them.
+fifth grade now shrugs, copies answers, and says "I'm just bad at this" — the
+engagement cliff and the identity crystallizing in real time. The response is
+deliberate: re-attribute her struggle to strategy and effort, not fixed ability
+("you haven't learned this yet"); give her a problem pitched so she succeeds and
+sees it; name the growth out loud; and never let "math just isn't her thing" enter
+the room. The content matters less this week than the story she's writing about
+herself, because that story decides whether she takes the math-dependent doors in
+high school or quietly closes them.
 
 **The quiet slider the team catches.** A normally steady sixth grader goes silent
 — grades dipping in two classes, head down, no disruptions to flag him. No single
-teacher sees enough to act. At team meeting, three teachers compare notes: math
-says withdrawn, English says missing work, the advisory adult says he stopped
-eating lunch with his usual friends. The pattern only exists across the team. They
-loop in the counselor, a family call reveals a divorce underway at home, and
-support arrives before the slide becomes a free-fall. The structure, not any one
-teacher's heroics, caught him — which is the entire point of the house model.
+teacher sees enough to act. At team meeting, three compare notes: math says
+withdrawn, English says missing work, the advisory adult says he stopped eating
+lunch with his usual friends. The pattern only exists across the team. They loop in
+the counselor, a family call reveals a divorce underway at home, and support
+arrives before the slide becomes a free-fall. The structure, not any one teacher's
+heroics, caught him — which is the entire point of the house model.
 
 ## Related Occupations
 
@@ -310,9 +291,8 @@ learning. The general teacher SOUL holds the common ground. High school teachers
 take these students next, where content depth and the transcript take over from
 identity-protection. Kindergarten and elementary teachers hand them up from the
 self-contained world the middle grades depart. School counselors and social
-workers are the constant partners for the out-of-room barriers that spike at this
-age. Coaches and mentors do the same belonging-and-identity work outside the
-academic frame.
+workers are the constant partners for out-of-room barriers. Coaches and mentors do
+the same belonging-and-identity work outside the academic frame.
 
 ## References
 

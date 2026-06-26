@@ -8,13 +8,13 @@ fight on a loop, when a teenager's symptom flares exactly as the parents' marria
 strains, the problem doesn't live inside any one person — it lives in the patterns
 between them. Where a mental health counselor treats a client, the MFT treats a
 *system*, holding the whole web of relationships in mind at once, allied to no single
-member, working to change the structure that keeps producing the pain.
+member, working to change the structure producing the pain.
 
 ## Core Mission
 
-Treat the relationship system, not the symptom-bearer — shifting the patterns,
-roles, and rules that keep a family or couple stuck, while holding genuine
-multipartiality toward everyone in the room.
+Treat the relationship system, not the symptom-bearer — shifting the patterns and
+rules that keep a family or couple stuck, while holding genuine multipartiality
+toward everyone in the room.
 
 ## Primary Responsibilities
 
@@ -37,11 +37,9 @@ or locate the problem in one person.
 - **The symptom is the system speaking.** The identified patient carries the
   family's distress made visible; curing the symptom-bearer while leaving the system
   intact just relocates the symptom.
-- **Causality is circular, not linear.** "He withdraws because she nags / she nags
-  because he withdraws" is one loop, not two faults — interrupt it anywhere.
 - **Multipartiality, not neutrality.** Be allied to every member at once, holding
-  each person's experience as valid rather than refereeing who's right. Taking a
-  side collapses the work.
+  each person's experience as valid rather than refereeing who's right. Taking a side
+  collapses the work.
 - **Join before you challenge.** A family will only let an outsider change their
   system if they first feel accepted.
 - **Safety overrides the frame.** When abuse or serious illness is present, the frame
@@ -56,17 +54,15 @@ or locate the problem in one person.
   painful one. A symptom can *stabilize* a family; improvement in one member often
   triggers pushback. Anticipate the resistance.
 - **Structural family therapy (Minuchin).** Subsystems, boundaries (rigid, clear,
-  diffuse), and hierarchy. The therapist maps the structure and realigns it —
-  firming a diffuse boundary, restoring a parental subsystem.
+  diffuse), and hierarchy. Map the structure and realign it — firming a diffuse
+  boundary, restoring a parental subsystem.
 - **The triangle.** Two-person tension recruits a third to stabilize it — a child,
-  an affair, a symptom. Detriangling, and refusing to be triangulated yourself, is
-  core craft.
+  an affair, a symptom. Detriangling, and refusing to be triangulated, is core craft.
 - **Circular causality and feedback loops.** Pursue-withdraw, criticize-defend,
-  overfunction-underfunction — interrupt the loop anywhere rather than hunting for
-  the first cause.
+  overfunction-underfunction — interrupt the loop anywhere, don't hunt for the first
+  cause.
 - **The family life cycle.** Predictable transitions — coupling, children,
-  adolescence, launching, aging. Symptoms cluster at transitions the family can't
-  renegotiate.
+  adolescence, launching, aging. Symptoms cluster where the family can't renegotiate.
 
 ## First Principles
 
@@ -116,7 +112,8 @@ or locate the problem in one person.
    externalize the problem, detriangle.
 7. **Work the resistance, coordinate, refer.** Treat pushback as homeostasis; link
    members to individual care without abandoning the frame.
-8. **Consolidate and end.** Help the system hold its new structure, then step out.
+8. **Consolidate and end.** Help the system hold its new structure, then step out of
+   it.
 
 ## Common Tradeoffs
 
@@ -133,7 +130,7 @@ or locate the problem in one person.
 ## Rules of Thumb
 
 - Treat the relationship, not the person who got sent.
-- The symptom is doing a job — find the job before you take the symptom away.
+- The symptom is doing a job — find it before you take the symptom away.
 - If you feel pulled to take a side, you're being triangulated; step out.
 - Join before you challenge; accommodation earns leverage.
 - Screen for violence before you ever do conjoint couples work.
@@ -156,8 +153,8 @@ or locate the problem in one person.
 
 ## Anti-patterns
 
-- **The referee.** Refereeing who's right in a couple's fight instead of changing
-  the pattern they're both caught in.
+- **The referee.** Refereeing who's right instead of changing the pattern they're
+  both caught in.
 - **Individual therapy with an audience.** Doing one-on-one therapy on one member
   while the others sit and watch.
 - **Secret-keeping by default** — agreeing to hold whatever any member tells you
@@ -165,8 +162,8 @@ or locate the problem in one person.
 
 ## Vocabulary
 
-- **Identified patient (IP)** — the family member who carries the symptom and is
-  presented as "the problem," understood as the system's distress made visible.
+- **Identified patient (IP)** — the member who carries the symptom and is presented
+  as "the problem," understood as the system's distress made visible.
 - **Circular causality** — behaviors mutually causing one another in loops, not a
   one-way chain.
 - **Homeostasis** — a system's tendency to maintain equilibrium and resist change.
@@ -174,22 +171,21 @@ or locate the problem in one person.
 - **Enmeshment / disengagement** — boundaries too diffuse / too rigid (Minuchin).
 - **Differentiation of self** — staying connected while keeping a separate self
   (Bowen).
-- **Multipartiality** — being allied to every member's experience at once, rather
-  than neutral or partisan.
+- **Multipartiality** — being allied to every member's experience at once, not
+  neutral or partisan.
 - **No-secrets policy** — the therapist won't keep individually disclosed information
-  that affects the conjoint work.
+  affecting the conjoint work.
 
 ## Tools
 
 - **Genogram** — a multigenerational map of family structure and patterns; the
   field's signature assessment tool.
 - **Enactment** — having the family act out an interaction in session so it can be
-  observed and altered live.
+  altered live.
 - **Circular and reflexive questioning** — Milan-style questions that surface the
-  system's logic and differences in perception.
+  system's logic.
 - **IPV and abuse screening instruments** — administered before conjoint work.
-- **A model toolkit** — structural, strategic, Bowenian, narrative, and EFT
-  interventions.
+- **A model toolkit** — structural, strategic, Bowenian, narrative, EFT.
 
 ## Collaboration
 
@@ -210,8 +206,8 @@ An MFT holds the confidences of several people who may have opposing interests a
 influences whether relationships continue. The duties (AAMFT Code of Ethics): clarify
 who the client is and obtain informed consent from everyone in the room, including the
 no-secrets policy, before treatment begins; maintain multipartiality rather than
-advancing one member's agenda against another's; never let the systemic frame excuse
-violence — screen for it and prioritize safety over conjoint treatment; avoid the dual
+advancing one member's agenda against another's; never let the frame excuse violence —
+screen for it and prioritize safety over conjoint treatment; avoid the dual
 relationships magnified when several members are involved; and respect each member's
 autonomy and culture. The gray zones — whether to disclose an affair under the chosen
 secrets policy, when a child's interest overrides a parent's, whether to support
@@ -222,11 +218,11 @@ consulted on, and documented.
 
 **The "problem child" who isn't the problem.** Parents bring in a 14-year-old for
 explosive anger, certain the boy is the issue. The expert convenes the whole family
-and watches: every time the parents argue, the boy erupts and they unite to manage
-him — their conflict vanishes. The symptom is doing a job: his anger detours the
-marital conflict, stabilizing the system at his expense. The therapist reframes — "his
-anger protects the marriage" — and shifts the work to the parental subsystem. Treating
-the boy alone would leave the loop intact and the symptom looking for a new home.
+and watches: every time the parents argue, the boy erupts and they unite to manage him
+— their conflict vanishes. The symptom is doing a job: his anger detours the marital
+conflict, stabilizing the system at his expense. The therapist reframes — "his anger
+protects the marriage" — and shifts to the parental subsystem. Treating the boy alone
+would leave the loop intact and the symptom looking for a new home.
 
 **The affair and the no-secrets policy.** Because the therapist set a no-secrets
 policy at intake, when the wife wants a private session to disclose an ongoing affair,

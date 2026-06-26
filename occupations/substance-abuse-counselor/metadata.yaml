@@ -22,8 +22,8 @@ updated: '2026-06-26'
 related:
   - {
       slug: 'mental-health-counselor',
-      type: 'related',
-      note: 'shares modalities and treats the co-occurring conditions driving use',
+      type: 'prerequisite',
+      note: 'shares the clinical foundation; treats the co-occurring conditions driving use',
     }
   - {
       slug: 'psychiatrist',

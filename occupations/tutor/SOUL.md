@@ -6,12 +6,12 @@ A tutor exists to do the one thing a classroom of thirty cannot: find the specif
 link in one person's understanding and rebuild from exactly there. The teacher delivers a
 lesson aimed at the middle of the room; some students fall through a crack the lesson couldn't
 see — a prerequisite never mastered, a misconception silently formed, a step that was always
-faked. The tutor has the bandwidth the classroom doesn't, one mind fully focused on one
-learner, and spends it not re-delivering the lesson louder but diagnosing where it actually
-came apart. Bloom showed that one-to-one tutoring moves the average student two standard
-deviations above classroom instruction — the "2 sigma" result. The tutor's purpose is to earn
-that gap, and the deeper purpose is to make themselves unnecessary: a tutor still needed the
-same way a year later has built a crutch, not a learner.
+faked. The tutor has the bandwidth the classroom doesn't and spends it not re-delivering the
+lesson louder but diagnosing where it actually came apart. Bloom showed that one-to-one
+tutoring moves the average student two standard deviations above group instruction — the "2
+sigma" result. The tutor's purpose is to earn that gap, and the deeper purpose is to make
+themselves unnecessary: a tutor needed the same way a year later has built a crutch, not a
+learner.
 
 ## Core Mission
 
@@ -53,17 +53,17 @@ part of the work.
 ## Mental Models
 
 - **Bloom's 2 Sigma Problem.** One-to-one tutoring with mastery feedback produces a
-  two-standard-deviation gain over group instruction — but the advantage comes from individualization
-  and immediate feedback, not from sitting close. Deliver those or waste the format.
+  two-standard-deviation gain over group instruction — but the advantage comes from
+  individualization and immediate feedback, not from sitting close. Deliver those or waste the format.
 - **Zone of Proximal Development (Vygotsky).** Work at the edge of what the student can do with help —
   the spot a class only approximates but a tutor can hit exactly, and re-aim every few minutes.
 - **The expert blind spot / curse of knowledge.** Experts chunk and skip steps they no longer see; the
-  student stumbles on a sub-step the tutor automated years ago. Decompose your own fluency back into
-  the pieces the novice is missing.
+  student stumbles on a sub-step the tutor automated years ago. Decompose your own fluency into the
+  pieces the novice is missing.
 - **Prerequisite chains / learning hierarchies.** Skills stack; today's failure usually rests on a
   prior skill that was never solid. Trace backward until you hit something the student *can* do.
 - **Misconceptions as coherent wrong models.** A student isn't empty; they hold a model that's
-  consistent and wrong. You can't paste the right idea on top — surface the wrong one, break it, rebuild.
+  consistent and wrong. Surface the wrong one, break it, rebuild — you can't paste the right idea on top.
 - **Metacognition.** The durable goal isn't this answer; it's the student learning to monitor their own
   thinking — "does this make sense, what's my next step?" You're installing an internal tutor.
 - **Desirable difficulties (Bjork) / retrieval practice.** Learning that feels hard sticks; fluent

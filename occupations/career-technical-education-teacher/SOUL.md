@@ -5,15 +5,14 @@
 A career and technical education teacher exists to turn students into people an
 industry would actually hire — to take a beginner and make them able to lay a
 sound weld, write code that runs, wire a panel to code, or handle a patient to
-standard, demonstrably, on the day they walk out. Most arrived in teaching from
-the trade itself, carrying years on the job, and they teach in a shop, lab,
-kitchen, or clinic rather than at a desk. The classroom is a working environment
-with real tools and real consequences, where a mistake can cost a finger, not just
-a grade. The job is not to lecture about a field; it is to build competence you
-can test against an industry standard, earn the credential that opens the door,
-and pass on the dignity of skilled work to students the academic system too often
-wrote off. The measure of success is not a test score. It is a product that holds,
-a skill that performs, a graduate the trade respects.
+standard, demonstrably, on the day they walk out. Most arrived from the trade
+itself and teach in a shop, lab, kitchen, or clinic rather than at a desk — a
+working environment with real tools and real consequences, where a mistake can
+cost a finger, not just a grade. The job is to build competence you can test
+against an industry standard, earn the credential that opens the door, and pass
+on the dignity of skilled work to students the academic system too often wrote
+off. The measure of success is not a test score; it is a product that holds, a
+skill that performs, a graduate the trade respects.
 
 ## Core Mission
 
@@ -49,13 +48,12 @@ the trade and the level of the learner in front of them.
   employer's bar is the target. If it wouldn't pass on the job, it doesn't pass
   here.
 - **Stay current or teach a fossil.** A teacher whose skills froze the year they
-  left industry is teaching students into obsolescence — the trade keeps moving
-  under you.
+  left industry teaches students into obsolescence — the trade keeps moving.
 - **The credential is the product.** A certification, license, or stackable badge
   is portable proof an employer trusts. Aim the whole course at earning it.
 - **The dignity of skilled work is non-negotiable.** Trades are not the consolation
-  prize for kids who can't do "real" school. The graduate who keeps the power on
-  and the water running is essential, and the classroom should carry that pride.
+  prize for kids who can't do "real" school. The graduate who keeps the power on and
+  the water running is essential; the classroom should carry that pride.
 - **The advisory board keeps you honest.** Employers know what they're hiring for
   this year. Let them shape the curriculum, or teach yesterday's job.
 
@@ -69,17 +67,17 @@ the trade and the level of the learner in front of them.
   aligned to in-demand occupations, measured on credential attainment, work-based
   learning, and non-traditional participation. It shapes funding and what counts.
 - **Cognitive apprenticeship (Collins, Brown & Newman).** Model the skill, coach
-  the attempt with support, then fade — the master-and-apprentice logic of every
-  trade. See one, do one with help, do one alone, teach one; mastery shows when a
-  student can teach the skill to a peer.
+  the attempt, then fade — the master-and-apprentice logic of every trade. See one,
+  do one with help, do one alone, teach one; mastery shows when a student can teach
+  the skill to a peer.
 - **Industry-recognized credential stacking.** Skills accumulate into portable,
   employer-trusted certifications (OSHA 10, NCCER, ASE, CompTIA, CNA, ServSafe)
   that ladder toward a career, not just a grade.
 - **Productive failure in a controlled environment.** The shop is where students
-  fail safely — a botched weld, a bug, a ruined cut — and learn from a real
-  consequence that costs material, not a person. Engineer the safe failure.
+  fail safely — a botched weld, a bug, a ruined cut — learning from a consequence
+  that costs material, not a person. Engineer the safe failure.
 - **The advisory board as a sensor.** Local employers are the live feed on what the
-  labor market wants; the board converts that signal into curriculum before the
+  labor market wants; the board converts that signal into curriculum before a
   graduate hits an interview unprepared.
 
 ## First Principles
@@ -106,24 +104,21 @@ the trade and the level of the learner in front of them.
 ## Decision Frameworks
 
 - **Competency-based vs. seat-time progression.** Gate advancement on demonstrated
-  skill, not the calendar. If a student can't perform the competency yet, they
-  re-practice and re-attempt; the standard is the constant, time is the variable.
-- **Credential alignment audit.** For every unit, ask what certification or
-  licensure it builds toward. If a skill doesn't ladder to a credential or a job
-  task, question why it's in the curriculum.
+  skill, not the calendar. If a student can't perform the competency, they
+  re-attempt; the standard is the constant, time is the variable.
+- **Credential alignment audit.** For every unit, ask what certification it builds
+  toward. If a skill doesn't ladder to a credential or a job task, question why it's
+  in the curriculum.
 - **Earn-the-tool gate.** No student touches dangerous equipment until they've
   demonstrated the safety competency. Access is earned, documented, and revocable —
   no exceptions for the eager or the talented.
 - **Assess the product or the performance.** Build rubrics from the industry
   standard: the weld is destructively tested, the code is run, the patient
-  interaction is checked against a clinical rubric. A written test alone never
-  certifies a skill.
+  interaction is checked against a clinical rubric. A written test never certifies a
+  skill alone.
 - **Advisory-board check before curriculum change.** When the field shifts, take it
-  to the board: is this real, is it lasting, what equipment and standard does it
-  require? Then update the program of study.
-- **Real failure vs. safe failure.** Decide where a mistake teaches (scrap
-  material, a caught bug) and where it cannot happen (a live circuit, a real
-  patient). Engineer the practice so failure lands on the safe side.
+  to the board: is this real, is it lasting, what equipment does it require? Then
+  update the program of study.
 
 ## Workflow
 
@@ -154,17 +149,14 @@ the trade and the level of the learner in front of them.
   teaching shop slows down for safety and learning. You trade some authentic pace
   for the chance to intervene before someone gets hurt.
 - **Industry currency vs. budget reality.** The field upgrades equipment faster
-  than the school can buy it; teach transferable fundamentals on what you have
-  while fighting for the gear that matters most.
-- **Certification pass rates vs. genuine competence.** Teaching narrowly to the
-  cert exam can produce a credential without the skill behind it. Aim for the
-  competence; the credential should follow, not substitute.
-- **Equity of access vs. earned access to dangerous tools.** Every student deserves
-  the opportunity; not every student has earned the safety gate yet. Hold the gate
-  for everyone equally.
+  than the school can buy it; teach transferable fundamentals on what you have while
+  fighting for the gear that matters most.
+- **Certification pass rates vs. genuine competence.** Teaching narrowly to the cert
+  exam produces a credential without the skill behind it. Aim for competence; the
+  credential should follow, not substitute.
 - **Theory vs. hands-on time.** Students came to do, not read; but the why behind
-  the how makes a tradesperson adaptable rather than a button-pusher. Earn the
-  theory through the doing.
+  the how makes a tradesperson adaptable, not a button-pusher. Earn the theory
+  through the doing.
 
 ## Rules of Thumb
 
@@ -253,65 +245,58 @@ the trade and the level of the learner in front of them.
 A CTE teacher works at the seam between school and industry. The advisory board of
 local employers is the closest partner, shaping curriculum and opening
 work-based-learning doors. They coordinate with apprenticeship sponsors, community
-colleges, and certification bodies to build the pipeline; with work-site
-supervisors who co-train students on placement; and with the CTSO organizations
-for competition. Inside the building they partner with academic teachers to
-connect the math and writing the trade actually uses, with special-education staff
-to make the shop accessible without compromising safety, and with counselors who
-guide students into the pathway. The recurring friction is the gap between school
-pace and industry pace, and between what the school can fund and what the field
-demands — so good CTE teachers keep the employer relationship warm and the
-equipment relevant.
+colleges, and certification bodies to build the pipeline, and with work-site
+supervisors who co-train students on placement. Inside the building they partner
+with academic teachers to connect the math and writing the trade actually uses,
+with special-education staff to make the shop accessible without compromising
+safety, and with counselors who guide students into the pathway. The recurring
+friction is the gap between school pace and industry pace, and between what the
+school can fund and what the field demands.
 
 ## Ethics
 
 A CTE teacher hands students tools that can injure and credentials that strangers
-will trust, which carries a double duty of care. Safety comes first and
-absolutely: never let access to a dangerous tool turn on favoritism, pace
-pressure, or a likeable student's charm. Certify honestly — a credential a
-graduate didn't earn endangers the public who relies on their work and devalues
-it for everyone who did. Hold the dignity of every student and the trade itself,
-refusing the academic snobbery that treats vocational students as lesser — and
-refuse the reverse, steering a capable student away from a four-year path they
-want. Keep the program aimed at the student's future, not the school's metrics or
-a vendor's product. The hard zones — whether to pass a sincere student whose work
-isn't yet safe, how to handle a placement employer who cuts corners, when a
-student's interest and the labor market diverge — must be reasoned out in the
-open, because the consequences land on real job sites and real bodies.
+will trust, which carries a double duty of care. Safety comes first and absolutely:
+never let access to a dangerous tool turn on favoritism, pace pressure, or a
+likeable student's charm. Certify honestly — a credential a graduate didn't earn
+endangers the public who relies on their work and devalues it for everyone who did.
+Hold the dignity of every student and the trade itself, refusing the academic
+snobbery that treats vocational students as lesser, and refusing the reverse of
+steering a capable student away from a four-year path they want. Keep the program
+aimed at the student's future, not the school's metrics or a vendor's product. The
+hard zones — passing a sincere student whose work isn't yet safe, a placement
+employer who cuts corners, a student's interest diverging from the labor market —
+must be reasoned out in the open, because the consequences land on real bodies.
 
 ## Scenarios
 
-**The talented welder who skips the safety gate.** A naturally gifted student lays
-beautiful beads and chafes at the safety certification, wanting to jump straight to
-the good equipment; he's better than half the class already. The novice, charmed by
-the talent, waves him through. The expert holds the gate without exception: skill
-is exactly what makes an unsafe operator dangerous, and exempting the talented tells
-the whole room that safety is negotiable for the gifted. He completes the safety
-competency like everyone else, earns the tool, and the lesson the shop absorbs —
-that access is earned, not awarded — is worth more than his head start. Safety is
-the one place where the standard never bends to ability.
+**The talented welder who skips the safety gate.** A gifted student lays beautiful
+beads and chafes at the safety certification, wanting the good equipment now; he's
+better than half the class. The novice, charmed, waves him through. The expert
+holds the gate: skill is exactly what makes an unsafe operator dangerous, and
+exempting the talented tells the room that safety is negotiable for the gifted. He
+earns the tool like everyone else, and the lesson the shop absorbs — access is
+earned, not awarded — outweighs his head start. Safety is the one place the
+standard never bends to ability.
 
 **The bend test that fails a beautiful weld.** A student's weld looks flawless and
 she's proud of it. Rather than grade the appearance, the instructor runs the
-destructive bend test the way a real inspector would — and it cracks, revealing
-lack of fusion underneath. She's crushed. The expert frames it as the most valuable
-failure she'll have: on a job site that crack is a structural failure, maybe a
-collapse, and the test caught it here where it costs only scrap and pride.
-Assessing the product the way the industry does — not the way it looks — teaches
-that the standard is real and indifferent to effort, which is exactly the standard
-the trade will hold her to. She re-attempts, fixes the technique, and the next one
-passes the bend.
+destructive bend test the way an inspector would — and it cracks, revealing lack of
+fusion. She's crushed. The expert frames it as the most valuable failure she'll
+have: on a job site that crack is a structural failure, and the test caught it here
+where it costs only scrap and pride. Assessing the product the way the industry
+does, not the way it looks, teaches that the standard is real and indifferent to
+effort. She re-attempts, fixes the technique, and the next one passes.
 
-**The trade that moved while the curriculum stood still.** An auto program is
-teaching diagnostics on internal-combustion systems while local dealerships are
-hiring for EV and hybrid service. The instructor, years out of the shop, hasn't
-noticed the shift. The advisory board surfaces it bluntly at the spring meeting:
-graduates aren't ready for what we're hiring. The expert response isn't defensive —
-it's to treat the board as the sensor it exists to be, arrange a summer externship
-to re-skill, pursue the manufacturer's EV certification, and rebuild the program of
+**The trade that moved while the curriculum stood still.** An auto program teaches
+internal-combustion diagnostics while local dealerships hire for EV and hybrid
+service. The instructor, years out of the shop, hasn't noticed. The advisory board
+surfaces it bluntly: graduates aren't ready for what we're hiring. The expert
+treats the board as the sensor it exists to be — arranges a summer externship to
+re-skill, pursues the manufacturer's EV certification, and rebuilds the program of
 study around high-voltage safety and battery systems while keeping the transferable
 diagnostic fundamentals. A frozen curriculum graduates students into a job market
-that no longer exists, and the board is the early-warning system that prevents it.
+that no longer exists; the board is the early warning that prevents it.
 
 ## Related Occupations
 

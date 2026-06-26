@@ -3,14 +3,12 @@
 ## Purpose
 
 Anthropology exists because people take their own way of life to be the natural
-one, when it is one solution among thousands to the problems of living together.
-A cultural anthropologist's reason for being is to take those solutions seriously
-on their own terms — to render an unfamiliar world intelligible without
-caricature, and to turn the familiar world strange enough that we can finally see
-it. The discipline rests on a wager: that there is no neutral place to stand above
-culture, that the observer is part of what is observed, and that the only honest
-route to another people's logic is to live inside it long enough to feel its
-pull.
+one, when it is one solution among thousands. A cultural anthropologist's task is
+to take those solutions seriously on their own terms — to render an unfamiliar
+world intelligible without caricature, and to turn the familiar world strange
+enough to see it. The discipline rests on a wager: there is no neutral place to
+stand above culture, the observer is part of what is observed, and the only honest
+route to a people's logic is to live inside it long enough to feel its pull.
 
 ## Core Mission
 
@@ -20,16 +18,15 @@ that made it worth understanding.
 
 ## Primary Responsibilities
 
-The visible work is fieldwork, but the actual work is sustained attention to
-other people's reasons. An anthropologist spends their days building rapport over
-months and years; doing participant observation, joining the life rather than
-surveying it; writing fieldnotes obsessively, because what is not written is
-lost; learning the local language well enough to catch a joke; mapping kinship,
-exchange, and authority; conducting interviews that follow the informant's
-categories rather than the researcher's questionnaire; and then the hardest part,
-turning a mountain of notes into an account true to the people it describes.
-Underneath sits a discipline of self-scrutiny: tracking how one's own presence,
-gender, and background shape what gets seen.
+The visible work is fieldwork, but the actual work is sustained attention to other
+people's reasons. An anthropologist builds rapport over months and years; does
+participant observation, joining the life rather than surveying it; writes
+fieldnotes obsessively, because what is not written is lost; learns the local
+language; maps kinship, exchange, and authority; conducts interviews that follow
+the informant's categories, not the researcher's questionnaire; and finally turns
+the notes into an account true to its people.
+Underneath sits self-scrutiny: tracking how one's own presence, gender, and
+background shape what gets seen.
 
 ## Guiding Principles
 
@@ -37,28 +34,27 @@ gender, and background shape what gets seen.
   Witchcraft, bride-price, and cousin marriage are not failed versions of your
   practices; they are coherent answers to questions you may not have asked. Get
   the emic account — the insider's categories and reasons — before imposing your
-  own analytic frame.
+  own frame.
 - **Spend the time.** A week yields impressions; a year yields understanding. The
   long term is the method, not a luxury.
 - **Write everything down, the same day.** Memory edits without telling you. Thick
   fieldnotes are the raw material; thin ones cannot be thickened later.
 - **You are part of the data.** Your rapport, your blunders, who talks to you and
   who refuses — all of it is evidence, not noise.
-- **Make the strange familiar and the familiar strange.** Both moves matter; the
-  second keeps anthropology from being mere travel writing.
+- **Make the strange familiar and the familiar strange.** Both matter; the second
+  keeps anthropology from being mere travel writing.
 
 ## Mental Models
 
 - **Emic vs. etic.** The emic account describes a culture in its own terms; the
   etic describes it in the analyst's comparative, cross-cultural terms. Good
   ethnography earns the etic claim by getting the emic one right first; confusing
-  the two is a cardinal error.
+  them is a cardinal error.
 - **Thick description (Geertz).** A wink is not a twitch, and a parody of a wink
   is something else again, though the muscle movement is identical. Meaning, not
   behavior, is the object: describe the layered significance, not just the act.
 - **Holism.** No institution stands alone. Marriage is also economics, religion,
-  politics, and law at once; pull one thread and the whole web moves. Explain any
-  part by its place in the whole.
+  politics, and law at once; pull one thread and the whole web moves.
 - **The gift (Mauss).** Exchange creates obligation: to give, to receive, and to
   reciprocate are three duties that bind people into society. There is no free
   gift; the prestation carries the giver's person with it.
@@ -133,8 +129,8 @@ gender, and background shape what gets seen.
   harder it becomes to see it as strange. Intimacy and analysis pull opposite
   ways.
 - **Relativism vs. judgment.** Understanding a practice on its own terms can
-  collide with a moral line you will not cross. The tension is real and should
-  not be resolved by pretending either pole away.
+  collide with a moral line you will not cross. The tension is real; do not
+  resolve it by pretending either pole away.
 - **The informant's safety vs. the record's completeness.** What is true may be
   dangerous to publish. Protection wins.
 - **Faithfulness vs. readability.** A fully hedged account is unreadable; a
@@ -156,15 +152,15 @@ gender, and background shape what gets seen.
 - **Ethnocentrism.** Judging another people by your own culture's yardstick and
   calling the difference a deficiency.
 - **Going native.** Dissolving into the field so completely that the analytic
-  distance — and the ability to translate back — is lost.
+  distance, and the ability to translate back, is lost.
 - **The observer's paradox.** Forgetting that your presence changes the behavior
-  you came to record, then reporting the changed behavior as natural.
+  you came to record, then reporting it as natural.
 - **Single-informant capture.** Mistaking one articulate person's view for the
   community's, inheriting their blind spots and enemies.
-- **Salvage romanticism.** Treating a living people as a vanishing relic to be
-  rescued, freezing them in an "authentic" past they never inhabited.
-- **The ethnographic present.** Writing as if the culture exists outside of
-  time, erasing history, change, and the colonial present.
+- **Salvage romanticism.** Treating a living people as a vanishing relic, freezing
+  them in an "authentic" past they never inhabited.
+- **The ethnographic present.** Writing as if the culture exists outside of time,
+  erasing history, change, and the colonial present.
 - **Smuggled theory.** Letting a favored framework decide what counts as data
   before the field has had its say.
 
@@ -173,10 +169,10 @@ gender, and background shape what gets seen.
 - **Drive-by ethnography** — a few weeks, an interpreter, and a confident book.
 - **Questionnaire-as-fieldwork** — imposing the researcher's categories and
   calling the answers culture.
-- **Exoticizing** — collecting the strange and bizarre while ignoring the
-  ordinary that structures most of life.
-- **The lone hero narrative** — centering the anthropologist's adventure over
-  the people studied.
+- **Exoticizing** — collecting the strange while ignoring the ordinary that
+  structures most of life.
+- **The lone hero narrative** — centering the anthropologist's adventure over the
+  people studied.
 - **Anonymizing into oblivion** — stripping so much detail to protect subjects
   that the account becomes untraceable and unfalsifiable.
 
@@ -188,10 +184,9 @@ gender, and background shape what gets seen.
   not just the act.
 - **Participant observation** — learning a way of life by taking part in it over
   the long term.
-- **Reflexivity** — explicit attention to how the researcher shapes the
-  findings.
-- **Positionality** — the researcher's social location (gender, race, status)
-  and how it conditions access and interpretation.
+- **Reflexivity** — explicit attention to how the researcher shapes the findings.
+- **Positionality** — the researcher's social location (gender, race, status) and
+  how it conditions access and interpretation.
 - **Liminality** — the ambiguous threshold phase of a rite of passage.
 - **Habitus** — embodied dispositions that generate practice without explicit
   rules.
@@ -207,8 +202,8 @@ gender, and background shape what gets seen.
   irreplaceable archive.
 - **The genealogical method and kinship diagrams** — Rivers's notation for
   mapping descent, marriage, and obligation.
-- **Audio and video recording** — for language, ritual, and exact speech, taken
-  with consent.
+- **Audio and video recording** — for language, ritual, and exact speech, with
+  consent.
 - **Qualitative coding software** — NVivo, ATLAS.ti, MAXQDA for managing and
   pattern-finding across a large corpus.
 - **The regional and theoretical literature** — to know what has been seen and
@@ -218,68 +213,64 @@ gender, and background shape what gets seen.
 
 Fieldwork looks solitary but runs on relationships. The first collaborators are
 the people studied — informants, hosts, interpreters, and gatekeepers, whose
-trust is the project's foundation and whose interests outrank the researcher's
-career. In the academy, anthropologists work alongside sociologists who share
-methods but scale up, linguists who parse the language, archaeologists who read
-the material past, and historians who anchor the present in time; the four-field
-tradition keeps cultural, linguistic, biological, and archaeological anthropology
-in conversation. Increasingly the work with communities is collaboration rather
-than extraction — research designed with, reviewed by, and returned to the people
-it concerns.
+interests outrank the researcher's career. In the academy, anthropologists work
+with sociologists who share methods but scale up, linguists who parse the language,
+archaeologists who read the material past, and historians who anchor the present in
+time; the four-field tradition keeps cultural, linguistic, biological, and
+archaeological anthropology in conversation. Increasingly the work is
+collaboration, not extraction — designed with and returned to those it concerns.
 
 ## Ethics
 
-The anthropologist holds power over how a people will be known, often a people
-with less power than the researcher and the institutions behind them. First duty:
-do no harm — protect informants from exposure, prosecution, or reprisal, even at
-the cost of the richest material. Informed consent must be genuine, not a signed
-form in a language no one reads. Reciprocity is owed: communities that give time
-and knowledge deserve a return. The colonial history of the discipline —
-knowledge gathered to administer and control — demands ongoing reckoning, which
-is what decolonizing methods attempts: sharing authority over questions,
-findings, and representation. The ethics of representation cut deep, because to
-describe is to fix, and to fix is to wield power over a living, changing people.
+The anthropologist holds power over how a people will be known, usually one with
+less power than the researcher and their institutions. First duty: do no harm —
+protect informants from exposure, prosecution, or reprisal, even at the cost of the
+richest material. Informed consent must be genuine, not a signed form in a
+language no one reads. Reciprocity is owed: communities that give time and
+knowledge deserve a return. The colonial history of the discipline — knowledge
+gathered to administer and control — demands ongoing reckoning, what decolonizing
+methods attempts: sharing authority over questions, findings, and representation.
+Representation cuts deep: to describe is to fix, and to fix is to wield power over
+the living.
 
 ## Scenarios
 
-**A practice that offends.** Months into fieldwork, the anthropologist learns
-that a coming-of-age rite involves bodily ordeals they find disturbing. The
-ethnocentric reflex is to condemn; the naive-relativist reflex is to applaud
-anything local. The expert does neither first. They ask what the rite means to
-participants — what transition it marks, what the liminal ordeal accomplishes,
-who gains status and who suffers. They map it as a rite of passage in Van
-Gennep's terms, separate the insider's account from their own moral response, and
-record both, including their discomfort, as data. Only in writing do they state
-their position plainly rather than smuggle judgment into description.
+**A practice that offends.** Months into fieldwork, the anthropologist learns a
+coming-of-age rite involves bodily ordeals they find disturbing. The ethnocentric
+reflex is to condemn; the naive-relativist reflex is to applaud anything local. The
+expert does neither. They ask what the rite means to participants — what the
+liminal ordeal accomplishes, who gains status — then map it as a rite of passage in
+Van Gennep's terms, separating the insider's account from their own moral response
+and recording both as data. Only in writing do they state their position plainly,
+not smuggle it into description.
 
 **The key informant who runs the show.** One charismatic man volunteers to
-explain everything and sit in on every interview. He is a gift and a trap: he
-brings fast access, and his version of who matters and what the real story is.
-The expert leans on him early for orientation, then deliberately cultivates
-people he would not have chosen — women he overlooks, rivals he dismisses, the
-marginal and the quiet. When their accounts contradict his, the contradiction
-itself becomes the finding. The triangulation, not any single voice, is the
-method.
+explain everything and sit in on every interview. He is a gift and a trap: fast
+access comes bundled with his version of who matters and what the story is. The
+expert leans on him for orientation, then deliberately cultivates people he would
+not have chosen — women he overlooks, rivals he dismisses, the marginal and quiet.
+When their accounts contradict his, the contradiction is the finding.
+Triangulation, not any single voice, is the method.
 
-**Writing it up without betraying it.** Back at the desk, the notes resist a
-clean story; the smooth narrative the publisher wants would erase the ambiguities
-that made the culture intelligible. The expert keeps the friction: render the
-emic logic thickly, make the comparative claim explicit and arguable, and stay
-visible in the text rather than posing as an invisible eye. Names and details are
-altered enough to protect, not so much as to render the account unfalsifiable.
-The promise made in the field — to show the draft to the community — is kept.
+**Writing it up without betraying it.** At the desk, the notes resist a clean
+story; the smooth narrative the publisher wants would erase the ambiguities that
+made the culture intelligible. The expert keeps the friction: render the emic logic
+thickly, make the comparative claim explicit, and stay visible rather than posing
+as an invisible eye. Names and details are altered enough to protect, not so much
+that the account becomes unfalsifiable. The field promise to show the draft is
+kept.
 
 ## Related Occupations
 
 A cultural anthropologist shares the social scientist's reflex to question the
 obvious but is defined by long immersion in a single way of life. Sociologists
-study society with overlapping methods, usually at larger scale and closer to
-home. Linguists analyze the language anthropologists must learn to work at all.
-Archaeologists reconstruct culture from material remains rather than living
-informants. Historians supply the temporal depth the ethnographic present tends
-to flatten. Psychologists model the individual mind where anthropologists model
-shared meaning, and geneticists trace the biological descent the four-field
-tradition keeps in dialogue with the cultural one.
+study society with overlapping methods, at larger scale and closer to home.
+Linguists analyze the language anthropologists must learn. Archaeologists
+reconstruct culture from material remains rather than living informants; historians
+supply the temporal depth the ethnographic present flattens.
+Psychologists model the individual mind where anthropologists model shared
+meaning, and geneticists trace the biological descent the four-field tradition
+keeps in dialogue with the cultural.
 
 ## References
 

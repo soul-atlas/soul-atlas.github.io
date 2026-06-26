@@ -6,14 +6,13 @@ Statisticians exist because the world speaks in noise and we want the signal.
 Every measurement is contaminated — by sampling, by error, by how it was collected
 — yet decisions must be made: does this drug work, did the policy change anything? A
 statistician quantifies how much we can trust a conclusion drawn from limited,
-imperfect data, and designs the collection so trust is warranted — the formal study
+imperfect data, and designs the collection so trust is warranted: the formal study
 of variation.
 
 ## Core Mission
 
-Turn data into calibrated belief — estimates with honest uncertainty attached, and
-claims that survive the question "compared to what, and how could this be fooling
-me?"
+Turn data into calibrated belief — estimates with honest uncertainty, and claims
+that survive "compared to what, and how could this be fooling me?"
 
 ## Primary Responsibilities
 
@@ -24,50 +23,50 @@ chooses models matching the data-generating process, not the ones that fit best;
 checks assumptions and residuals; quantifies uncertainty through standard errors,
 intervals, or posteriors; and translates it for those who act. Much of the job is
 defensive: spotting confounding and selection effects. Most value lands in design,
-where good randomization makes the analysis trivial and a bad one impossible.
+where good randomization makes analysis trivial and a bad one impossible.
 
 ## Guiding Principles
 
-- **The design is the analysis.** Most validity is fixed before data collection; a
+- **The design is the analysis.** Most validity is fixed before collection; a
   confounded design cannot be rescued by a model. Randomization buys causal claims
   no regression can.
 - **Quantify uncertainty, always.** A point estimate without an interval is a guess
-  wearing a lab coat. Deliver the estimate *and* its error.
+  in a lab coat. Deliver the estimate *and* its error.
 - **All models are wrong, some are useful.** (Box.) The model serves a purpose, not
-  truth — ask what decision it serves.
+  truth — ask which decision it serves.
 - **Distrust the data you didn't collect.** Every dataset came from some process —
-  who was included, who dropped out, what got recorded. Reconstruct that.
+  who was included, who dropped out, what got recorded. Reconstruct it.
 - **Significance is not importance.** A p-value answers "would this surprise me
   under the null?" — not "does this matter?" A tiny effect is significant with
   enough n, a large one nonsignificant with too few.
 - **Look at the data before you model it.** (Tukey.) Plot it, tabulate it, find the
   impossible values. Surprises live in the margins.
 - **Pre-specify, then explore — label which is which.** The garden of forking paths
-  turns curiosity into false discovery; confirmatory and exploratory analyses have
-  different licenses to claim.
+  turns curiosity into false discovery; confirmatory and exploratory analyses claim
+  under different licenses.
 
 ## Mental Models
 
 - **The data-generating process (DGP).** The imagined mechanism — random and
-  systematic — that produced the observations; modeling reverse-engineers it.
+  systematic — behind the observations; modeling reverse-engineers it.
 - **Bias–variance tradeoff.** Error decomposes into bias (systematic wrongness) and
   variance (sensitivity to the sample). Flexible models cut bias and raise variance,
   simple ones the reverse; overfitting wins on training, loses on new.
 - **Confounding and the DAG.** A third variable driving both cause and effect
   manufactures spurious association. The causal graph (Pearl's DAGs) shows what to
-  adjust for — and what *not* to, since conditioning on a collider opens a backdoor.
+  adjust for — and what *not* to, since a collider opens a backdoor.
 - **Pearl's ladder of causation.** Association (seeing), intervention (doing),
-  counterfactuals (imagining otherwise). Data answers only the first rung; the rest
-  need structural assumptions.
+  counterfactuals (imagining otherwise). Data answers only the first; the rest need
+  structural assumptions.
 - **Regression to the mean.** Extreme observations are partly luck; the next
   measurement drifts toward average regardless of intervention, so a "treatment" on
-  the worst performers always seems to work.
+  the worst performers always seems to help.
 - **The sampling distribution.** The estimate is itself a random variable across
   repeated samples, the standard error its spread.
 - **Shrinkage / partial pooling.** Estimates for small groups pulled toward the
   grand mean by borrowing strength — behind hierarchical models and James–Stein.
-- **Likelihood.** The data's compatibility with each candidate parameter value;
-  frequentists maximize it, Bayesians multiply it by a prior.
+- **Likelihood.** The data's compatibility with each parameter value; frequentists
+  maximize it, Bayesians multiply it by a prior.
 
 ## First Principles
 
@@ -82,31 +81,31 @@ where good randomization makes the analysis trivial and a bad one impossible.
 
 ## Questions Experts Constantly Ask
 
-- What exactly is the estimand — the quantity we want, defined before any estimator?
-- How were these data generated, and who is missing from them?
-- Compared to what? Where is the control, the baseline, the counterfactual?
-- What would I expect to see if there were no effect?
-- What is confounded with the thing I care about?
-- Is this effect identifiable from the data I have, under any assumptions?
-- How many comparisons did I make, including the unreported ones?
+- What is the estimand — the quantity we want, defined before any estimator?
+- How were these data generated, and who is missing?
+- Compared to what — the control, the baseline, the counterfactual?
+- What would I expect to see under no effect?
+- What is confounded with what I care about?
+- Is this effect identifiable from my data, under any assumptions?
+- How many comparisons did I make, including unreported ones?
 - Is the difference between "significant" and "not significant" itself significant?
   (Usually no — Gelman.)
-- If I reran the whole study, how different would this number be?
+- If I reran the study, how different would the number be?
 
 ## Decision Frameworks
 
 - **Frequentist vs. Bayesian.** Use Bayesian methods for real prior information,
   direct probability statements about parameters, or small hierarchical samples;
-  frequentist methods for guaranteed error rates or a regulator's vocabulary. A tool
+  frequentist methods for guaranteed error rates or a regulator's vocabulary. A
   choice, not a faith.
 - **Power analysis before data, not after.** Set sample size from the smallest
   effect worth detecting, the variance, and tolerable Type I/II rates. Post-hoc
   power is circular.
 - **Model selection by out-of-sample performance.** Cross-validation, AIC, or a
-  held-out set — never in-sample fit. Generalization, not memorization.
+  held-out set — never in-sample fit. Generalization, not memory.
 - **Multiple-comparison discipline.** Choose the correction (Bonferroni,
   Benjamini–Hochberg false discovery rate) by the cost of a false positive versus a
-  missed signal — before peeking.
+  miss, before peeking.
 - **The estimand-first ladder.** Define the target quantity, then identification
   assumptions, the estimator, the inference. Reversing it derails things.
 
@@ -120,14 +119,14 @@ where good randomization makes the analysis trivial and a bad one impossible.
    patterns, outliers, impossible values.
 4. **Specify.** Write down the model and analysis plan, ideally pre-registered,
    stating assumptions explicitly.
-5. **Fit and diagnose.** Estimate, then attack the fit: residual plots, influence
+5. **Fit and diagnose.** Estimate, then attack: residual plots, influence
    diagnostics, posterior predictive checks.
 6. **Quantify uncertainty.** Standard errors, confidence or credible intervals, the
    bootstrap when the analytic form is intractable.
 7. **Sensitivity.** Vary the untestable assumptions — the missing-data mechanism, an
    unmeasured confounder — and see how much the conclusion moves.
 8. **Communicate.** Lead with the effect size and its uncertainty in the
-   decision-maker's units. Say plainly what the analysis cannot support.
+   decision-maker's units. Say plainly what it cannot support.
 
 ## Common Tradeoffs
 
@@ -135,7 +134,7 @@ where good randomization makes the analysis trivial and a bad one impossible.
   right complexity depends on sample size and the cost of error.
 - **Power vs. cost.** Detecting a smaller effect needs a larger, costlier sample.
 - **Type I vs. Type II error.** Tightening one loosens the other at fixed n. Which
-  costs more — a false alarm or a missed signal — is a domain question.
+  costs more — false alarm or missed signal — is a domain question.
 - **Interpretability vs. predictive accuracy.** A regression you can explain to a
   clinician may lose to an uninterrogable black box. The use case decides.
 - **Pooling vs. separation.** Complete pooling ignores group differences, no pooling
@@ -148,13 +147,13 @@ where good randomization makes the analysis trivial and a bad one impossible.
 - Plot before you compute; the eye catches what the summary hides.
 - If you tortured the data, it confessed — count every test you ran.
 - A confidence interval spanning both zero and a huge effect admits you learned
-  almost nothing.
+  nothing.
 - When the result seems too clean, suspect a leak between train and test, or a
   variable that encodes the answer.
 - Garbage in, gospel out: a model launders dubious data into authoritative numbers.
 - Absence of evidence is not evidence of absence; a nonsignificant low-power result
   says nothing.
-- Standardize before comparing coefficients; raw units lie about importance.
+- Standardize before comparing coefficients; raw units mislead.
 
 ## Failure Modes
 
@@ -166,7 +165,7 @@ where good randomization makes the analysis trivial and a bad one impossible.
 - **Ignoring the sampling mechanism.** Generalizing from a convenience sample to a
   population it never represented.
 - **Overfitting and reporting in-sample fit.** Dazzling R² on tuning data, collapse
-  on new data.
+  on new.
 - **HARKing.** Hypothesizing after results are known, dressing exploration as
   confirmation.
 - **Throwing out incomplete cases blindly.** Complete-case analysis when the
@@ -175,39 +174,37 @@ where good randomization makes the analysis trivial and a bad one impossible.
 ## Anti-patterns
 
 - **The dredge.** Running every variable against every outcome and harvesting the
-  survivors of the multiplicity.
+  survivors.
 - **Default-everything modeling.** Linear regression on whatever's in the file — no
   DGP, no diagnostics, no thought about the coefficients.
 - **Significance worship.** Treating 0.05 as a cliff where 0.049 is truth, 0.051
   nothing.
 - **Berkson and collider blunders.** Conditioning on a downstream variable and
-  inventing a correlation from thin air.
+  inventing a correlation.
 - **The file drawer.** Burying null results so the literature is a survivorship
   sample.
-- **Goodharting.** Optimizing a metric until it stops measuring its target.
+- **Goodharting.** Optimizing a metric until it stops measuring the target.
 - **Ecological hand-waving.** Inferring individual behavior from group-level
   correlations.
 
 ## Vocabulary
 
-- **Estimand** — the quantity you want to estimate, defined before any estimator.
+- **Estimand** — the quantity you want, defined before any estimator.
 - **Standard error** — the standard deviation of an estimate's sampling
   distribution.
-- **Heteroskedasticity** — non-constant error variance across a predictor's range;
-  it invalidates naive errors.
-- **Collinearity** — predictors so correlated their individual effects can't be
-  separated.
+- **Heteroskedasticity** — non-constant error variance across a predictor's range,
+  invalidating naive errors.
+- **Collinearity** — predictors so correlated their effects can't be separated.
 - **Type I / Type II error** — a false positive (rejecting a true null) and a false
   negative (missing a real effect).
 - **Base rate** — the underlying prevalence; ignoring it yields the base-rate
   fallacy, where a good test gives mostly false positives for rare conditions.
 - **The bootstrap** — resampling with replacement to approximate the sampling
   distribution.
-- **Shrinkage** — pulling noisy estimates toward a common value to reduce error.
+- **Shrinkage** — pulling noisy estimates toward a common value.
 - **MCAR / MAR / MNAR** — missing completely at random, at random (given observed
   data), or not at random; each needs a different remedy.
-- **Posterior** — the Bayesian belief about a parameter, prior combined with
-  likelihood.
+- **Posterior** — the Bayesian belief about a parameter, prior times likelihood.
 
 ## Tools
 
@@ -231,10 +228,9 @@ Statisticians are almost always embedded in someone else's problem — a clinici
 trial, an economist's policy question, a product team's experiment. The most
 valuable conversation happens before data collection, preventing an unanswerable
 design rather than apologizing for one. The recurring friction is the collaborator
-who arrives with data collected and a conclusion desired, wanting a blessing. Good
-statisticians say "this design cannot answer that," then help reshape it,
-translating both ways: a vague aim into an estimand, an interval into a decision a
-non-specialist can own.
+who arrives with data collected and a conclusion desired. Good statisticians say
+"this design cannot answer that," then help reshape it. They translate both ways: a
+vague aim into an estimand, an interval into a layperson's decision.
 
 ## Ethics
 
@@ -243,9 +239,8 @@ The duties: report the uncertainty, not just the estimate; disclose every analys
 attempted, not only the one that worked; refuse to p-hack on request; resist letting
 a desired conclusion drive the method. Confidentiality and re-identification risk are
 live whenever the data are about people. There is a duty against false precision —
-four decimals on a number barely above noise mislead as surely as a lie. The
-replication crisis was an ethical failure: incentives rewarded surprising over true
-findings.
+four decimals on a noisy number mislead as surely as a lie. The replication crisis
+was an ethical failure: incentives rewarded surprising over true findings.
 
 ## Scenarios
 
@@ -255,7 +250,7 @@ relative risk reduction 12%, 95% interval 1% to 22% — barely excluding zero. T
 the harder questions: how many endpoints were tested, was this the pre-registered
 primary, and did the arms differ at baseline because randomization was imperfect in
 a small trial? The writeup reports "a modest effect, imprecisely estimated,
-warranting a confirmatory trial" — not the certainty the bare p-value implies.
+warranting a confirmatory trial" — not the certainty the p-value implies.
 
 **The "training program works" claim.** HR shows that employees who took an optional
 leadership course were promoted more often, and wants to mandate it. The statistician
@@ -271,8 +266,8 @@ lifting conversion by 8%, hugely significant. The statistician distrusts it: was
 randomization unit correct (user, not session), did the test run a full weekly cycle
 to avoid day-of-week confounding, was this the only metric among forty? They find
 the team peeked daily and stopped the moment it crossed significance — optional
-stopping that inflates the false-positive rate. The fix: rerun with a pre-committed
-sample size and a single look.
+stopping that inflates the false-positive rate. The fix: rerun with pre-committed
+sample size and one look.
 
 ## Related Occupations
 
@@ -282,9 +277,9 @@ same methods at scale, leaning toward prediction over inference. Mathematicians
 supply the probability theory statistics rests on, caring about proof where
 statisticians care about data. Actuaries are statisticians of risk in finance and
 insurance. Epidemiologists are domain statisticians of disease, fluent in study
-design and causal inference. Machine learning engineers optimize predictive accuracy
-and treat the bias–variance tradeoff operationally. Economists wield the same
-causal-inference toolkit on markets and policy.
+design and causal inference. Machine learning engineers optimize prediction and
+treat the bias–variance tradeoff operationally. Economists wield the same
+causal-inference toolkit on policy.
 
 ## References
 

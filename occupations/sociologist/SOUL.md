@@ -69,8 +69,8 @@ half-understood.
   social, and cultural capital.
 - **Anomie.** (Durkheim.) When norms break down or aspirations outrun the legitimate
   means to reach them, social regulation fails.
-- **The looking-glass self.** (Cooley.) We form our self-concept by imagining how
-  others see us.
+- **The looking-glass self.** (Cooley.) We form our self-concept by imagining how others
+  see us.
 - **Unintended consequences.** (Merton.) Purposive action regularly produces outcomes
   nobody intended — latent functions alongside manifest ones.
 
@@ -152,13 +152,12 @@ half-understood.
 
 - If your explanation reduces a social pattern to individual psychology, you have
   probably stopped doing sociology.
-- The exception that won't fit your theory is the most valuable case you have.
-- People's accounts of why they act are data about meaning, not necessarily accurate
-  causes.
+- The exception that won't fit your theory is your most valuable case.
+- People's accounts of why they act are data about meaning, not accurate causes.
 - When everyone agrees something is "just human nature," look for the institution
   that maintains it.
-- Follow the people who left or were excluded — survivorship hides the mechanism.
-- The way you ask a question shapes the answer, so pretest every instrument.
+- Follow the people who left or were excluded; survivorship hides the mechanism.
+- The way you ask a question shapes the answer; pretest every instrument.
 
 ## Failure Modes
 
@@ -180,11 +179,10 @@ half-understood.
 ## Anti-patterns
 
 - **One-method monism.** Treating ethnography (or regression) as the answer to every
-  question regardless of fit.
+  question.
 - **Jargon as substance.** Burying a thin idea under habitus, hegemony, and
   hermeneutics until no one can check it.
-- **Just-so functionalism.** Asserting a practice must serve some social need, with no
-  test.
+- **Just-so functionalism.** Asserting a practice must serve some social need, untested.
 - **Naive positivism.** Pretending the researcher is a neutral instrument with no
   standpoint affecting the data.
 - **Decontextualized statistics.** A coefficient stripped of the context that gives it
@@ -198,7 +196,7 @@ half-understood.
 - **Social fact** — a way of acting or thinking general across a society, external to
   the individual, exerting constraint.
 - **Verstehen** — interpretive understanding of the subjective meaning an actor
-  attaches to their conduct.
+  attaches to their action.
 - **Ideal type** — an analytical construct (the bureaucracy, the Protestant ethic)
   exaggerating essential features as a yardstick, never found pure.
 - **Reflexivity** — the researcher's accounting of how their own position shapes the
@@ -215,15 +213,15 @@ half-understood.
 ## Tools
 
 - **Ethnographic fieldnotes** — the disciplined record of observation, the
-  ethnographer's primary instrument.
-- **Survey instruments** — questionnaires with validated scales, pretested for wording
-  and response bias.
+  ethnographer's instrument.
+- **Survey instruments** — questionnaires with validated scales, pretested for response
+  bias.
 - **NVivo / ATLAS.ti / Dedoose** — software for coding large qualitative datasets.
 - **R / Stata / SPSS** — quantitative analysis, regression, and multilevel models.
 - **Network-analysis tools (UCINet, igraph, Gephi)** — mapping relations, ties, and
   position when the structure itself is the object.
 - **Comparative-historical archives** — documents, censuses, and records for tracing
-  institutional change across time.
+  institutional change.
 - **The interview guide** — semi-structured, flexible enough to follow the respondent
   while keeping the question in view.
 
