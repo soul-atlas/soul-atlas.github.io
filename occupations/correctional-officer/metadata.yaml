@@ -1,0 +1,23 @@
+title: "Correctional Officer"
+slug: "correctional-officer"
+aliases: ["corrections officer", "prison guard", "detention officer"]
+category: "Public Service"
+tags: ["corrections", "security", "de-escalation", "public-safety", "custody"]
+difficulty: advanced
+summary: "How an officer keeps a prison safe and humane through dynamic security, relationships, and consistency rather than force."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "police-officer", type: "adjacent", note: "shares use-of-force discipline and procedural justice in a different setting" }
+  - { slug: "social-worker", type: "collaboration", note: "owns the mental-health and reentry needs inside the facility" }
+  - { slug: "psychologist", type: "collaboration", note: "handles psychiatric crises and risk assessment in custody" }
+  - { slug: "registered-nurse", type: "collaboration", note: "responds to the constant medical emergencies a population generates" }
+  - { slug: "detective", type: "related", note: "investigations units work contraband and assaults inside the walls" }
+specializations: ["sergeant / shift supervisor", "cell-extraction team", "classification officer", "juvenile detention officer"]
+country_variants: []
+sources:
+  - { title: "The Society of Captives (Gresham Sykes)", kind: "book" }
+  - { title: "UN Nelson Mandela Rules", kind: "standard" }
+status: stable

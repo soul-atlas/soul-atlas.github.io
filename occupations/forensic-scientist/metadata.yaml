@@ -1,0 +1,23 @@
+title: "Forensic Scientist"
+slug: "forensic-scientist"
+aliases: ["forensic analyst", "crime lab scientist", "criminalist"]
+category: "Public Service"
+tags: ["forensics", "laboratory", "evidence", "dna", "criminal-justice"]
+difficulty: expert
+summary: "How a lab scientist extracts valid conclusions from physical evidence, quantifies uncertainty, and refuses to overstate what the data supports."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "detective", type: "collaboration", note: "frames the questions and submits the evidence the lab analyzes" }
+  - { slug: "pathologist", type: "collaboration", note: "establishes cause and manner of death findings must reconcile with" }
+  - { slug: "chemist", type: "adjacent", note: "shares analytical instrumentation and method-validation discipline" }
+  - { slug: "toxicologist", type: "related", note: "overlaps directly in drug and poison casework" }
+  - { slug: "prosecutor", type: "collaboration", note: "translates findings into legal argument and tests them at trial" }
+specializations: ["forensic DNA analyst", "trace evidence examiner", "firearms and toolmark examiner", "digital forensic examiner"]
+country_variants: []
+sources:
+  - { title: "Strengthening Forensic Science in the United States (NRC, 2009)", kind: "report" }
+  - { title: "PCAST Report on Forensic Science in Criminal Courts (2016)", kind: "report" }
+status: stable

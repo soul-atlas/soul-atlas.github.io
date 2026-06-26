@@ -1,0 +1,23 @@
+title: "Roofer"
+slug: "roofer"
+aliases: ["roofing contractor", "roof mechanic", "shingler"]
+category: "Skilled Trades"
+tags: ["roofing", "waterproofing", "flashing", "fall-protection", "construction"]
+difficulty: intermediate
+summary: "How an expert roofer thinks in drainage planes and laps, sheds water by geometry first and materials second, and never trusts a roof to sealant."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "carpenter", type: "prerequisite", note: "frames and sheathes the deck the roof is built on" }
+  - { slug: "sheet-metal-worker", type: "collaboration", note: "fabricates the flashing and metal panels roofers install" }
+  - { slug: "hvac-technician", type: "adjacent", note: "rooftop units need curb flashing coordinated with the roof" }
+  - { slug: "mason", type: "adjacent", note: "chimneys and parapets are the classic flashing problem" }
+  - { slug: "glazier", type: "related", note: "shares skylight and weatherproofing detail at openings" }
+specializations: ["residential shingle roofer", "commercial low-slope/membrane roofer", "metal roofing installer", "slate and tile roofer"]
+country_variants: []
+sources:
+  - { title: "The NRCA Roofing Manual", kind: "book" }
+  - { title: "OSHA 29 CFR 1926 Subpart M (Fall Protection)", kind: "standard" }
+status: stable

@@ -1,0 +1,25 @@
+title: "Pharmacologist"
+slug: "pharmacologist"
+aliases: ["clinical pharmacologist", "drug researcher", "pharmacology scientist"]
+category: "Science"
+tags: ["pharmacology", "dose-response", "pharmacokinetics", "receptor-theory", "drug-discovery"]
+difficulty: expert
+summary: "How an expert quantifies the relationship between drug concentration, receptor binding, and biological effect to predict the right dose, route, and schedule."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "toxicologist", type: "adjacent", note: "studies the same dose-response curve at its harmful end" }
+  - { slug: "biochemist", type: "prerequisite", note: "characterizes the molecular targets pharmacology acts on" }
+  - { slug: "biologist", type: "prerequisite", note: "supplies the physiological systems within which drugs act" }
+  - { slug: "pharmacist", type: "collaboration", note: "applies pharmacology to dispensing, monitoring, and interactions" }
+  - { slug: "physician", type: "collaboration", note: "sets and adjusts the dose in patients" }
+  - { slug: "chemist", type: "collaboration", note: "tunes molecular structure to shift potency and selectivity" }
+specializations: ["clinical pharmacologist", "neuropharmacologist", "pharmacokineticist", "molecular pharmacologist"]
+country_variants: []
+sources:
+  - { title: "Goodman & Gilman's The Pharmacological Basis of Therapeutics", kind: "book" }
+  - { title: "Rang & Dale's Pharmacology", kind: "book" }
+  - { title: "Basic & Clinical Pharmacology (Katzung)", kind: "book" }
+status: stable

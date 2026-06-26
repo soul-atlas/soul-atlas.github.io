@@ -1,0 +1,23 @@
+title: "Copywriter"
+slug: "copywriter"
+aliases: ["ad copywriter", "direct-response writer", "marketing writer"]
+category: "Creative"
+tags: ["copywriting", "persuasion", "conversion", "brand-voice", "advertising"]
+difficulty: intermediate
+summary: "How a copywriter moves a specific reader to act by leading with benefit, hooking attention, handling objections, and letting conversion data overrule taste."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "writer", type: "related", note: "shares voice and economy but writes for a measurable action" }
+  - { slug: "marketing-manager", type: "collaboration", note: "owns the goal, offer, and channels the copy serves" }
+  - { slug: "ux-designer", type: "collaboration", note: "pairs words with layout and flow to move the reader" }
+  - { slug: "public-relations-specialist", type: "adjacent", note: "persuades for reputation and earned media" }
+  - { slug: "graphic-designer", type: "collaboration", note: "the visual half of the message; headline and image as one" }
+specializations: ["direct-response copywriter", "UX writer", "brand copywriter", "email copywriter"]
+country_variants: []
+sources:
+  - { title: "Ogilvy on Advertising (David Ogilvy)", kind: "book" }
+  - { title: "Influence (Robert Cialdini)", kind: "book" }
+status: stable

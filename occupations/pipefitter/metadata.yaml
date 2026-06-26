@@ -1,0 +1,24 @@
+title: "Pipefitter"
+slug: "pipefitter"
+aliases: ["steamfitter", "process pipe fitter", "industrial pipefitter"]
+category: "Skilled Trades"
+tags: ["process-piping", "pressure-systems", "welding-prep", "thermal-expansion", "asme-b31"]
+difficulty: advanced
+summary: "How an expert pipefitter thinks: fit-up owns the weld, hot pipe must be free to move, and no line is trusted until it holds its pressure test."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "plumber", type: "adjacent", note: "Often confused; plumber does potable/DWV at low pressure, fitter does pressure systems to a weld code" }
+  - { slug: "welder", type: "collaboration", note: "The fitter sets the joint and the welder fuses it" }
+  - { slug: "boilermaker", type: "related", note: "Builds the pressure vessels and boilers the fitter pipes into" }
+  - { slug: "millwright", type: "collaboration", note: "Sets the rotating equipment the fitter must align piping to" }
+  - { slug: "mechanical-engineer", type: "prerequisite", note: "Specifies stress analysis, materials, and support scheme the fitter executes" }
+  - { slug: "ironworker", type: "adjacent", note: "Erects the structural steel the piping supports hang from" }
+specializations: ["steamfitter", "sanitary-process-fitter", "marine-pipefitter"]
+country_variants: []
+sources:
+  - { title: "ASME B31.3 Process Piping", kind: "standard" }
+  - { title: "Pipe Fitters Handbook (Graves)", kind: "book" }
+status: stable

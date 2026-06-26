@@ -1,0 +1,49 @@
+title: 'Film Producer'
+slug: 'film-producer'
+aliases: ['Producer', 'Line Producer', 'Executive Producer', 'Movie Producer']
+category: 'Entertainment'
+tags: ['film-financing', 'production', 'budgeting', 'rights', 'distribution']
+difficulty: 'expert'
+summary: 'How a film producer thinks: own the money, schedule, and business so the film gets finished and delivered, while protecting the director''s vision against the budget.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'film-director',
+      type: 'collaboration',
+      note: 'Owns the creative vision on set; the producer owns the money and schedule, in deliberate tension',
+    }
+  - {
+      slug: 'screenwriter',
+      type: 'collaboration',
+      note: 'Supplies the script the producer options, develops, and packages',
+    }
+  - {
+      slug: 'film-editor',
+      type: 'collaboration',
+      note: 'Shapes the footage into the deliverable cut the producer must finish on schedule',
+    }
+  - {
+      slug: 'lawyer',
+      type: 'collaboration',
+      note: 'A media lawyer clears chain of title and papers the deals the financing rests on',
+    }
+  - {
+      slug: 'event-planner',
+      type: 'adjacent',
+      note: 'Shares logistics, budgeting, and fixed-deadline execution of a one-off production',
+    }
+  - {
+      slug: 'sound-engineer',
+      type: 'collaboration',
+      note: 'Delivers the mix and M&E tracks needed to complete deliverables',
+    }
+specializations: ['line producer', 'executive producer', 'independent film producer', 'studio production executive']
+country_variants: []
+sources:
+  - { title: 'The Movie Business Book (Jason E. Squire)', kind: 'book' }
+  - { title: 'The Complete Film Production Handbook (Eve Light Honthaner)', kind: 'book' }
+  - { title: 'Film Finance Handbook (Davies & Wistreich)', kind: 'book' }
+status: stable

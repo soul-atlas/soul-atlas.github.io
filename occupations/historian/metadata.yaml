@@ -1,0 +1,62 @@
+title: 'Historian'
+slug: 'historian'
+aliases:
+  - 'History Scholar'
+  - 'History Researcher'
+  - 'Chronicler'
+category: 'Science'
+tags:
+  - history
+  - archives
+  - source-criticism
+  - historiography
+  - research
+difficulty: advanced
+summary: 'Reconstructs the past from an incomplete, biased record by interrogating sources and the silences around them, while resisting presentism and the comfort of inevitability.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'archaeologist',
+      type: 'adjacent',
+      note: 'pursues the same past through material remains where texts fail',
+    }
+  - {
+      slug: 'anthropologist',
+      type: 'adjacent',
+      note: 'studies living cultures with methods historians borrow for under-documented periods',
+    }
+  - {
+      slug: 'librarian',
+      type: 'collaboration',
+      note: 'keeps and curates the sources that decide what survives to be studied',
+    }
+  - {
+      slug: 'curator',
+      type: 'related',
+      note: 'interprets the material past for a public audience',
+    }
+  - {
+      slug: 'political-scientist',
+      type: 'related',
+      note: 'analyzes power and institutions historians watch change over time',
+    }
+  - {
+      slug: 'writer',
+      type: 'related',
+      note: 'shares the craft of narrative construction from evidence',
+    }
+specializations:
+  - 'Economic Historian'
+  - 'Military Historian'
+  - 'Social Historian'
+  - 'Intellectual Historian'
+country_variants: []
+sources:
+  - { title: "The Historian's Craft", kind: 'book' }
+  - { title: 'What Is History?', kind: 'book' }
+  - { title: 'Silencing the Past', kind: 'book' }
+status: stable

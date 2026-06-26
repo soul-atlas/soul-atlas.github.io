@@ -1,0 +1,49 @@
+title: 'Hydrologist'
+slug: 'hydrologist'
+aliases: ['Water Resources Scientist', 'Hydrogeologist', 'Surface Water Hydrologist']
+category: 'Science'
+tags: ['water-balance', 'flood-frequency', 'groundwater', 'watershed', 'hydrologic-modeling']
+difficulty: 'advanced'
+summary: 'How a hydrologist thinks: close the water balance, read the hydrograph, treat the 100-year flood as an annual probability, and design knowing stationarity is dead.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'civil-engineer',
+      type: 'collaboration',
+      note: 'Builds the culverts, levees, and dams the hydrology sizes',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'collaboration',
+      note: 'Designs water and treatment systems on hydrologic estimates',
+    }
+  - {
+      slug: 'meteorologist',
+      type: 'prerequisite',
+      note: 'Supplies the precipitation forcing that drives every model',
+    }
+  - {
+      slug: 'climate-scientist',
+      type: 'adjacent',
+      note: 'Provides the non-stationary future scenarios that replace dead stationarity',
+    }
+  - {
+      slug: 'geologist',
+      type: 'related',
+      note: 'Characterizes the aquifers and subsurface groundwater work depends on',
+    }
+  - {
+      slug: 'oceanographer',
+      type: 'adjacent',
+      note: 'Works the same water physics at the marine end of the cycle',
+    }
+specializations: ['Surface Water Hydrologist', 'Hydrogeologist', 'Flood Risk Analyst', 'Water Resources Modeler']
+country_variants: []
+sources:
+  - { title: 'Applied Hydrology (Chow, Maidment & Mays)', kind: 'book' }
+  - { title: 'Applied Hydrogeology (Fetter)', kind: 'book' }
+  - { title: 'USGS Bulletin 17C: Flood Flow Frequency', kind: 'standard' }
+status: stable

@@ -1,0 +1,48 @@
+title: 'Security Guard'
+slug: 'security-guard'
+aliases: ['Security Officer', 'Guard', 'Protective Officer', 'Loss Prevention Officer']
+category: 'Public Service'
+tags: ['observe-and-report', 'access-control', 'deterrence', 'patrol', 'incident-reporting']
+difficulty: 'intermediate'
+summary: "How a security guard thinks: observe and report over enforce, deterrence by presence, condition-yellow awareness, and documenting everything as if it will reach a courtroom."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'police-officer',
+      type: 'adjacent',
+      note: 'Holds the enforcement authority the guard lacks and is the escalation',
+    }
+  - {
+      slug: 'private-investigator',
+      type: 'related',
+      note: 'Shares surveillance and documentation discipline but works covertly',
+    }
+  - {
+      slug: 'detective',
+      type: 'collaboration',
+      note: 'Uses the clean factual record a good guard produces',
+    }
+  - {
+      slug: 'dispatcher',
+      type: 'collaboration',
+      note: 'Coordinates the emergency response a guard calls in',
+    }
+  - {
+      slug: 'correctional-officer',
+      type: 'adjacent',
+      note: 'Shares the controlled-environment observe-and-document posture',
+    }
+  - {
+      slug: 'firefighter',
+      type: 'collaboration',
+      note: 'Emergency partner a guard guides in and coordinates with',
+    }
+specializations: ['retail-loss-prevention', 'corporate-security-officer', 'event-security', 'mobile-patrol-officer']
+country_variants: []
+sources:
+  - { title: 'ASIS International, Protection of Assets', kind: 'standard' }
+  - { title: 'Introduction to Security (Fischer, Halibozek & Walters)', kind: 'book' }
+status: stable

@@ -1,0 +1,24 @@
+title: "Real Estate Agent"
+slug: "real-estate-agent"
+aliases: ["Realtor", "Listing Agent", "Buyer's Agent"]
+category: "Business"
+tags: ["real-estate", "sales", "negotiation", "fiduciary-duty", "lead-generation"]
+difficulty: advanced
+summary: "How an expert agent thinks: prices to the market via comps, treats lead generation as the real job, and protects clients as a fiduciary through negotiation and escrow."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "loan-officer", type: "collaboration", note: "Clears the buyer's financing in parallel with the transaction" }
+  - { slug: "sales-representative", type: "related", note: "Shares the prospecting and pipeline-conversion craft" }
+  - { slug: "lawyer", type: "adjacent", note: "Handles contract and title disputes beyond agent scope" }
+  - { slug: "financial-advisor", type: "related", note: "Frames the purchase within the client's larger financial plan" }
+  - { slug: "marketing-manager", type: "adjacent", note: "Shares listing-promotion and audience-targeting discipline" }
+  - { slug: "mediator", type: "progression", note: "Negotiation and dispute-resolution skills extend into formal mediation" }
+specializations: ["Listing Agent", "Buyer's Agent", "Luxury Real Estate", "Commercial Real Estate"]
+country_variants: []
+sources:
+  - { title: "NAR Code of Ethics and Standards of Practice", kind: "standard" }
+  - { title: "The Millionaire Real Estate Agent (Gary Keller)", kind: "book" }
+status: stable

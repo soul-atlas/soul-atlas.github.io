@@ -1,0 +1,61 @@
+title: 'Preschool Teacher'
+slug: 'preschool-teacher'
+aliases:
+  - 'Pre-K Teacher'
+  - 'Early Childhood Educator'
+  - 'Nursery Teacher'
+category: 'Education'
+tags:
+  - early-childhood
+  - play-based-learning
+  - child-development
+  - developmentally-appropriate-practice
+  - whole-child
+difficulty: advanced
+summary: 'Grows the whole child through play and secure relationship in the years that pour a person''s foundations, treating self-regulation and belonging as the curriculum beneath any academics.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'kindergarten-teacher',
+      type: 'progression',
+      note: 'takes the handoff and begins the bridge to formal schooling',
+    }
+  - {
+      slug: 'childcare-worker',
+      type: 'adjacent',
+      note: 'shares care and routines with less intentional curriculum and assessment',
+    }
+  - {
+      slug: 'teaching-assistant',
+      type: 'collaboration',
+      note: 'shares the room and must share the calm, consistent approach',
+    }
+  - {
+      slug: 'speech-language-pathologist',
+      type: 'collaboration',
+      note: 'partners on the communication development underpinning everything else',
+    }
+  - {
+      slug: 'occupational-therapist',
+      type: 'collaboration',
+      note: 'partners on fine-motor and self-regulation development',
+    }
+  - {
+      slug: 'parent',
+      type: 'collaboration',
+      note: 'the child''s first teacher and the authority on who this child is',
+    }
+specializations:
+  - 'Montessori Early Childhood'
+  - 'Reggio Emilia Educator'
+  - 'Head Start Teacher'
+country_variants: []
+sources:
+  - { title: 'Developmentally Appropriate Practice in Early Childhood Programs (NAEYC)', kind: 'book' }
+  - { title: 'Mind in Society', kind: 'book' }
+  - { title: 'The Absorbent Mind', kind: 'book' }
+status: stable

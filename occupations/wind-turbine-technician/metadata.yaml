@@ -1,0 +1,24 @@
+title: "Wind Turbine Technician"
+slug: "wind-turbine-technician"
+aliases: ["Wind Tech", "Windsmith", "Wind Turbine Service Technician", "Wind Energy Technician"]
+category: "Skilled Trades"
+tags: ["wind-energy", "work-at-height", "renewable-energy", "lockout-tagout", "condition-monitoring"]
+difficulty: advanced
+summary: "How a wind tech thinks: lock the rotor and yaw before entering the swept path, torque bolts to preload and re-check them, and let the weather window own the schedule."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "electrician", type: "prerequisite", note: "shares converter/grid-tie work and de-energization discipline" }
+  - { slug: "millwright", type: "adjacent", note: "closest mechanical sibling for bearings, gearboxes, alignment" }
+  - { slug: "solar-installer", type: "related", note: "renewable-generation cousin, work-at-height and grid-tie" }
+  - { slug: "mechanical-engineer", type: "related", note: "sets torque specs and designs the drivetrain maintained" }
+  - { slug: "ironworker", type: "collaboration", note: "erects the tower and sets the nacelle with crane crews" }
+  - { slug: "sustainability-manager", type: "adjacent", note: "tracks the production and downtime the work drives" }
+specializations: ["offshore-wind-technician", "blade-repair-technician", "drivetrain-specialist"]
+country_variants: []
+sources:
+  - { title: "IEC 61400 series — Wind Turbine Standards", kind: "standard" }
+  - { title: "Wind Energy Explained (Manwell, McGowan & Rogers)", kind: "book" }
+status: stable

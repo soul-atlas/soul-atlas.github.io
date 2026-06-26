@@ -1,0 +1,23 @@
+title: "Budget Analyst"
+slug: "budget-analyst"
+aliases: ["Budget Officer", "Budget Examiner", "Budget Specialist"]
+category: "Business"
+tags: ["budgeting", "variance-analysis", "appropriations", "cost-control"]
+difficulty: "intermediate"
+summary: "Thinks as the defender of the number: builds and challenges budgets, decomposes variances, and holds every cost center accountable to its approved plan across the annual cycle."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "financial-analyst", type: "related", note: "Forecasts the future; the budget analyst fixes a plan and enforces it" }
+  - { slug: "accountant", type: "adjacent", note: "Records actuals the budget analyst measures variances against" }
+  - { slug: "financial-manager", type: "related", note: "Funds the organization the budget analyst allocates within" }
+  - { slug: "policy-analyst", type: "collaboration", note: "Shapes programs whose costs the budget analyst funds and justifies" }
+  - { slug: "operations-manager", type: "adjacent", note: "Runs cost centers the budget analyst holds to plan" }
+  - { slug: "cost-estimator", type: "adjacent", note: "Prices new work the budget analyst must fund and track" }
+specializations: ["Government budgeting", "Nonprofit budgeting", "Grants and appropriations"]
+country_variants: []
+sources:
+  - { title: "GFOA Best Practices in Budgeting", kind: "standard" }
+status: stable

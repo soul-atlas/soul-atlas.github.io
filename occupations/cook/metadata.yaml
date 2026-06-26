@@ -1,0 +1,43 @@
+title: 'Cook'
+slug: 'cook'
+aliases: ['Line Cook', 'Prep Cook', 'Station Cook']
+category: 'Hospitality'
+tags: ['line-cooking', 'station', 'mise-en-place', 'consistency', 'service']
+difficulty: 'intermediate'
+summary: 'How a line cook thinks: own one station, hold the line, execute the chef recipes to spec ticket after ticket, and work the rail without falling into the weeds.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'chef',
+      type: 'progression',
+      note: 'The cook boss and natural next step; the chef owns the menu and line, the cook owns a station',
+    }
+  - {
+      slug: 'waiter',
+      type: 'collaboration',
+      note: 'Front-of-house partner who fires tables and runs the plates the cook builds',
+    }
+  - {
+      slug: 'baker',
+      type: 'related',
+      note: 'Another hands-on repetition-and-consistency food trade governed by spec and pars',
+    }
+  - {
+      slug: 'bartender',
+      type: 'adjacent',
+      note: 'Works a station and a queue under fire on the front-of-house side of the rush',
+    }
+  - {
+      slug: 'food-scientist',
+      type: 'related',
+      note: 'Informs the safety, chemistry, and shelf life of the product the cook plates',
+    }
+specializations: ['saute-cook', 'grill-cook', 'garde-manger', 'fry-cook']
+country_variants: []
+sources:
+  - { title: 'The Professional Chef (Culinary Institute of America)', kind: 'book' }
+  - { title: 'ServSafe / HACCP Food Safety Standards', kind: 'standard' }
+status: stable

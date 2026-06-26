@@ -1,0 +1,62 @@
+title: 'Anthropologist'
+slug: 'anthropologist'
+aliases:
+  - 'Cultural Anthropologist'
+  - 'Ethnographer'
+  - 'Social Anthropologist'
+category: 'Science'
+tags:
+  - ethnography
+  - culture
+  - fieldwork
+  - social-science
+  - qualitative
+difficulty: advanced
+summary: 'Takes another way of life seriously on its own terms through long immersion, then translates its insider logic to outsiders without erasing the difference.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'sociologist',
+      type: 'adjacent',
+      note: 'shares methods but studies society at larger scale',
+    }
+  - {
+      slug: 'archaeologist',
+      type: 'related',
+      note: 'reconstructs culture from material remains, not living informants',
+    }
+  - {
+      slug: 'linguist',
+      type: 'collaboration',
+      note: 'analyzes the language anthropologists must learn to work',
+    }
+  - {
+      slug: 'historian',
+      type: 'related',
+      note: 'supplies temporal depth the ethnographic present flattens',
+    }
+  - {
+      slug: 'psychologist',
+      type: 'adjacent',
+      note: 'models the individual mind where anthropology models shared meaning',
+    }
+  - {
+      slug: 'curator',
+      type: 'collaboration',
+      note: 'interprets and represents material culture for the public',
+    }
+specializations:
+  - 'Medical Anthropologist'
+  - 'Linguistic Anthropologist'
+  - 'Economic Anthropologist'
+  - 'Biological Anthropologist'
+country_variants: []
+sources:
+  - { title: 'Argonauts of the Western Pacific', kind: 'book' }
+  - { title: 'The Interpretation of Cultures', kind: 'book' }
+  - { title: 'The Gift', kind: 'book' }
+status: stable

@@ -1,0 +1,58 @@
+title: 'Radiologic Technologist'
+slug: 'radiologic-technologist'
+aliases:
+  - 'Rad Tech'
+  - 'X-ray Technologist'
+  - 'Radiographer'
+  - 'Medical Imaging Technologist'
+category: 'Healthcare'
+tags:
+  - radiography
+  - medical-imaging
+  - radiation-protection
+  - alara
+  - positioning
+difficulty: intermediate
+summary: 'Balances the constant tension between a diagnostic image and the dose it costs, optimizing kVp, mAs, positioning, and collimation to answer the clinical question the first time at the lowest reasonable exposure.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'radiologist',
+      type: 'collaboration',
+      note: 'interprets the images the technologist acquires; the tech does not diagnose',
+    }
+  - {
+      slug: 'biomedical-engineer',
+      type: 'adjacent',
+      note: 'calibrates and maintains the imaging equipment',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'provides patient context and support during imaging',
+    }
+  - {
+      slug: 'phlebotomist',
+      type: 'related',
+      note: 'parallel allied-health role generating diagnostic data',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'orders the imaging exam with a clinical question',
+    }
+specializations:
+  - 'CT Technologist'
+  - 'MRI Technologist'
+  - 'Mammographer'
+  - 'Interventional Radiographer'
+country_variants: []
+sources:
+  - { title: 'ASRT Practice Standards for Medical Imaging and Radiation Therapy', kind: 'standard' }
+  - { title: 'ICRP Publication 103: Recommendations on Radiological Protection', kind: 'standard' }
+  - { title: 'Bushong: Radiologic Science for Technologists', kind: 'book' }
+status: stable

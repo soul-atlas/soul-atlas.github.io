@@ -1,0 +1,63 @@
+title: 'Psychologist'
+slug: 'psychologist'
+aliases:
+  - 'Clinical Psychologist'
+  - 'Therapist'
+  - 'Psychotherapist'
+category: 'Healthcare'
+tags:
+  - mental-health
+  - clinical-psychology
+  - assessment
+  - psychotherapy
+  - formulation
+difficulty: advanced
+summary: 'Builds an accurate, testable model of why a person thinks, feels, and acts as they do, then reduces suffering with methods shown to work while distrusting clinical certainty.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'psychiatrist',
+      type: 'adjacent',
+      note: 'shares the population but reasons in medication and neurochemistry',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'addresses the social arm of the biopsychosocial model',
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'related',
+      note: 'applies similar clinical skills to children in schools',
+    }
+  - {
+      slug: 'neuroscientist',
+      type: 'adjacent',
+      note: 'studies the biological substrate treated from the outside',
+    }
+  - {
+      slug: 'sociologist',
+      type: 'related',
+      note: 'studies population patterns that surface one case at a time',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'rules out and treats medical causes of psychiatric presentations',
+    }
+specializations:
+  - 'Clinical Psychologist'
+  - 'Neuropsychologist'
+  - 'Counseling Psychologist'
+  - 'Forensic Psychologist'
+country_variants: []
+sources:
+  - { title: 'Diagnostic and Statistical Manual of Mental Disorders (DSM-5-TR)', kind: 'book' }
+  - { title: 'Cognitive Therapy and the Emotional Disorders', kind: 'book' }
+  - { title: 'On Becoming a Person', kind: 'book' }
+  - { title: 'APA Ethical Principles of Psychologists and Code of Conduct', kind: 'standard' }
+status: stable

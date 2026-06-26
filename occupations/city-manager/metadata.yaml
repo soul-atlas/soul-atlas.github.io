@@ -1,0 +1,23 @@
+title: "City Manager"
+slug: "city-manager"
+aliases: ["city administrator", "town manager", "chief administrative officer"]
+category: "Government"
+tags: ["public-administration", "local-government", "budgeting", "management", "governance"]
+difficulty: expert
+summary: "How a professional administrator implements council policy through apolitical management and a balanced budget, keeping a city running across election cycles."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "legislator", type: "collaboration", note: "council members set the policy the manager executes in the council-manager form" }
+  - { slug: "urban-planner", type: "collaboration", note: "shapes the land-use and growth decisions the city implements" }
+  - { slug: "policy-analyst", type: "related", note: "supplies the evidence behind budget and program choices" }
+  - { slug: "operations-manager", type: "adjacent", note: "shares running a large organization to deliver within constraints" }
+  - { slug: "public-health-officer", type: "related", note: "leads a specialized arm of the same governmental machine" }
+specializations: ["assistant city manager", "town manager (small jurisdiction)", "county administrator", "budget director"]
+country_variants: []
+sources:
+  - { title: "The Effective Local Government Manager (ICMA)", kind: "book" }
+  - { title: "The Politics of the Budgetary Process (Wildavsky)", kind: "book" }
+status: stable

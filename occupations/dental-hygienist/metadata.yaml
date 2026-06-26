@@ -1,0 +1,56 @@
+title: 'Dental Hygienist'
+slug: 'dental-hygienist'
+aliases:
+  - 'Oral Hygienist'
+  - 'Registered Dental Hygienist'
+  - 'RDH'
+category: 'Healthcare'
+tags:
+  - dental
+  - periodontal
+  - prevention
+  - oral-health
+  - hygiene
+difficulty: intermediate
+summary: 'Thinks in bacterial load and host response, measures disease in millimeters and bleeding indices, and treats home-care behavior change as the real clinical lever.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'dentist',
+      type: 'collaboration',
+      note: 'owns diagnosis and restoration where the hygienist owns prevention and perio therapy',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'adjacent',
+      note: 'shares chronic-disease assessment and patient-education mindset',
+    }
+  - {
+      slug: 'dietitian',
+      type: 'adjacent',
+      note: 'diet drives both caries risk and the systemic conditions that worsen periodontitis',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'coordination point when oral findings reveal undiagnosed systemic disease',
+    }
+  - {
+      slug: 'phlebotomist',
+      type: 'related',
+      note: 'allied clinical role centered on a precise hands-on technical procedure',
+    }
+specializations:
+  - 'Periodontal Hygienist'
+  - 'Pediatric Dental Hygienist'
+  - 'Public Health Dental Hygienist'
+country_variants: []
+sources:
+  - { title: "Wilkins' Clinical Practice of the Dental Hygienist", kind: 'book' }
+  - { title: "Carranza's Clinical Periodontology", kind: 'book' }
+  - { title: '2017 AAP/EFP Classification of Periodontal Diseases', kind: 'standard' }
+status: stable

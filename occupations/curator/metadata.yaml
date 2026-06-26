@@ -1,0 +1,23 @@
+title: "Curator"
+slug: "curator"
+aliases: ["exhibition curator", "museum curator", "keeper"]
+category: "Creative"
+tags: ["exhibition", "provenance", "interpretation", "collection", "scholarship"]
+difficulty: expert
+summary: "How a curator builds an argument out of objects through selection, juxtaposition, and the visitor's path, while safeguarding provenance and the collection's survival."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "librarian", type: "related", note: "organizes, preserves, and provides access to collections" }
+  - { slug: "historian", type: "adjacent", note: "builds arguments from primary sources and contested evidence" }
+  - { slug: "archaeologist", type: "related", note: "recovers, authenticates, and contextualizes objects; provenance" }
+  - { slug: "writer", type: "collaboration", note: "the catalog essay and wall text are writing" }
+  - { slug: "interior-designer", type: "adjacent", note: "shapes how people move through a built space" }
+specializations: ["art curator", "natural-history curator", "archives curator", "independent curator"]
+country_variants: []
+sources:
+  - { title: "Ways of Curating (Hans Ulrich Obrist)", kind: "book" }
+  - { title: "ICOM Code of Ethics for Museums", kind: "standard" }
+status: stable

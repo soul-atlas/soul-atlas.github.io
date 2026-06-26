@@ -1,0 +1,23 @@
+title: "Interior Designer"
+slug: "interior-designer"
+aliases: ["interior architect", "space designer", "interior decorator"]
+category: "Creative"
+tags: ["space-planning", "lighting", "proportion", "materials", "ergonomics"]
+difficulty: advanced
+summary: "How an interior designer resolves function, flow, light, and proportion first, then layers material and color so a space works for the life lived inside it."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "architect", type: "collaboration", note: "owns the building's structure and envelope" }
+  - { slug: "landscape-architect", type: "adjacent", note: "shapes outdoor space with the same tools of circulation and proportion" }
+  - { slug: "industrial-designer", type: "related", note: "designs the furniture and objects that fill the space" }
+  - { slug: "graphic-designer", type: "related", note: "composition, color, scale, and hierarchy on surfaces" }
+  - { slug: "urban-planner", type: "adjacent", note: "organizes movement and use at the scale of the city" }
+specializations: ["residential designer", "commercial/workplace designer", "hospitality designer", "kitchen and bath designer"]
+country_variants: []
+sources:
+  - { title: "Interior Design Illustrated (Francis D.K. Ching)", kind: "book" }
+  - { title: "Human Dimension and Interior Space (Panero & Zelnik)", kind: "book" }
+status: stable

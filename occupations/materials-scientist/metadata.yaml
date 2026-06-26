@@ -1,0 +1,25 @@
+title: "Materials Scientist"
+slug: "materials-scientist"
+aliases: ["Materials Engineer", "Metallurgist", "Materials Scientist and Engineer"]
+category: "Science"
+tags: ["materials", "metallurgy", "microstructure", "characterization", "failure-analysis"]
+difficulty: advanced
+summary: "How an expert in materials reasons through the structure-property-processing-performance tetrahedron, treating defects as controls and every failure as a lesson."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "chemist", type: "related", note: "bonding, synthesis, and the chemistry beneath structure" }
+  - { slug: "physicist", type: "prerequisite", note: "solid-state physics, crystallography, electronic structure" }
+  - { slug: "mechanical-engineer", type: "collaboration", note: "consumes material data for design and selection" }
+  - { slug: "chemical-engineer", type: "adjacent", note: "shares processing, kinetics, and scale-up reasoning" }
+  - { slug: "aerospace-engineer", type: "collaboration", note: "fatigue, fracture, and safety-critical certification" }
+  - { slug: "sustainability-manager", type: "related", note: "lifecycle, recyclability, and critical-mineral sourcing" }
+specializations: ["Metallurgist", "Ceramic Engineer", "Polymer Scientist", "Semiconductor Materials Engineer"]
+country_variants: []
+sources:
+  - { title: "Materials Science and Engineering: An Introduction (Callister & Rethwisch)", kind: "book" }
+  - { title: "Materials Selection in Mechanical Design (Ashby)", kind: "book" }
+  - { title: "Physical Metallurgy Principles (Reed-Hill & Abbaschian)", kind: "book" }
+status: stable

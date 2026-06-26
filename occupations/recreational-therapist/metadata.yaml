@@ -1,0 +1,58 @@
+title: 'Recreational Therapist'
+slug: 'recreational-therapist'
+aliases:
+  - 'Therapeutic Recreation Specialist'
+  - 'CTRS'
+  - 'TR Specialist'
+  - 'Recreation Therapist'
+category: 'Healthcare'
+tags:
+  - therapeutic-recreation
+  - rehabilitation
+  - leisure-education
+  - activity-therapy
+  - quality-of-life
+difficulty: intermediate
+summary: 'Engineers meaningful activity into measurable clinical gain, adapting recreation to disability and building the intrinsic motivation and leisure skills that outlast discharge.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'occupational-therapist',
+      type: 'adjacent',
+      note: 'shares activity-as-therapy mindset; focuses on daily living and work',
+    }
+  - {
+      slug: 'physical-therapist',
+      type: 'collaboration',
+      note: 'owns mobility and strength goals reinforced through motivating activity',
+    }
+  - {
+      slug: 'psychologist',
+      type: 'collaboration',
+      note: 'partners on emotional and social goals in behavioral-health settings',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'partners on discharge supports and community resources',
+    }
+  - {
+      slug: 'athletic-trainer',
+      type: 'related',
+      note: 'shares use of physical activity, toward performance rather than recovery',
+    }
+specializations:
+  - 'Geriatric Recreational Therapist'
+  - 'Behavioral Health Recreational Therapist'
+  - 'Pediatric Recreational Therapist'
+  - 'Adaptive Sports Specialist'
+country_variants: []
+sources:
+  - { title: 'Therapeutic Recreation Program Design', kind: 'book' }
+  - { title: 'Foundations of Therapeutic Recreation', kind: 'book' }
+  - { title: 'Flow: The Psychology of Optimal Experience', kind: 'book' }
+status: stable

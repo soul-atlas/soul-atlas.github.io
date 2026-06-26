@@ -1,0 +1,56 @@
+title: 'Optometrist'
+slug: 'optometrist'
+aliases:
+  - 'Doctor of Optometry'
+  - 'OD'
+  - 'Eye Doctor'
+category: 'Healthcare'
+tags:
+  - vision
+  - refraction
+  - ocular-health
+  - primary-eye-care
+  - triage
+difficulty: advanced
+summary: 'Thinks in two parallel tracks — making the world sharp through refraction while hunting the asymptomatic sight-threatening disease behind every routine eye exam, and knowing when the eye belongs to a surgeon.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'ophthalmologist',
+      type: 'progression',
+      note: 'the same eye from the surgical and tertiary side; the natural escalation partner',
+    }
+  - {
+      slug: 'audiologist',
+      type: 'adjacent',
+      note: 'parallel sensory-organ specialist screening for the rare retrocochlear lesion',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'shares systemic patients whose diabetes and hypertension show in the eye',
+    }
+  - {
+      slug: 'neurologist',
+      type: 'related',
+      note: 'receives optic-nerve and visual-field findings of neurological origin',
+    }
+  - {
+      slug: 'pediatrician',
+      type: 'collaboration',
+      note: 'co-manages childhood vision and developmental eye concerns',
+    }
+specializations:
+  - 'Pediatric Optometrist'
+  - 'Contact Lens Specialist'
+  - 'Low Vision Optometrist'
+country_variants: []
+sources:
+  - { title: "Kanski's Clinical Ophthalmology", kind: 'book' }
+  - { title: "Borish's Clinical Refraction", kind: 'book' }
+  - { title: 'The Wills Eye Manual', kind: 'book' }
+status: stable

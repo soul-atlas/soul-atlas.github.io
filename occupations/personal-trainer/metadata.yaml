@@ -1,0 +1,25 @@
+title: "Personal Trainer"
+slug: "personal-trainer"
+aliases: ["Fitness Trainer", "Strength Coach", "Fitness Instructor", "Strength and Conditioning Coach"]
+category: "Sports"
+tags: ["fitness", "strength-training", "coaching", "exercise-science", "behavior-change"]
+difficulty: intermediate
+summary: "Thinks in dose-response and adaptation: screens before loading, applies progressive overload at the right dose, and treats adherence as the variable that decides everything."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "physical-therapist", type: "adjacent", note: "owns rehab and the loading restrictions a trainer must work around and refer into" }
+  - { slug: "athletic-trainer", type: "adjacent", note: "shares injury-prevention and return-to-play work for athletic clients" }
+  - { slug: "dietitian", type: "collaboration", note: "owns nutrition prescription that sits outside a trainer's scope of practice" }
+  - { slug: "coach", type: "collaboration", note: "develops athletes through sport-specific systems the strength work supports" }
+  - { slug: "athlete", type: "related", note: "the trainer's most demanding client, with a different risk budget than general population" }
+  - { slug: "psychologist", type: "adjacent", note: "shares the behavior-change and motivation work and takes referrals beyond coaching" }
+specializations: ["Strength and Conditioning Coach", "Group Fitness Instructor", "Corrective Exercise Specialist"]
+country_variants: []
+sources:
+  - { title: "NSCA Essentials of Strength Training and Conditioning", kind: "book" }
+  - { title: "ACSM's Guidelines for Exercise Testing and Prescription", kind: "book" }
+  - { title: "NASM Essentials of Personal Fitness Training", kind: "book" }
+status: stable

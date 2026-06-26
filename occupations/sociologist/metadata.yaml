@@ -1,0 +1,62 @@
+title: 'Sociologist'
+slug: 'sociologist'
+aliases:
+  - 'Social Scientist'
+  - 'Social Researcher'
+  - 'Sociology Researcher'
+category: 'Science'
+tags:
+  - sociology
+  - social-theory
+  - ethnography
+  - social-research
+  - structure-agency
+difficulty: advanced
+summary: 'Makes the invisible patterns of collective life visible — linking private troubles to public issues and treating the taken-for-granted as something that must be explained rather than assumed.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'anthropologist',
+      type: 'adjacent',
+      note: 'shares ethnographic method; estranges the familiar where anthropology studies the unfamiliar',
+    }
+  - {
+      slug: 'psychologist',
+      type: 'related',
+      note: 'explains behavior through the individual mind, the level sociology looks past',
+    }
+  - {
+      slug: 'political-scientist',
+      type: 'adjacent',
+      note: 'shares institutions and power but centers the state and formal politics',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'applies sociological insight directly to people inside the structures sociologists analyze',
+    }
+  - {
+      slug: 'historian',
+      type: 'prerequisite',
+      note: 'supplies the temporal depth comparative-historical sociology depends on',
+    }
+  - {
+      slug: 'policy-analyst',
+      type: 'collaboration',
+      note: 'translates structural findings into recommendations governments can act on',
+    }
+specializations:
+  - 'Urban Sociologist'
+  - 'Demographer'
+  - 'Sociologist of Work and Organizations'
+  - 'Criminologist'
+country_variants: []
+sources:
+  - { title: 'The Sociological Imagination (C. Wright Mills)', kind: 'book' }
+  - { title: 'Suicide (Émile Durkheim)', kind: 'book' }
+  - { title: 'The Presentation of Self in Everyday Life (Goffman)', kind: 'book' }
+status: stable

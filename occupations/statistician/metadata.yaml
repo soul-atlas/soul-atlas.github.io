@@ -1,0 +1,61 @@
+title: 'Statistician'
+slug: 'statistician'
+aliases:
+  - 'Applied Statistician'
+  - 'Biostatistician'
+  - 'Quantitative Analyst'
+category: 'Science'
+tags:
+  - statistics
+  - inference
+  - probability
+  - data-analysis
+  - experimental-design
+difficulty: advanced
+summary: 'Turns noisy, imperfect data into calibrated belief — estimates with honest uncertainty — by reasoning about how the data were generated and how an analysis could be fooling itself.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'data-scientist',
+      type: 'adjacent',
+      note: 'applies the same methods at scale, leaning toward prediction over inference',
+    }
+  - {
+      slug: 'mathematician',
+      type: 'prerequisite',
+      note: 'supplies the probability theory statistics rests on',
+    }
+  - {
+      slug: 'actuary',
+      type: 'specialization',
+      note: 'statistician of risk in insurance and finance, bound by professional standards',
+    }
+  - {
+      slug: 'epidemiologist',
+      type: 'collaboration',
+      note: 'domain statistician of disease, fluent in study design and causal inference',
+    }
+  - {
+      slug: 'machine-learning-engineer',
+      type: 'related',
+      note: 'treats the bias-variance tradeoff operationally rather than inferentially',
+    }
+  - {
+      slug: 'economist',
+      type: 'related',
+      note: 'wields much of the same causal-inference toolkit on markets and policy',
+    }
+specializations:
+  - 'Biostatistician'
+  - 'Bayesian Statistician'
+  - 'Experimental Design Specialist'
+country_variants: []
+sources:
+  - { title: 'Statistical Inference (Casella & Berger)', kind: 'book' }
+  - { title: 'Bayesian Data Analysis (Gelman et al.)', kind: 'book' }
+  - { title: 'Causality (Judea Pearl)', kind: 'book' }
+status: stable

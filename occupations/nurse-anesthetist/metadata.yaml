@@ -1,0 +1,56 @@
+title: 'Nurse Anesthetist'
+slug: 'nurse-anesthetist'
+aliases:
+  - 'CRNA'
+  - 'Certified Registered Nurse Anesthetist'
+  - 'Nurse Anaesthetist'
+category: 'Healthcare'
+tags:
+  - anesthesia
+  - airway-management
+  - perioperative
+  - vigilance
+  - critical-care
+difficulty: expert
+summary: 'Holds the physiology of a deliberately helpless patient moment to moment through induction, maintenance, and emergence, with continuous vigilance as the core value.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'anesthesiologist',
+      type: 'collaboration',
+      note: 'physician partner who supervises or co-manages in the care-team model',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'collaboration',
+      note: 'creates the physiologic stress the CRNA absorbs at the head of the table',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'prerequisite',
+      note: 'CRNA training builds on critical-care RN experience',
+    }
+  - {
+      slug: 'respiratory-therapist',
+      type: 'adjacent',
+      note: 'shares deep airway and ventilation expertise',
+    }
+  - {
+      slug: 'paramedic',
+      type: 'adjacent',
+      note: 'performs rapid-sequence airway management in the uncontrolled field',
+    }
+specializations:
+  - 'Cardiac Anesthesia CRNA'
+  - 'Obstetric Anesthesia CRNA'
+  - 'Pediatric Anesthesia CRNA'
+country_variants: []
+sources:
+  - { title: 'Nurse Anesthesia (Nagelhout & Elisha)', kind: 'book' }
+  - { title: "Miller's Anesthesia", kind: 'book' }
+  - { title: 'AANA Standards for Nurse Anesthesia Practice', kind: 'standard' }
+status: stable

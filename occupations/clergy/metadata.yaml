@@ -1,0 +1,23 @@
+title: "Clergy"
+slug: "clergy"
+aliases: ["pastor", "priest", "minister", "chaplain"]
+category: "Public Service"
+tags: ["ministry", "pastoral-care", "ritual", "ethics", "community"]
+difficulty: advanced
+summary: "How a member of the clergy tends a community's spiritual life through presence, ritual, and moral counsel, accompanying people at the thresholds of suffering and death."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "social-worker", type: "collaboration", note: "shares accompaniment of people in crisis and the referral discipline" }
+  - { slug: "psychiatrist", type: "adjacent", note: "handles the clinical dimension of suffering clergy meet pastorally" }
+  - { slug: "funeral-director", type: "collaboration", note: "the constant partner at death, handling the body while clergy tend meaning" }
+  - { slug: "school-counselor", type: "related", note: "shares counsel and care through people's hard passages" }
+  - { slug: "mentor", type: "related", note: "shares guiding others through life's difficult transitions" }
+specializations: ["parish priest / pastor", "hospital or military chaplain", "hospice chaplain", "youth minister"]
+country_variants: []
+sources:
+  - { title: "The Wounded Healer (Henri Nouwen)", kind: "book" }
+  - { title: "The Rites of Passage (Arnold van Gennep)", kind: "book" }
+status: stable

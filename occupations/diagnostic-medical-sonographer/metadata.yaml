@@ -1,0 +1,57 @@
+title: 'Diagnostic Medical Sonographer'
+slug: 'diagnostic-medical-sonographer'
+aliases:
+  - 'Ultrasound Technologist'
+  - 'Ultrasonographer'
+  - 'Sonographer'
+category: 'Healthcare'
+tags:
+  - ultrasound
+  - imaging
+  - knobology
+  - diagnostics
+  - sonography
+difficulty: advanced
+summary: 'Creates the diagnostic image in real time by reasoning from echoes, optimizing the machine, and recognizing pathology while the patient is still on the table.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'radiologist',
+      type: 'collaboration',
+      note: 'reads the study the sonographer acquires and depends on its completeness',
+    }
+  - {
+      slug: 'radiologic-technologist',
+      type: 'related',
+      note: 'sibling imaging role where the machine, not the operator, sets the slice',
+    }
+  - {
+      slug: 'nuclear-medicine-technologist',
+      type: 'adjacent',
+      note: 'images physiology rather than anatomy and manages radiation',
+    }
+  - {
+      slug: 'cardiologist',
+      type: 'collaboration',
+      note: 'overlaps directly through echocardiography interpretation',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'shares patient-facing acuity and supplies clinical context',
+    }
+specializations:
+  - 'Obstetric/Gynecologic Sonographer'
+  - 'Vascular Technologist'
+  - 'Echocardiographer'
+  - 'Abdominal Sonographer'
+country_variants: []
+sources:
+  - { title: 'Diagnostic Ultrasound (Rumack & Levine)', kind: 'book' }
+  - { title: 'Understanding Ultrasound Physics (Edelman)', kind: 'book' }
+  - { title: 'AIUM Practice Parameters', kind: 'standard' }
+status: stable

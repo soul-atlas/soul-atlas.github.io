@@ -1,0 +1,23 @@
+title: "Cost Estimator"
+slug: "cost-estimator"
+aliases: ["Estimator", "Quantity Surveyor", "Construction Estimator"]
+category: "Business"
+tags: ["estimating", "takeoff", "contingency", "bid-pricing"]
+difficulty: "intermediate"
+summary: "Thinks as the pricer of uncertainty: turns incomplete drawings and unknown future prices into a single defensible number with its accuracy band, contingency, and escalation stated."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "budget-analyst", type: "related", note: "Turns the estimate into a funded plan and tracks actuals against it" }
+  - { slug: "project-manager", type: "collaboration", note: "Owns delivery against the estimate and feeds back actuals" }
+  - { slug: "financial-analyst", type: "adjacent", note: "Uses the estimate as input to investment and NPV decisions" }
+  - { slug: "procurement-specialist", type: "collaboration", note: "Sources the quotes and materials the estimate prices" }
+  - { slug: "operations-manager", type: "adjacent", note: "Runs the production whose costs the estimator predicts" }
+  - { slug: "statistician", type: "related", note: "Provides the risk-based ranging methods behind contingency" }
+specializations: ["Construction estimating", "Manufacturing cost estimating", "Quantity surveying"]
+country_variants: []
+sources:
+  - { title: "AACE International Recommended Practice 18R-97 (Cost Estimate Classification)", kind: "standard" }
+status: stable

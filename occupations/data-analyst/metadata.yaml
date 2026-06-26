@@ -1,0 +1,24 @@
+title: "Data Analyst"
+slug: "data-analyst"
+aliases: ["Business Intelligence Analyst", "Reporting Analyst", "Analytics Specialist"]
+category: "Technology"
+tags: ["sql", "dashboards", "metrics", "business-intelligence", "decision-support"]
+difficulty: intermediate
+summary: "Thinks from the decision backward: scopes the question, distrusts the data until it ties to a source of truth, segments before concluding, and ships a recommendation, not a data dump."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "data-scientist", type: "progression", note: "where work climbs from descriptive into predictive modeling and ML" }
+  - { slug: "data-engineer", type: "prerequisite", note: "supplies the clean modeled tables analysts query" }
+  - { slug: "business-analyst", type: "adjacent", note: "shares the question-framing and stakeholder-translation craft" }
+  - { slug: "product-manager", type: "collaboration", note: "primary consumer of metrics and experiment readouts" }
+  - { slug: "statistician", type: "related", note: "rigor on significance, sampling, and inference" }
+  - { slug: "database-administrator", type: "adjacent", note: "owns the databases analysts read from" }
+specializations: ["product analytics", "marketing analytics", "BI / dashboard development", "experimentation analysis"]
+country_variants: []
+sources:
+  - { title: "Storytelling with Data (Cole Nussbaumer Knaflic)", kind: "book" }
+  - { title: "Trustworthy Online Controlled Experiments (Kohavi, Tang, Xu)", kind: "book" }
+status: stable

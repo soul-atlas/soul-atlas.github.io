@@ -1,0 +1,23 @@
+title: "Aircraft Mechanic"
+slug: "aircraft-mechanic"
+aliases: ["A&P technician", "aviation maintenance technician", "aircraft maintenance engineer"]
+category: "Skilled Trades"
+tags: ["aviation-maintenance", "airworthiness", "faa-compliance", "inspection", "powerplant"]
+difficulty: advanced
+summary: "How an expert aircraft mechanic keeps aircraft airworthy through approved data, traceable parts, AD compliance, and torque-and-safety discipline, with documentation as part of the work itself."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "diesel-mechanic", type: "adjacent", note: "shares diagnostic and rotating-machinery skills in a less regulated domain" }
+  - { slug: "commercial-pilot", type: "collaboration", note: "flies the aircraft the mechanic certifies and writes up discrepancies" }
+  - { slug: "aerospace-engineer", type: "prerequisite", note: "designs the aircraft and approved repairs the mechanic executes" }
+  - { slug: "electrician", type: "related", note: "shares the systems and wiring world (avionics adjacent)" }
+  - { slug: "machinist", type: "related", note: "shares precision-fit and torque discipline" }
+specializations: ["airframe and powerplant (A&P) technician", "avionics technician", "line maintenance technician", "engine/powerplant specialist"]
+country_variants: []
+sources:
+  - { title: "FAA Airframe and Powerplant Handbooks (FAA-H-8083 series)", kind: "book" }
+  - { title: "14 CFR Parts 43, 65, 91, 121, 145 (FAA maintenance regulations)", kind: "standard" }
+status: stable

@@ -1,0 +1,57 @@
+title: 'Ophthalmologist'
+slug: 'ophthalmologist'
+aliases:
+  - 'Eye Doctor'
+  - 'Eye Surgeon'
+  - 'Eye Physician'
+category: 'Healthcare'
+tags:
+  - ophthalmology
+  - eye
+  - microsurgery
+  - vision
+  - medicine
+difficulty: expert
+summary: 'Examines the eye with micron-scale precision to localize problems along the visual axis, catches vision-threatening emergencies before damage becomes permanent, and restores sight medically or with microsurgery.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physician',
+      type: 'prerequisite',
+      note: 'ophthalmology is a medical-surgical specialty built on medical training',
+    }
+  - {
+      slug: 'optometrist',
+      type: 'adjacent',
+      note: 'provides primary eye care and refraction; the chief referral partner',
+    }
+  - {
+      slug: 'neurologist',
+      type: 'collaboration',
+      note: 'shares lesions behind the eye and the localize-then-diagnose method',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'adjacent',
+      note: 'shares the microsurgical mindset of unforgiving tissue',
+    }
+  - {
+      slug: 'radiologist',
+      type: 'collaboration',
+      note: 'images the orbit and the visual pathway',
+    }
+specializations:
+  - 'Retina Specialist'
+  - 'Glaucoma Specialist'
+  - 'Cornea Specialist'
+  - 'Pediatric Ophthalmologist'
+country_variants: []
+sources:
+  - { title: 'Kanski''s Clinical Ophthalmology', kind: 'book' }
+  - { title: 'The Wills Eye Manual', kind: 'book' }
+  - { title: 'AAO Basic and Clinical Science Course', kind: 'standard' }
+status: stable

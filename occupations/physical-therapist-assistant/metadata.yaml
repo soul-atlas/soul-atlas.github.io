@@ -1,0 +1,54 @@
+title: 'Physical Therapist Assistant'
+slug: 'physical-therapist-assistant'
+aliases:
+  - 'PTA'
+  - 'Physiotherapy Assistant'
+  - 'Physical Therapy Assistant'
+category: 'Healthcare'
+tags:
+  - rehabilitation
+  - gait-training
+  - therapeutic-exercise
+  - patient-safety
+  - movement
+difficulty: intermediate
+summary: 'Implements the physical therapist''s plan of care — guarding gait, grading exercise to the just-right challenge, and knowing the moment a patient''s response means stop and call the PT.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physical-therapist',
+      type: 'prerequisite',
+      note: 'evaluates, writes the plan of care, and supervises the PTA',
+    }
+  - {
+      slug: 'occupational-therapy-assistant',
+      type: 'related',
+      note: 'sibling assistant role aimed at occupation and ADLs',
+    }
+  - {
+      slug: 'athletic-trainer',
+      type: 'adjacent',
+      note: 'shares rehab and movement-analysis skills in a sports setting',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'manages the medical picture that frames what therapy is safe',
+    }
+  - {
+      slug: 'home-health-aide',
+      type: 'collaboration',
+      note: 'reinforces transfers and gait the PTA trains, between visits',
+    }
+specializations:
+  - 'Orthopedic PTA'
+  - 'Neurologic Rehab PTA'
+country_variants: []
+sources:
+  - { title: 'Therapeutic Exercise: Foundations and Techniques', kind: 'book' }
+  - { title: 'Physical Rehabilitation (O''Sullivan)', kind: 'book' }
+status: stable

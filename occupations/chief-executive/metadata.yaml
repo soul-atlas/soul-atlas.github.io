@@ -1,0 +1,25 @@
+title: "Chief Executive"
+slug: "chief-executive"
+aliases: ["CEO", "Managing Director", "Chief Executive Officer"]
+category: "Business"
+tags: ["capital-allocation", "leadership", "governance", "strategy", "accountability"]
+difficulty: "expert"
+summary: "How a CEO thinks: allocating scarce capital and attention, owning the board and the outcome, treating culture as the residue of decisions, and carrying lonely accountability."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "management-consultant", type: "adjacent", note: "advises on strategy; the CEO decides and owns it" }
+  - { slug: "financial-manager", type: "collaboration", note: "stewards the capital the CEO allocates" }
+  - { slug: "entrepreneur", type: "progression", note: "founder mindset that often precedes the CEO seat" }
+  - { slug: "investment-banker", type: "collaboration", note: "partner on M&A, financing, and capital structure" }
+  - { slug: "operations-manager", type: "related", note: "executes the operating plan the CEO sets direction for" }
+  - { slug: "policy-analyst", type: "adjacent", note: "external-affairs and regulatory frame the CEO operates within" }
+specializations: ["founder-CEO", "turnaround CEO", "public-company CEO", "private-equity portfolio CEO"]
+country_variants: []
+sources:
+  - { title: "The Outsiders (William Thorndike)", kind: "book" }
+  - { title: "Good to Great (Jim Collins)", kind: "book" }
+  - { title: "High Output Management (Andrew Grove)", kind: "book" }
+status: stable

@@ -1,0 +1,61 @@
+title: 'Rehabilitation Counselor'
+slug: 'rehabilitation-counselor'
+aliases:
+  - 'Vocational Rehabilitation Counselor'
+  - 'VR Counselor'
+  - 'Disability Employment Counselor'
+category: 'Healthcare'
+tags:
+  - rehabilitation
+  - disability
+  - vocational
+  - employment
+  - counseling
+difficulty: advanced
+summary: 'Aims a person with a disability at work and independent living by matching residual function to job demands, engineering away barriers, and keeping the client''s own informed choice at the center.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'occupational-therapist',
+      type: 'collaboration',
+      note: 'builds and assesses the functional capacity the counselor plans around',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'adjacent',
+      note: 'overlapping case coordination, weighted toward basic needs and community',
+    }
+  - {
+      slug: 'mental-health-counselor',
+      type: 'related',
+      note: 'treats co-occurring conditions that gate vocational readiness',
+    }
+  - {
+      slug: 'community-health-worker',
+      type: 'adjacent',
+      note: 'shares the navigation and advocacy roles from inside the community',
+    }
+  - {
+      slug: 'human-resources-manager',
+      type: 'collaboration',
+      note: 'employer-side partner in the ADA interactive accommodation process',
+    }
+  - {
+      slug: 'orthotist-prosthetist',
+      type: 'collaboration',
+      note: 'fits the devices that extend function and reshape job feasibility',
+    }
+specializations:
+  - 'Vocational Evaluator'
+  - 'Supported Employment Specialist'
+  - 'Assistive Technology Specialist'
+country_variants: []
+sources:
+  - { title: 'CRCC Code of Professional Ethics for Rehabilitation Counselors', kind: 'standard' }
+  - { title: 'International Classification of Functioning, Disability and Health (ICF)', kind: 'standard' }
+  - { title: 'Foundations of the Vocational Rehabilitation Process', kind: 'book' }
+status: stable

@@ -1,0 +1,63 @@
+title: 'Linguist'
+slug: 'linguist'
+aliases:
+  - 'Language Scientist'
+  - 'Philologist'
+  - 'Linguistics Researcher'
+category: 'Science'
+tags:
+  - language
+  - phonology
+  - syntax
+  - fieldwork
+  - sociolinguistics
+difficulty: advanced
+summary: 'Describes how language actually works by treating it as a natural object to observe rather than manners to enforce, separating what speakers know from what they think they know.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'anthropologist',
+      type: 'adjacent',
+      note: 'shares the descriptive fieldwork stance toward a human system',
+    }
+  - {
+      slug: 'philosopher',
+      type: 'related',
+      note: 'overlaps in semantics and philosophy of language',
+    }
+  - {
+      slug: 'speech-language-pathologist',
+      type: 'adjacent',
+      note: 'applies sound and structure analysis clinically',
+    }
+  - {
+      slug: 'prompt-engineer',
+      type: 'collaboration',
+      note: 'builds language technology where linguistic questions resurface',
+    }
+  - {
+      slug: 'writer',
+      type: 'related',
+      note: 'manipulates from the inside the system the linguist describes',
+    }
+  - {
+      slug: 'neuroscientist',
+      type: 'adjacent',
+      note: 'asks where the language faculty lives in the brain',
+    }
+specializations:
+  - 'Phonologist'
+  - 'Syntactician'
+  - 'Sociolinguist'
+  - 'Documentary Linguist'
+country_variants: []
+sources:
+  - { title: 'Course in General Linguistics', kind: 'book' }
+  - { title: 'Syntactic Structures', kind: 'book' }
+  - { title: 'Sociolinguistic Patterns', kind: 'book' }
+  - { title: 'Language', kind: 'book' }
+status: stable

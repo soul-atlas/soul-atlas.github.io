@@ -1,0 +1,63 @@
+title: 'Mental Health Counselor'
+slug: 'mental-health-counselor'
+aliases:
+  - 'Clinical Mental Health Counselor'
+  - 'Licensed Professional Counselor'
+  - 'Psychotherapist'
+  - 'LPC'
+category: 'Healthcare'
+tags:
+  - mental-health
+  - psychotherapy
+  - clinical-counseling
+  - evidence-based-practice
+  - therapeutic-alliance
+difficulty: expert
+summary: 'Builds a therapeutic relationship strong enough to hold change, then uses it with matched evidence-based methods to reduce a client''s suffering over a long clinical arc.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'substance-abuse-counselor',
+      type: 'specialization',
+      note: 'shares modalities but specializes in addiction and stages of change',
+    }
+  - {
+      slug: 'marriage-family-therapist',
+      type: 'related',
+      note: 'treats the relational system rather than the individual',
+    }
+  - {
+      slug: 'psychiatrist',
+      type: 'collaboration',
+      note: 'prescribes and manages medication the counselor coordinates with',
+    }
+  - {
+      slug: 'psychologist',
+      type: 'adjacent',
+      note: 'overlaps heavily and adds formal psychological assessment',
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'related',
+      note: 'triages and refers rather than treating over a long arc',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'adjacent',
+      note: 'overlapping clinical work with a stronger bridge to systems',
+    }
+specializations:
+  - 'Trauma Therapist'
+  - 'Child and Adolescent Counselor'
+  - 'Grief Counselor'
+  - 'Addiction Counselor'
+country_variants: []
+sources:
+  - { title: 'DSM-5-TR', kind: 'book' }
+  - { title: 'Cognitive Behavior Therapy: Basics and Beyond', kind: 'book' }
+  - { title: 'ACA Code of Ethics', kind: 'standard' }
+status: stable

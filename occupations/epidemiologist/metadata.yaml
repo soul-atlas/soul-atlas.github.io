@@ -1,0 +1,62 @@
+title: 'Epidemiologist'
+slug: 'epidemiologist'
+aliases:
+  - 'Disease Detective'
+  - 'Infectious Disease Epidemiologist'
+  - 'Public Health Researcher'
+category: 'Healthcare'
+tags:
+  - epidemiology
+  - public-health
+  - outbreak-investigation
+  - causal-inference
+  - surveillance
+difficulty: advanced
+summary: 'Reads disease patterns by person, place, and time, refuses any numerator without its denominator, separates cause from confounding, and decides whether the asymmetry of harms justifies acting before the evidence is conclusive.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'statistician',
+      type: 'adjacent',
+      note: 'sharpens the inference while the epidemiologist owns the causal question',
+    }
+  - {
+      slug: 'public-health-officer',
+      type: 'collaboration',
+      note: 'converts findings into authority and action like recalls and quarantine',
+    }
+  - {
+      slug: 'microbiologist',
+      type: 'collaboration',
+      note: 'confirms diagnoses and traces pathogens to their source by molecular typing',
+    }
+  - {
+      slug: 'data-scientist',
+      type: 'adjacent',
+      note: 'shares large-scale modeling and forecasting methods',
+    }
+  - {
+      slug: 'physician',
+      type: 'related',
+      note: 'supplies the clinical cases that seed surveillance',
+    }
+  - {
+      slug: 'research-scientist',
+      type: 'progression',
+      note: 'pursues the underlying mechanisms epidemiology detects at a distance',
+    }
+specializations:
+  - 'Infectious Disease Epidemiologist'
+  - 'Chronic Disease Epidemiologist'
+  - 'Field Epidemiologist'
+  - 'Pharmacoepidemiologist'
+country_variants: []
+sources:
+  - { title: 'Modern Epidemiology (Rothman, Greenland & Lash)', kind: 'book' }
+  - { title: 'CDC Principles of Epidemiology in Public Health Practice', kind: 'standard' }
+  - { title: 'Bradford Hill: The Environment and Disease (1965)', kind: 'paper' }
+status: stable

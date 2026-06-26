@@ -1,0 +1,48 @@
+title: 'Childcare Worker'
+slug: 'childcare-worker'
+aliases: ['Daycare Worker', 'Early Childhood Caregiver', 'Nursery Worker', 'Infant/Toddler Caregiver']
+category: 'Education'
+tags: ['early-childhood', 'child-safety', 'attachment', 'supervision', 'mandated-reporting']
+difficulty: 'intermediate'
+summary: 'How a childcare worker thinks: supervision and ratio as a hard constraint, safe sleep, co-regulation, and attachment for the youngest children who cannot keep themselves safe.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'preschool-teacher',
+      type: 'progression',
+      note: 'Takes the same children as care shifts toward structured early learning',
+    }
+  - {
+      slug: 'teacher',
+      type: 'adjacent',
+      note: 'Same developmental craft applied to older children with a pedagogy focus',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'On the other end of a mandated abuse report and shares child-protection duty',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'collaboration',
+      note: 'Receives referrals when a flagged milestone concern needs assessment',
+    }
+  - {
+      slug: 'parent',
+      type: 'related',
+      note: 'Does the same care, attachment, and supervision work at home for their own',
+    }
+  - {
+      slug: 'caregiver',
+      type: 'related',
+      note: 'Shares the supervision, safety, and co-regulation duties for dependents',
+    }
+specializations: ['infant-room caregiver', 'toddler-room caregiver', 'family childcare provider', 'nanny']
+country_variants: []
+sources:
+  - { title: 'Developmentally Appropriate Practice in Early Childhood Programs (NAEYC)', kind: 'book' }
+  - { title: 'AAP Safe Sleep Guidelines (Safe to Sleep)', kind: 'standard' }
+status: stable

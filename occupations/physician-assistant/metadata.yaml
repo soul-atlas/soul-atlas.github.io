@@ -1,0 +1,61 @@
+title: 'Physician Assistant'
+slug: 'physician-assistant'
+aliases:
+  - 'PA'
+  - 'PA-C'
+  - 'Physician Associate'
+category: 'Healthcare'
+tags:
+  - medicine
+  - primary-care
+  - generalist
+  - collaborative-practice
+  - diagnosis
+difficulty: advanced
+summary: 'Practices medicine as a broad generalist within a collaborative relationship with a physician, owning common presentations and knowing precisely when to curbside or refer.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'the collaborating partner who shares responsibility and answers the curbside',
+    }
+  - {
+      slug: 'nurse-practitioner',
+      type: 'adjacent',
+      note: 'parallel diagnose-and-prescribe role from the nursing model',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'surveils and executes the plan the PA writes',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'collaboration',
+      note: 'directs the OR where a surgical PA first-assists',
+    }
+  - {
+      slug: 'emergency-physician',
+      type: 'adjacent',
+      note: 'shares the worst-first acute generalist reasoning',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'partners on safe prescribing across a broad range of conditions',
+    }
+specializations:
+  - 'Surgical PA'
+  - 'Emergency Medicine PA'
+  - 'Dermatology PA'
+country_variants: []
+sources:
+  - { title: 'Physician Assistant: A Guide to Clinical Practice', kind: 'book' }
+  - { title: 'NCCPA PANCE Blueprint', kind: 'standard' }
+  - { title: 'AAPA Guidelines for Ethical Conduct for the PA Profession', kind: 'standard' }
+status: stable

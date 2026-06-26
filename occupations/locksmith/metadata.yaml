@@ -1,0 +1,23 @@
+title: "Locksmith"
+slug: "locksmith"
+aliases: ["lock technician", "access control specialist", "safe technician"]
+category: "Skilled Trades"
+tags: ["locks", "access-control", "key-systems", "security", "lockout"]
+difficulty: intermediate
+summary: "How an expert locksmith thinks about access as a system, opens locks by feel before force, designs key control, and verifies authority before any mechanism is touched."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "security-engineer", type: "adjacent", note: "secures the digital perimeter; meets the locksmith at electronic access control" }
+  - { slug: "carpenter", type: "collaboration", note: "hangs and frames the doors whose strength decides whether the lock matters" }
+  - { slug: "electrician", type: "collaboration", note: "runs power and wiring for electronic locks and access systems" }
+  - { slug: "detective", type: "related", note: "works the break-ins the locksmith advises against" }
+  - { slug: "machinist", type: "related", note: "shares the precision-mechanism and safe/vault world" }
+specializations: ["residential/commercial locksmith", "automotive locksmith", "safe and vault technician", "electronic access control specialist"]
+country_variants: []
+sources:
+  - { title: "Locksmithing (Bill Phillips)", kind: "book" }
+  - { title: "ALOA training curriculum and ANSI/BHMA A156 hardware standards", kind: "standard" }
+status: stable

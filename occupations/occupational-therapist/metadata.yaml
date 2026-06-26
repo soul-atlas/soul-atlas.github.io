@@ -1,0 +1,62 @@
+title: 'Occupational Therapist'
+slug: 'occupational-therapist'
+aliases:
+  - 'OT'
+  - 'Occupational Therapy Practitioner'
+  - 'Rehabilitation Therapist'
+category: 'Healthcare'
+tags:
+  - rehabilitation
+  - activities-of-daily-living
+  - function
+  - adaptation
+  - occupation
+difficulty: advanced
+summary: 'Matches person, environment, and occupation until daily life works again — adapting the task as readily as it rebuilds the body, with meaning as the engine.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physical-therapist',
+      type: 'adjacent',
+      note: 'owns movement and strength while OT owns function and participation',
+    }
+  - {
+      slug: 'speech-language-pathologist',
+      type: 'collaboration',
+      note: 'co-treats cognition and feeding at the function boundary',
+    }
+  - {
+      slug: 'athletic-trainer',
+      type: 'related',
+      note: 'shares the graded return-to-activity instinct in a sports context',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'arranges the discharge environment and supports OT builds toward',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'adjacent',
+      note: 'carries sensory and fine-motor goals into the classroom',
+    }
+  - {
+      slug: 'physician',
+      type: 'related',
+      note: 'sets precautions and prescribes the therapy OT delivers',
+    }
+specializations:
+  - 'Hand Therapist'
+  - 'Pediatric Occupational Therapist'
+  - 'Neuro Rehabilitation OT'
+  - 'Driving Rehabilitation Specialist'
+country_variants: []
+sources:
+  - { title: "Willard and Spackman's Occupational Therapy", kind: 'book' }
+  - { title: 'A Model of Human Occupation', kind: 'book' }
+  - { title: 'Occupational Therapy Practice Framework (OTPF)', url: 'https://www.aota.org/', kind: 'standard' }
+status: stable

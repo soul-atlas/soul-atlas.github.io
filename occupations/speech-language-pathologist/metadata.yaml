@@ -1,0 +1,61 @@
+title: 'Speech-Language Pathologist'
+slug: 'speech-language-pathologist'
+aliases:
+  - 'Speech Therapist'
+  - 'SLP'
+  - 'Speech Pathologist'
+category: 'Healthcare'
+tags:
+  - dysphagia
+  - communication
+  - aphasia
+  - swallowing
+  - rehabilitation
+difficulty: advanced
+summary: 'Localizes where communication or swallowing breaks down, then negotiates the line between airway safety and a patient-defined life worth living.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'audiologist',
+      type: 'adjacent',
+      note: 'manages hearing as the input side of the same communication loop',
+    }
+  - {
+      slug: 'occupational-therapist',
+      type: 'collaboration',
+      note: 'co-treats feeding, cognition, and functional carryover',
+    }
+  - {
+      slug: 'neurologist',
+      type: 'related',
+      note: 'supplies the diagnosis the SLP translates into functional therapy',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'executes diet orders and flags the cough that reopens a case',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'adjacent',
+      note: 'carries communication goals into the classroom for carryover',
+    }
+  - {
+      slug: 'dietitian',
+      type: 'collaboration',
+      note: 'negotiates the trade between safe textures and adequate nutrition',
+    }
+specializations:
+  - 'Pediatric Speech-Language Pathologist'
+  - 'Dysphagia Specialist'
+  - 'Voice and Fluency Specialist'
+country_variants: []
+sources:
+  - { title: 'Dysphagia: Clinical Management in Adults and Children', kind: 'book' }
+  - { title: 'ASHA Scope of Practice in Speech-Language Pathology', url: 'https://www.asha.org/policy/', kind: 'standard' }
+  - { title: 'IDDSI Framework', url: 'https://iddsi.org/', kind: 'standard' }
+status: stable

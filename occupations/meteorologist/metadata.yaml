@@ -1,0 +1,24 @@
+title: "Meteorologist"
+slug: "meteorologist"
+aliases: ["weather forecaster", "atmospheric scientist", "weatherman"]
+category: "Science"
+tags: ["weather-forecasting", "atmospheric-science", "numerical-weather-prediction", "ensemble-forecasting", "severe-weather"]
+difficulty: "expert"
+summary: "How an expert forecaster reasons under irreducible atmospheric chaos — diagnosing ingredients, reading ensemble spread, departing from model guidance, and warning honestly about uncertainty."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "oceanographer", type: "collaboration", note: "couple at the air-sea interface; halves of one heat engine" }
+  - { slug: "climate-scientist", type: "adjacent", note: "same equations over decades, signal vs. weather noise" }
+  - { slug: "physicist", type: "prerequisite", note: "conservation laws behind the primitive equations" }
+  - { slug: "ship-captain", type: "collaboration", note: "consumes marine forecasts to keep crews safe" }
+  - { slug: "environmental-engineer", type: "related", note: "shares atmospheric dispersion and air-quality modeling" }
+specializations: ["operational forecaster", "broadcast meteorologist", "aviation meteorologist", "severe-storms forecaster"]
+country_variants: []
+sources:
+  - { title: "Atmospheric Science: An Introductory Survey (Wallace & Hobbs)", kind: "book" }
+  - { title: "An Introduction to Dynamic Meteorology (Holton)", kind: "book" }
+  - { title: "Glossary of Meteorology (American Meteorological Society)", kind: "reference" }
+status: stable

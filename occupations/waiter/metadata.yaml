@@ -1,0 +1,43 @@
+title: 'Waiter'
+slug: 'waiter'
+aliases: ['Server', 'Waitress', 'Front-of-House Server']
+category: 'Hospitality'
+tags: ['service', 'front-of-house', 'coursing', 'hospitality', 'tipping']
+difficulty: 'intermediate'
+summary: 'How a master server thinks: read the table, run the steps of service, time courses to two clocks, and turn the table while earning the tip and the team.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'bartender',
+      type: 'adjacent',
+      note: 'The other front-of-house service role, same rush and tip economics, owns the bar not the table',
+    }
+  - {
+      slug: 'chef',
+      type: 'collaboration',
+      note: 'Owns the food and the pass; the server is the kitchen eyes at the table',
+    }
+  - {
+      slug: 'cook',
+      type: 'collaboration',
+      note: 'Works the line and the pickup that the server fires and runs',
+    }
+  - {
+      slug: 'sommelier',
+      type: 'collaboration',
+      note: 'Pairs and sells wine the server coordinates with the meal and pace',
+    }
+  - {
+      slug: 'hotel-manager',
+      type: 'related',
+      note: 'Runs the same hospitality service standard at property scale',
+    }
+specializations: ['fine-dining-server', 'banquet-server', 'sommelier-server', 'room-service-server']
+country_variants: []
+sources:
+  - { title: 'Setting the Table (Danny Meyer)', kind: 'book' }
+  - { title: 'ServSafe Allergen Awareness', kind: 'standard' }
+status: stable

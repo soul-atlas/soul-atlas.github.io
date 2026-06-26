@@ -1,0 +1,25 @@
+title: "Fundraiser"
+slug: "fundraiser"
+aliases: ["Development Officer", "Major Gifts Officer", "Advancement Professional"]
+category: "Business"
+tags: ["fundraising", "donor-relations", "major-gifts", "nonprofit-development", "stewardship"]
+difficulty: "intermediate"
+summary: "How a development professional thinks: stewarding donor relationships through a moves-management pipeline, framing a donor-centric case, making the ask, and treating retention as the real engine."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "sales-representative", type: "adjacent", note: "shares pipeline and relationship discipline; donors are not customers" }
+  - { slug: "customer-success-manager", type: "related", note: "retention and lifetime-value thinking applied to donors" }
+  - { slug: "public-relations-specialist", type: "collaboration", note: "shapes the narrative the case for support depends on" }
+  - { slug: "community-organizer", type: "adjacent", note: "mobilizes people around mission; fundraiser mobilizes money" }
+  - { slug: "entrepreneur", type: "related", note: "both sell a vision before it is fully proven" }
+  - { slug: "marketing-manager", type: "collaboration", note: "owns the annual-fund and acquisition campaigns" }
+specializations: ["major gifts", "capital campaigns", "grant writing", "planned giving", "annual fund"]
+country_variants: []
+sources:
+  - { title: "The Fund Raising School curriculum (Lilly Family School of Philanthropy)", kind: "course" }
+  - { title: "Asking (Jerold Panas)", kind: "book" }
+  - { title: "Penelope Burk, Donor-Centered Fundraising", kind: "book" }
+status: stable

@@ -1,0 +1,43 @@
+title: 'Manicurist'
+slug: 'manicurist'
+aliases: ['Nail Technician', 'Nail Tech', 'Nail Artist']
+category: 'Hospitality'
+tags: ['nail-care', 'sanitation', 'salon', 'nail-anatomy', 'client-care']
+difficulty: 'intermediate'
+summary: 'How a master nail tech thinks: protect the living tissue, keep a sterile field, match chemistry to the nail, and refer what is medical rather than cosmetic.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'hairstylist',
+      type: 'adjacent',
+      note: 'Shares the salon, the chair-side client read, and the sanitation discipline',
+    }
+  - {
+      slug: 'dermatologist',
+      type: 'collaboration',
+      note: 'The physician a tech refers to for suspicious nail and skin lesions',
+    }
+  - {
+      slug: 'podiatrist',
+      type: 'collaboration',
+      note: 'Handles foot and toenail problems out of a manicurist scope, especially diabetic clients',
+    }
+  - {
+      slug: 'massage-therapist',
+      type: 'related',
+      note: 'Another licensed hands-on body-care trade governed by sanitation and contraindications',
+    }
+  - {
+      slug: 'chef',
+      type: 'related',
+      note: 'Another Hospitality trade where sanitation is life-safety, not housekeeping',
+    }
+specializations: ['nail-artist', 'pedicurist', 'acrylic-specialist', 'gel-specialist']
+country_variants: []
+sources:
+  - { title: 'Milady Standard Nail Technology', kind: 'book' }
+  - { title: 'State Cosmetology Board Sanitation Regulations', kind: 'standard' }
+status: stable

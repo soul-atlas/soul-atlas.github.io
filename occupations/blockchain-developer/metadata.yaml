@@ -1,0 +1,24 @@
+title: "Blockchain Developer"
+slug: "blockchain-developer"
+aliases: ["Smart Contract Developer", "Solidity Developer", "Web3 Engineer"]
+category: "Emerging"
+tags: ["smart-contracts", "solidity", "evm", "security", "consensus"]
+difficulty: advanced
+summary: "Thinks in immutability, keys, gas, and adversaries: writes code that holds money in public, cannot be patched, and is under constant economic attack, so security and threat modeling come before features."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "backend-engineer", type: "adjacent", note: "shares server-side craft but on-chain code is immutable and adversarial" }
+  - { slug: "security-engineer", type: "specialization", note: "threat modeling and exploit defense are the core daily work" }
+  - { slug: "software-engineer", type: "prerequisite", note: "general software fundamentals underpin smart contract work" }
+  - { slug: "cloud-architect", type: "related", note: "distributed systems and infrastructure design overlap" }
+  - { slug: "ai-safety-researcher", type: "adjacent", note: "shares adversarial, fail-catastrophically mindset" }
+  - { slug: "financial-analyst", type: "collaboration", note: "DeFi protocols require economic and incentive reasoning" }
+specializations: ["DeFi protocol engineering", "smart contract auditing", "L2 / rollup development", "NFT and token standards"]
+country_variants: []
+sources:
+  - { title: "Mastering Ethereum (Andreas Antonopoulos, Gavin Wood)", kind: "book" }
+  - { title: "Ethereum Yellow Paper (Gavin Wood)", kind: "standard" }
+status: stable

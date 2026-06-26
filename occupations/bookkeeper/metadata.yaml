@@ -1,0 +1,23 @@
+title: "Bookkeeper"
+slug: "bookkeeper"
+aliases: ["full-charge bookkeeper", "accounting clerk", "ledger keeper"]
+category: "Business"
+tags: ["bookkeeping", "reconciliation", "accounts-payable", "month-end-close", "quickbooks"]
+difficulty: "intermediate"
+summary: "How a disciplined bookkeeper thinks: reconcile or it didn't happen, timely beats perfect-but-late, never guess a category, and hand the accountant books that tie."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "accountant", type: "progression", note: "interprets the books and applies GAAP; the natural next step up" }
+  - { slug: "auditor", type: "adjacent", note: "relies on the clean documented ledger the bookkeeper maintains" }
+  - { slug: "financial-analyst", type: "related", note: "consumes the management reports the bookkeeper produces" }
+  - { slug: "operations-manager", type: "collaboration", note: "shares cash, approvals, and collections in small firms" }
+  - { slug: "loan-officer", type: "adjacent", note: "reviews the books a small business presents for credit" }
+specializations: ["full-charge bookkeeping", "catch-up and cleanup", "payroll processing", "nonprofit fund bookkeeping"]
+country_variants: []
+sources:
+  - { title: "Summa de Arithmetica (double-entry method, Luca Pacioli)", kind: "book" }
+  - { title: "AIPB / NACPB Bookkeeping Body of Knowledge", kind: "standard" }
+status: stable

@@ -1,0 +1,62 @@
+title: 'Archaeologist'
+slug: 'archaeologist'
+aliases:
+  - 'Field Archaeologist'
+  - 'Excavator'
+  - 'Archeologist'
+category: 'Science'
+tags:
+  - excavation
+  - stratigraphy
+  - material-culture
+  - fieldwork
+  - heritage
+difficulty: advanced
+summary: 'Reads past human behavior from material residue, treating excavation as irreversible destruction and the record of context as the only knowledge that survives.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'anthropologist',
+      type: 'related',
+      note: 'supplies the theory of culture and ethnographic analogies',
+    }
+  - {
+      slug: 'historian',
+      type: 'adjacent',
+      note: 'works the documented past where archaeology works the undocumented',
+    }
+  - {
+      slug: 'geologist',
+      type: 'collaboration',
+      note: 'reads the sediments and formation processes excavation depends on',
+    }
+  - {
+      slug: 'curator',
+      type: 'collaboration',
+      note: 'stewards and interprets finds after the trench is backfilled',
+    }
+  - {
+      slug: 'surveyor',
+      type: 'adjacent',
+      note: 'shares instruments and precise spatial recording discipline',
+    }
+  - {
+      slug: 'geneticist',
+      type: 'collaboration',
+      note: 'extracts ancient DNA the trowel could never recover',
+    }
+specializations:
+  - 'Zooarchaeologist'
+  - 'Maritime Archaeologist'
+  - 'Bioarchaeologist'
+  - 'Classical Archaeologist'
+country_variants: []
+sources:
+  - { title: 'Archaeology: Theories, Methods and Practice', kind: 'book' }
+  - { title: 'Principles of Archaeological Stratigraphy', kind: 'book' }
+  - { title: 'Formation Processes of the Archaeological Record', kind: 'book' }
+status: stable

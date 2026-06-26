@@ -1,0 +1,24 @@
+title: "Hairstylist"
+slug: "hairstylist"
+aliases: ["Hair Stylist", "Hairdresser", "Colorist", "Cosmetologist"]
+category: "Hospitality"
+tags: ["hair", "color-theory", "consultation", "client-retention", "cutting"]
+difficulty: expert
+summary: "Reads face, head, hair type, and lifestyle to design cuts and color that flatter, grow out gracefully, and protect hair integrity over chasing a photo."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "fashion-designer", type: "adjacent", note: "Shared eye for proportion and what flatters a face and body" }
+  - { slug: "photographer", type: "collaboration", note: "Dressing hair for lighting and angles on shoots and events" }
+  - { slug: "event-planner", type: "collaboration", note: "Coordinating timing and bridal looks for events" }
+  - { slug: "sales-representative", type: "related", note: "Retail, rebooking, and retention drive the chair's revenue" }
+  - { slug: "entrepreneur", type: "progression", note: "Running a chair or salon is small-business ownership" }
+  - { slug: "interior-designer", type: "adjacent", note: "Designing for a client's taste, lifestyle, and maintenance reality" }
+specializations: ["Colorist", "Barber", "Salon Owner", "Extension Specialist"]
+country_variants: []
+sources:
+  - { title: "Milady Standard Cosmetology", kind: "book" }
+  - { title: "State Board Cosmetology Licensing Standards", kind: "standard" }
+status: stable

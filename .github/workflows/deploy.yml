@@ -19,14 +19,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0 # full history for git-derived page metadata
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 20
           cache: npm
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
         id: pages
       - run: npm ci
       - name: Build
@@ -36,7 +36,7 @@ jobs:
           SITE_URL: https://soul-atlas.github.io
           BASE_PATH: /
           GITHUB_REPO: soul-atlas/soul-atlas.github.io
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 

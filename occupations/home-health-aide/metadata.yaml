@@ -1,0 +1,54 @@
+title: 'Home Health Aide'
+slug: 'home-health-aide'
+aliases:
+  - 'HHA'
+  - 'Home Care Aide'
+  - 'Personal Care Aide'
+category: 'Healthcare'
+tags:
+  - home-care
+  - caregiving
+  - transfers
+  - activities-of-daily-living
+  - patient-safety
+difficulty: foundational
+summary: 'Keeps a frail person safe, clean, and mobile in their own home — moving bodies without injury, reading the home for hazards, and reporting change to the nurse who can act on it.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'nursing-assistant',
+      type: 'related',
+      note: 'same hands-on ADL and transfer work, but inside a staffed facility',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'supervises the aide, writes the care plan, acts on what is reported',
+    }
+  - {
+      slug: 'caregiver',
+      type: 'adjacent',
+      note: 'unpaid family doing overlapping work without training or scope',
+    }
+  - {
+      slug: 'physical-therapist',
+      type: 'collaboration',
+      note: 'hands down transfer and mobility techniques the aide reinforces',
+    }
+  - {
+      slug: 'occupational-therapy-assistant',
+      type: 'collaboration',
+      note: 'sets up adaptive ADL strategies the aide carries on between visits',
+    }
+specializations:
+  - 'Hospice Aide'
+  - 'Personal Care Attendant'
+country_variants: []
+sources:
+  - { title: "Mosby's Textbook for the Home Care Aide", kind: 'book' }
+  - { title: "Hartman's Home Health Aide Handbook", kind: 'book' }
+status: stable

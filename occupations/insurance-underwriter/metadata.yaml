@@ -1,0 +1,24 @@
+title: "Insurance Underwriter"
+slug: "insurance-underwriter"
+aliases: ["Underwriter", "Risk Underwriter", "Insurance Risk Selector"]
+category: "Finance"
+tags: ["insurance", "risk-selection", "pricing", "underwriting", "risk-management"]
+difficulty: advanced
+summary: "Thinks in pooled risk and loss ratios: selects against adverse selection, judges individual risks above the actuary's class rate, and prices for an underwriting profit over the cycle."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "actuary", type: "collaboration", note: "Supplies the manual rate and reserves the underwriter prices individual risks against." }
+  - { slug: "loan-officer", type: "adjacent", note: "Parallel credit-selection discipline weighing individual risk against a portfolio." }
+  - { slug: "financial-analyst", type: "related", note: "Assesses the financial health of accounts being underwritten." }
+  - { slug: "compliance-officer", type: "related", note: "Ensures rating is filed, actuarially justified, and free of illegal redlining." }
+  - { slug: "auditor", type: "adjacent", note: "Reviews whether underwriting files defend the decisions made." }
+  - { slug: "statistician", type: "prerequisite", note: "Law of large numbers and credibility weighting underpin pooling judgment." }
+specializations: ["Property Underwriter", "Life Underwriter", "Commercial Lines Underwriter", "Reinsurance Underwriter"]
+country_variants: []
+sources:
+  - { title: "Principles of Risk Management and Insurance (Rejda & McNamara)", kind: "book" }
+  - { title: "The Institutes CPCU Underwriting Curriculum", kind: "course" }
+status: stable

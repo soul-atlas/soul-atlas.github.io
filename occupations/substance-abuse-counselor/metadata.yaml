@@ -1,0 +1,63 @@
+title: 'Substance Abuse Counselor'
+slug: 'substance-abuse-counselor'
+aliases:
+  - 'Addiction Counselor'
+  - 'Drug and Alcohol Counselor'
+  - 'Substance Use Disorder Counselor'
+  - 'SUD Counselor'
+category: 'Healthcare'
+tags:
+  - addiction
+  - substance-use
+  - motivational-interviewing
+  - harm-reduction
+  - recovery
+difficulty: expert
+summary: 'Works with rather than against a client''s ambivalence — evoking their own reasons for change, treating addiction as a chronic relapsing disease, and keeping them alive across setbacks.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'mental-health-counselor',
+      type: 'related',
+      note: 'shares modalities and treats the co-occurring conditions driving use',
+    }
+  - {
+      slug: 'psychiatrist',
+      type: 'collaboration',
+      note: 'prescribes the MAT the counselor coordinates with',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'adjacent',
+      note: 'mobilizes housing, benefits, and family systems recovery depends on',
+    }
+  - {
+      slug: 'probation-officer',
+      type: 'collaboration',
+      note: 'holds the leverage that mandates many clients into treatment',
+    }
+  - {
+      slug: 'rehabilitation-counselor',
+      type: 'related',
+      note: 'overlapping work helping clients rebuild function and community life',
+    }
+  - {
+      slug: 'community-health-worker',
+      type: 'adjacent',
+      note: 'reaches clients and supports through lived experience and outreach',
+    }
+specializations:
+  - 'Opioid Treatment Counselor'
+  - 'Co-occurring Disorders Specialist'
+  - 'Adolescent Substance Use Counselor'
+  - 'Peer Recovery Specialist'
+country_variants: []
+sources:
+  - { title: 'Motivational Interviewing: Helping People Change', kind: 'book' }
+  - { title: 'ASAM Criteria', kind: 'standard' }
+  - { title: 'SAMHSA TIP Series', kind: 'standard' }
+status: stable

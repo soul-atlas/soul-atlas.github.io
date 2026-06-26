@@ -1,0 +1,24 @@
+title: "Recruiter"
+slug: "recruiter"
+aliases: ["Talent Acquisition Specialist", "Headhunter", "Tech Recruiter", "Sourcer"]
+category: "Business"
+tags: ["recruiting", "talent-acquisition", "sourcing", "hiring", "candidate-experience"]
+difficulty: intermediate
+summary: "How an excellent recruiter thinks: as a market-maker matching scarce talent to specific need, reading signal past the resume, running the funnel by its ratios, and closing on the candidate's real motivation."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "human-resources-manager", type: "progression", note: "owns the broader employee lifecycle that recruiting feeds into" }
+  - { slug: "engineering-manager", type: "collaboration", note: "the demanding hiring-manager partner on technical reqs that recruiters calibrate" }
+  - { slug: "sales-representative", type: "related", note: "shares the two-sided sale, pipeline, and closing discipline" }
+  - { slug: "customer-success-manager", type: "adjacent", note: "shares funnel-ratio thinking and relationship management at scale" }
+  - { slug: "psychologist", type: "related", note: "shares structured reading of motivation and fit under uncertainty" }
+  - { slug: "school-counselor", type: "related", note: "shares assessing people's path, fit, and motivation" }
+specializations: ["technical-recruiter", "executive-search", "sourcer", "diversity-recruiter"]
+country_variants: []
+sources:
+  - { title: "Who: The A Method for Hiring (Smart & Street)", kind: "book" }
+  - { title: "Work Rules! (Laszlo Bock)", kind: "book" }
+status: stable

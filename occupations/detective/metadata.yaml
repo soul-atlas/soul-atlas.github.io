@@ -1,0 +1,23 @@
+title: "Detective"
+slug: "detective"
+aliases: ["investigator", "criminal investigator", "homicide detective"]
+category: "Public Service"
+tags: ["investigation", "criminal-justice", "evidence", "interviewing", "forensics"]
+difficulty: expert
+summary: "How an investigator reconstructs the truth from fragments, tests case theories against evidence, and builds a case that survives a courtroom."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "police-officer", type: "progression", note: "detectives are usually promoted from patrol and rely on it to preserve scenes" }
+  - { slug: "forensic-scientist", type: "collaboration", note: "turns physical traces into admissible findings the detective frames" }
+  - { slug: "prosecutor", type: "collaboration", note: "tests charging decisions and uses the case file to convict" }
+  - { slug: "lawyer", type: "adjacent", note: "the defense probes every gap and chain-of-custody break" }
+  - { slug: "military-intelligence-analyst", type: "related", note: "shares building a picture from fragments while resisting a favored theory" }
+specializations: ["homicide detective", "financial-crimes investigator", "cold-case investigator", "vice detective"]
+country_variants: []
+sources:
+  - { title: "Criminal Investigation (Swanson, Chamelin, Territo)", kind: "book" }
+  - { title: "Practical Homicide Investigation (Geberth)", kind: "book" }
+status: stable

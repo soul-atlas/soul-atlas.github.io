@@ -1,0 +1,57 @@
+title: 'Dermatologist'
+slug: 'dermatologist'
+aliases:
+  - 'Skin Doctor'
+  - 'Skin Specialist'
+  - 'Derm'
+category: 'Healthcare'
+tags:
+  - dermatology
+  - skin
+  - dermoscopy
+  - medicine
+  - pattern-recognition
+difficulty: expert
+summary: 'Reads the skin by morphology and dermoscopy to separate the benign mole from the melanoma and the harmless rash from the lethal drug reaction, choosing what to biopsy and what to watch.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physician',
+      type: 'prerequisite',
+      note: 'dermatology is a specialty built on internal medicine training',
+    }
+  - {
+      slug: 'pathologist',
+      type: 'collaboration',
+      note: 'dermatopathology confirms the tissue diagnosis in daily correlation',
+    }
+  - {
+      slug: 'oncologist',
+      type: 'collaboration',
+      note: 'co-manages advanced melanoma with immunotherapy',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'adjacent',
+      note: 'reconstructs large defects after skin-cancer excision',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'runs surveillance clinics and biologic infusion programs',
+    }
+specializations:
+  - 'Dermatopathologist'
+  - 'Mohs Surgeon'
+  - 'Pediatric Dermatologist'
+  - 'Cosmetic Dermatologist'
+country_variants: []
+sources:
+  - { title: 'Fitzpatrick''s Dermatology in General Medicine', kind: 'book' }
+  - { title: 'Dermatology (Bolognia)', kind: 'book' }
+  - { title: 'AAD Clinical Guidelines', kind: 'standard' }
+status: stable

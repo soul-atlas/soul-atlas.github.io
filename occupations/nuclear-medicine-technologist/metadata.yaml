@@ -1,0 +1,56 @@
+title: 'Nuclear Medicine Technologist'
+slug: 'nuclear-medicine-technologist'
+aliases:
+  - 'Nuclear Med Tech'
+  - 'NMT'
+  - 'Nuclear Medicine Technician'
+category: 'Healthcare'
+tags:
+  - radiopharmaceuticals
+  - alara
+  - radiation-safety
+  - imaging
+  - spect-pet
+difficulty: advanced
+summary: 'Turns the patient into the imaging source by safely preparing and administering radiopharmaceuticals, reasoning in decay math and ALARA while acquiring images of physiology.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'radiologic-technologist',
+      type: 'related',
+      note: 'sibling imaging role using external-beam radiation and anatomy',
+    }
+  - {
+      slug: 'diagnostic-medical-sonographer',
+      type: 'adjacent',
+      note: 'images without ionizing radiation in the same imaging suite',
+    }
+  - {
+      slug: 'radiologist',
+      type: 'collaboration',
+      note: 'reads and interprets the studies the technologist acquires',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'radiopharmacy supplies and partners on tracer preparation',
+    }
+  - {
+      slug: 'cardiologist',
+      type: 'collaboration',
+      note: 'heaviest referrer for myocardial perfusion imaging',
+    }
+specializations:
+  - 'PET/CT Technologist'
+  - 'Cardiac Nuclear Technologist'
+  - 'Radiopharmacy Technologist'
+country_variants: []
+sources:
+  - { title: 'Essentials of Nuclear Medicine Imaging (Mettler & Guiberteau)', kind: 'book' }
+  - { title: 'NRC 10 CFR Part 35', kind: 'standard' }
+  - { title: 'SNMMI Procedure Standards', kind: 'standard' }
+status: stable

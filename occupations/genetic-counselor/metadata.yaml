@@ -1,0 +1,61 @@
+title: 'Genetic Counselor'
+slug: 'genetic-counselor'
+aliases:
+  - 'GC'
+  - 'Genetics Counsellor'
+  - 'Clinical Genetic Counselor'
+category: 'Healthcare'
+tags:
+  - genetics
+  - risk-communication
+  - counseling
+  - informed-consent
+  - psychosocial
+difficulty: advanced
+summary: 'Turns probabilistic genetic risk into something a family can decide with, building pedigrees and supporting autonomous decisions through strictly nondirective counseling.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'geneticist',
+      type: 'collaboration',
+      note: 'physician partner who diagnoses and manages genetic syndromes',
+    }
+  - {
+      slug: 'oncologist',
+      type: 'collaboration',
+      note: 'acts on hereditary cancer results to guide screening and treatment',
+    }
+  - {
+      slug: 'obstetrician-gynecologist',
+      type: 'collaboration',
+      note: 'orders and manages prenatal genetic findings',
+    }
+  - {
+      slug: 'psychologist',
+      type: 'adjacent',
+      note: 'supports patients whose distress over results exceeds counseling',
+    }
+  - {
+      slug: 'medical-laboratory-scientist',
+      type: 'collaboration',
+      note: 'runs and classifies the molecular tests the counselor interprets',
+    }
+  - {
+      slug: 'pediatrician',
+      type: 'collaboration',
+      note: 'faces the developmental and congenital diagnoses families bring',
+    }
+specializations:
+  - 'Prenatal Genetic Counselor'
+  - 'Cancer Genetic Counselor'
+  - 'Pediatric Genetic Counselor'
+country_variants: []
+sources:
+  - { title: 'A Guide to Genetic Counseling (Uhlmann, Schuette & Yashar)', kind: 'book' }
+  - { title: 'NSGC Code of Ethics', kind: 'standard' }
+  - { title: 'ACMG Variant Classification Guidelines', kind: 'standard' }
+status: stable

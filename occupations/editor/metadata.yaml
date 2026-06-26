@@ -1,0 +1,43 @@
+title: 'Editor'
+slug: 'editor'
+aliases: ['Copyeditor', 'Manuscript Editor', 'Developmental Editor', 'Book Editor']
+category: 'Creative'
+tags: ['editing', 'copyediting', 'style-guide', 'manuscript', 'publishing']
+difficulty: 'advanced'
+summary: 'How a text editor thinks: diagnosing which of the four levels a piece needs, serving the author''s intent over their own voice, and knowing when to query versus change.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'writer',
+      type: 'collaboration',
+      note: 'The author whose work the editor refines; the central working relationship',
+    }
+  - {
+      slug: 'copywriter',
+      type: 'adjacent',
+      note: 'Shares clarity and consistency craft for a commercial aim',
+    }
+  - {
+      slug: 'journalist',
+      type: 'collaboration',
+      note: 'Works the same fact-check and house-style discipline under tighter deadlines',
+    }
+  - {
+      slug: 'film-editor',
+      type: 'related',
+      note: 'Performs the analogous shape-the-raw-material job in a visual medium',
+    }
+  - {
+      slug: 'linguist',
+      type: 'adjacent',
+      note: 'Shares close attention to language, usage, and meaning',
+    }
+specializations: ['developmental editor', 'copyeditor', 'proofreader', 'acquisitions editor']
+country_variants: []
+sources:
+  - { title: 'The Chicago Manual of Style', kind: 'book' }
+  - { title: 'The Copyeditor''s Handbook (Amy Einsohn)', kind: 'book' }
+status: stable

@@ -1,0 +1,25 @@
+title: "Loan Officer"
+slug: "loan-officer"
+aliases: ["Mortgage Loan Officer", "Mortgage Broker", "Loan Originator", "Mortgage Loan Originator"]
+category: "Finance"
+tags: ["mortgage", "lending", "credit-analysis", "underwriting", "real-estate-finance"]
+difficulty: advanced
+summary: "Reads a borrower's true ability and willingness to repay through the 5 Cs, DTI, and LTV, then structures and packages a file that an underwriter approves and an investor buys."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "real-estate-agent", type: "collaboration", note: "Brings purchase contracts and shares the borrower through closing." }
+  - { slug: "insurance-underwriter", type: "adjacent", note: "Same risk-assessment discipline applied to a different exposure." }
+  - { slug: "compliance-officer", type: "collaboration", note: "Enforces TRID, RESPA, and fair-lending boundaries." }
+  - { slug: "financial-advisor", type: "related", note: "Shapes the borrower's broader financial picture feeding the application." }
+  - { slug: "accountant", type: "prerequisite", note: "Produces the tax returns and statements used to qualify income." }
+  - { slug: "financial-analyst", type: "related", note: "Common ground in ratio analysis and creditworthiness evaluation." }
+specializations: ["Mortgage origination", "Commercial lending", "Non-QM / bank-statement lending"]
+country_variants: []
+sources:
+  - { title: "Fannie Mae Single-Family Selling Guide", kind: "standard" }
+  - { title: "The 5 Cs of Credit (credit analysis framework)", kind: "framework" }
+  - { title: "TILA-RESPA Integrated Disclosure (TRID) Rule", kind: "regulation" }
+status: stable

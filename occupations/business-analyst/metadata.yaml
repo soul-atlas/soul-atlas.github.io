@@ -1,0 +1,24 @@
+title: "Business Analyst"
+slug: "business-analyst"
+aliases: ["Systems Analyst", "Requirements Analyst", "Product Analyst"]
+category: "Business"
+tags: ["requirements", "process-mapping", "stakeholder-management", "business-process", "elicitation"]
+difficulty: advanced
+summary: "Recovers the real problem under stated requests, then writes testable, prioritized, traceable requirements and kills work that won't deliver value."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "product-manager", type: "adjacent", note: "Shares the why; PM owns roadmap and market, BA owns precise requirements." }
+  - { slug: "project-manager", type: "collaboration", note: "BA supplies scope and requirements; PM owns schedule and resources." }
+  - { slug: "management-consultant", type: "related", note: "Problem framing and process analysis at organizational scale." }
+  - { slug: "qa-engineer", type: "collaboration", note: "Acceptance criteria are the shared contract between the two." }
+  - { slug: "ux-researcher", type: "adjacent", note: "Pairs elicited business needs against observed user behavior." }
+  - { slug: "operations-manager", type: "related", note: "Owns the processes the BA maps and improves." }
+specializations: ["Process analyst", "Requirements engineer", "Agile business analyst"]
+country_variants: []
+sources:
+  - { title: "A Guide to the Business Analysis Body of Knowledge (BABOK)", kind: "book" }
+  - { title: "BPMN 2.0 Specification", kind: "spec" }
+status: stable

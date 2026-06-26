@@ -1,0 +1,24 @@
+title: "Flooring Installer"
+slug: "flooring-installer"
+aliases: ["floor layer", "floor fitter", "flooring mechanic", "floor covering installer"]
+category: "Skilled Trades"
+tags: ["flooring", "subfloor-prep", "moisture-testing", "hardwood", "layout"]
+difficulty: intermediate
+summary: "How a flooring installer thinks about moisture, movement, and layout — treating subfloor prep and the moisture test as the real job beneath the visible surface."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "tile-setter", type: "adjacent", note: "shares the obsession with flat sound substrate; meet at hard-surface transitions" }
+  - { slug: "carpenter", type: "prerequisite", note: "builds and repairs the subfloor and sets covering trim" }
+  - { slug: "drywall-installer", type: "collaboration", note: "finishes walls before the floor; works the same rooms" }
+  - { slug: "mason", type: "related", note: "provides the concrete slab whose moisture the floor must respect" }
+  - { slug: "painter", type: "collaboration", note: "finishes the room before flooring; floor work can scuff it" }
+  - { slug: "interior-designer", type: "collaboration", note: "specifies material, direction, and layout the installer balances" }
+specializations: ["hardwood-floor-installer", "carpet-installer", "resilient-flooring-installer"]
+country_variants: []
+sources:
+  - { title: "ASTM F2170: Determining Relative Humidity in Concrete Floor Slabs", kind: "standard" }
+  - { title: "NWFA Installation Guidelines (National Wood Flooring Association)", kind: "standard" }
+status: stable

@@ -1,0 +1,61 @@
+title: 'Respiratory Therapist'
+slug: 'respiratory-therapist'
+aliases:
+  - 'RT'
+  - 'Respiratory Care Practitioner'
+  - 'RRT'
+category: 'Healthcare'
+tags:
+  - mechanical-ventilation
+  - critical-care
+  - airway
+  - oxygenation
+  - blood-gas
+difficulty: advanced
+summary: 'Manages gas exchange at the edge of life support — reading the blood gas, titrating the least support that works, and protecting the lung from the machine saving it.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'shares the bedside and trades off continuous respiratory monitoring',
+    }
+  - {
+      slug: 'emergency-physician',
+      type: 'collaboration',
+      note: 'relies on the RT for airway management in codes and intubations',
+    }
+  - {
+      slug: 'paramedic',
+      type: 'adjacent',
+      note: 'manages the same airway and oxygen problems in the field',
+    }
+  - {
+      slug: 'cardiologist',
+      type: 'related',
+      note: 'overlaps where heart failure floods the lungs',
+    }
+  - {
+      slug: 'physical-therapist',
+      type: 'adjacent',
+      note: 'collaborates on pulmonary rehab and mobilizing ventilated patients',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'co-manages inhaled and sedating medications that shape ventilation',
+    }
+specializations:
+  - 'Neonatal/Pediatric Respiratory Therapist'
+  - 'ECMO Specialist'
+  - 'Pulmonary Function Technologist'
+country_variants: []
+sources:
+  - { title: "Egan's Fundamentals of Respiratory Care", kind: 'book' }
+  - { title: 'ARDSNet ARMA Trial (lung-protective ventilation)', kind: 'paper' }
+  - { title: 'AARC Clinical Practice Guidelines', url: 'https://www.aarc.org/', kind: 'standard' }
+status: stable

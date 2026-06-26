@@ -1,0 +1,25 @@
+title: "Merchant Mariner"
+slug: "merchant-mariner"
+aliases: ["Seafarer", "Deck Officer", "Marine Engineer", "Able Seaman"]
+category: "Transportation"
+tags: ["watchkeeping", "colregs", "stcw", "cargo-stability", "maritime-safety"]
+difficulty: advanced
+summary: "How an expert merchant mariner thinks: standing a safe watch, avoiding collision early and boldly, guarding stability, and obeying conventions written after past disasters."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "ship-captain", type: "progression", note: "The master is a mariner risen to ultimate command of the vessel" }
+  - { slug: "commercial-fisher", type: "adjacent", note: "Works the same sea and COLREGS on smaller, harder-driven vessels" }
+  - { slug: "truck-driver", type: "related", note: "Shares moving heavy freight that takes distance to stop" }
+  - { slug: "train-conductor", type: "related", note: "Shares the watch mentality of keeping a moving system safe" }
+  - { slug: "logistics-coordinator", type: "collaboration", note: "Arranges the cargo and port calls the ship serves" }
+  - { slug: "dispatcher", type: "adjacent", note: "Shares tracking and accounting for assets in motion" }
+specializations: ["deck-officer", "marine-engineer", "able-seaman", "tanker-officer"]
+country_variants: []
+sources:
+  - { title: "COLREGS — International Regulations for Preventing Collisions at Sea", kind: "reference" }
+  - { title: "The American Practical Navigator (Bowditch)", kind: "book" }
+  - { title: "STCW Convention and SOLAS/MARPOL", kind: "reference" }
+status: stable

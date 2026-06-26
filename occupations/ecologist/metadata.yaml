@@ -1,0 +1,25 @@
+title: "Ecologist"
+slug: "ecologist"
+aliases: ["field ecologist", "community ecologist", "population ecologist"]
+category: "Science"
+tags: ["ecology", "field-sampling", "biodiversity", "population-dynamics", "conservation"]
+difficulty: advanced
+summary: "How an ecologist draws causal conclusions about distribution and abundance from a noisy, mostly unreplicable field world."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "biologist", type: "prerequisite", note: "Evolutionary and experimental foundation the ecologist builds on" }
+  - { slug: "botanist", type: "adjacent", note: "Supplies plant identification and natural history for community work" }
+  - { slug: "zoologist", type: "adjacent", note: "Supplies animal identification, behavior, and field methods" }
+  - { slug: "statistician", type: "collaboration", note: "Design partner for replication and detection modeling" }
+  - { slug: "forester", type: "related", note: "Applies population and disturbance ecology to managed stands" }
+  - { slug: "climate-scientist", type: "collaboration", note: "Supplies the shifting climate envelope for species ranges" }
+specializations: ["population ecologist", "community ecologist", "landscape ecologist", "restoration ecologist"]
+country_variants: []
+sources:
+  - { title: "Ecology: From Individuals to Ecosystems (Begon, Townsend & Harper)", kind: "book" }
+  - { title: "Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert 1984)", kind: "paper" }
+  - { title: "Occupancy Estimation and Modeling (MacKenzie et al.)", kind: "book" }
+status: stable

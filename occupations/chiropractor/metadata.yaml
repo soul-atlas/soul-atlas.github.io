@@ -1,0 +1,60 @@
+title: 'Chiropractor'
+slug: 'chiropractor'
+aliases:
+  - 'Doctor of Chiropractic'
+  - 'DC'
+  - 'Spinal Manipulation Practitioner'
+category: 'Healthcare'
+tags:
+  - musculoskeletal
+  - spinal-manipulation
+  - manual-therapy
+  - back-pain
+  - triage
+difficulty: advanced
+summary: 'Thinks first about ruling out the dangerous mimics of back pain, then uses hands, movement, and reassurance to get stiff joints moving while knowing exactly when to refer out.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physical-therapist',
+      type: 'adjacent',
+      note: 'overlaps on rehab and movement; reaches mechanical pain from the exercise side',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'holds prescribing and the systemic picture; the natural co-management partner',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'related',
+      note: 'receives structural lesions and progressive deficits the chiropractor must refer',
+    }
+  - {
+      slug: 'neurologist',
+      type: 'related',
+      note: 'takes the red flags of progressive neurological deficit',
+    }
+  - {
+      slug: 'radiologist',
+      type: 'collaboration',
+      note: 'interprets the imaging ordered selectively, on indication',
+    }
+  - {
+      slug: 'athletic-trainer',
+      type: 'adjacent',
+      note: 'shares load-management and return-to-activity instincts in active populations',
+    }
+specializations:
+  - 'Sports Chiropractor'
+  - 'Pediatric Chiropractor'
+country_variants: []
+sources:
+  - { title: "Greenman's Principles of Manual Medicine", kind: 'book' }
+  - { title: 'NICE Guideline NG59 (Low back pain and sciatica)', kind: 'standard' }
+  - { title: 'The Back Pain Revolution (Waddell)', kind: 'book' }
+status: stable

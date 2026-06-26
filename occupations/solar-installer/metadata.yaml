@@ -1,0 +1,24 @@
+title: "Solar Installer"
+slug: "solar-installer"
+aliases: ["PV Installer", "Solar PV Technician", "Photovoltaic Installer", "Solar Panel Installer"]
+category: "Skilled Trades"
+tags: ["solar-pv", "renewable-energy", "nec-690", "rapid-shutdown", "roof-mount"]
+difficulty: advanced
+summary: "How a PV installer thinks: size strings for the coldest morning, attach to structure and flash every hole, and de-energize the array boundary for the firefighter."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "electrician", type: "prerequisite", note: "shares NEC ampacity/grounding discipline and does the service work" }
+  - { slug: "roofer", type: "collaboration", note: "owns the roof system the array penetrates and must stay watertight" }
+  - { slug: "electrical-engineer", type: "related", note: "stamps the plan set and interconnection design" }
+  - { slug: "sustainability-manager", type: "adjacent", note: "sets the energy goals and reports system output" }
+  - { slug: "sheet-metal-worker", type: "collaboration", note: "fabricates custom flashing for difficult penetrations" }
+  - { slug: "wind-turbine-technician", type: "related", note: "sibling renewable-generation trade, work-at-height and grid-tie" }
+specializations: ["residential-rooftop-pv", "utility-scale-ground-mount", "battery-storage-installer"]
+country_variants: []
+sources:
+  - { title: "NFPA 70 (National Electrical Code) Articles 690 & 705", kind: "standard" }
+  - { title: "Photovoltaic Systems (James Dunlop)", kind: "book" }
+status: stable

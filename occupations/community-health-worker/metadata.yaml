@@ -1,0 +1,62 @@
+title: 'Community Health Worker'
+slug: 'community-health-worker'
+aliases:
+  - 'CHW'
+  - 'Promotor de Salud'
+  - 'Community Health Advocate'
+  - 'Patient Navigator'
+category: 'Public Service'
+tags:
+  - public-health
+  - community
+  - health-equity
+  - outreach
+  - navigation
+difficulty: intermediate
+summary: 'Works on borrowed trust earned by being of the community, bridging people to care and to the social determinants — housing, food, transportation — that decide their health more than the clinic does.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'social-worker',
+      type: 'adjacent',
+      note: 'overlapping case management with formal clinical and legal authority',
+    }
+  - {
+      slug: 'public-health-officer',
+      type: 'collaboration',
+      note: 'designs programs the CHW delivers and uses the patterns they surface',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'owns the diagnosis and treatment the CHW escalates to and supports',
+    }
+  - {
+      slug: 'home-health-aide',
+      type: 'adjacent',
+      note: 'shares in-home closeness but centers personal care over navigation',
+    }
+  - {
+      slug: 'rehabilitation-counselor',
+      type: 'related',
+      note: 'shares navigation and advocacy with a vocational, disability focus',
+    }
+  - {
+      slug: 'epidemiologist',
+      type: 'collaboration',
+      note: 'uses the community-level patterns CHWs surface from the field',
+    }
+specializations:
+  - 'Promotor de Salud'
+  - 'Patient Navigator'
+  - 'Peer Support Specialist'
+country_variants: []
+sources:
+  - { title: 'Community Health Worker Core Consensus (C3) Project', kind: 'standard' }
+  - { title: 'APHA Definition of the Community Health Worker', kind: 'standard' }
+  - { title: 'Healthy People Framework and Social Determinants of Health', kind: 'standard' }
+status: stable

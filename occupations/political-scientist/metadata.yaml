@@ -1,0 +1,62 @@
+title: 'Political Scientist'
+slug: 'political-scientist'
+aliases:
+  - 'Politics Scholar'
+  - 'Political Analyst'
+  - 'Government Researcher'
+category: 'Science'
+tags:
+  - politics
+  - power
+  - institutions
+  - causal-inference
+  - comparative
+difficulty: advanced
+summary: 'Explains how power is acquired, exercised, and constrained by treating the polity as something to measure, model, and compare, while wringing credible causal claims from a world that resists experiment.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'economist',
+      type: 'adjacent',
+      note: 'supplied the rational-choice models and inference methods the field runs on',
+    }
+  - {
+      slug: 'sociologist',
+      type: 'adjacent',
+      note: 'examines the social structures within which politics operates',
+    }
+  - {
+      slug: 'statistician',
+      type: 'prerequisite',
+      note: 'underpins the causal-identification methods the discipline depends on',
+    }
+  - {
+      slug: 'policy-analyst',
+      type: 'collaboration',
+      note: 'translates findings into recommendations for specific decisions',
+    }
+  - {
+      slug: 'historian',
+      type: 'related',
+      note: 'supplies long-run cases and guards against reading the present backward',
+    }
+  - {
+      slug: 'diplomat',
+      type: 'related',
+      note: 'both an object of study and a consumer of international-relations analysis',
+    }
+specializations:
+  - 'Comparative Politics Scholar'
+  - 'International Relations Scholar'
+  - 'Political Theorist'
+  - 'Political Methodologist'
+country_variants: []
+sources:
+  - { title: 'Leviathan', kind: 'book' }
+  - { title: 'The Logic of Collective Action', kind: 'book' }
+  - { title: 'Governing the Commons', kind: 'book' }
+status: stable

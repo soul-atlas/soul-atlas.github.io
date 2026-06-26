@@ -1,0 +1,56 @@
+title: 'Surgical Technologist'
+slug: 'surgical-technologist'
+aliases:
+  - 'Surg Tech'
+  - 'Scrub Tech'
+  - 'Operating Room Technician'
+category: 'Healthcare'
+tags:
+  - surgery
+  - sterile-technique
+  - perioperative
+  - patient-safety
+  - operating-room
+difficulty: intermediate
+summary: 'Owns the sterile field and the surgical count, anticipating the surgeon''s next instrument and treating the reconciled count as a hard safety gate before closure.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'surgeon',
+      type: 'collaboration',
+      note: 'the partner whose hands the tech serves at the field',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'circulating nurse is the non-sterile counterpart and co-owner of the count',
+    }
+  - {
+      slug: 'nurse-anesthetist',
+      type: 'collaboration',
+      note: 'holds the patient physiology while the tech holds the sterile field',
+    }
+  - {
+      slug: 'radiologic-technologist',
+      type: 'adjacent',
+      note: 'provides intraoperative imaging that resolves a missing count',
+    }
+  - {
+      slug: 'anesthesiologist',
+      type: 'collaboration',
+      note: 'manages anesthesia at the head of the table during the case',
+    }
+specializations:
+  - 'Cardiovascular Surg Tech'
+  - 'Neurosurgery Surg Tech'
+  - 'Surgical First Assistant'
+country_variants: []
+sources:
+  - { title: 'Surgical Technology for the Surgical Technologist (AST)', kind: 'book' }
+  - { title: 'AST Standards of Practice', kind: 'standard' }
+  - { title: 'AORN Guidelines for Perioperative Practice', kind: 'standard' }
+status: stable

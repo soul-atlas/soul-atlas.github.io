@@ -1,0 +1,57 @@
+title: 'Nursing Assistant'
+slug: 'nursing-assistant'
+aliases:
+  - 'Certified Nursing Assistant'
+  - 'CNA'
+  - 'Nurse Aide'
+  - 'Patient Care Technician'
+category: 'Healthcare'
+tags:
+  - adls
+  - dignity
+  - patient-care
+  - observation
+  - bedside
+difficulty: foundational
+summary: 'Closest to the patient and first to notice change, doing intimate ADL care with dignity intact while serving as the eyes of the unit and reporting up to the nurse.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'registered-nurse',
+      type: 'progression',
+      note: 'supervises the CNA and is the common next step in a nursing career',
+    }
+  - {
+      slug: 'home-health-aide',
+      type: 'related',
+      note: 'similar ADL and observation work in the patient home',
+    }
+  - {
+      slug: 'caregiver',
+      type: 'adjacent',
+      note: 'shares the intimate-care and dignity work in non-clinical settings',
+    }
+  - {
+      slug: 'physical-therapist-assistant',
+      type: 'collaboration',
+      note: 'partners on mobility and safe transfer technique',
+    }
+  - {
+      slug: 'medical-assistant',
+      type: 'related',
+      note: 'shares the top-of-delegation, report-up posture in the outpatient world',
+    }
+specializations:
+  - 'Patient Care Technician'
+  - 'Long-Term Care Aide'
+  - 'Restorative Aide'
+country_variants: []
+sources:
+  - { title: "Mosby's Textbook for Nursing Assistants (Sorrentino)", kind: 'book' }
+  - { title: "Hartman's Nursing Assistant Care", kind: 'book' }
+  - { title: 'CMS Nurse Aide Training and Competency Evaluation', kind: 'standard' }
+status: stable

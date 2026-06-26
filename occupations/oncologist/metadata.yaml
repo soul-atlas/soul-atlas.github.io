@@ -1,0 +1,57 @@
+title: 'Oncologist'
+slug: 'oncologist'
+aliases:
+  - 'Cancer Doctor'
+  - 'Medical Oncologist'
+  - 'Cancer Specialist'
+category: 'Healthcare'
+tags:
+  - oncology
+  - cancer
+  - chemotherapy
+  - medicine
+  - goals-of-care
+difficulty: expert
+summary: 'Stages cancer, matches the patient to the line of therapy whose benefit justifies its toxicity, and keeps the goals of care — cure, control, or comfort — honest and shared as the disease evolves.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physician',
+      type: 'prerequisite',
+      note: 'oncology is a subspecialty built on internal medicine training',
+    }
+  - {
+      slug: 'pathologist',
+      type: 'collaboration',
+      note: 'defines the diagnosis and molecular profile that selects therapy',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'collaboration',
+      note: 'resects the curable tumor as half the multidisciplinary plan',
+    }
+  - {
+      slug: 'radiologist',
+      type: 'adjacent',
+      note: 'stages disease and measures treatment response',
+    }
+  - {
+      slug: 'pharmacist',
+      type: 'collaboration',
+      note: 'guards dosing and interactions of toxic regimens',
+    }
+specializations:
+  - 'Hematologist-Oncologist'
+  - 'Radiation Oncologist'
+  - 'Surgical Oncologist'
+  - 'Pediatric Oncologist'
+country_variants: []
+sources:
+  - { title: 'Cancer: Principles and Practice of Oncology (DeVita)', kind: 'book' }
+  - { title: 'NCCN Clinical Practice Guidelines in Oncology', kind: 'standard' }
+  - { title: 'The Emperor of All Maladies', kind: 'book' }
+status: stable

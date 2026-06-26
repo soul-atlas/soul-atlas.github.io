@@ -1,0 +1,54 @@
+title: 'Occupational Therapy Assistant'
+slug: 'occupational-therapy-assistant'
+aliases:
+  - 'OTA'
+  - 'COTA'
+  - 'Occupational Therapy Aide'
+category: 'Healthcare'
+tags:
+  - rehabilitation
+  - activities-of-daily-living
+  - meaningful-activity
+  - adaptive-equipment
+  - grading
+difficulty: intermediate
+summary: 'Implements the occupational therapist''s plan by engaging patients in meaningful activity graded to the just-right challenge, restoring the ability to do daily occupations.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'occupational-therapist',
+      type: 'prerequisite',
+      note: 'evaluates, writes the plan of care, and supervises the OTA',
+    }
+  - {
+      slug: 'physical-therapist-assistant',
+      type: 'related',
+      note: 'sibling assistant role aimed at gait and gross movement',
+    }
+  - {
+      slug: 'recreational-therapist',
+      type: 'adjacent',
+      note: 'also uses meaningful activity as therapy, toward leisure and quality of life',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'manages the medical picture that frames safe activity',
+    }
+  - {
+      slug: 'home-health-aide',
+      type: 'collaboration',
+      note: 'carries adaptive ADL strategies into the home between visits',
+    }
+specializations:
+  - 'Pediatric OTA'
+  - 'Hand Therapy OTA'
+country_variants: []
+sources:
+  - { title: "Willard and Spackman's Occupational Therapy", kind: 'book' }
+  - { title: 'OT Practice Framework (AOTA)', kind: 'standard' }
+status: stable

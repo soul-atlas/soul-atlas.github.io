@@ -1,0 +1,24 @@
+title: "Elevator Installer"
+slug: "elevator-installer"
+aliases: ["Elevator Constructor", "Elevator Mechanic", "Lift Engineer", "Vertical Transportation Technician"]
+category: "Skilled Trades"
+tags: ["elevators", "vertical-transportation", "life-safety", "fall-protection", "asme-a17"]
+difficulty: expert
+summary: "How an elevator constructor thinks: track the car as a suspended mass, never work under it unblocked, and prove every safety before the public rides."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "electrician", type: "prerequisite", note: "shares circuit/safety-chain discipline and supplies the feeder" }
+  - { slug: "millwright", type: "adjacent", note: "heavy mechanical fits, bearings, alignment" }
+  - { slug: "machinist", type: "related", note: "precision mechanical components and sheaves" }
+  - { slug: "ironworker", type: "collaboration", note: "structural steel and hoisting the machine" }
+  - { slug: "mechanical-engineer", type: "related", note: "designs the traction and hydraulic systems installed and tested" }
+  - { slug: "hvac-technician", type: "adjacent", note: "shares building mechanical spaces and inspection clock" }
+specializations: ["escalator-mechanic", "elevator-modernization-tech", "high-rise-traction-specialist"]
+country_variants: []
+sources:
+  - { title: "ASME A17.1 / CSA B44 — Safety Code for Elevators and Escalators", kind: "standard" }
+  - { title: "Elevator Mechanical Design (Lubomir Janovský)", kind: "book" }
+status: stable

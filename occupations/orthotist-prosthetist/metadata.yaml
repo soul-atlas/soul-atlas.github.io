@@ -1,0 +1,58 @@
+title: 'Orthotist and Prosthetist'
+slug: 'orthotist-prosthetist'
+aliases:
+  - 'O&P Clinician'
+  - 'Prosthetist'
+  - 'Orthotist'
+  - 'CPO'
+category: 'Healthcare'
+tags:
+  - prosthetics
+  - orthotics
+  - biomechanics
+  - gait-analysis
+  - socket-fit
+difficulty: advanced
+summary: 'Designs and fits orthoses and prostheses by managing forces through the device into living tissue, reading gait, dialing socket fit, and balancing function, comfort, and cosmesis a patient will accept.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physical-therapist',
+      type: 'collaboration',
+      note: 'trains device use and provides the gait feedback driving alignment',
+    }
+  - {
+      slug: 'occupational-therapist',
+      type: 'collaboration',
+      note: 'addresses upper-limb and functional use of the device',
+    }
+  - {
+      slug: 'podiatrist',
+      type: 'adjacent',
+      note: 'shares foot biomechanics and diabetic-foot orthotic management',
+    }
+  - {
+      slug: 'biomedical-engineer',
+      type: 'related',
+      note: 'develops the components, materials, and modeling applied clinically',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'sets the surgical and medical foundation the device builds on',
+    }
+specializations:
+  - 'Lower-Limb Prosthetist'
+  - 'Upper-Limb Prosthetist'
+  - 'Pediatric Orthotist'
+  - 'Spinal Orthotist'
+country_variants: []
+sources:
+  - { title: 'Atlas of Orthoses and Assistive Devices (AAOS)', kind: 'book' }
+  - { title: 'Atlas of Amputations and Limb Deficiencies (AAOS)', kind: 'book' }
+  - { title: 'Orthotics and Prosthetics in Rehabilitation', kind: 'book' }
+status: stable

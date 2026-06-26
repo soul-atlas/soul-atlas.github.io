@@ -1,0 +1,62 @@
+title: 'Pathologist'
+slug: 'pathologist'
+aliases:
+  - 'Anatomic Pathologist'
+  - 'Clinical Pathologist'
+  - 'Diagnostic Pathologist'
+category: 'Healthcare'
+tags:
+  - pathology
+  - diagnosis
+  - histopathology
+  - laboratory
+  - medicine
+difficulty: expert
+summary: 'Renders the diagnosis behind the diagnosis from tissue, cells, and lab data — gating on specimen adequacy and correlating with the clinical picture so the verdict the tissue carries is the one acted on.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physician',
+      type: 'prerequisite',
+      note: 'pathology is a medical specialty built on medical training',
+    }
+  - {
+      slug: 'oncologist',
+      type: 'collaboration',
+      note: 'depends on the diagnosis and molecular markers to choose therapy',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'collaboration',
+      note: 'depends on frozen sections and margin reports intraoperatively',
+    }
+  - {
+      slug: 'medical-laboratory-scientist',
+      type: 'collaboration',
+      note: 'runs the assays the pathologist directs and interprets',
+    }
+  - {
+      slug: 'radiologist',
+      type: 'adjacent',
+      note: 'offers the imaging view of the same lesion the pathologist holds in tissue',
+    }
+  - {
+      slug: 'dermatologist',
+      type: 'collaboration',
+      note: 'correlates skin lesions with the dermatopathologist daily',
+    }
+specializations:
+  - 'Dermatopathologist'
+  - 'Hematopathologist'
+  - 'Forensic Pathologist'
+  - 'Molecular Pathologist'
+country_variants: []
+sources:
+  - { title: 'Robbins and Cotran Pathologic Basis of Disease', kind: 'book' }
+  - { title: 'Rosai and Ackerman''s Surgical Pathology', kind: 'book' }
+  - { title: 'College of American Pathologists protocols', kind: 'standard' }
+status: stable

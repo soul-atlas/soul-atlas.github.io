@@ -1,0 +1,49 @@
+title: 'Cartographer'
+slug: 'cartographer'
+aliases: ['Mapmaker', 'Map Designer', 'GIS Cartographer']
+category: 'Science'
+tags: ['mapping', 'projections', 'gis', 'cartographic-design', 'geospatial']
+difficulty: 'advanced'
+summary: 'How a mapmaker thinks: no projection is perfect, so distortion is chosen consciously, data is normalized before it is shaded, and the honest map lies legibly.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'geographer',
+      type: 'adjacent',
+      note: 'Asks the spatial questions the cartographer renders honestly',
+    }
+  - {
+      slug: 'surveyor',
+      type: 'prerequisite',
+      note: 'Supplies the precise ground-truth geometry maps are built on',
+    }
+  - {
+      slug: 'urban-planner',
+      type: 'collaboration',
+      note: 'Commissions and consumes maps to decide land use',
+    }
+  - {
+      slug: 'geologist',
+      type: 'related',
+      note: 'Frequent client mapping subsurface and terrain',
+    }
+  - {
+      slug: 'data-scientist',
+      type: 'adjacent',
+      note: 'Shares discipline of not letting defaults manufacture false patterns',
+    }
+  - {
+      slug: 'oceanographer',
+      type: 'related',
+      note: 'Maps seafloor and bathymetry with the same projection problems',
+    }
+specializations: ['GIS Cartographer', 'Cartographic Designer', 'Nautical Charting Cartographer', 'Web Map Designer']
+country_variants: []
+sources:
+  - { title: 'How to Lie with Maps (Mark Monmonier)', kind: 'book' }
+  - { title: 'Elements of Cartography (Robinson et al.)', kind: 'book' }
+  - { title: 'Map Projections: A Working Manual (USGS, Snyder)', kind: 'book' }
+status: stable

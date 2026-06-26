@@ -1,0 +1,49 @@
+title: 'Geographer'
+slug: 'geographer'
+aliases: ['Spatial Scientist', 'Human Geographer', 'Physical Geographer']
+category: 'Science'
+tags: ['spatial-analysis', 'space-and-place', 'gis', 'regions', 'scale']
+difficulty: 'advanced'
+summary: 'How a geographer thinks: where is a variable not a footnote, scale and units change the answer, near things are more related, and area data cannot indict individuals.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'cartographer',
+      type: 'adjacent',
+      note: 'Renders the geographer’s spatial analysis into honest maps',
+    }
+  - {
+      slug: 'urban-planner',
+      type: 'related',
+      note: 'Applied human geography focused on the future of cities',
+    }
+  - {
+      slug: 'geologist',
+      type: 'adjacent',
+      note: 'Physical-geography specialist going deep where the geographer goes broad',
+    }
+  - {
+      slug: 'statistician',
+      type: 'collaboration',
+      note: 'Supplies method but often misses that spatial data violates independence',
+    }
+  - {
+      slug: 'conservation-scientist',
+      type: 'related',
+      note: 'Shares integration of physical and human factors over land',
+    }
+  - {
+      slug: 'climate-scientist',
+      type: 'adjacent',
+      note: 'Studies physical processes varying over space at regional and global scale',
+    }
+specializations: ['Human Geographer', 'Physical Geographer', 'Economic Geographer', 'GIS Analyst']
+country_variants: []
+sources:
+  - { title: 'Geography: Realms, Regions, and Concepts (de Blij & Muller)', kind: 'book' }
+  - { title: 'Space and Place (Yi-Fu Tuan)', kind: 'book' }
+  - { title: 'The Modifiable Areal Unit Problem (Openshaw)', kind: 'book' }
+status: stable

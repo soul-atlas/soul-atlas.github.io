@@ -1,0 +1,63 @@
+title: 'Marriage and Family Therapist'
+slug: 'marriage-family-therapist'
+aliases:
+  - 'MFT'
+  - 'Family Therapist'
+  - 'Couples Therapist'
+  - 'Systemic Therapist'
+category: 'Healthcare'
+tags:
+  - family-therapy
+  - systems-thinking
+  - couples-counseling
+  - relational-therapy
+  - clinical
+difficulty: expert
+summary: 'Treats the relationship system rather than the symptom-bearer — reading and shifting the patterns, boundaries, and triangles that keep a couple or family stuck, while holding multipartiality toward everyone in the room.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'mental-health-counselor',
+      type: 'related',
+      note: 'treats individuals with overlapping modalities; refers family-system work across',
+    }
+  - {
+      slug: 'psychologist',
+      type: 'adjacent',
+      note: 'adds formal individual assessment the systemic frame does not provide',
+    }
+  - {
+      slug: 'psychiatrist',
+      type: 'collaboration',
+      note: 'prescribes and diagnoses the individual conditions the MFT coordinates with',
+    }
+  - {
+      slug: 'substance-abuse-counselor',
+      type: 'adjacent',
+      note: 'treats the addiction that often reorganizes the family being seen',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'related',
+      note: 'overlapping family work with a stronger bridge to community systems',
+    }
+  - {
+      slug: 'mediator',
+      type: 'adjacent',
+      note: 'helps parties in conflict settle, rather than changing underlying patterns',
+    }
+specializations:
+  - 'Couples Therapist'
+  - 'Child and Family Therapist'
+  - 'Emotionally Focused Therapist'
+  - 'Structural Family Therapist'
+country_variants: []
+sources:
+  - { title: 'Families and Family Therapy', kind: 'book' }
+  - { title: 'Family Therapy in Clinical Practice', kind: 'book' }
+  - { title: 'AAMFT Code of Ethics', kind: 'standard' }
+status: stable

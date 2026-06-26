@@ -1,0 +1,61 @@
+title: 'High School Teacher'
+slug: 'high-school-teacher'
+aliases:
+  - 'Secondary School Teacher'
+  - 'Subject Teacher'
+  - 'Grades 9-12 Teacher'
+category: 'Education'
+tags:
+  - secondary-education
+  - subject-specialist
+  - college-readiness
+  - standards-based-grading
+  - adolescent-motivation
+difficulty: advanced
+summary: 'Thinks like a single-subject specialist at scale — earning buy-in from 150 near-adults a day and guarding the transcript that decides their next door.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'teacher',
+      type: 'prerequisite',
+      note: 'the general K-12 craft this band specializes from',
+    }
+  - {
+      slug: 'middle-school-teacher',
+      type: 'adjacent',
+      note: 'handles the developmental stage just before grades 9-12',
+    }
+  - {
+      slug: 'career-technical-education-teacher',
+      type: 'related',
+      note: 'same building, assesses demonstrable skill instead of exams',
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'collaboration',
+      note: 'owns placement, schedule, and barriers outside the room',
+    }
+  - {
+      slug: 'professor',
+      type: 'progression',
+      note: 'teaches the same disciplines at the frontier to adults',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'collaboration',
+      note: 'delivers accommodations without lowering the standard',
+    }
+specializations:
+  - 'AP / IB Teacher'
+  - 'STEM Teacher'
+  - 'English / Humanities Teacher'
+country_variants: []
+sources:
+  - { title: 'Understanding by Design', kind: 'book' }
+  - { title: 'Drive', kind: 'book' }
+  - { title: 'How to Grade for Learning', kind: 'book' }
+status: stable

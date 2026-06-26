@@ -1,0 +1,25 @@
+title: "Baker"
+slug: "baker"
+aliases: ["Pastry Chef", "Bread Baker", "Artisan Baker", "Viennoiserie Specialist"]
+category: "Hospitality"
+tags: ["baking", "fermentation", "bread", "pastry", "food-craft"]
+difficulty: expert
+summary: "Thinks in baker's percentages and DDT, reads dough by feel over the clock, and treats fermentation and heat as controllable variables to deliver consistent bread and pastry on a backward-planned schedule."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "chef", type: "related", note: "Shares the professional kitchen but trades cooking's improvisation for baking's precision" }
+  - { slug: "barista", type: "collaboration", note: "Partners on the morning cafe service and shares early-shift consistency discipline" }
+  - { slug: "farmer", type: "prerequisite", note: "Provides the grain whose seasonal harvest changes flour absorption and formula" }
+  - { slug: "event-planner", type: "collaboration", note: "Orders custom breads and pastries against deadlines and headcounts" }
+  - { slug: "hotel-manager", type: "collaboration", note: "Depends on the in-house bakery for breakfast and banquet output" }
+  - { slug: "sommelier", type: "adjacent", note: "Parallel craft of pairing and provenance in a hospitality setting" }
+specializations: ["Pastry Chef", "Viennoiserie Specialist", "Sourdough Specialist"]
+country_variants: []
+sources:
+  - { title: "The Bread Baker's Apprentice by Peter Reinhart", kind: "book" }
+  - { title: "Modernist Bread by Nathan Myhrvold and Francisco Migoya", kind: "book" }
+  - { title: "Bread: A Baker's Book of Techniques and Recipes by Jeffrey Hamelman", kind: "book" }
+status: stable

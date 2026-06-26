@@ -1,0 +1,23 @@
+title: "Landscape Architect"
+slug: "landscape-architect"
+aliases: ["landscape designer", "site designer"]
+category: "Creative"
+tags: ["grading", "hydrology", "planting-design", "sense-of-place", "stormwater"]
+difficulty: expert
+summary: "How a landscape architect reads and shapes land so water, plants, and people all work over decades, designing for grading, succession, and a rooted sense of place."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "architect", type: "collaboration", note: "designs the buildings the landscape meets and frames" }
+  - { slug: "urban-planner", type: "related", note: "organizes land use and movement at city scale" }
+  - { slug: "civil-engineer", type: "collaboration", note: "partners on grading, stormwater, and utilities" }
+  - { slug: "interior-designer", type: "adjacent", note: "shapes the human environment on the other side of the wall" }
+  - { slug: "ecologist", type: "related", note: "understands the living systems a planting design must serve" }
+specializations: ["ecological restoration designer", "urban park designer", "stormwater/green-infrastructure designer", "planting designer"]
+country_variants: []
+sources:
+  - { title: "Design with Nature (Ian McHarg)", kind: "book" }
+  - { title: "Site Engineering for Landscape Architects (Strom, Nathan, Woland)", kind: "book" }
+status: stable

@@ -1,0 +1,24 @@
+title: "Flight Attendant"
+slug: "flight-attendant"
+aliases: ["Cabin Crew", "Air Host", "Steward", "Stewardess"]
+category: "Transportation"
+tags: ["aviation", "cabin-safety", "first-responder", "hospitality", "emergency-response"]
+difficulty: advanced
+summary: "Thinks like a first responder who happens to serve drinks: service is cover, the 90-second evacuation is the job, and threats get managed early under a 50/50 split of attention."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "commercial-pilot", type: "collaboration", note: "Flight-deck partners under CRM; the crew runs as one team." }
+  - { slug: "paramedic", type: "adjacent", note: "Shared first-responder triage and medical-event instincts." }
+  - { slug: "firefighter", type: "adjacent", note: "Confined-space evacuation and onboard fire discipline." }
+  - { slug: "registered-nurse", type: "related", note: "Overlap in in-flight medical assessment and care." }
+  - { slug: "hotel-manager", type: "related", note: "Hospitality craft that funds the trust crew trade on." }
+  - { slug: "police-officer", type: "adjacent", note: "De-escalation and a level-system approach to unruly people." }
+specializations: ["Purser", "Lead Flight Attendant", "Inflight Service Manager"]
+country_variants: []
+sources:
+  - { title: "FAA Flight Standards / 14 CFR Parts 121 & 125", kind: "standard" }
+  - { title: "ICAO Cabin Safety Guidance", kind: "standard" }
+status: stable

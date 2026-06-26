@@ -1,0 +1,54 @@
+title: 'Pharmacy Technician'
+slug: 'pharmacy-technician'
+aliases:
+  - 'Pharmacy Tech'
+  - 'Dispensing Technician'
+  - 'Certified Pharmacy Technician'
+category: 'Healthcare'
+tags:
+  - pharmacy
+  - dispensing
+  - medication-safety
+  - controlled-substances
+  - inventory
+difficulty: intermediate
+summary: 'Fills prescriptions accurately and accounts for every dose — matching the NDC, counting and labeling without error, and flagging anything that doesn''t add up to the pharmacist rather than guessing.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'pharmacist',
+      type: 'prerequisite',
+      note: 'verifies every fill and holds all clinical judgment; supervises the tech',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'administers the dispensed medications; shares the five-rights discipline',
+    }
+  - {
+      slug: 'medical-laboratory-scientist',
+      type: 'adjacent',
+      note: 'same barcode-driven accuracy and accountability culture, with specimens',
+    }
+  - {
+      slug: 'medical-assistant',
+      type: 'related',
+      note: 'handles medication-adjacent tasks under a clinician in the clinic',
+    }
+  - {
+      slug: 'nursing-assistant',
+      type: 'adjacent',
+      note: 'allied support role with a defined scope under a licensed clinician',
+    }
+specializations:
+  - 'Sterile Compounding Technician'
+  - 'Hospital Pharmacy Technician'
+country_variants: []
+sources:
+  - { title: "Mosby's Pharmacy Technician: Principles and Practice", kind: 'book' }
+  - { title: 'USP General Chapters <795>/<797>/<800>', kind: 'standard' }
+status: stable

@@ -1,0 +1,24 @@
+title: "IT Support Specialist"
+slug: "it-support-specialist"
+aliases: ["Help Desk Technician", "Desktop Support Analyst", "Technical Support Specialist"]
+category: "Technology"
+tags: ["help-desk", "troubleshooting", "ticketing", "incident-response", "end-user-support"]
+difficulty: foundational
+summary: "Thinks in triage and restore: reproduce, isolate by divide-and-conquer, get the blocked user working fast, then document so the next ten tickets disappear."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "systems-administrator", type: "adjacent", note: "owns the infrastructure that support escalates into" }
+  - { slug: "site-reliability-engineer", type: "adjacent", note: "owns service health vs the human-facing fix" }
+  - { slug: "network-engineer", type: "collaboration", note: "common escalation target for connectivity issues" }
+  - { slug: "security-engineer", type: "collaboration", note: "partner on access verification and compromise signals" }
+  - { slug: "technical-writer", type: "related", note: "knowledge base articles turn fixes into self-service" }
+  - { slug: "customer-success-manager", type: "progression", note: "shared empathy-under-pressure and ownership skills" }
+specializations: ["desktop support", "identity and access support", "service desk lead"]
+country_variants: []
+sources:
+  - { title: "ITIL 4 Foundation", kind: "book" }
+  - { title: "The Practice of System and Network Administration (Limoncelli, Hogan, Chalup)", kind: "book" }
+status: stable

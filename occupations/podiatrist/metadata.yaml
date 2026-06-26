@@ -1,0 +1,56 @@
+title: 'Podiatrist'
+slug: 'podiatrist'
+aliases:
+  - 'Foot and Ankle Specialist'
+  - 'Chiropodist'
+  - 'Doctor of Podiatric Medicine'
+category: 'Healthcare'
+tags:
+  - foot-and-ankle
+  - diabetic-foot
+  - biomechanics
+  - lower-extremity
+  - wound-care
+difficulty: advanced
+summary: 'Reads the foot as a kinetic chain and a healing-perfusion problem, treats every painless wound on an at-risk foot as a limb emergency, and exhausts conservative mechanics before cutting.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'surgeon',
+      type: 'adjacent',
+      note: 'shares lower-extremity surgical and trauma ground; co-manages reconstruction',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'manages the diabetes and vascular disease that govern foot healing',
+    }
+  - {
+      slug: 'physical-therapist',
+      type: 'collaboration',
+      note: 'carries post-surgical rehab and kinetic-chain correction',
+    }
+  - {
+      slug: 'athletic-trainer',
+      type: 'related',
+      note: 'front line for sports lower-limb injury before referral',
+    }
+  - {
+      slug: 'dermatologist',
+      type: 'adjacent',
+      note: 'overlaps on nail and skin pathology of the foot',
+    }
+specializations:
+  - 'Podiatric Surgeon'
+  - 'Diabetic Foot Specialist'
+  - 'Sports Podiatrist'
+country_variants: []
+sources:
+  - { title: "McGlamry's Comprehensive Textbook of Foot and Ankle Surgery", kind: 'book' }
+  - { title: 'IWGDF Guidelines on the Diabetic Foot', kind: 'standard' }
+  - { title: "Neale's Disorders of the Foot", kind: 'book' }
+status: stable

@@ -1,0 +1,63 @@
+title: 'Career and Technical Education Teacher'
+slug: 'career-technical-education-teacher'
+aliases:
+  - 'CTE Teacher'
+  - 'Vocational Teacher'
+  - 'Trade Instructor'
+  - 'Career Tech Educator'
+category: 'Education'
+tags:
+  - career-technical-education
+  - competency-based
+  - industry-credentials
+  - shop-safety
+  - work-based-learning
+difficulty: advanced
+summary: 'Thinks like an industry practitioner turned teacher — building demonstrable, credential-bearing skill in a shop where safety is life-or-death and the product, not a test, is the proof.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'teacher',
+      type: 'prerequisite',
+      note: 'the general pedagogy this trade-focused role specializes from',
+    }
+  - {
+      slug: 'high-school-teacher',
+      type: 'adjacent',
+      note: 'same building; assesses exams where CTE assesses performed skill',
+    }
+  - {
+      slug: 'welder',
+      type: 'progression',
+      note: 'a trade CTE teachers come from and graduates enter',
+    }
+  - {
+      slug: 'electrician',
+      type: 'related',
+      note: 'a credentialed trade pathway CTE programs feed via apprenticeship',
+    }
+  - {
+      slug: 'machinist',
+      type: 'related',
+      note: 'a precision trade taught and assessed by demonstrable skill',
+    }
+  - {
+      slug: 'mentor',
+      type: 'adjacent',
+      note: 'does the same skill-and-identity apprenticeship outside a program',
+    }
+specializations:
+  - 'Welding / Manufacturing Instructor'
+  - 'Health Science Instructor'
+  - 'IT / Cybersecurity Instructor'
+  - 'Automotive Technology Instructor'
+country_variants: []
+sources:
+  - { title: 'Carl D. Perkins Career and Technical Education Act (Perkins V)', kind: 'standard' }
+  - { title: 'Understanding by Design', kind: 'book' }
+  - { title: 'Cognitive Apprenticeship (Collins, Brown & Newman)', kind: 'paper' }
+status: stable

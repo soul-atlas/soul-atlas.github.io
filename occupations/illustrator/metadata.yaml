@@ -1,0 +1,23 @@
+title: "Illustrator"
+slug: "illustrator"
+aliases: ["commercial artist", "concept artist", "picture-book artist"]
+category: "Creative"
+tags: ["illustration", "composition", "value", "visual-storytelling", "silhouette"]
+difficulty: advanced
+summary: "How an illustrator turns a brief or text into an image that reads at a glance, controlling composition, value, and silhouette to lead the viewer's eye and carry mood."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "graphic-designer", type: "related", note: "shares composition, color, and production but designs systems and layouts" }
+  - { slug: "animator", type: "progression", note: "extends illustration into motion, timing, and performance" }
+  - { slug: "photographer", type: "related", note: "the single framed image, composition, light, decisive moment" }
+  - { slug: "fashion-designer", type: "adjacent", note: "silhouette, proportion, and visual storytelling on the body" }
+  - { slug: "writer", type: "collaboration", note: "in illustrated books, picture and text are partners" }
+specializations: ["children's-book illustrator", "editorial illustrator", "concept artist", "comic artist"]
+country_variants: []
+sources:
+  - { title: "Creative Illustration (Andrew Loomis)", kind: "book" }
+  - { title: "Picture This: How Pictures Work (Molly Bang)", kind: "book" }
+status: stable

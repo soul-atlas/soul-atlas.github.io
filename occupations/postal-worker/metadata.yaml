@@ -1,0 +1,23 @@
+title: "Postal Worker"
+slug: "postal-worker"
+aliases: ["mail carrier", "letter carrier", "postal clerk", "mailman"]
+category: "Public Service"
+tags: ["mail-delivery", "logistics", "route-optimization", "public-service", "last-mile"]
+difficulty: intermediate
+summary: "How a carrier turns a vast mail system's last mile into reliable delivery through route sequencing, case-order sorting, and treating every piece as a sacred trust."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "logistics-coordinator", type: "collaboration", note: "runs the upstream network that feeds the carrier's route" }
+  - { slug: "truck-driver", type: "adjacent", note: "shares route-optimization and last-mile delivery craft" }
+  - { slug: "supply-chain-manager", type: "related", note: "manages the broader movement the postal network is part of" }
+  - { slug: "train-conductor", type: "related", note: "moves mail and freight between processing hubs" }
+  - { slug: "customs-officer", type: "related", note: "handles the international mail stream and shares chain-of-custody discipline" }
+specializations: ["city letter carrier", "rural carrier", "postal clerk", "mail handler / processing"]
+country_variants: []
+sources:
+  - { title: "USPS carrier handbooks (M-39 / M-41)", kind: "standard" }
+  - { title: "The Traveling Salesman Problem (route optimization)", kind: "book" }
+status: stable

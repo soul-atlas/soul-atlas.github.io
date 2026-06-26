@@ -1,0 +1,57 @@
+title: 'Obstetrician-Gynecologist'
+slug: 'obstetrician-gynecologist'
+aliases:
+  - 'OB-GYN'
+  - 'Obstetrician'
+  - 'Gynecologist'
+category: 'Healthcare'
+tags:
+  - obstetrics
+  - gynecology
+  - reproductive-health
+  - surgery
+  - medicine
+difficulty: expert
+summary: 'Carries two patients through birth knowing their interests can diverge, manages labor and obstetric emergencies, and treats reproductive disease while keeping preference-sensitive choices genuinely the patient''s own.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physician',
+      type: 'prerequisite',
+      note: 'a medical-surgical specialty built on medical training',
+    }
+  - {
+      slug: 'midwife',
+      type: 'collaboration',
+      note: 'co-manages low-risk birth and shares the physiologic-labor philosophy',
+    }
+  - {
+      slug: 'anesthesiologist',
+      type: 'collaboration',
+      note: 'provides labor analgesia and is the partner in obstetric emergencies',
+    }
+  - {
+      slug: 'surgeon',
+      type: 'adjacent',
+      note: 'shares the operative mindset for pelvic surgery and its complications',
+    }
+  - {
+      slug: 'oncologist',
+      type: 'collaboration',
+      note: 'co-manages gynecologic cancers',
+    }
+specializations:
+  - 'Maternal-Fetal Medicine Specialist'
+  - 'Gynecologic Oncologist'
+  - 'Reproductive Endocrinologist'
+  - 'Urogynecologist'
+country_variants: []
+sources:
+  - { title: 'Williams Obstetrics', kind: 'book' }
+  - { title: 'Berek & Novak''s Gynecology', kind: 'book' }
+  - { title: 'ACOG Practice Bulletins', kind: 'standard' }
+status: stable

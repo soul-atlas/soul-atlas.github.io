@@ -1,0 +1,23 @@
+title: "Legislator"
+slug: "legislator"
+aliases: ["lawmaker", "representative", "senator", "council member"]
+category: "Government"
+tags: ["politics", "lawmaking", "coalition-building", "representation", "policy"]
+difficulty: expert
+summary: "How a lawmaker turns conflicting constituent interests into durable law by counting votes, building coalitions, and balancing representation against conscience."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "policy-analyst", type: "collaboration", note: "supplies the evidence and options good legislation rests on" }
+  - { slug: "diplomat", type: "adjacent", note: "shares coalition-building and negotiation between rather than within bodies" }
+  - { slug: "lawyer", type: "related", note: "interprets and applies the statutes legislators write" }
+  - { slug: "community-organizer", type: "related", note: "mobilizes the interests legislators must weigh and answer to" }
+  - { slug: "city-manager", type: "adjacent", note: "implements at the local level what legislatures authorize" }
+specializations: ["committee chair", "appropriations / budget member", "minority/majority whip", "city council member"]
+country_variants: []
+sources:
+  - { title: "Home Style: House Members in Their Districts (Fenno)", kind: "book" }
+  - { title: "Congress: The Electoral Connection (Mayhew)", kind: "book" }
+status: stable

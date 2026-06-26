@@ -1,0 +1,25 @@
+title: "Training and Development Specialist"
+slug: "training-and-development-specialist"
+aliases: ["L&D Specialist", "Corporate Trainer", "Learning and Development Professional"]
+category: "Business"
+tags: ["learning-and-development", "adult-learning", "capability-building", "training-evaluation", "onboarding"]
+difficulty: "intermediate"
+summary: "How an L&D professional thinks: diagnosing whether a problem is even a training problem, designing for adult learners, and proving capability actually transferred to the job."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "instructional-designer", type: "specialization", note: "designs the courses; L&D builds and delivers broader org capability" }
+  - { slug: "human-resources-manager", type: "collaboration", note: "partners on talent, performance, and capability strategy" }
+  - { slug: "coach", type: "adjacent", note: "one-to-one development complements group capability building" }
+  - { slug: "teacher", type: "related", note: "shares pedagogy roots; adult-learning context differs" }
+  - { slug: "operations-manager", type: "collaboration", note: "the internal client whose teams need the capability" }
+  - { slug: "mentor", type: "adjacent", note: "informal knowledge transfer the L&D program formalizes" }
+specializations: ["leadership development", "onboarding programs", "technical/sales enablement", "compliance training"]
+country_variants: []
+sources:
+  - { title: "The Adult Learner (Malcolm Knowles)", kind: "book" }
+  - { title: "Evaluating Training Programs (Donald Kirkpatrick)", kind: "book" }
+  - { title: "Telling Ain't Training (Harold Stolovitch)", kind: "book" }
+status: stable

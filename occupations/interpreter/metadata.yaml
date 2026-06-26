@@ -1,0 +1,48 @@
+title: 'Interpreter'
+slug: 'interpreter'
+aliases: ['Conference Interpreter', 'Court Interpreter', 'Medical Interpreter', 'Simultaneous Interpreter']
+category: 'Creative'
+tags: ['interpreting', 'simultaneous', 'consecutive', 'fidelity', 'language-mediation']
+difficulty: 'expert'
+summary: 'How a spoken-language interpreter thinks: fidelity and register in real time, managing décalage and cognitive load, and staying a transparent conduit rather than a party.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'linguist',
+      type: 'adjacent',
+      note: 'Studies the structure of the languages the interpreter renders between',
+    }
+  - {
+      slug: 'court-reporter',
+      type: 'collaboration',
+      note: 'Captures the verbatim record in the same proceeding; a parallel fidelity craft',
+    }
+  - {
+      slug: 'diplomat',
+      type: 'collaboration',
+      note: 'Relies on interpreters and shares making adversarial parties understand each other',
+    }
+  - {
+      slug: 'mediator',
+      type: 'adjacent',
+      note: 'Stands between parties to enable understanding without becoming a party',
+    }
+  - {
+      slug: 'voice-actor',
+      type: 'related',
+      note: 'Shares the performance of speaking as someone else, in their register and intent',
+    }
+  - {
+      slug: 'editor',
+      type: 'adjacent',
+      note: 'Shares close attention to register and meaning, on text with a second draft',
+    }
+specializations: ['conference interpreter', 'court interpreter', 'medical interpreter', 'sign-language interpreter']
+country_variants: []
+sources:
+  - { title: 'Conference Interpreting: A Complete Course (Setton & Dawrant)', kind: 'book' }
+  - { title: 'Note-Taking in Consecutive Interpreting (Jean-François Rozan)', kind: 'book' }
+status: stable

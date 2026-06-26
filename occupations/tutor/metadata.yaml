@@ -1,0 +1,56 @@
+title: 'Tutor'
+slug: 'tutor'
+aliases:
+  - 'Private Tutor'
+  - 'Academic Coach'
+  - 'Learning Support Specialist'
+category: 'Education'
+tags:
+  - tutoring
+  - diagnosis
+  - one-to-one
+  - metacognition
+  - test-prep
+difficulty: intermediate
+summary: 'Uses one-to-one bandwidth to diagnose the specific broken link in a student’s understanding and rebuild from there, building independence rather than re-teaching the lecture.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'teacher',
+      type: 'related',
+      note: 'delivers the group lesson the tutor later helps repair one-to-one',
+    }
+  - {
+      slug: 'student',
+      type: 'collaboration',
+      note: 'the other half of the relationship, trained to need no tutor',
+    }
+  - {
+      slug: 'mentor',
+      type: 'adjacent',
+      note: 'one-to-one developmental work over a craft rather than a syllabus',
+    }
+  - {
+      slug: 'teaching-assistant',
+      type: 'related',
+      note: 'also close-range support but executes a teacher’s plan, not its own diagnosis',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'adjacent',
+      note: 'shares individualized, diagnostic instruction for specific learning needs',
+    }
+specializations:
+  - 'Test-Prep Tutor'
+  - 'Math Tutor'
+  - 'Reading / Literacy Tutor'
+  - 'Online Tutor'
+country_variants: []
+sources:
+  - { title: 'The 2 Sigma Problem (Bloom, 1984)', kind: 'paper' }
+  - { title: 'How Learning Works', kind: 'book' }
+status: stable

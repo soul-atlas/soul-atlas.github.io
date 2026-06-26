@@ -1,0 +1,57 @@
+title: 'Neurologist'
+slug: 'neurologist'
+aliases:
+  - 'Brain Doctor'
+  - 'Nervous System Specialist'
+  - 'Neuro'
+category: 'Healthcare'
+tags:
+  - neurology
+  - brain
+  - localization
+  - stroke
+  - medicine
+difficulty: expert
+summary: 'Localizes the lesion from history and examination before naming it, and acts inside the time window where the nervous system can still be saved — because neurons, once lost, do not return.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physician',
+      type: 'prerequisite',
+      note: 'neurology is a subspecialty built on internal medicine training',
+    }
+  - {
+      slug: 'psychiatrist',
+      type: 'adjacent',
+      note: 'works the other side of the mind-brain border',
+    }
+  - {
+      slug: 'radiologist',
+      type: 'collaboration',
+      note: 'reads the imaging the neurologist interprets against localization',
+    }
+  - {
+      slug: 'emergency-physician',
+      type: 'collaboration',
+      note: 'shares the timed acute-stroke pathway at the front door',
+    }
+  - {
+      slug: 'physical-therapist',
+      type: 'collaboration',
+      note: 'rehabilitates the neurologic deficits the neurologist diagnoses',
+    }
+specializations:
+  - 'Stroke Neurologist'
+  - 'Epileptologist'
+  - 'Movement Disorders Specialist'
+  - 'Neuromuscular Specialist'
+country_variants: []
+sources:
+  - { title: 'Adams and Victor''s Principles of Neurology', kind: 'book' }
+  - { title: 'Localization in Clinical Neurology', kind: 'book' }
+  - { title: 'AHA/ASA Acute Ischemic Stroke Guidelines', kind: 'standard' }
+status: stable

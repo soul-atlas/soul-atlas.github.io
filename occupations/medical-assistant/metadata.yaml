@@ -1,0 +1,56 @@
+title: 'Medical Assistant'
+slug: 'medical-assistant'
+aliases:
+  - 'Clinical Medical Assistant'
+  - 'MA'
+  - 'CMA'
+category: 'Healthcare'
+tags:
+  - rooming
+  - outpatient
+  - scope-of-practice
+  - vitals
+  - clinic-flow
+difficulty: intermediate
+summary: 'Lives on the clinical-clerical hinge of the outpatient clinic, rooming patients accurately and conducting flow while working at the top of scope and never past it.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'registered-nurse',
+      type: 'related',
+      note: 'carries the clinical judgment the MA escalates to, at higher scope',
+    }
+  - {
+      slug: 'nursing-assistant',
+      type: 'related',
+      note: 'shares top-of-delegation support posture in inpatient settings',
+    }
+  - {
+      slug: 'phlebotomist',
+      type: 'adjacent',
+      note: 'overlaps on specimen collection and labeling discipline',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'holds the delegating authority and diagnostic role the MA prepares for',
+    }
+  - {
+      slug: 'pharmacy-technician',
+      type: 'collaboration',
+      note: 'partners on prescriptions and prior authorizations',
+    }
+specializations:
+  - 'Clinical Medical Assistant'
+  - 'Administrative Medical Assistant'
+  - 'Specialty (OB/GYN, Pediatrics) MA'
+country_variants: []
+sources:
+  - { title: 'Clinical Procedures for Medical Assistants (Bonewit-West)', kind: 'book' }
+  - { title: 'AAMA Standards of Practice', kind: 'standard' }
+  - { title: "Today's Medical Assistant (Kinn)", kind: 'book' }
+status: stable

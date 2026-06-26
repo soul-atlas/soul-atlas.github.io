@@ -1,0 +1,56 @@
+title: 'Teaching Assistant'
+slug: 'teaching-assistant'
+aliases:
+  - 'Paraprofessional'
+  - 'Teacher Aide'
+  - 'Paraeducator'
+  - 'Classroom Assistant'
+category: 'Education'
+tags:
+  - paraprofessional
+  - inclusion
+  - special-education-support
+  - scaffolding
+  - behavior-support
+difficulty: intermediate
+summary: 'Executes the lead teacher’s plan up close, giving the least support that works and fading it deliberately so students gain independence rather than dependence.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'teacher',
+      type: 'collaboration',
+      note: 'designs and owns the instruction the TA delivers up close',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'collaboration',
+      note: 'writes the IEP goals the TA implements and supervises the support',
+    }
+  - {
+      slug: 'tutor',
+      type: 'related',
+      note: 'also works one-to-one but diagnoses and chooses its own approach',
+    }
+  - {
+      slug: 'occupational-therapist',
+      type: 'adjacent',
+      note: 'prescribes strategies the TA carries into the regular day',
+    }
+  - {
+      slug: 'childcare-worker',
+      type: 'adjacent',
+      note: 'shares hands-on relational supervision outside an instructional plan',
+    }
+specializations:
+  - 'Special Education Paraprofessional'
+  - 'Bilingual / EL Aide'
+  - 'One-to-One Aide'
+country_variants: []
+sources:
+  - { title: 'The Inclusive Classroom', kind: 'book' }
+  - { title: 'Mind in Society', kind: 'book' }
+status: stable

@@ -1,0 +1,56 @@
+title: 'Audiologist'
+slug: 'audiologist'
+aliases:
+  - 'Doctor of Audiology'
+  - 'AuD'
+  - 'Hearing Specialist'
+category: 'Healthcare'
+tags:
+  - hearing
+  - audiometry
+  - balance
+  - hearing-aids
+  - sensory
+difficulty: advanced
+summary: 'Thinks by localizing the lesion along the auditory pathway from the audiogram, separating conductive from sensorineural loss, catching the asymmetry that hides a tumor, then rebuilding access to sound with verified technology.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'speech-language-pathologist',
+      type: 'collaboration',
+      note: 'turns restored hearing into communication, especially in children',
+    }
+  - {
+      slug: 'optometrist',
+      type: 'adjacent',
+      note: 'parallel sensory-organ specialist running measure-then-screen-for-hidden-disease logic',
+    }
+  - {
+      slug: 'neurologist',
+      type: 'related',
+      note: 'takes the vestibular and retrocochlear cases the audiologist flags',
+    }
+  - {
+      slug: 'pediatrician',
+      type: 'collaboration',
+      note: 'gateway for the newborn hearing screening pathway',
+    }
+  - {
+      slug: 'physician',
+      type: 'related',
+      note: 'manages systemic and medication-related contributors to hearing loss',
+    }
+specializations:
+  - 'Pediatric Audiologist'
+  - 'Cochlear Implant Audiologist'
+  - 'Vestibular Audiologist'
+country_variants: []
+sources:
+  - { title: 'Handbook of Clinical Audiology (Katz)', kind: 'book' }
+  - { title: 'ASHA Clinical Practice Guidelines', kind: 'standard' }
+  - { title: 'JCIH Position Statement (Early Hearing Detection and Intervention)', kind: 'standard' }
+status: stable

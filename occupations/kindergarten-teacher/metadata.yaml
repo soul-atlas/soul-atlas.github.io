@@ -1,0 +1,60 @@
+title: 'Kindergarten Teacher'
+slug: 'kindergarten-teacher'
+aliases:
+  - 'Kindergarten Educator'
+  - 'Reception Teacher'
+  - 'Foundation Stage Teacher'
+category: 'Education'
+tags:
+  - early-childhood
+  - foundational-literacy
+  - school-readiness
+  - play-based-learning
+  - child-development
+difficulty: advanced
+summary: 'Walks five-year-olds across the hinge from play to formal school, weaving explicit literacy and number with play so children leave both able and still willing to learn.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'preschool-teacher',
+      type: 'prerequisite',
+      note: 'sends children across the bridge kindergarten begins',
+    }
+  - {
+      slug: 'teacher',
+      type: 'progression',
+      note: 'later grades take the handoff and build on the foundation laid here',
+    }
+  - {
+      slug: 'teaching-assistant',
+      type: 'collaboration',
+      note: 'shares the room and must hold the same routines and tone',
+    }
+  - {
+      slug: 'special-education-teacher',
+      type: 'collaboration',
+      note: 'takes referral when the developmental spread reveals a true need',
+    }
+  - {
+      slug: 'occupational-therapist',
+      type: 'collaboration',
+      note: 'partners on the fine-motor skills that rate-limit early writing',
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'adjacent',
+      note: 'handles social-emotional barriers that block a young learner',
+    }
+specializations:
+  - 'Transitional Kindergarten Teacher'
+  - 'Dual-Language Kindergarten Teacher'
+country_variants: []
+sources:
+  - { title: 'Developmentally Appropriate Practice in Early Childhood Programs (NAEYC)', kind: 'book' }
+  - { title: 'Mind in Society', kind: 'book' }
+  - { title: 'Childhood and Society', kind: 'book' }
+status: stable

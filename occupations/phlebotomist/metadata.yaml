@@ -1,0 +1,56 @@
+title: 'Phlebotomist'
+slug: 'phlebotomist'
+aliases:
+  - 'Blood Collector'
+  - 'Phlebotomy Technician'
+  - 'Venipuncturist'
+category: 'Healthcare'
+tags:
+  - phlebotomy
+  - blood-collection
+  - specimen-integrity
+  - venipuncture
+  - laboratory
+difficulty: foundational
+summary: 'Thinks of every lab value as a measurement of the specimen, not the patient, and works backward through order of draw, vein anatomy, and identity to make the two match.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'medical-laboratory-scientist',
+      type: 'collaboration',
+      note: 'analyzes and rejects the specimens the phlebotomist collects',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'adjacent',
+      note: 'shares bedside collection and patient-handling skills',
+    }
+  - {
+      slug: 'pathologist',
+      type: 'related',
+      note: 'owns the lab whose accuracy depends on collection quality',
+    }
+  - {
+      slug: 'radiologic-technologist',
+      type: 'related',
+      note: 'parallel allied-health role generating diagnostic data',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'orders the tests and acts on the results',
+    }
+specializations:
+  - 'Blood Bank Collector'
+  - 'Mobile/Donor Phlebotomist'
+  - 'Forensic Specimen Collector'
+country_variants: []
+sources:
+  - { title: 'CLSI GP41: Collection of Diagnostic Venous Blood Specimens', kind: 'standard' }
+  - { title: 'Phlebotomy Essentials (McCall & Tankersley)', kind: 'book' }
+  - { title: 'WHO Guidelines on Drawing Blood: Best Practices in Phlebotomy', kind: 'standard' }
+status: stable

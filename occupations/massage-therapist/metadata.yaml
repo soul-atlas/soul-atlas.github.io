@@ -1,0 +1,58 @@
+title: 'Massage Therapist'
+slug: 'massage-therapist'
+aliases:
+  - 'Massage Practitioner'
+  - 'Bodyworker'
+  - 'LMT'
+  - 'Soft Tissue Therapist'
+category: 'Healthcare'
+tags:
+  - massage
+  - soft-tissue
+  - palpation
+  - manual-therapy
+  - bodywork
+difficulty: intermediate
+summary: 'Reads soft tissue by touch and treats to the nervous system''s tolerance, screening hard for contraindications and knowing when not to put hands on a body at all.'
+contributors:
+  - 'soul-atlas'
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'physical-therapist',
+      type: 'adjacent',
+      note: 'shares hands-on assessment; owns rehabilitation and exercise prescription',
+    }
+  - {
+      slug: 'chiropractor',
+      type: 'collaboration',
+      note: 'addresses joint mechanics the soft-tissue work complements',
+    }
+  - {
+      slug: 'athletic-trainer',
+      type: 'related',
+      note: 'manages the same tissues under athletic load',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'diagnoses and clears the medically complex cases referred out',
+    }
+  - {
+      slug: 'personal-trainer',
+      type: 'related',
+      note: 'builds strength and mobility that prevents tension returning',
+    }
+specializations:
+  - 'Deep Tissue Therapist'
+  - 'Sports Massage Therapist'
+  - 'Oncology Massage Therapist'
+  - 'Prenatal Massage Therapist'
+country_variants: []
+sources:
+  - { title: 'Trail Guide to the Body', kind: 'book' }
+  - { title: "Travell & Simons' Myofascial Pain and Dysfunction", kind: 'book' }
+  - { title: "A Massage Therapist's Guide to Pathology", kind: 'book' }
+status: stable

@@ -1,0 +1,49 @@
+title: 'Announcer'
+slug: 'announcer'
+aliases: ['Radio Host', 'Disc Jockey', 'On-Air Personality', 'Broadcaster']
+category: 'Entertainment'
+tags: ['broadcasting', 'radio', 'voice', 'live-performance', 'fcc-compliance']
+difficulty: 'advanced'
+summary: 'How an on-air announcer thinks: voice as an instrument under a clock, hitting the post, dead air as the enemy, and the regulator always in the room.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'voice-actor',
+      type: 'adjacent',
+      note: 'Both wield the voice as an instrument; the actor plays a character, the announcer plays themselves on a clock',
+    }
+  - {
+      slug: 'broadcast-journalist',
+      type: 'related',
+      note: 'Shares the live-to-air clock and trusted-voice obligation',
+    }
+  - {
+      slug: 'sound-engineer',
+      type: 'collaboration',
+      note: 'Keeps the board, signal, and profanity delay alive for the announcer',
+    }
+  - {
+      slug: 'comedian',
+      type: 'adjacent',
+      note: 'Shares timing, audience read, and ad-libbing within a structure',
+    }
+  - {
+      slug: 'musician',
+      type: 'related',
+      note: 'Lives on the same clock of intros, beats, and hitting a mark in time',
+    }
+  - {
+      slug: 'event-planner',
+      type: 'collaboration',
+      note: 'Relies on the live PA announcer to run a crowd to a schedule',
+    }
+specializations: ['radio dj', 'sports play-by-play announcer', 'news announcer', 'public address (pa) announcer']
+country_variants: []
+sources:
+  - { title: 'NAB Engineering Handbook', kind: 'book' }
+  - { title: 'Television and Radio Announcing (Stuart Hyde)', kind: 'book' }
+  - { title: 'FCC Rules 47 CFR Part 73', kind: 'standard' }
+status: stable

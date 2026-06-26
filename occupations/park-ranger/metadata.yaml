@@ -1,0 +1,23 @@
+title: "Park Ranger"
+slug: "park-ranger"
+aliases: ["park warden", "ranger", "wildlife ranger"]
+category: "Public Service"
+tags: ["conservation", "public-lands", "search-and-rescue", "wildlife", "stewardship"]
+difficulty: advanced
+summary: "How a ranger reconciles protecting a resource unimpaired with serving visitors, leading with education, and stewarding land on a fifty-year horizon."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "forester", type: "adjacent", note: "shares long-horizon land stewardship and the fire mindset on working lands" }
+  - { slug: "ecologist", type: "collaboration", note: "supplies the science behind resource management and monitoring" }
+  - { slug: "firefighter", type: "collaboration", note: "shares emergency-response and incident-command discipline in SAR and wildland fire" }
+  - { slug: "paramedic", type: "related", note: "shares the medical-response role on rescues" }
+  - { slug: "police-officer", type: "related", note: "shares education-first enforcement and use-of-force judgment in a wild setting" }
+specializations: ["law-enforcement ranger", "interpretive ranger", "backcountry / wilderness ranger", "wildland firefighter"]
+country_variants: []
+sources:
+  - { title: "A Sand County Almanac (Aldo Leopold)", kind: "book" }
+  - { title: "Leave No Trace Seven Principles", kind: "standard" }
+status: stable
