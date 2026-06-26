@@ -1,23 +1,47 @@
-title: "Barista"
-slug: "barista"
-aliases: ["Coffee Maker", "Espresso Bartender", "Coffee Bar Attendant"]
-category: "Hospitality"
-tags: ["specialty-coffee", "espresso", "dialing-in", "mise-en-place", "hospitality"]
+title: 'Barista'
+slug: 'barista'
+aliases: ['Coffee Maker', 'Espresso Bartender', 'Coffee Bar Attendant']
+category: 'Hospitality'
+tags: ['specialty-coffee', 'espresso', 'dialing-in', 'mise-en-place', 'hospitality']
 difficulty: intermediate
-summary: "How an expert barista thinks: steering the dose-yield-time triangle by taste, overlapping shots and milk under a rush, and treating consistency and hospitality as one craft."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert barista thinks: steering the dose-yield-time triangle by taste, overlapping shots and milk under a rush, and treating consistency and hospitality as one craft.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "bartender", type: "adjacent", note: "shares the bar, mise en place, and rush-line choreography" }
-  - { slug: "sommelier", type: "related", note: "deep beverage-sensory craft and tasting vocabulary" }
-  - { slug: "chef", type: "related", note: "shares a-la-minute discipline and station setup under pressure" }
-  - { slug: "hotel-manager", type: "collaboration", note: "oversees the cafe within food and beverage operations" }
-  - { slug: "event-planner", type: "collaboration", note: "books and staffs coffee service for events" }
-  - { slug: "customer-success-manager", type: "adjacent", note: "reads people and manages live relationships under pressure" }
-specializations: ["Latte Artist", "Head Barista", "Competition Barista"]
+  - {
+      slug: 'bartender',
+      type: 'adjacent',
+      note: 'shares the bar, mise en place, and rush-line choreography',
+    }
+  - {
+      slug: 'sommelier',
+      type: 'related',
+      note: 'deep beverage-sensory craft and tasting vocabulary',
+    }
+  - {
+      slug: 'chef',
+      type: 'related',
+      note: 'shares a-la-minute discipline and station setup under pressure',
+    }
+  - {
+      slug: 'hotel-manager',
+      type: 'collaboration',
+      note: 'oversees the cafe within food and beverage operations',
+    }
+  - {
+      slug: 'event-planner',
+      type: 'collaboration',
+      note: 'books and staffs coffee service for events',
+    }
+  - {
+      slug: 'customer-success-manager',
+      type: 'adjacent',
+      note: 'reads people and manages live relationships under pressure',
+    }
+specializations: ['Latte Artist', 'Head Barista', 'Competition Barista']
 country_variants: []
 sources:
-  - { title: "The World Atlas of Coffee by James Hoffmann", kind: "book" }
+  - { title: 'The World Atlas of Coffee by James Hoffmann', kind: 'book' }
 status: stable

@@ -34,11 +34,7 @@ related:
       type: 'collaboration',
       note: 'keeps and curates the sources that decide what survives to be studied',
     }
-  - {
-      slug: 'curator',
-      type: 'related',
-      note: 'interprets the material past for a public audience',
-    }
+  - { slug: 'curator', type: 'related', note: 'interprets the material past for a public audience' }
   - {
       slug: 'political-scientist',
       type: 'related',

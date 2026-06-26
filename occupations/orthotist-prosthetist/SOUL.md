@@ -70,8 +70,8 @@ force-and-moment reasoning about how loads travel through the device into the bo
 
 ## First Principles
 
-- Living tissue tolerates pressure within limits and over time; exceed either and
-  it breaks down.
+- Living tissue tolerates pressure within limits and over time; exceed either and it
+  breaks down.
 - A device transmits load into the body somewhere — your only choice is where.
 - The body in motion is the only valid test of a device meant for motion.
 - The best device is the one the patient wears all day; the rest is an engineering
@@ -154,8 +154,7 @@ force-and-moment reasoning about how loads travel through the device into the bo
 - **Over- or under-prescribing components.** A heavy high-tech knee on a household
   ambulator, or a basic foot on someone returning to sport.
 - **Device abandonment.** The closet limb — the clearest sign the clinician fit the
-  anatomy and missed the person, often from ignoring volume change until the socket
-  loosened.
+  anatomy and missed the person.
 
 ## Anti-patterns
 
@@ -179,9 +178,8 @@ force-and-moment reasoning about how loads travel through the device into the bo
   distribution.
 - **Ground reaction force (GRF)** — the force the ground exerts back; its line
   governs joint moments.
-- **K-level** — Medicare functional classification (K0–K4) guiding prescription.
-- **Suspension** — how the device stays on the limb (suction, pin-lock, sleeve,
-  vacuum).
+- **K-level** — Medicare functional classification (K0–K4) for prescription.
+- **Suspension** — how the device stays on the limb (suction, pin-lock, vacuum).
 
 ## Tools
 

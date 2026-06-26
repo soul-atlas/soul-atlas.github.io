@@ -1,10 +1,10 @@
-title: 'Economist'
-slug: 'economist'
+title: Economist
+slug: economist
 aliases:
-  - 'Economic Analyst'
-  - 'Applied Economist'
-  - 'Economic Researcher'
-category: 'Science'
+  - Economic Analyst
+  - Applied Economist
+  - Economic Researcher
+category: Science
 tags:
   - economics
   - causal-inference
@@ -12,52 +12,47 @@ tags:
   - markets
   - econometrics
 difficulty: expert
-summary: 'Reasons at the margin about choice under scarcity, hunting exogenous variation to separate cause from correlation and counting the cost of what does not happen.'
+summary: >-
+  Reasons at the margin about choice under scarcity, hunting exogenous variation to separate cause
+  from correlation and counting the cost of what does not happen.
 contributors:
-  - 'soul-atlas'
+  - soul-atlas
 last_reviewed: '2026-06-26'
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
-  - {
-      slug: 'statistician',
-      type: 'prerequisite',
-      note: 'supplies the inferential machinery economists lean on for identification',
-    }
-  - {
-      slug: 'data-scientist',
-      type: 'adjacent',
-      note: 'optimizes prediction where economists chase causal effects',
-    }
-  - {
-      slug: 'policy-analyst',
-      type: 'collaboration',
-      note: 'turns economic estimates into feasible programs and weighs the politics',
-    }
-  - {
-      slug: 'financial-analyst',
-      type: 'related',
-      note: 'applies equilibrium and expected-value reasoning to asset prices',
-    }
-  - {
-      slug: 'political-scientist',
-      type: 'adjacent',
-      note: 'studies the institutions that economic incentives run through',
-    }
-  - {
-      slug: 'actuary',
-      type: 'related',
-      note: 'shares the discipline of pricing risk under asymmetric information',
-    }
+  - slug: statistician
+    type: prerequisite
+    note: supplies the inferential machinery economists lean on for identification
+  - slug: data-scientist
+    type: adjacent
+    note: optimizes prediction where economists chase causal effects
+  - slug: policy-analyst
+    type: collaboration
+    note: turns economic estimates into feasible programs and weighs the politics
+  - slug: financial-analyst
+    type: related
+    note: applies equilibrium and expected-value reasoning to asset prices
+  - slug: political-scientist
+    type: adjacent
+    note: studies the institutions that economic incentives run through
+  - slug: actuary
+    type: related
+    note: shares the discipline of pricing risk under asymmetric information
 specializations:
-  - 'Macroeconomist'
-  - 'Microeconomist'
-  - 'Econometrician'
-  - 'Development Economist'
+  - Macroeconomist
+  - Microeconomist
+  - Econometrician
+  - Development Economist
 country_variants: []
 sources:
-  - { title: 'The Wealth of Nations (Adam Smith)', kind: 'book' }
-  - { title: 'Mostly Harmless Econometrics (Angrist & Pischke)', kind: 'book' }
-  - { title: 'Principles of Economics (Mankiw)', kind: 'book' }
-  - { title: 'FRED (Federal Reserve Economic Data)', url: 'https://fred.stlouisfed.org/', kind: 'reference' }
+  - title: The Wealth of Nations (Adam Smith)
+    kind: book
+  - title: Mostly Harmless Econometrics (Angrist & Pischke)
+    kind: book
+  - title: Principles of Economics (Mankiw)
+    kind: book
+  - title: FRED (Federal Reserve Economic Data)
+    url: https://fred.stlouisfed.org/
+    kind: other
 status: stable

@@ -4,7 +4,7 @@ aliases: ['Security Officer', 'Guard', 'Protective Officer', 'Loss Prevention Of
 category: 'Public Service'
 tags: ['observe-and-report', 'access-control', 'deterrence', 'patrol', 'incident-reporting']
 difficulty: 'intermediate'
-summary: "How a security guard thinks: observe and report over enforce, deterrence by presence, condition-yellow awareness, and documenting everything as if it will reach a courtroom."
+summary: 'How a security guard thinks: observe and report over enforce, deterrence by presence, condition-yellow awareness, and documenting everything as if it will reach a courtroom.'
 contributors: ['soul-atlas']
 last_reviewed: '2026-06-26'
 created: '2026-06-26'
@@ -40,7 +40,13 @@ related:
       type: 'collaboration',
       note: 'Emergency partner a guard guides in and coordinates with',
     }
-specializations: ['retail-loss-prevention', 'corporate-security-officer', 'event-security', 'mobile-patrol-officer']
+specializations:
+  [
+    'retail-loss-prevention',
+    'corporate-security-officer',
+    'event-security',
+    'mobile-patrol-officer',
+  ]
 country_variants: []
 sources:
   - { title: 'ASIS International, Protection of Assets', kind: 'standard' }

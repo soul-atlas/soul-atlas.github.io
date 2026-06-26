@@ -1,25 +1,53 @@
-title: "Geneticist"
-slug: "geneticist"
-aliases: ["genetics researcher", "clinical geneticist", "molecular geneticist"]
-category: "Science"
-tags: ["genetics", "genomics", "variant-interpretation", "crispr", "inheritance"]
+title: 'Geneticist'
+slug: 'geneticist'
+aliases: ['genetics researcher', 'clinical geneticist', 'molecular geneticist']
+category: 'Science'
+tags: ['genetics', 'genomics', 'variant-interpretation', 'crispr', 'inheritance']
 difficulty: expert
-summary: "How an expert reasons from DNA variation through transmission to phenotype, separating genetic from environmental and causal from correlated."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert reasons from DNA variation through transmission to phenotype, separating genetic from environmental and causal from correlated.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "biologist", type: "prerequisite", note: "evolutionary and cellular foundation genetics builds on" }
-  - { slug: "bioinformatics-scientist", type: "collaboration", note: "builds and runs the pipelines turning reads into variants" }
-  - { slug: "biochemist", type: "adjacent", note: "supplies functional assays that resolve a variant's meaning" }
-  - { slug: "oncologist", type: "collaboration", note: "applies tumor genetics to treatment decisions" }
-  - { slug: "physician", type: "collaboration", note: "supplies phenotypes and acts on diagnostic results" }
-  - { slug: "forensic-scientist", type: "adjacent", note: "uses the same markers for identity rather than disease" }
-specializations: ["clinical geneticist", "population geneticist", "molecular geneticist", "cytogeneticist"]
+  - {
+      slug: 'biologist',
+      type: 'prerequisite',
+      note: 'evolutionary and cellular foundation genetics builds on',
+    }
+  - {
+      slug: 'bioinformatics-scientist',
+      type: 'collaboration',
+      note: 'builds and runs the pipelines turning reads into variants',
+    }
+  - {
+      slug: 'biochemist',
+      type: 'adjacent',
+      note: "supplies functional assays that resolve a variant's meaning",
+    }
+  - {
+      slug: 'oncologist',
+      type: 'collaboration',
+      note: 'applies tumor genetics to treatment decisions',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'supplies phenotypes and acts on diagnostic results',
+    }
+  - {
+      slug: 'forensic-scientist',
+      type: 'adjacent',
+      note: 'uses the same markers for identity rather than disease',
+    }
+specializations:
+  ['clinical geneticist', 'population geneticist', 'molecular geneticist', 'cytogeneticist']
 country_variants: []
 sources:
-  - { title: "Genetics: Analysis and Principles (Brooker)", kind: "book" }
-  - { title: "Human Molecular Genetics (Strachan & Read)", kind: "book" }
-  - { title: "ACMG/AMP Standards and Guidelines for the Interpretation of Sequence Variants (Richards et al., 2015)", kind: "standard" }
+  - { title: 'Genetics: Analysis and Principles (Brooker)', kind: 'book' }
+  - { title: 'Human Molecular Genetics (Strachan & Read)', kind: 'book' }
+  - {
+      title: 'ACMG/AMP Standards and Guidelines for the Interpretation of Sequence Variants (Richards et al., 2015)',
+      kind: 'standard',
+    }
 status: stable

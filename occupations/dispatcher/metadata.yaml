@@ -1,25 +1,56 @@
-title: "Dispatcher"
-slug: "dispatcher"
-aliases: ["911 Dispatcher", "Emergency Dispatcher", "Public-Safety Telecommunicator", "911 Operator"]
-category: "Public Service"
-tags: ["emergency-dispatch", "911", "triage", "emd", "responder-safety"]
+title: Dispatcher
+slug: dispatcher
+aliases:
+  - 911 Dispatcher
+  - Emergency Dispatcher
+  - Public-Safety Telecommunicator
+  - 911 Operator
+category: Public Service
+tags:
+  - emergency-dispatch
+  - '911'
+  - triage
+  - emd
+  - responder-safety
 difficulty: advanced
-summary: "How an expert emergency dispatcher thinks: location first, ruthless triage, a calm voice as a tool, and tracking every responder safely home while never leaving the radio."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: >-
+  How an expert emergency dispatcher thinks: location first, ruthless triage, a calm voice as a
+  tool, and tracking every responder safely home while never leaving the radio.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "police-officer", type: "collaboration", note: "The dispatcher is the officer's lifeline — locations, scene info, and welfare checks" }
-  - { slug: "firefighter", type: "collaboration", note: "Dispatched, staged, and tracked by the dispatcher on every incident" }
-  - { slug: "paramedic", type: "collaboration", note: "Receives the medical triage and pre-arrival instructions the dispatcher gives" }
-  - { slug: "air-traffic-controller", type: "adjacent", note: "Shares calm-under-load, multi-channel tracking of many moving assets" }
-  - { slug: "logistics-coordinator", type: "related", note: "Shares resource-allocation and tracking without the life-or-death stakes" }
-  - { slug: "social-worker", type: "related", note: "Shares crisis de-escalation and heavy trauma exposure" }
-specializations: ["police-dispatcher", "fire-dispatcher", "ems-dispatcher", "911-call-taker"]
+  - slug: police-officer
+    type: collaboration
+    note: The dispatcher is the officer's lifeline — locations, scene info, and welfare checks
+  - slug: firefighter
+    type: collaboration
+    note: Dispatched, staged, and tracked by the dispatcher on every incident
+  - slug: paramedic
+    type: collaboration
+    note: Receives the medical triage and pre-arrival instructions the dispatcher gives
+  - slug: air-traffic-controller
+    type: adjacent
+    note: Shares calm-under-load, multi-channel tracking of many moving assets
+  - slug: logistics-coordinator
+    type: related
+    note: Shares resource-allocation and tracking without the life-or-death stakes
+  - slug: social-worker
+    type: related
+    note: Shares crisis de-escalation and heavy trauma exposure
+specializations:
+  - police-dispatcher
+  - fire-dispatcher
+  - ems-dispatcher
+  - 911-call-taker
 country_variants: []
 sources:
-  - { title: "NENA 911 and PSAP Operations Standards", kind: "reference" }
-  - { title: "Medical Priority Dispatch System (EMD/ProQA) Protocols", kind: "reference" }
-  - { title: "APCO Public-Safety Telecommunicator training", kind: "course" }
+  - title: NENA 911 and PSAP Operations Standards
+    kind: other
+  - title: Medical Priority Dispatch System (EMD/ProQA) Protocols
+    kind: other
+  - title: APCO Public-Safety Telecommunicator training
+    kind: course
 status: stable

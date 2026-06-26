@@ -12,7 +12,7 @@ tags:
   - employment
   - counseling
 difficulty: advanced
-summary: 'Aims a person with a disability at work and independent living by matching residual function to job demands, engineering away barriers, and keeping the client''s own informed choice at the center.'
+summary: "Aims a person with a disability at work and independent living by matching residual function to job demands, engineering away barriers, and keeping the client's own informed choice at the center."
 contributors:
   - 'soul-atlas'
 last_reviewed: '2026-06-26'
@@ -56,6 +56,9 @@ specializations:
 country_variants: []
 sources:
   - { title: 'CRCC Code of Professional Ethics for Rehabilitation Counselors', kind: 'standard' }
-  - { title: 'International Classification of Functioning, Disability and Health (ICF)', kind: 'standard' }
+  - {
+      title: 'International Classification of Functioning, Disability and Health (ICF)',
+      kind: 'standard',
+    }
   - { title: 'Foundations of the Vocational Rehabilitation Process', kind: 'book' }
 status: stable

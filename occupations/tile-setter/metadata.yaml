@@ -1,24 +1,44 @@
-title: "Tile Setter"
-slug: "tile-setter"
-aliases: ["tiler", "tile installer", "tile and stone setter", "ceramic tile mechanic"]
-category: "Skilled Trades"
-tags: ["tile", "waterproofing", "thinset-mortar", "substrate-prep", "tcna"]
+title: 'Tile Setter'
+slug: 'tile-setter'
+aliases: ['tiler', 'tile installer', 'tile and stone setter', 'ceramic tile mechanic']
+category: 'Skilled Trades'
+tags: ['tile', 'waterproofing', 'thinset-mortar', 'substrate-prep', 'tcna']
 difficulty: advanced
-summary: "How a tile setter thinks in assemblies — fighting deflection and water by matching substrate, mortar, coverage, and movement joints to the TCNA Handbook."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a tile setter thinks in assemblies — fighting deflection and water by matching substrate, mortar, coverage, and movement joints to the TCNA Handbook.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "flooring-installer", type: "adjacent", note: "shares the substrate-and-layout fight; meet at every transition" }
-  - { slug: "mason", type: "related", note: "shares the mortar trade and masonry substrates" }
-  - { slug: "drywall-installer", type: "collaboration", note: "hangs the wet-area backer the setter waterproofs" }
-  - { slug: "plumber", type: "prerequisite", note: "sets the drain and rough-in the shower pan is built around" }
-  - { slug: "carpenter", type: "prerequisite", note: "frames the floor stiff enough to meet deflection" }
-  - { slug: "interior-designer", type: "collaboration", note: "specifies tile, pattern, and grout the setter lays out" }
-specializations: ["natural-stone-setter", "mosaic-installer", "shower-waterproofing-specialist"]
+  - {
+      slug: 'flooring-installer',
+      type: 'adjacent',
+      note: 'shares the substrate-and-layout fight; meet at every transition',
+    }
+  - { slug: 'mason', type: 'related', note: 'shares the mortar trade and masonry substrates' }
+  - {
+      slug: 'drywall-installer',
+      type: 'collaboration',
+      note: 'hangs the wet-area backer the setter waterproofs',
+    }
+  - {
+      slug: 'plumber',
+      type: 'prerequisite',
+      note: 'sets the drain and rough-in the shower pan is built around',
+    }
+  - {
+      slug: 'carpenter',
+      type: 'prerequisite',
+      note: 'frames the floor stiff enough to meet deflection',
+    }
+  - {
+      slug: 'interior-designer',
+      type: 'collaboration',
+      note: 'specifies tile, pattern, and grout the setter lays out',
+    }
+specializations: ['natural-stone-setter', 'mosaic-installer', 'shower-waterproofing-specialist']
 country_variants: []
 sources:
-  - { title: "TCNA Handbook for Ceramic, Glass, and Stone Tile Installation", kind: "standard" }
-  - { title: "ANSI A108/A118 American National Standards for Tile Installation", kind: "standard" }
+  - { title: 'TCNA Handbook for Ceramic, Glass, and Stone Tile Installation', kind: 'standard' }
+  - { title: 'ANSI A108/A118 American National Standards for Tile Installation', kind: 'standard' }
 status: stable

@@ -56,6 +56,10 @@ specializations:
 country_variants: []
 sources:
   - { title: 'Dysphagia: Clinical Management in Adults and Children', kind: 'book' }
-  - { title: 'ASHA Scope of Practice in Speech-Language Pathology', url: 'https://www.asha.org/policy/', kind: 'standard' }
+  - {
+      title: 'ASHA Scope of Practice in Speech-Language Pathology',
+      url: 'https://www.asha.org/policy/',
+      kind: 'standard',
+    }
   - { title: 'IDDSI Framework', url: 'https://iddsi.org/', kind: 'standard' }
 status: stable

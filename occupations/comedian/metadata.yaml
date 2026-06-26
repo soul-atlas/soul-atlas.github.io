@@ -1,23 +1,27 @@
-title: "Comedian"
-slug: "comedian"
-aliases: ["stand-up comedian", "comic", "humorist"]
-category: "Entertainment"
-tags: ["stand-up", "joke-writing", "timing", "premise", "performance"]
+title: 'Comedian'
+slug: 'comedian'
+aliases: ['stand-up comedian', 'comic', 'humorist']
+category: 'Entertainment'
+tags: ['stand-up', 'joke-writing', 'timing', 'premise', 'performance']
 difficulty: advanced
-summary: "How a comedian engineers laughter reliably — finding the premise, structuring setup and punchline, riding tags and callbacks, and tuning timing against the only judge, the room."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a comedian engineers laughter reliably — finding the premise, structuring setup and punchline, riding tags and callbacks, and tuning timing against the only judge, the room.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "actor", type: "related", note: "shares timing, presence, and embodiment of character" }
-  - { slug: "writer", type: "related", note: "the joke is writing — premise, structure, surprise" }
-  - { slug: "screenwriter", type: "adjacent", note: "comedic structure and the turn at scene level" }
-  - { slug: "voice-actor", type: "adjacent", note: "control of voice, character, and timing" }
-  - { slug: "musician", type: "related", note: "timing, rhythm, and reading a live room" }
-specializations: ["stand-up comedian", "improviser", "comedy writer", "sketch comedian"]
+  - { slug: 'actor', type: 'related', note: 'shares timing, presence, and embodiment of character' }
+  - { slug: 'writer', type: 'related', note: 'the joke is writing — premise, structure, surprise' }
+  - {
+      slug: 'screenwriter',
+      type: 'adjacent',
+      note: 'comedic structure and the turn at scene level',
+    }
+  - { slug: 'voice-actor', type: 'adjacent', note: 'control of voice, character, and timing' }
+  - { slug: 'musician', type: 'related', note: 'timing, rhythm, and reading a live room' }
+specializations: ['stand-up comedian', 'improviser', 'comedy writer', 'sketch comedian']
 country_variants: []
 sources:
-  - { title: "Step by Step to Stand-Up Comedy (Greg Dean)", kind: "book" }
-  - { title: "Born Standing Up (Steve Martin)", kind: "book" }
+  - { title: 'Step by Step to Stand-Up Comedy (Greg Dean)', kind: 'book' }
+  - { title: 'Born Standing Up (Steve Martin)', kind: 'book' }
 status: stable

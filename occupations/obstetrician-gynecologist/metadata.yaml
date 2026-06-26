@@ -12,7 +12,7 @@ tags:
   - surgery
   - medicine
 difficulty: expert
-summary: 'Carries two patients through birth knowing their interests can diverge, manages labor and obstetric emergencies, and treats reproductive disease while keeping preference-sensitive choices genuinely the patient''s own.'
+summary: "Carries two patients through birth knowing their interests can diverge, manages labor and obstetric emergencies, and treats reproductive disease while keeping preference-sensitive choices genuinely the patient's own."
 contributors:
   - 'soul-atlas'
 last_reviewed: '2026-06-26'
@@ -39,11 +39,7 @@ related:
       type: 'adjacent',
       note: 'shares the operative mindset for pelvic surgery and its complications',
     }
-  - {
-      slug: 'oncologist',
-      type: 'collaboration',
-      note: 'co-manages gynecologic cancers',
-    }
+  - { slug: 'oncologist', type: 'collaboration', note: 'co-manages gynecologic cancers' }
 specializations:
   - 'Maternal-Fetal Medicine Specialist'
   - 'Gynecologic Oncologist'
@@ -52,6 +48,6 @@ specializations:
 country_variants: []
 sources:
   - { title: 'Williams Obstetrics', kind: 'book' }
-  - { title: 'Berek & Novak''s Gynecology', kind: 'book' }
+  - { title: "Berek & Novak's Gynecology", kind: 'book' }
   - { title: 'ACOG Practice Bulletins', kind: 'standard' }
 status: stable

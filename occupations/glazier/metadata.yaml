@@ -1,23 +1,49 @@
-title: "Glazier"
-slug: "glazier"
-aliases: ["glass installer", "glazing contractor", "curtain wall installer"]
-category: "Skilled Trades"
-tags: ["glass", "glazing", "curtain-wall", "safety-glazing", "construction"]
+title: 'Glazier'
+slug: 'glazier'
+aliases: ['glass installer', 'glazing contractor', 'curtain wall installer']
+category: 'Skilled Trades'
+tags: ['glass', 'glazing', 'curtain-wall', 'safety-glazing', 'construction']
 difficulty: intermediate
-summary: "How an expert glazier thinks about a brittle material in a moving building, picking glass by how it must break and protecting the seal and the bond that no one can see."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert glazier thinks about a brittle material in a moving building, picking glass by how it must break and protecting the seal and the bond that no one can see.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "ironworker", type: "collaboration", note: "erects the curtain wall mullions the glass sets into" }
-  - { slug: "carpenter", type: "adjacent", note: "sets the window and door frames in residential work" }
-  - { slug: "roofer", type: "related", note: "shares skylight and building-envelope water-shedding detail" }
-  - { slug: "structural-engineer", type: "collaboration", note: "sets the wind and guard loads the glass and its bond must carry" }
-  - { slug: "architect", type: "collaboration", note: "specifies the glass type and facade detail the glazier executes" }
-specializations: ["storefront/commercial glazier", "curtain wall glazier", "residential window and mirror glazier", "auto glass technician"]
+  - {
+      slug: 'ironworker',
+      type: 'collaboration',
+      note: 'erects the curtain wall mullions the glass sets into',
+    }
+  - {
+      slug: 'carpenter',
+      type: 'adjacent',
+      note: 'sets the window and door frames in residential work',
+    }
+  - {
+      slug: 'roofer',
+      type: 'related',
+      note: 'shares skylight and building-envelope water-shedding detail',
+    }
+  - {
+      slug: 'structural-engineer',
+      type: 'collaboration',
+      note: 'sets the wind and guard loads the glass and its bond must carry',
+    }
+  - {
+      slug: 'architect',
+      type: 'collaboration',
+      note: 'specifies the glass type and facade detail the glazier executes',
+    }
+specializations:
+  [
+    'storefront/commercial glazier',
+    'curtain wall glazier',
+    'residential window and mirror glazier',
+    'auto glass technician',
+  ]
 country_variants: []
 sources:
-  - { title: "GANA/NGA Glazing Manual", kind: "book" }
-  - { title: "International Building Code (safety glazing provisions)", kind: "standard" }
+  - { title: 'GANA/NGA Glazing Manual', kind: 'book' }
+  - { title: 'International Building Code (safety glazing provisions)', kind: 'standard' }
 status: stable

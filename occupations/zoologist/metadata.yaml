@@ -1,25 +1,56 @@
-title: "Zoologist"
-slug: "zoologist"
-aliases: ["animal scientist", "ethologist", "animal biologist"]
-category: "Science"
-tags: ["zoology", "animal-behavior", "ethology", "taxonomy", "telemetry"]
+title: Zoologist
+slug: zoologist
+aliases:
+  - animal scientist
+  - ethologist
+  - animal biologist
+category: Science
+tags:
+  - zoology
+  - animal-behavior
+  - ethology
+  - taxonomy
+  - telemetry
 difficulty: advanced
-summary: "How a zoologist describes, classifies, and explains animals and behavior across proximate and ultimate levels while resisting anthropomorphism and observer effects."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: >-
+  How a zoologist describes, classifies, and explains animals and behavior across proximate and
+  ultimate levels while resisting anthropomorphism and observer effects.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "biologist", type: "prerequisite", note: "Evolutionary and physiological frame the zoologist specializes within" }
-  - { slug: "botanist", type: "adjacent", note: "Parallel problems of keys, types, and species concepts in plants" }
-  - { slug: "ecologist", type: "collaboration", note: "Places animal abundance and behavior in community context" }
-  - { slug: "veterinarian", type: "collaboration", note: "Shares welfare ethic and handling skills for captured animals" }
-  - { slug: "geneticist", type: "collaboration", note: "Resolves cryptic species morphology alone cannot separate" }
-  - { slug: "statistician", type: "related", note: "Designs sampling and models autocorrelated movement data" }
-specializations: ["ethologist", "behavioral ecologist", "mammalogist", "ornithologist", "herpetologist"]
+  - slug: biologist
+    type: prerequisite
+    note: Evolutionary and physiological frame the zoologist specializes within
+  - slug: botanist
+    type: adjacent
+    note: Parallel problems of keys, types, and species concepts in plants
+  - slug: ecologist
+    type: collaboration
+    note: Places animal abundance and behavior in community context
+  - slug: veterinarian
+    type: collaboration
+    note: Shares welfare ethic and handling skills for captured animals
+  - slug: geneticist
+    type: collaboration
+    note: Resolves cryptic species morphology alone cannot separate
+  - slug: statistician
+    type: related
+    note: Designs sampling and models autocorrelated movement data
+specializations:
+  - ethologist
+  - behavioral ecologist
+  - mammalogist
+  - ornithologist
+  - herpetologist
 country_variants: []
 sources:
-  - { title: "Animal Behavior: An Evolutionary Approach (Alcock)", kind: "book" }
-  - { title: "Principles of Animal Taxonomy (Simpson)", kind: "book" }
-  - { title: "On Aims and Methods of Ethology (Tinbergen 1963)", kind: "paper" }
+  - title: 'Animal Behavior: An Evolutionary Approach (Alcock)'
+    kind: book
+  - title: Principles of Animal Taxonomy (Simpson)
+    kind: book
+  - title: On Aims and Methods of Ethology (Tinbergen 1963)
+    kind: article
 status: stable

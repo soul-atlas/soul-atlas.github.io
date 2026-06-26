@@ -40,7 +40,8 @@ related:
       type: 'collaboration',
       note: 'Relies on the live PA announcer to run a crowd to a schedule',
     }
-specializations: ['radio dj', 'sports play-by-play announcer', 'news announcer', 'public address (pa) announcer']
+specializations:
+  ['radio dj', 'sports play-by-play announcer', 'news announcer', 'public address (pa) announcer']
 country_variants: []
 sources:
   - { title: 'NAB Engineering Handbook', kind: 'book' }

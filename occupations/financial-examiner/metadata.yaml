@@ -1,24 +1,42 @@
-title: "Financial Examiner"
-slug: "financial-examiner"
-aliases: ["bank examiner", "credit union examiner", "regulatory examiner"]
-category: "Finance"
-tags: ["bank-supervision", "camels", "aml-bsa", "safety-soundness", "regulation"]
-difficulty: "advanced"
-summary: "How a bank examiner thinks: read CAMELS as a causal system, judge management as the lead indicator, stress capital against concentrations and funding runs, and force correction before depositors pay."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+title: 'Financial Examiner'
+slug: 'financial-examiner'
+aliases: ['bank examiner', 'credit union examiner', 'regulatory examiner']
+category: 'Finance'
+tags: ['bank-supervision', 'camels', 'aml-bsa', 'safety-soundness', 'regulation']
+difficulty: 'advanced'
+summary: 'How a bank examiner thinks: read CAMELS as a causal system, judge management as the lead indicator, stress capital against concentrations and funding runs, and force correction before depositors pay.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "auditor", type: "adjacent", note: "verifies statements privately; the examiner judges institutional risk" }
-  - { slug: "tax-examiner", type: "related", note: "the other government enforcement examiner" }
-  - { slug: "compliance-officer", type: "collaboration", note: "runs the BSA/AML and consumer programs the examiner tests" }
-  - { slug: "economist", type: "related", note: "models systemic and macro stress scenarios" }
-  - { slug: "loan-officer", type: "adjacent", note: "originates the credits the examiner classifies" }
-  - { slug: "actuary", type: "related", note: "shares forward-looking risk-modeling discipline" }
-specializations: ["safety and soundness", "BSA/AML and sanctions", "consumer compliance and fair lending", "capital markets and interest-rate risk"]
+  - {
+      slug: 'auditor',
+      type: 'adjacent',
+      note: 'verifies statements privately; the examiner judges institutional risk',
+    }
+  - { slug: 'tax-examiner', type: 'related', note: 'the other government enforcement examiner' }
+  - {
+      slug: 'compliance-officer',
+      type: 'collaboration',
+      note: 'runs the BSA/AML and consumer programs the examiner tests',
+    }
+  - { slug: 'economist', type: 'related', note: 'models systemic and macro stress scenarios' }
+  - {
+      slug: 'loan-officer',
+      type: 'adjacent',
+      note: 'originates the credits the examiner classifies',
+    }
+  - { slug: 'actuary', type: 'related', note: 'shares forward-looking risk-modeling discipline' }
+specializations:
+  [
+    'safety and soundness',
+    'BSA/AML and sanctions',
+    'consumer compliance and fair lending',
+    'capital markets and interest-rate risk',
+  ]
 country_variants: []
 sources:
-  - { title: "Uniform Financial Institutions Rating System (CAMELS)", kind: "standard" }
-  - { title: "Bank Secrecy Act and AML Examination Manual", kind: "book" }
+  - { title: 'Uniform Financial Institutions Rating System (CAMELS)', kind: 'standard' }
+  - { title: 'Bank Secrecy Act and AML Examination Manual', kind: 'book' }
 status: stable

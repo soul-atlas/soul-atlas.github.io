@@ -1,6 +1,7 @@
 title: 'Interpreter'
 slug: 'interpreter'
-aliases: ['Conference Interpreter', 'Court Interpreter', 'Medical Interpreter', 'Simultaneous Interpreter']
+aliases:
+  ['Conference Interpreter', 'Court Interpreter', 'Medical Interpreter', 'Simultaneous Interpreter']
 category: 'Creative'
 tags: ['interpreting', 'simultaneous', 'consecutive', 'fidelity', 'language-mediation']
 difficulty: 'expert'
@@ -40,7 +41,13 @@ related:
       type: 'adjacent',
       note: 'Shares close attention to register and meaning, on text with a second draft',
     }
-specializations: ['conference interpreter', 'court interpreter', 'medical interpreter', 'sign-language interpreter']
+specializations:
+  [
+    'conference interpreter',
+    'court interpreter',
+    'medical interpreter',
+    'sign-language interpreter',
+  ]
 country_variants: []
 sources:
   - { title: 'Conference Interpreting: A Complete Course (Setton & Dawrant)', kind: 'book' }

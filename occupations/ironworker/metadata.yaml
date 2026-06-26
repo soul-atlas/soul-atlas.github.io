@@ -1,23 +1,49 @@
-title: "Ironworker"
-slug: "ironworker"
-aliases: ["structural ironworker", "steel erector", "rebar/reinforcing ironworker"]
-category: "Skilled Trades"
-tags: ["steel-erection", "rigging", "bolting", "fall-protection", "construction"]
+title: 'Ironworker'
+slug: 'ironworker'
+aliases: ['structural ironworker', 'steel erector', 'rebar/reinforcing ironworker']
+category: 'Skilled Trades'
+tags: ['steel-erection', 'rigging', 'bolting', 'fall-protection', 'construction']
 difficulty: advanced
-summary: "How an expert ironworker thinks in stable structural states and engineered connections, keeping a half-built frame standing while tensioning every bolt to spec at lethal height."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert ironworker thinks in stable structural states and engineered connections, keeping a half-built frame standing while tensioning every bolt to spec at lethal height.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "welder", type: "collaboration", note: "joins moment connections; many ironworkers weld their own" }
-  - { slug: "structural-engineer", type: "prerequisite", note: "designs the frame, connection details, and erection sequence" }
-  - { slug: "heavy-equipment-operator", type: "collaboration", note: "the crane operator is the ironworker's partner on every pick" }
-  - { slug: "glazier", type: "adjacent", note: "hangs curtain wall on the steel the ironworker erects" }
-  - { slug: "carpenter", type: "related", note: "shares the framing-the-skeleton mindset in a different material" }
-specializations: ["structural (erection) ironworker", "reinforcing (rebar) ironworker", "ornamental/architectural ironworker", "rigger/machinery mover"]
+  - {
+      slug: 'welder',
+      type: 'collaboration',
+      note: 'joins moment connections; many ironworkers weld their own',
+    }
+  - {
+      slug: 'structural-engineer',
+      type: 'prerequisite',
+      note: 'designs the frame, connection details, and erection sequence',
+    }
+  - {
+      slug: 'heavy-equipment-operator',
+      type: 'collaboration',
+      note: "the crane operator is the ironworker's partner on every pick",
+    }
+  - {
+      slug: 'glazier',
+      type: 'adjacent',
+      note: 'hangs curtain wall on the steel the ironworker erects',
+    }
+  - {
+      slug: 'carpenter',
+      type: 'related',
+      note: 'shares the framing-the-skeleton mindset in a different material',
+    }
+specializations:
+  [
+    'structural (erection) ironworker',
+    'reinforcing (rebar) ironworker',
+    'ornamental/architectural ironworker',
+    'rigger/machinery mover',
+  ]
 country_variants: []
 sources:
-  - { title: "AISC Steel Construction Manual", kind: "book" }
-  - { title: "OSHA 29 CFR 1926 Subpart R (Steel Erection)", kind: "standard" }
+  - { title: 'AISC Steel Construction Manual', kind: 'book' }
+  - { title: 'OSHA 29 CFR 1926 Subpart R (Steel Erection)', kind: 'standard' }
 status: stable

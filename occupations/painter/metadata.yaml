@@ -1,23 +1,41 @@
-title: "Painter"
-slug: "painter"
-aliases: ["painter and decorator", "coatings applicator", "house painter"]
-category: "Skilled Trades"
-tags: ["coatings", "surface-prep", "adhesion", "finishing", "construction"]
+title: 'Painter'
+slug: 'painter'
+aliases: ['painter and decorator', 'coatings applicator', 'house painter']
+category: 'Skilled Trades'
+tags: ['coatings', 'surface-prep', 'adhesion', 'finishing', 'construction']
 difficulty: intermediate
-summary: "How a master painter thinks in coating systems and adhesion, wins the job in the prep nobody sees, and hits a target film thickness rather than a color."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a master painter thinks in coating systems and adhesion, wins the job in the prep nobody sees, and hits a target film thickness rather than a color.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "carpenter", type: "collaboration", note: "builds and installs the trim and doors the painter finishes" }
-  - { slug: "mason", type: "adjacent", note: "masonry and its sealers share the exterior envelope" }
-  - { slug: "interior-designer", type: "collaboration", note: "specifies the color and sheen the painter realizes" }
-  - { slug: "roofer", type: "adjacent", note: "both fight water and UV on the building envelope" }
-  - { slug: "chemist", type: "related", note: "coating cure, adhesion, and film chemistry are applied surface chemistry" }
-specializations: ["residential repaint", "commercial/industrial coatings", "automotive/refinish painter", "decorative and faux finisher"]
+  - {
+      slug: 'carpenter',
+      type: 'collaboration',
+      note: 'builds and installs the trim and doors the painter finishes',
+    }
+  - { slug: 'mason', type: 'adjacent', note: 'masonry and its sealers share the exterior envelope' }
+  - {
+      slug: 'interior-designer',
+      type: 'collaboration',
+      note: 'specifies the color and sheen the painter realizes',
+    }
+  - { slug: 'roofer', type: 'adjacent', note: 'both fight water and UV on the building envelope' }
+  - {
+      slug: 'chemist',
+      type: 'related',
+      note: 'coating cure, adhesion, and film chemistry are applied surface chemistry',
+    }
+specializations:
+  [
+    'residential repaint',
+    'commercial/industrial coatings',
+    'automotive/refinish painter',
+    'decorative and faux finisher',
+  ]
 country_variants: []
 sources:
-  - { title: "SSPC: The Society for Protective Coatings standards", kind: "standard" }
-  - { title: "Painting and Decorating Craftsman's Manual (PDCA)", kind: "book" }
+  - { title: 'SSPC: The Society for Protective Coatings standards', kind: 'standard' }
+  - { title: "Painting and Decorating Craftsman's Manual (PDCA)", kind: 'book' }
 status: stable

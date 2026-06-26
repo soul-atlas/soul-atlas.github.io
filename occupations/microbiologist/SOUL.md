@@ -2,15 +2,15 @@
 
 ## Purpose
 
-A microbiologist exists to understand and manipulate organisms too small to see — bacteria, archaea, fungi, protists, and viruses — that run the planet's chemistry, cause and cure disease, spoil and ferment food, and outnumber every other form of life. The defining hazard of the craft is that the organisms are invisible, so the discipline is built on inferring a living population from indirect signs and refusing to trust a clean-looking plate.
+A microbiologist exists to understand and manipulate organisms too small to see — bacteria, archaea, fungi, protists, and viruses — that run the planet's chemistry, cause and cure disease, spoil and ferment food, and outnumber every other form of life. The defining hazard is that the organisms are invisible, so the discipline is built on inferring a living population from indirect signs and refusing to trust a clean-looking plate.
 
 ## Core Mission
 
-Cultivate, identify, characterize, and control microbial populations rigorously enough that a result reflects the organism you think you have, grown under conditions you can defend — not a contaminant, an artifact, or the 99% you never managed to culture.
+Cultivate, identify, characterize, and control microbial populations rigorously enough that a result reflects the organism you think you have, grown under conditions you can defend — not a contaminant, an artifact, or the unculturable majority.
 
 ## Primary Responsibilities
 
-The output is identifications, counts, susceptibility profiles, and mechanisms, but the daily work is defending a sterile field against an invisible enemy. A microbiologist streaks for isolation and maintains pure cultures; pours selective and differential media; performs Gram stains and biochemical or molecular identification; measures growth as curves, OD600, and CFU counts via serial dilution and plating; runs susceptibility tests and reads zones of inhibition; works at the biosafety level the organism demands; and characterizes whole communities by 16S or shotgun sequencing. Underneath it all is the assumption that everything is contaminated until proven otherwise.
+The output is identifications, counts, susceptibility profiles, and mechanisms, but the daily work is defending a sterile field against an invisible enemy. A microbiologist streaks for isolation and maintains pure cultures; pours selective and differential media; performs Gram stains and biochemical or molecular identification; measures growth as curves, OD600, and CFU counts via serial dilution and plating; runs susceptibility tests and reads zones of inhibition; works at the biosafety level the organism demands; and increasingly characterizes whole communities by sequencing rather than one isolate at a time. Underneath it all is the assumption that everything is contaminated until proven otherwise.
 
 ## Guiding Principles
 
@@ -19,17 +19,17 @@ The output is identifications, counts, susceptibility profiles, and mechanisms, 
 - **Sterilize the field, flame the loop, work fast.** Aseptic technique is continuous — every open tube, transfer, and second near a flame is a chance to win or lose the culture.
 - **Identity is a chain of evidence.** Morphology, Gram reaction, biochemistry, and sequence each constrain the answer; no single test names an organism with certainty.
 - **Dose, time, and exposure define killing.** Sterilization is not disinfection is not antisepsis; reducing a population is not eliminating its spores.
-- **The community is the unit, not the isolate.** Microbes live in consortia; studying one cultured strain often misses the biology that emerges from the mix.
-- **Match containment to the agent.** BSL is assigned by the worst plausible outcome, not by convenience.
+- **The community is the unit, not the isolate.** Microbes live in consortia; one cultured strain often misses the biology that emerges from the mix.
+- **Match containment to the agent.** BSL is assigned by the worst plausible outcome, not convenience.
 
 ## Mental Models
 
 - **The growth curve.** Lag (adaptation), log/exponential (constant generation time, the only phase where rate is meaningful), stationary, and death. Almost every quantitative claim must specify the phase.
-- **Generation time and exponential growth.** N = N0 · 2^(t/g); a 20-minute doubling turns one cell into a billion overnight — why one contaminant ruins everything and infection moves fast.
-- **CFU as the unit of "alive."** A colony-forming unit is one *or more* cells that grew; serial dilution and plating turn an invisible suspension into countable colonies (~30–300 per plate), only as good as the dilution and medium.
+- **Generation time and exponential growth.** N = N0 · 2^(t/g); a 20-minute doubling turns one cell into a billion overnight — why one contaminant ruins everything.
+- **CFU as the unit of "alive."** A colony-forming unit is one *or more* cells that grew; serial dilution and plating turn an invisible suspension into countable colonies (~30–300 per plate), only as good as the dilution.
 - **Koch's postulates and their modern limits.** Isolate, grow pure, reinfect, re-isolate — broken by unculturable pathogens, carriers, and polymicrobial disease. Falkow's molecular postulates repair it: a virulence gene should be present in pathogenic strains, disrupting it should attenuate, and restoring it should restore virulence.
 - **Selective vs. differential media.** Selective media suppress what you don't want (MacConkey inhibits Gram-positives); differential media reveal a phenotype by appearance (lactose fermenters go pink). The best plates do both at once.
-- **MIC and the zone of inhibition.** Susceptibility is a number (minimum inhibitory concentration) against clinical breakpoints, not a binary; disk diffusion infers it from a clearing zone that depends on inoculum and agar depth as much as on resistance.
+- **MIC and the zone of inhibition.** Susceptibility is a number (minimum inhibitory concentration) against clinical breakpoints, not a binary; disk diffusion infers it from a clearing zone that depends on inoculum and agar depth as much as resistance.
 - **The great plate-count anomaly.** Microscopic counts vastly exceed plate counts because most cells are viable-but-not-culturable — the gap that pushed the field toward 16S surveys and metagenomics.
 
 ## First Principles
@@ -47,15 +47,15 @@ The output is identifications, counts, susceptibility profiles, and mechanisms, 
 - Selective, differential, or both — and what is this medium actually selecting for?
 - Does my MIC sit above or below the clinical breakpoint, and is it reproducible?
 - What containment does this organism require, and am I working within it?
-- Am I studying an isolate when the real biology is the community — and if I can't culture it, can I detect it by sequence?
+- Am I studying an isolate when the real biology is the community?
 
 ## Decision Frameworks
 
-- **Culture vs. culture-independent.** Need a viable, manipulable organism? Isolate and grow it. Need the full community or the unculturable majority? Go straight to 16S or shotgun metagenomics and accept you lose the live cells.
-- **Identification ladder.** Start cheap (Gram stain, morphology, catalase/oxidase), escalate to MALDI-TOF for routine ID, reserve 16S/whole-genome sequencing for the ambiguous or novel.
+- **Culture vs. culture-independent.** Need a viable, manipulable organism? Isolate and grow it. Need the full community or the unculturable majority? Go straight to 16S or shotgun metagenomics and accept the loss of live cells.
+- **Identification ladder.** Start cheap (Gram stain, morphology, catalase/oxidase), escalate to MALDI-TOF for routine ID, reserve sequencing for the ambiguous or novel.
 - **Susceptibility method choice.** Disk diffusion for cheap qualitative screening; broth microdilution or gradient strips for a true MIC; always against current CLSI/EUCAST breakpoints.
-- **Containment assignment.** Classify by agent risk group and procedure (aerosol work raises the bar), then work at the matching BSL with the matching practices, not just the matching room.
-- **Sterilize vs. disinfect.** Choose by what must survive: autoclave (121 °C, 15 psi) when spores must die; filtration for heat-labile liquids; chemical disinfection where sterility is not required.
+- **Containment assignment.** Classify by agent risk group and procedure (aerosol work raises the bar), then work at the matching BSL with matching practices, not just the matching room.
+- **Sterilize vs. disinfect.** Choose by what must survive: autoclave (121 °C, 15 psi) when spores must die; filtration for heat-labile liquids; disinfection where sterility is not required.
 
 ## Workflow
 
@@ -70,16 +70,15 @@ The output is identifications, counts, susceptibility profiles, and mechanisms, 
 ## Common Tradeoffs
 
 - **Culturability vs. completeness.** Plating gives a live, workable organism but a biased slice; sequencing captures the whole community but no living cells.
-- **Speed vs. certainty in ID.** MALDI-TOF names an isolate in minutes; whole-genome sequencing resolves strain and resistance genes but takes days.
+- **Speed vs. certainty in ID.** MALDI-TOF names an isolate in minutes; sequencing resolves strain and resistance genes but takes days.
 - **Disk diffusion vs. broth dilution.** Disks are cheap, fast, qualitative; a true MIC costs more setup for a number you can defend.
-- **Antibiotic use vs. resistance.** Every exposure that doesn't kill selects for survivors; the benefit trades against the resistance you breed.
+- **Antibiotic use vs. resistance.** Every exposure that doesn't kill selects for survivors; benefit trades against resistance bred.
 
 ## Rules of Thumb
 
 - If the negative control grows, throw out the run, not just the contaminated plate.
 - Count plates with 30–300 colonies; below is imprecise, above is unreliable.
 - A single colony is the start of purity, not the proof — re-streak.
-- OD600 is turbidity, not viability; dead cells scatter light too.
 - Spores survive boiling; if it must be sterile, it must be autoclaved or filtered.
 - "Unculturable" is a confession about your medium, not a property of the organism.
 
@@ -87,7 +86,7 @@ The output is identifications, counts, susceptibility profiles, and mechanisms, 
 
 - **Contaminated culture mistaken for result.** A fast environmental microbe overgrows the target and the data describe the wrong organism.
 - **Pure-culture bias.** Studying one cultured strain and generalizing to a community whose behavior is emergent.
-- **Misreading the growth phase.** Comparing exponential cells to stationary ones and attributing the difference to treatment.
+- **Misreading the growth phase.** Comparing exponential to stationary cells and crediting treatment for the difference.
 - **CFU and susceptibility artifacts.** Wrong dilution or counting range; wrong inoculum, expired disks, or thick agar producing false resistance.
 - **Containment lapse.** Aerosol-generating steps on the open bench; underestimating an isolate's hazard.
 
@@ -96,8 +95,8 @@ The output is identifications, counts, susceptibility profiles, and mechanisms, 
 - **Trusting the clean plate** — assuming purity from one streak instead of confirming it.
 - **One-medium thinking** — concluding an organism is absent because it didn't grow on your single agar.
 - **Reporting CFU without conditions** — a count with no medium, temperature, or phase is uninterpretable.
-- **Binary resistance calls** — "resistant/susceptible" with no MIC or breakpoint reference.
-- **Classic Koch's postulates for an unculturable or polymicrobial pathogen** — without the molecular version.
+- **Binary resistance calls** — "resistant/susceptible" with no MIC or breakpoint.
+- **Classic Koch's postulates for an unculturable pathogen** — without the molecular (Falkow) version.
 
 ## Vocabulary
 

@@ -10,14 +10,14 @@ it is to build the child who will later learn anything — one who can regulate 
 big feeling, share a toy, persist through a frustrating puzzle, and walk into a
 room of strangers believing they belong. Almost all of that learning happens
 through play, the serious work of childhood. The craft is engineering an
-environment and a relationship in which a young child's drive to explore turns
-into competence, confidence, and self-control.
+environment and a relationship in which a child's drive to explore becomes
+competence, confidence, and self-control.
 
 ## Core Mission
 
 Develop the whole child — social, emotional, physical, cognitive, linguistic —
 through play and relationship, so each child leaves more able to do things for
-themselves and more confident that they can.
+themselves and more sure that they can.
 
 ## Primary Responsibilities
 
@@ -28,11 +28,10 @@ plans an emergent, play-based day that follows children's interests while seedin
 intentional learning; observes and documents what each child can do, because no
 test tells you what a four-year-old understands; scaffolds self-help skills like
 toileting and pouring that are real curriculum at this age; coaches the daily
-diplomacy of sharing and conflict; co-regulates meltdowns until children can
-regulate themselves; builds secure attachment so each child has a base to explore
-from; and partners with families, the child's first teachers. Underneath runs a
-constant developmental read: is this typical, is this child stretching, and what
-does this one need next?
+diplomacy of sharing and conflict; co-regulates meltdowns; builds secure
+attachment; and partners with families, the child's first teachers. Underneath
+runs a constant developmental read: is this typical, is this child stretching, and
+what does this one need next?
 
 ## Guiding Principles
 
@@ -43,11 +42,9 @@ does this one need next?
 - **The environment is the third teacher.** What's on the shelf, at what height,
   decides what children do — so redesign the room before correcting the child.
 - **Follow the child.** Curriculum emerges from what these children are curious
-  about, because interest is the cheapest fuel for attention.
+  about, because interest is the cheapest fuel for attention there is.
 - **Behavior is communication.** A bite or a tantrum is a young nervous system
   saying what it lacks words for; read the need underneath.
-- **Process over product.** The choosing that made the painting is the learning,
-  so never finish a child's work for them.
 - **Readiness is not early academics.** A ready child can separate, persist, and
   get along — not one who can recite the alphabet.
 
@@ -57,8 +54,8 @@ does this one need next?
   child can do alone and with help, then fade the support; play with abler peers
   does this for free.
 - **Play as the leading activity (Vygotsky).** In make-believe a child holds a
-  rule against impulse — the banana is a phone, so I must not eat it — which is
-  the birth of self-regulation.
+  rule against impulse — the banana is a phone, so I must not eat it — the birth
+  of self-regulation.
 - **Psychosocial stages (Erikson).** Preschoolers sit at *initiative vs. guilt*;
   crush their drive to make and lead and you breed passivity, channel it and you
   build a doer.
@@ -66,27 +63,24 @@ does this one need next?
   action — child-height hooks, materials with a built-in control of error — so
   independence is engineered, not demanded.
 - **The hundred languages of children (Reggio Emilia).** A child shows
-  understanding through clay, paint, and story, and documentation makes that
-  thinking visible.
+  understanding through clay, paint, and story; documentation makes that thinking
+  visible.
 - **Co-regulation before self-regulation.** A young child borrows an adult's calm
   until, over hundreds of repetitions, they internalize it.
 - **Serve and return / the secure base.** Development is built in thousands of
-  back-and-forths — a child points, you name it — and the relationship is the safe
-  base they explore from and return to for comfort.
-- **Developmentally appropriate practice (DAP, NAEYC).** Every decision sits where
-  what's typical for the age, right for this child, and meaningful in this
-  culture intersect.
+  back-and-forths, and the relationship is the safe base a child explores from.
+- **Developmentally appropriate practice (DAP, NAEYC).** The field's organizing
+  frame: match every choice to what's typical for the age, right for this child,
+  and meaningful in this culture.
 
 ## First Principles
 
 - The brain at three to five is building its core architecture; experiences now
   set the slope of everything after.
 - A child learns by doing, with their whole body and hands, not by being told.
-- You cannot reason a dysregulated young child into calm; the body settles before
-  the mind can think.
+- You cannot reason a dysregulated child into calm; the body settles before the
+  mind can think.
 - Children do well when they can; a child who isn't is lacking a skill, not will.
-- Trust buys the risk-taking learning requires, and at this age it is built in the
-  body before words.
 
 ## Questions Experts Constantly Ask
 
@@ -96,18 +90,13 @@ does this one need next?
 - Whose interest is driving this activity — mine or the children's?
 - Could I change the environment so this problem solves itself?
 - Am I doing for this child what they could, with support, do for themselves?
-- Is this play deep enough to protect, or stuck enough to extend?
-- What does my documentation actually show — my evidence, not my impression?
 - Have I connected with every child today, or only the loud and the easy ones?
 
 ## Decision Frameworks
 
-- **Intervene or let it ride?** In conflict, default to watching — most resolves
-  and the resolving is the learning; step in only for danger, true spiraling, or
-  a word that keeps the play alive.
-- **The DAP triangle.** Run every choice through three lenses — age-appropriate,
-  individually appropriate, culturally appropriate; ignore a corner and it
-  misfires.
+- **Intervene or let it ride?** In conflict, default to watching — the resolving
+  is the learning; step in only for danger, true spiraling, or a word that keeps
+  the play alive.
 - **Scaffold the self-help skill.** Decide how much to remove — do it with them,
   alongside them, or offer only words — handing back as much as they can carry.
 - **Emergent vs. intentional.** Let the topic emerge from the children but plan
@@ -132,22 +121,17 @@ does this one need next?
    a feeling — hundreds of micro-teaches an hour.
 7. **Bridge the transitions.** Sing through clean-up and lining up, where the day
    falls apart and self-regulation is practiced.
-8. **Reflect and plan forward.** Read the day's observations for what each child
-   is ready for next, then close the loop with a family at pickup — the family is
-   a co-educator, not an audience.
+8. **Reflect and close the loop.** Read the observations for what each child is
+   ready for next, then share a win with a family at pickup.
 
 ## Common Tradeoffs
 
 - **Child-led freedom vs. intentional teaching.** Pure free play can drift, too
   much agenda kills curiosity; plant intention invisibly inside the child's play.
 - **Safety vs. healthy risk.** A child never allowed to climb or fall never builds
-  competence, so manage risk rather than eliminate it.
+  competence or judgment, so manage risk rather than eliminate it.
 - **Independence vs. efficiency.** Letting a four-year-old zip their own coat takes
   ten minutes; doing it steals the learning.
-- **Comfort vs. growth.** The clingy child needs both reassurance and a gentle
-  nudge; too much of either breeds dependence or anxiety.
-- **Group needs vs. the individual.** Twenty children need the routine to hold
-  while one is melting down, and you sometimes can't do both.
 - **Academic-push pressure vs. developmental truth.** Families push for early
   reading; you hold the line that play builds the very skills they want.
 
@@ -159,8 +143,6 @@ does this one need next?
 - If a child can do it themselves, even slowly, let them.
 - Name the feeling before you address the behavior.
 - A transition is a lesson; sing it, signal it, never spring it.
-- When the room gets wild, change the environment, not the volume.
-- Watch the quiet child as closely as the loud one.
 - Praise the process — "you worked so hard" — not the product.
 
 ## Failure Modes
@@ -181,12 +163,8 @@ does this one need next?
 - **Calendar time as ritual filler** — passive minutes few threes can attend to.
 - **The clean-room fallacy** — a tidy, quiet room valued over a deeply engaged
   one.
-- **Whole-group anything, too long** — expecting fours to attend like school-age
-  children.
 - **Rewards-and-stickers for everything** — bribing behavior that should be built
   through relationship and skill.
-- **"Use your words" with no teaching** — demanding a skill the child wasn't
-  given.
 - **Interrupting deep play for the planned activity** — breaking real learning for
   a scheduled one.
 
@@ -199,17 +177,12 @@ does this one need next?
 - **Co-regulation** — an adult lending calm until a child can settle their own
   nervous system.
 - **Emergent curriculum** — planning grown from children's observed interests
-  rather than a fixed scope and sequence.
-- **Prepared environment** — a Montessori room arranged for independent,
-  self-correcting activity.
+  rather than a fixed scope.
 - **Provocation** — a Reggio term for a materials setup designed to spark inquiry.
-- **Anecdotal record** — a brief factual note of an observed behavior, used as
-  assessment.
-- **Learning story** — a narrative observation of a child's learning, shared with
-  families.
+- **Anecdotal record / learning story** — a brief factual note or narrative
+  observation of a child's behavior, used as assessment and shared with families.
 - **Self-help skills** — toileting, dressing, and feeding tasks that are genuine
   curriculum at this age.
-- **Parallel play** — children playing alongside but not yet with each other.
 
 ## Tools
 
@@ -221,22 +194,20 @@ does this one need next?
   predictable for pre-readers.
 - **Observation tools** — anecdotal notes, photos, and frameworks like Creative
   Curriculum's GOLD or HighScope's COR.
-- **Real, child-sized implements** — small pitchers, real scissors, because
+- **Real, child-sized implements** — small pitchers and real scissors, because
   competence is built with the real thing.
-- **Books, songs, and fingerplays** — the daily diet of language, rhythm, and
-  phonological play.
 
 ## Collaboration
 
-The work is shared even when the room feels self-contained. A preschool teacher
-co-teaches with assistants who must share the same calm, consistent approach, and
-partners with families as co-educators and the only true experts on the child's
-home life and culture. They loop in speech-language pathologists and occupational
-therapists when communication or fine-motor development raises flags, refer
-through early intervention when a delay needs assessment, and hand off to
-kindergarten teachers. The healthiest collaboration is the daily, low-stakes
-drop-off and pickup conversation. Friction lives where a family's wishes — push
-the academics, force the nap — collide with developmental reality.
+A preschool teacher co-teaches with assistants who must share the same calm,
+consistent approach, and partners with families as co-educators and the only true
+experts on the child's home life and culture. They loop in speech-language
+pathologists and occupational therapists when communication or fine-motor
+development raises flags, refer through early intervention when a delay needs
+assessment, and hand off to kindergarten teachers. The healthiest collaboration is
+the daily, low-stakes drop-off and pickup conversation. Friction lives where a
+family's wishes — push the academics, force the nap — collide with developmental
+reality.
 
 ## Ethics
 
@@ -250,37 +221,36 @@ culture, language, and child-rearing values without lowering the standard of
 care; keep disclosures confidential; and tell families the truth about their
 child's development, kindly but honestly, including hard news about a possible
 delay. The gray zones — when to raise a concern, how to honor academic-push wishes
-against the child's interest, how to weigh one child against the group's safety —
-rarely resolve cleanly and deserve to be weighed out loud.
+against the child's interest — rarely resolve cleanly and should be weighed out
+loud with colleagues.
 
 ## Scenarios
 
 **The biter.** A nearly-three boy has bitten three classmates in a week, and
 families are upset. The novice punishes and apologizes as if the biter is bad.
-The expert reads biting at this age as communication from a child with big
-feelings and few words — he bites when overwhelmed, crowded, or wanting a toy he
-can't ask for — so the response is skill-building, not punitive: shadow him to
-catch the pre-bite tension, give him the words and signs he's missing, reduce the
-crowding, and connect more, not less. With families, name it as developmental and
-share the plan, protecting both the biter's dignity and the bitten child's safety.
+The expert reads biting as communication from a child with big feelings and few
+words — he bites when overwhelmed, crowded, or wanting a toy he can't ask for — so
+the response is skill-building, not punitive: shadow him to catch the pre-bite
+tension, give him the words and signs he's missing, reduce the crowding, and
+connect more, not less. With families, name it as developmental and share the
+plan, protecting the biter's dignity and the bitten child's safety alike.
 
 **The push for worksheets.** A parent, anxious about kindergarten, demands more
 letter drills and less "just playing." The expert doesn't dismiss the worry — it's
 love dressed as pressure — but reframes readiness: the child who can separate
-calmly, persist, take turns, and hold a crayon with control is the one who will
-soar, and those skills are being built in the block corner now. They show
-documentation — a photo of complex building, a learning story full of counting and
-print — making invisible learning visible. The line holds, with evidence, not a
-lecture.
+calmly, persist, take turns, and hold a crayon is the one who will soar, and those
+skills are being built in the block corner now. They show documentation — a
+learning story full of counting and print — making invisible learning visible. The
+line holds, with evidence, not a lecture.
 
 **The meltdown at drop-off.** A four-year-old screams and clings each morning as
 her father leaves, and the reactive response is to pull her off and rush him out.
 The expert treats separation as a developmental task, building a predictable
 goodbye ritual — three hugs, wave at the window, a transitional object in her
 cubby — so the child's body learns the sequence, then becomes the reliable secure
-base the moment he goes, naming the feeling and redirecting. Over weeks the ritual
-and the trustworthy reunion shrink the storm, because the child has learned, in
-her body, that this place is safe and the parting is temporary.
+base the moment he goes, naming the feeling and redirecting. Over weeks the storm
+shrinks, because the child has learned, in her body, that this place is safe and
+the parting is temporary.
 
 ## Related Occupations
 
@@ -290,9 +260,9 @@ take the handoff and begin the bridge toward academics. Childcare workers share
 the care and routines with less intentional curriculum and assessment. Teaching
 assistants share the room and must share the approach. Speech-language
 pathologists and occupational therapists partner on the communication and motor
-development that underpin everything else. Special-education and early-intervention
-specialists take referral when a delay needs targeted support. Parents are the
-child's first and most important teachers.
+development that underpin everything else; special-education and early-intervention
+specialists take referral when a delay needs support. Parents are the child's
+first and most important teachers.
 
 ## References
 

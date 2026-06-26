@@ -1,23 +1,49 @@
-title: "Millwright"
-slug: "millwright"
-aliases: ["industrial mechanic", "machinery installer", "maintenance millwright"]
-category: "Skilled Trades"
-tags: ["machinery", "precision-alignment", "vibration", "bearings", "industrial-maintenance"]
+title: 'Millwright'
+slug: 'millwright'
+aliases: ['industrial mechanic', 'machinery installer', 'maintenance millwright']
+category: 'Skilled Trades'
+tags: ['machinery', 'precision-alignment', 'vibration', 'bearings', 'industrial-maintenance']
 difficulty: advanced
-summary: "How an expert millwright thinks in thousandths and vibration signatures, setting heavy machinery on rigid foundations and aligning shafts so they reach design life instead of failing early."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert millwright thinks in thousandths and vibration signatures, setting heavy machinery on rigid foundations and aligning shafts so they reach design life instead of failing early.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "mechanical-engineer", type: "prerequisite", note: "designs the rotating machinery the millwright installs and maintains" }
-  - { slug: "machinist", type: "collaboration", note: "makes the precision shafts, sleeves, and couplings the millwright fits" }
-  - { slug: "welder", type: "collaboration", note: "fabricates and repairs baseplates, frames, and guards" }
-  - { slug: "electrician", type: "adjacent", note: "powers and controls the motors; shares the lockout" }
-  - { slug: "hvac-technician", type: "related", note: "shares rotating-equipment and vibration work at smaller scale" }
-specializations: ["maintenance/reliability millwright", "machinery installation rigger", "vibration analyst", "precision alignment technician"]
+  - {
+      slug: 'mechanical-engineer',
+      type: 'prerequisite',
+      note: 'designs the rotating machinery the millwright installs and maintains',
+    }
+  - {
+      slug: 'machinist',
+      type: 'collaboration',
+      note: 'makes the precision shafts, sleeves, and couplings the millwright fits',
+    }
+  - {
+      slug: 'welder',
+      type: 'collaboration',
+      note: 'fabricates and repairs baseplates, frames, and guards',
+    }
+  - {
+      slug: 'electrician',
+      type: 'adjacent',
+      note: 'powers and controls the motors; shares the lockout',
+    }
+  - {
+      slug: 'hvac-technician',
+      type: 'related',
+      note: 'shares rotating-equipment and vibration work at smaller scale',
+    }
+specializations:
+  [
+    'maintenance/reliability millwright',
+    'machinery installation rigger',
+    'vibration analyst',
+    'precision alignment technician',
+  ]
 country_variants: []
 sources:
-  - { title: "Audel Millwrights and Mechanics Guide", kind: "book" }
-  - { title: "Shaft Alignment Handbook (John Piotrowski)", kind: "book" }
+  - { title: 'Audel Millwrights and Mechanics Guide', kind: 'book' }
+  - { title: 'Shaft Alignment Handbook (John Piotrowski)', kind: 'book' }
 status: stable

@@ -1,0 +1,54 @@
+title: 'Private Investigator'
+slug: 'private-investigator'
+aliases: ['PI', 'Private Detective', 'Private Eye', 'Investigator']
+category: 'Public Service'
+tags: ['surveillance', 'osint', 'skip-tracing', 'evidence', 'investigation']
+difficulty: 'advanced'
+summary: "How a private investigator thinks: build a defensible factual record covertly but always legally, document for the courtroom, and serve the client's real objective without crossing the legal line."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'detective',
+      type: 'adjacent',
+      note: 'Same investigative work but with a badge, warrants, and arrest power',
+    }
+  - {
+      slug: 'police-officer',
+      type: 'adjacent',
+      note: 'The handoff for any matter that turns criminal',
+    }
+  - {
+      slug: 'security-guard',
+      type: 'related',
+      note: 'Shares surveillance and documentation discipline but works overtly',
+    }
+  - {
+      slug: 'lawyer',
+      type: 'collaboration',
+      note: 'Most common client and consumer of the PI report',
+    }
+  - {
+      slug: 'forensic-scientist',
+      type: 'collaboration',
+      note: 'Analyzes the evidence the PI helps gather',
+    }
+  - {
+      slug: 'paralegal',
+      type: 'collaboration',
+      note: 'Coordinates investigative work feeding a case',
+    }
+specializations:
+  [
+    'surveillance-investigator',
+    'insurance-fraud-investigator',
+    'skip-tracer',
+    'corporate-due-diligence-investigator',
+  ]
+country_variants: []
+sources:
+  - { title: 'Surveillance Tradecraft (Peter Jenkins)', kind: 'book' }
+  - { title: 'Gramm-Leach-Bliley Act and state PI-licensing statutes', kind: 'standard' }
+status: stable

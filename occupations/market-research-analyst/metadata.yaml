@@ -1,25 +1,51 @@
-title: "Market Research Analyst"
-slug: "market-research-analyst"
-aliases: ["Market Researcher", "Insights Analyst", "Consumer Insights Specialist"]
-category: "Business"
-tags: ["market-research", "survey-design", "segmentation", "consumer-insights", "research-methods"]
-difficulty: "intermediate"
-summary: "How a market researcher thinks: turning a fuzzy business question into a defensible research design, guarding against bias and unrepresentative samples, and converting evidence into a recommendation."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+title: 'Market Research Analyst'
+slug: 'market-research-analyst'
+aliases: ['Market Researcher', 'Insights Analyst', 'Consumer Insights Specialist']
+category: 'Business'
+tags: ['market-research', 'survey-design', 'segmentation', 'consumer-insights', 'research-methods']
+difficulty: 'intermediate'
+summary: 'How a market researcher thinks: turning a fuzzy business question into a defensible research design, guarding against bias and unrepresentative samples, and converting evidence into a recommendation.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "statistician", type: "prerequisite", note: "supplies the sampling and inference theory the analyst applies" }
-  - { slug: "marketing-manager", type: "collaboration", note: "the internal client whose decisions the research informs" }
-  - { slug: "ux-researcher", type: "adjacent", note: "studies users/product; this studies markets and customers" }
-  - { slug: "business-analyst", type: "related", note: "both translate questions to evidence; market vs. internal focus" }
-  - { slug: "product-manager", type: "collaboration", note: "uses concept and segmentation research to shape product" }
-  - { slug: "economist", type: "adjacent", note: "shares demand and choice modeling foundations" }
-specializations: ["quantitative survey research", "qualitative/focus groups", "conjoint and pricing research", "brand and concept testing"]
+  - {
+      slug: 'statistician',
+      type: 'prerequisite',
+      note: 'supplies the sampling and inference theory the analyst applies',
+    }
+  - {
+      slug: 'marketing-manager',
+      type: 'collaboration',
+      note: 'the internal client whose decisions the research informs',
+    }
+  - {
+      slug: 'ux-researcher',
+      type: 'adjacent',
+      note: 'studies users/product; this studies markets and customers',
+    }
+  - {
+      slug: 'business-analyst',
+      type: 'related',
+      note: 'both translate questions to evidence; market vs. internal focus',
+    }
+  - {
+      slug: 'product-manager',
+      type: 'collaboration',
+      note: 'uses concept and segmentation research to shape product',
+    }
+  - { slug: 'economist', type: 'adjacent', note: 'shares demand and choice modeling foundations' }
+specializations:
+  [
+    'quantitative survey research',
+    'qualitative/focus groups',
+    'conjoint and pricing research',
+    'brand and concept testing',
+  ]
 country_variants: []
 sources:
-  - { title: "Marketing Research (Naresh Malhotra)", kind: "book" }
-  - { title: "The Handbook of Marketing Research (Grover and Vriens)", kind: "book" }
-  - { title: "AAPOR Standard Definitions and Code of Professional Ethics", kind: "standard" }
+  - { title: 'Marketing Research (Naresh Malhotra)', kind: 'book' }
+  - { title: 'The Handbook of Marketing Research (Grover and Vriens)', kind: 'book' }
+  - { title: 'AAPOR Standard Definitions and Code of Professional Ethics', kind: 'standard' }
 status: stable

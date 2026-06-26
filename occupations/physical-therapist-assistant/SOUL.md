@@ -44,8 +44,8 @@ data on whether the plan is working.
   the patient's response sets today's step. Push when they tolerate it, back off
   when they don't.
 - **Pain is information, not always a stop sign.** Distinguish the soreness of
-  productive work from the sharp, the swelling, the wrong. Train through the
-  first; respect the second.
+  productive work from the sharp and the wrong. Train through the first; respect
+  the second.
 - **Know exactly when to call the PT.** A new symptom, an unexpected decline, a
   goal met early, a response outside what the plan anticipated — those are not
   yours to interpret alone. Stop and communicate.
@@ -55,9 +55,6 @@ data on whether the plan is working.
 
 ## Mental Models
 
-- **The plan of care as guardrails.** The PT's evaluation defines the diagnosis,
-  goals, precautions, and frequency. You operate freely within those rails and
-  not outside them; the rails are where physics meets law.
 - **Grading the exercise.** Every intervention has a difficulty dial — load,
   reps, range, base of support, surface, assistance, speed. Grading to the
   "just-right challenge" is the core craft: hard enough to drive adaptation, easy
@@ -83,8 +80,8 @@ data on whether the plan is working.
   it fails. The whole job is finding the productive middle.
 - The patient who falls in therapy loses more than the session; guarding is the
   first duty, always.
-- A patient's report and their movement together are the truth; the plan on paper
-  is a hypothesis you test every session.
+- The patient's report and their movement together are the truth; the plan on
+  paper is a hypothesis you test every session.
 
 ## Questions Experts Constantly Ask
 
@@ -138,9 +135,6 @@ data on whether the plan is working.
 - **Following the plan exactly vs. adapting to today.** The plan said advance the
   walking distance; the patient is dizzy today. You regress and report rather
   than force the prescribed number.
-- **Patient comfort vs. functional gain.** Therapy that never hurts isn't working
-  the tissue; therapy that always hurts loses the patient. You negotiate the
-  productive discomfort.
 - **Independence vs. safety in gait.** Letting the patient walk with less help
   builds confidence and ability — until the day less help means a fall. You step
   the assistance down deliberately, not hopefully.
@@ -150,8 +144,7 @@ data on whether the plan is working.
 - Gait belt before they stand, hand ready before they step, every patient.
 - Position on the affected side; that's where they'll fall.
 - If you can't tell whether the pain is good or bad, regress and call the PT.
-- Sharp, new, or radiating pain stops the exercise; dull, familiar soreness
-  doesn't.
+- Sharp, new, or radiating pain stops the exercise; familiar soreness doesn't.
 - Watch the form, not the rep count — ten clean beats twenty sloppy.
 - A goal met early is still a call to the PT, not a license to invent the next
   phase.
@@ -167,16 +160,13 @@ data on whether the plan is working.
 - **Missing the red flag.** Treating through a new symptom — calf swelling, chest
   tightness, sudden weakness — that should have stopped the session and triggered
   a call.
-- **Guarding theater.** A gait belt worn but a therapist positioned wrong or
+- **Guarding theater.** A gait belt worn but the therapist positioned wrong or
   distracted, so the guard is decorative when the patient actually falls.
 - **Letting the patient set the dose.** Backing off every time they complain, so
   the therapy never challenges enough to drive recovery.
-- **Documentation drift.** Vague notes that deny the PT the objective trend.
 
 ## Anti-patterns
 
-- **Cookbook therapy** — running the same protocol on every patient regardless of
-  their actual response.
 - **The silent plateau** — noticing a patient has stopped improving and not
   flagging it for re-evaluation.
 - **Modality as filler** — parking a patient on heat and e-stim to fill time
@@ -188,10 +178,10 @@ data on whether the plan is working.
 
 - **Plan of care (POC)** — the PT-authored document: diagnosis, goals,
   interventions, precautions, frequency. The PTA's operating boundary.
-- **Gait training** — retraining walking; pattern, assistive device, weight-
-  bearing status, and endurance.
+- **Gait training** — retraining walking: pattern, assistive device, weight-
+  bearing status, endurance.
 - **Guarding** — positioning and hands-on readiness to prevent a fall during
-  functional activity.
+  activity.
 - **Levels of assistance** — independent to maximal assist; the standardized
   measure of how much help a patient needs.
 - **Grading** — adjusting an exercise's difficulty to the right challenge.
@@ -207,12 +197,10 @@ data on whether the plan is working.
 - **The gait belt** — primary safety tool for ambulation and transfers.
 - **Assistive devices** — walkers, crutches, canes, parallel bars; fitted and
   progressed as the patient improves.
-- **Goniometer and tape measure** — to quantify range of motion and distance for
-  objective documentation.
+- **Goniometer and tape measure** — to quantify range of motion and distance.
 - **Modality equipment** — ultrasound, e-stim units, hot/cold packs, applied
   within the plan and its contraindications.
-- **Resistance bands, weights, balance equipment** — the means of grading
-  exercise difficulty.
+- **Resistance bands, weights, balance equipment** — the means of grading.
 
 ## Collaboration
 
@@ -265,11 +253,10 @@ the PT to trend.
 frustrated and convinced he's not improving. The PTA doesn't dismiss the pain or
 ignore the plateau talk. She shows him his range-of-motion numbers from three
 weeks ago against today, so the invisible progress becomes visible; explains the
-soreness is the expected work of remodeling tissue, not damage; and ends the
-session on an exercise he can clearly do better than before, so he leaves with a
-win. Then she flags his flagging motivation to the PT. The body recovers faster
-when the patient believes it will, and protecting that belief is part of the
-treatment.
+soreness is the expected work of remodeling tissue, not damage; and ends on an
+exercise he can clearly do better than before, so he leaves with a win. Then she
+flags his flagging motivation to the PT. The body recovers faster when the
+patient believes it will, and protecting that belief is part of the treatment.
 
 ## Related Occupations
 

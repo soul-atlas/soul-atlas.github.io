@@ -12,7 +12,7 @@ tags:
   - patient-safety
   - movement
 difficulty: intermediate
-summary: 'Implements the physical therapist''s plan of care — guarding gait, grading exercise to the just-right challenge, and knowing the moment a patient''s response means stop and call the PT.'
+summary: "Implements the physical therapist's plan of care — guarding gait, grading exercise to the just-right challenge, and knowing the moment a patient's response means stop and call the PT."
 contributors:
   - 'soul-atlas'
 last_reviewed: '2026-06-26'
@@ -50,5 +50,5 @@ specializations:
 country_variants: []
 sources:
   - { title: 'Therapeutic Exercise: Foundations and Techniques', kind: 'book' }
-  - { title: 'Physical Rehabilitation (O''Sullivan)', kind: 'book' }
+  - { title: "Physical Rehabilitation (O'Sullivan)", kind: 'book' }
 status: stable

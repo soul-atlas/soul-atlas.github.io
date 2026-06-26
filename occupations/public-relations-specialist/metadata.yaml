@@ -1,24 +1,49 @@
-title: "Public Relations Specialist"
-slug: "public-relations-specialist"
-aliases: ["PR Specialist", "Communications Specialist", "Publicist", "Media Relations Manager"]
-category: "Business"
-tags: ["public-relations", "media-relations", "crisis-communications", "reputation", "earned-media"]
+title: 'Public Relations Specialist'
+slug: 'public-relations-specialist'
+aliases: ['PR Specialist', 'Communications Specialist', 'Publicist', 'Media Relations Manager']
+category: 'Business'
+tags: ['public-relations', 'media-relations', 'crisis-communications', 'reputation', 'earned-media']
 difficulty: advanced
 summary: "Treats reputation as a bank account built over years and spent in a crisis, orchestrates the PESO mix knowing earned media's credibility comes from the control you give up, and measures outcomes not AVE."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "journalist", type: "collaboration", note: "The daily counterpart whose deadlines and readers shape every pitch" }
-  - { slug: "marketing-manager", type: "adjacent", note: "Owns the paid and brand side of the PESO mix" }
-  - { slug: "broadcast-journalist", type: "related", note: "Sets the on-camera bar the specialist media-trains spokespeople for" }
-  - { slug: "copywriter", type: "related", note: "Shares the craft of message, headline, and soundbite" }
-  - { slug: "diplomat", type: "adjacent", note: "Practices framing and on-background communication under stakes" }
-  - { slug: "policy-analyst", type: "adjacent", note: "Shapes opinion of institutions through framed disclosure" }
-specializations: ["Crisis Communications", "Media Relations", "Internal Communications", "Investor Relations"]
+  - {
+      slug: 'journalist',
+      type: 'collaboration',
+      note: 'The daily counterpart whose deadlines and readers shape every pitch',
+    }
+  - {
+      slug: 'marketing-manager',
+      type: 'adjacent',
+      note: 'Owns the paid and brand side of the PESO mix',
+    }
+  - {
+      slug: 'broadcast-journalist',
+      type: 'related',
+      note: 'Sets the on-camera bar the specialist media-trains spokespeople for',
+    }
+  - {
+      slug: 'copywriter',
+      type: 'related',
+      note: 'Shares the craft of message, headline, and soundbite',
+    }
+  - {
+      slug: 'diplomat',
+      type: 'adjacent',
+      note: 'Practices framing and on-background communication under stakes',
+    }
+  - {
+      slug: 'policy-analyst',
+      type: 'adjacent',
+      note: 'Shapes opinion of institutions through framed disclosure',
+    }
+specializations:
+  ['Crisis Communications', 'Media Relations', 'Internal Communications', 'Investor Relations']
 country_variants: []
 sources:
-  - { title: "The New Rules of Marketing and PR (David Meerman Scott)", kind: "book" }
-  - { title: "Spin Sucks (Gini Dietrich)", kind: "book" }
+  - { title: 'The New Rules of Marketing and PR (David Meerman Scott)', kind: 'book' }
+  - { title: 'Spin Sucks (Gini Dietrich)', kind: 'book' }
 status: stable

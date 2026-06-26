@@ -39,11 +39,7 @@ related:
       type: 'adjacent',
       note: 'shares the microsurgical mindset of unforgiving tissue',
     }
-  - {
-      slug: 'radiologist',
-      type: 'collaboration',
-      note: 'images the orbit and the visual pathway',
-    }
+  - { slug: 'radiologist', type: 'collaboration', note: 'images the orbit and the visual pathway' }
 specializations:
   - 'Retina Specialist'
   - 'Glaucoma Specialist'
@@ -51,7 +47,7 @@ specializations:
   - 'Pediatric Ophthalmologist'
 country_variants: []
 sources:
-  - { title: 'Kanski''s Clinical Ophthalmology', kind: 'book' }
+  - { title: "Kanski's Clinical Ophthalmology", kind: 'book' }
   - { title: 'The Wills Eye Manual', kind: 'book' }
   - { title: 'AAO Basic and Clinical Science Course', kind: 'standard' }
 status: stable

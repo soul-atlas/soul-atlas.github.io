@@ -1,23 +1,43 @@
-title: "Journalist"
-slug: "journalist"
-aliases: ["reporter", "news writer", "correspondent"]
-category: "Creative"
-tags: ["reporting", "verification", "sourcing", "news-writing", "ethics"]
+title: 'Journalist'
+slug: 'journalist'
+aliases: ['reporter', 'news writer', 'correspondent']
+category: 'Creative'
+tags: ['reporting', 'verification', 'sourcing', 'news-writing', 'ethics']
 difficulty: advanced
-summary: "How a journalist finds the truth, verifies it independently, sources and structures it from the lede down, and weighs public interest against harm under deadline."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a journalist finds the truth, verifies it independently, sources and structures it from the lede down, and weighs public interest against harm under deadline.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "writer", type: "related", note: "shares narrative and revision craft, bound by verifiable fact" }
-  - { slug: "broadcast-journalist", type: "specialization", note: "the same reporting discipline delivered on air and camera" }
-  - { slug: "public-relations-specialist", type: "adjacent", note: "works the same information landscape from the other side" }
-  - { slug: "detective", type: "related", note: "builds cases from evidence and testimony, follows trails" }
-  - { slug: "historian", type: "adjacent", note: "sourcing and corroboration on the long timescale" }
-specializations: ["investigative reporter", "data journalist", "beat reporter", "editor"]
+  - {
+      slug: 'writer',
+      type: 'related',
+      note: 'shares narrative and revision craft, bound by verifiable fact',
+    }
+  - {
+      slug: 'broadcast-journalist',
+      type: 'specialization',
+      note: 'the same reporting discipline delivered on air and camera',
+    }
+  - {
+      slug: 'public-relations-specialist',
+      type: 'adjacent',
+      note: 'works the same information landscape from the other side',
+    }
+  - {
+      slug: 'detective',
+      type: 'related',
+      note: 'builds cases from evidence and testimony, follows trails',
+    }
+  - {
+      slug: 'historian',
+      type: 'adjacent',
+      note: 'sourcing and corroboration on the long timescale',
+    }
+specializations: ['investigative reporter', 'data journalist', 'beat reporter', 'editor']
 country_variants: []
 sources:
-  - { title: "The Elements of Journalism (Kovach & Rosenstiel)", kind: "book" }
-  - { title: "The Associated Press Stylebook", kind: "book" }
+  - { title: 'The Elements of Journalism (Kovach & Rosenstiel)', kind: 'book' }
+  - { title: 'The Associated Press Stylebook', kind: 'book' }
 status: stable

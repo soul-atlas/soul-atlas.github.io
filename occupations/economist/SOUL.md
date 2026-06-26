@@ -70,8 +70,7 @@ constant defense against confounders run underneath everything.
   (behavior changes after it). Insurance and lending live here.
 - **The Lucas critique.** Relationships estimated under one policy regime won't
   hold once policy changes, because people re-optimize. Don't extrapolate
-  reduced-form correlations across a regime shift — the parameters move with the
-  rules.
+  reduced-form correlations across a regime shift.
 - **Game theory and Nash equilibrium.** When payoffs depend on others' choices,
   the outcome is the profile where no one gains by deviating — often jointly worse
   than cooperation (the prisoner's dilemma).
@@ -156,7 +155,6 @@ constant defense against confounders run underneath everything.
 - Always ask "and then what?" — trace the second-round effects.
 - No correlation is causal until you can name the source of exogenous variation.
 - Sunk costs belong in the history book, not the decision.
-- The deadweight loss of a tax rises with the square of the tax rate.
 
 ## Failure Modes
 

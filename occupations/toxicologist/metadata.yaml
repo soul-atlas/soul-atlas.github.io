@@ -1,25 +1,58 @@
-title: "Toxicologist"
-slug: "toxicologist"
-aliases: ["toxicology scientist", "risk assessor", "tox specialist"]
-category: "Science"
-tags: ["toxicology", "dose-response", "risk-assessment", "exposure", "hazard"]
+title: 'Toxicologist'
+slug: 'toxicologist'
+aliases: ['toxicology scientist', 'risk assessor', 'tox specialist']
+category: 'Science'
+tags: ['toxicology', 'dose-response', 'risk-assessment', 'exposure', 'hazard']
 difficulty: expert
-summary: "How an expert places a substance on its dose-response curve, separates hazard from risk, and derives defensible safe levels under honest uncertainty."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert places a substance on its dose-response curve, separates hazard from risk, and derives defensible safe levels under honest uncertainty.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "pharmacologist", type: "adjacent", note: "studies the same dose-response curve at its beneficial end" }
-  - { slug: "chemist", type: "prerequisite", note: "synthesizes and characterizes substances and their metabolites" }
-  - { slug: "biologist", type: "prerequisite", note: "supplies the discipline of controls and mechanism" }
-  - { slug: "epidemiologist", type: "collaboration", note: "supplies human population data grounding animal extrapolation" }
-  - { slug: "public-health-officer", type: "collaboration", note: "translates risk assessments into regulation and limits" }
-  - { slug: "environmental-engineer", type: "adjacent", note: "handles fate and transport of pollutants through the environment" }
-specializations: ["regulatory toxicologist", "environmental toxicologist", "forensic toxicologist", "clinical toxicologist"]
+  - {
+      slug: 'pharmacologist',
+      type: 'adjacent',
+      note: 'studies the same dose-response curve at its beneficial end',
+    }
+  - {
+      slug: 'chemist',
+      type: 'prerequisite',
+      note: 'synthesizes and characterizes substances and their metabolites',
+    }
+  - {
+      slug: 'biologist',
+      type: 'prerequisite',
+      note: 'supplies the discipline of controls and mechanism',
+    }
+  - {
+      slug: 'epidemiologist',
+      type: 'collaboration',
+      note: 'supplies human population data grounding animal extrapolation',
+    }
+  - {
+      slug: 'public-health-officer',
+      type: 'collaboration',
+      note: 'translates risk assessments into regulation and limits',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'adjacent',
+      note: 'handles fate and transport of pollutants through the environment',
+    }
+specializations:
+  [
+    'regulatory toxicologist',
+    'environmental toxicologist',
+    'forensic toxicologist',
+    'clinical toxicologist',
+  ]
 country_variants: []
 sources:
-  - { title: "Casarett & Doull's Toxicology: The Basic Science of Poisons", kind: "book" }
-  - { title: "Principles and Methods of Toxicology (Hayes)", kind: "book" }
-  - { title: "Risk Assessment in the Federal Government: Managing the Process (NRC Red Book)", kind: "standard" }
+  - { title: "Casarett & Doull's Toxicology: The Basic Science of Poisons", kind: 'book' }
+  - { title: 'Principles and Methods of Toxicology (Hayes)', kind: 'book' }
+  - {
+      title: 'Risk Assessment in the Federal Government: Managing the Process (NRC Red Book)',
+      kind: 'standard',
+    }
 status: stable

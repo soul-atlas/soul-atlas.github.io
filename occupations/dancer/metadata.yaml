@@ -1,23 +1,40 @@
-title: "Dancer"
-slug: "dancer"
-aliases: ["ballet dancer", "performing dancer", "contemporary dancer"]
-category: "Entertainment"
-tags: ["dance", "line", "musicality", "technique", "kinesthetic-memory"]
+title: 'Dancer'
+slug: 'dancer'
+aliases: ['ballet dancer', 'performing dancer', 'contemporary dancer']
+category: 'Entertainment'
+tags: ['dance', 'line', 'musicality', 'technique', 'kinesthetic-memory']
 difficulty: expert
-summary: "How a dancer makes technique invisible — producing line, musicality, and feeling through a trained body that controls weight, timing, and breath, and guards a mortal instrument."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a dancer makes technique invisible — producing line, musicality, and feeling through a trained body that controls weight, timing, and breath, and guards a mortal instrument.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "athlete", type: "related", note: "shares daily training, body maintenance, and injury management" }
-  - { slug: "actor", type: "related", note: "performance, presence, and live recovery from error" }
-  - { slug: "musician", type: "collaboration", note: "timing, phrasing, and musicality; dance built inside music" }
-  - { slug: "physical-therapist", type: "collaboration", note: "keeps the instrument working and rehabilitates injuries" }
-  - { slug: "film-director", type: "adjacent", note: "creation and direction of movement and staging" }
-specializations: ["ballet dancer", "contemporary dancer", "commercial/hip-hop dancer", "ballroom dancer"]
+  - {
+      slug: 'athlete',
+      type: 'related',
+      note: 'shares daily training, body maintenance, and injury management',
+    }
+  - { slug: 'actor', type: 'related', note: 'performance, presence, and live recovery from error' }
+  - {
+      slug: 'musician',
+      type: 'collaboration',
+      note: 'timing, phrasing, and musicality; dance built inside music',
+    }
+  - {
+      slug: 'physical-therapist',
+      type: 'collaboration',
+      note: 'keeps the instrument working and rehabilitates injuries',
+    }
+  - {
+      slug: 'film-director',
+      type: 'adjacent',
+      note: 'creation and direction of movement and staging',
+    }
+specializations:
+  ['ballet dancer', 'contemporary dancer', 'commercial/hip-hop dancer', 'ballroom dancer']
 country_variants: []
 sources:
-  - { title: "Basic Principles of Classical Ballet (Agrippina Vaganova)", kind: "book" }
-  - { title: "The Art of Making Dances (Doris Humphrey)", kind: "book" }
+  - { title: 'Basic Principles of Classical Ballet (Agrippina Vaganova)', kind: 'book' }
+  - { title: 'The Art of Making Dances (Doris Humphrey)', kind: 'book' }
 status: stable

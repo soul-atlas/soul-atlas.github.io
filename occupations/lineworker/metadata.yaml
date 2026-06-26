@@ -1,23 +1,52 @@
-title: "Lineworker"
-slug: "lineworker"
-aliases: ["lineman", "power line technician", "line installer-repairer"]
-category: "Skilled Trades"
-tags: ["power-grid", "high-voltage", "energized-work", "grounding", "utility"]
+title: 'Lineworker'
+slug: 'lineworker'
+aliases: ['lineman', 'power line technician', 'line installer-repairer']
+category: 'Skilled Trades'
+tags: ['power-grid', 'high-voltage', 'energized-work', 'grounding', 'utility']
 difficulty: advanced
-summary: "How an expert lineworker keeps the energized grid running and safe, thinking constantly about current paths, minimum approach distance, and proving lines dead before trusting them."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert lineworker keeps the energized grid running and safe, thinking constantly about current paths, minimum approach distance, and proving lines dead before trusting them.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "electrician", type: "adjacent", note: "shares the physics and lockout discipline at utilization voltage indoors" }
-  - { slug: "arborist", type: "collaboration", note: "line-clearance crews keep trees off the conductors lineworkers maintain" }
-  - { slug: "heavy-equipment-operator", type: "collaboration", note: "runs the digger derrick and bucket truck the lineworker depends on" }
-  - { slug: "electrical-engineer", type: "prerequisite", note: "designs the distribution and transmission system lineworkers build and switch" }
-  - { slug: "firefighter", type: "related", note: "shares storm-response and public-hazard work around downed lines" }
-specializations: ["distribution lineworker", "transmission lineworker", "underground/cable splicer", "substation technician"]
+  - {
+      slug: 'electrician',
+      type: 'adjacent',
+      note: 'shares the physics and lockout discipline at utilization voltage indoors',
+    }
+  - {
+      slug: 'arborist',
+      type: 'collaboration',
+      note: 'line-clearance crews keep trees off the conductors lineworkers maintain',
+    }
+  - {
+      slug: 'heavy-equipment-operator',
+      type: 'collaboration',
+      note: 'runs the digger derrick and bucket truck the lineworker depends on',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'prerequisite',
+      note: 'designs the distribution and transmission system lineworkers build and switch',
+    }
+  - {
+      slug: 'firefighter',
+      type: 'related',
+      note: 'shares storm-response and public-hazard work around downed lines',
+    }
+specializations:
+  [
+    'distribution lineworker',
+    'transmission lineworker',
+    'underground/cable splicer',
+    'substation technician',
+  ]
 country_variants: []
 sources:
-  - { title: "IEEE National Electrical Safety Code (NESC, C2)", kind: "standard" }
-  - { title: "OSHA 29 CFR 1910.269 (Electric Power Generation, Transmission, and Distribution)", kind: "standard" }
+  - { title: 'IEEE National Electrical Safety Code (NESC, C2)', kind: 'standard' }
+  - {
+      title: 'OSHA 29 CFR 1910.269 (Electric Power Generation, Transmission, and Distribution)',
+      kind: 'standard',
+    }
 status: stable

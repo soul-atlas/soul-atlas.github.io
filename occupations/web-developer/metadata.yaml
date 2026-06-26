@@ -1,24 +1,52 @@
-title: "Web Developer"
-slug: "web-developer"
-aliases: ["web programmer", "full-stack web developer", "web engineer"]
-category: "Technology"
-tags: ["html-css", "accessibility", "core-web-vitals", "http-caching", "progressive-enhancement"]
+title: Web Developer
+slug: web-developer
+aliases:
+  - web programmer
+  - full-stack web developer
+  - web engineer
+category: Technology
+tags:
+  - html-css
+  - accessibility
+  - core-web-vitals
+  - http-caching
+  - progressive-enhancement
 difficulty: intermediate
-summary: "Thinks of the web as a hostile delivery environment, builds from semantic HTML up via progressive enhancement, and spends the user's bytes and time as scarce resources."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: >-
+  Thinks of the web as a hostile delivery environment, builds from semantic HTML up via progressive
+  enhancement, and spends the user's bytes and time as scarce resources.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "frontend-engineer", type: "adjacent", note: "framework-and-app-architecture focus versus broad open-platform delivery" }
-  - { slug: "backend-engineer", type: "collaboration", note: "partners on APIs, server rendering, and caching" }
-  - { slug: "ux-designer", type: "collaboration", note: "supplies designs made responsive, fast, and accessible" }
-  - { slug: "software-engineer", type: "related", note: "adjacent generalist engineering discipline" }
-  - { slug: "computer-programmer", type: "related", note: "shares implementation craft applied to web technologies" }
-  - { slug: "marketing-manager", type: "adjacent", note: "collaborates on SEO and landing-page performance tradeoffs" }
-specializations: ["accessibility (a11y)", "web performance", "SEO engineering"]
+  - slug: frontend-engineer
+    type: adjacent
+    note: framework-and-app-architecture focus versus broad open-platform delivery
+  - slug: backend-engineer
+    type: collaboration
+    note: partners on APIs, server rendering, and caching
+  - slug: ux-designer
+    type: collaboration
+    note: supplies designs made responsive, fast, and accessible
+  - slug: software-engineer
+    type: related
+    note: adjacent generalist engineering discipline
+  - slug: computer-programmer
+    type: related
+    note: shares implementation craft applied to web technologies
+  - slug: marketing-manager
+    type: adjacent
+    note: collaborates on SEO and landing-page performance tradeoffs
+specializations:
+  - accessibility (a11y)
+  - web performance
+  - SEO engineering
 country_variants: []
 sources:
-  - { title: "MDN Web Docs (Mozilla Developer Network)", kind: "reference" }
-  - { title: "WCAG 2.2 (W3C Web Content Accessibility Guidelines)", kind: "standard" }
+  - title: MDN Web Docs (Mozilla Developer Network)
+    kind: other
+  - title: WCAG 2.2 (W3C Web Content Accessibility Guidelines)
+    kind: standard
 status: stable

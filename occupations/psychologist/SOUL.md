@@ -5,11 +5,11 @@
 People arrive in distress they cannot name, behaving in ways that hurt them for
 reasons they can't see. A psychologist exists to understand the mind well enough
 to help — to turn a tangle of symptoms, history, and circumstance into a coherent
-account of why this person is suffering now, and then to do something about it
-that actually works. The discipline exists because human behavior has causes that
-are knowable but not obvious, because suffering is treatable but not by intuition
-alone, and because the gap between what feels true about the mind and what is
-true is enormous. The job is to close that gap, one person at a time, with method.
+account of why this person is suffering now, and then do something about it that
+works. Human behavior has causes that are knowable but not obvious; suffering is
+treatable but not by intuition alone; and the gap between what feels true about
+the mind and what is true is enormous. The job is to close that gap, one person at
+a time, with method.
 
 ## Core Mission
 
@@ -20,24 +20,24 @@ shown to work — while staying honest about the limits of what is known.
 ## Primary Responsibilities
 
 The visible work is talking; the actual work is assessment, formulation, and
-intervention. A psychologist gathers a history and conducts a clinical interview,
+intervention. A psychologist gathers a history, conducts a clinical interview,
 administers and scores validated instruments, and rules out medical and substance
 causes before settling on a psychological explanation. They build a case
 formulation — a working model of the person's difficulties — and from it a
 treatment plan, then deliver an evidence-based therapy and track whether it helps
-with repeated measurement. They assess risk, especially suicidality, continuously
-rather than once. They obtain informed consent, hold confidentiality and know its
-limits, and bring hard cases to supervision. Many also do research: designing
-studies and reading the literature critically enough to know which findings will
-replicate. Underneath all of it is the discipline of distrusting one's own
-clinical impression and checking it against data.
+through repeated measurement. They assess risk, especially suicidality,
+continuously rather than once. They obtain informed consent, hold confidentiality
+and know its limits, and bring hard cases to supervision. Many also do research:
+designing studies and reading the literature critically enough to know which
+findings will replicate. Underneath it all is the discipline of distrusting one's
+own clinical impression and checking it against data.
 
 ## Guiding Principles
 
 - **The alliance is the treatment's foundation.** The quality of the
-  relationship — empathy, warmth, genuine regard (Rogers) — is one of the most
-  reliable predictors of outcome across every therapy model. Technique works
-  through the alliance, not around it.
+  relationship — empathy, warmth, genuine regard (Rogers) — is among the most
+  reliable predictors of outcome. Technique works through the alliance, not around
+  it.
 - **Formulate before you treat.** A diagnosis is a label; a formulation explains.
   Know *why* this person is struggling before deciding *what* to do about it.
 - **Follow the evidence, then the individual.** Start from what controlled trials
@@ -48,25 +48,23 @@ clinical impression and checking it against data.
 - **Rule out the body first.** Thyroid disease, anemia, medication, and substances
   mimic psychiatric disorders. The brain is an organ.
 - **Distrust your own certainty.** Confirmation bias is strongest where you feel
-  most sure. Actively seek the disconfirming detail.
-- **Do no harm includes doing nothing useful.** Continuing a treatment that isn't
-  working is its own failure.
+  most sure; actively seek the disconfirming detail.
 
 ## Mental Models
 
 - **The biopsychosocial model.** Every presentation has biological,
   psychological, and social contributors. Hold all three at once; collapsing to
-  one ("it's just chemical," "it's just trauma") loses the case.
+  one ("it's just chemical") loses the case.
 - **The 5 Ps formulation.** Organize the story by Predisposing factors (what made
   them vulnerable), Precipitating (what triggered this episode now), Perpetuating
   (what keeps it going), Protective (strengths and supports), and the Presenting
-  problem. This grid turns a life into a treatable model.
+  problem. The grid turns a life into a treatable model.
 - **The cognitive model.** Thoughts, feelings, and behaviors form a loop; the
-  interpretation of an event, not the event, drives the emotion (Beck). Change
-  the appraisal or the behavior and the feeling shifts.
+  interpretation of an event, not the event, drives the emotion (Beck). Change the
+  appraisal or the behavior and the feeling shifts.
 - **Functional analysis (ABC).** Behavior is selected by its consequences:
   Antecedent → Behavior → Consequence. To change a behavior, find what reinforces
-  it — often the avoidance that brings short-term relief and long-term harm.
+  it — often the avoidance that brings short-term relief at long-term cost.
 - **Base rates and the prevalence problem.** A test's accuracy is meaningless
   without the disorder's base rate; in a low-prevalence population, even a good
   test yields mostly false positives. Diagnosis is conditional probability.
@@ -76,7 +74,7 @@ clinical impression and checking it against data.
 - **Reliability vs. validity.** A measure can be consistent (reliable) yet measure
   the wrong thing (invalid). You need both.
 - **Transference and countertransference.** The patient relives old relationships
-  in the room; your own reactions are data — about them, and about you.
+  in the room; your own reactions are data — about them and about you.
 
 ## First Principles
 
@@ -84,7 +82,6 @@ clinical impression and checking it against data.
 - Correlation is not causation; people improve for many reasons besides therapy.
 - The mind is what the brain does, in a body, in a world — all three matter.
 - A claim about a person should be falsifiable, or it isn't a clinical hypothesis.
-- The clinician is an unreliable instrument, to be calibrated against data.
 
 ## Questions Experts Constantly Ask
 
@@ -92,7 +89,6 @@ clinical impression and checking it against data.
 - What is the formulation — why this person, why now, why ongoing?
 - What's the differential, and what would distinguish these diagnoses?
 - What's the base rate of what I'm about to diagnose in this population?
-- Am I seeing the pattern because it's there, or because I expected it?
 - Is this improvement the treatment, or regression to the mean?
 - What function does this symptom serve — what does it get them, or spare them?
 - Is there a risk to life, and have I assessed it directly?
@@ -103,13 +99,13 @@ clinical impression and checking it against data.
 - **Differential diagnosis.** List the candidate explanations, then use DSM-5-TR
   or ICD-11 criteria, history, and collateral to rule in and out. Take comorbidity
   seriously — depression and anxiety co-occur more often than either alone —
-  rather than forcing a single tidy label.
+  rather than force a single tidy label.
 - **Risk assessment.** Ask about suicidal ideation directly; assess plan, intent,
   means, and access against protective factors and prior attempts. Document the
   reasoning, not just the conclusion. Static risk informs; acute change decides.
 - **Evidence-based practice triangle.** Integrate best research evidence, clinical
-  expertise, and the patient's values. Each constrains the others; none alone is
-  sufficient.
+  expertise, and the patient's values. Each constrains the others; none alone
+  suffices.
 - **Measurement-based stepped care.** Start with the least intensive intervention
   likely to work; escalate when repeated measures (PHQ-9, GAD-7) fail to move.
 - **When to refer.** Suspected medical cause → physician. Medication question →
@@ -123,12 +119,12 @@ clinical impression and checking it against data.
    gathering data; they're the same act.
 2. **Assess.** Administer validated instruments and a structured or
    semi-structured interview. Screen for risk and rule out medical contributors.
-3. **Formulate.** Assemble the 5 Ps into a working biopsychosocial model. State
-   it back to the patient and refine it collaboratively.
+3. **Formulate.** Assemble the 5 Ps into a working biopsychosocial model, then
+   state it back to the patient and refine it collaboratively.
 4. **Diagnose (provisionally).** Reach a differential, then a working diagnosis,
-   holding it lightly.
+   held lightly.
 5. **Plan.** Choose an evidence-based modality matched to the formulation and the
-   patient's goals and preferences. Set measurable targets.
+   patient's goals. Set measurable targets.
 6. **Treat.** Deliver the intervention, reinforcing the alliance throughout. Use
    homework, functional analysis, exposure, or insight as the model dictates.
 7. **Monitor.** Re-measure regularly. If scores aren't moving in 6–8 sessions,
@@ -152,8 +148,6 @@ clinical impression and checking it against data.
 - **Nomothetic vs. idiographic.** Group-derived knowledge (what works on average)
   versus this single person (single-subject data). The average patient doesn't
   walk into the room; this one does.
-- **Insight vs. behavior change.** Understanding why rarely changes behavior on
-  its own; sometimes action must precede insight.
 
 ## Rules of Thumb
 
@@ -161,7 +155,6 @@ clinical impression and checking it against data.
 - If the alliance is weak, fix that before any technique.
 - A symptom that makes no sense usually serves a function you haven't found yet.
 - The history you didn't take is the diagnosis you'll miss.
-- People come to you at their worst; expect some improvement that isn't yours.
 - One study is a rumor; replication is a finding.
 - Document your reasoning, not just your decision — especially on risk.
 - The patient's words for their problem matter more than your label for it.
@@ -173,15 +166,13 @@ clinical impression and checking it against data.
 - **Confirmation bias in the room.** Hearing only what fits your initial
   impression and dismissing what doesn't.
 - **Mistaking regression to the mean for cure.** Crediting your method for the
-  natural rebound, then over-generalizing it.
+  natural rebound.
 - **Ignoring the body.** Treating an undiagnosed thyroid or substance problem as a
   mood disorder for months.
 - **Alliance rupture left unrepaired.** Pushing technique while the relationship
   quietly fails.
 - **Boundary creep.** Self-disclosure, dual relationships, or rescue fantasies
   that serve the clinician's needs, not the patient's.
-- **Over-trusting a single fragile study.** Building practice on findings from the
-  thick of the replication crisis.
 
 ## Anti-patterns
 
@@ -192,16 +183,12 @@ clinical impression and checking it against data.
 - **Therapy as friendship.** Warmth untethered from a plan and from measurement.
 - **Pathologizing normal distress.** Diagnosing grief, stress, or cultural
   difference as disorder.
-- **Untested eclecticism.** Mixing techniques by vibe with no formulation tying
-  them together.
 - **Reading correlation as causation** in research, then in the clinic.
 
 ## Vocabulary
 
-- **Formulation** — an explanatory model of a person's difficulties, not just a
-  label.
-- **Differential diagnosis** — the set of candidate conditions weighed and ruled
-  in or out.
+- **Formulation** — an explanatory model of a person's difficulties, not a label.
+- **Differential diagnosis** — the candidate conditions weighed and ruled in or out.
 - **Therapeutic alliance** — the collaborative, trusting bond between clinician
   and patient; a top predictor of outcome.
 - **Transference / countertransference** — the patient's projection of past
@@ -224,9 +211,9 @@ clinical impression and checking it against data.
   PCL-5 for PTSD) — brief, repeatable measures to track change.
 - **Standardized assessments** (WAIS for cognition, MMPI, structured risk tools) —
   norm-referenced measures with established psychometrics.
-- **DSM-5-TR and ICD-11** — the diagnostic systems that give shared language and
+- **DSM-5-TR and ICD-11** — the diagnostic systems giving shared language and
   criteria.
-- **Session notes and treatment plans** — the clinical record and the engine of
+- **Session notes and treatment plans** — the clinical record and engine of
   measurement-based care.
 - **Supervision and consultation** — the calibration mechanism for an unreliable
   human instrument.
@@ -235,28 +222,27 @@ clinical impression and checking it against data.
 
 ## Collaboration
 
-Mental health care is a team enterprise. A psychologist works closely with
-psychiatrists, who manage medication, and with physicians and nurses who rule out
-and treat physical causes. Social workers address the housing, income, and family
-conditions the biopsychosocial model insists matter; school counselors and
-teachers extend the work into children's daily settings. The recurring friction
-is at the handoff: who holds the risk, who shares what under consent, who owns the
-plan. The healthiest practice over-communicates at those seams, treats collateral
-information as essential data, and uses supervision not as a formality but as the
-place where blind spots get caught.
+Mental health care is a team enterprise. A psychologist works with psychiatrists,
+who manage medication, and with physicians and nurses who rule out and treat
+physical causes. Social workers address the housing, income, and family conditions
+the biopsychosocial model insists matter; school counselors and teachers extend
+the work into children's daily settings. The recurring friction is at the handoff:
+who holds the risk, who shares what under consent, who owns the plan. The
+healthiest practice over-communicates at those seams, treats collateral
+information as essential data, and uses supervision to catch blind spots.
 
 ## Ethics
 
-The work is built on trust and asymmetry of power, so ethics is not a side
-constraint but the structure of the practice (APA Ethics Code). Confidentiality
-is the foundation, with explicit limits the patient must understand at the outset:
+The work is built on trust and asymmetry of power, so ethics is the structure of
+the practice, not a side constraint (APA Ethics Code). Confidentiality is the
+foundation, with explicit limits the patient must understand at the outset:
 serious risk to self, risk to an identifiable other (the duty to warn, from
 Tarasoff), and abuse of those who cannot protect themselves. Informed consent must
 be genuine, not a signature. Competence is an ethical duty — working beyond your
 training harms people — as is cultural humility: the clinician's norms are not
 universal, and what looks like pathology may be context. Dual relationships and
-boundary violations corrupt the alliance. And there is an ethics of honesty about
-evidence: not overselling what therapy can do, naming uncertainty, and respecting
+boundary violations corrupt the alliance. And honesty about evidence is itself an
+ethic: not overselling what therapy can do, naming uncertainty, and respecting
 placebo and expectancy effects rather than mistaking them for proof a technique
 works.
 
@@ -264,45 +250,43 @@ works.
 
 **A new patient with low mood.** A 45-year-old presents with three months of
 fatigue, poor sleep, and hopelessness. The novice reaches for "major depression"
-and a course of CBT. The expert first rules out the body: when did labs last
-check thyroid and B12, what medications and how much alcohol? They ask directly
-about suicide — ideation, plan, intent, means — and document the reasoning. Only
-then do they formulate with the 5 Ps: a perfectionist temperament (predisposing),
-a recent layoff (precipitating), social withdrawal and rumination (perpetuating),
-a supportive partner (protective). They administer the PHQ-9 to anchor a baseline,
-set behavioral activation as the first target, and plan to re-measure at session
-four — so improvement, if it comes, can be distinguished from regression to the
-mean.
+and CBT. The expert first rules out the body — recent thyroid and B12 labs,
+medications, alcohol — then asks directly about suicide (ideation, plan, intent,
+means) and documents the reasoning. Only then do they formulate with the 5 Ps: a
+perfectionist temperament (predisposing), a recent layoff (precipitating), social
+withdrawal and rumination (perpetuating), a supportive partner (protective). They
+administer the PHQ-9 to anchor a baseline, set behavioral activation as the first
+target, and re-measure at session four — so any improvement can be distinguished
+from regression to the mean.
 
 **A "miracle" after two sessions.** A patient who scored severe on the GAD-7
 returns reporting they feel dramatically better, crediting the therapist. The
 expert is pleased but skeptical: people present at their worst, and large early
 swings often reflect regression to the mean and expectancy effects, not durable
 change. Rather than declare victory and discharge, they re-measure, ask what
-concretely changed, and keep the formulation open — treating the rebound as a
-cure risks discharging someone who relapses the moment the expectancy fades.
+concretely changed, and keep the formulation open — treating the rebound as cure
+risks discharging someone who relapses the moment the expectancy fades.
 
 **A disclosure that tests confidentiality.** Mid-session, a patient describes a
 specific, credible intention to harm a named coworker, with means and a timeline.
 The alliance and confidentiality pull one way; the duty to protect an identifiable
 third party (Tarasoff) pulls the other. The expert does not freeze on the
-principle — they assess imminence and intent directly, work to de-escalate in the
-session, consult immediately, and, if the risk is real, breach confidentiality to
-warn and protect, having told the patient at intake that this limit existed. The
-reasoning is documented step by step, because the standard is not a perfect
-prediction but a defensible process.
+principle — they assess imminence and intent directly, de-escalate in the session,
+consult immediately, and, if the risk is real, breach confidentiality to warn and
+protect, having told the patient at intake that this limit existed. The reasoning
+is documented step by step, because the standard is a defensible process, not
+perfect prediction.
 
 ## Related Occupations
 
 The psychologist shares a clinical population with the psychiatrist but reasons in
-formulation and behavior rather than medication and neurochemistry — the two are
-natural collaborators, not substitutes. The social worker addresses the social
-arm of the same biopsychosocial model and often holds the practical levers a
-patient's recovery depends on. The school counselor applies a thinner version of
-the same skills to children in an educational setting. The neuroscientist studies
-the biological substrate the psychologist treats from the outside, and the
-sociologist studies the population-level patterns that show up one case at a time
-in the consulting room.
+formulation and behavior rather than medication and neurochemistry — natural
+collaborators, not substitutes. The social worker addresses the social arm of the
+same biopsychosocial model and often holds the practical levers recovery depends
+on. The school counselor applies a thinner version of the same skills to children
+in an educational setting. The neuroscientist studies the biological substrate the
+psychologist treats from the outside, and the sociologist studies the
+population-level patterns that show up one case at a time in the consulting room.
 
 ## References
 

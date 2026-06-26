@@ -1,24 +1,48 @@
-title: "Computer Systems Analyst"
-slug: "computer-systems-analyst"
-aliases: ["systems analyst", "IT business systems analyst", "solutions analyst"]
-category: "Technology"
-tags: ["requirements", "fit-gap", "feasibility", "process-modeling", "systems-integration"]
+title: 'Computer Systems Analyst'
+slug: 'computer-systems-analyst'
+aliases: ['systems analyst', 'IT business systems analyst', 'solutions analyst']
+category: 'Technology'
+tags: ['requirements', 'fit-gap', 'feasibility', 'process-modeling', 'systems-integration']
 difficulty: advanced
-summary: "Thinks by tracing every requirement to a business outcome, costing the do-nothing option, and defaulting to buy over build with TCO as the honest number."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'Thinks by tracing every requirement to a business outcome, costing the do-nothing option, and defaulting to buy over build with TCO as the honest number.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "business-analyst", type: "adjacent", note: "shares elicitation craft; BA owns business process, analyst owns system fit" }
-  - { slug: "software-engineer", type: "collaboration", note: "consumes the analyst's specifications and owns the build" }
-  - { slug: "computer-programmer", type: "related", note: "implements to the spec the analyst produces" }
-  - { slug: "project-manager", type: "collaboration", note: "manages schedule and resources around the analyst's scope" }
-  - { slug: "management-consultant", type: "adjacent", note: "overlapping process and organizational-change advisory" }
-  - { slug: "cloud-architect", type: "related", note: "partners on technical feasibility and integration design" }
-specializations: ["ERP implementation", "package selection", "data migration analysis"]
+  - {
+      slug: 'business-analyst',
+      type: 'adjacent',
+      note: 'shares elicitation craft; BA owns business process, analyst owns system fit',
+    }
+  - {
+      slug: 'software-engineer',
+      type: 'collaboration',
+      note: "consumes the analyst's specifications and owns the build",
+    }
+  - {
+      slug: 'computer-programmer',
+      type: 'related',
+      note: 'implements to the spec the analyst produces',
+    }
+  - {
+      slug: 'project-manager',
+      type: 'collaboration',
+      note: "manages schedule and resources around the analyst's scope",
+    }
+  - {
+      slug: 'management-consultant',
+      type: 'adjacent',
+      note: 'overlapping process and organizational-change advisory',
+    }
+  - {
+      slug: 'cloud-architect',
+      type: 'related',
+      note: 'partners on technical feasibility and integration design',
+    }
+specializations: ['ERP implementation', 'package selection', 'data migration analysis']
 country_variants: []
 sources:
-  - { title: "BABOK Guide (IIBA Business Analysis Body of Knowledge)", kind: "book" }
-  - { title: "Software Engineering Economics (Barry Boehm)", kind: "book" }
+  - { title: 'BABOK Guide (IIBA Business Analysis Body of Knowledge)', kind: 'book' }
+  - { title: 'Software Engineering Economics (Barry Boehm)', kind: 'book' }
 status: stable

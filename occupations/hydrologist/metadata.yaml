@@ -40,7 +40,8 @@ related:
       type: 'adjacent',
       note: 'Works the same water physics at the marine end of the cycle',
     }
-specializations: ['Surface Water Hydrologist', 'Hydrogeologist', 'Flood Risk Analyst', 'Water Resources Modeler']
+specializations:
+  ['Surface Water Hydrologist', 'Hydrogeologist', 'Flood Risk Analyst', 'Water Resources Modeler']
 country_variants: []
 sources:
   - { title: 'Applied Hydrology (Chow, Maidment & Mays)', kind: 'book' }

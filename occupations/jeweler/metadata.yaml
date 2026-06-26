@@ -1,24 +1,44 @@
-title: "Jeweler"
-slug: "jeweler"
-aliases: ["goldsmith", "bench jeweler", "metalsmith"]
-category: "Skilled Trades"
-tags: ["stone-setting", "metalsmithing", "soldering", "lost-wax-casting", "gemology"]
+title: 'Jeweler'
+slug: 'jeweler'
+aliases: ['goldsmith', 'bench jeweler', 'metalsmith']
+category: 'Skilled Trades'
+tags: ['stone-setting', 'metalsmithing', 'soldering', 'lost-wax-casting', 'gemology']
 difficulty: advanced
-summary: "How a master jeweler thinks: inspect at 10x, build settings for decades of wear, control heat around fragile stones, and disclose every material honestly."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a master jeweler thinks: inspect at 10x, build settings for decades of wear, control heat around fragile stones, and disclose every material honestly.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "machinist", type: "related", note: "shares precision fitting and metalworking discipline" }
-  - { slug: "tool-and-die-maker", type: "adjacent", note: "shares hardened-tool and precision craft at industrial scale" }
-  - { slug: "fashion-designer", type: "collaboration", note: "feeds concepts the jeweler makes wearable" }
-  - { slug: "industrial-designer", type: "collaboration", note: "designs forms the jeweler casts and fabricates" }
-  - { slug: "welder", type: "related", note: "shares the craft of joining metal with heat at coarser scale" }
-specializations: ["bench jeweler", "stone setter", "goldsmith", "CAD/CAM jeweler"]
+  - {
+      slug: 'machinist',
+      type: 'related',
+      note: 'shares precision fitting and metalworking discipline',
+    }
+  - {
+      slug: 'tool-and-die-maker',
+      type: 'adjacent',
+      note: 'shares hardened-tool and precision craft at industrial scale',
+    }
+  - {
+      slug: 'fashion-designer',
+      type: 'collaboration',
+      note: 'feeds concepts the jeweler makes wearable',
+    }
+  - {
+      slug: 'industrial-designer',
+      type: 'collaboration',
+      note: 'designs forms the jeweler casts and fabricates',
+    }
+  - {
+      slug: 'welder',
+      type: 'related',
+      note: 'shares the craft of joining metal with heat at coarser scale',
+    }
+specializations: ['bench jeweler', 'stone setter', 'goldsmith', 'CAD/CAM jeweler']
 country_variants: []
 sources:
-  - { title: "The Complete Metalsmith", kind: "book" }
-  - { title: "Professional Goldsmithing", kind: "book" }
-  - { title: "GIA Diamond Grading curriculum", kind: "course" }
+  - { title: 'The Complete Metalsmith', kind: 'book' }
+  - { title: 'Professional Goldsmithing', kind: 'book' }
+  - { title: 'GIA Diamond Grading curriculum', kind: 'course' }
 status: stable

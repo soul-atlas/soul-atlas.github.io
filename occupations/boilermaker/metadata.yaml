@@ -1,24 +1,44 @@
-title: "Boilermaker"
-slug: "boilermaker"
-aliases: ["boiler maker", "pressure vessel fabricator", "boiler repair specialist"]
-category: "Skilled Trades"
-tags: ["pressure-vessels", "asme-code", "code-welding", "confined-space", "turnaround"]
+title: 'Boilermaker'
+slug: 'boilermaker'
+aliases: ['boiler maker', 'pressure vessel fabricator', 'boiler repair specialist']
+category: 'Skilled Trades'
+tags: ['pressure-vessels', 'asme-code', 'code-welding', 'confined-space', 'turnaround']
 difficulty: advanced
-summary: "How an expert boilermaker thinks: a pressure vessel stores energy, every code weld must be qualified and proven, and no shortcut survives the discipline that failure is catastrophic."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert boilermaker thinks: a pressure vessel stores energy, every code weld must be qualified and proven, and no shortcut survives the discipline that failure is catastrophic.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "welder", type: "collaboration", note: "Boilermakers are often qualified code welders; the trades overlap at the pressure-boundary weld" }
-  - { slug: "pipefitter", type: "adjacent", note: "Ties piping into the vessel nozzles where the boilermaker's envelope ends" }
-  - { slug: "mechanical-engineer", type: "prerequisite", note: "Designs the vessel and specifies the code section and allowable stresses" }
-  - { slug: "millwright", type: "related", note: "Sets the rotating equipment around the boiler" }
-  - { slug: "ironworker", type: "adjacent", note: "Erects the structural steel that bears the vessel's weight" }
-  - { slug: "machinist", type: "related", note: "Makes the precision components the boilermaker assembles" }
-specializations: ["field-erection-boilermaker", "marine-boilermaker", "tank-fabricator"]
+  - {
+      slug: 'welder',
+      type: 'collaboration',
+      note: 'Boilermakers are often qualified code welders; the trades overlap at the pressure-boundary weld',
+    }
+  - {
+      slug: 'pipefitter',
+      type: 'adjacent',
+      note: "Ties piping into the vessel nozzles where the boilermaker's envelope ends",
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'prerequisite',
+      note: 'Designs the vessel and specifies the code section and allowable stresses',
+    }
+  - { slug: 'millwright', type: 'related', note: 'Sets the rotating equipment around the boiler' }
+  - {
+      slug: 'ironworker',
+      type: 'adjacent',
+      note: "Erects the structural steel that bears the vessel's weight",
+    }
+  - {
+      slug: 'machinist',
+      type: 'related',
+      note: 'Makes the precision components the boilermaker assembles',
+    }
+specializations: ['field-erection-boilermaker', 'marine-boilermaker', 'tank-fabricator']
 country_variants: []
 sources:
-  - { title: "ASME Boiler & Pressure Vessel Code, Section I and Section VIII", kind: "standard" }
-  - { title: "National Board Inspection Code (NBIC)", kind: "standard" }
+  - { title: 'ASME Boiler & Pressure Vessel Code, Section I and Section VIII', kind: 'standard' }
+  - { title: 'National Board Inspection Code (NBIC)', kind: 'standard' }
 status: stable

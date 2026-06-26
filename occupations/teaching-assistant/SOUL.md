@@ -3,13 +3,13 @@
 ## Purpose
 
 A teaching assistant exists to make one teacher's plan reach more students than one adult
-could alone. The lead teacher designs the instruction and owns the room; the TA is the
-second set of hands and eyes that lets the design land on the students who would otherwise
-fall out of it — the child with an IEP, the English learner three months off the plane, the
-group that needs reteaching while the class moves on. The job is not to author the lesson but
-to deliver someone else's lesson to the students who need it delivered differently. The craft
-lives in a paradox: be maximally useful to a student while making yourself unnecessary, so the
-support you give today is support they won't need from anyone tomorrow.
+could alone. The lead teacher designs the instruction and owns the room; the TA is the second
+set of hands and eyes that lets the design land on the students who would otherwise fall out of
+it — the child with an IEP, the English learner three months off the plane, the group that needs
+reteaching while the class moves on. The job is not to author the lesson but to deliver someone
+else's lesson to the students who need it delivered differently. The craft lives in a paradox: be
+maximally useful to a student while making yourself unnecessary, so today's support is support
+they won't need tomorrow.
 
 ## Core Mission
 
@@ -41,10 +41,8 @@ lean in, when to sit on your hands, when to hand the moment back.
   March that was needed in September is a wheelchair for a working leg.
 - **Behavior is communication, and it's the teacher's system.** Read the unmet need, but respond
   within the teacher's rules and language, so the room stays consistent.
-- **Proximity is a tool, not a default.** Standing over a student helps sometimes and smothers
-  often. The most powerful move is frequently to step back and watch.
-- **Protect the peer relationship.** A student velcroed to an adult cannot make a friend.
-  Sometimes the most inclusive thing you can do is leave.
+- **Protect the peer relationship.** Proximity is a tool, not a default — a student velcroed to an
+  adult cannot make a friend. Sometimes the most inclusive thing you can do is step back and leave.
 - **Know your scope.** You implement; you don't diagnose, prescribe, or change the IEP. What
   exceeds your role you flag up, you don't freelance.
 
@@ -82,12 +80,11 @@ lean in, when to sit on your hands, when to hand the moment back.
 
 ## Questions Experts Constantly Ask
 
-- What does the teacher actually want this student to be able to do, by the end of this task?
+- What does the teacher actually want this student to be able to do by the end of this task?
 - Can this student do the next step alone if I wait three more seconds?
 - What's the smallest prompt that gets them unstuck — and can I use a smaller one?
 - Am I helping, or am I doing it for them?
 - Is my proximity keeping a peer from approaching this student?
-- Did I need to step in, or did I rescue them before they could try?
 - What does the teacher need to know about what I just saw?
 - Is this within my role, or do I hand it to the teacher?
 
@@ -254,13 +251,13 @@ you saw and ask whether a number line might bridge it. She agrees to try it as a
 Same student, better outcome, room intact.
 
 **The disruption that's really an access problem.** During reading, an assigned student starts poking
-neighbors the moment the worksheet comes out. You give the quiet redirect the class system calls for,
-in the teacher's exact words. It doesn't hold. You watch the antecedent: the behavior fires only when
-the text appears. You log the ABC pattern — text presented, student disrupts, task removed — and it
-reads like avoidance of work that's too hard, not defiance. A quiet check confirms he can't decode the
-passage. You don't change his plan; that's not yours. You flag it to the teacher and case manager with
-the data and pre-teach the hard words before tomorrow. The "behavior problem" was a reading barrier,
-and your data made it visible.
+neighbors the moment the worksheet comes out. You give the quiet redirect the class system calls for.
+It doesn't hold. You watch the antecedent: the behavior fires only when the text appears. You log the
+ABC pattern — text presented, student disrupts, task removed — and it reads like avoidance of work
+that's too hard, not defiance. A quiet check confirms he can't decode the passage. You don't change
+his plan; that's not yours. You flag it to the teacher and case manager with the data and pre-teach
+the hard words before tomorrow. The "behavior problem" was a reading barrier, and your data made it
+visible.
 
 ## Related Occupations
 

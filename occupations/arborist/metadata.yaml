@@ -1,23 +1,48 @@
-title: "Arborist"
-slug: "arborist"
-aliases: ["tree surgeon", "tree care professional", "tree climber"]
-category: "Skilled Trades"
-tags: ["arboriculture", "tree-care", "rigging", "pruning", "tree-biomechanics"]
+title: 'Arborist'
+slug: 'arborist'
+aliases: ['tree surgeon', 'tree care professional', 'tree climber']
+category: 'Skilled Trades'
+tags: ['arboriculture', 'tree-care', 'rigging', 'pruning', 'tree-biomechanics']
 difficulty: intermediate
 summary: "How an expert arborist reads a tree's biology and biomechanics to prune it right, judges where it will fail, and dismantles it under controlled rigging without harming the crew or the targets below."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "lineworker", type: "adjacent", note: "line-clearance arboriculture shares the energized-environment hazard" }
-  - { slug: "forester", type: "related", note: "shares tree biology and management at stand scale" }
-  - { slug: "landscape-architect", type: "collaboration", note: "plant selection and placement for the trees the arborist tends" }
-  - { slug: "roofer", type: "adjacent", note: "shares the over-the-roof controlled-rigging concern" }
-  - { slug: "heavy-equipment-operator", type: "collaboration", note: "the crane operator partners on large removals" }
-specializations: ["climbing arborist", "line-clearance arborist", "consulting/risk-assessment arborist", "urban forester"]
+  - {
+      slug: 'lineworker',
+      type: 'adjacent',
+      note: 'line-clearance arboriculture shares the energized-environment hazard',
+    }
+  - { slug: 'forester', type: 'related', note: 'shares tree biology and management at stand scale' }
+  - {
+      slug: 'landscape-architect',
+      type: 'collaboration',
+      note: 'plant selection and placement for the trees the arborist tends',
+    }
+  - {
+      slug: 'roofer',
+      type: 'adjacent',
+      note: 'shares the over-the-roof controlled-rigging concern',
+    }
+  - {
+      slug: 'heavy-equipment-operator',
+      type: 'collaboration',
+      note: 'the crane operator partners on large removals',
+    }
+specializations:
+  [
+    'climbing arborist',
+    'line-clearance arborist',
+    'consulting/risk-assessment arborist',
+    'urban forester',
+  ]
 country_variants: []
 sources:
-  - { title: "ANSI A300 Tree Care Operations Standards", kind: "standard" }
-  - { title: "Arboriculture: Integrated Management of Landscape Trees, Shrubs, and Vines", kind: "book" }
+  - { title: 'ANSI A300 Tree Care Operations Standards', kind: 'standard' }
+  - {
+      title: 'Arboriculture: Integrated Management of Landscape Trees, Shrubs, and Vines',
+      kind: 'book',
+    }
 status: stable

@@ -1,23 +1,47 @@
-title: "Financial Manager"
-slug: "financial-manager"
-aliases: ["Treasury Manager", "Head of Finance", "Corporate Finance Manager"]
-category: "Finance"
-tags: ["treasury", "capital-structure", "liquidity", "capital-allocation"]
-difficulty: "advanced"
+title: 'Financial Manager'
+slug: 'financial-manager'
+aliases: ['Treasury Manager', 'Head of Finance', 'Corporate Finance Manager']
+category: 'Finance'
+tags: ['treasury', 'capital-structure', 'liquidity', 'capital-allocation']
+difficulty: 'advanced'
 summary: "Thinks as the steward of the firm's money: funds the enterprise at the lowest sustainable cost of capital and keeps it liquid enough to never miss a payment or opportunity."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "financial-analyst", type: "related", note: "Builds the models and valuations the financial manager acts on" }
-  - { slug: "accountant", type: "adjacent", note: "Records what happened; the financial manager funds what comes next" }
-  - { slug: "investment-banker", type: "collaboration", note: "Counterparty when raising capital or financing M&A" }
-  - { slug: "trader", type: "adjacent", note: "Executes the hedges and short-term instruments treasury uses" }
-  - { slug: "auditor", type: "adjacent", note: "Tests the controls and statements behind covenant certifications" }
-  - { slug: "budget-analyst", type: "related", note: "Defends the operating plan the funding plan must reconcile to" }
-specializations: ["Treasurer", "FP&A leadership", "Corporate development finance"]
+  - {
+      slug: 'financial-analyst',
+      type: 'related',
+      note: 'Builds the models and valuations the financial manager acts on',
+    }
+  - {
+      slug: 'accountant',
+      type: 'adjacent',
+      note: 'Records what happened; the financial manager funds what comes next',
+    }
+  - {
+      slug: 'investment-banker',
+      type: 'collaboration',
+      note: 'Counterparty when raising capital or financing M&A',
+    }
+  - {
+      slug: 'trader',
+      type: 'adjacent',
+      note: 'Executes the hedges and short-term instruments treasury uses',
+    }
+  - {
+      slug: 'auditor',
+      type: 'adjacent',
+      note: 'Tests the controls and statements behind covenant certifications',
+    }
+  - {
+      slug: 'budget-analyst',
+      type: 'related',
+      note: 'Defends the operating plan the funding plan must reconcile to',
+    }
+specializations: ['Treasurer', 'FP&A leadership', 'Corporate development finance']
 country_variants: []
 sources:
-  - { title: "Principles of Corporate Finance (Brealey, Myers & Allen)", kind: "book" }
+  - { title: 'Principles of Corporate Finance (Brealey, Myers & Allen)', kind: 'book' }
 status: stable

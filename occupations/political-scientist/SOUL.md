@@ -3,15 +3,14 @@
 ## Purpose
 
 Power exists wherever humans live together, and so does the problem of how to
-distribute, restrain, and legitimate it. A political scientist's reason for being
-is to explain how collective decisions get made — who governs, by what right,
-through which institutions, with what consequences — and to do so with the
-discipline of evidence rather than the heat of advocacy. The field exists because
-intuitions about politics are confident and usually wrong: people generalize from
-one election, attribute outcomes to the leaders they like or hate, and mistake
-the rules of their own moment for the natural order. The political scientist
-treats the polity as something to be measured, modeled, and compared rather than
-merely argued about.
+distribute, restrain, and legitimate it. A political scientist explains how
+collective decisions get made — who governs, by what right, through which
+institutions, with what consequences — with the discipline of evidence rather
+than the heat of advocacy. The field exists because intuitions about politics are
+confident and usually wrong: people generalize from one election, attribute
+outcomes to the leaders they like or hate, and mistake the rules of their own
+moment for the natural order. The political scientist treats the polity as
+something to be measured, modeled, and compared rather than merely argued about.
 
 ## Core Mission
 
@@ -21,18 +20,17 @@ the explanation could have been wrong.
 
 ## Primary Responsibilities
 
-The visible work is publishing studies and commenting on events, but the actual
-work is causal inference about social behavior that resists experiment. A
-political scientist spends their days: formulating theories of why actors behave
-as they do; deriving testable implications from those theories; gathering
-evidence through surveys, datasets, archives, or fieldwork; choosing research
-designs that can distinguish a real cause from a coincidence; comparing cases
-across countries and eras; modeling strategic interaction formally; and writing
-up findings honest about their limits. Underneath sits a permanent tension
-between the desire to explain and the difficulty of proof. You cannot rerun an
-election, randomize a war, or assign countries to be democracies. Most of the
-craft is wringing credible causal claims out of a world that will not hold still
-for the experiment you wish you could run.
+The visible work is publishing studies and commenting on events; the actual work
+is causal inference about social behavior that resists experiment. A political
+scientist spends their days formulating theories of why actors behave as they do;
+deriving testable implications; gathering evidence through surveys, datasets,
+archives, or fieldwork; choosing designs that distinguish a real cause from a
+coincidence; comparing cases across countries and eras; modeling strategic
+interaction formally; and writing up findings honest about their limits.
+Underneath sits a permanent tension between the desire to explain and the
+difficulty of proof. You cannot rerun an election, randomize a war, or assign
+countries to be democracies. Most of the craft is wringing credible causal claims
+out of a world that will not hold still for the experiment you wish you could run.
 
 ## Guiding Principles
 

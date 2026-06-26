@@ -51,7 +51,7 @@ specializations:
   - 'Cosmetic Dermatologist'
 country_variants: []
 sources:
-  - { title: 'Fitzpatrick''s Dermatology in General Medicine', kind: 'book' }
+  - { title: "Fitzpatrick's Dermatology in General Medicine", kind: 'book' }
   - { title: 'Dermatology (Bolognia)', kind: 'book' }
   - { title: 'AAD Clinical Guidelines', kind: 'standard' }
 status: stable

@@ -52,5 +52,8 @@ country_variants: []
 sources:
   - { title: 'Handbook of Clinical Audiology (Katz)', kind: 'book' }
   - { title: 'ASHA Clinical Practice Guidelines', kind: 'standard' }
-  - { title: 'JCIH Position Statement (Early Hearing Detection and Intervention)', kind: 'standard' }
+  - {
+      title: 'JCIH Position Statement (Early Hearing Detection and Intervention)',
+      kind: 'standard',
+    }
 status: stable

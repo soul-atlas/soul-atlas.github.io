@@ -54,7 +54,10 @@ specializations:
   - 'Dual-Language Kindergarten Teacher'
 country_variants: []
 sources:
-  - { title: 'Developmentally Appropriate Practice in Early Childhood Programs (NAEYC)', kind: 'book' }
+  - {
+      title: 'Developmentally Appropriate Practice in Early Childhood Programs (NAEYC)',
+      kind: 'book',
+    }
   - { title: 'Mind in Society', kind: 'book' }
   - { title: 'Childhood and Society', kind: 'book' }
 status: stable

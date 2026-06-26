@@ -1,24 +1,44 @@
-title: "Drywall Installer"
-slug: "drywall-installer"
-aliases: ["drywall hanger", "taper", "sheetrock installer", "gypsum board mechanic"]
-category: "Skilled Trades"
-tags: ["drywall", "gypsum-board", "taping", "finishing", "fire-rated"]
+title: 'Drywall Installer'
+slug: 'drywall-installer'
+aliases: ['drywall hanger', 'taper', 'sheetrock installer', 'gypsum board mechanic']
+category: 'Skilled Trades'
+tags: ['drywall', 'gypsum-board', 'taping', 'finishing', 'fire-rated']
 difficulty: intermediate
-summary: "How a drywall finisher thinks in planes and raking light, matching board, mud, and level of finish to the surface the room will actually reveal."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a drywall finisher thinks in planes and raking light, matching board, mud, and level of finish to the surface the room will actually reveal.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "carpenter", type: "prerequisite", note: "frames the structure the board covers and corrects bowed studs" }
-  - { slug: "painter", type: "collaboration", note: "inherits the surface; finish level is the handoff" }
-  - { slug: "tile-setter", type: "adjacent", note: "takes over at the wet wall where backer replaces gypsum" }
-  - { slug: "mason", type: "related", note: "sets masonry the drywall returns into and dies against" }
-  - { slug: "flooring-installer", type: "collaboration", note: "works the same rooms at the wall-to-floor plane" }
-  - { slug: "glazier", type: "adjacent", note: "glazed openings the drywall is finished around" }
-specializations: ["drywall-taper-finisher", "acoustic-ceiling-installer"]
+  - {
+      slug: 'carpenter',
+      type: 'prerequisite',
+      note: 'frames the structure the board covers and corrects bowed studs',
+    }
+  - {
+      slug: 'painter',
+      type: 'collaboration',
+      note: 'inherits the surface; finish level is the handoff',
+    }
+  - {
+      slug: 'tile-setter',
+      type: 'adjacent',
+      note: 'takes over at the wet wall where backer replaces gypsum',
+    }
+  - {
+      slug: 'mason',
+      type: 'related',
+      note: 'sets masonry the drywall returns into and dies against',
+    }
+  - {
+      slug: 'flooring-installer',
+      type: 'collaboration',
+      note: 'works the same rooms at the wall-to-floor plane',
+    }
+  - { slug: 'glazier', type: 'adjacent', note: 'glazed openings the drywall is finished around' }
+specializations: ['drywall-taper-finisher', 'acoustic-ceiling-installer']
 country_variants: []
 sources:
-  - { title: "Gypsum Association GA-214: Recommended Levels of Finish", kind: "standard" }
-  - { title: "USG Gypsum Construction Handbook", kind: "book" }
+  - { title: 'Gypsum Association GA-214: Recommended Levels of Finish', kind: 'standard' }
+  - { title: 'USG Gypsum Construction Handbook', kind: 'book' }
 status: stable

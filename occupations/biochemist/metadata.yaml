@@ -1,25 +1,51 @@
-title: "Biochemist"
-slug: "biochemist"
-aliases: ["protein biochemist", "enzymologist", "molecular biochemist"]
-category: "Science"
-tags: ["biochemistry", "enzyme-kinetics", "protein-purification", "assay-design", "structure-function"]
+title: 'Biochemist'
+slug: 'biochemist'
+aliases: ['protein biochemist', 'enzymologist', 'molecular biochemist']
+category: 'Science'
+tags:
+  ['biochemistry', 'enzyme-kinetics', 'protein-purification', 'assay-design', 'structure-function']
 difficulty: advanced
-summary: "How an expert biochemist thinks: explaining life as molecular mechanism through calibrated assays, kinetics, and purification where every number is controlled and defensible."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert biochemist thinks: explaining life as molecular mechanism through calibrated assays, kinetics, and purification where every number is controlled and defensible.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "biologist", type: "prerequisite", note: "biochemistry specializes biology's method at the molecular level" }
-  - { slug: "chemist", type: "adjacent", note: "shares thermodynamic and kinetic language; supplies probes and inhibitors" }
-  - { slug: "microbiologist", type: "collaboration", note: "supplies organisms and shares the bench; biochemist characterizes their enzymes" }
-  - { slug: "geneticist", type: "collaboration", note: "provides genes and mutants to test structure-function" }
-  - { slug: "pharmacologist", type: "progression", note: "takes a validated target and Ki forward into therapeutics" }
-  - { slug: "bioinformatics-scientist", type: "adjacent", note: "models the folds and pathways the biochemist measures" }
-specializations: ["enzymologist", "structural biochemist", "metabolic biochemist", "protein biochemist"]
+  - {
+      slug: 'biologist',
+      type: 'prerequisite',
+      note: "biochemistry specializes biology's method at the molecular level",
+    }
+  - {
+      slug: 'chemist',
+      type: 'adjacent',
+      note: 'shares thermodynamic and kinetic language; supplies probes and inhibitors',
+    }
+  - {
+      slug: 'microbiologist',
+      type: 'collaboration',
+      note: 'supplies organisms and shares the bench; biochemist characterizes their enzymes',
+    }
+  - {
+      slug: 'geneticist',
+      type: 'collaboration',
+      note: 'provides genes and mutants to test structure-function',
+    }
+  - {
+      slug: 'pharmacologist',
+      type: 'progression',
+      note: 'takes a validated target and Ki forward into therapeutics',
+    }
+  - {
+      slug: 'bioinformatics-scientist',
+      type: 'adjacent',
+      note: 'models the folds and pathways the biochemist measures',
+    }
+specializations:
+  ['enzymologist', 'structural biochemist', 'metabolic biochemist', 'protein biochemist']
 country_variants: []
 sources:
-  - { title: "Lehninger Principles of Biochemistry (Nelson & Cox)", kind: "book" }
-  - { title: "Fundamentals of Enzyme Kinetics (Cornish-Bowden)", kind: "book" }
-  - { title: "Biochemistry (Berg, Tymoczko, Stryer)", kind: "book" }
+  - { title: 'Lehninger Principles of Biochemistry (Nelson & Cox)', kind: 'book' }
+  - { title: 'Fundamentals of Enzyme Kinetics (Cornish-Bowden)', kind: 'book' }
+  - { title: 'Biochemistry (Berg, Tymoczko, Stryer)', kind: 'book' }
 status: stable

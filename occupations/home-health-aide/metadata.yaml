@@ -26,7 +26,7 @@ related:
     }
   - {
       slug: 'registered-nurse',
-      type: 'collaboration',
+      type: 'prerequisite',
       note: 'supervises the aide, writes the care plan, acts on what is reported',
     }
   - {

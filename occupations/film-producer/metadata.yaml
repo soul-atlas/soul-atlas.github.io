@@ -4,7 +4,7 @@ aliases: ['Producer', 'Line Producer', 'Executive Producer', 'Movie Producer']
 category: 'Entertainment'
 tags: ['film-financing', 'production', 'budgeting', 'rights', 'distribution']
 difficulty: 'expert'
-summary: 'How a film producer thinks: own the money, schedule, and business so the film gets finished and delivered, while protecting the director''s vision against the budget.'
+summary: "How a film producer thinks: own the money, schedule, and business so the film gets finished and delivered, while protecting the director's vision against the budget."
 contributors: ['soul-atlas']
 last_reviewed: '2026-06-26'
 created: '2026-06-26'
@@ -31,16 +31,22 @@ related:
       note: 'A media lawyer clears chain of title and papers the deals the financing rests on',
     }
   - {
-      slug: 'event-planner',
+      slug: 'project-manager',
       type: 'adjacent',
-      note: 'Shares logistics, budgeting, and fixed-deadline execution of a one-off production',
+      note: 'Same scope, schedule, and budget triangle applied to a one-off production',
     }
   - {
-      slug: 'sound-engineer',
-      type: 'collaboration',
-      note: 'Delivers the mix and M&E tracks needed to complete deliverables',
+      slug: 'entrepreneur',
+      type: 'related',
+      note: 'Raises money against a risky venture and assembles a team to ship it',
     }
-specializations: ['line producer', 'executive producer', 'independent film producer', 'studio production executive']
+specializations:
+  [
+    'line producer',
+    'executive producer',
+    'independent film producer',
+    'studio production executive',
+  ]
 country_variants: []
 sources:
   - { title: 'The Movie Business Book (Jason E. Squire)', kind: 'book' }

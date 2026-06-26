@@ -51,7 +51,7 @@ specializations:
   - 'Neuromuscular Specialist'
 country_variants: []
 sources:
-  - { title: 'Adams and Victor''s Principles of Neurology', kind: 'book' }
+  - { title: "Adams and Victor's Principles of Neurology", kind: 'book' }
   - { title: 'Localization in Clinical Neurology', kind: 'book' }
   - { title: 'AHA/ASA Acute Ischemic Stroke Guidelines', kind: 'standard' }
 status: stable

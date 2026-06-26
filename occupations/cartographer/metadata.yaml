@@ -25,11 +25,7 @@ related:
       type: 'collaboration',
       note: 'Commissions and consumes maps to decide land use',
     }
-  - {
-      slug: 'geologist',
-      type: 'related',
-      note: 'Frequent client mapping subsurface and terrain',
-    }
+  - { slug: 'geologist', type: 'related', note: 'Frequent client mapping subsurface and terrain' }
   - {
       slug: 'data-scientist',
       type: 'adjacent',
@@ -40,7 +36,13 @@ related:
       type: 'related',
       note: 'Maps seafloor and bathymetry with the same projection problems',
     }
-specializations: ['GIS Cartographer', 'Cartographic Designer', 'Nautical Charting Cartographer', 'Web Map Designer']
+specializations:
+  [
+    'GIS Cartographer',
+    'Cartographic Designer',
+    'Nautical Charting Cartographer',
+    'Web Map Designer',
+  ]
 country_variants: []
 sources:
   - { title: 'How to Lie with Maps (Mark Monmonier)', kind: 'book' }

@@ -10,14 +10,14 @@ an emergency room? Only after that triage does the second purpose begin — to
 restore movement and reduce pain in joints that are stiff, irritated, or moving
 badly, and to coach the patient back into the activity that keeps spines healthy.
 The discipline lives at the boundary between primary contact and specialist
-referral, and most of its value is in knowing which side of that line a patient
+referral, and most of its value is knowing which side of that line a patient
 stands on.
 
 ## Core Mission
 
 Distinguish benign mechanical pain from the dangerous mimics, then use hands,
 movement, and reassurance to get a body moving better while never letting a
-patient miss the diagnosis that needed someone else.
+patient miss the diagnosis that belonged to someone else.
 
 ## Primary Responsibilities
 
@@ -55,27 +55,27 @@ the spine is robust rather than fragile is itself a treatment.
 
 - **Red flags / yellow flags (the screening lens).** Red flags point to serious
   pathology (unexplained weight loss, night pain, fever, saddle anesthesia,
-  progressive neurological deficit, history of cancer, age extremes). Yellow
-  flags are psychosocial predictors of chronicity (fear, catastrophizing, low
-  mood, job dissatisfaction). The first changes *whether* you treat; the second
-  changes *how*.
+  progressive deficit, cancer history, age extremes). Yellow flags are
+  psychosocial predictors of chronicity (fear, catastrophizing, low mood, job
+  dissatisfaction). The first changes *whether* you treat; the second changes
+  *how*.
 - **Mechanical vs. non-mechanical pain.** Mechanical pain varies with posture,
   movement, and load and eases with position change. Non-mechanical pain
-  (constant, night-worse, unrelated to movement) makes the hair on your neck
+  (constant, night-worse, unrelated to movement) is the one that makes the hair
   stand up.
 - **The pain neuromatrix / biopsychosocial model.** Pain is an output of the
   nervous system, not a readout of tissue damage; beliefs, sleep, stress, and
-  fear modulate it. This reframes the chiropractor from joint-fixer to
-  nervous-system coach.
+  fear modulate it — reframing the chiropractor from joint-fixer to nervous-system
+  coach.
 - **The motion segment.** The functional unit is two vertebrae, the disc, and the
-  facet joints — a complex that can be stiff, irritated, or moving poorly. The
-  adjustment targets the segment, not a "bone out of place."
+  facet joints — a complex that can be stiff or moving poorly. The adjustment
+  targets the segment, not a "bone out of place."
 - **Regional interdependence.** A stiff hip or thoracic spine drives load into
-  the low back; the painful site is often the victim, not the culprit.
+  the low back; the painful site is often victim, not culprit.
 - **Waddell's signs (the non-organic check).** Superficial/non-anatomic
   tenderness, simulation, distraction, regional disturbances, and overreaction —
-  a pattern suggesting the pain experience is dominated by psychological factors
-  and more hands-on treatment is unlikely to help.
+  a pattern suggesting the pain experience is dominated by psychological factors,
+  where more hands-on treatment is unlikely to help.
 
 ## First Principles
 
@@ -83,7 +83,7 @@ the spine is robust rather than fragile is itself a treatment.
   waiting to slip.
 - Most acute low back pain resolves within weeks regardless of what you do; the
   job is to not get in the way and to catch the small fraction that won't.
-- Manipulation provides short-term pain relief and a window of improved motion; a
+- Manipulation gives short-term pain relief and a window of improved motion — a
   door-opener for active rehab, not a cure delivered to a passive body.
 - Imaging early in uncomplicated back pain finds incidental changes that scare
   patients and change nothing.
@@ -94,10 +94,10 @@ the spine is robust rather than fragile is itself a treatment.
   unrelated to movement?
 - Any red flags — weight loss, fever, cancer history, saddle numbness, bilateral
   leg weakness, bladder or bowel change?
-- Is there a progressive neurological deficit that needs a specialist, not a
-  hands-on plan?
+- A progressive neurological deficit that needs a specialist, not a hands-on
+  plan?
 - Before I touch this neck, any reason to suspect vascular or connective-tissue
-  compromise?
+  risk?
 - Are yellow flags driving this, and will hands-on care just reinforce that the
   spine is broken?
 - What is my endpoint, and by what date will I know this plan is working?
@@ -106,23 +106,21 @@ the spine is robust rather than fragile is itself a treatment.
 ## Decision Frameworks
 
 - **Triage triad: treat, co-manage, or refer.** Mechanical, no red flags → treat
-  with a defined plan. Mixed picture or comorbidity → co-manage with the GP.
-  Red flag, progressive deficit, or non-mechanical pattern → refer out, today if
-  urgent.
+  with a defined plan. Mixed picture or comorbidity → co-manage with the GP. Red
+  flag, progressive deficit, or non-mechanical pattern → refer, today if urgent.
 - **Imaging decision (apply restraint).** No imaging for acute, atraumatic,
   uncomplicated low back pain. Image for trauma with fracture concern, red flags,
-  or a deficit that would change management — not to reassure or justify
-  treatment.
+  or a deficit that changes management — not to reassure or justify treatment.
 - **Cervical manipulation gate.** Screen history (recent neck trauma, severe
   unaccustomed headache, dizziness, visual disturbance, connective-tissue
   disease). If risk is plausible, choose mobilization, exercise, or referral over
-  HVLA thrust; informed consent is mandatory.
+  HVLA thrust. Informed consent is mandatory.
 - **The 2-4 week rule.** Reassess at a fixed interval; with no meaningful
   improvement and no reason to continue, change the plan or refer rather than
-  repeat the same treatment.
+  repeat.
 - **Active over passive.** Default to the intervention that gives the patient
-  agency (exercise, load management); use passive care (manipulation, modalities)
-  to enable it.
+  agency (exercise, load management); passive care (manipulation, modalities)
+  exists to enable it.
 
 ## Workflow
 
@@ -148,13 +146,13 @@ the spine is robust rather than fragile is itself a treatment.
 - **Symptom relief now vs. dependence later.** Passive care feels good and builds
   reliance; active care is harder and builds resilience. Lean active.
 - **Reassurance vs. vigilance.** Over-reassure and you miss the rare cancer;
-  over-investigate and you medicalize a self-limiting backache.
+  over-investigate and you medicalize a backache.
 - **Adjusting vs. mobilizing.** HVLA gives a faster motion change but carries more
-  risk and is contraindicated in some; mobilization is gentler and slower.
+  risk and is contraindicated in some; mobilization is gentler, slower.
 - **Patient expectation vs. evidence.** Many arrive wanting frequent "cracks" and
-  X-rays; honoring evidence sometimes means disappointing the request.
+  X-rays; honoring evidence sometimes disappoints the request.
 - **Time per visit vs. throughput.** A proper re-exam takes time the schedule
-  resists, but skipping it is how plans drift into open-ended treatment.
+  resists, but skipping it is how plans drift into open-ended care.
 
 ## Rules of Thumb
 
@@ -166,7 +164,6 @@ the spine is robust rather than fragile is itself a treatment.
   mechanical.
 - Don't adjust through a neurological deficit that's getting worse.
 - When the story and the exam disagree, believe the one that scares you more.
-- A treatment plan without a re-assessment date isn't a plan.
 - If three Waddell signs are positive, more hands-on care is the wrong tool.
 - Never crack a neck you haven't screened and consented.
 
@@ -175,7 +172,7 @@ the spine is robust rather than fragile is itself a treatment.
 - **Missing the masquerade.** Treating "back pain" that was a metastasis, an
   abdominal aortic aneurysm, or an infection because the red-flag sweep was
   skipped.
-- **The maintenance trap.** Open-ended visit schedules with no endpoint and no
+- **The maintenance trap.** Open-ended schedules with no endpoint and no
   re-assessment — treatment that outlives any indication.
 - **Over-imaging and over-pathologizing.** Showing patients degenerative findings
   that turn a transient ache into a fragile-spine identity.
@@ -183,8 +180,7 @@ the spine is robust rather than fragile is itself a treatment.
   arterial dissection following an unscreened thrust.
 - **Treating the passive patient.** All adjustment, no exercise, no education —
   relief that never becomes recovery.
-- **Scope creep.** Managing conditions that need a physician, or promising relief
-  for systemic disease the evidence doesn't support.
+- **Scope creep.** Managing conditions that need a physician, or over-claiming.
 
 ## Anti-patterns
 
@@ -196,10 +192,8 @@ the spine is robust rather than fragile is itself a treatment.
   re-exam exists.
 - **Curing asthma with adjustments** — claiming manipulation treats visceral and
   systemic disease beyond the evidence.
-- **Adjusting everyone the same way** — one fixed protocol regardless of
-  presentation.
-- **Crack-chasing** — treating the audible "pop" (cavitation) as the goal rather
-  than functional change.
+- **Crack-chasing** — treating the audible "pop" (cavitation) as the goal, not
+  functional change.
 
 ## Vocabulary
 
@@ -207,7 +201,7 @@ the spine is robust rather than fragile is itself a treatment.
   push that produces the characteristic cavitation.
 - **Subluxation** — historically a "spinal lesion" causing dysfunction; in
   evidence-based practice reframed as segmental joint dysfunction, the vitalistic
-  interpretation contested.
+  reading contested.
 - **Cavitation** — the audible pop, gas release within the joint; an
   epiphenomenon, not the therapeutic mechanism.
 - **Cauda equina syndrome** — compression of the nerve roots below the cord;
@@ -232,8 +226,8 @@ the spine is robust rather than fragile is itself a treatment.
   deep-tendon reflex screen.
 - **Imaging (X-ray, referral for MRI)** — used selectively, on indication.
 - **Exercise prescription and load-management plans** — the active half of care.
-- **Outcome measures** (Oswestry, Neck Disability Index, numeric pain scale) — to
-  make "better" objective.
+- **Outcome measures** (Oswestry, Neck Disability Index, numeric pain scale) —
+  making "better" objective.
 
 ## Collaboration
 
@@ -244,22 +238,22 @@ physical therapists for extended rehabilitation; and send red flags to oncology,
 neurology, or the emergency department without ego. The healthiest relationships
 rest on clean referral letters, honest scope boundaries, and a willingness to say
 "this isn't mine." Friction usually comes from the profession's internal split —
-the evidence-based camp versus the vitalistic camp — which shapes how readily
-other clinicians trust the referral.
+evidence-based versus vitalistic — which shapes how readily other clinicians
+trust the referral.
 
 ## Ethics
 
-Chiropractic carries a specific ethical weight: it operates as a primary contact
-point yet has a narrower scope than the conditions that walk through the door.
+Chiropractic carries a specific ethical weight: it is a primary contact point yet
+has a narrower scope than the conditions that walk through the door.
 The core duties — take genuine informed consent, especially before cervical
-manipulation, naming the rare serious risk; refer out promptly and never let a
+manipulation, naming the rare serious risk; refer out promptly, never letting a
 diagnosis be missed for a financial incentive to keep treating; avoid lifetime
 "maintenance" plans unsupported by evidence; resist over-imaging and
 over-claiming; and tell the truth about what manipulation can and cannot do,
-particularly the unsupported claims that it treats systemic disease. The
-recurring temptation is to convert self-limiting pain into recurring revenue by
-teaching patients their spines are fragile; the ethical practitioner does the
-opposite and works toward discharge.
+particularly the false claim that it treats systemic disease. The recurring
+temptation is to convert self-limiting pain into recurring revenue by teaching
+patients their spines are fragile; the ethical practitioner works toward
+discharge instead.
 
 ## Scenarios
 
@@ -270,26 +264,26 @@ cancer treated six years ago. This is a red-flag cluster: night pain,
 unexplained weight loss, cancer history. The expert does *not* adjust —
 non-mechanical pain in someone with a malignancy history is metastatic disease
 until imaging proves otherwise. She gets an urgent referral with bloods and
-imaging through her GP, and a phone call to close the loop. Treating her spine
-would have wasted the weeks that mattered.
+imaging through her GP, and a call to close the loop. Treating her spine would
+have wasted the weeks that mattered.
 
 **A 45-year-old requesting neck manipulation for headaches, with recent dizziness
 and a new visual disturbance.** The request is routine; the symptoms are not —
 dizziness and visual change before a planned cervical thrust raise the specter of
 vertebrobasilar compromise. The expert declines the HVLA thrust, treats with
 gentle mobilization and soft-tissue work, and refers for vascular assessment. A
-missed dissection isn't worth the marginal benefit of a thrust that has
+missed dissection isn't worth the marginal benefit of a thrust with
 alternatives.
 
 ## Related Occupations
 
 The chiropractor sits in a dense musculoskeletal neighborhood. The physical
 therapist overlaps heavily on rehabilitation but rarely performs HVLA
-manipulation and reaches mechanical pain from the exercise side. The osteopathic
+manipulation, reaching mechanical pain from the exercise side. The osteopathic
 and orthopedic worlds claim the structural lesions the chiropractor must refer.
-Primary-care physicians hold prescribing and the systemic picture, making them
-the natural co-management partner, while neurology and oncology receive the red
-flags outside scope.
+Primary-care physicians hold prescribing and the systemic picture — the natural
+co-management partner — while neurology and oncology receive the red flags
+outside scope.
 
 ## References
 

@@ -1,6 +1,7 @@
 title: 'Childcare Worker'
 slug: 'childcare-worker'
-aliases: ['Daycare Worker', 'Early Childhood Caregiver', 'Nursery Worker', 'Infant/Toddler Caregiver']
+aliases:
+  ['Daycare Worker', 'Early Childhood Caregiver', 'Nursery Worker', 'Infant/Toddler Caregiver']
 category: 'Education'
 tags: ['early-childhood', 'child-safety', 'attachment', 'supervision', 'mandated-reporting']
 difficulty: 'intermediate'
@@ -40,9 +41,13 @@ related:
       type: 'related',
       note: 'Shares the supervision, safety, and co-regulation duties for dependents',
     }
-specializations: ['infant-room caregiver', 'toddler-room caregiver', 'family childcare provider', 'nanny']
+specializations:
+  ['infant-room caregiver', 'toddler-room caregiver', 'family childcare provider', 'nanny']
 country_variants: []
 sources:
-  - { title: 'Developmentally Appropriate Practice in Early Childhood Programs (NAEYC)', kind: 'book' }
+  - {
+      title: 'Developmentally Appropriate Practice in Early Childhood Programs (NAEYC)',
+      kind: 'book',
+    }
   - { title: 'AAP Safe Sleep Guidelines (Safe to Sleep)', kind: 'standard' }
 status: stable

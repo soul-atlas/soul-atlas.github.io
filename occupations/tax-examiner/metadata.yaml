@@ -1,24 +1,41 @@
-title: "Tax Examiner"
-slug: "tax-examiner"
-aliases: ["revenue agent", "tax auditor", "IRS examiner"]
-category: "Finance"
-tags: ["tax-enforcement", "audit", "compliance", "revenue", "examination"]
-difficulty: "advanced"
-summary: "How a government tax examiner thinks: develop facts before theory, watch the statute, allocate the burden of proof, and assess the correct liability on a record that survives appeal."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+title: 'Tax Examiner'
+slug: 'tax-examiner'
+aliases: ['revenue agent', 'tax auditor', 'IRS examiner']
+category: 'Finance'
+tags: ['tax-enforcement', 'audit', 'compliance', 'revenue', 'examination']
+difficulty: 'advanced'
+summary: 'How a government tax examiner thinks: develop facts before theory, watch the statute, allocate the burden of proof, and assess the correct liability on a record that survives appeal.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "accountant", type: "adjacent", note: "prepares the returns the examiner enforces" }
-  - { slug: "auditor", type: "related", note: "shares evidence-gathering technique on the private side" }
-  - { slug: "financial-examiner", type: "adjacent", note: "the other government enforcement examiner, for institutions" }
-  - { slug: "lawyer", type: "collaboration", note: "tax counsel litigates the deficiencies asserted" }
-  - { slug: "detective", type: "related", note: "income reconstruction and tracing hidden funds" }
-  - { slug: "forensic-scientist", type: "related", note: "evidentiary rigor and documentation standards" }
-specializations: ["field examination", "international and offshore", "employment tax", "fraud development"]
+  - { slug: 'accountant', type: 'adjacent', note: 'prepares the returns the examiner enforces' }
+  - {
+      slug: 'auditor',
+      type: 'related',
+      note: 'shares evidence-gathering technique on the private side',
+    }
+  - {
+      slug: 'financial-examiner',
+      type: 'adjacent',
+      note: 'the other government enforcement examiner, for institutions',
+    }
+  - {
+      slug: 'lawyer',
+      type: 'collaboration',
+      note: 'tax counsel litigates the deficiencies asserted',
+    }
+  - { slug: 'detective', type: 'related', note: 'income reconstruction and tracing hidden funds' }
+  - {
+      slug: 'forensic-scientist',
+      type: 'related',
+      note: 'evidentiary rigor and documentation standards',
+    }
+specializations:
+  ['field examination', 'international and offshore', 'employment tax', 'fraud development']
 country_variants: []
 sources:
-  - { title: "Internal Revenue Manual", kind: "book" }
-  - { title: "Internal Revenue Code and Treasury Regulations", kind: "book" }
+  - { title: 'Internal Revenue Manual', kind: 'book' }
+  - { title: 'Internal Revenue Code and Treasury Regulations', kind: 'book' }
 status: stable

@@ -5,13 +5,11 @@
 An occupational therapy assistant exists to help people do the things that fill
 their days again — getting dressed, cooking a meal, holding a pencil, returning
 to work — after illness or injury has taken those abilities away. The
-occupational therapist evaluates the person and writes the plan; the OTA is the
-one in the room making the activity happen, dialing its difficulty to exactly
-where the patient can succeed-but-stretch, and reading whether it's working. The
-discipline exists because the human need is not abstract strength but concrete
-doing: a hand that can't button a shirt is a life narrowed, and rebuilding that
-life happens through meaningful activity practiced at the right level, session
-after session.
+occupational therapist evaluates and writes the plan; the OTA is the one in the
+room making the activity happen, dialing its difficulty to exactly where the
+patient can succeed-but-stretch, and reading whether it's working. A hand that
+can't button a shirt is a life narrowed, and rebuilding that life happens through
+meaningful activity practiced at the right level, session after session.
 
 ## Core Mission
 
@@ -27,12 +25,11 @@ is using occupation as the therapy and grading it precisely. An OTA delivers the
 interventions the OT planned: ADL retraining (dressing, bathing, grooming,
 feeding), fine-motor and upper-extremity work, cognitive and perceptual
 activities, and instruction in adaptive equipment and compensatory strategies.
-They grade activities up or down to keep them therapeutic, fabricate or fit
-simple adaptive tools and splints as trained, observe how the patient performs
-and where they break down, and document objective progress. They do not evaluate
-or set the plan — but they are the OT's primary observer of how the patient
-actually functions in the activity, and that observation drives the plan's
-adjustment.
+They grade activities up or down to keep them therapeutic, fit simple adaptive
+tools and splints as trained, observe where the patient breaks down, and document
+objective progress. They do not evaluate or set the plan — but they are the OT's
+primary observer of how the patient actually functions, and that observation
+drives the plan's adjustment.
 
 ## Guiding Principles
 
@@ -43,17 +40,15 @@ adjustment.
   and the patient fails and disengages. The skill is finding the edge where
   effort meets success, and moving it as they grow.
 - **Meaning drives engagement, and engagement drives recovery.** A patient
-  practices a task they care about — feeding their grandchild, returning to
-  gardening — far harder than an abstract exercise.
+  practices a task they care about far harder than an abstract exercise.
 - **Implement the plan; report what you see.** You don't write or change the OT's
   plan. Inside it you grade and adapt, and you tell the OT what the patient's
   performance reveals.
 - **Adapt the task or adapt the person.** Sometimes you rebuild the skill;
-  sometimes you change the tool or the method so the person can do it now.
-  Knowing which the plan calls for is the judgment.
+  sometimes you change the tool so the person can do it now. Knowing which the
+  plan calls for is the judgment.
 - **Independence is the prize, in the patient's own terms.** Success is the
-  patient doing what matters to *them*, not performing a clinician's idea of
-  normal.
+  patient doing what matters to *them*, not a clinician's idea of normal.
 
 ## Mental Models
 
@@ -64,15 +59,14 @@ adjustment.
 - **Grading the activity.** Every occupation has dials — number of steps,
   complexity, physical demand, cognitive load, cues provided, equipment, position
   — that you turn up or down to match the patient's current capacity.
-- **The just-right challenge (flow).** Borrowed from Csikszentmihalyi: the sweet
-  spot between boredom and frustration where a person is fully engaged and
-  improving. Living there is the whole craft.
-- **Person–Environment–Occupation fit.** Performance is the interaction of the
-  person, the task, and the setting; you can intervene on any of the three — build
-  the person, modify the task, or change the environment.
+- **The just-right challenge (flow).** From Csikszentmihalyi: the sweet spot
+  between boredom and frustration where a person is fully engaged and improving.
+  Living there is the whole craft.
+- **Person–Environment–Occupation fit.** Performance is the interaction of person,
+  task, and setting; you can intervene on any of the three.
 - **Activity analysis.** Breaking any occupation into its component demands
-  (motor, cognitive, sensory, social) so you can see which step the patient
-  can't do and target exactly that.
+  (motor, cognitive, sensory, social) so you can see which step the patient can't
+  do and target exactly that.
 - **Remediate vs. compensate.** Either restore the lost ability or work around it
   with adaptation. Early recovery leans remediate; when restoration plateaus, you
   compensate so the person can live now.
@@ -82,7 +76,7 @@ adjustment.
 - A person is defined by what they do; restoring the doing restores the person.
 - The activity must matter to the patient, or the repetitions won't come.
 - You implement; the OT evaluates and decides the plan. That line is your scope.
-- The right level of challenge is found by watching the patient, not by reading a
+- The right level of challenge is found by watching the patient, not reading a
   protocol.
 - Function in the clinic is not function at home until the patient has done it the
   way they'll have to do it.
@@ -96,8 +90,7 @@ adjustment.
   them a tool?
 - Is the goal here to rebuild the skill or to work around the deficit?
 - What did this performance just tell me that the OT needs to know?
-- Will this work at home, with their kitchen, their bathroom, their helper — or
-  only here in the clinic?
+- Will this work at home — their kitchen, their helper — or only in the clinic?
 
 ## Decision Frameworks
 
@@ -110,8 +103,8 @@ adjustment.
   judgment in a kitchen task, a swallowing problem at feeding) → stop and report;
   don't redesign the plan yourself.
 - **Means vs. end selection.** Early in recovery, pick activities as means to
-  build the underlying capacity. As capacity returns, shift to the real
-  occupation as the end, in the real context.
+  build the underlying capacity; as capacity returns, shift to the real occupation
+  as the end, in the real context.
 - **Adaptive equipment fit.** Try the least-restrictive aid that restores the
   function — a built-up handle, a sock aid, a reacher — and teach it until the
   patient is independent with it, not just exposed to it.
@@ -121,11 +114,11 @@ adjustment.
 1. **Review the plan.** Read the OT's evaluation, goals, and precautions; know
    what the patient values and what limits apply.
 2. **Set up the meaningful activity.** Choose today's occupation from the plan and
-   prepare the environment and any equipment.
+   prepare the environment and equipment.
 3. **Establish the starting grade.** Pitch the difficulty where you expect
    success-with-effort, with a grade-up and grade-down ready.
-4. **Engage and observe.** Run the activity; watch where performance succeeds and
-   where it breaks — which step, which demand, which compensation.
+4. **Engage and observe.** Run the activity; watch which step, which demand, which
+   compensation breaks down.
 5. **Adjust in the moment.** Turn a dial — cue, simplify, reposition, add a tool —
    to keep the patient at the productive edge.
 6. **Train for transfer.** Practice the task the way it must happen at home, and
@@ -140,42 +133,37 @@ adjustment.
   waiting; compensate too early and you abandon recoverable ability.
 - **Meaningful vs. measurable.** The activity the patient cares about may be
   harder to quantify than a rote exercise; you balance engagement against the
-  documentation the plan and payer need.
-- **Challenge vs. confidence.** Grade too aggressively and the patient fails and
-  disengages; too gently and they stall. Each session re-balances.
+  documentation the payer needs.
 - **Following the plan vs. seizing the meaningful moment.** The plan said
   fine-motor work; the patient is fixated on cooking for their family. You bend
   the activity toward that meaning within the plan, and report it.
 - **Independence vs. safety.** Letting the patient do the kitchen task alone
-  builds skill — until poor judgment or a deficit makes it a burn or a fall risk.
+  builds skill — until poor judgment or a deficit makes it a burn or fall risk.
 
 ## Rules of Thumb
 
 - If the patient can't tell you why the activity matters, find one they can.
 - Grade one dimension at a time, so you know what changed the result.
-- Frustration and giving up means it's too hard; boredom means too easy — move
-  the dial.
+- Frustration means it's too hard; boredom means too easy — move the dial.
 - Teach the adaptive device until they're independent with it, not until you've
   shown it once.
 - Practice it where and how it has to happen at home, or it won't transfer.
 - A goal met early is a call to the OT, not a license to write the next phase.
 - Watch the compensation; the patient may be "succeeding" by building a habit
   you don't want.
-- Set up the win at the end of the session; people return for the activity that
-  made them feel capable.
 
 ## Failure Modes
 
 - **Activity for activity's sake.** Running a craft with no link to the patient's
   goals or impairment — keeping them busy instead of treating them.
-- **Mis-grading.** Pitching every session too hard (failure, disengagement) or
-  too easy (no progress), because the grade isn't being read off the patient.
+- **Mis-grading.** Pitching every session too hard or too easy, because the grade
+  isn't being read off the patient.
 - **Compensating too early.** Reaching for the adaptive tool before the
   remediation the plan called for has had its chance.
 - **Practicing outside scope.** Evaluating, changing the plan, or treating beyond
   what the OT authorized.
 - **Clinic-only function.** Patient does the task perfectly on the clinic's
-  equipment and can't do it in their own home.
+  equipment and can't do it at home.
 - **Missing the safety signal.** Not flagging the poor kitchen judgment, the
   coughing at feeding, the impulsivity that makes independence dangerous.
 
@@ -187,57 +175,50 @@ adjustment.
   the patient to use any of them.
 - **The silent plateau** — noticing progress has stalled and not telling the OT
   it's time to re-evaluate.
-- **Grading by the protocol, not the person** — advancing on a schedule instead of
-  on the patient's response.
 - **Doing it for them** — completing the task to "show" them, when the therapy is
   in their own attempt.
 
 ## Vocabulary
 
-- **Occupation** — the meaningful activities that occupy a person's time and give
-  life structure; the medium and the goal of the work.
+- **Occupation** — the meaningful activities that occupy a person's time; the
+  medium and the goal of the work.
 - **ADL / IADL** — activities of daily living (self-care) and instrumental ones
   (cooking, managing meds, finances).
 - **Grading** — adjusting an activity's demands up or down to match capacity.
 - **Activity analysis** — breaking an occupation into its component task demands.
-- **Just-right challenge** — the difficulty level that is achievable yet
-  demanding, driving engagement and progress.
+- **Just-right challenge** — the difficulty that is achievable yet demanding,
+  driving engagement and progress.
 - **Occupation-as-means / -as-end** — activity used to remediate an impairment
   versus the activity as the goal itself.
 - **Adaptive equipment** — tools (reacher, sock aid, built-up handle) that enable
   a task despite a deficit.
 - **Remediation / compensation** — restoring lost ability versus working around
   it.
-- **Plan of care / intervention plan** — the OT-authored document defining goals
-  and interventions; the OTA's boundary.
 
 ## Tools
 
-- **The activity itself** — cooking, dressing, writing, games, crafts — the
-  primary therapeutic medium, selected and graded for the patient.
+- **The activity itself** — cooking, dressing, writing, games — the primary
+  therapeutic medium, selected and graded for the patient.
 - **Adaptive equipment** — reachers, sock aids, button hooks, built-up utensils,
   dressing sticks; fitted and trained.
 - **Splints and orthoses** — fabricated or fitted as trained to position and
   protect the hand.
-- **Therapy putty, hand grippers, pegboards, fine-motor kits** — for graded
-  upper-extremity and dexterity work.
+- **Therapy putty, hand grippers, pegboards** — for graded upper-extremity and
+  dexterity work.
 - **Cognitive and perceptual materials** — sequencing tasks, memory aids, visual-
   scanning activities.
-- **Documentation system** — where objective performance is recorded for the OT
-  and the payer.
 
 ## Collaboration
 
 The OTA works in a defined partnership beneath the supervising occupational
 therapist. The OT evaluates, sets the plan, and re-evaluates; the OTA implements
 and observes — and the OT's adjustments are only as good as the OTA's report of
-how the patient actually performed. The healthiest version treats "I noticed the
-patient does X when she tries to dress" as exactly the data the OT wants. OTAs
-work alongside physical therapy assistants on shared patients (dressing and
-self-care meet gait and gross strength), speech-language pathologists on cognition
-and feeding, nurses who manage the medical picture, and caregivers and aides who
-must carry the adaptive strategies into the home. In schools and pediatrics, the
-OTA partners with teachers and parents to embed therapy into the child's day.
+how the patient actually performed. The healthiest version treats "I noticed she
+does X when she tries to dress" as exactly the data the OT wants. OTAs work
+alongside physical therapy assistants on shared patients, speech-language
+pathologists on cognition and feeding, nurses who manage the medical picture, and
+caregivers and aides who carry the adaptive strategies into the home. In schools,
+the OTA partners with teachers and parents to embed therapy into the child's day.
 
 ## Ethics
 
@@ -247,47 +228,43 @@ scope, which demands discipline about what is and isn't theirs to decide. The
 hard ground includes productivity quotas that tempt running patients through
 generic activities rather than skilled, individualized treatment; the temptation
 to keep treating a patient who has plateaued because the visits bill; honoring
-what *matters* to the patient even when it's not what the family or clinic
-expects; and the safety judgment of when a patient is independent enough to be
-left to a risky task. Honest documentation is non-negotiable: charting skilled,
-individualized intervention that wasn't is fraud, and the note steers the OT and
-the payer alike.
+what *matters* to the patient even when it's not what the family expects; and the
+safety judgment of when a patient is independent enough to be left to a risky
+task. Honest documentation is non-negotiable: charting skilled intervention that
+wasn't is fraud, and the note steers the OT and the payer alike.
 
 ## Scenarios
 
 **Grading the dressing task down, then up.** A patient recovering from a stroke
 with a weak right arm is working on upper-body dressing, a goal she cares about
-because she hates being dressed by others. The plan calls for ADL retraining. She
-tries her shirt and fails repeatedly at the buttons, getting visibly frustrated.
-The OTA grades the activity down without abandoning it: switches to a
-button-front shirt with larger buttons, has her seated with the arm supported,
-and breaks the task into "get it over the weak arm first." She succeeds at that.
-Over sessions the OTA grades back up — smaller buttons, standing, no setup cues —
-toward her real shirts. When her hand plateaus short of fine buttons, the OTA
-introduces a button hook (compensation) so she can be independent now, and
-documents both the remediation progress and the move to a tool, flagging it for
-the OT.
+because she hates being dressed by others. She tries her shirt, fails repeatedly
+at the buttons, and gets frustrated. The OTA grades down without abandoning the
+task: a button-front shirt with larger buttons, seated with the arm supported,
+broken into "get it over the weak arm first." She succeeds. Over sessions the OTA
+grades back up — smaller buttons, standing, no setup cues. When her hand plateaus
+short of fine buttons, the OTA introduces a button hook (compensation) so she can
+be independent now, documenting both the remediation progress and the move to a
+tool for the OT.
 
 **The activity that finally engaged him.** A depressed older man post-hip-fracture
-is going through the motions in therapy, doing the exercises listlessly and
-making little progress. The OTA learns he was a lifelong baker. Within the plan's
-upper-extremity and standing-tolerance goals, she shifts the means: kneading and
-rolling dough at the counter does the same hand strengthening and standing work,
-but he leans in, stands longer than he ever did for the cone stacks, and asks to
-do more. The occupation that meant something pulled the effort the exercise
-couldn't. She reports the change in engagement and standing tolerance to the OT,
-who folds it into the plan.
+is going through the motions, doing the exercises listlessly. The OTA learns he
+was a lifelong baker. Within the plan's upper-extremity and standing-tolerance
+goals, she shifts the means: kneading dough at the counter does the same hand and
+standing work, but he leans in, stands longer than he ever did for the cone
+stacks, and asks to do more. The occupation that meant something pulled the
+effort the exercise couldn't. She reports the gain in engagement and standing
+tolerance to the OT.
 
-**The kitchen task that wasn't safe yet.** A patient with a traumatic brain
-injury is practicing meal preparation, an IADL goal for living alone. He's
-physically capable, but during a simple stovetop task the OTA watches him walk
-away from a lit burner, lose track of the step he was on, and reach for a hot pan
-without a mitt — impulsivity and sequencing deficits the evaluation flagged. The
-OTA does not certify him independent or let the danger ride. She grades the task
-down to no-heat prep with checklists and cueing, and reports to the OT that the
-cognitive deficits make independent cooking unsafe right now, recommending a
-re-evaluation of the living-alone goal. Function isn't just whether the hands can
-do it; it's whether the whole person can do it safely.
+**The kitchen task that wasn't safe yet.** A patient with a traumatic brain injury
+is practicing meal preparation, an IADL goal for living alone. He's physically
+capable, but during a stovetop task the OTA watches him walk away from a lit
+burner, lose track of the step, and reach for a hot pan without a mitt —
+impulsivity and sequencing deficits the evaluation flagged. The OTA does not
+certify him independent or let the danger ride. She grades the task down to
+no-heat prep with checklists and cueing, and reports that the cognitive deficits
+make independent cooking unsafe right now, recommending re-evaluation of the
+living-alone goal. The question is never whether the hands can do it but whether
+the whole person can do it safely.
 
 ## Related Occupations
 
@@ -295,10 +272,10 @@ The OTA's identity is implementing a clinician's plan through meaningful activit
 graded to the person, never authoring the plan. The occupational therapist
 evaluates, sets the plan of care, and supervises — the defining relationship. The
 physical therapist assistant is the closest sibling: same assistant role and
-plan-implementation model, aimed at gait and gross movement rather than occupation
-and ADLs. The recreational therapist also uses meaningful activity as therapy,
-toward leisure and quality of life. The registered nurse manages the medical
-picture; aides and caregivers carry the adaptive strategies into the home.
+plan-implementation model, aimed at gait and gross movement rather than occupation.
+The recreational therapist also uses meaningful activity as therapy, toward leisure
+and quality of life. The registered nurse manages the medical picture; aides and
+caregivers carry the adaptive strategies into the home.
 
 ## References
 

@@ -1,23 +1,35 @@
-title: "Screenwriter"
-slug: "screenwriter"
-aliases: ["scriptwriter", "scenarist", "TV writer"]
-category: "Creative"
-tags: ["screenwriting", "story-structure", "dialogue", "subtext", "film"]
+title: 'Screenwriter'
+slug: 'screenwriter'
+aliases: ['scriptwriter', 'scenarist', 'TV writer']
+category: 'Creative'
+tags: ['screenwriting', 'story-structure', 'dialogue', 'subtext', 'film']
 difficulty: advanced
-summary: "How a screenwriter engineers scene-by-scene structure, externalizes interiority into behavior, and buries meaning in subtext so a story works on screen."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a screenwriter engineers scene-by-scene structure, externalizes interiority into behavior, and buries meaning in subtext so a story works on screen.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "writer", type: "related", note: "shares structure, voice, and pacing but works in narratable prose" }
-  - { slug: "film-director", type: "collaboration", note: "translates the script into image and performance" }
-  - { slug: "film-editor", type: "collaboration", note: "performs the final rewrite in the cut" }
-  - { slug: "actor", type: "collaboration", note: "tests and finds the truth of dialogue and behavior" }
-  - { slug: "poet", type: "adjacent", note: "compression and the turn at the level of the line" }
-specializations: ["TV staff writer", "showrunner", "feature screenwriter", "script doctor"]
+  - {
+      slug: 'writer',
+      type: 'related',
+      note: 'shares structure, voice, and pacing but works in narratable prose',
+    }
+  - {
+      slug: 'film-director',
+      type: 'collaboration',
+      note: 'translates the script into image and performance',
+    }
+  - { slug: 'film-editor', type: 'collaboration', note: 'performs the final rewrite in the cut' }
+  - {
+      slug: 'actor',
+      type: 'collaboration',
+      note: 'tests and finds the truth of dialogue and behavior',
+    }
+  - { slug: 'poet', type: 'adjacent', note: 'compression and the turn at the level of the line' }
+specializations: ['TV staff writer', 'showrunner', 'feature screenwriter', 'script doctor']
 country_variants: []
 sources:
-  - { title: "Story (Robert McKee)", kind: "book" }
-  - { title: "Screenplay (Syd Field)", kind: "book" }
+  - { title: 'Story (Robert McKee)', kind: 'book' }
+  - { title: 'Screenplay (Syd Field)', kind: 'book' }
 status: stable

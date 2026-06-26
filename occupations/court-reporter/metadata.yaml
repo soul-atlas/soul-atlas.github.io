@@ -1,23 +1,44 @@
-title: "Court Reporter"
-slug: "court-reporter"
-aliases: ["stenographer", "court stenographer", "realtime reporter"]
-category: "Law"
-tags: ["stenography", "legal-record", "transcription", "realtime", "verbatim"]
+title: 'Court Reporter'
+slug: 'court-reporter'
+aliases: ['stenographer', 'court stenographer', 'realtime reporter']
+category: 'Law'
+tags: ['stenography', 'legal-record', 'transcription', 'realtime', 'verbatim']
 difficulty: advanced
-summary: "How a stenographer captures a verbatim, certifiable record of proceedings, protecting its integrity by knowing exactly when to interrupt and never guessing."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a stenographer captures a verbatim, certifiable record of proceedings, protecting its integrity by knowing exactly when to interrupt and never guessing.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "judge", type: "collaboration", note: "controls the proceedings and relies on the transcript for rulings and appeals" }
-  - { slug: "lawyer", type: "collaboration", note: "depends on and orders the record for cases and depositions" }
-  - { slug: "paralegal", type: "related", note: "works with transcripts and exhibits in case preparation" }
-  - { slug: "linguist", type: "adjacent", note: "shares phonetic and language-capture expertise applied to the record" }
-  - { slug: "technical-writer", type: "related", note: "shares the discipline of precise, faithful text production" }
-specializations: ["realtime reporter", "CART captioner", "deposition reporter", "broadcast captioner"]
+  - {
+      slug: 'judge',
+      type: 'collaboration',
+      note: 'controls the proceedings and relies on the transcript for rulings and appeals',
+    }
+  - {
+      slug: 'lawyer',
+      type: 'collaboration',
+      note: 'depends on and orders the record for cases and depositions',
+    }
+  - {
+      slug: 'paralegal',
+      type: 'related',
+      note: 'works with transcripts and exhibits in case preparation',
+    }
+  - {
+      slug: 'linguist',
+      type: 'adjacent',
+      note: 'shares phonetic and language-capture expertise applied to the record',
+    }
+  - {
+      slug: 'technical-writer',
+      type: 'related',
+      note: 'shares the discipline of precise, faithful text production',
+    }
+specializations:
+  ['realtime reporter', 'CART captioner', 'deposition reporter', 'broadcast captioner']
 country_variants: []
 sources:
-  - { title: "NCRA Code of Professional Ethics and Realtime Standards", kind: "standard" }
-  - { title: "Stenography theory texts (StenEd / Phoenix)", kind: "book" }
+  - { title: 'NCRA Code of Professional Ethics and Realtime Standards', kind: 'standard' }
+  - { title: 'Stenography theory texts (StenEd / Phoenix)', kind: 'book' }
 status: stable

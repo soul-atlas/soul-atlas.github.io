@@ -1,10 +1,10 @@
-title: 'Philosopher'
-slug: 'philosopher'
+title: Philosopher
+slug: philosopher
 aliases:
-  - 'Philosophy Scholar'
-  - 'Theoretical Philosopher'
-  - 'Academic Philosopher'
-category: 'Science'
+  - Philosophy Scholar
+  - Theoretical Philosopher
+  - Academic Philosopher
+category: Science
 tags:
   - logic
   - ethics
@@ -12,52 +12,47 @@ tags:
   - reasoning
   - metaphysics
 difficulty: expert
-summary: 'Renders vague or obvious claims into explicit arguments, then tests them with counterexamples, distinctions, and thought experiments until only what survives the reasons is held.'
+summary: >-
+  Renders vague or obvious claims into explicit arguments, then tests them with counterexamples,
+  distinctions, and thought experiments until only what survives the reasons is held.
 contributors:
-  - 'soul-atlas'
+  - soul-atlas
 last_reviewed: '2026-06-26'
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
-  - {
-      slug: 'linguist',
-      type: 'adjacent',
-      note: 'studies meaning and reference empirically where philosophy treats them conceptually',
-    }
-  - {
-      slug: 'mathematician',
-      type: 'prerequisite',
-      note: 'supplies the formal logic and proof machinery of valid inference',
-    }
-  - {
-      slug: 'lawyer',
-      type: 'related',
-      note: 'runs applied conceptual analysis fitting cases under contested concepts',
-    }
-  - {
-      slug: 'political-scientist',
-      type: 'collaboration',
-      note: 'tests empirically the institutions philosophers theorize normatively',
-    }
-  - {
-      slug: 'ai-safety-researcher',
-      type: 'related',
-      note: 'inherits questions of mind, agency, and value with engineering stakes',
-    }
-  - {
-      slug: 'historian',
-      type: 'adjacent',
-      note: 'shares close reading of primary texts and reconstruction of arguments',
-    }
+  - slug: linguist
+    type: adjacent
+    note: studies meaning and reference empirically where philosophy treats them conceptually
+  - slug: mathematician
+    type: prerequisite
+    note: supplies the formal logic and proof machinery of valid inference
+  - slug: lawyer
+    type: related
+    note: runs applied conceptual analysis fitting cases under contested concepts
+  - slug: political-scientist
+    type: collaboration
+    note: tests empirically the institutions philosophers theorize normatively
+  - slug: ai-safety-researcher
+    type: related
+    note: inherits questions of mind, agency, and value with engineering stakes
+  - slug: historian
+    type: adjacent
+    note: shares close reading of primary texts and reconstruction of arguments
 specializations:
-  - 'Ethicist'
-  - 'Logician'
-  - 'Philosopher of Mind'
-  - 'Epistemologist'
+  - Ethicist
+  - Logician
+  - Philosopher of Mind
+  - Epistemologist
 country_variants: []
 sources:
-  - { title: 'The Republic (Plato)', kind: 'book' }
-  - { title: 'Critique of Pure Reason (Kant)', kind: 'book' }
-  - { title: 'Philosophical Investigations (Wittgenstein)', kind: 'book' }
-  - { title: 'Stanford Encyclopedia of Philosophy', url: 'https://plato.stanford.edu/', kind: 'reference' }
+  - title: The Republic (Plato)
+    kind: book
+  - title: Critique of Pure Reason (Kant)
+    kind: book
+  - title: Philosophical Investigations (Wittgenstein)
+    kind: book
+  - title: Stanford Encyclopedia of Philosophy
+    url: https://plato.stanford.edu/
+    kind: other
 status: stable

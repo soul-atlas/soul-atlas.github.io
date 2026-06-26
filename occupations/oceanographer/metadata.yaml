@@ -1,24 +1,53 @@
-title: "Oceanographer"
-slug: "oceanographer"
-aliases: ["ocean scientist", "marine scientist", "physical oceanographer"]
-category: "Science"
-tags: ["physical-oceanography", "water-masses", "ocean-circulation", "biogeochemistry", "marine-observation"]
-difficulty: "expert"
-summary: "How an expert reads the ocean as one coupled system — fingerprinting water masses by T-S signature, computing currents from density, and extracting climate signal from a chronically undersampled sea."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+title: 'Oceanographer'
+slug: 'oceanographer'
+aliases: ['ocean scientist', 'marine scientist', 'physical oceanographer']
+category: 'Science'
+tags:
+  [
+    'physical-oceanography',
+    'water-masses',
+    'ocean-circulation',
+    'biogeochemistry',
+    'marine-observation',
+  ]
+difficulty: 'expert'
+summary: 'How an expert reads the ocean as one coupled system — fingerprinting water masses by T-S signature, computing currents from density, and extracting climate signal from a chronically undersampled sea.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "meteorologist", type: "collaboration", note: "couple at the air-sea interface; halves of one heat engine" }
-  - { slug: "climate-scientist", type: "adjacent", note: "ocean heat and carbon storage in the long-term picture" }
-  - { slug: "geologist", type: "related", note: "seafloor and sediment record; marine geophysics" }
-  - { slug: "commercial-fisher", type: "collaboration", note: "depends on circulation and upwelling that set fishing grounds" }
-  - { slug: "ecologist", type: "adjacent", note: "marine communities sustained by the physical-chemical ocean" }
-specializations: ["physical oceanographer", "chemical oceanographer", "biological oceanographer", "geological oceanographer"]
+  - {
+      slug: 'meteorologist',
+      type: 'collaboration',
+      note: 'couple at the air-sea interface; halves of one heat engine',
+    }
+  - {
+      slug: 'climate-scientist',
+      type: 'adjacent',
+      note: 'ocean heat and carbon storage in the long-term picture',
+    }
+  - { slug: 'geologist', type: 'related', note: 'seafloor and sediment record; marine geophysics' }
+  - {
+      slug: 'commercial-fisher',
+      type: 'collaboration',
+      note: 'depends on circulation and upwelling that set fishing grounds',
+    }
+  - {
+      slug: 'ecologist',
+      type: 'adjacent',
+      note: 'marine communities sustained by the physical-chemical ocean',
+    }
+specializations:
+  [
+    'physical oceanographer',
+    'chemical oceanographer',
+    'biological oceanographer',
+    'geological oceanographer',
+  ]
 country_variants: []
 sources:
-  - { title: "Descriptive Physical Oceanography (Talley, Pickard, Emery & Swift)", kind: "book" }
-  - { title: "Atmosphere, Ocean and Climate Dynamics (Marshall & Plumb)", kind: "book" }
-  - { title: "Introductory Dynamical Oceanography (Pond & Pickard)", kind: "book" }
+  - { title: 'Descriptive Physical Oceanography (Talley, Pickard, Emery & Swift)', kind: 'book' }
+  - { title: 'Atmosphere, Ocean and Climate Dynamics (Marshall & Plumb)', kind: 'book' }
+  - { title: 'Introductory Dynamical Oceanography (Pond & Pickard)', kind: 'book' }
 status: stable

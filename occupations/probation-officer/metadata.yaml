@@ -1,0 +1,54 @@
+title: 'Probation Officer'
+slug: 'probation-officer'
+aliases: ['Parole Officer', 'Community Supervision Officer', 'Community Corrections Officer']
+category: 'Public Service'
+tags: ['community-supervision', 'risk-assessment', 'rnr-model', 'reentry', 'behavior-change']
+difficulty: 'advanced'
+summary: 'How a probation officer thinks: public safety through behavior change, the cop/social-worker tension, risk-need-responsivity over gut feel, and deciding when supervision must become incarceration.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - {
+      slug: 'correctional-officer',
+      type: 'adjacent',
+      note: 'Holds in custody the people the PO supervises and prepares for reentry',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'related',
+      note: 'Shares casework, MI, and resource coordination on the support side',
+    }
+  - {
+      slug: 'police-officer',
+      type: 'collaboration',
+      note: 'Shares information and the public-safety mandate from enforcement',
+    }
+  - {
+      slug: 'judge',
+      type: 'collaboration',
+      note: 'Sentences on the PSR and rules on violation recommendations',
+    }
+  - {
+      slug: 'prosecutor',
+      type: 'adjacent',
+      note: 'Courtroom counterpart at sentencing and revocation hearings',
+    }
+  - {
+      slug: 'mediator',
+      type: 'related',
+      note: 'Shares skill of working with people in conflict toward changed outcomes',
+    }
+specializations:
+  [
+    'parole-officer',
+    'juvenile-probation-officer',
+    'presentence-investigator',
+    'intensive-supervision-officer',
+  ]
+country_variants: []
+sources:
+  - { title: 'The Psychology of Criminal Conduct (Andrews & Bonta)', kind: 'book' }
+  - { title: 'Motivational Interviewing (Miller & Rollnick)', kind: 'book' }
+status: stable

@@ -1,23 +1,49 @@
-title: "Sheet Metal Worker"
-slug: "sheet-metal-worker"
-aliases: ["sheet metal mechanic", "tinsmith", "HVAC ductwork fabricator"]
-category: "Skilled Trades"
-tags: ["sheet-metal", "ductwork", "hvac", "fabrication", "pattern-development"]
+title: 'Sheet Metal Worker'
+slug: 'sheet-metal-worker'
+aliases: ['sheet metal mechanic', 'tinsmith', 'HVAC ductwork fabricator']
+category: 'Skilled Trades'
+tags: ['sheet-metal', 'ductwork', 'hvac', 'fabrication', 'pattern-development']
 difficulty: intermediate
-summary: "How an expert sheet metal worker thinks in flat-pattern geometry and static-pressure budgets, fabricating sealed duct that delivers the design airflow without choking the fan."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert sheet metal worker thinks in flat-pattern geometry and static-pressure budgets, fabricating sealed duct that delivers the design airflow without choking the fan.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "hvac-technician", type: "collaboration", note: "installs the equipment the ductwork connects to" }
-  - { slug: "roofer", type: "related", note: "overlap on architectural metal: flashings, gutters, panels" }
-  - { slug: "welder", type: "adjacent", note: "joins heavy plate and stainless for hoods and industrial work" }
-  - { slug: "mechanical-engineer", type: "prerequisite", note: "sizes the air system the sheet metal worker fabricates" }
-  - { slug: "machinist", type: "related", note: "shares precision layout and forming of metal stock" }
-specializations: ["HVAC duct fabricator", "architectural sheet metal worker", "industrial/stainless fabricator", "test-and-balance technician"]
+  - {
+      slug: 'hvac-technician',
+      type: 'collaboration',
+      note: 'installs the equipment the ductwork connects to',
+    }
+  - {
+      slug: 'roofer',
+      type: 'related',
+      note: 'overlap on architectural metal: flashings, gutters, panels',
+    }
+  - {
+      slug: 'welder',
+      type: 'adjacent',
+      note: 'joins heavy plate and stainless for hoods and industrial work',
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'prerequisite',
+      note: 'sizes the air system the sheet metal worker fabricates',
+    }
+  - {
+      slug: 'machinist',
+      type: 'related',
+      note: 'shares precision layout and forming of metal stock',
+    }
+specializations:
+  [
+    'HVAC duct fabricator',
+    'architectural sheet metal worker',
+    'industrial/stainless fabricator',
+    'test-and-balance technician',
+  ]
 country_variants: []
 sources:
-  - { title: "SMACNA HVAC Duct Construction Standards", kind: "standard" }
-  - { title: "ASHRAE Handbook — Fundamentals", kind: "book" }
+  - { title: 'SMACNA HVAC Duct Construction Standards', kind: 'standard' }
+  - { title: 'ASHRAE Handbook — Fundamentals', kind: 'book' }
 status: stable

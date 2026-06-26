@@ -4,7 +4,7 @@ aliases: ['Food Technologist', 'Product Development Scientist', 'R&D Food Scient
 category: 'Science'
 tags: ['food-safety', 'formulation', 'shelf-life', 'sensory-science', 'haccp']
 difficulty: 'expert'
-summary: "How a food scientist thinks: water activity as the master variable, stacking hurdles for safety, and engineering food that stays safe, stable, and acceptable at industrial scale."
+summary: 'How a food scientist thinks: water activity as the master variable, stacking hurdles for safety, and engineering food that stays safe, stable, and acceptable at industrial scale.'
 contributors: ['soul-atlas']
 last_reviewed: '2026-06-26'
 created: '2026-06-26'
@@ -30,17 +30,14 @@ related:
       type: 'related',
       note: 'Owns the unit operations and scale-up food science designs around',
     }
-  - {
-      slug: 'dietitian',
-      type: 'adjacent',
-      note: 'Translates the product nutrition for consumers',
-    }
+  - { slug: 'dietitian', type: 'adjacent', note: 'Translates the product nutrition for consumers' }
   - {
       slug: 'agronomist',
       type: 'related',
       note: 'Shapes the raw crops upstream that become ingredients',
     }
-specializations: ['product-development-scientist', 'food-safety-scientist', 'sensory-scientist', 'flavor-chemist']
+specializations:
+  ['product-development-scientist', 'food-safety-scientist', 'sensory-scientist', 'flavor-chemist']
 country_variants: []
 sources:
   - { title: "Fennema's Food Chemistry (Damodaran & Parkin)", kind: 'book' }

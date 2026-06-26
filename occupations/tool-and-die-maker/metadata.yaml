@@ -1,25 +1,45 @@
-title: "Tool and Die Maker"
-slug: "tool-and-die-maker"
-aliases: ["toolmaker", "diemaker", "mold maker"]
-category: "Skilled Trades"
-tags: ["precision-machining", "dies", "molds", "tooling", "heat-treatment"]
+title: 'Tool and Die Maker'
+slug: 'tool-and-die-maker'
+aliases: ['toolmaker', 'diemaker', 'mold maker']
+category: 'Skilled Trades'
+tags: ['precision-machining', 'dies', 'molds', 'tooling', 'heat-treatment']
 difficulty: expert
-summary: "How a master toolmaker thinks: build the tool one tolerance tighter than the part, machine soft then harden then grind, and design for a million cycles."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a master toolmaker thinks: build the tool one tolerance tighter than the part, machine soft then harden then grind, and design for a million cycles.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "machinist", type: "prerequisite", note: "the trade tool and die making grows out of" }
-  - { slug: "mechanical-engineer", type: "collaboration", note: "designs the parts the tooling must produce" }
-  - { slug: "industrial-engineer", type: "adjacent", note: "owns the production process the tooling serves" }
-  - { slug: "millwright", type: "collaboration", note: "installs and maintains tooling and presses" }
-  - { slug: "robotics-engineer", type: "collaboration", note: "integrates dies and fixtures into automated cells" }
-  - { slug: "jeweler", type: "related", note: "shares precision fitting and hardened-tool craft at small scale" }
-specializations: ["die maker", "mold maker", "jig-and-fixture maker"]
+  - { slug: 'machinist', type: 'prerequisite', note: 'the trade tool and die making grows out of' }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'collaboration',
+      note: 'designs the parts the tooling must produce',
+    }
+  - {
+      slug: 'industrial-engineer',
+      type: 'adjacent',
+      note: 'owns the production process the tooling serves',
+    }
+  - {
+      slug: 'millwright',
+      type: 'collaboration',
+      note: 'installs and maintains tooling and presses',
+    }
+  - {
+      slug: 'robotics-engineer',
+      type: 'collaboration',
+      note: 'integrates dies and fixtures into automated cells',
+    }
+  - {
+      slug: 'jeweler',
+      type: 'related',
+      note: 'shares precision fitting and hardened-tool craft at small scale',
+    }
+specializations: ['die maker', 'mold maker', 'jig-and-fixture maker']
 country_variants: []
 sources:
-  - { title: "Machinery's Handbook", kind: "book" }
-  - { title: "Die Design Fundamentals", kind: "book" }
-  - { title: "ASME Y14.5 Dimensioning and Tolerancing", kind: "standard" }
+  - { title: "Machinery's Handbook", kind: 'book' }
+  - { title: 'Die Design Fundamentals', kind: 'book' }
+  - { title: 'ASME Y14.5 Dimensioning and Tolerancing', kind: 'standard' }
 status: stable

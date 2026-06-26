@@ -1,24 +1,54 @@
-title: "Delivery Driver"
-slug: "delivery-driver"
-aliases: ["Courier", "Last-Mile Driver", "Package Delivery Driver", "Parcel Driver"]
-category: "Transportation"
-tags: ["last-mile", "route-optimization", "proof-of-delivery", "stops-per-hour", "cold-chain"]
+title: Delivery Driver
+slug: delivery-driver
+aliases:
+  - Courier
+  - Last-Mile Driver
+  - Package Delivery Driver
+  - Parcel Driver
+category: Transportation
+tags:
+  - last-mile
+  - route-optimization
+  - proof-of-delivery
+  - stops-per-hour
+  - cold-chain
 difficulty: intermediate
-summary: "How an expert delivery driver thinks: maximizing stops-per-hour while refusing to let the speed of the route corrupt the accuracy and safety of the final step at the door."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: >-
+  How an expert delivery driver thinks: maximizing stops-per-hour while refusing to let the speed of
+  the route corrupt the accuracy and safety of the final step at the door.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "truck-driver", type: "adjacent", note: "Shares road craft and route-and-load discipline in a heavier vehicle" }
-  - { slug: "bus-driver", type: "related", note: "Same route, schedule pressure, and constant stops" }
-  - { slug: "postal-worker", type: "adjacent", note: "Same last-mile delivery, address-finding, and proof work" }
-  - { slug: "dispatcher", type: "collaboration", note: "Handles redirects and problem addresses in real time" }
-  - { slug: "logistics-coordinator", type: "collaboration", note: "Designs the routes and density the driver executes" }
-  - { slug: "supply-chain-manager", type: "related", note: "Sets the volume and network the last mile must absorb" }
-specializations: ["courier", "grocery-delivery-driver", "parcel-driver", "freight-van-driver"]
+  - slug: truck-driver
+    type: adjacent
+    note: Shares road craft and route-and-load discipline in a heavier vehicle
+  - slug: bus-driver
+    type: related
+    note: Same route, schedule pressure, and constant stops
+  - slug: postal-worker
+    type: adjacent
+    note: Same last-mile delivery, address-finding, and proof work
+  - slug: dispatcher
+    type: collaboration
+    note: Handles redirects and problem addresses in real time
+  - slug: logistics-coordinator
+    type: collaboration
+    note: Designs the routes and density the driver executes
+  - slug: supply-chain-manager
+    type: related
+    note: Sets the volume and network the last mile must absorb
+specializations:
+  - courier
+  - grocery-delivery-driver
+  - parcel-driver
+  - freight-van-driver
 country_variants: []
 sources:
-  - { title: "FMCSA / DOT commercial vehicle regulations", kind: "reference" }
-  - { title: "Last-Mile Logistics and Route Optimization (industry practice)", kind: "reference" }
+  - title: FMCSA / DOT commercial vehicle regulations
+    kind: other
+  - title: Last-Mile Logistics and Route Optimization (industry practice)
+    kind: other
 status: stable

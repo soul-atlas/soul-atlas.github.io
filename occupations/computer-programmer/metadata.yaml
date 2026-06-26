@@ -1,24 +1,44 @@
-title: "Computer Programmer"
-slug: "computer-programmer"
-aliases: ["programmer", "coder", "application programmer", "maintenance programmer"]
-category: "Technology"
-tags: ["implementation", "debugging", "legacy-maintenance", "spec-fidelity", "defect-resolution"]
+title: 'Computer Programmer'
+slug: 'computer-programmer'
+aliases: ['programmer', 'coder', 'application programmer', 'maintenance programmer']
+category: 'Technology'
+tags: ['implementation', 'debugging', 'legacy-maintenance', 'spec-fidelity', 'defect-resolution']
 difficulty: intermediate
-summary: "Thinks of the spec as a contract, chases faults to root cause through reproduction and bisection, and changes one thing at a time in small reviewable diffs."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'Thinks of the spec as a contract, chases faults to root cause through reproduction and bisection, and changes one thing at a time in small reviewable diffs.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "software-engineer", type: "progression", note: "broader role adding architecture and design ownership" }
-  - { slug: "computer-systems-analyst", type: "prerequisite", note: "authors the specifications the programmer implements" }
-  - { slug: "qa-engineer", type: "collaboration", note: "partners on reproducing defects and verifying fixes" }
-  - { slug: "backend-engineer", type: "specialization", note: "server-side implementation focus" }
-  - { slug: "web-developer", type: "adjacent", note: "implementation craft focused on the browser and HTTP" }
-  - { slug: "site-reliability-engineer", type: "related", note: "collaborates when defects surface in production" }
-specializations: ["legacy maintenance", "embedded firmware", "scientific computing"]
+  - {
+      slug: 'software-engineer',
+      type: 'progression',
+      note: 'broader role adding architecture and design ownership',
+    }
+  - {
+      slug: 'computer-systems-analyst',
+      type: 'prerequisite',
+      note: 'authors the specifications the programmer implements',
+    }
+  - {
+      slug: 'qa-engineer',
+      type: 'collaboration',
+      note: 'partners on reproducing defects and verifying fixes',
+    }
+  - { slug: 'backend-engineer', type: 'specialization', note: 'server-side implementation focus' }
+  - {
+      slug: 'web-developer',
+      type: 'adjacent',
+      note: 'implementation craft focused on the browser and HTTP',
+    }
+  - {
+      slug: 'site-reliability-engineer',
+      type: 'related',
+      note: 'collaborates when defects surface in production',
+    }
+specializations: ['legacy maintenance', 'embedded firmware', 'scientific computing']
 country_variants: []
 sources:
-  - { title: "The Pragmatic Programmer (Hunt & Thomas)", kind: "book" }
-  - { title: "Code Complete (Steve McConnell)", kind: "book" }
+  - { title: 'The Pragmatic Programmer (Hunt & Thomas)', kind: 'book' }
+  - { title: 'Code Complete (Steve McConnell)', kind: 'book' }
 status: stable

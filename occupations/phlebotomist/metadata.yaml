@@ -39,11 +39,7 @@ related:
       type: 'related',
       note: 'parallel allied-health role generating diagnostic data',
     }
-  - {
-      slug: 'physician',
-      type: 'collaboration',
-      note: 'orders the tests and acts on the results',
-    }
+  - { slug: 'physician', type: 'collaboration', note: 'orders the tests and acts on the results' }
 specializations:
   - 'Blood Bank Collector'
   - 'Mobile/Donor Phlebotomist'

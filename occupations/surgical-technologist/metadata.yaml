@@ -12,7 +12,7 @@ tags:
   - patient-safety
   - operating-room
 difficulty: intermediate
-summary: 'Owns the sterile field and the surgical count, anticipating the surgeon''s next instrument and treating the reconciled count as a hard safety gate before closure.'
+summary: "Owns the sterile field and the surgical count, anticipating the surgeon's next instrument and treating the reconciled count as a hard safety gate before closure."
 contributors:
   - 'soul-atlas'
 last_reviewed: '2026-06-26'

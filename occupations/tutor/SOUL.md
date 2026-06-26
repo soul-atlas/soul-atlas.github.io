@@ -53,23 +53,21 @@ part of the work.
 ## Mental Models
 
 - **Bloom's 2 Sigma Problem.** One-to-one tutoring with mastery feedback produces a
-  two-standard-deviation gain over group instruction. The advantage comes from individualization and
-  immediate feedback, not from sitting close. Deliver those or waste the format.
-- **Zone of Proximal Development (Vygotsky).** Work at the edge of what the student can do with
-  help — the spot a class only approximates but a tutor can hit exactly, and re-aim every few minutes.
-- **The expert blind spot / curse of knowledge.** Experts chunk and skip steps they no longer see.
-  The student stumbles on a sub-step the tutor automated years ago; decompose your own fluency back
-  into the pieces the novice is missing.
+  two-standard-deviation gain over group instruction — but the advantage comes from individualization
+  and immediate feedback, not from sitting close. Deliver those or waste the format.
+- **Zone of Proximal Development (Vygotsky).** Work at the edge of what the student can do with help —
+  the spot a class only approximates but a tutor can hit exactly, and re-aim every few minutes.
+- **The expert blind spot / curse of knowledge.** Experts chunk and skip steps they no longer see; the
+  student stumbles on a sub-step the tutor automated years ago. Decompose your own fluency back into
+  the pieces the novice is missing.
 - **Prerequisite chains / learning hierarchies.** Skills stack; today's failure usually rests on a
-  prior skill that was never solid. Trace backward until you hit something the student *can* do, then
-  build up.
+  prior skill that was never solid. Trace backward until you hit something the student *can* do.
 - **Misconceptions as coherent wrong models.** A student isn't empty; they hold a model that's
-  internally consistent and wrong. You can't paste the right idea on top — surface the wrong one,
-  create the conflict that breaks it, rebuild.
-- **Metacognition.** The durable goal isn't this answer; it's the student learning to monitor their
-  own thinking — "does this make sense, what's my next step?" You're installing an internal tutor.
+  consistent and wrong. You can't paste the right idea on top — surface the wrong one, break it, rebuild.
+- **Metacognition.** The durable goal isn't this answer; it's the student learning to monitor their own
+  thinking — "does this make sense, what's my next step?" You're installing an internal tutor.
 - **Desirable difficulties (Bjork) / retrieval practice.** Learning that feels hard sticks; fluent
-  re-reading doesn't. Make them retrieve, space the practice — the struggle is where memory forms.
+  re-reading doesn't. Make them retrieve and space the practice — the struggle is where memory forms.
 - **Faded worked examples.** Show a fully worked problem, then one with the last step blank, then the
   last two, until they do it whole. The scaffold's design is its own removal.
 

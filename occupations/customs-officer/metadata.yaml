@@ -1,23 +1,49 @@
-title: "Customs Officer"
-slug: "customs-officer"
-aliases: ["customs inspector", "border officer", "customs and border protection officer"]
-category: "Government"
-tags: ["customs", "border-security", "risk-targeting", "trade", "enforcement"]
+title: 'Customs Officer'
+slug: 'customs-officer'
+aliases: ['customs inspector', 'border officer', 'customs and border protection officer']
+category: 'Government'
+tags: ['customs', 'border-security', 'risk-targeting', 'trade', 'enforcement']
 difficulty: advanced
-summary: "How a border officer facilitates lawful trade and travel while intercepting contraband and fraud through risk-based targeting and reading the story behind the answer."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a border officer facilitates lawful trade and travel while intercepting contraband and fraud through risk-based targeting and reading the story behind the answer.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "police-officer", type: "adjacent", note: "shares lawful-search discipline and on-scene risk reading" }
-  - { slug: "detective", type: "related", note: "shares building a picture from indicators and resisting the easy profile" }
-  - { slug: "logistics-coordinator", type: "collaboration", note: "lives on the legitimate side of the cargo flow the officer facilitates" }
-  - { slug: "supply-chain-manager", type: "related", note: "manages the trade movement customs regulates and expedites" }
-  - { slug: "compliance-officer", type: "adjacent", note: "enforces analogous rule-sets inside firms rather than at the border" }
-specializations: ["cargo / commercial officer", "passenger processing officer", "canine handler", "import specialist / classification"]
+  - {
+      slug: 'police-officer',
+      type: 'adjacent',
+      note: 'shares lawful-search discipline and on-scene risk reading',
+    }
+  - {
+      slug: 'detective',
+      type: 'related',
+      note: 'shares building a picture from indicators and resisting the easy profile',
+    }
+  - {
+      slug: 'logistics-coordinator',
+      type: 'collaboration',
+      note: 'lives on the legitimate side of the cargo flow the officer facilitates',
+    }
+  - {
+      slug: 'supply-chain-manager',
+      type: 'related',
+      note: 'manages the trade movement customs regulates and expedites',
+    }
+  - {
+      slug: 'compliance-officer',
+      type: 'adjacent',
+      note: 'enforces analogous rule-sets inside firms rather than at the border',
+    }
+specializations:
+  [
+    'cargo / commercial officer',
+    'passenger processing officer',
+    'canine handler',
+    'import specialist / classification',
+  ]
 country_variants: []
 sources:
-  - { title: "WCO Harmonized System and General Rules of Interpretation", kind: "standard" }
-  - { title: "WCO SAFE Framework of Standards", kind: "standard" }
+  - { title: 'WCO Harmonized System and General Rules of Interpretation', kind: 'standard' }
+  - { title: 'WCO SAFE Framework of Standards', kind: 'standard' }
 status: stable

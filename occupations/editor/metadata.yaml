@@ -4,7 +4,7 @@ aliases: ['Copyeditor', 'Manuscript Editor', 'Developmental Editor', 'Book Edito
 category: 'Creative'
 tags: ['editing', 'copyediting', 'style-guide', 'manuscript', 'publishing']
 difficulty: 'advanced'
-summary: 'How a text editor thinks: diagnosing which of the four levels a piece needs, serving the author''s intent over their own voice, and knowing when to query versus change.'
+summary: "How a text editor thinks: diagnosing which of the four levels a piece needs, serving the author's intent over their own voice, and knowing when to query versus change."
 contributors: ['soul-atlas']
 last_reviewed: '2026-06-26'
 created: '2026-06-26'
@@ -39,5 +39,5 @@ specializations: ['developmental editor', 'copyeditor', 'proofreader', 'acquisit
 country_variants: []
 sources:
   - { title: 'The Chicago Manual of Style', kind: 'book' }
-  - { title: 'The Copyeditor''s Handbook (Amy Einsohn)', kind: 'book' }
+  - { title: "The Copyeditor's Handbook (Amy Einsohn)", kind: 'book' }
 status: stable

@@ -57,6 +57,6 @@ specializations:
 country_variants: []
 sources:
   - { title: 'Robbins and Cotran Pathologic Basis of Disease', kind: 'book' }
-  - { title: 'Rosai and Ackerman''s Surgical Pathology', kind: 'book' }
+  - { title: "Rosai and Ackerman's Surgical Pathology", kind: 'book' }
   - { title: 'College of American Pathologists protocols', kind: 'standard' }
 status: stable

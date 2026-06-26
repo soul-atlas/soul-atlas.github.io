@@ -1,10 +1,16 @@
 title: 'Conservation Scientist'
 slug: 'conservation-scientist'
-aliases: ['Conservationist', 'Range Conservationist', 'Soil Conservationist', 'Natural Resource Specialist']
+aliases:
+  [
+    'Conservationist',
+    'Range Conservationist',
+    'Soil Conservationist',
+    'Natural Resource Specialist',
+  ]
 category: 'Science'
 tags: ['land-management', 'ecosystem-services', 'sustained-yield', 'restoration', 'rangeland']
 difficulty: 'expert'
-summary: "How a conservation scientist thinks: working land managed for sustained yield and ecological function together, conservation over preservation, and trust as the limiting nutrient."
+summary: 'How a conservation scientist thinks: working land managed for sustained yield and ecological function together, conservation over preservation, and trust as the limiting nutrient.'
 contributors: ['soul-atlas']
 last_reviewed: '2026-06-26'
 created: '2026-06-26'
@@ -40,7 +46,8 @@ related:
       type: 'adjacent',
       note: 'Manages public land where use and preservation collide',
     }
-specializations: ['range-conservationist', 'soil-conservationist', 'restoration-ecologist', 'wetland-specialist']
+specializations:
+  ['range-conservationist', 'soil-conservationist', 'restoration-ecologist', 'wetland-specialist']
 country_variants: []
 sources:
   - { title: 'A Sand County Almanac (Aldo Leopold)', kind: 'book' }

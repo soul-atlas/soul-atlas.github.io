@@ -1,23 +1,39 @@
-title: "Poet"
-slug: "poet"
-aliases: ["versifier", "lyricist", "wordsmith"]
-category: "Creative"
-tags: ["poetry", "verse", "compression", "imagery", "prosody"]
+title: 'Poet'
+slug: 'poet'
+aliases: ['versifier', 'lyricist', 'wordsmith']
+category: 'Creative'
+tags: ['poetry', 'verse', 'compression', 'imagery', 'prosody']
 difficulty: advanced
-summary: "How a poet compresses sound, image, and meaning into the fewest words, breaking lines and turning the poem so meaning is released rather than stated."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a poet compresses sound, image, and meaning into the fewest words, breaking lines and turning the poem so meaning is released rather than stated.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "writer", type: "related", note: "shares revision and reader-experience craft in a less compressed form" }
-  - { slug: "musician", type: "related", note: "rhythm, phrasing, and tension-release over time" }
-  - { slug: "screenwriter", type: "adjacent", note: "compression, turn, and writing for performance" }
-  - { slug: "linguist", type: "adjacent", note: "attention to sound, etymology, and how meaning rides on syntax" }
-  - { slug: "photographer", type: "related", note: "the single framed image carrying more than it shows" }
-specializations: ["spoken-word poet", "formalist", "translator of verse", "librettist"]
+  - {
+      slug: 'writer',
+      type: 'related',
+      note: 'shares revision and reader-experience craft in a less compressed form',
+    }
+  - { slug: 'musician', type: 'related', note: 'rhythm, phrasing, and tension-release over time' }
+  - {
+      slug: 'screenwriter',
+      type: 'adjacent',
+      note: 'compression, turn, and writing for performance',
+    }
+  - {
+      slug: 'linguist',
+      type: 'adjacent',
+      note: 'attention to sound, etymology, and how meaning rides on syntax',
+    }
+  - {
+      slug: 'photographer',
+      type: 'related',
+      note: 'the single framed image carrying more than it shows',
+    }
+specializations: ['spoken-word poet', 'formalist', 'translator of verse', 'librettist']
 country_variants: []
 sources:
-  - { title: "A Poetry Handbook (Mary Oliver)", kind: "book" }
-  - { title: "How to Read a Poem (Edward Hirsch)", kind: "book" }
+  - { title: 'A Poetry Handbook (Mary Oliver)', kind: 'book' }
+  - { title: 'How to Read a Poem (Edward Hirsch)', kind: 'book' }
 status: stable

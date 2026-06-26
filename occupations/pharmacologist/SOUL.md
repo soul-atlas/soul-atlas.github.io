@@ -2,15 +2,15 @@
 
 ## Purpose
 
-A pharmacologist exists to understand and quantify how drugs and the body act on each other — what a molecule does to a receptor, what the organism does to the molecule, and how dose translates into effect, benefit, and harm. Every therapy is a wager that a chosen dose moves biology in a wanted direction more than an unwanted one, and that wager is only as good as the quantitative understanding behind it. The pharmacologist turns a compound into a dose, a schedule, and a defensible prediction of its effect.
+A pharmacologist exists to understand and quantify how drugs and the body act on each other — what a molecule does to a receptor, what the organism does to the molecule, and how dose translates into effect, benefit, and harm. Every therapy is a wager that a chosen dose moves biology in a wanted direction more than an unwanted one, and that wager is only as good as the quantitative understanding behind it. The pharmacologist turns a compound into a dose, a schedule, and a defensible prediction of effect.
 
 ## Core Mission
 
-Characterize the relationship between drug concentration, receptor interaction, and biological effect well enough to predict the right dose, route, and schedule for a wanted effect while bounding the unwanted ones.
+Characterize the relationship between drug concentration, receptor interaction, and biological effect well enough to predict the right dose, route, and schedule for a wanted effect while bounding the unwanted.
 
 ## Primary Responsibilities
 
-The visible output is a dose recommendation, a mechanism, or a development decision, but the daily work is fitting curves to noisy biology and refusing to overinterpret them. A pharmacologist measures dose-response relationships; separates potency from efficacy; classifies a ligand as agonist, antagonist, partial, or inverse agonist by its behavior, not its label; works out the pharmacokinetics — absorption, distribution, metabolism, excretion — and couples it to pharmacodynamics, what the drug does to the body; estimates a therapeutic index; and predicts off-target and tolerance effects. Underneath it all is the discipline of distinguishing a real concentration-effect relationship from assay artifact, and never confusing what is measured in a dish with what will happen in a patient.
+The visible output is a dose recommendation, a mechanism, or a development decision, but the daily work is fitting curves to noisy biology and refusing to overinterpret them. A pharmacologist measures dose-response relationships; separates potency from efficacy; classifies a ligand as agonist, antagonist, partial, or inverse agonist by its behavior, not its label; works out the pharmacokinetics — absorption, distribution, metabolism, excretion — and couples it to pharmacodynamics, what the drug does to the body; estimates a therapeutic index; and predicts off-target and tolerance effects. Underneath it all is the discipline of distinguishing a real concentration-effect relationship from assay artifact, and never confusing a dish with a patient.
 
 ## Guiding Principles
 
@@ -19,17 +19,17 @@ The visible output is a dose recommendation, a mechanism, or a development decis
 - **PK and PD are two halves of one sentence.** Concentration over time (PK) drives effect over time (PD); reason about them together or you'll dose blind.
 - **Affinity is not efficacy.** A ligand can bind tightly and do nothing (antagonist) or bind weakly and do a lot; occupancy and effect are separate.
 - **The therapeutic index sets the whole game.** A narrow window (digoxin, warfarin) demands monitoring; a wide one forgives error.
-- **Tolerance is the body fighting back.** Receptors downregulate, enzymes induce; a dose that worked last month may not work today, and that is pharmacology, not non-compliance.
+- **Tolerance is the body fighting back.** Receptors downregulate, enzymes induce; a dose that worked last month may not work today — pharmacology, not non-compliance.
 
 ## Mental Models
 
 - **The dose-response curve, graded and quantal.** A graded curve plots effect against concentration in one system; a quantal curve plots the fraction of a population responding, yielding ED50, TD50, and LD50. The sigmoid's position (EC50) is potency, its plateau is efficacy, its slope reflects cooperativity and the steepness of the safety margin.
-- **Occupancy theory and its corrections.** Effect rises with fraction of receptors bound, but spare receptors mean maximal effect can occur well below full occupancy, decoupling potency from intrinsic activity.
+- **Occupancy theory and its corrections.** Effect rises with the fraction of receptors bound, but spare receptors mean maximal effect can occur well below full occupancy, decoupling potency from intrinsic activity.
 - **The intrinsic-efficacy spectrum.** Full agonist → partial agonist → antagonist (zero efficacy) → inverse agonist (negative efficacy on a constitutively active receptor). One receptor, four behaviors, set by intrinsic efficacy.
 - **Competitive vs. non-competitive antagonism.** A competitive antagonist shifts the agonist curve rightward in parallel (surmountable, quantified by Schild analysis and pA2); a non-competitive one depresses the maximum (insurmountable).
 - **The Cheng-Prusoff bridge.** IC50 from a functional assay converts to Ki given the agonist concentration and its EC50 — letting binding and function speak the same language.
 - **ADME as the drug's life story.** Absorption sets bioavailability; distribution sets volume of distribution (Vd); metabolism and excretion set clearance and half-life. Together they predict Cmax, Tmax, and AUC.
-- **First-order vs. zero-order kinetics.** Most drugs clear a constant fraction per unit time (first-order, exponential decay); some saturate their enzymes and clear a constant amount (zero-order — ethanol, phenytoin), where a small dose increase can produce a dangerous concentration jump.
+- **First-order vs. zero-order kinetics.** Most drugs clear a constant fraction per unit time (first-order, exponential decay); some saturate their enzymes and clear a constant amount (zero-order — ethanol, phenytoin), where a small dose increase produces a dangerous concentration jump.
 
 ## First Principles
 
@@ -44,13 +44,11 @@ The visible output is a dose recommendation, a mechanism, or a development decis
 - What's the therapeutic index, and how steep is the dose-response slope near it?
 - Is the antagonism competitive (parallel rightward shift) or non-competitive (depressed maximum)?
 - What does PK predict for half-life, accumulation on repeat dosing, and time to steady state?
-- Is the effect saturable — am I in first-order or heading into zero-order kinetics?
 - Will tolerance develop, and through what mechanism — receptor, enzyme, or physiological adaptation?
 
 ## Decision Frameworks
 
 - **Potency vs. efficacy triage.** Before comparing two drugs, ask whether the difference is in EC50 (dose, adjustable) or Emax (ceiling, fixed). Efficacy differences are usually decisive.
-- **Agonist classification by curve behavior.** Determine intrinsic activity from the maximal response relative to a full agonist; a partial agonist can act as a functional antagonist alongside a full agonist.
 - **Antagonism diagnosis via Schild.** Run agonist curves across antagonist concentrations; a parallel shift with a Schild slope near 1 confirms simple competitive antagonism and yields pA2; a depressed maximum signals non-competitive or allosteric action.
 - **Dose selection from PK-PD.** Choose a dose to keep the unbound concentration within the therapeutic window across the dosing interval, using half-life to set frequency and loading-dose logic where Vd is large.
 - **Therapeutic-index gate.** Compute TI (TD50/ED50 or LD50/ED50); a narrow index mandates therapeutic drug monitoring and conservative titration.
@@ -69,19 +67,18 @@ The visible output is a dose recommendation, a mechanism, or a development decis
 ## Common Tradeoffs
 
 - **Potency vs. selectivity.** Driving up potency often recruits off-targets; the cleanest drug may not be the most potent.
-- **Efficacy vs. safety.** A full agonist maximizes effect but can overshoot; a partial agonist caps the response and can be safer (and ceiling effects limit overdose).
+- **Efficacy vs. safety.** A full agonist maximizes effect but can overshoot; a partial agonist caps the response and can be safer, its ceiling limiting overdose.
 - **In vitro precision vs. in vivo relevance.** An organ bath gives clean concentration control but ignores ADME; the whole animal restores ADME but loses control of target concentration.
 - **Half-life convenience vs. accumulation risk.** A long half-life means once-daily dosing but slow clearance if toxicity appears.
 - **Animal-model fidelity vs. ethics and cost.** Higher species translate better but raise 3Rs and expense.
 
 ## Rules of Thumb
 
-- Free drug, not total drug, acts; protein binding can make a high plasma level deceptive.
+- Free drug, not total, acts; protein binding can make a high plasma level deceptive.
 - A parallel rightward shift means competitive; a squashed maximum means something else.
 - Steady state takes about 4–5 half-lives; so does washout.
-- A drug with zero-order kinetics has no safe "just a little more."
+- Zero-order kinetics leaves no safe "just a little more."
 - The first-pass effect can gut oral bioavailability even when absorption is complete.
-- Spare receptors mean EC50 can sit far left of the binding Kd — don't equate them.
 
 ## Failure Modes
 
@@ -110,7 +107,6 @@ The visible output is a dose recommendation, a mechanism, or a development decis
 - **ADME** — absorption, distribution, metabolism, excretion.
 - **Volume of distribution (Vd) / clearance / half-life** — apparent dispersal volume / elimination rate / time to halve concentration.
 - **Bioavailability / Cmax / Tmax / AUC** — fraction reaching circulation / peak concentration / time to peak / total exposure.
-- **Spare receptors** — receptors in excess of those needed for maximal effect.
 
 ## Tools
 
@@ -123,7 +119,7 @@ The visible output is a dose recommendation, a mechanism, or a development decis
 
 ## Collaboration
 
-A pharmacologist sits between molecule and patient and works across both. Medicinal chemists tune structure to shift potency and selectivity; biochemists characterize the target; toxicologists own the harm side of the same dose-response curve, sharing methods but optimizing for the opposite tail; pharmacists translate pharmacology into dispensing and monitoring; physicians dose the patient and report the response. The most productive partnerships are with the toxicologist asking the same dose-response question from the other end, and the chemist consulted before a series is locked in. Disputes usually trace to a concentration left unstated or an in-vitro result pushed into an in-vivo claim.
+A pharmacologist sits between molecule and patient and works across both. Medicinal chemists tune structure to shift potency and selectivity; biochemists characterize the target; toxicologists own the harm side of the same dose-response curve, sharing methods but optimizing for the opposite tail; pharmacists translate pharmacology into dispensing and monitoring; physicians dose the patient and report the response. The most productive partnership is with the toxicologist asking the same dose-response question from the other end. Disputes usually trace to a concentration left unstated or an in-vitro result pushed into an in-vivo claim.
 
 ## Ethics
 
@@ -135,7 +131,7 @@ Preclinical work decides which compounds reach humans, which makes honesty about
 
 **An antagonist that won't behave.** A candidate blocker shifts the agonist curve, but across rising concentrations the maximum keeps dropping rather than shifting cleanly rightward. Schild analysis gives a non-linear plot, ruling out simple competitive antagonism. The pharmacologist concludes it's non-competitive or allosteric — insurmountable by more agonist — which changes the clinical story: the block can't be overridden by endogenous ligand, a feature in some indications and a liability in others.
 
-**A drug that accumulates unexpectedly.** Single-dose PK looks clean with a short apparent half-life, but on repeat dosing patients show rising concentrations and toxicity. The pharmacologist re-examines the kinetics and finds the elimination enzyme saturates at therapeutic doses — first-order at low dose, zero-order above it. With no safe linear "just a little more," the dose must be set conservatively and monitored, the digoxin/phenytoin lesson applied to a new molecule.
+**A drug that accumulates unexpectedly.** Single-dose PK looks clean with a short apparent half-life, but on repeat dosing patients show rising concentrations and toxicity. Re-examining the kinetics, the pharmacologist finds the elimination enzyme saturates at therapeutic doses — first-order at low dose, zero-order above it. With no safe linear "just a little more," the dose must be set conservatively and monitored, the digoxin/phenytoin lesson applied to a new molecule.
 
 ## Related Occupations
 

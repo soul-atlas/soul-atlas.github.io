@@ -12,7 +12,7 @@ tags:
   - medicine
   - risk-stratification
 difficulty: expert
-summary: 'Stratifies cardiovascular risk and reads the heart''s electrical and mechanical signals to open occluded arteries and correct failing pumps fast enough to save muscle and life.'
+summary: "Stratifies cardiovascular risk and reads the heart's electrical and mechanical signals to open occluded arteries and correct failing pumps fast enough to save muscle and life."
 contributors:
   - 'soul-atlas'
 last_reviewed: '2026-06-26'
@@ -34,11 +34,7 @@ related:
       type: 'collaboration',
       note: 'compresses acute-coronary reasoning into the first front-door minutes',
     }
-  - {
-      slug: 'radiologist',
-      type: 'adjacent',
-      note: 'shares interpretation of cardiac CT and MRI',
-    }
+  - { slug: 'radiologist', type: 'adjacent', note: 'shares interpretation of cardiac CT and MRI' }
   - {
       slug: 'anesthesiologist',
       type: 'collaboration',
@@ -51,7 +47,7 @@ specializations:
   - 'Pediatric Cardiologist'
 country_variants: []
 sources:
-  - { title: 'Braunwald''s Heart Disease', kind: 'book' }
+  - { title: "Braunwald's Heart Disease", kind: 'book' }
   - { title: 'ACC/AHA Clinical Practice Guidelines', kind: 'standard' }
-  - { title: 'Marriott''s Practical Electrocardiography', kind: 'book' }
+  - { title: "Marriott's Practical Electrocardiography", kind: 'book' }
 status: stable

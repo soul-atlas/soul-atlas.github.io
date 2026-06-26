@@ -1,23 +1,49 @@
-title: "Diesel Mechanic"
-slug: "diesel-mechanic"
-aliases: ["diesel technician", "heavy truck mechanic", "diesel engine specialist"]
-category: "Skilled Trades"
-tags: ["diesel", "engine-diagnostics", "aftertreatment", "heavy-equipment", "powertrain"]
+title: 'Diesel Mechanic'
+slug: 'diesel-mechanic'
+aliases: ['diesel technician', 'heavy truck mechanic', 'diesel engine specialist']
+category: 'Skilled Trades'
+tags: ['diesel', 'engine-diagnostics', 'aftertreatment', 'heavy-equipment', 'powertrain']
 difficulty: intermediate
-summary: "How an expert diesel mechanic diagnoses to root cause across fuel, air, compression, and electronics, reads codes and smoke as symptoms, and repairs emissions systems rather than defeating them."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert diesel mechanic diagnoses to root cause across fuel, air, compression, and electronics, reads codes and smoke as symptoms, and repairs emissions systems rather than defeating them.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "auto-mechanic", type: "related", note: "shares diagnostic discipline on lighter, mostly gasoline vehicles" }
-  - { slug: "heavy-equipment-operator", type: "collaboration", note: "runs the machines the mechanic maintains and reports the first symptom" }
-  - { slug: "mechanical-engineer", type: "prerequisite", note: "designs the engines and powertrains the mechanic services" }
-  - { slug: "aircraft-mechanic", type: "adjacent", note: "shares the regulated, root-cause, document-everything culture" }
-  - { slug: "millwright", type: "related", note: "shares the rotating-machinery and precision-fit world" }
-specializations: ["heavy truck/fleet technician", "construction equipment mechanic", "marine diesel mechanic", "diesel engine rebuilder"]
+  - {
+      slug: 'auto-mechanic',
+      type: 'related',
+      note: 'shares diagnostic discipline on lighter, mostly gasoline vehicles',
+    }
+  - {
+      slug: 'heavy-equipment-operator',
+      type: 'collaboration',
+      note: 'runs the machines the mechanic maintains and reports the first symptom',
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'prerequisite',
+      note: 'designs the engines and powertrains the mechanic services',
+    }
+  - {
+      slug: 'aircraft-mechanic',
+      type: 'adjacent',
+      note: 'shares the regulated, root-cause, document-everything culture',
+    }
+  - {
+      slug: 'millwright',
+      type: 'related',
+      note: 'shares the rotating-machinery and precision-fit world',
+    }
+specializations:
+  [
+    'heavy truck/fleet technician',
+    'construction equipment mechanic',
+    'marine diesel mechanic',
+    'diesel engine rebuilder',
+  ]
 country_variants: []
 sources:
-  - { title: "Modern Diesel Technology (Sean Bennett)", kind: "book" }
-  - { title: "OEM service manuals and EPA emissions regulations", kind: "standard" }
+  - { title: 'Modern Diesel Technology (Sean Bennett)', kind: 'book' }
+  - { title: 'OEM service manuals and EPA emissions regulations', kind: 'standard' }
 status: stable

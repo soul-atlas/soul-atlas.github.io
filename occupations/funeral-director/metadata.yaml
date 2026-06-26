@@ -1,24 +1,48 @@
-title: "Funeral Director"
-slug: "funeral-director"
-aliases: ["Mortician", "Undertaker", "Funeral Arranger"]
-category: "Public Service"
-tags: ["death-care", "grief-support", "ftc-funeral-rule", "bereavement", "mortuary-science"]
+title: 'Funeral Director'
+slug: 'funeral-director'
+aliases: ['Mortician', 'Undertaker', 'Funeral Arranger']
+category: 'Public Service'
+tags: ['death-care', 'grief-support', 'ftc-funeral-rule', 'bereavement', 'mortuary-science']
 difficulty: advanced
 summary: "Serves the living more than the dead: reads a grieving family's dynamics, offers honest itemized choices without selling, honors every custom exactly, and holds the body with unobserved dignity."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "social-worker", type: "collaboration", note: "Hospice and bereavement social workers carry families into the long tail of grief the director hands off" }
-  - { slug: "psychologist", type: "adjacent", note: "Complicated grief and trauma require referral beyond the director's presence-based support" }
-  - { slug: "registered-nurse", type: "collaboration", note: "Hospice and hospital nurses pronounce death and supply death-certificate data" }
-  - { slug: "event-planner", type: "related", note: "Both orchestrate a single irreproducible gathering under emotional pressure and tight timelines" }
-  - { slug: "caregiver", type: "prerequisite", note: "Anticipatory grief and end-of-life care precede the first call and shape the family the director meets" }
-  - { slug: "lawyer", type: "collaboration", note: "Estate and probate lawyers need accurate death documents to settle the estate" }
-specializations: ["Embalmer", "Crematory Operator", "Restorative Artist", "Pre-need Counselor"]
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'Hospice and bereavement social workers carry families into the long tail of grief the director hands off',
+    }
+  - {
+      slug: 'psychologist',
+      type: 'adjacent',
+      note: "Complicated grief and trauma require referral beyond the director's presence-based support",
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'Hospice and hospital nurses pronounce death and supply death-certificate data',
+    }
+  - {
+      slug: 'event-planner',
+      type: 'related',
+      note: 'Both orchestrate a single irreproducible gathering under emotional pressure and tight timelines',
+    }
+  - {
+      slug: 'caregiver',
+      type: 'prerequisite',
+      note: 'Anticipatory grief and end-of-life care precede the first call and shape the family the director meets',
+    }
+  - {
+      slug: 'lawyer',
+      type: 'collaboration',
+      note: 'Estate and probate lawyers need accurate death documents to settle the estate',
+    }
+specializations: ['Embalmer', 'Crematory Operator', 'Restorative Artist', 'Pre-need Counselor']
 country_variants: []
 sources:
-  - { title: "FTC Funeral Rule (16 CFR Part 453)", kind: "standard" }
-  - { title: "The American Way of Death Revisited (Jessica Mitford)", kind: "book" }
+  - { title: 'FTC Funeral Rule (16 CFR Part 453)', kind: 'standard' }
+  - { title: 'The American Way of Death Revisited (Jessica Mitford)', kind: 'book' }
 status: stable

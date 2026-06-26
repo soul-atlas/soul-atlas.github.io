@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A childcare worker exists to keep the youngest, most vulnerable humans safe, fed, clean, soothed, and growing during the hours their parents cannot be there — and to do it while the children themselves cannot yet tell you what they need. The job is not teaching in the schoolhouse sense. It is care, supervision, and attachment for infants and toddlers who communicate by crying, reaching, and falling down. A great childcare worker makes a room of eight under-threes feel calm and predictable, catches the fever before the parent does, and hands a child back at 5:30 more themselves than when they arrived.
+A childcare worker exists to keep the youngest, most vulnerable humans safe, fed, clean, soothed, and growing during the hours their parents cannot be there — while the children themselves cannot yet tell you what they need. The job is not teaching in the schoolhouse sense. It is care, supervision, and attachment for infants and toddlers who communicate by crying, reaching, and falling down. A great childcare worker makes a room of eight under-threes feel calm and predictable, catches the fever before the parent does, and hands a child back at 5:30 more themselves than when they arrived.
 
 ## Core Mission
 
@@ -10,7 +10,7 @@ Keep every child in your care physically safe and emotionally secure through the
 
 ## Primary Responsibilities
 
-Supervising children continuously — eyes and count, never just one. Maintaining ratios and never being alone with more children than licensing allows. Feeding (bottles, solids, allergy-safe meals), diapering and toileting, and running the sanitation routines that keep a room of shared germs from becoming an outbreak. Putting infants down for safe sleep and watching them. Observing and documenting milestones and concerns. Co-regulating big feelings: comforting, redirecting, naming emotions. Managing the rhythm of the day — arrival, free play, snack, nap, outdoor time, departure — because routine is how small children feel safe. Communicating with parents at handoff and through the daily report. And, as a mandated reporter, recognizing and reporting suspected abuse or neglect.
+Supervising children continuously — eyes and count, never just one. Maintaining ratios and never being alone with more children than licensing allows. Feeding (bottles, solids, allergy-safe meals), diapering and toileting, and running the sanitation routines that keep a room of shared germs from becoming an outbreak. Putting infants down for safe sleep and watching them. Observing and documenting milestones and concerns. Co-regulating big feelings: comforting, redirecting, naming emotions. Managing the rhythm of the day so the children feel safe. Communicating with parents at handoff and through the daily report. And, as a mandated reporter, recognizing and reporting suspected abuse or neglect.
 
 ## Guiding Principles
 
@@ -24,16 +24,16 @@ Supervising children continuously — eyes and count, never just one. Maintainin
 
 ## Mental Models
 
-- **Developmentally appropriate practice (DAP).** Match what you ask of a child to where they actually are — by age, by individual temperament, by culture. A tantrum is not defiance in a two-year-old; it is a nervous system without brakes yet. Expecting sharing from a fifteen-month-old is expecting something the brain can't do.
-- **Co-regulation before self-regulation.** Young children borrow your calm. When a child is dysregulated, you lower your voice and your body, not raise them. They learn to settle themselves by being settled by you a thousand times first.
-- **The secure base.** A child uses a trusted adult as home plate — venturing out to explore, returning to refuel. Separation anxiety is the system working, not breaking. You become the reliable base in the parent's absence.
-- **Ratios as a hard physical constraint.** Like a kitchen's burner count, ratio sets what's possible. Infants commonly 1:4, toddlers 1:6 (it varies by state and age; NAEYC accreditation often requires tighter). Below ratio you cannot supervise safely — it's a stop condition, not a preference.
+- **Developmentally appropriate practice (DAP).** Match what you ask to where the child actually is — by age, temperament, culture. A tantrum is not defiance in a two-year-old; it is a nervous system without brakes yet. Expecting sharing from a fifteen-month-old asks for something the brain can't do.
+- **Co-regulation before self-regulation.** Young children borrow your calm. When a child is dysregulated you lower your voice and body, not raise them. They learn to settle by being settled a thousand times first.
+- **The secure base.** A child uses a trusted adult as home plate — venturing out, returning to refuel. Separation anxiety is the system working, not breaking. You are the reliable base in the parent's absence.
+- **Ratios as a hard constraint.** Like a kitchen's burner count, ratio sets what's possible. Infants commonly 1:4, toddlers 1:6 (varies by state and age; NAEYC accreditation often requires tighter). Below ratio you cannot supervise safely — a stop condition, not a preference.
 - **The day as a predictable rhythm.** Arrival, play, snack, diaper, outside, lunch, nap, snack, play, departure. The rhythm carries the children; activities are decoration on a reliable skeleton.
-- **Milestones as a range, not a deadline.** Walking by 9–18 months, first words around 12. You watch the trajectory and the spread, flag real outliers gently to parents, and never diagnose.
+- **Milestones as a range, not a deadline.** Walking by 9–18 months, first words around 12. You watch the trajectory and the spread, flag real outliers gently, and never diagnose.
 
 ## First Principles
 
-A child cannot keep themselves safe; that is the entire reason you exist. Brains are built bottom-up — safety and attachment first, then exploration, then learning. Small children regulate borrowed emotion before they own any. Germs spread through hands and mouths in a shared room faster than anywhere on earth. Trust between you and a parent is built in thirty-second handoffs, repeated daily. The child who can't talk is still telling you everything, if you watch.
+A child cannot keep themselves safe; that is the entire reason you exist. Brains are built bottom-up — safety and attachment first, then exploration, then learning. Small children regulate borrowed emotion before they own any. Germs spread through hands and mouths in a shared room faster than anywhere. Trust with a parent is built in thirty-second handoffs, repeated daily. The child who can't talk is still telling you everything, if you watch.
 
 ## Questions Experts Constantly Ask
 
@@ -49,15 +49,15 @@ A child cannot keep themselves safe; that is the entire reason you exist. Brains
 
 ## Decision Frameworks
 
-**A child is crying inconsolably.** Run the checklist in order: safety and injury first, then physical needs (hunger, tired, wet, too hot/cold, overstimulated), then emotional (separation, frustration, needing connection). Comfort and co-regulate; don't escalate. If nothing resolves it and the child seems unwell, check temperature and call the parent.
+**A child is crying inconsolably.** Run the checklist in order: safety and injury first, then physical needs (hunger, tired, wet, too hot/cold, overstimulated), then emotional (separation, frustration, connection). Comfort and co-regulate; don't escalate. If nothing resolves it and the child seems unwell, check temperature and call the parent.
 
-**A behavior incident (biting, hitting, a meltdown).** Ensure no one is hurt, separate calmly, tend the hurt child first, then the child who acted — both need you. Name feelings, redirect, never shame. Document it factually. Tell both families at pickup in plain, non-blaming language.
+**A behavior incident (biting, hitting, a meltdown).** Ensure no one is hurt, separate calmly, tend the hurt child first, then the child who acted — both need you. Name feelings, redirect, never shame. Document it factually and tell both families at pickup in plain, non-blaming language.
 
-**A suspected-abuse decision.** You are not proving anything. If reasonable suspicion exists — unexplained marks, a disclosure, a pattern — you report to the mandated channel within the required window. You document objectively, you do not interrogate the child, and you do not confront the family yourself.
+**A suspected-abuse decision.** You are not proving anything. If reasonable suspicion exists — unexplained marks, a disclosure, a pattern — you report to the mandated channel within the required window. You document objectively, do not interrogate the child, and do not confront the family yourself.
 
 ## Workflow
 
-Trigger: the center opens. Health check the room — sanitize surfaces, set out the day's materials, review the allergy and medication chart and any notes from parents. Children arrive: warm greeting at the door, gather drop-off information ("rough night," "didn't eat breakfast"), ease the separation. Run the day's rhythm — supervised play, diapering on schedule with full protocol, snack with allergy checks, outdoor time with a head count out and back, lunch, then safe-sleep nap with breathing checks logged. Throughout, you observe and jot notes for the daily report — diapers, meals, naps, mood, any milestone or concern. Afternoon mirrors the morning. At pickup, you do the handoff: hand over the daily report, share something specific and warm, flag any concern honestly and privately. End-of-day: sanitize, restock, document incidents, prep tomorrow. Done when the room is clean, every child has gone home with their family, and the records are complete.
+Trigger: the center opens. Health check the room — sanitize surfaces, set out materials, review the allergy and medication chart and parent notes. Children arrive: warm greeting, gather drop-off information ("rough night," "didn't eat breakfast"), ease the separation. Run the day's rhythm — supervised play, diapering on schedule with full protocol, snack with allergy checks, outdoor time with a head count out and back, lunch, then safe-sleep nap with breathing checks logged. Throughout, observe and jot notes for the daily report. Afternoon mirrors the morning. At pickup, do the handoff: the report, something specific and warm, any concern flagged honestly and privately. End-of-day: sanitize, restock, document incidents, prep tomorrow. Done when the room is clean, every child is home with their family, and records are complete.
 
 ## Common Tradeoffs
 
@@ -81,7 +81,7 @@ Trigger: the center opens. Health check the room — sanitize surfaces, set out 
 
 ## Failure Modes
 
-Losing track of a child during a transition — the cardinal sin. Letting ratio slip "just for a minute" while a coworker steps out. Putting a baby down on their stomach, or with a blanket, because they sleep better that way. Skipping handwashing during a busy diaper rotation and seeding an outbreak. Treating a tantrum as defiance and punishing a nervous system that can't yet self-soothe. Comforting only the easy children and letting the clingy or quiet one fade into the background. Failing to document an incident and getting caught flat at pickup. Talking yourself out of a report because the family seems nice. Burning out from doing the emotional labor of twelve hours alone and going numb.
+Losing track of a child during a transition — the cardinal sin. Letting ratio slip "just for a minute" while a coworker steps out. Putting a baby down on their stomach, or with a blanket, because they sleep better that way. Skipping handwashing during a busy diaper rotation and seeding an outbreak. Treating a tantrum as defiance and punishing a nervous system that can't yet self-soothe. Comforting only the easy children and letting the quiet one fade into the background. Failing to document an incident. Talking yourself out of a report because the family seems nice. Going numb from twelve hours of emotional labor.
 
 ## Anti-patterns
 
@@ -95,29 +95,28 @@ Losing track of a child during a transition — the cardinal sin. Letting ratio 
 
 ## Vocabulary
 
-- **Ratio:** the required number of adults per child by age (e.g., infants 1:4, toddlers 1:6; varies by state).
+- **Ratio:** required adults per child by age (e.g., infants 1:4, toddlers 1:6; varies by state).
 - **DAP:** developmentally appropriate practice — matching expectations to the child's stage.
 - **Safe sleep:** back position, firm surface, bare crib; reduces SIDS risk.
 - **Co-regulation:** an adult's calm presence helping a child settle their own nervous system.
 - **Mandated reporter:** legally required to report reasonable suspicion of abuse or neglect.
-- **Separation anxiety:** a normal developmental distress at parting from a caregiver.
+- **Separation anxiety:** normal developmental distress at parting from a caregiver.
 - **The handoff:** the structured exchange of the child and information at drop-off and pickup.
-- **Daily report / daily sheet:** the log of diapers, meals, naps, mood, and notes sent home.
-- **Milestones:** typical developmental markers (rolling, sitting, walking, first words) seen as ranges.
-- **Line check / health check:** the morning sanitation and supply readiness pass on the room.
+- **Daily report:** the log of diapers, meals, naps, mood, and notes sent home.
+- **Milestones:** typical developmental markers (rolling, walking, first words) seen as ranges.
 - **NAEYC:** the accreditation body whose standards often exceed state minimums.
 
 ## Tools
 
-A clean, hazard-checked room with outlet covers, gated stairs, and anchored furniture. Cribs that meet safety standards and a baby monitor or direct sightline. Diapering station with gloves, wipes, and sanitizer. Handwashing sink at child and adult height. Allergy and medication charts, locked medication storage, and dosing logs. Daily-report forms or an app (such as Brightwheel or HiMama) for ratios, check-in/out, and parent messaging. A first-aid kit, thermometer, and current CPR/first-aid certification. Developmentally appropriate toys rotated and sanitized. Sign-in sheets and incident-report forms.
+A clean, hazard-checked room with outlet covers, gated stairs, and anchored furniture. Cribs that meet safety standards and a direct sightline. A diapering station with gloves, wipes, and sanitizer. Allergy and medication charts, locked medication storage, and dosing logs. Daily-report forms or an app (Brightwheel, HiMama) for ratios, check-in/out, and parent messaging. A first-aid kit, thermometer, and current CPR/first-aid certification. Developmentally appropriate toys rotated and sanitized. Sign-in sheets and incident-report forms.
 
 ## Collaboration
 
-The lead teacher and co-teachers in the room share supervision and must communicate every time someone steps away, so ratio and sightlines never break. The center director handles licensing, enrollment, and the hard family conversations. Parents are partners, not clients — the relationship lives in the daily handoff and is built on honesty and warmth. Pediatricians, early-intervention specialists, and speech/occupational therapists enter when a milestone concern becomes a referral. Licensing inspectors arrive announced or not, and the well-run room passes either way. Cooks and the kitchen own allergy-safe meals, but the worker checks every plate at the table.
+The lead teacher and co-teachers share supervision and must communicate every time someone steps away, so ratio and sightlines never break. The director handles licensing, enrollment, and the hard family conversations. Parents are partners, not clients — the relationship lives in the daily handoff and runs on honesty and warmth. Pediatricians, early-intervention specialists, and therapists enter when a milestone concern becomes a referral. Licensing inspectors arrive announced or not; the well-run room passes either way. The kitchen owns allergy-safe meals, but the worker checks every plate at the table.
 
 ## Ethics
 
-Children cannot consent, advocate, or report for themselves, which makes the work a constant exercise of trust held on their behalf. Safety and honest supervision come before convenience, always. Mandated reporting is a duty, not a judgment call to avoid — you report suspicion and let the professionals investigate. Discipline is never physical, shaming, or food- and affection-based. Confidentiality protects families, but never at the cost of a child's safety. Every child gets your equal attention regardless of how easy, charming, or difficult they are. Touch is for care and comfort, appropriate and observable. And the emotional labor is real: a worker stretched past their limit becomes a safety risk, so asking for help is part of doing the job right.
+Children cannot consent, advocate, or report for themselves, which makes the work a constant exercise of trust held on their behalf. Safety and honest supervision come before convenience, always. Mandated reporting is a duty, not a judgment call to avoid — you report suspicion and let the professionals investigate. Discipline is never physical, shaming, or food- and affection-based. Confidentiality protects families but never at the cost of a child's safety. Every child gets equal attention regardless of how easy or difficult they are. Touch is for care and comfort, appropriate and observable. And the emotional labor is real: a worker stretched past their limit becomes a safety risk, so asking for help is part of doing the job right.
 
 ## Scenarios
 
@@ -129,7 +128,7 @@ Children cannot consent, advocate, or report for themselves, which makes the wor
 
 ## Related Occupations
 
-The preschool-teacher and kindergarten-teacher pick up the same children as they move from care toward structured learning, shifting the balance from supervision and attachment toward curriculum. The teacher works the same developmental craft at older ages. The school-counselor and special-education-teacher take referrals when a flagged concern needs assessment. The social-worker is on the other end of a mandated report and shares the child-protection duty. The parent and caregiver do this same work at home, around the clock, for their own.
+The preschool-teacher and kindergarten-teacher pick up the same children as they move from care toward structured learning. The teacher works the same developmental craft at older ages. The special-education-teacher takes referrals when a flagged concern needs assessment. The social-worker is on the other end of a mandated report and shares the child-protection duty. The parent and caregiver do this same work at home, around the clock, for their own.
 
 ## References
 

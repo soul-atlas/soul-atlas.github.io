@@ -1,24 +1,49 @@
-title: "Bus Driver"
-slug: "bus-driver"
-aliases: ["Transit Operator", "Motor Coach Operator", "School Bus Driver"]
-category: "Transportation"
-tags: ["transit", "passenger-safety", "cdl", "defensive-driving", "ada"]
+title: 'Bus Driver'
+slug: 'bus-driver'
+aliases: ['Transit Operator', 'Motor Coach Operator', 'School Bus Driver']
+category: 'Transportation'
+tags: ['transit', 'passenger-safety', 'cdl', 'defensive-driving', 'ada']
 difficulty: intermediate
-summary: "How an expert bus driver thinks: dividing attention between the road and an unbelted cabin, holding schedule without speeding, and protecting riders and pedestrians at every stop."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How an expert bus driver thinks: dividing attention between the road and an unbelted cabin, holding schedule without speeding, and protecting riders and pedestrians at every stop.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "truck-driver", type: "adjacent", note: "Shares CDL, defensive driving, and blind-spot discipline, but moves freight not people" }
-  - { slug: "delivery-driver", type: "related", note: "Same route, schedule, and constant in-and-out at stops" }
-  - { slug: "train-conductor", type: "adjacent", note: "Also moves the public on a fixed schedule and manages boarding" }
-  - { slug: "flight-attendant", type: "related", note: "Shares passenger-safety and de-escalation duty in a moving vehicle" }
-  - { slug: "dispatcher", type: "collaboration", note: "Sets reroutes and holds and is first call for dangerous riders" }
-  - { slug: "logistics-coordinator", type: "collaboration", note: "Plans routes, headway, and timing the driver executes" }
-specializations: ["transit-bus-operator", "school-bus-driver", "motorcoach-operator", "paratransit-driver"]
+  - {
+      slug: 'truck-driver',
+      type: 'adjacent',
+      note: 'Shares CDL, defensive driving, and blind-spot discipline, but moves freight not people',
+    }
+  - {
+      slug: 'delivery-driver',
+      type: 'related',
+      note: 'Same route, schedule, and constant in-and-out at stops',
+    }
+  - {
+      slug: 'train-conductor',
+      type: 'adjacent',
+      note: 'Also moves the public on a fixed schedule and manages boarding',
+    }
+  - {
+      slug: 'flight-attendant',
+      type: 'related',
+      note: 'Shares passenger-safety and de-escalation duty in a moving vehicle',
+    }
+  - {
+      slug: 'dispatcher',
+      type: 'collaboration',
+      note: 'Sets reroutes and holds and is first call for dangerous riders',
+    }
+  - {
+      slug: 'logistics-coordinator',
+      type: 'collaboration',
+      note: 'Plans routes, headway, and timing the driver executes',
+    }
+specializations:
+  ['transit-bus-operator', 'school-bus-driver', 'motorcoach-operator', 'paratransit-driver']
 country_variants: []
 sources:
-  - { title: "AAMVA Commercial Driver's License Manual", kind: "book" }
-  - { title: "The Smith System (defensive driving)", kind: "course" }
+  - { title: "AAMVA Commercial Driver's License Manual", kind: 'book' }
+  - { title: 'The Smith System (defensive driving)', kind: 'course' }
 status: stable

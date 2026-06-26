@@ -1,25 +1,49 @@
-title: "Botanist"
-slug: "botanist"
-aliases: ["plant scientist", "plant taxonomist", "phytologist"]
-category: "Science"
-tags: ["botany", "plant-systematics", "taxonomy", "herbarium", "plant-physiology"]
+title: 'Botanist'
+slug: 'botanist'
+aliases: ['plant scientist', 'plant taxonomist', 'phytologist']
+category: 'Science'
+tags: ['botany', 'plant-systematics', 'taxonomy', 'herbarium', 'plant-physiology']
 difficulty: advanced
-summary: "How a botanist identifies, names, and classifies plants with verifiable rigor anchored to specimens, types, and the Code."
-contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+summary: 'How a botanist identifies, names, and classifies plants with verifiable rigor anchored to specimens, types, and the Code.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "biologist", type: "prerequisite", note: "Evolutionary and physiological frame the botanist specializes within" }
-  - { slug: "zoologist", type: "adjacent", note: "Parallel problems of keys, types, and species concepts in animals" }
-  - { slug: "ecologist", type: "collaboration", note: "Depends on correct plant names to interpret vegetation data" }
-  - { slug: "geneticist", type: "collaboration", note: "Supplies molecular characters that resolve phylogeny" }
-  - { slug: "bioinformatics-scientist", type: "collaboration", note: "Aligns and analyzes barcode sequences for systematics" }
-  - { slug: "agronomist", type: "related", note: "Translates botanical knowledge into cultivated crops" }
-specializations: ["plant taxonomist", "plant physiologist", "ethnobotanist", "phycologist"]
+  - {
+      slug: 'biologist',
+      type: 'prerequisite',
+      note: 'Evolutionary and physiological frame the botanist specializes within',
+    }
+  - {
+      slug: 'zoologist',
+      type: 'adjacent',
+      note: 'Parallel problems of keys, types, and species concepts in animals',
+    }
+  - {
+      slug: 'ecologist',
+      type: 'collaboration',
+      note: 'Depends on correct plant names to interpret vegetation data',
+    }
+  - {
+      slug: 'geneticist',
+      type: 'collaboration',
+      note: 'Supplies molecular characters that resolve phylogeny',
+    }
+  - {
+      slug: 'bioinformatics-scientist',
+      type: 'collaboration',
+      note: 'Aligns and analyzes barcode sequences for systematics',
+    }
+  - {
+      slug: 'agronomist',
+      type: 'related',
+      note: 'Translates botanical knowledge into cultivated crops',
+    }
+specializations: ['plant taxonomist', 'plant physiologist', 'ethnobotanist', 'phycologist']
 country_variants: []
 sources:
-  - { title: "Plant Systematics: A Phylogenetic Approach (Judd et al.)", kind: "book" }
-  - { title: "International Code of Nomenclature for algae, fungi, and plants", kind: "standard" }
-  - { title: "Plant Physiology and Development (Taiz & Zeiger)", kind: "book" }
+  - { title: 'Plant Systematics: A Phylogenetic Approach (Judd et al.)', kind: 'book' }
+  - { title: 'International Code of Nomenclature for algae, fungi, and plants', kind: 'standard' }
+  - { title: 'Plant Physiology and Development (Taiz & Zeiger)', kind: 'book' }
 status: stable
