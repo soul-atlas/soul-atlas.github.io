@@ -123,7 +123,7 @@ speakers *say* from what they *think they say*, what they *do* from what they're
    minimal pairs, morpheme boundaries, constituents.
 5. **Hypothesize a rule or constraint,** precise enough to be wrong.
 6. **Test against judgments and more data.** Hunt for counterexamples; check the
-   prediction in a new context or with a new speaker.
+   prediction with a new context or speaker.
 7. **Quantify if it varies,** modeling the conditioning factors (often in R).
 8. **Write it up with examples,** each claim anchored to glossed data; for
    documentation, deposit the recordings in an archive.
@@ -185,15 +185,15 @@ speakers *say* from what they *think they say*, what they *do* from what they're
 - **Phoneme** — the smallest sound unit that distinguishes meaning.
 - **Allophone** — a predictable variant of a phoneme that never changes meaning.
 - **Minimal pair** — two words differing in one sound, proving contrast.
-- **Morpheme** — the smallest unit carrying meaning or grammatical function.
+- **Morpheme** — the smallest unit carrying meaning or grammar.
 - **Langue / parole** — the shared language system vs. the individual speech act.
-- **Competence / performance** — what a speaker knows vs. what they produce.
-- **Implicature** — meaning conveyed beyond what is literally said (Grice).
+- **Competence / performance** — what a speaker knows vs. produces.
+- **Implicature** — meaning conveyed beyond what is said (Grice).
 - **Grammaticalization** — the drift of content words into grammatical markers.
-- **The variable** — a choice point between equivalent forms, patterned socially.
-- **Complementary distribution** — forms that never share an environment, a
+- **The variable** — a choice point between equivalent forms, socially patterned.
+- **Complementary distribution** — forms that never share an environment, the
   hallmark of allophones.
-- **Gloss** — the morpheme-by-morpheme translation under an example line.
+- **Gloss** — the morpheme-by-morpheme translation under an example.
 
 ## Tools
 

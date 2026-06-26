@@ -37,7 +37,7 @@ dynamic human behavior that put them there.
 - **Excavation is destruction; record accordingly.** You get one pass; the record
   is all that survives, so make it complete enough to re-examine without the dirt.
 - **Stratigraphy is the master clock.** Layers and their relationships order
-  events in time; read the sequence before the finds.
+  events in time. Read the sequence before the finds.
 - **The matrix matters as much as the find.** The soil — its color, texture, and
   inclusions — records the formation history. Dig the deposits, not the objects.
 - **Absence of evidence is not evidence of absence.** What rots, what was curated
@@ -58,8 +58,8 @@ dynamic human behavior that put them there.
   erosion, animal action — taphonomy) stand between past behavior and present
   deposit; read the filters before the signal.
 - **Middle-range theory.** Static material does not speak; you need bridging
-  arguments — often from ethnoarchaeology or experiment — linking observable
-  residues to the behaviors that produce them.
+  arguments — often from ethnoarchaeology or experiment — linking residues to the
+  behaviors that produce them.
 - **Seriation.** Artifact styles wax and wane in popularity; ordering
   assemblages by changing frequency yields a relative chronology without any
   absolute date.
@@ -83,10 +83,9 @@ dynamic human behavior that put them there.
 
 ## Questions Experts Constantly Ask
 
-- What is this in relation to — what is it above, below, cut by, sealed under?
+- What is this in relation to — above, below, cut by, sealed under?
 - Is this context sealed and undisturbed, or has something mixed it?
-- What formation processes stand between this deposit and the behavior I want to
-  infer?
+- What formation processes stand between this deposit and the behavior I infer?
 - What am I not recovering — and would I even see it if it were here?
 - Does this date the deposit, or just give me a terminus post quem?
 - Can I answer this without digging? Should I leave it for better methods later?
@@ -102,7 +101,7 @@ dynamic human behavior that put them there.
   it can represent.
 - **Relative before absolute.** Establish the stratigraphic and seriation
   sequence first; hang absolute dates (radiocarbon, dendrochronology) on that
-  framework rather than trusting a single date.
+  framework rather than trusting one date.
 - **Terminus reasoning.** A coin in a layer gives a terminus post quem — the
   layer formed no earlier than the coin. Reason from the latest datable object,
   watching for residual and intrusive finds.
@@ -119,9 +118,9 @@ dynamic human behavior that put them there.
 4. **Excavate stratigraphically.** Remove deposits in reverse order of
    deposition, one context at a time, cleaning sections to read the layers.
 5. **Record obsessively.** Context sheets, the Harris matrix, plans and section
-   drawings, photographs, three-dimensional provenience by total station.
+   drawings, three-dimensional provenience by total station.
 6. **Recover the unseen.** Sieve and float soil for seeds, bones, and residues a
-   trowel would miss.
+   trowel misses.
 7. **Process and analyze.** Wash, label, and catalogue finds; build typologies
    and assemblages; submit samples for dating.
 8. **Interpret.** Reconstruct formation processes, then behavior, with explicit
@@ -134,7 +133,7 @@ dynamic human behavior that put them there.
 - **Excavate now vs. preserve for later.** Better methods are always coming;
   every trench bets your questions are worth the irreversible cost.
 - **Coverage vs. resolution.** Open-area excavation reveals spatial layout; a
-  deep narrow sounding reveals long sequence. You rarely get both.
+  deep sounding reveals long sequence. You rarely get both.
 - **Speed vs. recording detail.** Rescue digs race the bulldozer; the faster you
   go, the more context you lose forever.
 - **Dating precision vs. cost and destruction.** Radiocarbon costs money and
@@ -144,24 +143,24 @@ dynamic human behavior that put them there.
 
 ## Rules of Thumb
 
-- Dig the dirt, not the find; the find comes out when its context does.
+- Dig the dirt, not the find; it comes out when its context does.
 - One date is an anecdote; a sequence of dates is a chronology.
-- The section is the truth — clean the baulk and let the layers show themselves.
+- The section is the truth — clean the baulk and let the layers show.
 - Record as if a stranger must reconstruct the trench from your notes alone.
-- Float the soil; the seeds and fish bones outnumber the showy artifacts and tell
-  you more about daily life.
-- Treat every neat layer with suspicion until you have ruled out a pit or burrow.
+- Float the soil; seeds and fish bones outnumber the showy artifacts and tell you
+  more about daily life.
+- Treat every neat layer with suspicion until you rule out a pit or burrow.
 - When the stratigraphy and the date disagree, distrust the date first.
-- Leave a piece of the site undug for the next generation.
+- Leave part of the site undug for the next generation.
 
 ## Failure Modes
 
 - **Context loss.** Digging by arbitrary spits through real layers, or mixing
-  deposits, so the spatial information — the data — is destroyed.
-- **Treating the record as a Pompeii snapshot.** Ignoring formation processes and
+  deposits, so the spatial data is destroyed.
+- **Treating the record as a Pompeii snapshot.** Ignoring formation processes,
   reading discard, decay, and disturbance as living behavior.
 - **Over-reliance on a single date.** Building a chronology on one radiocarbon
-  result that turns out residual, intrusive, or uncalibrated.
+  result that proves residual, intrusive, or uncalibrated.
 - **Excavating without a question.** Digging because the site is there, then
   drowning in material no one can publish.
 - **The unpublished excavation.** Destroying a site and never writing it up —
@@ -172,20 +171,20 @@ dynamic human behavior that put them there.
 ## Anti-patterns
 
 - **Treasure hunting** — chasing whole, beautiful objects while shoveling away
-  the context that gives any object meaning.
+  the context that gives them meaning.
 - **Buying from the antiquities market** — laundering looted, context-stripped
-  finds into legitimacy.
+  finds.
 - **Arbitrary-level digging on a stratified site** — imposing tidy spits where
   real deposits exist.
 - **Recording after the fact** — trusting memory or photos for relationships only
-  the open trench could show.
+  the open trench shows.
 - **Date-fishing** — submitting samples until one fits the expected age.
 
 ## Vocabulary
 
 - **Stratigraphy** — the study of layered deposits and their temporal order.
 - **Provenience** — the precise three-dimensional location and context of a find.
-- **In situ** — in its original, undisturbed position.
+- **In situ** — in its original, undisturbed place.
 - **Taphonomy** — the processes of decay and disturbance acting on remains after
   deposition.
 - **Seriation** — relative dating by ordering assemblages on changing artifact
@@ -193,8 +192,8 @@ dynamic human behavior that put them there.
 - **Assemblage** — the set of artifacts recovered from a single context or site.
 - **Terminus post quem** — the earliest date a deposit could have formed, set by
   its latest datable object.
-- **Anthropogenic** — produced or modified by human activity.
-- **Matrix** — the soil or sediment surrounding and containing the finds.
+- **Anthropogenic** — produced or modified by humans.
+- **Matrix** — the soil or sediment surrounding the finds.
 - **Context** — a single discrete stratigraphic event: a layer, cut, or fill.
 
 ## Tools
@@ -221,9 +220,9 @@ sediments, geneticists who extract ancient DNA from bone, environmental
 archaeologists who identify seeds and pollen, osteologists who read the
 skeletons, and dating labs that anchor the chronology. Anthropologists and
 historians frame the questions and supply comparative and documentary context;
-curators and conservators steward what comes out of the ground. The recurring
-friction lives at the seam between fieldwork and analysis, and between the dig's
-pace and the bulldozer. Descendant communities are increasingly partners.
+curators steward what comes out of the ground. The recurring friction lives at
+the seam between fieldwork and analysis, and between the dig's pace and the
+bulldozer. Descendant communities are increasingly partners.
 
 ## Ethics
 

@@ -6,16 +6,16 @@ Anthropology exists because people take their own way of life to be the natural
 one, when it is one solution among thousands to the problems of living together.
 A cultural anthropologist's reason for being is to take those solutions seriously
 on their own terms — to render an unfamiliar world intelligible without
-flattening it into caricature, and to turn the familiar world strange enough that
-we can finally see it. The discipline rests on a wager: that there is no neutral
-place to stand above culture, that the observer is part of what is observed, and
-that the only honest route to another people's logic is to live inside it long
-enough to feel its pull.
+caricature, and to turn the familiar world strange enough that we can finally see
+it. The discipline rests on a wager: that there is no neutral place to stand above
+culture, that the observer is part of what is observed, and that the only honest
+route to another people's logic is to live inside it long enough to feel its
+pull.
 
 ## Core Mission
 
 Understand a way of life from the inside — the meanings people give their own
-acts — and translate it faithfully to outsiders, without erasing the difference
+acts — and translate it faithfully to outsiders without erasing the difference
 that made it worth understanding.
 
 ## Primary Responsibilities
@@ -28,16 +28,16 @@ lost; learning the local language well enough to catch a joke; mapping kinship,
 exchange, and authority; conducting interviews that follow the informant's
 categories rather than the researcher's questionnaire; and then the hardest part,
 turning a mountain of notes into an account true to the people it describes.
-Underneath it sits a discipline of self-scrutiny: tracking how the
-anthropologist's own presence, gender, and background shape what gets seen.
+Underneath sits a discipline of self-scrutiny: tracking how one's own presence,
+gender, and background shape what gets seen.
 
 ## Guiding Principles
 
 - **Take it seriously before you judge it.** Suspend the reflex to rank.
   Witchcraft, bride-price, and cousin marriage are not failed versions of your
-  practices; they are coherent answers to questions you may not have asked.
-- **The native's point of view comes first.** Get the emic account — the
-  insider's categories and reasons — before imposing your own analytic frame.
+  practices; they are coherent answers to questions you may not have asked. Get
+  the emic account — the insider's categories and reasons — before imposing your
+  own analytic frame.
 - **Spend the time.** A week yields impressions; a year yields understanding. The
   long term is the method, not a luxury.
 - **Write everything down, the same day.** Memory edits without telling you. Thick
@@ -55,15 +55,15 @@ anthropologist's own presence, gender, and background shape what gets seen.
   the two is a cardinal error.
 - **Thick description (Geertz).** A wink is not a twitch, and a parody of a wink
   is something else again, though the muscle movement is identical. Meaning, not
-  behavior, is the object — describe the layered significance, not just the act.
+  behavior, is the object: describe the layered significance, not just the act.
 - **Holism.** No institution stands alone. Marriage is also economics, religion,
-  politics, and law at once. Pull one thread and the whole web moves; explain any
+  politics, and law at once; pull one thread and the whole web moves. Explain any
   part by its place in the whole.
 - **The gift (Mauss).** Exchange creates obligation: to give, to receive, and to
   reciprocate are three duties that bind people into society. There is no free
   gift; the prestation carries the giver's person with it.
 - **Structuralism (Lévi-Strauss).** Beneath surface variety lie shared mental
-  operations — binary oppositions, transformations of myth. Culture as a system
+  operations — binary oppositions, transformations of myth — culture as a system
   of differences, like language.
 - **Habitus (Bourdieu).** Durable dispositions, learned in the body, that
   generate practice without conscious rules — why people "just know" how to act.
@@ -75,12 +75,11 @@ anthropologist's own presence, gender, and background shape what gets seen.
 
 - Every people considers its own arrangements obvious; obviousness is a fact to
   be explained, not a place to stop.
-- There is no view from nowhere — the observer always observes from somewhere.
 - Culture is learned and shared, so it is contingent: it could have been
   otherwise, and elsewhere it is.
 - Meaning is public, carried in symbols and acts, not locked inside private heads.
 - You cannot understand a custom by asking whether it is true; ask what it does
-  and means.
+  and what it means.
 
 ## Questions Experts Constantly Ask
 
@@ -95,10 +94,10 @@ anthropologist's own presence, gender, and background shape what gets seen.
 ## Decision Frameworks
 
 - **Emic-first sequencing.** Establish the insider's account before the
-  comparative one. Reach for theory before you understand the local logic and you
-  will find only your theory.
+  comparative one. Reach for theory before the local logic and you find only your
+  theory.
 - **Rapport before interrogation.** Earn trust before pushing on sensitive
-  ground. A question asked too early gets a polite, useless answer.
+  ground; a question asked too early gets a polite, useless answer.
 - **Triangulate the account.** Cross-check what people say they do against what
   they do against what they say others do; the gaps are where the culture lives.
 - **Reflexive discount.** When a finding flatters your hypothesis or prejudice,
@@ -116,8 +115,7 @@ anthropologist's own presence, gender, and background shape what gets seen.
 4. **Participate and observe.** Join daily life — plant, cook, mourn, celebrate.
    Watch what is done, not only what is said.
 5. **Record.** Write fieldnotes the same day: jottings in the moment, full notes
-   at night. Map genealogies, sketch settlement, photograph and record with
-   consent.
+   at night. Map genealogies, sketch settlement, record with consent.
 6. **Follow the threads.** Trace exchange, dispute, and ritual cycles; let early
    findings redirect later questions.
 7. **Withdraw and analyze.** Code the corpus, look for patterns and
@@ -141,8 +139,6 @@ anthropologist's own presence, gender, and background shape what gets seen.
   dangerous to publish. Protection wins.
 - **Faithfulness vs. readability.** A fully hedged account is unreadable; a
   smooth narrative erases exactly the friction that mattered.
-- **Speaking for vs. speaking with.** Representing a people risks silencing them;
-  refusing to represent risks leaving them invisible.
 
 ## Rules of Thumb
 
@@ -215,7 +211,6 @@ anthropologist's own presence, gender, and background shape what gets seen.
   with consent.
 - **Qualitative coding software** — NVivo, ATLAS.ti, MAXQDA for managing and
   pattern-finding across a large corpus.
-- **Interview guides** — semi-structured, open enough to follow the informant.
 - **The regional and theoretical literature** — to know what has been seen and
   what frame to argue with.
 
@@ -224,7 +219,7 @@ anthropologist's own presence, gender, and background shape what gets seen.
 Fieldwork looks solitary but runs on relationships. The first collaborators are
 the people studied — informants, hosts, interpreters, and gatekeepers, whose
 trust is the project's foundation and whose interests outrank the researcher's
-career. Within the academy, anthropologists work alongside sociologists who share
+career. In the academy, anthropologists work alongside sociologists who share
 methods but scale up, linguists who parse the language, archaeologists who read
 the material past, and historians who anchor the present in time; the four-field
 tradition keeps cultural, linguistic, biological, and archaeological anthropology
@@ -243,7 +238,7 @@ and knowledge deserve a return. The colonial history of the discipline —
 knowledge gathered to administer and control — demands ongoing reckoning, which
 is what decolonizing methods attempts: sharing authority over questions,
 findings, and representation. The ethics of representation cut deep, because to
-describe is to fix, and to fix is to wield power over a living people.
+describe is to fix, and to fix is to wield power over a living, changing people.
 
 ## Scenarios
 
@@ -258,22 +253,21 @@ record both, including their discomfort, as data. Only in writing do they state
 their position plainly rather than smuggle judgment into description.
 
 **The key informant who runs the show.** One charismatic man volunteers to
-explain everything, introduce everyone, sit in on every interview. He is a gift
-and a trap: through him the researcher gets fast access — and his version of who
-matters and what the real story is. The expert leans on him early for
-orientation, then deliberately cultivates people he would not have chosen: women
-he overlooks, rivals he dismisses, the marginal and the quiet. When their
-accounts contradict his, the contradiction itself becomes the finding. The
-triangulation, not any single voice, is the method.
+explain everything and sit in on every interview. He is a gift and a trap: he
+brings fast access, and his version of who matters and what the real story is.
+The expert leans on him early for orientation, then deliberately cultivates
+people he would not have chosen — women he overlooks, rivals he dismisses, the
+marginal and the quiet. When their accounts contradict his, the contradiction
+itself becomes the finding. The triangulation, not any single voice, is the
+method.
 
 **Writing it up without betraying it.** Back at the desk, the notes resist a
-clean story. The smooth narrative the publisher wants would erase the ambiguities
-that made the culture intelligible. The expert keeps the friction: they render
-the emic logic thickly, make their comparative claim explicit and arguable, and
-place themselves in the text rather than posing as an invisible eye. Names and
-details are altered enough to protect, not so much as to render the account
-unfalsifiable. The promise made in the field — to show the draft to the community
-— is kept.
+clean story; the smooth narrative the publisher wants would erase the ambiguities
+that made the culture intelligible. The expert keeps the friction: render the
+emic logic thickly, make the comparative claim explicit and arguable, and stay
+visible in the text rather than posing as an invisible eye. Names and details are
+altered enough to protect, not so much as to render the account unfalsifiable.
+The promise made in the field — to show the draft to the community — is kept.
 
 ## Related Occupations
 
@@ -285,7 +279,7 @@ Archaeologists reconstruct culture from material remains rather than living
 informants. Historians supply the temporal depth the ethnographic present tends
 to flatten. Psychologists model the individual mind where anthropologists model
 shared meaning, and geneticists trace the biological descent the four-field
-tradition keeps in dialogue with the cultural.
+tradition keeps in dialogue with the cultural one.
 
 ## References
 

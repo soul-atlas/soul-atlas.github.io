@@ -8,9 +8,9 @@ clear, where is the bleed — into an image that answers it, using ionizing
 radiation that helps when aimed precisely and harms when scattered carelessly.
 The discipline lives between two competing truths: a poorly exposed or
 positioned image is useless and must be repeated, and every repeat is a second
-dose the patient should never have received. The job is to get the diagnostic
-image right the first time, at the lowest dose that answers the question, on a
-patient who may be in pain or unable to hold still.
+dose the patient should never have received. The job is the diagnostic image,
+right the first time, at the lowest dose that answers the question, on a patient
+who may be in pain or unable to hold still.
 
 ## Core Mission
 
@@ -28,9 +28,9 @@ factors (kVp, mAs, AEC); collimates tightly; shields; immobilizes and coaches
 breathing; makes the exposure; evaluates for diagnostic quality and repeats only
 when necessary; and adapts all of it for trauma, portable, pediatric, and
 contrast studies. In CT they manage dose metrics and contrast injection; in MRI
-they enforce the safety zones. Throughout, they keep everyone in the room behind
-the principles of radiation protection. What they do not do is interpret the
-image — diagnosis belongs to the radiologist.
+they enforce the safety zones, always keeping everyone in the room behind the
+principles of radiation protection. What they do not do is interpret the image —
+diagnosis belongs to the radiologist.
 
 ## Guiding Principles
 
@@ -43,7 +43,7 @@ image — diagnosis belongs to the radiologist.
   center.** Diagnostic geometry is non-negotiable; a rotated or off-center image
   distorts anatomy and gets repeated.
 - **Collimate to the anatomy of interest.** Tight collimation cuts dose, reduces
-  scatter, and sharpens contrast — three wins from one habit.
+  scatter, and sharpens contrast — three wins at once.
 - **The repeat is the enemy.** A repeated exposure is doubled dose and lost
   trust. Check position before you press, not after.
 - **Stay in your lane.** You acquire; the radiologist interprets. Describing what
@@ -66,7 +66,7 @@ image — diagnosis belongs to the radiologist.
   re-shoot.
 - **The 15% rule.** Changing kVp by 15% is roughly equivalent to doubling or
   halving the mAs for image density — the lever for raising penetration while
-  cutting dose.
+  dropping mAs.
 - **AEC as a servant, not a master.** Automatic exposure control terminates the
   beam when enough radiation reaches the detector — but only if the body part is
   centered over the correct ionization chamber. Misplace the patient and AEC
@@ -91,11 +91,11 @@ image — diagnosis belongs to the radiologist.
 - Right patient, right exam, right side, right body part?
 - Could this patient be pregnant, and does the exam justify the fetal dose?
 - Is there prior imaging that makes this exam unnecessary?
-- Am I centered, is the part parallel to the receptor, do I have two views at
-  90 degrees?
+- Am I centered, the part parallel to the receptor, with two views at 90
+  degrees?
 - Is the AEC chamber under the right tissue, or will it expose the wrong thing?
-- Is this image truly non-diagnostic, or am I about to double the dose for a
-  cosmetic repeat?
+- Is this image truly non-diagnostic, or about to double the dose for a cosmetic
+  repeat?
 
 ## Decision Frameworks
 
@@ -113,8 +113,8 @@ image — diagnosis belongs to the radiologist.
 - **Technique selection.** Thick or dense part: raise kVp for penetration, keep
   mAs modest. Thin or pediatric: drop both, favor shorter exposure times to beat
   motion. Use AEC for routine projections of average anatomy; switch to manual
-  for limbs, very small or very large patients, and where the chamber can't sit
-  reliably.
+  for limbs, very small or very large patients, and where the chamber can't be
+  placed.
 - **Trauma adaptation.** Bring the beam and receptor to the patient; use
   cross-table and oblique projections to get orthogonal views without disturbing
   the injury.
@@ -162,14 +162,14 @@ image — diagnosis belongs to the radiologist.
 
 ## Failure Modes
 
-- **The avoidable repeat.** Clipping the anatomy, leaving an artifact, or
+- **The avoidable repeat.** Clipping anatomy, leaving an artifact, or
   mispositioning, then re-exposing — doubling dose for a fixable error.
-- **Single-view complacency.** One projection that misses a subtle dislocation
-  or non-displaced fracture hiding in the orthogonal plane.
+- **Single-view complacency.** One projection that misses a dislocation or
+  non-displaced fracture hiding in the orthogonal plane.
 - **AEC misuse.** Trusting automatic control with the chamber under the wrong
-  tissue, producing confidently wrong exposure.
-- **Missed pregnancy screening.** Irradiating a fetus during organogenesis for a
-  non-urgent exam.
+  tissue — a confidently wrong exposure.
+- **Missed pregnancy screening.** Irradiating a fetus during organogenesis for
+  a non-urgent exam.
 - **Contrast complacency.** Failing to watch for extravasation or allergic
   reaction during injection.
 
@@ -188,18 +188,17 @@ image — diagnosis belongs to the radiologist.
 - **ALARA** — As Low As Reasonably Achievable; the governing dose principle.
 - **Central ray** — the centermost portion of the x-ray beam, aligned to
   anatomy and receptor.
-- **kVp** — kilovoltage peak; controls beam penetration and image contrast.
+- **kVp** — kilovoltage peak; controls penetration and image contrast.
 - **mAs** — milliampere-seconds; controls quantity of radiation, hence density.
 - **AEC** — automatic exposure control; terminates the beam when the detector
-  receives enough radiation.
+  has enough radiation.
 - **Collimation** — restricting the beam to the area of interest to cut dose
   and scatter.
 - **Projection** — the path of the beam through the body (AP, PA, lateral,
   oblique).
 - **Grid** — a device that absorbs scattered radiation to improve contrast.
 - **CTDI/DLP** — CT Dose Index and Dose-Length Product, the CT dose metrics.
-- **Extravasation** — contrast leaking into tissue outside the vessel during
-  injection.
+- **Extravasation** — contrast leaking into tissue outside the vessel.
 
 ## Tools
 
@@ -209,10 +208,10 @@ image — diagnosis belongs to the radiologist.
   pipeline to the radiologist.
 - **Collimator and light field** — to shape and verify the exposed area.
 - **Grids and bucky** — to control scatter on thicker body parts.
-- **Lead aprons, gonadal/thyroid shields, and barriers** — patient and
-  occupational protection.
+- **Lead aprons, gonadal/thyroid shields, barriers** — patient and occupational
+  protection.
 - **Dosimeter (film badge/OSL)** — to track the technologist's cumulative dose.
-- **Power injectors and contrast media** — for CT/angiographic studies.
+- **Power injectors and contrast media** — for CT/angiographic work.
 - **CT and MRI scanners** — with their own dose metrics and safety zones.
 
 ## Collaboration
@@ -223,8 +222,8 @@ clinical question; the technologist sometimes has to clarify a vague, duplicate,
 or unjustified order before exposing the patient. The radiologist's read depends
 entirely on the technologist's positioning and exposure. Nurses provide patient
 context (mobility, allergies, line access); medical physicists set protocols and
-audit dose; biomedical engineers keep the equipment calibrated. In trauma, the
-tech works inside a moving team around an unstable patient.
+audit dose; biomedical engineers keep equipment calibrated. In trauma, the tech
+works inside a moving team around an unstable patient.
 
 ## Ethics
 
@@ -247,14 +246,14 @@ experienced technologist insists on the lateral and oblique — two views at 90
 degrees plus an angled look. On the lateral, a subtle dorsal tilt of a fracture
 fragment appears that the AP flattened out of view. They collimate tightly, use
 manual technique for the thin extremity rather than AEC (no chamber sits under
-the small part), and shield the patient. The orthogonal view turned a missed
-fracture into a diagnosis, with no repeat.
+the small part), and shield the patient — turning a missed fracture into a
+diagnosis with no repeat.
 
 **The possibly-pregnant patient with abdominal pain.** A woman of childbearing
 age presents for a non-urgent abdominal series. First the technologist asks about
 last menstrual period and pregnancy possibility. She's uncertain. The tech pauses
 the exam, consults the radiologist and ordering physician, and they agree to get
-a pregnancy test first and consider ultrasound — non-ionizing. Had the exam been
+a pregnancy test first and consider ultrasound — non-ionizing. Had it been
 urgent, the tech would have proceeded with fetal shielding, tightest collimation,
 and minimum dose. Justification before optimization kept a possible fetus out of
 the beam.
@@ -265,7 +264,7 @@ the bedside, places the detector behind the patient, and works the geometry
 around lines and tubes. They set a higher kVp to penetrate the AP chest, coach
 the respiratory therapist to time the exposure to inspiration, and — crucially —
 step the maximum distance back and announce the exposure so everyone clears,
-invoking the inverse-square law to protect the staff.
+invoking the inverse-square law to protect staff.
 
 ## Related Occupations
 

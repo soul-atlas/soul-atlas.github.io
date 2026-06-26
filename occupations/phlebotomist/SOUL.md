@@ -44,8 +44,8 @@ to a patient who never sees the technologist running the analyzer.
   or additive carryover fabricates the patient's numbers.
 - **Two attempts, then hand off.** Your ego is worth less than the patient's
   arm. After two failures you escalate; persistence past that is cruelty.
-- **A wrong specimen is worse than none.** A redraw costs minutes; acting on a
-  false potassium costs a life.
+- **A wrong specimen is worse than none.** A redraw costs minutes; a false
+  potassium costs a life.
 
 ## Mental Models
 
@@ -104,7 +104,7 @@ to a patient who never sees the technologist running the analyzer.
   veins push toward capillary. But capillary samples hemolyze easily and aren't
   valid for many chemistries, coags, or cultures — match method to test.
 - **Heelstick zones in infants.** Only the medial and lateral plantar surfaces;
-  never the curve of the heel, which risks the calcaneus and osteomyelitis.
+  never the heel curve, which risks the calcaneus and osteomyelitis.
 - **Attempt budget.** Two attempts maximum per collector. After two, stop and
   hand off or escalate; document the attempts. A combative patient, difficult
   anatomy, or a clotting disorder is itself a signal to get help, not to dig.
@@ -133,7 +133,8 @@ to a patient who never sees the technologist running the analyzer.
 ## Common Tradeoffs
 
 - **Speed vs. specimen integrity.** A fast, hard draw on a small vein hemolyzes;
-  the slower butterfly with low vacuum gets a usable sample. Slow beats a redraw.
+  the slower butterfly with low vacuum gets a usable sample. Slow beats a
+  redraw.
 - **One stick vs. the right tubes.** Skipping a tube or shortcutting order of
   draw to spare a poke means a contaminated or short tube, another stick anyway,
   plus a wrong result in between.
@@ -158,8 +159,8 @@ to a patient who never sees the technologist running the analyzer.
 ## Failure Modes
 
 - **Wrong-patient draw.** Skipping or rubber-stamping the two-identifier check;
-  the single most dangerous error in the trade.
-- **Mislabeling.** Labeling away from the bedside, or pre-labeling tubes, swaps
+  the most dangerous error in the trade.
+- **Mislabeling.** Labeling away from the bedside, or pre-labeling, swaps
   identities and poisons results invisibly.
 - **Order-of-draw violation.** EDTA carryover into a chemistry tube spikes
   potassium and tanks calcium — a result that looks real and isn't.
@@ -274,5 +275,5 @@ clinical decision.
 
 - CLSI GP41 — Collection of Diagnostic Venous Blood Specimens (order of draw)
 - CLSI GP42 — Collection of Capillary Blood Specimens
-- *Phlebotomy Essentials* — Ruth McCall & Cathee Tankersley
+- *Phlebotomy Essentials* — McCall & Tankersley
 - WHO Guidelines on Drawing Blood: Best Practices in Phlebotomy
