@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
-import sitemap from '@astrojs/sitemap';
 
 // The canonical production URL. Override with the SITE env var for forks/previews.
 const SITE = process.env.SITE_URL || 'https://open-soul.github.io';
@@ -14,10 +13,7 @@ export default defineConfig({
   build: {
     format: 'directory',
   },
-  integrations: [
-    tailwind({ applyBaseStyles: false }),
-    sitemap(),
-  ],
+  integrations: [tailwind({ applyBaseStyles: false })],
   markdown: {
     syntaxHighlight: 'shiki',
     shikiConfig: {

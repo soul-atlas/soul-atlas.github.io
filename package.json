@@ -31,7 +31,6 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.7",
-    "@astrojs/sitemap": "^3.2.0",
     "@astrojs/tailwind": "^5.1.2",
     "astro": "^4.16.0",
     "d3": "^7.9.0",
