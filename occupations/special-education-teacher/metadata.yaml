@@ -1,0 +1,58 @@
+title: Special Education Teacher
+slug: special-education-teacher
+aliases:
+  - SPED Teacher
+  - Special Needs Teacher
+  - Resource Teacher
+  - Inclusion Teacher
+category: Education
+tags:
+  - special-education
+  - inclusion
+  - iep
+  - disability
+  - teaching
+difficulty: advanced
+summary: >-
+  Engineers an individual route to the same high goals for students with disabilities, presuming
+  competence, decoding behavior, and fading every support toward independence.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: teacher
+    type: related
+    note: >-
+      shares the craft of causing learning, practiced here at individualized intensity under legal
+      mandate
+  - slug: school-counselor
+    type: collaboration
+    note: overlaps on the social-emotional barriers that block learning
+  - slug: social-worker
+    type: collaboration
+    note: connects students and families to out-of-school supports
+  - slug: school-principal
+    type: collaboration
+    note: sets whether inclusion is lived and decides recommended placements
+  - slug: instructional-designer
+    type: adjacent
+    note: shares the UDL discipline of designing for learner variability
+  - slug: registered-nurse
+    type: adjacent
+    note: co-manages students with medical needs and health-related plans
+specializations:
+  - Resource / Pull-out Specialist
+  - Inclusion / Co-teaching Specialist
+  - Autism / Behavior Specialist
+  - Early Intervention Specialist
+country_variants: []
+sources:
+  - title: Individuals with Disabilities Education Act (IDEA)
+    kind: standard
+  - title: Universal Design for Learning Guidelines (CAST)
+    kind: other
+  - title: Applied Behavior Analysis (Cooper, Heron & Heward)
+    kind: book
+status: stable

@@ -1,0 +1,23 @@
+title: "Procurement Specialist"
+slug: "procurement-specialist"
+aliases: ["Buyer", "Sourcing Specialist", "Purchasing Specialist", "Procurement Officer"]
+category: "Business"
+tags: ["procurement", "sourcing", "negotiation", "supply-chain", "category-management"]
+difficulty: intermediate
+summary: "How an excellent buyer thinks: in total cost of ownership and supply risk rather than sticker price, building leverage through competition before the negotiation ever starts."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "supply-chain-manager", type: "adjacent", note: "owns the physical flow and logistics that procurement negotiates terms for" }
+  - { slug: "sales-representative", type: "collaboration", note: "the counterpart across the negotiating table" }
+  - { slug: "operations-manager", type: "related", note: "serves the demand and supplier performance that operations depends on" }
+  - { slug: "auditor", type: "related", note: "shares controls, compliance, and clean audit-trail discipline" }
+  - { slug: "compliance-officer", type: "collaboration", note: "partners on contract risk, sanctions, and ethical sourcing" }
+  - { slug: "management-consultant", type: "related", note: "shares spend analysis and category-strategy methods" }
+specializations: ["category-manager", "strategic-sourcing-manager", "contracts-specialist"]
+country_variants: []
+sources:
+  - { title: "Purchasing and Supply Chain Management (Monczka et al.)", kind: "book" }
+status: stable

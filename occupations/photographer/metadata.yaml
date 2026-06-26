@@ -1,0 +1,25 @@
+title: "Photographer"
+slug: "photographer"
+aliases: ["photojournalist", "image-maker", "cameraperson", "lensman"]
+category: "Creative"
+tags: ["photography", "visual-storytelling", "lighting", "composition", "image-editing"]
+difficulty: "advanced"
+summary: "How a working photographer reads light, frames the rectangle, times the decisive moment, and edits ruthlessly to make pictures that hold attention."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "film-director", type: "adjacent", note: "Shared craft of framing, staging, and reading light to tell story through image" }
+  - { slug: "film-editor", type: "related", note: "Parallel discipline of selection and sequencing; the edit is where meaning forms" }
+  - { slug: "graphic-designer", type: "collaboration", note: "Partners on layout, sequencing, and how images live in print and on screen" }
+  - { slug: "ux-designer", type: "adjacent", note: "Visual hierarchy and directing the eye through a composed frame" }
+  - { slug: "writer", type: "collaboration", note: "Editorial storytelling that pairs image with text" }
+  - { slug: "animator", type: "related", note: "Both compose the frame and stage motion within it" }
+specializations: ["photojournalist", "portrait-photographer", "fashion-photographer", "landscape-photographer"]
+country_variants: []
+sources:
+  - { title: "The Decisive Moment (Henri Cartier-Bresson)", kind: "book" }
+  - { title: "The Camera / The Negative / The Print (Ansel Adams, Zone System)", kind: "book" }
+  - { title: "The Photographer's Eye (Michael Freeman)", kind: "book" }
+status: stable

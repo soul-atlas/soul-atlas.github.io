@@ -1,0 +1,37 @@
+title: "Carpenter"
+slug: "carpenter"
+aliases:
+  - "Joiner"
+  - "Framer"
+  - "Finish Carpenter"
+category: "Skilled Trades"
+tags:
+  - carpentry
+  - framing
+  - woodworking
+  - construction
+  - joinery
+difficulty: advanced
+summary: "Turns moving wood into square, plumb, level, load-bearing structure and tight-jointed finish, working everything to a single reference so error never compounds."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "electrician", type: "collaboration", note: "routes through the framing the carpenter builds first" }
+  - { slug: "plumber", type: "collaboration", note: "shares the rough-in sequence inside the framed shell" }
+  - { slug: "architect", type: "collaboration", note: "supplies the drawings the carpenter translates into structure" }
+  - { slug: "structural-engineer", type: "related", note: "specifies the beams, spans, and connectors the carpenter executes" }
+  - { slug: "mason", type: "adjacent", note: "lays the foundation the carpenter's sill plate bolts to" }
+specializations:
+  - "Rough/Framing Carpenter"
+  - "Finish Carpenter"
+  - "Cabinetmaker"
+  - "Formwork Carpenter"
+country_variants: []
+sources:
+  - { title: "International Residential Code (IRC)", kind: "standard" }
+  - { title: "Graphic Guide to Frame Construction", kind: "book" }
+  - { title: "Wood Handbook (USDA Forest Products Laboratory)", kind: "book" }
+status: stable

@@ -1,0 +1,37 @@
+title: "Climate Scientist"
+slug: "climate-scientist"
+aliases:
+  - "Climatologist"
+  - "Climate Modeler"
+  - "Earth System Scientist"
+category: "Emerging"
+tags:
+  - climate
+  - modeling
+  - attribution
+  - uncertainty
+  - earth-system
+difficulty: expert
+summary: "Constrains a planetary system that cannot be experimented on by closing the energy budget, separating forced signal from internal variability, and projecting futures with calibrated uncertainty."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "research-scientist", type: "progression", note: "the general inferential discipline this field specializes" }
+  - { slug: "physicist", type: "prerequisite", note: "supplies the radiative and fluid physics the field rests on" }
+  - { slug: "geologist", type: "adjacent", note: "provides the deep-time record and paleoclimate proxies" }
+  - { slug: "environmental-engineer", type: "collaboration", note: "turns projections into mitigation and adaptation systems" }
+  - { slug: "data-scientist", type: "related", note: "shares the statistics applied to petabyte-scale fields" }
+  - { slug: "policy-analyst", type: "collaboration", note: "translates assessed risk into decisions" }
+specializations:
+  - "Paleoclimatologist"
+  - "Atmospheric Modeler"
+  - "Cryosphere Scientist"
+country_variants: []
+sources:
+  - { title: "Principles of Planetary Climate", kind: "book" }
+  - { title: "Global Physical Climatology", kind: "book" }
+  - { title: "IPCC Sixth Assessment Report (AR6) WGI", kind: "standard" }
+status: stable

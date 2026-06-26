@@ -1,0 +1,55 @@
+title: Quantum Engineer
+slug: quantum-engineer
+aliases:
+  - Quantum Computing Engineer
+  - Quantum Hardware Engineer
+  - Qubit Engineer
+category: Emerging
+tags:
+  - quantum-computing
+  - hardware
+  - qubits
+  - cryogenics
+  - error-correction
+difficulty: expert
+summary: >-
+  Coaxes fragile qubits into staying coherent and running gates accurately enough to compute,
+  fighting decoherence and noise across the whole stack from cryostat to compiler.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: physicist
+    type: prerequisite
+    note: supplies the theory of the qubits and the noise channels
+  - slug: electrical-engineer
+    type: collaboration
+    note: owns the control and readout electronics that set hard limits
+  - slug: software-engineer
+    type: adjacent
+    note: builds the compilation and calibration-automation stack
+  - slug: embedded-systems-engineer
+    type: adjacent
+    note: shares real-time control under tight latency constraints
+  - slug: research-scientist
+    type: collaboration
+    note: designs the algorithms the hardware is built to run
+  - slug: machine-learning-engineer
+    type: related
+    note: automates calibration and error mitigation pipelines
+specializations:
+  - Superconducting Qubit Engineer
+  - Trapped-Ion Engineer
+  - Quantum Control Engineer
+  - Quantum Error Correction Engineer
+country_variants: []
+sources:
+  - title: Quantum Computation and Quantum Information
+    kind: book
+  - title: Quantum Computing in the NISQ era and beyond (Preskill)
+    kind: article
+  - title: 'Quantum Computing: An Applied Approach'
+    kind: book
+status: stable

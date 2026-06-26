@@ -23,7 +23,7 @@ related:
   - { slug: "compliance-officer", type: "adjacent", note: "shares the discipline of testing against a standard but enforces rather than opines" }
   - { slug: "financial-analyst", type: "related", note: "shares suspicion toward reported numbers but invests rather than attests" }
   - { slug: "lawyer", type: "collaboration", note: "advises on going-concern disclosure, litigation contingencies, and liability exposure" }
-  - { slug: "management-consultant", type: "contrast", note: "advises and changes the business where the auditor must stay independent of it" }
+  - { slug: "management-consultant", type: "adjacent", note: "advises and changes the business where the auditor must stay independent of it" }
 specializations:
   - "Financial Statement Auditor"
   - "Internal Auditor"

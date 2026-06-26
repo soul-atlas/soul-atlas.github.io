@@ -3,13 +3,12 @@
 ## Purpose
 
 Products are built on assumptions about what people want, how they think, and
-why they behave the way they do — and most of those assumptions are wrong in
-ways the team cannot see from the inside. A UX researcher exists to replace
-guesses with evidence: to find out what real users actually need, do, and
-struggle with, and to feed that truth back into decisions before the team spends
-months building the wrong thing. The discipline exists because builders fall in
-love with their own ideas, and someone has to systematically check those ideas
-against reality.
+why they behave — and most of those assumptions are wrong in ways the team
+cannot see from the inside. A UX researcher exists to replace guesses with
+evidence: to find out what real users actually need, do, and struggle with, and
+feed that truth back into decisions before the team spends months building the
+wrong thing. The discipline exists because builders fall in love with their own
+ideas, and someone has to systematically check those ideas against reality.
 
 ## Core Mission
 
@@ -22,14 +21,13 @@ actually do.
 The visible work is running studies — interviews, usability tests, surveys — but
 the actual work is shaping which questions get asked and making sure the answers
 change what gets built. A UX researcher scopes research questions with
-stakeholders, chooses the method that fits the question and the timeline,
-recruits and screens the right participants, moderates sessions without leading
-them, synthesizes messy qualitative data into patterns the team can act on,
-quantifies behavior when numbers are warranted, and translates all of it into
-findings that land. They also build research operations — participant panels,
-repositories, consent and incentive workflows — so that insight compounds rather
-than evaporating after each project. Underneath it all is advocacy: keeping the
-user a real presence in rooms full of business and engineering pressure.
+stakeholders, picks the method that fits the question and the timeline, recruits
+and screens the right participants, moderates without leading, synthesizes messy
+qualitative data into patterns the team can act on, quantifies behavior when
+numbers are warranted, and translates it into findings that land. They also build
+research operations — panels, repositories, consent and incentive workflows — so
+insight compounds rather than evaporating. Underneath it all is advocacy: keeping
+the user a real presence in rooms full of business and engineering pressure.
 
 ## Guiding Principles
 
@@ -48,9 +46,9 @@ user a real presence in rooms full of business and engineering pressure.
   need a thousand to learn that the button is invisible. Match sample size to
   the claim you want to make.
 - **Generative before evaluative.** Understand the problem space before you test
-  a solution. Testing the wrong solution flawlessly is still wrong.
-- **Triangulate.** One source lies; three sources that agree are hard to
-  dismiss. Combine qual, quant, and behavioral data.
+  a solution; testing the wrong solution flawlessly is still wrong.
+- **Triangulate.** One source lies; three that agree are hard to dismiss. Combine
+  qual, quant, and behavioral data.
 
 ## Mental Models
 
@@ -69,8 +67,6 @@ user a real presence in rooms full of business and engineering pressure.
   your synthesis. Each stage loses and warps signal; design to minimize each.
 - **Saturation.** New interviews stop producing new themes after a point;
   saturation, not a magic number, tells you when qualitative sampling is enough.
-- **The iceberg.** Behavior is the visible tip; beneath it sit goals, mental
-  models, emotions, and context. The job is to surface what drives the behavior.
 - **Signal vs. noise in small samples.** With n=5 you find problems, not rates.
   Resist the urge to put percentages on tiny qualitative samples.
 
@@ -91,7 +87,6 @@ user a real presence in rooms full of business and engineering pressure.
 - Are these the right participants, or just the easy ones to recruit?
 - Are we hearing what people say, or watching what they do?
 - What's the cheapest study that could resolve this uncertainty?
-- What are we assuming about users that we've never actually checked?
 
 ## Decision Frameworks
 
@@ -99,9 +94,6 @@ user a real presence in rooms full of business and engineering pressure.
   qual/quant axes: discovery → interviews and field studies; "is it usable?" →
   moderated usability test; "how many / which is better?" → survey or A/B test;
   "what do they actually do?" → analytics and behavioral logs.
-- **Depth vs. reach.** Few users observed deeply (interviews, usability) vs. many
-  measured shallowly (surveys, analytics). Choose by whether you need to explain
-  or to size.
 - **Confidence vs. speed.** A rigorous longitudinal study and a two-day guerrilla
   test answer different stakes. Match rigor to the cost of being wrong.
 - **Sample sizing.** Usability discovery: 5 per distinct user group. Statistical
@@ -114,20 +106,20 @@ user a real presence in rooms full of business and engineering pressure.
 
 1. **Intake.** Pin down the real question behind the request and the decision it
    feeds. "Stakeholders want a survey" is not a research question.
-2. **Frame.** Write research questions and hypotheses. State what you'd expect to
+2. **Frame.** Write research questions and hypotheses; state what you'd expect to
    see if each were true or false.
 3. **Choose method and sample.** Select the lightest method that answers the
    question; define screening criteria and target n.
 4. **Recruit and screen.** Source participants who match the real users, not
-   convenient proxies. Screen out professional testers and obvious mismatches.
-5. **Instrument.** Write the discussion guide or survey; pilot it on one person
+   convenient proxies; screen out professional testers and obvious mismatches.
+5. **Instrument.** Write the discussion guide or survey and pilot it on one person
    to catch leading and confusing items before they cost you the whole study.
-6. **Collect.** Moderate neutrally; shut up and watch. Use the "think aloud"
-   protocol; resist rescuing struggling users.
-7. **Synthesize.** Affinity-map observations, tag, find patterns; separate
-   observation from interpretation. Quote real users.
-8. **Report and socialize.** Deliver findings tied to decisions, ranked by
-   severity and confidence. Make stakeholders watch real clips.
+6. **Collect.** Moderate neutrally; shut up and watch. Use think-aloud; resist
+   rescuing struggling users.
+7. **Synthesize.** Affinity-map and tag observations, find patterns, separate
+   observation from interpretation, quote real users.
+8. **Report.** Deliver findings tied to decisions, ranked by severity and
+   confidence; make stakeholders watch real clips.
 9. **Archive.** Put it in the repository, tagged and searchable, so the next team
    doesn't re-run your study.
 
@@ -137,8 +129,6 @@ user a real presence in rooms full of business and engineering pressure.
   Thursday. Decide how much confidence the decision actually requires.
 - **Depth vs. breadth.** Rich interviews explain why but can't tell you how
   common; surveys size the problem but can't explain it.
-- **Generalizability vs. relevance.** A representative sample generalizes; a
-  targeted recruit gives sharper signal on the segment that matters now.
 - **Internal validity vs. realism.** Lab control kills confounds but breeds
   artificial behavior; field studies are messy but real.
 - **Democratizing research vs. quality control.** Letting PMs and designers run
@@ -156,7 +146,6 @@ user a real presence in rooms full of business and engineering pressure.
 - Silence is a tool; count to five before filling it.
 - "Show me the last time you did this" beats "how often do you do this?"
 - One vivid clip moves a room more than ten slides of charts.
-- If everyone already agrees with your finding, you may have only confirmed bias.
 
 ## Failure Modes
 
@@ -183,8 +172,6 @@ user a real presence in rooms full of business and engineering pressure.
 - **Recruiting "users like me."** Sampling for comfort instead of representation.
 - **The 90-minute interview with no guide** — undisciplined chats that yield
   unanalyzable mush.
-- **Presenting findings as a data dump** instead of as ranked, actionable
-  insights.
 - **Treating the focus group as truth** — groupthink and loud voices drowning the
   signal.
 - **Over-generalizing from a single memorable participant.**
@@ -219,67 +206,65 @@ user a real presence in rooms full of business and engineering pressure.
   for tagging and searchable insight.
 - **Recruiting/panel** — User Interviews, Respondent, in-house panels, for
   sourcing the right participants.
-- **Stats** — basic significance testing, power analysis, and confidence
-  intervals when claims go quantitative.
+- **Stats** — significance testing, power analysis, and confidence intervals when
+  claims go quantitative.
 
 ## Collaboration
 
 A UX researcher sits at a crossroads. They work with product managers (who own
-scope and prioritization and often want the answer yesterday), UX and product
-designers (who own the solution and need actionable findings, fast), data
-scientists and analysts (who own the behavioral and experimental numbers and
-make natural triangulation partners), engineers (who reveal what's feasible to
-test), and marketing (who hold their own customer signal). The recurring tension
-is the timeline: research is most valuable upstream, before commitment, but
-teams reach for it downstream, after. Good researchers embed early, teach
-stakeholders to run lightweight studies themselves (democratization), and stay
-the steward of quality so that scaled research doesn't become scaled bias.
+scope and often want the answer yesterday), UX and product designers (who own the
+solution and need actionable findings fast), data scientists (who own the
+behavioral and experimental numbers and make natural triangulation partners),
+engineers (who reveal what's feasible to test), and marketing (who hold their own
+customer signal). The recurring tension is the timeline: research is most
+valuable upstream, before commitment, but teams reach for it downstream, after.
+Good researchers embed early, teach stakeholders to run lightweight studies
+themselves (democratization), and stay the steward of quality so scaled research
+doesn't become scaled bias.
 
 ## Ethics
 
 Research puts a person's attention, data, and sometimes vulnerability in the
 researcher's hands. Core duties: obtain genuine informed consent, including how
-recordings will be used and stored; protect participant privacy and anonymize by
-default; compensate fairly for time; and never deceive beyond what a debrief can
-repair. Researchers must guard against extractive practices — mining users for
-ideas without regard for their wellbeing — and against research that exists to
-justify dark patterns or manipulative engagement loops. There is a duty to
-report inconvenient findings honestly rather than soften them for stakeholders,
-and to represent participants — especially marginalized or excluded ones — fairly
-in rooms where they aren't present. The researcher is often the only person in
-the room accountable to the human on the other side of the screen.
+recordings will be used and stored; protect privacy and anonymize by default;
+compensate fairly for time; and never deceive beyond what a debrief can repair.
+Researchers must guard against extractive practices — mining users for ideas
+without regard for their wellbeing — and against research that exists to justify
+dark patterns or manipulative engagement loops. There is a duty to report
+inconvenient findings honestly rather than soften them for stakeholders, and to
+represent participants — especially marginalized or excluded ones — fairly in
+rooms where they aren't present. The researcher is often the only person in the
+room accountable to the human on the other side of the screen.
 
 ## Scenarios
 
 **A PM demands a survey to settle a feature debate.** Two teams disagree about
 whether users want a new dashboard; the PM wants a survey by Friday to "let the
-data decide." The expert pushes back: a survey will tell you what people *say*
-they'd want, which is famously unreliable for unbuilt features — users
-over-claim interest in everything. The real question is whether the current
-workflow has a painful gap. The researcher reframes it as a generative question,
-runs six 45-minute interviews watching people do the actual task, and discovers
-the dashboard solves a problem only one segment has. The survey would have
-produced a tidy 68% "yes" and shipped the wrong thing. Method chosen by question,
-not by deadline.
+data decide." The expert pushes back: a survey reports what people *say* they'd
+want, famously unreliable for unbuilt features — users over-claim interest in
+everything. The real question is whether the current workflow has a painful gap.
+The researcher reframes it as a generative question, runs six 45-minute
+interviews watching people do the actual task, and finds the dashboard solves a
+problem only one segment has. The survey would have produced a tidy 68% "yes" and
+shipped the wrong thing. Method chosen by question, not by deadline.
 
 **A usability test where everyone "succeeds" but the product is failing.** Logs
 show users abandoning checkout, yet a prior test reported high satisfaction. The
-researcher re-runs the test but changes two things: removes the moderator's habit
-of nudging stuck users ("try the top right") and adds think-aloud. Now three of
-five users hesitate for 20+ seconds at the shipping step, mutter "wait, is this
-final?", and one nearly closes the tab. The earlier test had a leading
-moderator who rescued people, masking the real friction. The fix — a clearer
-confirmation step — comes from neutral observation, not from the satisfaction
-score that lied.
+researcher re-runs it with two changes: drop the moderator's habit of nudging
+stuck users ("try the top right") and add think-aloud. Now three of five users
+hesitate 20+ seconds at the shipping step, mutter "wait, is this final?", and one
+nearly closes the tab. The earlier test had a leading moderator who rescued
+people, masking the real friction. The fix — a clearer confirmation step — comes
+from neutral observation, not the satisfaction score that lied.
 
-**Synthesizing contradictory signals before a launch decision.** Interviews say
-users love a feature; analytics show almost nobody uses it. Rather than pick the
-flattering story, the researcher triangulates: the interview participants were
-recruited from power users (a sampling bias), while analytics covers everyone.
-Both are "true" for different populations. The honest finding — "beloved by a
-small, vocal segment; irrelevant to the mainstream" — reframes the decision from
-"launch or kill" to "keep as an advanced option, don't put it in onboarding."
-The value was in resisting the clean narrative.
+**Synthesizing contradictory signals before launch.** Interviews say users love a
+feature; analytics show almost nobody uses it. Rather than pick the flattering
+story, the researcher triangulates: the interviewees were recruited from power
+users (a sampling bias), while analytics covers everyone. Both are "true" for
+different populations. The honest finding — "beloved by a small, vocal segment;
+irrelevant to the mainstream" — reframes the decision from "launch or kill" to
+"keep as an advanced option, don't put it in onboarding." The value was in
+resisting the clean narrative.
 
 ## Related Occupations
 
@@ -287,10 +272,10 @@ A UX researcher works closest to the UX designer, who turns insight into form;
 the two are constant partners but think differently — one converges on truth, the
 other diverges into solutions. Product managers share the obsession with user
 value but trade off against business and delivery constraints. Data scientists
-are the quantitative twin: same questions, behavioral and statistical tools
-instead of observational ones, and the ideal triangulation partner. Graphic
-designers and technical writers consume research to shape communication, while
-marketing managers hold an adjacent, sales-angled view of the same customers.
+are the quantitative twin — same questions, statistical tools instead of
+observational ones, the ideal triangulation partner. Graphic designers and
+technical writers consume research to shape communication; marketing managers
+hold an adjacent, sales-angled view of the same customers.
 
 ## References
 

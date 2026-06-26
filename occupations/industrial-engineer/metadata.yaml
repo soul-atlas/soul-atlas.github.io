@@ -1,0 +1,36 @@
+title: "Industrial Engineer"
+slug: "industrial-engineer"
+aliases:
+  - "Process Improvement Engineer"
+  - "Operations Engineer"
+  - "Manufacturing Systems Engineer"
+category: "Engineering"
+tags:
+  - operations
+  - lean
+  - six-sigma
+  - process-optimization
+  - systems
+difficulty: advanced
+summary: "Designs systems of people, machines, and materials for maximum throughput at minimum waste by managing the constraint and reducing variability across the whole flow."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "operations-manager", type: "collaboration", note: "owns the systems industrial engineers optimize; shares throughput and cost goals" }
+  - { slug: "supply-chain-manager", type: "adjacent", note: "applies flow and variability thinking across the supplier network" }
+  - { slug: "mechanical-engineer", type: "collaboration", note: "designs the equipment that sits within the flow" }
+  - { slug: "project-manager", type: "adjacent", note: "shares planning and constraint-management discipline" }
+  - { slug: "chemical-engineer", type: "related", note: "optimizes process-plant throughput with overlapping methods" }
+specializations:
+  - "Manufacturing Engineer"
+  - "Operations Research Analyst"
+  - "Quality Engineer"
+  - "Supply Chain Engineer"
+country_variants: []
+sources:
+  - { title: "Factory Physics", kind: "book" }
+  - { title: "The Goal", kind: "book" }
+status: stable

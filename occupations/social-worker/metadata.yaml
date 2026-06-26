@@ -1,0 +1,38 @@
+title: "Social Worker"
+slug: "social-worker"
+aliases:
+  - "Caseworker"
+  - "Clinical Social Worker"
+  - "Family Services Worker"
+  - "MSW"
+category: "Public Service"
+tags:
+  - social-services
+  - case-management
+  - trauma-informed-care
+  - child-welfare
+  - mental-health
+difficulty: advanced
+summary: "Works the seam between person and environment, balancing client self-determination against the duty to protect, building on strengths and the least restrictive intervention."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "psychiatrist", type: "collaboration", note: "partners on diagnosis and medication while the worker holds the whole environment" }
+  - { slug: "school-counselor", type: "adjacent", note: "shares the clinical relationship in the narrower school setting" }
+  - { slug: "police-officer", type: "collaboration", note: "co-responds to the same crisis calls; does what a badge cannot" }
+  - { slug: "community-organizer", type: "related", note: "attacks the systemic causes the worker meets one client at a time" }
+  - { slug: "caregiver", type: "adjacent", note: "does unpaid and untrained what the social worker does as a profession" }
+  - { slug: "public-health-officer", type: "related", note: "addresses population-level drivers of the harms the worker treats individually" }
+specializations:
+  - "Child Protective Services Worker"
+  - "Clinical/Therapeutic Social Worker"
+  - "Medical Social Worker"
+  - "Substance Abuse Counselor"
+country_variants: []
+sources:
+  - { title: "NASW Code of Ethics", kind: "standard" }
+  - { title: "Motivational Interviewing (Miller & Rollnick)", kind: "book" }
+status: stable

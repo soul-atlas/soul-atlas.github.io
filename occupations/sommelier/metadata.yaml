@@ -1,0 +1,23 @@
+title: "Sommelier"
+slug: "sommelier"
+aliases: ["Wine Director", "Wine Steward", "Head Sommelier", "Cave Master"]
+category: "Hospitality"
+tags: ["wine", "tasting", "food-pairing", "cellar-management", "service"]
+difficulty: "expert"
+summary: "How a sommelier thinks: the deductive tasting grid, pairing by structure not cliche, and reading the table's real budget to sell the guest's wine without snobbery."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "chef", type: "collaboration", note: "Pairings live or die on tasting the kitchen's food" }
+  - { slug: "bartender", type: "adjacent", note: "Shares the floor, the by-the-glass program, and reading guests fast" }
+  - { slug: "viticulturist", type: "prerequisite", note: "Grows the fruit and holds upstream vintage and terroir knowledge" }
+  - { slug: "hotel-manager", type: "related", note: "Owns the property where the wine program sits; shares margin discipline" }
+  - { slug: "event-planner", type: "collaboration", note: "Books large parties the somm must provision wine for" }
+specializations: ["head-sommelier", "wine-buyer", "beverage-director"]
+country_variants: []
+sources:
+  - { title: "The World Atlas of Wine (Johnson & Robinson)", kind: "book" }
+  - { title: "Court of Master Sommeliers deductive tasting standard", kind: "book" }
+status: stable

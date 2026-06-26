@@ -1,0 +1,23 @@
+title: "Accountant"
+slug: "accountant"
+aliases: ["Staff Accountant", "Bookkeeper", "CPA", "Financial Accountant"]
+category: "Business"
+tags: ["accounting", "gaap", "financial-reporting", "reconciliation", "double-entry"]
+difficulty: "intermediate"
+summary: "Thinks in double-entry and accrual, treating reconciliation and the audit trail as the test of truth and recognition timing as the heart of the craft."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "auditor", type: "adjacent", note: "Independently tests the accountant's work" }
+  - { slug: "financial-analyst", type: "collaboration", note: "Consumes the statements the accountant produces" }
+  - { slug: "compliance-officer", type: "related", note: "Shares the internal-control and SOD discipline" }
+  - { slug: "actuary", type: "related", note: "Both rely on disciplined estimation under uncertainty" }
+  - { slug: "financial-advisor", type: "adjacent", note: "Overlaps on tax and personal finance" }
+specializations: ["Tax Accountant", "Cost Accountant", "Forensic Accountant", "Controller"]
+country_variants: []
+sources:
+  - { title: "FASB Accounting Standards Codification (US GAAP)", kind: "standard" }
+  - { title: "IFRS Standards", kind: "standard" }
+status: stable

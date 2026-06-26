@@ -1,0 +1,23 @@
+title: "Hotel Manager"
+slug: "hotel-manager"
+aliases: ["General Manager", "Hotel GM", "Property Manager", "Lodging Manager"]
+category: "Hospitality"
+tags: ["revenue-management", "operations", "guest-experience", "revpar", "staffing"]
+difficulty: "expert"
+summary: "How a hotel GM thinks: a perishable room sold at the right rate, RevPAR over raw occupancy, service recovery as opportunity, and a property that must run safely around the clock."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "chef", type: "collaboration", note: "Runs F&B under the GM's P&L on the same 24/7 rhythm" }
+  - { slug: "sommelier", type: "related", note: "Beverage program sits within the property's operation" }
+  - { slug: "event-planner", type: "collaboration", note: "Books groups and functions that fill shoulder dates and meeting space" }
+  - { slug: "operations-manager", type: "adjacent", note: "Shares running a complex multi-team operation against a forecast" }
+  - { slug: "marketing-manager", type: "related", note: "Drives direct demand that reduces OTA commission leakage" }
+specializations: ["revenue-manager", "front-office-manager", "resort-manager"]
+country_variants: []
+sources:
+  - { title: "Hotel Operations Management (Hayes, Ninemeier)", kind: "book" }
+  - { title: "HSMAI Revenue Management body of knowledge", kind: "book" }
+status: stable

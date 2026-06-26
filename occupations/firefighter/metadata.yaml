@@ -1,0 +1,37 @@
+title: "Firefighter"
+slug: "firefighter"
+aliases:
+  - "Fire Fighter"
+  - "Fireman"
+  - "Fire and Rescue Officer"
+category: "Public Service"
+tags:
+  - fire-suppression
+  - emergency-response
+  - incident-command
+  - rescue
+  - public-safety
+difficulty: advanced
+summary: "Runs toward danger with disciplined courage, reading smoke and structure to weigh risk against savable life under a command structure where everyone goes home."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "paramedic", type: "collaboration", note: "runs the medical majority of calls; often the same person, same apparatus" }
+  - { slug: "police-officer", type: "collaboration", note: "shares scenes and wrecks; brings force where firefighters do not" }
+  - { slug: "emergency-physician", type: "adjacent", note: "takes the handoff and continues the chain of survival" }
+  - { slug: "infantry-officer", type: "adjacent", note: "shares command discipline, accountability, and team integrity under fire" }
+  - { slug: "combat-medic", type: "related", note: "treats and rescues under hazard within a chain of command" }
+  - { slug: "logistics-officer", type: "adjacent", note: "shares the ICS/NIMS coordination doctrine for marshaling resources" }
+specializations:
+  - "Hazmat Technician"
+  - "Wildland Firefighter"
+  - "Technical Rescue Specialist"
+  - "Fire Investigator"
+country_variants: []
+sources:
+  - { title: "Essentials of Fire Fighting (IFSTA)", kind: "book" }
+  - { title: "NIMS / Incident Command System (FEMA)", kind: "standard" }
+status: stable

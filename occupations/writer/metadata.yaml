@@ -1,0 +1,23 @@
+title: "Writer"
+slug: "writer"
+aliases: ["author", "novelist", "essayist", "prose writer"]
+category: "Creative"
+tags: ["narrative", "prose", "revision", "storytelling", "voice"]
+difficulty: "advanced"
+summary: "How a writer engineers a reader's experience line by line — drafting fast, revising ruthlessly, and choosing between scene and summary to control meaning."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "technical-writer", type: "adjacent", note: "also writes for a reader, but optimizes clarity over voice" }
+  - { slug: "broadcast-journalist", type: "related", note: "narrative and sourcing under deadline" }
+  - { slug: "film-director", type: "collaboration", note: "translates story into a visual medium" }
+  - { slug: "musician", type: "related", note: "rhythm, phrasing, tension and release over time" }
+  - { slug: "teacher", type: "adjacent", note: "sequencing ideas so they land in another mind" }
+specializations: ["novelist", "screenwriter", "essayist", "copywriter"]
+country_variants: []
+sources:
+  - { title: "The Elements of Style (Strunk & White)", kind: "book" }
+  - { title: "Story (Robert McKee)", kind: "book" }
+status: stable

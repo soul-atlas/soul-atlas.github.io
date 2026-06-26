@@ -1,0 +1,23 @@
+title: "Graphic Designer"
+slug: "graphic-designer"
+aliases: ["visual designer", "communication designer", "brand designer"]
+category: "Creative"
+tags: ["typography", "hierarchy", "branding", "layout", "visual-communication"]
+difficulty: "advanced"
+summary: "How a graphic designer turns a brief into a message that lands — directing the eye with hierarchy, type, contrast, and white space, and codifying it into systems."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "ux-designer", type: "adjacent", note: "shares hierarchy and type but designs interactive behavior" }
+  - { slug: "industrial-designer", type: "related", note: "form-meets-function problem solving for objects" }
+  - { slug: "photographer", type: "collaboration", note: "supplies and art-directs imagery in layouts" }
+  - { slug: "marketing-manager", type: "collaboration", note: "owns the message the design must serve" }
+  - { slug: "technical-writer", type: "adjacent", note: "verbal counterpart to visual hierarchy" }
+specializations: ["brand-designer", "typographer", "packaging-designer", "motion-designer"]
+country_variants: []
+sources:
+  - { title: "The Non-Designer's Design Book (Robin Williams)", kind: "book" }
+  - { title: "Grid Systems in Graphic Design (Müller-Brockmann)", kind: "book" }
+status: stable

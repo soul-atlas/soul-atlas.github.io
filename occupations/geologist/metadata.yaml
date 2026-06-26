@@ -1,0 +1,55 @@
+title: Geologist
+slug: geologist
+aliases:
+  - Geoscientist
+  - Earth Scientist
+  - Field Geologist
+category: Science
+tags:
+  - geology
+  - stratigraphy
+  - deep-time
+  - plate-tectonics
+  - field-mapping
+difficulty: advanced
+summary: >-
+  Reads process from product across deep time, reconstructing Earth's history from an incomplete
+  rock record while holding multiple working hypotheses until field evidence forces a choice.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: research-scientist
+    type: progression
+    note: the general inferential discipline this field specializes
+  - slug: physicist
+    type: prerequisite
+    note: supplies deformation mechanics and the physics of isotopic clocks
+  - slug: climate-scientist
+    type: adjacent
+    note: consumes the deep-time record and paleoclimate proxies geology supplies
+  - slug: environmental-engineer
+    type: collaboration
+    note: builds on geological ground-truth for sites and hazards
+  - slug: civil-engineer
+    type: collaboration
+    note: relies on subsurface assessment for foundations and tunnels
+  - slug: forester
+    type: related
+    note: works the soil skin that geology produces and constrains
+specializations:
+  - Structural Geologist
+  - Sedimentologist
+  - Economic Geologist
+  - Geochronologist
+country_variants: []
+sources:
+  - title: 'Basin Analysis: Principles and Application'
+    kind: book
+  - title: Principles of Sedimentology and Stratigraphy
+    kind: book
+  - title: The Method of Multiple Working Hypotheses (Chamberlin, 1890)
+    kind: article
+status: stable

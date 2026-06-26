@@ -1,0 +1,55 @@
+title: Pharmacist
+slug: pharmacist
+aliases:
+  - Chemist
+  - Apothecary
+  - Druggist
+  - RPh
+category: Healthcare
+tags:
+  - pharmacy
+  - medication-safety
+  - pharmacology
+  - patient-care
+  - healthcare
+difficulty: advanced
+summary: >-
+  The last expert check between a prescription and a body, ensuring every medication is appropriate,
+  safe, and effective for the specific patient and that they can use it correctly.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: physician
+    type: collaboration
+    note: independently checks, optimizes, and monitors the drugs physicians prescribe
+  - slug: registered-nurse
+    type: collaboration
+    note: administers the dispensed drugs, sharing the final defenses against error
+  - slug: nurse-practitioner
+    type: collaboration
+    note: both prescribes as a clinician and relies on pharmacist expertise
+  - slug: anesthesiologist
+    type: related
+    note: depends on precise, interaction-prone drug regimens
+  - slug: psychiatrist
+    type: collaboration
+    note: leans on pharmacist consultation for complex psychotropic regimens
+specializations:
+  - Clinical Pharmacist
+  - Hospital Pharmacist
+  - Oncology Pharmacist
+  - Community Pharmacist
+country_variants:
+  - region: Chemist (UK)
+    note: Chemist (UK)
+sources:
+  - title: Goodman & Gilman's The Pharmacological Basis of Therapeutics
+    kind: book
+  - title: 'Applied Therapeutics: The Clinical Use of Drugs'
+    kind: book
+  - title: ISMP High-Alert Medication Lists
+    kind: standard
+status: stable

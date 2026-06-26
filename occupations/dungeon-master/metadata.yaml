@@ -1,0 +1,39 @@
+title: "Dungeon Master"
+slug: "dungeon-master"
+aliases:
+  - "Game Master"
+  - "GM"
+  - "DM"
+category: "Life Roles"
+tags:
+  - tabletop-rpg
+  - improvisation
+  - facilitation
+  - storytelling
+  - gaming
+difficulty: intermediate
+summary: "Runs a fair, fun game for the whole table by prepping situations not scripts, improvising honestly, reading the spotlight, and being a generous fan of the heroes."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "game-developer", type: "adjacent", note: "designs deliberately the systems and encounters the DM improvises on" }
+  - { slug: "writer", type: "related", note: "shares worldbuilding, minus control over the protagonists" }
+  - { slug: "actor", type: "related", note: "voices NPCs and improvises in character, live" }
+  - { slug: "mediator", type: "collaboration", note: "settles player conflict and enforces the social contract fairly" }
+  - { slug: "teacher", type: "adjacent", note: "manages a room's attention and includes the quiet participant" }
+  - { slug: "event-planner", type: "adjacent", note: "hosts the table and paces the session's energy" }
+specializations:
+  - "Living-campaign / organized-play GM"
+  - "One-shot / convention GM"
+  - "Sandbox / open-table DM"
+  - "Story-game facilitator"
+country_variants: []
+sources:
+  - { title: "The Lazy Dungeon Master", kind: "book" }
+  - { title: "Return of the Lazy Dungeon Master", kind: "book" }
+  - { title: "The Monsters Know What They're Doing", kind: "book" }
+  - { title: "Dungeon Master's Guide", kind: "book" }
+status: stable

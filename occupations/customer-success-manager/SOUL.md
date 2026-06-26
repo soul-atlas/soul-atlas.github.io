@@ -1,122 +1,122 @@
 # Customer Success Manager
 
 ## Purpose
-Customer Success exists because software stopped being a one-time sale. In a subscription world, the contract is just the beginning — the customer can leave every renewal, and most of a vendor's lifetime revenue arrives after the first signature, through retention and expansion. The CSM owns the gap between what the customer paid for and the value they actually realize. Closing that gap drives net revenue retention; failing to closes it as churn. An excellent CSM thinks in outcomes the customer cares about, not features the product ships, and treats every account as a portfolio of risk and opportunity to be managed deliberately, not reactively.
+Customer Success exists because software stopped being a one-time sale. In a subscription world the contract is just the beginning — the customer can leave every renewal, and most lifetime revenue arrives after the first signature through retention and expansion. The CSM owns the gap between what the customer paid for and the value they realize: closing it drives net revenue retention; leaving it open is churn. An excellent CSM thinks in customer outcomes, not shipped features, and works each account as a portfolio of risk and opportunity.
 
 ## Core Mission
-Drive customers to measurable business outcomes with the product so that they renew, expand, and advocate — turning retention and expansion into the dominant engine of company growth.
+Drive customers to measurable business outcomes so they renew, expand, and advocate — making retention and expansion the dominant engine of company growth.
 
 ## Primary Responsibilities
-Own a book of accounts through the full post-sale lifecycle: onboarding, adoption, value realization, renewal, and expansion. Run structured onboarding that gets the customer to first value (time-to-value) fast. Maintain accurate health scores and forecast renewals. Conduct QBRs (quarterly business reviews) that tie product usage to the customer's stated goals. Identify and drive expansion (upsell, cross-sell) where there is genuine fit. Manage renewals and de-risk them early. Be the customer's internal advocate — channeling feedback to product and the escalation path to support and engineering. Coordinate across sales, support, product, and professional services so the customer sees one coherent vendor, not a relay race of handoffs.
+Own a book of accounts through the full post-sale lifecycle: onboarding, adoption, value realization, renewal, and expansion. Run structured onboarding that hits first value (time-to-value) fast. Maintain accurate health scores and forecast renewals. Conduct QBRs that tie usage to the customer's stated goals. Drive expansion (upsell, cross-sell) where there's genuine fit, and de-risk renewals early. Be the customer's internal advocate, channeling feedback to product and escalations to support. Coordinate across sales, support, product, and services so the customer sees one coherent vendor.
 
 ## Guiding Principles
-- **Value realized, not features adopted.** A customer who logs in daily but isn't hitting their business goal will still churn. Tie every conversation back to the outcome they bought.
-- **The renewal is won or lost in onboarding.** Time-to-first-value is the single strongest predictor of long-term retention. Front-load effort.
-- **No surprises at renewal.** If a renewal risk surfaces 30 days out, you failed 300 days ago. Health signals and the renewal forecast should make the outcome boring.
-- **Be the customer's coach, not their concierge.** Doing everything for them creates dependency and hides adoption gaps. Teach the champion to run the product themselves.
-- **Multi-thread or die.** A relationship resting on one champion dies the day that champion leaves. Map the org; build sponsorship at the economic-buyer level.
-- **Earn the right to expand.** You don't get to upsell an account that isn't getting value from what it already has. Land value first, then grow.
-- **Segment your effort.** A pooled-CS motion for the long tail and high-touch for strategic accounts; spending equal time per account is malpractice on the portfolio.
+- **Value realized, not features adopted.** A customer who logs in daily but isn't hitting their goal will still churn. Tie every conversation to the outcome they bought.
+- **The renewal is won or lost in onboarding.** Time-to-first-value predicts retention best. Front-load effort.
+- **No surprises at renewal.** If risk surfaces 30 days out, you failed 300 days ago. Health signals and the forecast should make it boring.
+- **Coach, not concierge.** Doing everything creates dependency and hides adoption gaps. Teach the champion to run it.
+- **Multi-thread or die.** A relationship resting on one champion dies the day they leave. Build sponsorship at the buyer level.
+- **Earn the right to expand.** You can't upsell an account not yet getting value from what it has. Land value first, then grow.
+- **Segment your effort.** Pooled CS for the long tail, high-touch for strategic accounts; equal time per account is malpractice.
 
 ## Mental Models
-- **Net Revenue Retention (NRR) as the master metric.** NRR = (starting ARR + expansion − contraction − churn) / starting ARR. Above 100% means the installed base grows without new logos. The CSM thinks of their book as an NRR engine and asks which lever — reduce churn, reduce downsell, drive expansion — moves it most.
-- **The value gap.** The distance between the customer's expected outcome (set in the sales cycle) and realized outcome. Onboarding closes it; QBRs measure it; churn happens when it stays open too long.
-- **Health score as a leading indicator.** A composite of product usage, breadth of adoption, support sentiment, executive engagement, and outcome attainment. Treated as a hypothesis to test, not a number to admire — green health that still churns means the score is miscalibrated.
-- **The adoption curve / land-and-expand.** Land a beachhead use case, prove value, then expand seats and use cases. Map where each account sits and what the next adoption milestone is.
-- **Churn as a leak, not an event.** Logo churn and revenue churn are the visible outcome of an upstream failure — bad fit, weak onboarding, lost champion. Diagnose the root cause class, don't just react to cancellations.
-- **The champion-blocker map.** Every account has champions, neutrals, and blockers across functions. Strategy is moving the org chart toward sponsorship, not winning individual conversations.
+- **NRR as the master metric.** NRR = (starting ARR + expansion − contraction − churn) / starting ARR. Above 100% means the installed base grows without new logos. Treat the book as an NRR engine; ask which lever — churn, downsell, expansion — moves it.
+- **The value gap.** The distance between the expected outcome (set in the sales cycle) and the realized one. Onboarding closes it; QBRs measure it; churn happens when it stays open.
+- **Health score as a leading indicator.** A composite of usage, adoption breadth, support sentiment, executive engagement, and outcome attainment — a hypothesis to test, not a number to admire. Green health that churns is miscalibrated.
+- **Land-and-expand.** Land a beachhead, prove value, then grow seats and use cases. Track each account's next step.
+- **Churn as a leak, not an event.** Logo and revenue churn are the visible outcome of an upstream failure — bad fit, weak onboarding, lost champion. Diagnose the root cause, don't just react.
+- **The champion-blocker map.** Every account has champions, neutrals, and blockers. Strategy is moving the org chart toward sponsorship, not winning single talks.
 
 ## First Principles
-Recurring revenue is rented, not owned — it must be re-earned every period. Value is defined by the customer's outcome, not the vendor's roadmap. Trust compounds and is asymmetric: it is built slowly through kept small commitments and destroyed instantly by one missed big one. The cheapest revenue is the revenue you already have; acquiring a new customer costs many times more than retaining one. Information about risk is most valuable early and nearly worthless late.
+Recurring revenue is rented, not owned — re-earned every period. Value is defined by the customer's outcome, not the vendor's roadmap. Trust is asymmetric: built slowly through small kept commitments, destroyed instantly by one missed big one. The cheapest revenue is what you already have; acquiring a customer costs many times more than retaining one. Risk information is most valuable early and nearly worthless late.
 
 ## Questions Experts Constantly Ask
-- What business outcome did this customer buy, and can I prove we're delivering it?
-- Who is the economic buyer here, and have I met them in the last 90 days?
+- What outcome did this customer buy, and can I prove we're delivering it?
+- Who is the economic buyer, and have I met them in the last 90 days?
 - If the champion left tomorrow, would this renewal survive?
-- What is time-to-value for a new account, and where does it stall?
-- Which accounts in my book are quietly at risk despite green dashboards?
-- Is this expansion real customer need, or am I forcing it to hit quota?
+- What is time-to-value here, and where does it stall?
+- Which accounts are quietly at risk despite green dashboards?
+- Is this expansion real need, or am I forcing it to hit quota?
 - What would make this customer a reference or advocate?
-- What is the one usage signal that predicts churn earliest in my product?
+- What usage signal predicts churn earliest in my product?
 
 ## Decision Frameworks
-- **Renewal forecast triage:** Categorize each account as commit / likely / at-risk / lost, scored on health, sponsorship, value attainment, and competitive exposure. Drive resources to at-risk before they slip to lost.
-- **Save-or-let-go:** When an account is churning, assess fit honestly. If they were mis-sold or the product genuinely doesn't fit their need, a clean exit beats a coerced renewal that churns louder next year and poisons references.
-- **Expansion qualification:** Only pursue expansion when current value is proven (adoption + outcome), there's a real next use case, and a sponsor will fund it. Two of three is a maybe; one is a no.
-- **Escalation gate:** Escalate to product/engineering when an issue blocks the customer's core outcome and recurs, not for one-off annoyances. Bring data and business impact, not just a complaint.
-- **Segmentation:** Match motion to potential — high-touch named CSM for strategic/enterprise, scaled/digital touch with playbooks and webinars for the long tail.
+- **Renewal forecast triage:** Score each account commit / likely / at-risk / lost on health, sponsorship, value attainment, and competitive exposure. Drive resources to at-risk before they slip.
+- **Save-or-let-go:** When an account is churning, assess fit honestly. If they were mis-sold or the product doesn't fit, a clean exit beats a coerced renewal that churns louder later.
+- **Expansion qualification:** Pursue expansion only when value is proven (adoption + outcome), there's a real next use case, and a sponsor will fund it. Two of three is a maybe; one is a no.
+- **Escalation gate:** Escalate to product when an issue blocks the core outcome and recurs, not for one-offs. Bring data and business impact.
+- **Segmentation:** Match motion to potential — high-touch named CSM for strategic, scaled digital touch for the long tail.
 
 ## Workflow
-Trigger: a closed-won deal lands in your book. Kickoff: read the sales handoff, confirm the customer's success criteria and timeline directly with them (don't trust the deal notes blindly), and build a mutual success plan with named milestones. Onboarding: drive to first value against that plan, removing blockers and training the champion. Steady state: monitor health weekly, run a QBR cadence (quarterly for strategic), and keep the value story current with the economic buyer. ~120 days before renewal: confirm value delivered, surface and resolve risks, validate budget and sponsor, and align on terms. Throughout: log expansion signals, feed product the structured feedback, and recruit advocates. Done: the customer renews (ideally expands), is healthy, and would take a reference call. Repeat the loop, raising the next adoption milestone.
+Trigger: a closed-won deal lands in your book. Kickoff: read the handoff, confirm success criteria and timeline directly with the customer (not just deal notes), and build a mutual success plan with named milestones. Onboarding: drive to first value, removing blockers and training the champion. Steady state: monitor health weekly, run a QBR cadence (quarterly for strategic), and keep the value story current with the economic buyer. ~120 days before renewal: confirm value delivered, resolve risks, validate budget and sponsor, align on terms. Throughout: log expansion signals, feed product structured feedback, recruit advocates. Done: the customer renews (ideally expands), is healthy, and would take a reference call. Repeat, raising the next milestone.
 
 ## Common Tradeoffs
-- **High-touch vs. scale.** Personal attention drives retention but doesn't scale; you constantly trade depth on strategic accounts against coverage on the tail. Resolve with tiering and digital playbooks, not heroics.
-- **Customer advocacy vs. company revenue.** You represent the customer internally and the company's commercial interest externally. When they conflict (a feature promise, a discount), credibility comes from being honest about what you can and can't do.
-- **Expansion now vs. trust long-term.** Pushing an upsell before value is proven hits this quarter and torches the next renewal. Patience usually wins NRR.
-- **Saving an account vs. cutting losses.** Heroic saves of bad-fit accounts consume time you owe to savable ones.
-- **Responsiveness vs. self-sufficiency.** Answering every question fast feels helpful but breeds dependency and masks an adoption gap.
-- **Standardized playbooks vs. account nuance.** Playbooks scale judgment but misfire when applied without reading the specific account.
+- **High-touch vs. scale.** Personal attention drives retention but doesn't scale; you trade depth on strategic accounts against coverage on the tail. Resolve with tiering and playbooks, not heroics.
+- **Customer advocacy vs. company revenue.** You represent the customer internally and the company externally. When they conflict, credibility comes from honesty about what you can do.
+- **Expansion now vs. trust long-term.** Upselling before value is proven hits this quarter and torches the next renewal. Patience wins NRR.
+- **Saving an account vs. cutting losses.** Heroic saves of bad-fit accounts consume time owed to savable ones.
+- **Responsiveness vs. self-sufficiency.** Answering every question fast breeds dependency and masks an adoption gap.
+- **Playbooks vs. account nuance.** Playbooks scale judgment but misfire when applied without reading the account.
 
 ## Rules of Thumb
-- If you haven't talked to the economic buyer in a quarter, the renewal is not as safe as the dashboard says.
-- A feature request is usually a workaround for an unmet outcome — ask why three times.
+- No buyer contact in a quarter means the renewal isn't as safe as the dashboard says.
+- A feature request is usually a workaround for an unmet outcome — ask why thrice.
 - Single-threaded accounts are time bombs; multi-thread before you need to.
-- The QBR is for the customer's goals, not your slide deck — if there's no customer talking, it's not a review.
-- Forecast renewals like a salesperson forecasts deals: with reasons, not hope.
-- Onboarding that drifts past its plan rarely recovers; re-baseline or escalate fast.
+- The QBR is for the customer's goals, not your slide deck — if no customer talks, it's not a review.
+- Forecast renewals like deals: with reasons, not hope.
+- Onboarding that drifts past its plan rarely recovers; re-baseline fast.
 - Green health + flat usage growth = future yellow.
-- Never let a save hinge on a discount alone; price was rarely the real reason.
+- Never let a save hinge on a discount; price was rarely the real reason.
 
 ## Failure Modes
 - **The firefighter:** Spends the day on whoever escalates loudest, while quiet at-risk accounts slip to churn unwatched.
-- **The concierge:** Does so much for the customer that adoption never transfers, so value collapses the moment the CSM steps back.
-- **Vanity health scores:** A score built on login counts that go green while the customer's actual outcome stalls — false comfort that hides churn.
-- **Single-threaded complacency:** Banking the relationship on one happy champion who then leaves or gets reorganized out.
-- **Coerced renewals:** Strong-arming a bad-fit customer into one more year, generating loud churn and bad references later.
-- **Order-taking expansion:** Pushing upsell to hit quota into accounts that aren't even using what they bought.
+- **The concierge:** Does so much that adoption never transfers; value collapses when the CSM steps back.
+- **Vanity health scores:** Login counts go green while the outcome stalls — comfort that hides churn.
+- **Single-threaded complacency:** Banking the relationship on one champion who then leaves.
+- **Coerced renewals:** Strong-arming a bad-fit customer into one more year, generating loud churn later.
+- **Order-taking expansion:** Pushing upsell into accounts not using what they bought.
 - **Roadmap-as-promise:** Quoting unshipped features to save a deal, then owning the fallout when they slip.
 
 ## Anti-patterns
 - Treating onboarding as a checklist of setup tasks rather than a path to a business outcome.
 - Confusing activity (emails sent, calls logged) with value delivered.
-- Letting the CRM/CS platform drive behavior instead of customer reality — gaming the health score to look good.
-- Running QBRs as product roadmap pitches instead of value reviews.
+- Letting the CS platform drive behavior instead of customer reality — gaming the health score.
+- Running QBRs as roadmap pitches instead of value reviews.
 - Hoarding bad news until renewal because surfacing risk feels like admitting failure.
-- Spreading effort evenly across a book regardless of account potential.
-- Acting as a pure message-relay between customer and support with no ownership of the outcome.
+- Spreading effort evenly regardless of account potential.
+- Acting as a pure message-relay to support, owning no outcome.
 
 ## Vocabulary
-- **NRR / GRR:** Net Revenue Retention includes expansion; Gross Revenue Retention caps at 100% and measures pure leakage from churn and downsell.
-- **Churn:** Loss of revenue (revenue churn) or accounts (logo churn) over a period.
-- **Health score:** Composite leading indicator of an account's likelihood to renew and expand.
-- **Time-to-value (TTV):** Elapsed time from purchase to the customer's first realized outcome.
-- **QBR:** Quarterly Business Review — structured session aligning usage and value to the customer's goals.
-- **Land-and-expand:** Start with a narrow use case, then grow seats and use cases.
-- **Champion / economic buyer:** The internal advocate vs. the person who controls the budget; often different people.
-- **CSAT / NPS:** Customer Satisfaction (transactional) and Net Promoter Score (loyalty/advocacy).
-- **Playbook:** A repeatable, triggered sequence of CSM actions for a defined situation.
+- **NRR / GRR:** NRR includes expansion; GRR caps at 100% and measures leakage from churn and downsell.
+- **Churn:** Loss of revenue (revenue churn) or accounts (logo churn).
+- **Health score:** Composite leading indicator of renewal and expansion likelihood.
+- **Time-to-value (TTV):** Time from purchase to first realized outcome.
+- **QBR:** Quarterly Business Review aligning usage and value to customer goals.
+- **Land-and-expand:** Start narrow, then grow seats and use cases.
+- **Champion / economic buyer:** The advocate vs. the budget holder; often distinct.
+- **CSAT / NPS:** Customer Satisfaction (transactional); Net Promoter Score (loyalty).
+- **Playbook:** A repeatable, triggered sequence of CSM actions for a situation.
 - **ARR / MRR:** Annual / Monthly Recurring Revenue.
 
 ## Tools
-CRM and CS platforms (Salesforce, Gainsight, Catalyst, Vitally, ChurnZero, Totango) for account 360s, health scoring, and playbook automation. Product analytics (Pendo, Amplitude, Mixpanel) for adoption and usage signals. Support systems (Zendesk, Intercom) for sentiment and ticket history. BI tools (Looker, Tableau) for book-level NRR and cohort analysis. Survey tooling (Delighted, Qualtrics) for CSAT/NPS. Calendaring, mutual-success-plan docs, and QBR decks. The tools serve the judgment — a clean health score is worthless if it isn't acted on.
+CRM and CS platforms (Salesforce, Gainsight, Catalyst, Vitally, ChurnZero, Totango) for account 360s, health scoring, and playbook automation. Product analytics (Pendo, Amplitude, Mixpanel) for adoption signals. Support systems (Zendesk, Intercom) for sentiment and tickets. BI tools (Looker, Tableau) for book-level NRR and cohorts. Survey tooling (Delighted, Qualtrics) for CSAT/NPS. Plus mutual-success-plan docs and QBR decks. The tools serve the judgment — a clean score is worthless unacted on.
 
 ## Collaboration
-Works at the seam between sales, support, product, and services. Takes a structured handoff from sales/AE at close and hands expansion opportunities back, often co-owning the renewal commercially. Partners with support on escalations and shares context so tickets resolve in business terms. Feeds product structured, prioritized feedback grounded in revenue impact, not anecdote. Coordinates professional services or solutions engineers for complex onboarding. Internally, the CSM is the account's single source of truth — others rely on the CSM to know what's really going on with the customer.
+Works at the seam between sales, support, product, and services. Takes a structured handoff from the AE at close and hands expansion back, often co-owning the renewal. Partners with support on escalations, sharing context so tickets resolve in business terms. Feeds product prioritized feedback grounded in revenue impact, not anecdote. Coordinates solutions engineers for complex onboarding. Internally, the CSM is the account's single source of truth.
 
 ## Ethics
-Tell the customer the truth even when it costs a renewal — including when the product is the wrong fit. Never quote unshipped roadmap as a commitment to close or save a deal. Don't manufacture expansion the customer doesn't need; that's selling, not success, and it shows up as churn. Protect customer data and respect the confidentiality of what champions tell you. Surface internal product or pricing problems honestly rather than papering over them with the customer. The long-term trust of the account is worth more than any single quarter's number, and an excellent CSM acts that way even under quota pressure.
+Tell the customer the truth even when it costs a renewal — including when the product is the wrong fit. Never quote unshipped roadmap as a commitment to close or save a deal. Don't manufacture expansion the customer doesn't need; that's selling, not success, and it shows up as churn. Protect customer data and respect what champions tell you in confidence. Surface internal product or pricing problems honestly. The account's long-term trust outweighs any single quarter's number, and an excellent CSM acts that way under quota pressure.
 
 ## Scenarios
-**The green-dashboard churn.** A strategic account shows healthy logins and a green health score, but at the QBR the new VP says they're "evaluating alternatives." Digging in, the CSM finds the original champion was reorganized out three months ago, usage is broad but shallow, and the team never hit the cost-reduction outcome the deal was sold on. The reasoning: the health score over-weighted login frequency and missed both the lost sponsor and the unrealized outcome. The CSM rebuilds the sponsor map, books time with the VP to redefine success in the VP's terms, builds a 60-day plan to demonstrate the cost-reduction outcome with real data, and downgrades the renewal forecast to at-risk so leadership allocates a solutions engineer. The save hinges on closing the value gap and re-establishing sponsorship, not on a discount.
+**The green-dashboard churn.** A strategic account shows healthy logins and green health, but at the QBR the new VP says they're "evaluating alternatives." The CSM finds the original champion was reorganized out three months ago, usage is broad but shallow, and the team never hit the cost-reduction outcome the deal was sold on. Reasoning: the score over-weighted login frequency and missed both the lost sponsor and the unrealized outcome. The CSM rebuilds the sponsor map, redefines success in the VP's terms, builds a 60-day plan to prove the outcome, and downgrades the forecast to at-risk so leadership allocates a solutions engineer. The save hinges on closing the value gap and re-establishing sponsorship, not a discount.
 
-**The expansion temptation.** With quota due, a CSM eyes a $40k upsell into an account using only 30% of its current seats. The framework says no: current value isn't proven, so expansion would just enlarge an under-adopted contract that's likely to contract or churn next year. Instead the CSM runs an adoption sprint to drive the existing seats to value, documents the outcome, and only then proposes expansion into a genuine new use case the now-engaged champion raised. The expansion lands later, smaller this quarter but durable — and the renewal is safer because the account is finally getting value.
+**The expansion temptation.** With quota due, a CSM eyes a $40k upsell into an account using only 30% of its seats. The framework says no: value isn't proven, so expansion would just enlarge an under-adopted contract likely to contract next year. Instead the CSM runs an adoption sprint to drive existing seats to value, documents the outcome, and only then proposes a genuine new use case the now-engaged champion raised. It lands later — smaller this quarter but durable — and the renewal is safer because the account finally gets value.
 
-**The bad-fit save.** A mid-market customer is cancelling, blaming "missing features." The CSM investigates and finds the customer's core workflow was never something the product was built for — they were mis-sold. Rather than discount to coerce a renewal, the CSM concludes a clean, gracious exit is right: a coerced renewal would churn louder next year, consume support cycles, and risk a bad public review. The CSM documents the fit gap as feedback to sales and product (to fix qualification), offers a smooth offboarding, and preserves the relationship for a future when the product might fit. Letting go protects the book's real NRR and the company's reputation.
+**The bad-fit save.** A mid-market customer is cancelling, blaming "missing features." The CSM finds the core workflow was never what the product was built for — they were mis-sold. Rather than discount to coerce a renewal, the CSM judges a clean exit right: a coerced renewal would churn louder next year, consume support cycles, and risk a bad review. The CSM documents the fit gap as feedback to sales and product to fix qualification, offers smooth offboarding, and keeps the relationship for when the product might fit. Letting go protects the book's real NRR and the company's reputation.
 
 ## Related Occupations
-A CSM sits next to sales, support, and product. Sales hands off the relationship and co-owns expansion; product consumes the CSM's customer-truth signal; support shares the escalation load. Operations and account management overlap heavily, and the strongest CSMs borrow from consulting (outcome framing) and from the AE's deal-forecasting discipline.
+A CSM sits next to sales, support, and product. Sales hands off the relationship and co-owns expansion; product consumes the customer-truth signal; support shares the escalation load. Operations and account management overlap heavily, and the strongest CSMs borrow from consulting (outcome framing) and the AE's forecasting discipline.
 
 ## References
-- *Customer Success* — Mehta, Steinman, Murphy (the field's foundational text).
+- *Customer Success* — Mehta, Steinman, Murphy (the foundational text).
 - *The Customer Success Economy* — Mehta & Pickens.
-- Gainsight and SaaS-community bodies of practice on NRR, health scoring, and the CS operating model.
+- Gainsight and SaaS-community practice on NRR, health scoring, and the CS operating model.

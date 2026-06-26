@@ -1,0 +1,39 @@
+title: "Systems Administrator"
+slug: "systems-administrator"
+aliases:
+  - "Sysadmin"
+  - "IT Administrator"
+  - "Infrastructure Administrator"
+  - "Systems Engineer (Ops)"
+category: "Technology"
+tags:
+  - infrastructure
+  - operations
+  - uptime
+  - identity
+  - backups
+difficulty: intermediate
+summary: "Holds entropy at bay deliberately, keeping the systems people depend on available, secure, and recoverable so a single failure never becomes an outage or breach."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "site-reliability-engineer", type: "progression", note: "applies software engineering to ops at scale; descends from the sysadmin role" }
+  - { slug: "devops-engineer", type: "adjacent", note: "blurs dev and ops with pipelines and IaC; the modern sysadmin trends here" }
+  - { slug: "network-engineer", type: "related", note: "owns the network plumbing the admin depends on" }
+  - { slug: "database-administrator", type: "specialization", note: "deeper specialization in the data layer" }
+  - { slug: "security-engineer", type: "collaboration", note: "closest ally on hardening, access, and incident response" }
+  - { slug: "cloud-architect", type: "adjacent", note: "designs the cloud infrastructure the admin increasingly operates" }
+specializations:
+  - "Windows/AD Administrator"
+  - "Linux Administrator"
+  - "Cloud/Infrastructure Administrator"
+  - "Storage Administrator"
+country_variants: []
+sources:
+  - { title: "The Practice of System and Network Administration", kind: "book" }
+  - { title: "UNIX and Linux System Administration Handbook", kind: "book" }
+  - { title: "Google SRE Book", url: "https://sre.google/books/", kind: "book" }
+status: stable

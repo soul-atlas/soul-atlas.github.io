@@ -1,0 +1,36 @@
+title: "Environmental Engineer"
+slug: "environmental-engineer"
+aliases:
+  - "Environmental Process Engineer"
+  - "Water Resources Engineer"
+  - "Remediation Engineer"
+category: "Engineering"
+tags:
+  - water-treatment
+  - air-quality
+  - remediation
+  - fate-and-transport
+  - regulatory-compliance
+difficulty: advanced
+summary: "Designs systems that bring contaminants in water, air, and soil below harmful levels under variable loads, accounting for every gram and the residual it creates."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "chemical-engineer", type: "adjacent", note: "shares process and reaction fundamentals applied to pollution control" }
+  - { slug: "civil-engineer", type: "adjacent", note: "designs water and wastewater infrastructure alongside" }
+  - { slug: "geologist", type: "collaboration", note: "characterizes the subsurface governing contaminant transport" }
+  - { slug: "climate-scientist", type: "related", note: "studies the larger environmental systems this work operates within" }
+  - { slug: "sustainability-manager", type: "collaboration", note: "translates environmental performance into organizational strategy" }
+specializations:
+  - "Water Treatment Engineer"
+  - "Air Quality Engineer"
+  - "Remediation Engineer"
+  - "Solid Waste Engineer"
+country_variants: []
+sources:
+  - { title: "Wastewater Engineering: Treatment and Resource Recovery (Metcalf & Eddy)", kind: "book" }
+  - { title: "Environmental Engineering: Fundamentals, Sustainability, Design", kind: "book" }
+status: stable

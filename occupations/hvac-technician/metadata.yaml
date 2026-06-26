@@ -1,0 +1,37 @@
+title: "HVAC Technician"
+slug: "hvac-technician"
+aliases:
+  - "HVAC/R Technician"
+  - "Refrigeration Technician"
+  - "Heating and Cooling Tech"
+category: "Skilled Trades"
+tags:
+  - hvac
+  - refrigeration
+  - heating
+  - airflow
+  - combustion-safety
+difficulty: advanced
+summary: "Moves heat and humidity where people want them by reading the refrigeration cycle through superheat and subcooling, balancing airflow, and keeping combustion vented and carbon monoxide out."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "electrician", type: "collaboration", note: "feeds power to HVAC equipment and shares the rough-in" }
+  - { slug: "plumber", type: "collaboration", note: "shares chases and overlaps on hydronic and condensate lines" }
+  - { slug: "mechanical-engineer", type: "related", note: "designs the systems and duct layouts the technician installs" }
+  - { slug: "carpenter", type: "adjacent", note: "frames the shell the ductwork routes through" }
+  - { slug: "welder", type: "related", note: "shares brazing and metal-joining skill on refrigerant lines" }
+specializations:
+  - "Residential Service Technician"
+  - "Commercial Refrigeration Technician"
+  - "Controls/Building Automation Technician"
+  - "Hydronics Specialist"
+country_variants: []
+sources:
+  - { title: "ACCA Manual J / Manual D", kind: "standard" }
+  - { title: "EPA Section 608 Refrigerant Handling", kind: "standard" }
+  - { title: "Refrigeration and Air Conditioning Technology", kind: "book" }
+status: stable

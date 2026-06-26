@@ -1,10 +1,10 @@
-title: "Research Scientist"
-slug: "research-scientist"
+title: Research Scientist
+slug: research-scientist
 aliases:
-  - "Scientist"
-  - "Principal Investigator"
-  - "Researcher"
-category: "Science"
+  - Scientist
+  - Principal Investigator
+  - Researcher
+category: Science
 tags:
   - research
   - experiment
@@ -12,25 +12,40 @@ tags:
   - statistics
   - peer-review
 difficulty: expert
-summary: "Converts ignorance into reliable knowledge by framing falsifiable hypotheses, designing controlled experiments, and quantifying uncertainty so a skeptic can reproduce the result."
+summary: >-
+  Converts ignorance into reliable knowledge by framing falsifiable hypotheses, designing controlled
+  experiments, and quantifying uncertainty so a skeptic can reproduce the result.
 contributors:
-  - "soul-atlas"
-last_reviewed: "2026-06-26"
-created: "2026-06-26"
-updated: "2026-06-26"
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
 related:
-  - { slug: "data-scientist", type: "adjacent", note: "shares statistical inference but works existing data for decisions, not discovery" }
-  - { slug: "professor", type: "related", note: "pairs the same research with teaching and training" }
-  - { slug: "biologist", type: "specialization", note: "a research scientist working within living systems" }
-  - { slug: "physicist", type: "specialization", note: "a research scientist working within physical law" }
-  - { slug: "bioinformatics-scientist", type: "adjacent", note: "applies these methods to molecular data at scale" }
+  - slug: data-scientist
+    type: adjacent
+    note: shares statistical inference but works existing data for decisions, not discovery
+  - slug: professor
+    type: related
+    note: pairs the same research with teaching and training
+  - slug: biologist
+    type: specialization
+    note: a research scientist working within living systems
+  - slug: physicist
+    type: specialization
+    note: a research scientist working within physical law
+  - slug: bioinformatics-scientist
+    type: adjacent
+    note: applies these methods to molecular data at scale
 specializations:
-  - "Clinical Researcher"
-  - "Materials Scientist"
-  - "Social Scientist"
+  - Clinical Researcher
+  - Materials Scientist
+  - Social Scientist
 country_variants: []
 sources:
-  - { title: "The Logic of Scientific Discovery", kind: "book" }
-  - { title: "Statistics for Experimenters", kind: "book" }
-  - { title: "Strong Inference (Platt, Science 1964)", kind: "paper" }
+  - title: The Logic of Scientific Discovery
+    kind: book
+  - title: Statistics for Experimenters
+    kind: book
+  - title: Strong Inference (Platt, Science 1964)
+    kind: article
 status: stable

@@ -1,0 +1,37 @@
+title: "Data Engineer"
+slug: "data-engineer"
+aliases:
+  - "Data Pipeline Engineer"
+  - "ETL Developer"
+  - "Analytics Engineer"
+category: "Technology"
+tags:
+  - data-pipelines
+  - etl
+  - data-warehousing
+  - orchestration
+  - data-quality
+difficulty: advanced
+summary: "Treats data as guilty until proven clean: builds idempotent, replayable pipelines and tests tables like code so the same input always yields the same trustworthy answer."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "data-scientist", type: "collaboration", note: "primary downstream consumer of clean, well-grained tables" }
+  - { slug: "database-administrator", type: "adjacent", note: "operational cousin tuning the stores pipelines read and write" }
+  - { slug: "software-engineer", type: "related", note: "shares testable, version-controlled code aimed at data correctness" }
+  - { slug: "machine-learning-engineer", type: "collaboration", note: "trains and serves models on the tables data engineers guarantee" }
+  - { slug: "backend-engineer", type: "adjacent", note: "produces the operational data and event streams pipelines ingest" }
+  - { slug: "cloud-architect", type: "related", note: "designs the storage and compute substrate the data stack runs on" }
+specializations:
+  - "Analytics Engineer"
+  - "Streaming Data Engineer"
+  - "Data Platform Engineer"
+country_variants: []
+sources:
+  - { title: "The Data Warehouse Toolkit", kind: "book" }
+  - { title: "Fundamentals of Data Engineering", kind: "book" }
+  - { title: "Designing Data-Intensive Applications", kind: "book" }
+status: stable

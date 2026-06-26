@@ -1,0 +1,38 @@
+title: "Public Health Officer"
+slug: "public-health-officer"
+aliases:
+  - "Public Health Official"
+  - "Epidemiologist (Applied)"
+  - "Health Protection Officer"
+category: "Government"
+tags:
+  - public-health
+  - epidemiology
+  - prevention
+  - surveillance
+  - population-health
+difficulty: advanced
+summary: "Protects whole populations by preventing disease before it strikes and stopping outbreaks while small, weighing individual liberty against collective protection."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "physician", type: "adjacent", note: "shares clinical knowledge but treats the individual where the officer treats the population" }
+  - { slug: "emergency-physician", type: "related", note: "manages the acute case the officer tries to prevent at scale" }
+  - { slug: "research-scientist", type: "prerequisite", note: "epidemiology supplies the causal evidence the officer acts on" }
+  - { slug: "social-worker", type: "collaboration", note: "reaches vulnerable populations and the social determinants on the ground" }
+  - { slug: "policy-analyst", type: "related", note: "shares cost-effectiveness and counterfactual discipline applied to health" }
+  - { slug: "environmental-engineer", type: "collaboration", note: "fixes the water, air, and sanitation that drive most disease burden" }
+specializations:
+  - "Field Epidemiologist"
+  - "Health Protection Specialist"
+  - "Immunization Program Manager"
+  - "Environmental Health Officer"
+country_variants: []
+sources:
+  - { title: "Epidemiology (Gordis)", kind: "book" }
+  - { title: "The Strategy of Preventive Medicine", kind: "book" }
+  - { title: "WHO International Health Regulations (2005)", kind: "standard" }
+status: stable

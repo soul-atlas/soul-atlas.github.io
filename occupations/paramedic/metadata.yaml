@@ -1,0 +1,35 @@
+title: "Paramedic"
+slug: "paramedic"
+aliases:
+  - "EMT-Paramedic"
+  - "Ambulance Paramedic"
+  - "Emergency Medical Technician"
+category: "Healthcare"
+tags:
+  - emergency
+  - prehospital
+  - trauma
+  - resuscitation
+  - triage
+difficulty: advanced
+summary: "Brings the first hour of medicine to people where they fall, deciding fast what is killing them and stabilizing for transport with the resources actually on the truck."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "emergency-physician", type: "collaboration", note: "receives the patient at handover; shares resuscitation instinct" }
+  - { slug: "registered-nurse", type: "adjacent", note: "shares the assess-and-reassess rhythm and inherits the patient" }
+  - { slug: "firefighter", type: "collaboration", note: "frequent co-responder sharing scene and rescue" }
+  - { slug: "combat-medic", type: "related", note: "trauma-first medicine under far harsher constraints" }
+  - { slug: "physician", type: "adjacent", note: "shares the diagnostic reasoning at lower resource and time budget" }
+specializations:
+  - "Critical Care Paramedic"
+  - "Flight Paramedic"
+  - "Tactical Paramedic"
+country_variants: []
+sources:
+  - { title: "PHTLS: Prehospital Trauma Life Support (NAEMT)", kind: "book" }
+  - { title: "Nancy Caroline's Emergency Care in the Streets", kind: "book" }
+status: stable

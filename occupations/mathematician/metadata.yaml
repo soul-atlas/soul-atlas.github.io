@@ -1,0 +1,24 @@
+title: "Mathematician"
+slug: "mathematician"
+aliases: ["pure mathematician", "research mathematician", "applied mathematician"]
+category: "Science"
+tags: ["mathematics", "proof", "rigor", "abstraction", "conjecture"]
+difficulty: expert
+summary: "Establishes necessary truth by proof rather than evidence, working from definitions and axioms, killing conjectures with counterexamples, and chasing the elegant argument."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "research-scientist", type: "adjacent", note: "uses evidence where the mathematician demands proof; shares disciplined inquiry" }
+  - { slug: "physicist", type: "collaboration", note: "uses mathematics as a tool and accepts heuristics the mathematician calls conjecture" }
+  - { slug: "data-scientist", type: "related", note: "applies probability and optimization the mathematician develops" }
+  - { slug: "actuary", type: "related", note: "applies probability theory under regulation and risk" }
+  - { slug: "professor", type: "progression", note: "pairs proving with teaching and training the next generation" }
+  - { slug: "software-engineer", type: "adjacent", note: "shares formal structure; proof assistants are converging the two" }
+specializations: ["pure mathematics", "applied mathematics", "number theory", "topology"]
+country_variants: []
+sources:
+  - { title: "How to Solve It (George Polya)", kind: "book" }
+  - { title: "A Mathematician's Apology (G. H. Hardy)", kind: "book" }
+status: stable

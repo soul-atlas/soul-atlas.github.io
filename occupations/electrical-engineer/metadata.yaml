@@ -1,0 +1,36 @@
+title: "Electrical Engineer"
+slug: "electrical-engineer"
+aliases:
+  - "Electronics Engineer"
+  - "Power Engineer"
+  - "EE"
+category: "Engineering"
+tags:
+  - circuits
+  - electronics
+  - power
+  - signal-integrity
+  - emc
+difficulty: advanced
+summary: "Designs electrical and electronic systems that meet voltage, current, timing, and signal goals with margin while surviving heat, tolerance, and noise."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "mechanical-engineer", type: "collaboration", note: "owns the enclosure and the thermal path for electronics" }
+  - { slug: "embedded-systems-engineer", type: "adjacent", note: "writes firmware that runs the silicon; shares hardware/software boundary" }
+  - { slug: "robotics-engineer", type: "related", note: "combines power electronics, sensing, and control" }
+  - { slug: "network-engineer", type: "adjacent", note: "builds on the physical layer electrical engineers define" }
+  - { slug: "electrician", type: "adjacent", note: "installs and maintains power systems at building scale" }
+specializations:
+  - "Power Systems Engineer"
+  - "Analog Design Engineer"
+  - "RF Engineer"
+  - "Power Electronics Engineer"
+country_variants: []
+sources:
+  - { title: "The Art of Electronics", kind: "book" }
+  - { title: "Noise Reduction Techniques in Electronic Systems", kind: "book" }
+status: stable

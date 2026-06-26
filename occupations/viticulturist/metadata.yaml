@@ -1,0 +1,36 @@
+title: "Viticulturist"
+slug: "viticulturist"
+aliases:
+  - "Vineyard Manager"
+  - "Grape Grower"
+  - "Vigneron"
+category: "Agriculture"
+tags:
+  - viticulture
+  - wine
+  - perennial-crop
+  - terroir
+  - horticulture
+difficulty: advanced
+summary: "Reads site and season to steer a perennial vine toward balanced, ripe fruit, trading yield for quality and timing the one harvest a year against weather, disease, and the winemaker's needs."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "farmer", type: "related", note: "shares the craft of growing against weather and season" }
+  - { slug: "agronomist", type: "prerequisite", note: "soil, nutrition, and rootstock science underpinning the work" }
+  - { slug: "sommelier", type: "collaboration", note: "translates the vineyard's place and vintage into the glass" }
+  - { slug: "chef", type: "adjacent", note: "shares the obsession with peak ripeness and provenance" }
+  - { slug: "environmental-engineer", type: "adjacent", note: "shares long-term land and water stewardship" }
+specializations:
+  - "Vineyard Manager"
+  - "Organic / Biodynamic Grower"
+  - "Cool-climate Viticulturist"
+country_variants: []
+sources:
+  - { title: "Viticulture: An Introduction to Commercial Grape Growing for Wine Production", kind: "book" }
+  - { title: "General Viticulture (Winkler et al.)", kind: "book" }
+  - { title: "The Science of Wine", kind: "book" }
+status: stable

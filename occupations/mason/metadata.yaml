@@ -1,0 +1,37 @@
+title: "Mason"
+slug: "mason"
+aliases:
+  - "Bricklayer"
+  - "Stonemason"
+  - "Blocklayer"
+category: "Skilled Trades"
+tags:
+  - masonry
+  - bricklaying
+  - stonework
+  - mortar
+  - construction
+difficulty: advanced
+summary: "Lays brick, block, and stone true, plumb, and level so the wall carries load in compression, sheds water, and moves with the seasons without cracking, for generations."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "carpenter", type: "collaboration", note: "frames onto the foundations and walls the mason builds" }
+  - { slug: "structural-engineer", type: "related", note: "specifies the reinforcement and grouting the mason executes" }
+  - { slug: "architect", type: "collaboration", note: "sets the bond, appearance, and detailing of the masonry face" }
+  - { slug: "civil-engineer", type: "related", note: "sets the site and grade the masonry rises from" }
+  - { slug: "heavy-equipment-operator", type: "adjacent", note: "excavates the footings and moves the material" }
+specializations:
+  - "Bricklayer"
+  - "Stonemason"
+  - "Restoration Mason"
+  - "Block/Concrete Mason"
+country_variants: []
+sources:
+  - { title: "TMS 402/602 Masonry Code", kind: "standard" }
+  - { title: "Building with Masonry", kind: "book" }
+  - { title: "Brick Industry Association Technical Notes", kind: "standard" }
+status: stable

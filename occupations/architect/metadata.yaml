@@ -1,0 +1,23 @@
+title: "Architect"
+slug: "architect"
+aliases: ["building architect", "design architect", "registered architect"]
+category: "Creative"
+tags: ["design", "built-environment", "parti", "structure", "space-planning"]
+difficulty: "expert"
+summary: "How an architect synthesizes program, site, structure, budget, and code into buildable form — thinking in section and parti while protecting the idea through cost and construction."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "structural-engineer", type: "collaboration", note: "sizes and resolves the structure the architect designs with" }
+  - { slug: "civil-engineer", type: "collaboration", note: "handles site, grading, and infrastructure" }
+  - { slug: "urban-planner", type: "adjacent", note: "shapes the zoning and context buildings answer to" }
+  - { slug: "industrial-designer", type: "related", note: "form-meets-function design at a different scale" }
+  - { slug: "graphic-designer", type: "related", note: "shares hierarchy, composition, and design synthesis" }
+specializations: ["residential-architect", "landscape-architect", "interior-architect", "urban-designer"]
+country_variants: []
+sources:
+  - { title: "Architecture: Form, Space, and Order (Francis D.K. Ching)", kind: "book" }
+  - { title: "Towards a New Architecture (Le Corbusier)", kind: "book" }
+status: stable

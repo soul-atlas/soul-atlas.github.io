@@ -1,0 +1,37 @@
+title: "Community Organizer"
+slug: "community-organizer"
+aliases:
+  - "Grassroots Organizer"
+  - "Labor Organizer"
+  - "Community Builder"
+category: "Life Roles"
+tags:
+  - organizing
+  - power-building
+  - leadership-development
+  - civic
+  - grassroots
+difficulty: intermediate
+summary: "Builds durable collective power among the people affected by an injustice — organizing around self-interest, cutting winnable issues, and developing leaders, never doing for others what they can do for themselves."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "social-worker", type: "adjacent", note: "serves people in hardship but helps individuals cope rather than building collective power" }
+  - { slug: "mediator", type: "related", note: "resolves conflict where the organizer often sharpens it to build power" }
+  - { slug: "policy-analyst", type: "collaboration", note: "shapes policy from inside while the organizer applies outside pressure" }
+  - { slug: "urban-planner", type: "adjacent", note: "shapes the built environment communities live in and fight over" }
+  - { slug: "mentor", type: "related", note: "shares the craft of growing another's capacity rather than doing the work" }
+  - { slug: "diplomat", type: "adjacent", note: "negotiates interests and power among parties who must keep dealing with each other" }
+specializations:
+  - "Labor Organizing"
+  - "Tenant/Housing Organizing"
+  - "Faith-Based (Congregation) Organizing"
+  - "Electoral/Civic Engagement"
+country_variants: []
+sources:
+  - { title: "Rules for Radicals", kind: "book" }
+  - { title: "Roots for Radicals", kind: "book" }
+status: stable

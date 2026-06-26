@@ -1,0 +1,24 @@
+title: "Investment Banker"
+slug: "investment-banker"
+aliases: ["M&A advisor", "corporate financier", "deal banker"]
+category: "Finance"
+tags: ["mergers-acquisitions", "valuation", "capital-markets", "deal-structuring", "leveraged-finance"]
+difficulty: expert
+summary: "How a master dealmaker triangulates value, prices certainty against headline price, manufactures auction tension, and puts the client's interest above the fee."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "financial-analyst", type: "prerequisite", note: "modeling and valuation craft underpinning deal work" }
+  - { slug: "trader", type: "adjacent", note: "prices and places the securities banking originates" }
+  - { slug: "management-consultant", type: "collaboration", note: "advises the strategy that motivates transactions" }
+  - { slug: "lawyer", type: "collaboration", note: "drafts and negotiates deal contracts and clears regulation" }
+  - { slug: "compliance-officer", type: "related", note: "polices conflicts and the information wall" }
+  - { slug: "entrepreneur", type: "adjacent", note: "the company-side client and counterparty in deals" }
+specializations: ["M&A advisory", "equity capital markets", "leveraged finance", "restructuring"]
+country_variants: []
+sources:
+  - { title: "Investment Banking: Valuation, LBOs, M&A, and IPOs (Rosenbaum & Pearl)", kind: "book" }
+  - { title: "Investment Valuation (Damodaran)", kind: "book" }
+status: stable

@@ -1,0 +1,36 @@
+title: "Military Intelligence Analyst"
+slug: "military-intelligence-analyst"
+aliases:
+  - "Intel Analyst"
+  - "All-Source Analyst"
+  - "Intelligence Officer"
+category: "Military"
+tags:
+  - military
+  - intelligence
+  - analysis
+  - all-source
+  - assessment
+difficulty: advanced
+summary: "Turns deceptive, partial fragments into the clearest honest assessment of what an adversary can and will do, guarding against bias and stating uncertainty in calibrated confidence the commander can act on."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "data-scientist", type: "adjacent", note: "shares extracting signal from noisy data and quantifying confidence, but against nature not a deceiver" }
+  - { slug: "cyber-warfare-specialist", type: "collaboration", note: "both consumes and generates intelligence, often on the same adversary" }
+  - { slug: "infantry-officer", type: "collaboration", note: "the analyst's most demanding consumer, fighting on the picture built" }
+  - { slug: "diplomat", type: "related", note: "applies similar estimative reasoning to statecraft" }
+  - { slug: "policy-analyst", type: "adjacent", note: "reasons under uncertainty with calibrated language toward decisions" }
+specializations:
+  - "SIGINT Analyst"
+  - "GEOINT/Imagery Analyst"
+  - "HUMINT Analyst"
+  - "Targeting Analyst"
+country_variants: []
+sources:
+  - { title: "Psychology of Intelligence Analysis", kind: "book" }
+  - { title: "Words of Estimative Probability (Sherman Kent)", kind: "article" }
+status: stable

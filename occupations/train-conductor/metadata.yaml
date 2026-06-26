@@ -1,0 +1,57 @@
+title: Train Conductor
+slug: train-conductor
+aliases:
+  - Railroad Conductor
+  - Freight Conductor
+  - Trainman
+  - Person-in-Charge
+category: Transportation
+tags:
+  - railroad
+  - rail-operations
+  - safety
+  - freight
+  - logistics
+difficulty: advanced
+summary: >-
+  Holds authority over a mile of unstoppable train, moving only under confirmed authority and a
+  shared picture with the crew, and stopping the moment that picture is in doubt.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: truck-driver
+    type: adjacent
+    note: moves freight's last leg alone, with the same respect for momentum
+  - slug: ship-captain
+    type: adjacent
+    note: commands larger mass under rules of the road with a crew
+  - slug: air-traffic-controller
+    type: related
+    note: runs the same authority-and-separation logic the rail dispatcher does
+  - slug: logistics-coordinator
+    type: collaboration
+    note: schedules the freight the train carries
+  - slug: heavy-equipment-operator
+    type: related
+    note: shares the feel for controlling heavy mass safely
+  - slug: supply-chain-manager
+    type: related
+    note: owns the freight network the rail movement is part of
+specializations:
+  - Freight Conductor
+  - Passenger Conductor
+  - Yard Conductor
+  - Road Conductor
+country_variants: []
+sources:
+  - title: General Code of Operating Rules (GCOR)
+    kind: standard
+  - title: 49 CFR Parts 218 and 240 (FRA operating practices)
+    url: https://www.ecfr.gov/current/title-49
+    kind: standard
+  - title: Air Brake and Train Handling Handbook
+    kind: other
+status: stable

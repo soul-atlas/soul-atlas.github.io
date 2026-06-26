@@ -1,0 +1,24 @@
+title: "Chemist"
+slug: "chemist"
+aliases: ["chemical scientist", "synthetic chemist", "analytical chemist"]
+category: "Science"
+tags: ["chemistry", "synthesis", "characterization", "reaction-mechanism", "lab-safety"]
+difficulty: "expert"
+summary: "How an excellent chemist thinks: reasoning from structure and mechanism, balancing thermodynamics against kinetics, and proving identity and purity with orthogonal methods."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "research-scientist", type: "prerequisite", note: "The general scientific method the chemist specializes" }
+  - { slug: "chemical-engineer", type: "collaboration", note: "Scales bench reactions into safe industrial processes" }
+  - { slug: "pharmacist", type: "adjacent", note: "Applies chemical knowledge of drugs to patient care" }
+  - { slug: "medical-laboratory-scientist", type: "related", note: "Runs chemical assays on clinical samples" }
+  - { slug: "biologist", type: "progression", note: "Works one level up where chemistry becomes living systems" }
+  - { slug: "biomedical-engineer", type: "related", note: "Turns structure-property insight into medical materials and devices" }
+specializations: ["organic chemist", "analytical chemist", "medicinal chemist", "physical chemist"]
+country_variants: []
+sources:
+  - { title: "Organic Chemistry (Clayden, Greeves & Warren)", kind: "book" }
+  - { title: "The Logic of Chemical Synthesis (Corey & Cheng)", kind: "book" }
+status: stable

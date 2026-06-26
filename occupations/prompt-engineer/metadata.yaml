@@ -1,0 +1,56 @@
+title: Prompt Engineer
+slug: prompt-engineer
+aliases:
+  - LLM Engineer
+  - AI Interaction Designer
+  - Context Engineer
+category: Emerging
+tags:
+  - prompting
+  - llm
+  - evals
+  - context-engineering
+  - rag
+difficulty: intermediate
+summary: >-
+  Turns a stochastic black-box model into a reliable system component, steering output across the
+  real input distribution and proving it with evals, not vibes.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: software-engineer
+    type: adjacent
+    note: builds the systems prompts live inside and consumes their structured output
+  - slug: machine-learning-engineer
+    type: prerequisite
+    note: owns the training and fine-tuning prompting stops short of
+  - slug: ai-safety-researcher
+    type: collaboration
+    note: studies the robustness and injection failures prompt engineers hit daily
+  - slug: data-scientist
+    type: related
+    note: shares measuring system behavior over a distribution
+  - slug: technical-writer
+    type: adjacent
+    note: shares writing precise instructions for a literal-minded audience
+  - slug: ux-designer
+    type: collaboration
+    note: shapes the conversational experience the prompt produces
+specializations:
+  - RAG Pipeline Engineer
+  - LLM Evals Specialist
+  - AI Agent Engineer
+country_variants: []
+sources:
+  - title: Prompt Engineering Guide (DAIR.AI)
+    url: https://www.promptingguide.ai/
+    kind: standard
+  - title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+    url: https://arxiv.org/abs/2201.11903
+    kind: article
+  - title: OWASP Top 10 for LLM Applications
+    kind: standard
+status: stable

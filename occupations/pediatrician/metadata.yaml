@@ -1,0 +1,54 @@
+title: Pediatrician
+slug: pediatrician
+aliases:
+  - Paediatrician
+  - Children's Doctor
+  - Child Health Physician
+category: Healthcare
+tags:
+  - pediatrics
+  - child-health
+  - development
+  - preventive-care
+  - healthcare
+difficulty: expert
+summary: >-
+  Keeps each child growing, developing, and safe, catching the dangerous illness early in a patient
+  who cannot describe it and treating the whole family around them.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: physician
+    type: specialization
+    note: shares diagnostic discipline but treats patients who can describe their symptoms
+  - slug: registered-nurse
+    type: collaboration
+    note: partner in vaccination, triage, and the longitudinal relationship
+  - slug: emergency-physician
+    type: collaboration
+    note: takes over the acutely crashing child
+  - slug: midwife
+    type: adjacent
+    note: precedes the pediatrician, caring for the newborn at birth
+  - slug: psychiatrist
+    type: collaboration
+    note: collaborates on developmental and behavioral conditions of childhood
+specializations:
+  - Neonatologist
+  - Pediatric Cardiologist
+  - Developmental Pediatrician
+  - Pediatric Emergency Physician
+country_variants:
+  - region: Paediatrician (UK/Commonwealth)
+    note: Paediatrician (UK/Commonwealth)
+sources:
+  - title: Nelson Textbook of Pediatrics
+    kind: book
+  - title: AAP Bright Futures Guidelines
+    kind: standard
+  - title: Pediatric Advanced Life Support (PALS)
+    kind: standard
+status: stable

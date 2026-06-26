@@ -1,0 +1,24 @@
+title: "Biologist"
+slug: "biologist"
+aliases: ["life scientist", "biological scientist", "molecular biologist"]
+category: "Science"
+tags: ["biology", "experimental-design", "evolution", "replication", "model-organisms"]
+difficulty: "expert"
+summary: "How an excellent biologist thinks: designing controlled, replicated studies that find signal in living variability and reading every result through the logic of evolution."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "research-scientist", type: "prerequisite", note: "The general scientific method the biologist specializes" }
+  - { slug: "bioinformatics-scientist", type: "collaboration", note: "Brings computation and statistics to molecular data at scale" }
+  - { slug: "neuroscientist", type: "specialization", note: "A biologist focused on nervous systems" }
+  - { slug: "veterinarian", type: "adjacent", note: "Applies biology to animal health and stewards research animals" }
+  - { slug: "agronomist", type: "related", note: "Applies biological knowledge to crops and breeding" }
+  - { slug: "physician", type: "progression", note: "Applies biology to the care of human patients" }
+specializations: ["molecular biologist", "ecologist", "geneticist", "microbiologist"]
+country_variants: []
+sources:
+  - { title: "Molecular Biology of the Cell (Alberts et al.)", kind: "book" }
+  - { title: "Experimental Design for Biologists (David J. Glass)", kind: "book" }
+status: stable

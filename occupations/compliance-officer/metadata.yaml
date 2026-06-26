@@ -1,0 +1,40 @@
+title: "Compliance Officer"
+slug: "compliance-officer"
+aliases:
+  - "Chief Compliance Officer"
+  - "CCO"
+  - "Regulatory Compliance Officer"
+category: "Law"
+tags:
+  - "compliance"
+  - "regulatory-risk"
+  - "aml"
+  - "governance"
+  - "ethics"
+difficulty: "advanced"
+summary: "How a master compliance officer thinks risk-based, reasoning from the spirit of a rule and from defensibility, balancing the brake against business velocity."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+specializations:
+  - "AML / Financial Crime"
+  - "Anti-Bribery & Corruption"
+  - "Market Conduct & Surveillance"
+country_variants: []
+sources:
+  - title: "DOJ Evaluation of Corporate Compliance Programs"
+    kind: "standard"
+  - title: "FATF Recommendations on AML/CFT"
+    kind: "standard"
+  - title: "The IIA Three Lines Model"
+    kind: "standard"
+status: "stable"
+related:
+  - { slug: "lawyer", type: "collaboration", note: "interprets the regulations and defends the firm where compliance advises and prevents" }
+  - { slug: "auditor", type: "adjacent", note: "tests controls against a standard; compliance designs and runs them day to day" }
+  - { slug: "trader", type: "collaboration", note: "front-office activity compliance monitors for market abuse and best execution" }
+  - { slug: "accountant", type: "related", note: "shares the documentation-as-evidence discipline on the financial-reporting side" }
+  - { slug: "operations-manager", type: "collaboration", note: "owns the processes compliance embeds controls into without halting the business" }
+  - { slug: "investment-banker", type: "collaboration", note: "deal flow compliance screens for conflicts, insider information, and Chinese walls" }

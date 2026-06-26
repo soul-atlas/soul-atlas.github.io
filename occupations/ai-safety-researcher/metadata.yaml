@@ -1,0 +1,55 @@
+title: AI Safety Researcher
+slug: ai-safety-researcher
+aliases:
+  - AI Alignment Researcher
+  - ML Safety Researcher
+  - Alignment Scientist
+category: Emerging
+tags:
+  - ai-safety
+  - alignment
+  - interpretability
+  - evals
+  - red-teaming
+difficulty: expert
+summary: >-
+  Closes the gap between what we tell AI systems to do and what we want, reasoning under deep
+  uncertainty about failures that have not happened yet.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: machine-learning-engineer
+    type: prerequisite
+    note: builds and trains the models safety researchers probe and constrain
+  - slug: research-scientist
+    type: related
+    note: shares experimental method and calibrated peer-reviewed claims
+  - slug: security-engineer
+    type: adjacent
+    note: shares the adversarial mindset applied to learned systems
+  - slug: prompt-engineer
+    type: collaboration
+    note: works the same model surface and surfaces robustness failures
+  - slug: policy-analyst
+    type: collaboration
+    note: translates technical risk findings into governance and deployment rules
+  - slug: data-scientist
+    type: adjacent
+    note: shares reasoning in distributions and uncertainty
+specializations:
+  - Interpretability Researcher
+  - Evals / Red-Team Researcher
+  - Scalable Oversight Researcher
+country_variants: []
+sources:
+  - title: Concrete Problems in AI Safety
+    url: https://arxiv.org/abs/1606.06565
+    kind: article
+  - title: Superintelligence
+    kind: book
+  - title: The Alignment Problem
+    kind: book
+status: stable

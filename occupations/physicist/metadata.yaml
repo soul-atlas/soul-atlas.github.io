@@ -1,0 +1,24 @@
+title: "Physicist"
+slug: "physicist"
+aliases: ["physical scientist", "experimental physicist", "theoretical physicist"]
+category: "Science"
+tags: ["physics", "experimental-design", "uncertainty-quantification", "modeling", "measurement"]
+difficulty: "expert"
+summary: "How an excellent physicist thinks: reducing nature to predictive models, checking units and limits, and quoting every result with an honest error bar."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "research-scientist", type: "prerequisite", note: "The general scientific method the physicist specializes" }
+  - { slug: "mathematician", type: "adjacent", note: "Supplies the formal structures physics borrows and tests" }
+  - { slug: "astronomer", type: "specialization", note: "Physics applied to objects that cannot enter the lab" }
+  - { slug: "quantum-engineer", type: "collaboration", note: "Turns quantum theory into working devices" }
+  - { slug: "electrical-engineer", type: "related", note: "Applies physical law to building reliable hardware" }
+  - { slug: "data-scientist", type: "related", note: "Shares statistical inference and uncertainty reasoning" }
+specializations: ["experimental physicist", "theoretical physicist", "condensed matter physicist", "particle physicist"]
+country_variants: []
+sources:
+  - { title: "The Feynman Lectures on Physics", kind: "book" }
+  - { title: "Data Reduction and Error Analysis for the Physical Sciences (Bevington & Robinson)", kind: "book" }
+status: stable

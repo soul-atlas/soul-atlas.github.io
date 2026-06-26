@@ -1,0 +1,24 @@
+title: "Neuroscientist"
+slug: "neuroscientist"
+aliases: ["brain scientist", "systems neuroscientist", "cognitive neuroscientist", "neurobiologist"]
+category: "Science"
+tags: ["neuroscience", "brain", "causal-inference", "neuroimaging", "electrophysiology"]
+difficulty: expert
+summary: "Thinks in levels of analysis and earns causal claims about the brain through perturbation, treating every measurement as a proxy and every correlation as a suspect."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "research-scientist", type: "prerequisite", note: "the general hypothesis-driven discipline the neuroscientist specializes" }
+  - { slug: "biologist", type: "related", note: "shares the molecular and cellular toolkit circuits are built from" }
+  - { slug: "psychiatrist", type: "collaboration", note: "applies circuit understanding to mental illness in patients" }
+  - { slug: "data-scientist", type: "adjacent", note: "shares high-dimensional decoding and statistical methods" }
+  - { slug: "machine-learning-engineer", type: "adjacent", note: "shares population modeling and decoding approaches" }
+  - { slug: "bioinformatics-scientist", type: "related", note: "handles the genomic and large-scale data side of modern neuroscience" }
+specializations: ["systems neuroscience", "cognitive neuroscience", "computational neuroscience", "molecular neuroscience"]
+country_variants: []
+sources:
+  - { title: "Principles of Neural Science (Kandel, Schwartz & Jessell)", kind: "book" }
+  - { title: "Vision (David Marr)", kind: "book" }
+status: stable

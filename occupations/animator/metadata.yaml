@@ -1,0 +1,24 @@
+title: "Animator"
+slug: "animator"
+aliases: ["character animator", "motion artist", "3d animator", "keyframe animator"]
+category: "Creative"
+tags: ["animation", "character-performance", "timing-and-spacing", "12-principles", "motion"]
+difficulty: "expert"
+summary: "How an animator thinks in poses, weight, and timing to perform the illusion of life rather than merely move drawings."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "game-developer", type: "collaboration", note: "builds the engines and blend systems animation cycles run inside" }
+  - { slug: "film-director", type: "collaboration", note: "sets the performance and cutting intent the animator serves" }
+  - { slug: "graphic-designer", type: "adjacent", note: "shared craft of silhouette, negative space, and appeal" }
+  - { slug: "musician", type: "related", note: "both think in timing, accent, and rest" }
+  - { slug: "actor", type: "prerequisite", note: "acting and performance fundamentals underlie character animation" }
+  - { slug: "voice-actor", type: "collaboration", note: "supplies the dialogue performance the animator interprets" }
+specializations: ["character-animator", "2d-animator", "creature-tech-animator", "motion-graphics-animator"]
+country_variants: []
+sources:
+  - { title: "The Illusion of Life: Disney Animation (Thomas & Johnston)", kind: "book" }
+  - { title: "The Animator's Survival Kit (Richard Williams)", kind: "book" }
+status: stable

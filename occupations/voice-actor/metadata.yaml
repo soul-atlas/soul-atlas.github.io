@@ -1,0 +1,39 @@
+title: "Voice Actor"
+slug: "voice-actor"
+aliases:
+  - "Voice-Over Artist"
+  - "Voice Talent"
+  - "VO Artist"
+  - "Dubbing Artist"
+category: "Entertainment"
+tags:
+  - voice-over
+  - acting
+  - audio
+  - performance
+  - microphone
+difficulty: advanced
+summary: "Acts with the voice alone, reading intention off the page and putting all character and physicality into sound, clean enough to edit and repeatable across sessions."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "actor", type: "related", note: "shares the core craft of intention and direction, minus face and body" }
+  - { slug: "sound-engineer", type: "collaboration", note: "turns the performance into a clean, usable signal" }
+  - { slug: "animator", type: "adjacent", note: "supplies the body and timing the voice must match" }
+  - { slug: "film-editor", type: "collaboration", note: "cuts the takes; depends on clean breaths and consistent levels" }
+  - { slug: "musician", type: "adjacent", note: "shares the discipline of an instrument needing warmup and lifelong care" }
+  - { slug: "broadcast-journalist", type: "adjacent", note: "works the same microphone and conversational baseline" }
+specializations:
+  - "Animation Voice Actor"
+  - "Audiobook Narrator"
+  - "Commercial Voice-Over Artist"
+  - "ADR / Dubbing Artist"
+country_variants: []
+sources:
+  - { title: "Word of Mouth", kind: "book" }
+  - { title: "There's Money Where Your Mouth Is", kind: "book" }
+  - { title: "The Art of Voice Acting", kind: "book" }
+status: stable

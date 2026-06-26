@@ -1,0 +1,37 @@
+title: "Machinist"
+slug: "machinist"
+aliases:
+  - "CNC Machinist"
+  - "Tool and Die Maker"
+  - "Precision Machinist"
+category: "Skilled Trades"
+tags:
+  - machining
+  - cnc
+  - metalworking
+  - tolerances
+  - manufacturing
+difficulty: advanced
+summary: "Turns drawings into metal parts within thousandths of an inch by controlling cutting, rigidity, and measurement, protecting the irreversible final dimension and proving conformance."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "mechanical-engineer", type: "collaboration", note: "supplies the drawings and tolerances the machinist holds and questions" }
+  - { slug: "welder", type: "collaboration", note: "joins parts the machinist finishes to tolerance" }
+  - { slug: "industrial-designer", type: "related", note: "specifies the precision components the machinist produces" }
+  - { slug: "robotics-engineer", type: "related", note: "depends on machined parts for mechanisms" }
+  - { slug: "qa-engineer", type: "adjacent", note: "shares the measure-and-verify discipline of conformance" }
+specializations:
+  - "CNC Programmer"
+  - "Tool and Die Maker"
+  - "Mold Maker"
+  - "Manual Machinist"
+country_variants: []
+sources:
+  - { title: "Machinery's Handbook", kind: "book" }
+  - { title: "ASME Y14.5 Dimensioning and Tolerancing", kind: "standard" }
+  - { title: "Technology of Machine Tools", kind: "book" }
+status: stable

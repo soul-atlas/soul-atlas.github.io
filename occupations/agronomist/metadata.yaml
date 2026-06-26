@@ -1,0 +1,36 @@
+title: "Agronomist"
+slug: "agronomist"
+aliases:
+  - "Crop Consultant"
+  - "Crop Adviser"
+  - "Certified Crop Adviser"
+category: "Agriculture"
+tags:
+  - agronomy
+  - soil
+  - crops
+  - nutrients
+  - agriculture
+difficulty: advanced
+summary: "Reads the soil-plant-climate system to find each field's limiting factor and prescribe the input that pays, while protecting the soil and water the crop depends on."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "farmer", type: "collaboration", note: "executes and bears the financial risk of the agronomist's recommendations" }
+  - { slug: "viticulturist", type: "adjacent", note: "applies the same soil-plant-climate reasoning to a perennial crop for quality" }
+  - { slug: "biologist", type: "related", note: "supplies the plant and soil science the agronomist applies in the field" }
+  - { slug: "environmental-engineer", type: "adjacent", note: "shares the nutrient-runoff and water-quality problem from the engineering side" }
+  - { slug: "sustainability-manager", type: "related", note: "overlaps on stewardship of soil and watershed resources" }
+specializations:
+  - "Soil Fertility Specialist"
+  - "Precision Agriculture Specialist"
+  - "Crop Protection / IPM Specialist"
+country_variants: []
+sources:
+  - { title: "Soil Fertility and Fertilizers", kind: "book" }
+  - { title: "Modern Corn and Soybean Production", kind: "book" }
+  - { title: "4R Nutrient Stewardship", kind: "standard" }
+status: stable

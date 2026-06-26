@@ -1,0 +1,36 @@
+title: "Aerospace Engineer"
+slug: "aerospace-engineer"
+aliases:
+  - "Aeronautical Engineer"
+  - "Astronautical Engineer"
+  - "Flight Systems Engineer"
+category: "Engineering"
+tags:
+  - aerodynamics
+  - flight-structures
+  - propulsion
+  - mass-budget
+  - certification
+difficulty: expert
+summary: "Designs flight vehicles to meet mission requirements at minimum mass with certified margins, redundancy where failure is fatal, and verification by test."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "mechanical-engineer", type: "prerequisite", note: "the broader machine-design discipline aerospace specializes from" }
+  - { slug: "structural-engineer", type: "adjacent", note: "shares load and margin philosophy for structures" }
+  - { slug: "electrical-engineer", type: "collaboration", note: "designs avionics and power systems aboard" }
+  - { slug: "robotics-engineer", type: "related", note: "shares control, sensing, and autonomy for vehicles" }
+  - { slug: "commercial-pilot", type: "adjacent", note: "operates the flight envelope the engineer designs to" }
+specializations:
+  - "Aerodynamicist"
+  - "Propulsion Engineer"
+  - "GNC Engineer"
+  - "Spacecraft Systems Engineer"
+country_variants: []
+sources:
+  - { title: "Aircraft Design: A Conceptual Approach", kind: "book" }
+  - { title: "Fundamentals of Aerodynamics", kind: "book" }
+status: stable

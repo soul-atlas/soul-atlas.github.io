@@ -1,0 +1,37 @@
+title: "Automotive Mechanic"
+slug: "auto-mechanic"
+aliases:
+  - "Auto Technician"
+  - "Car Mechanic"
+  - "Service Technician"
+category: "Skilled Trades"
+tags:
+  - automotive
+  - diagnostics
+  - repair
+  - vehicles
+  - mechanical
+difficulty: advanced
+summary: "Finds the actual cause of a vehicle fault before replacing anything, fixing the root not the symptom, and never returns a car to the road with a safety defect."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "machinist", type: "related", note: "makes and machines the precision parts the mechanic installs" }
+  - { slug: "hvac-technician", type: "adjacent", note: "shares the diagnose-the-system-not-the-part discipline" }
+  - { slug: "welder", type: "collaboration", note: "repairs structural and exhaust metal beyond bolt-on work" }
+  - { slug: "mechanical-engineer", type: "related", note: "designs the systems the mechanic reverse-engineers a failure in" }
+  - { slug: "heavy-equipment-operator", type: "adjacent", note: "runs machines kept running by the same diagnostic craft" }
+specializations:
+  - "Diagnostic Technician"
+  - "Diesel Mechanic"
+  - "Transmission Specialist"
+  - "EV/Hybrid Technician"
+country_variants: []
+sources:
+  - { title: "Automotive Technology: A Systems Approach", kind: "book" }
+  - { title: "ASE Certification Standards", kind: "standard" }
+  - { title: "Bosch Automotive Handbook", kind: "book" }
+status: stable

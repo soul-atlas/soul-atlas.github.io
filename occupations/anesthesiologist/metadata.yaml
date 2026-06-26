@@ -1,0 +1,54 @@
+title: Anesthesiologist
+slug: anesthesiologist
+aliases:
+  - Anaesthetist
+  - Anesthesia Physician
+  - Anesthetist
+category: Healthcare
+tags:
+  - anesthesia
+  - perioperative-care
+  - physiology
+  - airway-management
+  - healthcare
+difficulty: expert
+summary: >-
+  Runs a patient's breathing, blood pressure, and consciousness by hand through a procedure that
+  would otherwise be impossible, anticipating each physiologic insult before it harms.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: surgeon
+    type: collaboration
+    note: inseparable partner; the two run the operative case together
+  - slug: emergency-physician
+    type: adjacent
+    note: shares airway and resuscitation skills under less control
+  - slug: physician
+    type: specialization
+    note: a physician specialized in perioperative physiology
+  - slug: registered-nurse
+    type: collaboration
+    note: partner in OR and PACU monitoring and recovery
+  - slug: pharmacist
+    type: related
+    note: shares deep concern with drug dosing and interactions
+specializations:
+  - Cardiac Anesthesiologist
+  - Pediatric Anesthesiologist
+  - Obstetric Anesthesiologist
+  - Pain Medicine Physician
+country_variants:
+  - region: Anaesthetist (UK/Commonwealth)
+    note: Anaesthetist (UK/Commonwealth)
+sources:
+  - title: Miller's Anesthesia
+    kind: book
+  - title: Morgan & Mikhail's Clinical Anesthesiology
+    kind: book
+  - title: ASA Difficult Airway Algorithm
+    kind: standard
+status: stable

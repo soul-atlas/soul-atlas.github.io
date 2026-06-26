@@ -1,0 +1,57 @@
+title: Truck Driver
+slug: truck-driver
+aliases:
+  - Trucker
+  - CDL Driver
+  - Commercial Truck Driver
+  - Long-Haul Driver
+category: Transportation
+tags:
+  - trucking
+  - driving
+  - freight
+  - logistics
+  - safety
+difficulty: intermediate
+summary: >-
+  Manages space, time, and visibility around 80,000 pounds that physics won't let stop quickly,
+  banking margin before it's needed and refusing the run that can't be done legally.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: train-conductor
+    type: adjacent
+    note: moves far larger tonnage with longer stopping distances, but as a crew under signals
+  - slug: logistics-coordinator
+    type: collaboration
+    note: sets the loads, lanes, and appointment times the driver executes
+  - slug: heavy-equipment-operator
+    type: related
+    note: shares the feel for a heavy machine's mass and blind spots
+  - slug: auto-mechanic
+    type: collaboration
+    note: keeps the equipment legal and safe to roll
+  - slug: supply-chain-manager
+    type: related
+    note: owns the freight flow the driver is the last leg of
+  - slug: ship-captain
+    type: adjacent
+    note: another mover of cargo bound by momentum and long stopping distance
+specializations:
+  - Long-Haul / OTR Driver
+  - Tanker Driver
+  - Flatbed Driver
+  - Local Delivery Driver
+country_variants: []
+sources:
+  - title: FMCSA Federal Motor Carrier Safety Regulations
+    url: https://www.fmcsa.dot.gov/regulations
+    kind: standard
+  - title: AAMVA Commercial Driver's License Manual
+    kind: other
+  - title: The Smith System Defensive Driving
+    kind: course
+status: stable

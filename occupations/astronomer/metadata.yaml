@@ -1,0 +1,38 @@
+title: "Astronomer"
+slug: "astronomer"
+aliases:
+  - "Astrophysicist"
+  - "Observational Astronomer"
+  - "Stargazer"
+category: "Science"
+tags:
+  - astronomy
+  - observation
+  - spectroscopy
+  - signal-to-noise
+  - cosmology
+difficulty: expert
+summary: "Infers the nature of objects that can never be touched or experimented on from the light they emit, wringing reliable signal from noise and reasoning from biased samples to robust truth."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "research-scientist", type: "progression", note: "the general inferential discipline this field specializes" }
+  - { slug: "physicist", type: "prerequisite", note: "supplies the radiative, gravitational, and nuclear theory under test" }
+  - { slug: "data-scientist", type: "related", note: "shares inference from large, noisy, biased samples" }
+  - { slug: "climate-scientist", type: "adjacent", note: "shares constraining an un-rerunnable system with models and observation" }
+  - { slug: "aerospace-engineer", type: "collaboration", note: "builds the spacecraft and instruments that carry telescopes above the atmosphere" }
+  - { slug: "mathematician", type: "prerequisite", note: "supplies the statistical inference and signal-processing foundations" }
+specializations:
+  - "Cosmologist"
+  - "Radio Astronomer"
+  - "Planetary Astronomer"
+  - "Stellar Astrophysicist"
+country_variants: []
+sources:
+  - { title: "An Introduction to Modern Astrophysics", kind: "book" }
+  - { title: "Statistics, Data Mining, and Machine Learning in Astronomy", kind: "book" }
+  - { title: "Astronomical Spectroscopy", kind: "book" }
+status: stable

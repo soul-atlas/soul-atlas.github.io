@@ -1,0 +1,36 @@
+title: "Infantry Officer"
+slug: "infantry-officer"
+aliases:
+  - "Platoon Leader"
+  - "Company Commander"
+  - "Combat Arms Officer"
+category: "Military"
+tags:
+  - military
+  - leadership
+  - infantry
+  - tactics
+  - command
+difficulty: advanced
+summary: "Turns a commander's intent into coordinated, lawful, lethal action under fire — deciding faster than the enemy while holding a frightened unit together and owning the moral weight of command."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "combat-medic", type: "collaboration", note: "shares the firefight and casualty-evacuation plan; preserves life rather than imposes force" }
+  - { slug: "military-intelligence-analyst", type: "collaboration", note: "supplies the enemy picture the officer fights on" }
+  - { slug: "logistics-officer", type: "adjacent", note: "determines how far and how long the infantry can fight" }
+  - { slug: "police-officer", type: "related", note: "shares the burden of lawful force and split-second judgment under scrutiny" }
+  - { slug: "cyber-warfare-specialist", type: "adjacent", note: "fights in a parallel domain of the same conflict" }
+specializations:
+  - "Airborne Infantry"
+  - "Mechanized Infantry"
+  - "Mountain/Light Infantry"
+  - "Special Operations"
+country_variants: []
+sources:
+  - { title: "On War", kind: "book" }
+  - { title: "Mission Command (ADP 6-0)", kind: "standard" }
+status: stable

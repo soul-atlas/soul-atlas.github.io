@@ -1,0 +1,37 @@
+title: "Radiologist"
+slug: "radiologist"
+aliases:
+  - "Diagnostic Radiologist"
+  - "Imaging Physician"
+  - "Radiology Consultant"
+category: "Healthcare"
+tags:
+  - radiology
+  - medical-imaging
+  - diagnosis
+  - image-interpretation
+  - healthcare
+difficulty: expert
+summary: "Turns shadows of tissue into a diagnosis that changes care, extracting maximum true information from an image while resisting both missing what is there and seeing what is not."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "physician", type: "specialization", note: "a physician specialized in image interpretation whom other physicians consult" }
+  - { slug: "surgeon", type: "collaboration", note: "depends on the radiologist for the preoperative map and intraoperative guidance" }
+  - { slug: "emergency-physician", type: "collaboration", note: "relies on rapid accurate reads for acute disposition" }
+  - { slug: "medical-laboratory-scientist", type: "adjacent", note: "provides the other half of diagnostic confirmation, in tissue and fluids" }
+  - { slug: "biomedical-engineer", type: "related", note: "designs and maintains the imaging technology radiologists depend on" }
+specializations:
+  - "Interventional Radiologist"
+  - "Neuroradiologist"
+  - "Musculoskeletal Radiologist"
+  - "Breast Imaging Radiologist"
+country_variants: []
+sources:
+  - { title: "Fundamentals of Diagnostic Radiology (Brant & Helms)", kind: "book" }
+  - { title: "ACR Appropriateness Criteria", kind: "standard" }
+  - { title: "Felson's Principles of Chest Roentgenology", kind: "book" }
+status: stable

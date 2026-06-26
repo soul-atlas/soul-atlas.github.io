@@ -1,0 +1,37 @@
+title: "Frontend Engineer"
+slug: "frontend-engineer"
+aliases:
+  - "Front-End Developer"
+  - "UI Engineer"
+  - "Client-Side Engineer"
+category: "Technology"
+tags:
+  - frontend
+  - web
+  - accessibility
+  - performance
+  - user-interface
+difficulty: advanced
+summary: "Thinks in render paths, state placement, and performance budgets; turns designs into fast, accessible interfaces that survive real content on the worst device and network."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "software-engineer", type: "specialization", note: "a software engineer specialized toward the client and the human in front of it" }
+  - { slug: "backend-engineer", type: "adjacent", note: "owns the other side of the API contract; the two negotiate response shapes" }
+  - { slug: "ux-designer", type: "collaboration", note: "hands off the intent the frontend makes real and operable" }
+  - { slug: "ux-researcher", type: "collaboration", note: "tests whether the built interface actually works for users" }
+  - { slug: "mobile-developer", type: "adjacent", note: "same client-side state and performance problems against native constraints" }
+  - { slug: "product-manager", type: "collaboration", note: "supplies the why and priorities the interface expresses" }
+specializations:
+  - "Design Systems Engineer"
+  - "Web Performance Engineer"
+  - "Accessibility Engineer"
+country_variants: []
+sources:
+  - { title: "Inclusive Components", kind: "book" }
+  - { title: "High Performance Browser Networking", kind: "book" }
+  - { title: "WCAG 2.2", url: "https://www.w3.org/TR/WCAG22/", kind: "standard" }
+status: stable

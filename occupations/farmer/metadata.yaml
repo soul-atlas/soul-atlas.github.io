@@ -1,0 +1,38 @@
+title: "Farmer"
+slug: "farmer"
+aliases:
+  - "Grower"
+  - "Crop Producer"
+  - "Agricultural Producer"
+  - "Rancher"
+category: "Agriculture"
+tags:
+  - agriculture
+  - farming
+  - agronomy
+  - soil-health
+  - crop-production
+difficulty: advanced
+summary: "Turns soil, seed, weather, and borrowed capital into a profitable crop on a fixed annual clock, managing a biological system against forces nobody controls while protecting the soil that feeds next year."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "agronomist", type: "collaboration", note: "the scientist the farmer consults on soil, varieties, and pests" }
+  - { slug: "viticulturist", type: "related", note: "applies the same stewardship to a perennial crop on a longer horizon" }
+  - { slug: "forester", type: "adjacent", note: "stewards a living crop over decades under the same weather risk" }
+  - { slug: "commercial-fisher", type: "adjacent", note: "harvests a wild crop under the same weather and price exposure" }
+  - { slug: "veterinarian", type: "collaboration", note: "keeps the livestock side of the operation healthy" }
+specializations:
+  - "Row-Crop Farmer"
+  - "Livestock Rancher"
+  - "Organic Farmer"
+  - "Dairy Farmer"
+country_variants: []
+sources:
+  - { title: "The Nature and Properties of Soils", kind: "book" }
+  - { title: "USDA Natural Resources Conservation Service", url: "https://www.nrcs.usda.gov/", kind: "standard" }
+  - { title: "Modern Corn and Soybean Production", kind: "book" }
+status: stable

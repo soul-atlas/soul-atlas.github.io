@@ -1,0 +1,36 @@
+title: "Coach"
+slug: "coach"
+aliases:
+  - "Head Coach"
+  - "Manager"
+  - "Trainer"
+category: "Sports"
+tags:
+  - sports
+  - leadership
+  - strategy
+  - development
+  - team
+difficulty: expert
+summary: "Gets the most out of the players and resources at hand by developing people, designing systems that fit them, and making the calls in the moments that decide games."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "athlete", type: "collaboration", note: "the instrument the coach develops and the partner whose trust must be earned" }
+  - { slug: "sports-analyst", type: "collaboration", note: "supplies the scouting and data the coach turns into a plan" }
+  - { slug: "athletic-trainer", type: "collaboration", note: "owns availability and return-to-play calls the coach works around" }
+  - { slug: "teacher", type: "adjacent", note: "shares people-development and the craft of designing transferable lessons" }
+  - { slug: "operations-manager", type: "adjacent", note: "leads people and allocates limited resources toward an outcome" }
+specializations:
+  - "Position Coach"
+  - "Strength and Conditioning Coach"
+  - "Youth Development Coach"
+country_variants: []
+sources:
+  - { title: "The Score Takes Care of Itself", kind: "book" }
+  - { title: "Legacy", kind: "book" }
+  - { title: "Inverting the Pyramid", kind: "book" }
+status: stable

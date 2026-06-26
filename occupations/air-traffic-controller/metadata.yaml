@@ -1,0 +1,36 @@
+title: "Air Traffic Controller"
+slug: "air-traffic-controller"
+aliases:
+  - "ATC"
+  - "Air Traffic Control Officer"
+  - "Tower Controller"
+category: "Transportation"
+tags:
+  - aviation
+  - safety-critical
+  - separation
+  - real-time
+  - airspace
+difficulty: expert
+summary: "Holds a live 3-D mental model of all traffic, projects trajectories minutes ahead, and resolves conflicts early to keep aircraft separated by the required minima."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "commercial-pilot", type: "collaboration", note: "partner on the frequency; holds final authority for the flight" }
+  - { slug: "drone-pilot", type: "adjacent", note: "shares the lower airspace and the integration problem" }
+  - { slug: "aerospace-engineer", type: "related", note: "designs the aircraft and surveillance systems ATC relies on" }
+  - { slug: "logistics-coordinator", type: "adjacent", note: "same scheduling-under-constraint problem on the ground" }
+  - { slug: "ship-captain", type: "related", note: "another safety-critical role applying right-of-way and separation rules" }
+specializations:
+  - "Tower / Local Controller"
+  - "Approach (TRACON) Controller"
+  - "En Route (ARTCC) Controller"
+country_variants: []
+sources:
+  - { title: "ICAO Doc 4444 (PANS-ATM)", kind: "standard" }
+  - { title: "FAA Order JO 7110.65 Air Traffic Control", kind: "standard" }
+  - { title: "The Field Guide to Understanding 'Human Error'", kind: "book" }
+status: stable

@@ -1,0 +1,38 @@
+title: "DevOps Engineer"
+slug: "devops-engineer"
+aliases:
+  - "Platform Engineer"
+  - "Release Engineer"
+  - "Build Engineer"
+  - "CI/CD Engineer"
+category: "Technology"
+tags:
+  - automation
+  - ci-cd
+  - infrastructure-as-code
+  - delivery
+  - platform
+difficulty: advanced
+summary: "Collapses the wall between building and running software: automates the path to production, treats infrastructure as code, and makes deploys fast, frequent, and boring."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "site-reliability-engineer", type: "related", note: "both automate the path to production; DevOps optimizes delivery flow" }
+  - { slug: "software-engineer", type: "adjacent", note: "specializes in the pipeline and platform rather than the product" }
+  - { slug: "systems-administrator", type: "progression", note: "the operational ancestor before infrastructure became code" }
+  - { slug: "cloud-architect", type: "collaboration", note: "designs the substrate the pipeline deploys onto" }
+  - { slug: "security-engineer", type: "collaboration", note: "folds scanning and secrets into the pipeline as DevSecOps" }
+specializations:
+  - "Platform Engineer"
+  - "Release Engineer"
+  - "Cloud Infrastructure Engineer"
+country_variants: []
+sources:
+  - { title: "The Phoenix Project", kind: "book" }
+  - { title: "The DevOps Handbook", kind: "book" }
+  - { title: "Accelerate", kind: "book" }
+  - { title: "Continuous Delivery", kind: "book" }
+status: stable

@@ -1,0 +1,24 @@
+title: "Project Manager"
+slug: "project-manager"
+aliases: ["PM", "Delivery Manager", "Program Coordinator", "Scrum Master"]
+category: "Business"
+tags: ["project-management", "scheduling", "risk-management", "stakeholders", "delivery"]
+difficulty: intermediate
+summary: "How an excellent project manager makes uncertainty and tradeoffs visible, manages the critical path, and reports honest status to deliver within scope, time, and cost."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "product-manager", type: "related", note: "Owns the what and the value while the PM owns the how and when" }
+  - { slug: "engineering-manager", type: "collaboration", note: "Owns the technical team executing the delivery" }
+  - { slug: "operations-manager", type: "adjacent", note: "Runs ongoing operations rather than bounded projects" }
+  - { slug: "management-consultant", type: "related", note: "Frequently acts as a PM on client engagements" }
+  - { slug: "civil-engineer", type: "collaboration", note: "Roles intertwine on construction and infrastructure projects" }
+  - { slug: "entrepreneur", type: "progression", note: "Delivery discipline scales into running a whole venture" }
+specializations: ["scrum-master", "program-manager", "technical-project-manager", "construction-project-manager"]
+country_variants: []
+sources:
+  - { title: "A Guide to the Project Management Body of Knowledge (PMBOK Guide), PMI", kind: "standard" }
+  - { title: "The Mythical Man-Month (Frederick Brooks)", kind: "book" }
+status: stable

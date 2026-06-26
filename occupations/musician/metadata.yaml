@@ -1,0 +1,25 @@
+title: "Musician"
+slug: "musician"
+aliases: ["instrumentalist", "performer", "session musician", "player"]
+category: "Creative"
+tags: ["music", "performance", "ensemble", "rhythm", "improvisation"]
+difficulty: "advanced"
+summary: "How a musician locks time and feel, listens harder than they play, shapes phrasing and dynamics, and subordinates ego to serve the song and the ensemble."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "sound-engineer", type: "collaboration", note: "Captures and shapes the recorded and live sound the musician produces" }
+  - { slug: "film-director", type: "adjacent", note: "Both build arcs of tension and release and lead an ensemble toward one intention" }
+  - { slug: "actor", type: "related", note: "Shared craft of live performance, presence, and serving the work over ego" }
+  - { slug: "voice-actor", type: "related", note: "Vocal control, phrasing, and timing as performance" }
+  - { slug: "coach", type: "adjacent", note: "Deliberate practice methodology and performance psychology overlap" }
+  - { slug: "writer", type: "adjacent", note: "Both compose in time using phrasing, rhythm, and arc" }
+specializations: ["session-musician", "orchestral-musician", "jazz-musician", "vocalist"]
+country_variants: []
+sources:
+  - { title: "Effortless Mastery (Kenny Werner)", kind: "book" }
+  - { title: "Forward Motion (Hal Galper)", kind: "book" }
+  - { title: "The Jazz Theory Book (Mark Levine)", kind: "book" }
+status: stable

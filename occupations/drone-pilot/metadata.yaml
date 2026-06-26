@@ -1,0 +1,39 @@
+title: "Drone Pilot"
+slug: "drone-pilot"
+aliases:
+  - "UAS Pilot"
+  - "Remote Pilot"
+  - "Unmanned Aircraft Operator"
+  - "sUAS Operator"
+category: "Emerging"
+tags:
+  - drones
+  - aviation
+  - uas
+  - aerial-imaging
+  - part-107
+difficulty: intermediate
+summary: "Extracts aerial value safely by managing risk before and during flight, treating the battery and airspace as hard limits and declining the mission when conditions or rules forbid it."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "commercial-pilot", type: "adjacent", note: "shares aeronautical decision-making and airspace discipline at crewed scale" }
+  - { slug: "photographer", type: "collaboration", note: "drone supplies aerial perspective for visual work" }
+  - { slug: "film-director", type: "collaboration", note: "directs aerial cinematography on set" }
+  - { slug: "robotics-engineer", type: "adjacent", note: "builds the autonomy and detect-and-avoid extending drones to BVLOS" }
+  - { slug: "civil-engineer", type: "related", note: "consumes drone survey and inspection data" }
+  - { slug: "agronomist", type: "related", note: "uses multispectral drone mapping for crop assessment" }
+specializations:
+  - "Aerial Cinematography Pilot"
+  - "Mapping and Survey Drone Pilot"
+  - "Inspection Drone Pilot"
+  - "Agricultural Drone Operator"
+country_variants: []
+sources:
+  - { title: "FAA Part 107 Small UAS Rule", kind: "standard" }
+  - { title: "FAA Pilot's Handbook of Aeronautical Knowledge", kind: "book" }
+  - { title: "The Complete Guide to Drones", kind: "book" }
+status: stable

@@ -1,0 +1,39 @@
+title: "Sustainability Manager"
+slug: "sustainability-manager"
+aliases:
+  - "ESG Manager"
+  - "Head of Sustainability"
+  - "Corporate Sustainability Lead"
+  - "ESG Director"
+category: "Emerging"
+tags:
+  - sustainability
+  - esg
+  - carbon-accounting
+  - climate
+  - corporate-strategy
+difficulty: advanced
+summary: "Turns a company's carbon, social, and environmental footprint into measured business risk and defensible claims, and drives change through functions it does not own."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "environmental-engineer", type: "adjacent", note: "supplies the abatement technology and LCA rigor the manager funds and defends" }
+  - { slug: "climate-scientist", type: "prerequisite", note: "provides the carbon budget and physical-risk scenarios targets must respect" }
+  - { slug: "supply-chain-manager", type: "collaboration", note: "owns the Scope 3 majority of the footprint" }
+  - { slug: "auditor", type: "related", note: "shares the obsession with evidence and assurance, applied to disclosures" }
+  - { slug: "compliance-officer", type: "related", note: "polices claims and maps the regulatory obligations" }
+  - { slug: "management-consultant", type: "adjacent", note: "designs strategies the manager must operationalize and live with" }
+specializations:
+  - "Carbon / GHG Accounting Manager"
+  - "ESG Reporting Manager"
+  - "Supply Chain Sustainability Manager"
+country_variants: []
+sources:
+  - { title: "GHG Protocol Corporate Accounting and Reporting Standard", kind: "standard" }
+  - { title: "Science Based Targets initiative (SBTi) Corporate Net-Zero Standard", kind: "standard" }
+  - { title: "GRI Standards", kind: "standard" }
+  - { title: "TCFD Recommendations", kind: "standard" }
+status: stable

@@ -1,0 +1,55 @@
+title: Emergency Physician
+slug: emergency-physician
+aliases:
+  - ER Doctor
+  - Emergency Medicine Physician
+  - A&E Doctor
+  - Emergentologist
+category: Healthcare
+tags:
+  - emergency-medicine
+  - acute-care
+  - triage
+  - resuscitation
+  - healthcare
+difficulty: expert
+summary: >-
+  Rapidly identifies and treats immediate threats to life in undifferentiated patients, then
+  dispositions them safely, acting decisively without ever needing a final diagnosis.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: paramedic
+    type: collaboration
+    note: pre-hospital extension that begins resuscitation and hands over the field story
+  - slug: physician
+    type: specialization
+    note: shares diagnostic discipline but without time and a narrowed problem
+  - slug: registered-nurse
+    type: collaboration
+    note: co-pilot in triage and resuscitation
+  - slug: surgeon
+    type: collaboration
+    note: takes over trauma and the acute abdomen once stabilized
+  - slug: anesthesiologist
+    type: adjacent
+    note: shares airway and resuscitation skills in a more controlled setting
+specializations:
+  - Trauma and Resuscitation
+  - Pediatric Emergency Medicine
+  - Pre-hospital and Retrieval Medicine
+  - Toxicology
+country_variants:
+  - region: A&E Consultant (UK)
+    note: A&E Consultant (UK)
+sources:
+  - title: 'Rosen''s Emergency Medicine: Concepts and Clinical Practice'
+    kind: book
+  - title: Tintinalli's Emergency Medicine
+    kind: book
+  - title: Advanced Cardiovascular Life Support (ACLS)
+    kind: standard
+status: stable

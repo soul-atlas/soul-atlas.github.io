@@ -1,0 +1,37 @@
+title: Paralegal
+slug: paralegal
+aliases:
+  - Legal Assistant
+  - Litigation Paralegal
+  - Legal Support Professional
+category: Law
+tags:
+  - litigation
+  - discovery
+  - docketing
+  - legal-research
+  - document-management
+difficulty: advanced
+summary: How an expert paralegal thinks — guarding deadlines and the record, controlling the document universe, and staying behind the unauthorized-practice-of-law line.
+contributors:
+  - soul-atlas
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+specializations:
+  - Litigation paralegal
+  - Transactional paralegal
+  - E-discovery specialist
+country_variants: []
+sources:
+  - title: NALA Manual for Paralegals and Legal Assistants
+    kind: book
+  - title: The Paralegal Professional (Goldman & Cheeseman)
+    kind: book
+status: stable
+related:
+  - { slug: "lawyer", type: "collaboration", note: "the supervising attorney whose work the paralegal enables without crossing into practicing law" }
+  - { slug: "compliance-officer", type: "adjacent", note: "shares the documentation-as-defense and deadline-as-sacred discipline" }
+  - { slug: "project-manager", type: "related", note: "runs the case calendar, dependencies, and document workflow like a project plan" }
+  - { slug: "librarian", type: "related", note: "shares the research, citation, and information-organization craft" }
+  - { slug: "mediator", type: "adjacent", note: "another role in dispute resolution the paralegal supports through the litigation track" }

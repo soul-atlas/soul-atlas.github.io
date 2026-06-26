@@ -1,0 +1,38 @@
+title: "Parent"
+slug: "parent"
+aliases:
+  - "Mother"
+  - "Father"
+  - "Mom"
+  - "Dad"
+category: "Life Roles"
+tags:
+  - parenting
+  - child-development
+  - attachment
+  - family
+  - caregiving
+difficulty: advanced
+summary: "Thinks in the long game of raising a child toward independence — building security and judgment while steadily working themselves out of a job."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "caregiver", type: "adjacent", note: "same protective, dignity-preserving craft aimed at declining rather than growing independence" }
+  - { slug: "teacher", type: "collaboration", note: "co-educator who leans on the security a parent builds" }
+  - { slug: "mentor", type: "related", note: "developmental one-to-one guidance without the unconditional bond" }
+  - { slug: "school-counselor", type: "collaboration", note: "handles emotional barriers a parent is too close to see" }
+  - { slug: "pediatrician", type: "collaboration", note: "partners on the child's physical and developmental health" }
+  - { slug: "coach", type: "adjacent", note: "shapes capability and character through challenge and feedback" }
+specializations:
+  - "Single Parent"
+  - "Foster Parent"
+  - "Stepparent"
+country_variants: []
+sources:
+  - { title: "A Secure Base", kind: "book" }
+  - { title: "The Whole-Brain Child", kind: "book" }
+  - { title: "Childhood and Society", kind: "book" }
+status: stable

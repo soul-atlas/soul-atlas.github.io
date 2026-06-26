@@ -1,0 +1,39 @@
+title: "Sports Analyst"
+slug: "sports-analyst"
+aliases:
+  - "Performance Analyst"
+  - "Sports Data Analyst"
+  - "Sabermetrician"
+category: "Sports"
+tags:
+  - sports-analytics
+  - performance-analysis
+  - expected-value
+  - scouting
+  - statistics
+difficulty: advanced
+summary: "Separates skill from luck and signal from noise in competition, then distills it into one actionable insight a coach will use, with the uncertainty stated."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "data-scientist", type: "adjacent", note: "shares distributional, uncertainty-first reasoning but under a coach's time pressure" }
+  - { slug: "coach", type: "collaboration", note: "owns the decision the analysis is meant to inform" }
+  - { slug: "athlete", type: "related", note: "the subject the numbers describe and increasingly a consumer of them" }
+  - { slug: "data-engineer", type: "prerequisite", note: "maintains the clean data pipelines analysis depends on" }
+  - { slug: "broadcast-journalist", type: "adjacent", note: "turns the same numbers into a public story" }
+  - { slug: "financial-analyst", type: "related", note: "also prices uncertainty and fights regression to the mean for a decision-maker" }
+specializations:
+  - "Recruitment / Scouting Analyst"
+  - "Tactical / Opposition Analyst"
+  - "Broadcast Analyst"
+  - "Sabermetrician"
+country_variants: []
+sources:
+  - { title: "Moneyball", kind: "book" }
+  - { title: "The Numbers Game", kind: "book" }
+  - { title: "Basketball on Paper", kind: "book" }
+  - { title: "The Signal and the Noise", kind: "book" }
+status: stable

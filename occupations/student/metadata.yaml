@@ -1,0 +1,36 @@
+title: "Student"
+slug: "student"
+aliases:
+  - "Learner"
+  - "Pupil"
+  - "Self-directed Learner"
+category: "Life Roles"
+tags:
+  - learning
+  - metacognition
+  - study
+  - memory
+  - practice
+difficulty: advanced
+summary: "Treats their own mind as a system to manage — generating retrieval, embracing useful difficulty, and ruthlessly separating what they know from what merely feels familiar."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "teacher", type: "collaboration", note: "the complement; engineers learning in others where the student engineers it in themselves" }
+  - { slug: "mentor", type: "collaboration", note: "develops the student's judgment beyond any curriculum" }
+  - { slug: "professor", type: "related", note: "models the disciplinary frontier the advanced student climbs toward" }
+  - { slug: "parent", type: "prerequisite", note: "a child's first teacher; where lifelong learning habits are seeded" }
+  - { slug: "librarian", type: "adjacent", note: "equips the self-directed learner to find and trust sources" }
+specializations:
+  - "Autodidact"
+  - "Lifelong Learner"
+  - "Test-prep Student"
+country_variants: []
+sources:
+  - { title: "Make It Stick", kind: "book" }
+  - { title: "Peak", kind: "book" }
+  - { title: "Mindset", kind: "book" }
+status: stable

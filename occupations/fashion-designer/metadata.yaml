@@ -1,0 +1,24 @@
+title: "Fashion Designer"
+slug: "fashion-designer"
+aliases: ["apparel designer", "clothing designer", "couturier", "garment designer"]
+category: "Creative"
+tags: ["fashion", "silhouette", "draping", "fit", "collection-design"]
+difficulty: "expert"
+summary: "How a fashion designer thinks across cloth physics, the moving body, and social meaning to resolve silhouette, drape, and fit into a wearable collection."
+contributors: ["soul-atlas"]
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+related:
+  - { slug: "industrial-designer", type: "adjacent", note: "same triangle of form, function, and manufacture in different materials" }
+  - { slug: "graphic-designer", type: "related", note: "shared language of proportion, color, and composition" }
+  - { slug: "architect", type: "related", note: "structure, material drape, and the body moving through space" }
+  - { slug: "photographer", type: "collaboration", note: "translates garments into the images that sell them" }
+  - { slug: "writer", type: "adjacent", note: "shaping a coherent narrative, as a collection holds one point of view" }
+  - { slug: "entrepreneur", type: "progression", note: "running a label means building and running a business" }
+specializations: ["couturier", "menswear-designer", "knitwear-designer", "technical-designer"]
+country_variants: []
+sources:
+  - { title: "Patternmaking for Fashion Design (Helen Joseph-Armstrong)", kind: "book" }
+  - { title: "The Art of Fashion Draping (Connie Amaden-Crawford)", kind: "book" }
+status: stable

@@ -1,0 +1,54 @@
+title: Machine Learning Engineer
+slug: machine-learning-engineer
+aliases:
+  - ML Engineer
+  - MLOps Engineer
+  - Applied ML Engineer
+category: Technology
+tags:
+  - machine-learning
+  - mlops
+  - model-serving
+  - pipelines
+  - production
+difficulty: advanced
+summary: >-
+  Treats a model as a perishable system, not a deliverable: versions everything, kills
+  training-serving skew, and watches for the silently-wrong prediction the world drifted into.
+contributors:
+  - soul-atlas
+last_reviewed: '2026-06-26'
+created: '2026-06-26'
+updated: '2026-06-26'
+related:
+  - slug: data-scientist
+    type: adjacent
+    note: prototypes the model and proves the signal; ML engineer makes it a reliable system
+  - slug: software-engineer
+    type: prerequisite
+    note: the engineering discipline applied to systems that learn and decay
+  - slug: data-engineer
+    type: collaboration
+    note: builds the feature and data pipelines ML serving depends on
+  - slug: site-reliability-engineer
+    type: adjacent
+    note: shares on-call and observability culture for the serving system
+  - slug: ai-safety-researcher
+    type: related
+    note: works the same models from alignment and evaluation angles
+  - slug: research-scientist
+    type: related
+    note: supplies the methods the field productionizes
+specializations:
+  - MLOps / ML Platform Engineer
+  - LLM / Inference Optimization Engineer
+  - Computer Vision Engineer
+country_variants: []
+sources:
+  - title: Designing Machine Learning Systems
+    kind: book
+  - title: Machine Learning Design Patterns
+    kind: book
+  - title: Hidden Technical Debt in Machine Learning Systems
+    kind: article
+status: stable

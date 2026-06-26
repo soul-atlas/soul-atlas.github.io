@@ -1,0 +1,37 @@
+title: "Prosecutor"
+slug: "prosecutor"
+aliases:
+  - "District Attorney"
+  - "Crown Prosecutor"
+  - "Assistant District Attorney"
+category: "Law"
+tags:
+  - "criminal-law"
+  - "prosecution"
+  - "litigation"
+  - "ethics"
+  - "justice"
+difficulty: "expert"
+summary: "How a prosecutor reasons: charge only on provable proof, carry the burden beyond a reasonable doubt, disclose exculpatory evidence, and seek justice over convictions."
+contributors:
+  - "soul-atlas"
+last_reviewed: "2026-06-26"
+created: "2026-06-26"
+updated: "2026-06-26"
+specializations:
+  - "homicide"
+  - "white-collar-crime"
+  - "appellate"
+country_variants: []
+sources:
+  - title: "ABA Criminal Justice Standards for the Prosecution Function"
+    kind: book
+  - title: "Berger v. United States, 295 U.S. 78 (1935)"
+    kind: book
+related:
+  - { slug: "lawyer", type: "adjacent", note: "the defense bar is the adversary; both are officers of the court" }
+  - { slug: "judge", type: "collaboration", note: "the prosecutor litigates within the rules a judge enforces and owes candor to" }
+  - { slug: "police-officer", type: "collaboration", note: "investigators build the case the prosecutor screens, guides, and checks" }
+  - { slug: "paralegal", type: "collaboration", note: "manages discovery, the record, and the disclosure obligations that protect convictions" }
+  - { slug: "social-worker", type: "related", note: "shapes just dispositions through diversion, victim support, and alternatives to prison" }
+status: "stable"
