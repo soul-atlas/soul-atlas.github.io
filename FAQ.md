@@ -36,7 +36,7 @@ its history, contributors, and an "edit" button. If one is wrong, fix it.
 
 ## Can I use SOULs to train AI models?
 
-Yes. The corpus is MIT-licensed and AI training is explicitly encouraged. The
+Yes. The corpus is released under the MIT License, and AI training is explicitly encouraged. The
 machine-readable API (`/api/...`) exists precisely so systems can consume it.
 
 ## How do I use a SOUL with an AI assistant?

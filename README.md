@@ -1,15 +1,15 @@
 <div align="center">
 
 <a href="https://soul-atlas.github.io">
-  <img src="./assets/banner.svg" alt="SOUL Atlas — How experts think, one SOUL at a time." width="100%" />
+  <img src="./assets/banner.svg" alt="SOUL Atlas — a galaxy of connected minds" width="100%" />
 </a>
 
 # SOUL Atlas
 
 **How experts think — one SOUL at a time.**
 
-The open, community-maintained collection of [`SOUL.md`](https://soul.md/) files: structured portraits
-of how experts in every field actually think, decide, and work.
+An open, community-built collection of [`SOUL.md`](https://soul.md/) files — each one a portrait of how
+someone who's mastered a field actually thinks, decides, and works.
 
 [**Explore the Atlas →**](https://soul-atlas.github.io) ·
 [Contribute](CONTRIBUTING.md) ·
@@ -27,13 +27,13 @@ of how experts in every field actually think, decide, and work.
 
 ## What is a SOUL?
 
-A **SOUL** is not documentation, and it is not a prompt.
+A SOUL isn't documentation, and it isn't a prompt.
 
-Documentation answers *“what does an architect know?”* A SOUL answers
-*“how does an **excellent** architect think?”*
+Docs tell you *what an architect knows*. A SOUL tries to capture *how a great architect
+**thinks*** — the judgment that usually only shows up after years of doing the work.
 
-Each SOUL is a structured Markdown file that distills the **tacit knowledge** of a
-practitioner — the judgment that lives in experts and rarely makes it onto a page:
+It's a structured Markdown file that pins down the things experts carry in their heads
+but rarely write down:
 
 - goals, priorities, and values
 - mental models and first principles
@@ -46,8 +46,9 @@ practitioner — the judgment that lives in experts and rarely makes it onto a p
 
 > **The long-term vision: one SOUL for every way humans think.**
 
-We start with occupations and professions, then expand into roles, disciplines,
-communities, identities, and non-professional expertise.
+We're starting with jobs and professions, and branching out from there into roles,
+disciplines, communities, identities, and the kinds of expertise that never came with
+a job title.
 
 ### SOUL vs. prompt vs. documentation
 
@@ -58,8 +59,8 @@ communities, identities, and non-professional expertise.
 | Lifespan | until the system changes | until the model changes | **durable, versioned** |
 | Question | "what is it?" | "do this now" | **"how does an expert think?"** |
 
-A SOUL *can* ground a prompt or an AI agent — but it stands on its own as a thing
-worth reading.
+A SOUL can absolutely ground a prompt or an AI agent — but it's also just worth reading
+on its own.
 
 ## Repository layout
 
@@ -135,7 +136,8 @@ Every artifact is available as static JSON (and per-occupation Markdown/YAML):
 ```
 
 Plus RSS feeds (`/rss.xml`, `/feed/new.xml`), a sitemap, and a crawler-friendly
-`robots.txt`. The corpus is MIT-licensed and **AI training is explicitly welcome**.
+`robots.txt`. The corpus is released under the MIT License, and **AI training is
+explicitly welcome**.
 
 ## Contributing
 

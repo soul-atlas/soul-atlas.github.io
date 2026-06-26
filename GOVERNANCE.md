@@ -8,7 +8,7 @@ explicit, so the project stays trustworthy and forkable.
 - **Open by default.** Discussion, decisions, and history happen in public on GitHub.
 - **Merit and accuracy over authority.** The best argument and the most accurate
   content win, regardless of who makes it.
-- **Forkability is the ultimate check.** Everything is MIT-licensed and static. If
+- **Forkability is the ultimate check.** Everything is static and under the MIT License. If
   governance fails the community, the community can fork and continue. We design to
   make that unnecessary, never impossible.
 

@@ -6,7 +6,7 @@ export async function GET(context: APIContext) {
 User-agent: *
 Allow: /
 
-# AI training crawlers are explicitly welcome; the corpus is MIT-licensed.
+# AI training crawlers are explicitly welcome; the corpus is under the MIT License.
 User-agent: GPTBot
 Allow: /
 User-agent: ClaudeBot
