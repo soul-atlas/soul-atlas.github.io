@@ -6,7 +6,7 @@
 
 # SOUL Atlas
 
-**How experts think — one SOUL at a time.**
+**A map of how the world thinks.**
 
 An open, community-built collection of [`SOUL.md`](https://soul.md/) files — each one a portrait of how
 someone who's mastered a field actually thinks, decides, and works.

@@ -4,7 +4,7 @@
 
 export const SITE = {
   name: 'SOUL Atlas',
-  tagline: 'How experts think — one SOUL at a time.',
+  tagline: 'A map of how the world thinks.',
   description:
     'The open, community-maintained collection of SOUL.md files: structured portraits of how experts in every field actually think, decide, and work.',
   githubRepo: import.meta.env.GITHUB_REPO || 'soul-atlas/soul-atlas.github.io',
