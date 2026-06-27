@@ -5,7 +5,7 @@ dist/
 # dependencies
 node_modules/
 
-# generated data (rebuilt from occupations/ on every build)
+# generated data (rebuilt from souls/ on every build)
 src/generated/
 public/api/
 public/pagefind/

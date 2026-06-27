@@ -76,7 +76,7 @@ export function reviewRecord(record) {
   const slugs = new Set(listSlugs());
 
   if (!record.slug || !slugs.has(record.slug)) {
-    errors.push(`Unknown SOUL slug \`${record.slug || '(missing)'}\` — no matching occupation.`);
+    errors.push(`Unknown SOUL slug \`${record.slug || '(missing)'}\` — no matching SOUL.`);
   }
   if (!record.section) {
     errors.push('No target section named — cannot auto-apply.');

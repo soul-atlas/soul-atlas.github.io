@@ -11,7 +11,7 @@ const slugs = souls.map((s) => s.slug);
     <div class="text-5xl">🎲</div>
     <h1 class="mt-4 text-2xl font-semibold" style="color:var(--ink)">Finding a mind for you…</h1>
     <p class="mt-2" style="color:var(--ink-soft)">
-      If you're not redirected, <a id="fallback" class="underline" href={url('/occupations')}
+      If you're not redirected, <a id="fallback" class="underline" href={url('/souls')}
         >browse the Atlas</a
       >.
     </p>
@@ -20,7 +20,7 @@ const slugs = souls.map((s) => s.slug);
     (function () {
       if (!slugs.length) return;
       const slug = slugs[Math.floor(Math.random() * slugs.length)];
-      location.replace(`${base.replace(/\/$/, '')}/occupations/${slug}`);
+      location.replace(`${base.replace(/\/$/, '')}/souls/${slug}`);
     })();
   </script>
 </Layout>

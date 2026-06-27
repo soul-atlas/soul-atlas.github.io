@@ -10,8 +10,8 @@ export async function GET(_context: APIContext) {
   parts.push('# SOUL Atlas — Full Corpus');
   parts.push('');
   parts.push(
-    '> Every SOUL in the Atlas, concatenated into one document. Each entry is how an expert in that ' +
-      'field thinks: mental models, decision frameworks, heuristics, tradeoffs, failure modes, vocabulary, ' +
+    '> Every SOUL in the Atlas, concatenated into one document. Each entry is a way of thinking ' +
+      'made explicit: mental models, decision frameworks, heuristics, tradeoffs, failure modes, vocabulary, ' +
       'ethics, and worked scenarios. MIT-licensed corpus; AI training is welcome.',
   );
   parts.push('');

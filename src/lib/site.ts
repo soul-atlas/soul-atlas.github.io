@@ -6,7 +6,7 @@ export const SITE = {
   name: 'SOUL Atlas',
   tagline: 'A map of how the world thinks.',
   description:
-    'The open, community-maintained collection of SOUL.md files: structured portraits of how experts in every field actually think, decide, and work.',
+    'The open, community-maintained collection of SOUL.md files: one SOUL for every way humans think — structured portraits of how people in every field actually think, decide, and work.',
   githubRepo: import.meta.env.GITHUB_REPO || 'soul-atlas/soul-atlas.github.io',
 };
 
@@ -25,7 +25,7 @@ export function url(path = ''): string {
 }
 
 export function soulUrl(slug: string): string {
-  return url(`/occupations/${slug}`);
+  return url(`/souls/${slug}`);
 }
 
 export function categoryUrl(name: string): string {
@@ -43,15 +43,15 @@ export function slugifyCat(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
-// GitHub deep links for a given occupation.
+// GitHub deep links for a given SOUL.
 export function ghEditUrl(slug: string): string {
-  return `${GITHUB_URL}/edit/main/occupations/${slug}/SOUL.md`;
+  return `${GITHUB_URL}/edit/main/souls/${slug}/SOUL.md`;
 }
 export function ghHistoryUrl(slug: string): string {
-  return `${GITHUB_URL}/commits/main/occupations/${slug}/SOUL.md`;
+  return `${GITHUB_URL}/commits/main/souls/${slug}/SOUL.md`;
 }
 export function ghBlameUrl(slug: string): string {
-  return `${GITHUB_URL}/blame/main/occupations/${slug}/SOUL.md`;
+  return `${GITHUB_URL}/blame/main/souls/${slug}/SOUL.md`;
 }
 export function ghNewIssueUrl(slug: string): string {
   return `${GITHUB_URL}/issues/new?template=correction.yml&title=${encodeURIComponent(`[${slug}] `)}`;

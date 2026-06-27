@@ -1,11 +1,11 @@
-// The corpus loader: the single source of truth that turns the occupations/
+// The corpus loader: the single source of truth that turns the souls/
 // directory into structured, computed records. Everything downstream (APIs,
 // graph, stats, website, search) is derived from what this returns.
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import yaml from 'js-yaml';
-import { OCCUPATIONS_DIR, SCHEMA_DIR, RELATIONSHIP_TYPES } from './paths.mjs';
+import { SOULS_DIR, SCHEMA_DIR, RELATIONSHIP_TYPES } from './paths.mjs';
 import { renderWithToc, countWords, readingTime } from './markdown.mjs';
 
 let _sections = null;
@@ -65,9 +65,9 @@ function parseMetadata(slug, dir) {
   return meta;
 }
 
-/** Read and fully process a single occupation directory. */
+/** Read and fully process a single SOUL directory. */
 export function loadSoul(slug) {
-  const dir = path.join(OCCUPATIONS_DIR, slug);
+  const dir = path.join(SOULS_DIR, slug);
   const soulPath = path.join(dir, 'SOUL.md');
   if (!fs.existsSync(soulPath)) throw new Error(`Missing SOUL.md for "${slug}"`);
 
@@ -126,14 +126,14 @@ export function loadSoul(slug) {
   };
 }
 
-/** List every occupation slug present on disk. */
+/** List every SOUL slug present on disk. */
 export function listSlugs() {
-  if (!fs.existsSync(OCCUPATIONS_DIR)) return [];
+  if (!fs.existsSync(SOULS_DIR)) return [];
   return fs
-    .readdirSync(OCCUPATIONS_DIR, { withFileTypes: true })
+    .readdirSync(SOULS_DIR, { withFileTypes: true })
     .filter((e) => e.isDirectory() && !e.name.startsWith('.'))
     .map((e) => e.name)
-    .filter((slug) => fs.existsSync(path.join(OCCUPATIONS_DIR, slug, 'SOUL.md')))
+    .filter((slug) => fs.existsSync(path.join(SOULS_DIR, slug, 'SOUL.md')))
     .sort();
 }
 
@@ -147,7 +147,7 @@ export function buildCorpus() {
   const bySlug = new Map(souls.map((s) => [s.slug, s]));
 
   // Build typed edges from metadata.related, deduplicating and dropping
-  // references to occupations that don't exist yet (tracked as danglers).
+  // references to SOULs that don't exist yet (tracked as danglers).
   const edges = [];
   const danglers = [];
   const seenEdge = new Set();

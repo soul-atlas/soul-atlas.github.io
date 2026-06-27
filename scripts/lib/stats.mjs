@@ -185,7 +185,7 @@ export function computeStats(corpus, gitBySlug = {}) {
   return {
     generatedFor: '2026-06-26',
     totals: {
-      occupations: total,
+      souls: total,
       edges: graph.edges.length,
       words: totalWords,
       categories: Object.keys(byCategory).length,

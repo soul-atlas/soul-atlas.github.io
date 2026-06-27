@@ -34,7 +34,7 @@ const requiredSections = spec.filter((s) => s.required);
 const slugs = listSlugs();
 
 if (slugs.length === 0) {
-  console.log(c('yellow', 'No occupations found in occupations/. Nothing to validate.'));
+  console.log(c('yellow', 'No SOULs found in souls/. Nothing to validate.'));
   process.exit(0);
 }
 
@@ -104,7 +104,7 @@ for (const w of warnings) console.log(w);
 for (const e of errors) console.log(e);
 console.log('');
 console.log(
-  `${slugs.length} occupations · ${c(errors.length ? 'red' : 'green', errors.length + ' errors')} · ${c('yellow', warnings.length + ' warnings')}`,
+  `${slugs.length} SOULs · ${c(errors.length ? 'red' : 'green', errors.length + ' errors')} · ${c('yellow', warnings.length + ' warnings')}`,
 );
 
 process.exit(errors.length ? 1 : 0);

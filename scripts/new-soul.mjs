@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-// Scaffold a new occupation directory from the canonical templates.
+// Scaffold a new SOUL directory from the canonical templates.
 //
 //   npm run new -- --title "Glassblower" --category "Skilled Trades" \
 //                  --summary "Shapes molten glass by breath and timing." [--slug glassblower]
 //
 import fs from 'node:fs';
 import path from 'node:path';
-import { OCCUPATIONS_DIR, SCHEMA_DIR } from './lib/paths.mjs';
+import { SOULS_DIR, SCHEMA_DIR } from './lib/paths.mjs';
 import { slugify } from './lib/markdown.mjs';
 
 function arg(name) {
@@ -26,9 +26,9 @@ const category = arg('category') || 'Emerging';
 const summary = arg('summary') || `How an expert ${title.toLowerCase()} thinks and works.`;
 const today = new Date().toISOString().slice(0, 10);
 
-const dir = path.join(OCCUPATIONS_DIR, slug);
+const dir = path.join(SOULS_DIR, slug);
 if (fs.existsSync(dir)) {
-  console.error(`✗ ${slug} already exists at occupations/${slug}`);
+  console.error(`✗ ${slug} already exists at souls/${slug}`);
   process.exit(1);
 }
 fs.mkdirSync(dir, { recursive: true });
@@ -45,7 +45,7 @@ const meta = metaTemplate
   .replaceAll('"{{YYYY-MM-DD}}"', JSON.stringify(today));
 fs.writeFileSync(path.join(dir, 'metadata.yaml'), meta);
 
-console.log(`✓ Created occupations/${slug}/`);
+console.log(`✓ Created souls/${slug}/`);
 console.log(`  • SOUL.md         (fill in every section — see STYLE_GUIDE.md)`);
 console.log(`  • metadata.yaml   (title, category, summary set; add tags & related)`);
 console.log(`\nNext:  npm run validate   then   npm run dev`);

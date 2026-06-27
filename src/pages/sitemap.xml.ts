@@ -9,7 +9,7 @@ export async function GET(context: APIContext) {
 
   const staticPages = [
     '/',
-    '/occupations',
+    '/souls',
     '/graph',
     '/dashboard',
     '/compare',

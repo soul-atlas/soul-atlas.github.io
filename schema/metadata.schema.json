@@ -25,6 +25,20 @@
       "uniqueItems": true,
       "default": []
     },
+    "kind": {
+      "type": "string",
+      "description": "What kind of mind this SOUL portrays. The Atlas began with occupations and is branching out: a 'discipline' or 'role' need not be a job, an 'identity' or 'community' is a way of thinking that never came with a title, and 'agent-persona' covers AI personality templates federated from external sources. Absent means 'occupation' for backward compatibility.",
+      "enum": [
+        "occupation",
+        "discipline",
+        "role",
+        "identity",
+        "community",
+        "historical",
+        "agent-persona"
+      ],
+      "default": "occupation"
+    },
     "category": {
       "type": "string",
       "description": "Primary top-level domain.",
@@ -81,6 +95,43 @@
       "type": "string",
       "description": "How this SOUL was first drafted. Honesty about origin is a trust signal: 'ai-generated' means a model wrote the first draft and no practitioner has verified it yet.",
       "enum": ["human", "ai-assisted", "ai-generated"]
+    },
+    "source": {
+      "type": "object",
+      "description": "Where this SOUL came from, when it did not originate in this repository. Used to attribute and link back to third-party collections (e.g. souls.directory) that the Atlas federates rather than authors. Absent means the SOUL originated here.",
+      "additionalProperties": false,
+      "required": ["origin"],
+      "properties": {
+        "origin": {
+          "type": "string",
+          "description": "Short identifier of the upstream collection, e.g. 'souls.directory'.",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "description": "Canonical URL of the entry in the upstream collection.",
+          "format": "uri"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Upstream source repository, if any.",
+          "format": "uri"
+        },
+        "license": {
+          "type": "string",
+          "description": "License the upstream entry is distributed under, e.g. 'MIT'."
+        },
+        "attribution": {
+          "type": "string",
+          "description": "Human-readable credit for the original author(s).",
+          "maxLength": 200
+        },
+        "fetched": {
+          "type": "string",
+          "description": "ISO date this SOUL was last fetched from the upstream source.",
+          "format": "date"
+        }
+      }
     },
     "last_reviewed": {
       "type": ["string", "null"],

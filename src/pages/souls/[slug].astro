@@ -57,7 +57,7 @@ const backlinks = (rec.computed.backlinks || []).map((s: string) => ({
   title: titleOf(s),
 }));
 
-// One-hop neighborhood graph for this occupation.
+// One-hop neighborhood graph for this SOUL.
 const neighborIds = new Set<string>([slug]);
 for (const e of graph.edges) {
   if (e.source === slug) neighborIds.add(e.target);
@@ -89,11 +89,11 @@ const jsonLd = {
   wordCount: rec.computed.wordCount,
 };
 
-const downloadHref = url(`/api/occupations/${slug}.md`);
+const downloadHref = url(`/api/souls/${slug}.md`);
 const exports = [
   { label: 'Markdown', href: downloadHref },
-  { label: 'JSON', href: url(`/api/occupations/${slug}.json`) },
-  { label: 'YAML', href: url(`/api/occupations/${slug}.yaml`) },
+  { label: 'JSON', href: url(`/api/souls/${slug}.json`) },
+  { label: 'YAML', href: url(`/api/souls/${slug}.yaml`) },
 ];
 
 // Citation strings (computed at build time for reproducibility).
@@ -148,7 +148,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
     >
       <a href={url('/')} class="hover:underline">Atlas</a>
       <span>/</span>
-      <a href={url('/occupations')} class="hover:underline">Explore</a>
+      <a href={url('/souls')} class="hover:underline">Explore</a>
       <span>/</span>
       <a href={categoryUrl(m.category)} class="hover:underline" style={`color:${color}`}
         >{m.category}</a

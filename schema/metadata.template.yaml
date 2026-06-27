@@ -4,12 +4,15 @@
 title: '{{Title}}'
 slug: '{{slug}}'
 aliases: []
+kind: occupation # occupation | discipline | role | identity | community | historical | agent-persona
 category: '{{Category}}' # see schema/metadata.schema.json for the allowed set
 tags: []
 difficulty: intermediate # foundational | intermediate | advanced | expert
 summary: '{{One or two sentences on how this mind works.}}'
 contributors: []
 provenance: human # human | ai-assisted | ai-generated — be honest about the first draft
+# source: # only for SOULs federated from elsewhere; omit for entries authored here
+#   { origin: "souls.directory", url: "https://…", license: "MIT", attribution: "Author", fetched: "YYYY-MM-DD" }
 last_reviewed: null # ISO date a human checked accuracy; null until then
 reviewers: [] # - { name: "Your Name", credential: "how you know the field", date: "YYYY-MM-DD" }
 created: '{{YYYY-MM-DD}}'

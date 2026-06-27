@@ -1,6 +1,6 @@
 ---
 // Reusable interactive force-directed knowledge graph (D3). Used full-page on
-// /graph and as a scoped neighborhood on each occupation page.
+// /graph and as a scoped neighborhood on each SOUL page.
 //
 // Props:
 //   endpoint  — URL to fetch {nodes, edges} from (default: the full graph API)
@@ -68,7 +68,7 @@ const base = import.meta.env.BASE_URL;
     data-focus={focus ?? ''}
     data-base={base}
   >
-    <svg width="100%" height="100%" role="img" aria-label="Knowledge graph of occupations"></svg>
+    <svg width="100%" height="100%" role="img" aria-label="Knowledge graph of SOULs"></svg>
     <div
       class="pointer-events-none absolute left-3 top-3 hidden rounded-md px-2.5 py-1.5 text-xs shadow"
       style="background:var(--surface); border:1px solid var(--border); color:var(--ink)"
@@ -220,7 +220,7 @@ const base = import.meta.env.BASE_URL;
         tip.style.display = 'none';
       })
       .on('click', (ev: any, d: any) => {
-        window.location.href = `${base}/occupations/${d.id}`;
+        window.location.href = `${base}/souls/${d.id}`;
       });
 
     const sim = d3

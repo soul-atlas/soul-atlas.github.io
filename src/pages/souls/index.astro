@@ -134,7 +134,7 @@ const clientData = sorted.map((s) => ({
 
       function card(s) {
         const c = colors[s.category] || '#94a3b8';
-        return `<a href="${root}/occupations/${s.slug}" class="card group flex flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5" style="text-decoration:none">
+        return `<a href="${root}/souls/${s.slug}" class="card group flex flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5" style="text-decoration:none">
           <div class="flex items-center justify-between gap-2">
             <span class="inline-flex items-center gap-1.5 text-xs font-medium" style="color:${c}"><span class="inline-block h-2 w-2 rounded-full" style="background:${c}"></span>${s.category}</span>
             ${s.difficulty ? `<span class="chip capitalize">${s.difficulty}</span>` : ''}

@@ -77,7 +77,7 @@ const options = [...souls]
       async function load(slug) {
         if (!slug) return null;
         if (cache[slug]) return cache[slug];
-        const rec = await (await fetch(`${root}/api/occupations/${slug}.json`)).json();
+        const rec = await (await fetch(`${root}/api/souls/${slug}.json`)).json();
         cache[slug] = rec;
         return rec;
       }
@@ -127,7 +127,7 @@ const options = [...souls]
           </section>`;
           })
           .join('');
-        return `<div class="card p-5"><a href="${root}/occupations/${rec.slug}" class="text-xl font-semibold hover:underline" style="color:var(--ink)">${rec.title}</a><div class="text-sm" style="color:var(--ink-faint)">${rec.metadata.category} · ${rec.computed.wordCount.toLocaleString('en-US')} words</div>${secs}</div>`;
+        return `<div class="card p-5"><a href="${root}/souls/${rec.slug}" class="text-xl font-semibold hover:underline" style="color:var(--ink)">${rec.title}</a><div class="text-sm" style="color:var(--ink-faint)">${rec.metadata.category} · ${rec.computed.wordCount.toLocaleString('en-US')} words</div>${secs}</div>`;
       }
 
       async function render() {
@@ -162,7 +162,7 @@ const options = [...souls]
             p
               .map(
                 (id) =>
-                  `<a class="underline" href="${root}/occupations/${id}">${idToTitle.get(id) || id}</a>`,
+                  `<a class="underline" href="${root}/souls/${id}">${idToTitle.get(id) || id}</a>`,
               )
               .join(' <span style="color:var(--ink-faint)">→</span> ');
         } else {

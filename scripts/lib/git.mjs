@@ -76,7 +76,9 @@ export function repoActivity(days = 365) {
   if (!gitAvailable()) return [];
   let out;
   try {
-    out = git(['log', `--since=${days} days ago`, '--format=%aI', '--', 'occupations']);
+    // Both paths: 'occupations' is the pre-rename history, 'souls' the current
+    // corpus. Federated/ is intentionally excluded — authored activity only.
+    out = git(['log', `--since=${days} days ago`, '--format=%aI', '--', 'souls', 'occupations']);
   } catch {
     return [];
   }
@@ -91,5 +93,6 @@ export function repoActivity(days = 365) {
 }
 
 export function soulHistory(slug) {
-  return fileHistory(path.join('occupations', slug, 'SOUL.md'));
+  // --follow (in fileHistory) traverses the occupations/ → souls/ rename.
+  return fileHistory(path.join('souls', slug, 'SOUL.md'));
 }

@@ -17,7 +17,7 @@ const docs = searchDocs.map((d: any) => ({
 }));
 
 const commands = [
-  { label: 'Go to Explore', href: url('/occupations'), kind: 'page' },
+  { label: 'Go to Explore', href: url('/souls'), kind: 'page' },
   { label: 'Open Knowledge Graph', href: url('/graph'), kind: 'page' },
   { label: 'Open Dashboard', href: url('/dashboard'), kind: 'page' },
   { label: 'Compare two minds', href: url('/compare'), kind: 'page' },
@@ -56,7 +56,7 @@ const commands = [
         type="text"
         autocomplete="off"
         spellcheck="false"
-        placeholder="Search occupations, headings, ideas…"
+        placeholder="Search SOULs, headings, ideas…"
         class="w-full bg-transparent py-3.5 text-sm outline-none"
         style="color:var(--ink)"
         aria-label="Search query"
@@ -85,7 +85,7 @@ const commands = [
     let active = 0;
     let current = [];
 
-    const soulUrl = (slug) => `${base.replace(/\/$/, '')}/occupations/${slug}`;
+    const soulUrl = (slug) => `${base.replace(/\/$/, '')}/souls/${slug}`;
 
     function score(doc, q) {
       const hay = (

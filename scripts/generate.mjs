@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// The build engine. Turns occupations/ into every derived artifact the site
+// The build engine. Turns souls/ into every derived artifact the site
 // and the public API consume. Idempotent: safe to run repeatedly.
 //
 //   src/generated/   -> consumed by the Astro build (gitignored)
@@ -50,7 +50,7 @@ function buildCitation(s, git) {
   const authorBibtex = authors.join(' and ');
   const version = git?.updated || s.metadata.updated || git?.created || s.metadata.created || '';
   const year = (version || `${new Date().getFullYear()}`).slice(0, 4);
-  const recordUrl = `${SITE_URL}/occupations/${slug}`;
+  const recordUrl = `${SITE_URL}/souls/${slug}`;
   return {
     apa: `${authorText} (${year}). ${title} [SOUL]. SOUL Atlas. ${recordUrl}`,
     bibtex:
@@ -83,12 +83,12 @@ function openApiDoc(count) {
       contact: { name: 'SOUL Atlas', url: SITE_URL },
     },
     servers: [{ url: `${SITE_URL}/api`, description: 'Production' }],
-    'x-corpus': { occupations: count },
+    'x-corpus': { souls: count },
     paths: {
       '/index.json': {
         get: { summary: 'API root and endpoint map', responses: { 200: okJson } },
       },
-      '/occupations.json': {
+      '/souls.json': {
         get: {
           summary: 'Every SOUL as a summary record',
           responses: { 200: okJson },
@@ -104,7 +104,7 @@ function openApiDoc(count) {
       '/stats.json': {
         get: { summary: 'All computed analytics', responses: { 200: okJson } },
       },
-      '/occupations/{slug}.json': {
+      '/souls/{slug}.json': {
         get: {
           summary: 'Full record: sections, rendered HTML, git history, citation',
           parameters: [
@@ -116,17 +116,17 @@ function openApiDoc(count) {
               example: 'software-engineer',
             },
           ],
-          responses: { 200: okJson, 404: { description: 'No such occupation' } },
+          responses: { 200: okJson, 404: { description: 'No such SOUL' } },
         },
       },
-      '/occupations/{slug}.md': {
+      '/souls/{slug}.md': {
         get: {
           summary: 'The SOUL as Markdown (with YAML front matter)',
           parameters: [{ name: 'slug', in: 'path', required: true, schema: { type: 'string' } }],
           responses: { 200: { description: 'Success', content: { 'text/markdown': {} } } },
         },
       },
-      '/occupations/{slug}.yaml': {
+      '/souls/{slug}.yaml': {
         get: {
           summary: 'The SOUL as YAML (metadata + sections)',
           parameters: [{ name: 'slug', in: 'path', required: true, schema: { type: 'string' } }],
@@ -157,7 +157,7 @@ const stats = computeStats(corpus, gitBySlug);
 if (statsOnly) {
   const t = stats.totals;
   console.log('');
-  console.log(`  Occupations  ${t.occupations}`);
+  console.log(`  SOULs        ${t.souls}`);
   console.log(`  Edges        ${t.edges}`);
   console.log(`  Categories   ${t.categories}`);
   console.log(`  Total words  ${t.words.toLocaleString('en-US')}`);
@@ -172,7 +172,7 @@ if (statsOnly) {
 const spec = loadSectionSpec();
 const buildMeta = {
   generatedAt: new Date().toISOString(),
-  counts: { occupations: corpus.souls.length, edges: corpus.graph.edges.length },
+  counts: { souls: corpus.souls.length, edges: corpus.graph.edges.length },
 };
 
 // ---- Light list (titles, metadata, computed summary) for listings/search ----
@@ -244,12 +244,12 @@ console.log('• Writing public/api …');
 writeJSON(path.join(PUBLIC_API_DIR, 'index.json'), {
   ...buildMeta,
   endpoints: {
-    occupations: '/api/occupations.json',
+    souls: '/api/souls.json',
     categories: '/api/categories.json',
     tags: '/api/tags.json',
     graph: '/api/graph.json',
     stats: '/api/stats.json',
-    occupation: '/api/occupations/{slug}.json',
+    soul: '/api/souls/{slug}.json',
     openapi: '/api/openapi.json',
   },
   schema: {
@@ -276,13 +276,13 @@ writeJSON(path.join(PUBLIC_API_DIR, 'badge.json'), {
   message: String(corpus.souls.length),
   color: 'blue',
 });
-writeJSON(path.join(PUBLIC_API_DIR, 'occupations.json'), lightList);
+writeJSON(path.join(PUBLIC_API_DIR, 'souls.json'), lightList);
 writeJSON(path.join(PUBLIC_API_DIR, 'categories.json'), categories);
 writeJSON(path.join(PUBLIC_API_DIR, 'tags.json'), tags);
 writeJSON(path.join(PUBLIC_API_DIR, 'graph.json'), corpus.graph);
 writeJSON(path.join(PUBLIC_API_DIR, 'stats.json'), stats);
 
-// Per-occupation machine formats: JSON, Markdown, YAML.
+// Per-SOUL machine formats: JSON, Markdown, YAML.
 for (const s of corpus.souls) {
   const rec = fullRecord(s);
   writeJSON(path.join(PUBLIC_API_SOULS_DIR, `${s.slug}.json`), rec);
@@ -298,7 +298,7 @@ for (const s of corpus.souls) {
   );
 }
 
-console.log(`✓ Generated ${corpus.souls.length} occupations in ${Date.now() - t0}ms`);
+console.log(`✓ Generated ${corpus.souls.length} SOULs in ${Date.now() - t0}ms`);
 if (corpus.danglers.length) {
   console.log(
     `  ⚠ ${corpus.danglers.length} dangling references (see /api/stats.json → quality.danglingReferences)`,

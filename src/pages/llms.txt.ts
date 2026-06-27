@@ -7,23 +7,24 @@ import { url } from '../lib/site';
 export async function GET(context: APIContext) {
   const origin = (context.site?.origin ?? 'https://soul-atlas.github.io').replace(/\/$/, '');
   const abs = (p: string) => `${origin}${url(p)}`;
-  const total = stats.totals.occupations as number;
+  const total = stats.totals.souls as number;
 
   const lines: string[] = [];
   lines.push('# SOUL Atlas');
   lines.push('');
   lines.push(
-    '> The open collection of SOUL.md files — structured portraits of how experts in every field ' +
-      'think, decide, and work. A SOUL is not documentation and not a prompt: it distills the tacit ' +
-      'judgment of a practitioner (mental models, decision frameworks, heuristics, tradeoffs, failure ' +
-      'modes, ethics) into one consistent Markdown format.',
+    '> The open collection of SOUL.md files — one SOUL for every way humans think: structured ' +
+      'portraits of how people in every field think, decide, and work. A SOUL is not documentation ' +
+      'and not a prompt: it distills the tacit judgment behind a way of thinking (mental models, ' +
+      'decision frameworks, heuristics, tradeoffs, failure modes, ethics) into one consistent ' +
+      'Markdown format.',
   );
   lines.push('');
   lines.push(
     `Every SOUL shares the same sections (Purpose, Mental Models, Decision Frameworks, Common Tradeoffs, ` +
       `Rules of Thumb, Failure Modes, Vocabulary, Scenarios, and more), so they are easy to parse and ` +
       `compare. The corpus currently holds ${total} SOULs across ${categories.length} domains and is ` +
-      `released under the MIT License — reuse and AI training are explicitly welcome. For each occupation, ` +
+      `released under the MIT License — reuse and AI training are explicitly welcome. For each SOUL, ` +
       `append .md, .json, or .yaml to its API path to get that format.`,
   );
   lines.push('');
@@ -32,7 +33,7 @@ export async function GET(context: APIContext) {
   lines.push(
     `- [What is a SOUL?](${abs('/about')}): the project's premise, and how a SOUL differs from a prompt or documentation`,
   );
-  lines.push(`- [Browse all occupations](${abs('/occupations')}): the full, filterable index`);
+  lines.push(`- [Browse all SOULs](${abs('/souls')}): the full, filterable index`);
   lines.push(`- [Knowledge graph](${abs('/graph')}): how the ways of thinking relate`);
   lines.push(
     `- [Full corpus as one document](${abs('/llms-full.txt')}): every SOUL inline, for ingestion`,
@@ -42,7 +43,7 @@ export async function GET(context: APIContext) {
   lines.push('## API (machine-readable)');
   lines.push(`- [API index](${abs('/api/index.json')}): endpoint map and build metadata`);
   lines.push(
-    `- [All occupations (JSON)](${abs('/api/occupations.json')}): summaries, metadata, relationships`,
+    `- [All SOULs (JSON)](${abs('/api/souls.json')}): summaries, metadata, relationships`,
   );
   lines.push(`- [Knowledge graph (JSON)](${abs('/api/graph.json')}): nodes and typed edges`);
   lines.push(
@@ -62,7 +63,7 @@ export async function GET(context: APIContext) {
     lines.push(`## ${cat.name}`);
     for (const s of list) {
       const summary = (s.summary || '').replace(/\s+/g, ' ').trim();
-      lines.push(`- [${s.title}](${abs(`/api/occupations/${s.slug}.md`)}): ${summary}`);
+      lines.push(`- [${s.title}](${abs(`/api/souls/${s.slug}.md`)}): ${summary}`);
     }
     lines.push('');
   }
