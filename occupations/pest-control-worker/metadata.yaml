@@ -19,7 +19,8 @@ tags:
 difficulty: 'foundational'
 summary: 'Identifies, controls, and prevents pest problems at the source using the least-harmful effective methods and safe pesticide application — protecting health, property, and food without harming the people, pets, and environment in the process.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -61,4 +62,4 @@ sources:
   - { title: "Truman's Scientific Guide to Pest Management Operations", kind: 'book' }
   - { title: 'EPA pesticide regulations and label-use requirements (FIFRA)', kind: 'standard' }
   - { title: 'Integrated Pest Management (IPM) frameworks', kind: 'other' }
-status: stable
+status: draft

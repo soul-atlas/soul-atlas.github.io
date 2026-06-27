@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Turns an uncertain site and an uncertain future into infrastructure with a known, defensible margin of safety that holds for decades.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'ASCE 7 Minimum Design Loads', kind: 'standard' }
   - { title: 'Soil Mechanics in Engineering Practice', kind: 'book' }
-status: stable
+status: draft

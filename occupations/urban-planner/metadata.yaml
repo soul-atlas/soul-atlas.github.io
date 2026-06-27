@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Shapes how land, movement, and people fit together over decades, balancing private property against shared public goods while naming who wins and who loses.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'The Death and Life of Great American Cities', kind: 'book' }
   - { title: 'The High Cost of Free Parking', kind: 'book' }
   - { title: 'AICP Code of Ethics and Professional Conduct', kind: 'standard' }
-status: stable
+status: draft

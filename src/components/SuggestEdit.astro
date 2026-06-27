@@ -1,0 +1,327 @@
+---
+// A no-GitHub-account suggestion box. Anyone can propose a change to a SOUL;
+// every submission is turned into a reviewable pull request by a small serverless
+// worker (see workers/suggest/ and docs/SUGGESTIONS.md).
+//
+// Graceful degradation: when PUBLIC_SUGGEST_ENDPOINT is not configured at build
+// time, the form falls back to opening a prefilled GitHub issue, so the site is
+// always functional with zero backend.
+import { GITHUB_URL } from '../lib/site';
+
+interface Props {
+  slug: string;
+  title: string;
+  sections: string[];
+}
+const { slug, title, sections } = Astro.props;
+
+const endpoint = import.meta.env.PUBLIC_SUGGEST_ENDPOINT || '';
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
+const issueBase = `${GITHUB_URL}/issues/new`;
+---
+
+<dialog
+  id="suggest-dialog"
+  class="suggest-dialog"
+  data-slug={slug}
+  data-endpoint={endpoint}
+  data-issue-base={issueBase}
+  aria-labelledby="suggest-title"
+>
+  <form method="dialog" class="suggest-form" id="suggest-form">
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <h2 id="suggest-title" class="text-lg font-semibold" style="color:var(--ink)">
+          Suggest a change
+        </h2>
+        <p class="mt-0.5 text-sm" style="color:var(--ink-soft)">
+          Improving <strong>{title}</strong>. No account required — your suggestion becomes a
+          reviewable pull request.
+        </p>
+      </div>
+      <button type="button" class="btn !px-2 !py-1 text-sm" data-suggest-close aria-label="Close"
+        >✕</button
+      >
+    </div>
+
+    <div class="suggest-body mt-4 space-y-3">
+      <label class="block text-sm">
+        <span class="mb-1 block font-medium" style="color:var(--ink-soft)">Section</span>
+        <select name="section" class="suggest-input">
+          <option value="">— Whole SOUL / not sure —</option>
+          {sections.map((s) => <option value={s}>{s}</option>)}
+        </select>
+      </label>
+
+      <label class="block text-sm">
+        <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+          >What's wrong or missing? <span style="color:#dc2626">*</span></span
+        >
+        <textarea
+          name="problem"
+          rows="3"
+          required
+          class="suggest-input"
+          placeholder="Be specific. What does the current text get wrong, and how would a practitioner describe it?"
+        ></textarea>
+      </label>
+
+      <label class="block text-sm">
+        <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+          >Suggested wording (optional)</span
+        >
+        <textarea
+          name="suggestion"
+          rows="3"
+          class="suggest-input"
+          placeholder="Proposed replacement or addition, in your own words."></textarea>
+      </label>
+
+      <label class="block text-sm">
+        <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+          >How do you know? (optional)</span
+        >
+        <input
+          name="basis"
+          class="suggest-input"
+          placeholder="e.g. 12 years as a journeyman electrician, or a standard/source."
+        />
+      </label>
+
+      <div class="grid gap-3 sm:grid-cols-2">
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+            >Your name (optional)</span
+          >
+          <input name="name" class="suggest-input" placeholder="Stays anonymous if blank." />
+        </label>
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium" style="color:var(--ink-soft)">Email (optional)</span>
+          <input
+            name="email"
+            type="email"
+            class="suggest-input"
+            placeholder="Only to follow up. Never published."
+          />
+        </label>
+      </div>
+
+      <label class="flex items-start gap-2 text-sm" style="color:var(--ink-soft)">
+        <input type="checkbox" name="credit_ok" class="mt-1" />
+        <span>Credit me as a contributor if this is merged (uses the name above).</span>
+      </label>
+
+      <!-- Honeypot: bots fill this; humans never see it. -->
+      <input
+        type="text"
+        name="website"
+        tabindex="-1"
+        autocomplete="off"
+        aria-hidden="true"
+        class="suggest-hp"
+      />
+
+      {
+        turnstileSiteKey && (
+          <div class="cf-turnstile" data-sitekey={turnstileSiteKey} data-theme="auto" />
+        )
+      }
+    </div>
+
+    <p class="suggest-status mt-3 hidden text-sm" data-suggest-status></p>
+
+    <div class="mt-4 flex flex-wrap items-center justify-end gap-2">
+      <a
+        class="btn !py-1.5 text-sm"
+        data-suggest-gh
+        href={issueBase}
+        target="_blank"
+        rel="noopener"
+      >
+        Open a GitHub issue instead
+      </a>
+      <button
+        type="submit"
+        class="btn btn-accent !py-1.5 text-sm font-semibold"
+        data-suggest-submit
+      >
+        Submit suggestion
+      </button>
+    </div>
+
+    <p class="mt-3 text-xs" style="color:var(--ink-faint)">
+      By submitting you agree your contribution may be published under the project's MIT License.
+    </p>
+  </form>
+</dialog>
+
+{
+  turnstileSiteKey && (
+    <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer />
+  )
+}
+
+<script is:inline>
+  (function () {
+    const dialog = document.getElementById('suggest-dialog');
+    if (!dialog) return;
+    const form = document.getElementById('suggest-form');
+    const slug = dialog.getAttribute('data-slug');
+    const endpoint = dialog.getAttribute('data-endpoint') || '';
+    const issueBase = dialog.getAttribute('data-issue-base');
+    const statusEl = dialog.querySelector('[data-suggest-status]');
+    const submitBtn = dialog.querySelector('[data-suggest-submit]');
+    const ghLink = dialog.querySelector('[data-suggest-gh]');
+    const sectionSel = form.querySelector('select[name="section"]');
+
+    function setStatus(msg, kind) {
+      statusEl.textContent = msg;
+      statusEl.classList.remove('hidden');
+      statusEl.style.color =
+        kind === 'error' ? '#dc2626' : kind === 'ok' ? '#047857' : 'var(--ink-soft)';
+    }
+
+    // Build a prefilled GitHub-issue URL as the always-available fallback.
+    function issueUrl() {
+      const fd = new FormData(form);
+      const params = new URLSearchParams({
+        template: 'correction.yml',
+        title: `[${slug}] ${(fd.get('section') || 'correction').toString()}`,
+        slug: slug,
+        section: (fd.get('section') || '').toString(),
+        problem: (fd.get('problem') || '').toString(),
+        suggestion: (fd.get('suggestion') || '').toString(),
+        basis: (fd.get('basis') || '').toString(),
+      });
+      return `${issueBase}?${params.toString()}`;
+    }
+
+    function refreshGh() {
+      ghLink.href = issueUrl();
+    }
+    form.addEventListener('input', refreshGh);
+
+    // Open API used by per-section links and the page buttons.
+    window.SoulSuggest = {
+      open: function (opts) {
+        opts = opts || {};
+        if (opts.section && sectionSel) {
+          const has = [...sectionSel.options].some((o) => o.value === opts.section);
+          sectionSel.value = has ? opts.section : '';
+        }
+        statusEl.classList.add('hidden');
+        refreshGh();
+        if (typeof dialog.showModal === 'function') dialog.showModal();
+        else dialog.setAttribute('open', '');
+        const ta = form.querySelector('textarea[name="problem"]');
+        if (ta) setTimeout(() => ta.focus(), 50);
+      },
+    };
+
+    document
+      .querySelectorAll('[data-suggest-open]')
+      .forEach((b) =>
+        b.addEventListener('click', () =>
+          window.SoulSuggest.open({ section: b.getAttribute('data-section') || '' }),
+        ),
+      );
+    dialog
+      .querySelectorAll('[data-suggest-close]')
+      .forEach((b) => b.addEventListener('click', () => dialog.close()));
+    dialog.addEventListener('click', (e) => {
+      if (e.target === dialog) dialog.close();
+    });
+
+    form.addEventListener('submit', async (e) => {
+      // Without a configured endpoint, fall back to the GitHub issue route.
+      if (!endpoint) {
+        e.preventDefault();
+        window.open(issueUrl(), '_blank', 'noopener');
+        dialog.close();
+        return;
+      }
+      e.preventDefault();
+      const fd = new FormData(form);
+      if (fd.get('website')) {
+        dialog.close();
+        return;
+      } // honeypot tripped
+      const problem = (fd.get('problem') || '').toString().trim();
+      if (problem.length < 10) {
+        setStatus('Please describe the change in a little more detail.', 'error');
+        return;
+      }
+      const payload = {
+        slug: slug,
+        section: (fd.get('section') || '').toString(),
+        problem: problem,
+        suggestion: (fd.get('suggestion') || '').toString(),
+        basis: (fd.get('basis') || '').toString(),
+        name: (fd.get('name') || '').toString(),
+        email: (fd.get('email') || '').toString(),
+        credit_ok: Boolean(fd.get('credit_ok')),
+        website: (fd.get('website') || '').toString(),
+        turnstileToken: (fd.get('cf-turnstile-response') || '').toString(),
+        source: location.href,
+      };
+      submitBtn.disabled = true;
+      setStatus('Submitting…', 'info');
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.url) {
+          setStatus('Thank you! Your suggestion is now pull request ' + data.url, 'ok');
+          form.querySelector('.suggest-body').style.opacity = '0.5';
+        } else {
+          throw new Error(data.error || 'Submission failed');
+        }
+      } catch (err) {
+        setStatus(
+          'Could not submit automatically. Use “Open a GitHub issue instead” above — it carries your text over.',
+          'error',
+        );
+        refreshGh();
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+  })();
+</script>
+
+<style>
+  .suggest-dialog {
+    width: min(36rem, calc(100vw - 2rem));
+    border: 1px solid var(--border);
+    border-radius: 0.9rem;
+    background: var(--surface);
+    color: var(--ink);
+    padding: 1.25rem;
+  }
+  .suggest-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.45);
+  }
+  .suggest-input {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    background: var(--bg-soft);
+    color: var(--ink);
+    padding: 0.45rem 0.6rem;
+    font-size: 0.875rem;
+  }
+  .suggest-input:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+  .suggest-hp {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+  }
+</style>

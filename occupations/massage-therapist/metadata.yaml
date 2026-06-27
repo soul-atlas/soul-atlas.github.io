@@ -16,7 +16,8 @@ difficulty: intermediate
 summary: "Reads soft tissue by touch and treats to the nervous system's tolerance, screening hard for contraindications and knowing when not to put hands on a body at all."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'Trail Guide to the Body', kind: 'book' }
   - { title: "Travell & Simons' Myofascial Pain and Dysfunction", kind: 'book' }
   - { title: "A Massage Therapist's Guide to Pathology", kind: 'book' }
-status: stable
+status: draft

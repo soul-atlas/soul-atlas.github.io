@@ -18,7 +18,8 @@ summary: >-
   tool, and tracking every responder safely home while never leaving the radio.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
     kind: other
   - title: APCO Public-Safety Telecommunicator training
     kind: course
-status: stable
+status: draft

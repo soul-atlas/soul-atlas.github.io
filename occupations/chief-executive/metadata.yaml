@@ -6,7 +6,8 @@ tags: ['capital-allocation', 'leadership', 'governance', 'strategy', 'accountabi
 difficulty: 'expert'
 summary: 'How a CEO thinks: allocating scarce capital and attention, owning the board and the outcome, treating culture as the residue of decisions, and carrying lonely accountability.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -47,4 +48,4 @@ sources:
   - { title: 'The Outsiders (William Thorndike)', kind: 'book' }
   - { title: 'Good to Great (Jim Collins)', kind: 'book' }
   - { title: 'High Output Management (Andrew Grove)', kind: 'book' }
-status: stable
+status: draft

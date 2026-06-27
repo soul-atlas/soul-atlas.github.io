@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Makes resource-starved silicon meet hard real-time and reliability requirements deterministically, debugging with a scope where there is no printf, and failing safe when hardware misbehaves.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Making Embedded Systems', kind: 'book' }
   - { title: 'Programming Embedded Systems', kind: 'book' }
   - { title: 'MISRA C Guidelines', kind: 'standard' }
-status: stable
+status: draft

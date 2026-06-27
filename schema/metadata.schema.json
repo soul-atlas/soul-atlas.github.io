@@ -77,10 +77,34 @@
       "uniqueItems": true,
       "default": []
     },
+    "provenance": {
+      "type": "string",
+      "description": "How this SOUL was first drafted. Honesty about origin is a trust signal: 'ai-generated' means a model wrote the first draft and no practitioner has verified it yet.",
+      "enum": ["human", "ai-assisted", "ai-generated"]
+    },
     "last_reviewed": {
       "type": ["string", "null"],
-      "description": "ISO date this SOUL was last reviewed for accuracy.",
+      "description": "ISO date a human reviewed this SOUL for accuracy. Null means never reviewed by a person.",
       "format": "date"
+    },
+    "reviewers": {
+      "type": "array",
+      "description": "People who have reviewed this SOUL against real-world practice. Ideally practitioners who do (or have done) the work.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "credential": {
+            "type": "string",
+            "description": "How they know the field, e.g. '15 years as a climbing arborist'.",
+            "maxLength": 160
+          },
+          "date": { "type": "string", "format": "date" }
+        }
+      },
+      "default": []
     },
     "created": {
       "type": "string",

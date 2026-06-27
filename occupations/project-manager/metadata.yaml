@@ -6,7 +6,8 @@ tags: ['project-management', 'scheduling', 'risk-management', 'stakeholders', 'd
 difficulty: intermediate
 summary: 'How an excellent project manager makes uncertainty and tradeoffs visible, manages the critical path, and reports honest status to deliver within scope, time, and cost.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -49,4 +50,4 @@ sources:
       kind: 'standard',
     }
   - { title: 'The Mythical Man-Month (Frederick Brooks)', kind: 'book' }
-status: stable
+status: draft

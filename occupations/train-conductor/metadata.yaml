@@ -18,7 +18,8 @@ summary: >-
   shared picture with the crew, and stopping the moment that picture is in doubt.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
     kind: standard
   - title: Air Brake and Train Handling Handbook
     kind: other
-status: stable
+status: draft

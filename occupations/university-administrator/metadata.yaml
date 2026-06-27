@@ -20,7 +20,8 @@ tags:
 difficulty: 'advanced'
 summary: 'Sustains the university — financially, legally, operationally — so teaching and research can flourish, governing through shared authority and persuasion rather than command, with student success as the measure.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -67,4 +68,4 @@ sources:
   - { title: 'How Colleges Work (Robert Birnbaum)', kind: 'book' }
   - { title: 'AGB / AAUP governance and academic-freedom statements', kind: 'standard' }
   - { title: 'Title IX, FERPA, and Clery Act regulations', kind: 'standard' }
-status: stable
+status: draft

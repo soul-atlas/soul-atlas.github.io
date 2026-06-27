@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Walks five-year-olds across the hinge from play to formal school, weaving explicit literacy and number with play so children leave both able and still willing to learn.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
     }
   - { title: 'Mind in Society', kind: 'book' }
   - { title: 'Childhood and Society', kind: 'book' }
-status: stable
+status: draft

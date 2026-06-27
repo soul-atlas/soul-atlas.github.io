@@ -14,7 +14,8 @@ difficulty: expert
 summary: 'Quantifies uncertain future obligations by pooling risk, triangulating reserves, pricing against the tail, and defending every assumption to keep promises solvent.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 specializations:
@@ -28,7 +29,7 @@ sources:
     kind: book
   - title: 'Actuarial Mathematics (Bowers, Gerber, Hickman, Jones & Nesbitt)'
     kind: book
-status: stable
+status: draft
 related:
   - {
       slug: 'financial-analyst',

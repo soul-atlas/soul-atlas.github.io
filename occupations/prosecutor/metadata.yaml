@@ -15,7 +15,8 @@ difficulty: 'expert'
 summary: 'How a prosecutor reasons: charge only on provable proof, carry the burden beyond a reasonable doubt, disclose exculpatory evidence, and seek justice over convictions.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 specializations:
@@ -54,4 +55,4 @@ related:
       type: 'related',
       note: 'shapes just dispositions through diversion, victim support, and alternatives to prison',
     }
-status: 'stable'
+status: draft

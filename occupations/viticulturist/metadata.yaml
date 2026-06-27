@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Reads site and season to steer a perennial vine toward balanced, ripe fruit, trading yield for quality and timing the one harvest a year against weather, disease, and the winemaker's needs."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -56,4 +57,4 @@ sources:
     }
   - { title: 'General Viticulture (Winkler et al.)', kind: 'book' }
   - { title: 'The Science of Wine', kind: 'book' }
-status: stable
+status: draft

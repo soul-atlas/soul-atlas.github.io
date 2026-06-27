@@ -19,7 +19,8 @@ tags:
 difficulty: 'advanced'
 summary: 'The hands and eyes in the cath lab and at the cardiac bedside — capturing diagnostic-quality cardiovascular data and supporting interventions while recognizing the life-threatening finding in real time.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -68,4 +69,4 @@ sources:
     }
   - { title: 'The Echo Manual (Oh, Seward & Tajik)', kind: 'book' }
   - { title: 'ACLS guidelines (American Heart Association); CCI/ARDMS standards', kind: 'standard' }
-status: stable
+status: draft

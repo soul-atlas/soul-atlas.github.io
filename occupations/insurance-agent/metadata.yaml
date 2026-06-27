@@ -6,7 +6,8 @@ tags: ['risk-transfer', 'coverage-matching', 'insurance-sales', 'needs-analysis'
 difficulty: 'intermediate'
 summary: "The client's interface to risk transfer — assessing real exposures, matching coverage and adequate limits to the losses that could ruin them, and advocating at the claim, rather than selling whatever pays the most commission."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'Principles of Risk Management and Insurance (Rejda)', kind: 'book' }
   - { title: 'The Institutes Property/Casualty and Life/Health curricula', kind: 'course' }
   - { title: 'NAIC model rules and state producer regulations', kind: 'standard' }
-status: stable
+status: draft

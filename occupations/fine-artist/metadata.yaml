@@ -6,7 +6,8 @@ tags: ['studio-practice', 'artistic-vision', 'body-of-work', 'art-market', 'visu
 difficulty: 'advanced'
 summary: 'Pursues a genuine personal vision through a sustained body of work — making objects and images that carry meaning nothing else can — while navigating a brutal economy without letting the market dictate the vision.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -47,4 +48,4 @@ sources:
   - { title: 'Art & Fear (Bayles & Orland)', kind: 'book' }
   - { title: 'Ways of Seeing (John Berger)', kind: 'book' }
   - { title: 'The Story of Art (E.H. Gombrich)', kind: 'book' }
-status: stable
+status: draft

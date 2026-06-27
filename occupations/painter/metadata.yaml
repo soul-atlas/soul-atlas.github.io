@@ -6,7 +6,8 @@ tags: ['coatings', 'surface-prep', 'adhesion', 'finishing', 'construction']
 difficulty: intermediate
 summary: 'How a master painter thinks in coating systems and adhesion, wins the job in the prep nobody sees, and hits a target film thickness rather than a color.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -38,4 +39,4 @@ country_variants: []
 sources:
   - { title: 'SSPC: The Society for Protective Coatings standards', kind: 'standard' }
   - { title: "Painting and Decorating Craftsman's Manual (PDCA)", kind: 'book' }
-status: stable
+status: draft

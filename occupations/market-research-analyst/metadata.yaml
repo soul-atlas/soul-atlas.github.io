@@ -6,7 +6,8 @@ tags: ['market-research', 'survey-design', 'segmentation', 'consumer-insights', 
 difficulty: 'intermediate'
 summary: 'How a market researcher thinks: turning a fuzzy business question into a defensible research design, guarding against bias and unrepresentative samples, and converting evidence into a recommendation.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -48,4 +49,4 @@ sources:
   - { title: 'Marketing Research (Naresh Malhotra)', kind: 'book' }
   - { title: 'The Handbook of Marketing Research (Grover and Vriens)', kind: 'book' }
   - { title: 'AAPOR Standard Definitions and Code of Professional Ethics', kind: 'standard' }
-status: stable
+status: draft

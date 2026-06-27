@@ -20,6 +20,7 @@
     "astro": "astro",
     "generate": "node scripts/generate.mjs",
     "validate": "node scripts/validate.mjs",
+    "audit": "node scripts/audit-depth.mjs",
     "new": "node scripts/new-occupation.mjs",
     "stats": "node scripts/generate.mjs --stats-only",
     "banner": "node scripts/gen-banner-gif.mjs",

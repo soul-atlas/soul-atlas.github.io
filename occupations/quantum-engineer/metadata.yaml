@@ -17,7 +17,8 @@ summary: >-
   fighting decoherence and noise across the whole stack from cryostat to compiler.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ sources:
     kind: article
   - title: 'Quantum Computing: An Applied Approach'
     kind: book
-status: stable
+status: draft

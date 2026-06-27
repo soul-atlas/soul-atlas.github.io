@@ -6,7 +6,8 @@ tags: ['surveying', 'boundary-law', 'geomatics', 'gnss', 'total-station']
 difficulty: advanced
 summary: 'How an expert surveyor reconciles measurement, law, and old monuments, finding where a boundary legally is rather than where geometry alone would put it, and tying every position to a datum.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ sources:
       title: 'Evidence and Procedures for Boundary Location (Brown, Robillard, Wilson)',
       kind: 'book',
     }
-status: stable
+status: draft

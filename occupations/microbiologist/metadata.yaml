@@ -6,7 +6,8 @@ tags: ['microbiology', 'aseptic-technique', 'culture', 'antimicrobial-resistance
 difficulty: advanced
 summary: 'How an expert microbiologist thinks: invisible populations inferred from indirect signs, contamination assumed until disproven, and growth, identity, and susceptibility defended by controls.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
       title: 'Biosafety in Microbiological and Biomedical Laboratories (BMBL), CDC/NIH',
       kind: 'standard',
     }
-status: stable
+status: draft

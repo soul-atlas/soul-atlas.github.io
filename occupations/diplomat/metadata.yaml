@@ -15,7 +15,8 @@ difficulty: expert
 summary: "Advances a nation's interests by means short of force, reading adversaries and leaving them a way to say yes while preserving room to maneuver."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'Getting to Yes', kind: 'book' }
   - { title: 'Diplomacy (Kissinger)', kind: 'book' }
   - { title: 'Vienna Convention on Diplomatic Relations (1961)', kind: 'standard' }
-status: stable
+status: draft

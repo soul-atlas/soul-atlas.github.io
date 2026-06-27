@@ -6,7 +6,8 @@ tags: ['aviation', 'cabin-safety', 'first-responder', 'hospitality', 'emergency-
 difficulty: advanced
 summary: 'Thinks like a first responder who happens to serve drinks: service is cover, the 90-second evacuation is the job, and threats get managed early under a 50/50 split of attention.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'FAA Flight Standards / 14 CFR Parts 121 & 125', kind: 'standard' }
   - { title: 'ICAO Cabin Safety Guidance', kind: 'standard' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['process-piping', 'pressure-systems', 'welding-prep', 'thermal-expansion'
 difficulty: advanced
 summary: 'How an expert pipefitter thinks: fit-up owns the weld, hot pipe must be free to move, and no line is trusted until it holds its pressure test.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'ASME B31.3 Process Piping', kind: 'standard' }
   - { title: 'Pipe Fitters Handbook (Graves)', kind: 'book' }
-status: stable
+status: draft

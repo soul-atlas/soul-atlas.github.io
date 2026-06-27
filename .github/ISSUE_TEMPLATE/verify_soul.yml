@@ -1,0 +1,53 @@
+name: ✅ Verify a SOUL (I do this work)
+description: Vouch for a SOUL's accuracy from real experience — this is how a draft becomes practitioner-reviewed.
+title: '[Verify] '
+labels: ['community-review', 'content', 'needs-triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Most SOULs are AI-drafted first passes. A review from someone who actually does
+        the work is the single most valuable thing you can give the Atlas. Prefer no
+        GitHub account? Use the **"I do this job — verify it"** button on any SOUL page.
+  - type: input
+    id: slug
+    attributes:
+      label: Which SOUL?
+      description: The slug or title of the occupation.
+      placeholder: arborist
+    validations:
+      required: true
+  - type: input
+    id: credential
+    attributes:
+      label: How do you know this field?
+      description: Your experience — shown publicly as your reviewer credential.
+      placeholder: 15 years as a climbing arborist; ISA certified
+    validations:
+      required: true
+  - type: textarea
+    id: verdict
+    attributes:
+      label: Your verdict
+      description: What does it get right? What's thin, generic, or wrong? Where would a veteran wince?
+    validations:
+      required: true
+  - type: textarea
+    id: fixes
+    attributes:
+      label: Specific corrections (optional)
+      description: Section-by-section fixes, in your own words.
+  - type: input
+    id: name
+    attributes:
+      label: Name to credit (optional)
+      description: How you'd like to appear in the SOUL's reviewers. Leave blank to stay anonymous.
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Confirmation
+      options:
+        - label: I'm describing how this work is actually done, to the best of my knowledge.
+          required: true
+        - label: My contribution may be published under the project's MIT License.
+          required: true

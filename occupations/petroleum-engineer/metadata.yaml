@@ -6,7 +6,8 @@ tags: ['reservoir-engineering', 'drilling', 'well-control', 'recovery', 'subsurf
 difficulty: 'advanced'
 summary: 'Recovers hydrocarbons from rock that can never be directly observed, carrying explicit uncertainty and treating well control and reservoir pressure as finite budgets to be spent for maximum recovery.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -52,4 +53,4 @@ sources:
   - { title: 'Applied Petroleum Reservoir Engineering (Craft & Hawkins)', kind: 'book' }
   - { title: 'Fundamentals of Reservoir Engineering (Dake)', kind: 'book' }
   - { title: 'SPE Petroleum Resources Management System (PRMS)', kind: 'standard' }
-status: stable
+status: draft

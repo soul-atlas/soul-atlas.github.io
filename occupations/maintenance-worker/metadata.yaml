@@ -7,7 +7,8 @@ tags: ['general-maintenance', 'repair', 'troubleshooting', 'preventive-maintenan
 difficulty: 'foundational'
 summary: 'The resourceful generalist a building depends on — diagnosing and repairing across plumbing, electrical, carpentry, and mechanical systems, doing preventive upkeep, and knowing when a problem needs a specialist.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -41,4 +42,4 @@ sources:
   - { title: 'Audel practical maintenance and trade guides', kind: 'book' }
   - { title: 'OSHA safety standards for maintenance work', kind: 'standard' }
   - { title: 'Facilities-maintenance and preventive-maintenance resources', kind: 'documentation' }
-status: stable
+status: draft

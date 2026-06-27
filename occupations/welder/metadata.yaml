@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Fuses metal into joints as strong as the parent material by controlling the weld pool, heat input, and metallurgy so the deposit holds under load and passes non-destructive testing.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
   - { title: 'AWS D1.1 Structural Welding Code - Steel', kind: 'standard' }
   - { title: 'ASME Boiler and Pressure Vessel Code, Section IX', kind: 'standard' }
   - { title: 'Welding Handbook (American Welding Society)', kind: 'book' }
-status: stable
+status: draft

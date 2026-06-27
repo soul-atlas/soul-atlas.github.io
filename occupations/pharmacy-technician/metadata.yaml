@@ -15,7 +15,8 @@ difficulty: intermediate
 summary: "Fills prescriptions accurately and accounts for every dose — matching the NDC, counting and labeling without error, and flagging anything that doesn't add up to the pharmacist rather than guessing."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ country_variants: []
 sources:
   - { title: "Mosby's Pharmacy Technician: Principles and Practice", kind: 'book' }
   - { title: 'USP General Chapters <795>/<797>/<800>', kind: 'standard' }
-status: stable
+status: draft

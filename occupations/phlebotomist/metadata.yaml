@@ -15,7 +15,8 @@ difficulty: foundational
 summary: 'Thinks of every lab value as a measurement of the specimen, not the patient, and works backward through order of draw, vein anatomy, and identity to make the two match.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -49,4 +50,4 @@ sources:
   - { title: 'CLSI GP41: Collection of Diagnostic Venous Blood Specimens', kind: 'standard' }
   - { title: 'Phlebotomy Essentials (McCall & Tankersley)', kind: 'book' }
   - { title: 'WHO Guidelines on Drawing Blood: Best Practices in Phlebotomy', kind: 'standard' }
-status: stable
+status: draft

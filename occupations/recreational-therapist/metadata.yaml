@@ -16,7 +16,8 @@ difficulty: intermediate
 summary: 'Engineers meaningful activity into measurable clinical gain, adapting recreation to disability and building the intrinsic motivation and leisure skills that outlast discharge.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'Therapeutic Recreation Program Design', kind: 'book' }
   - { title: 'Foundations of Therapeutic Recreation', kind: 'book' }
   - { title: 'Flow: The Psychology of Optimal Experience', kind: 'book' }
-status: stable
+status: draft

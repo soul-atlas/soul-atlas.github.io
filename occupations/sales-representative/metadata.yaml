@@ -6,7 +6,8 @@ tags: ['sales', 'pipeline', 'qualification', 'negotiation', 'revenue']
 difficulty: intermediate
 summary: 'How an excellent sales rep diagnoses buyer pain, qualifies ruthlessly, and orchestrates a multi-stakeholder decision into predictable revenue.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -40,4 +41,4 @@ country_variants: []
 sources:
   - { title: 'SPIN Selling (Neil Rackham)', kind: 'book' }
   - { title: 'The Challenger Sale (Dixon & Adamson)', kind: 'book' }
-status: stable
+status: draft

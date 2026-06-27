@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Converts years of precise, painful preparation into peak performance under maximum pressure, managing load and recovery to peak when it matters across a short career.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -49,4 +50,4 @@ sources:
   - { title: 'Peak: Secrets from the New Science of Expertise', kind: 'book' }
   - { title: 'Periodization: Theory and Methodology of Training', kind: 'book' }
   - { title: 'The Inner Game of Tennis', kind: 'book' }
-status: stable
+status: draft

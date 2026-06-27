@@ -6,7 +6,8 @@ tags: ['debt-collection', 'fdcpa-compliance', 'negotiation', 'accounts-recovery'
 difficulty: 'foundational'
 summary: 'Recovers overdue debts within strict legal limits and with decency — resolving accounts by finding a workable path to payment for debtors often in genuine hardship, not through harassment or deception.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -47,4 +48,4 @@ sources:
   - { title: 'The Fair Debt Collection Practices Act (FDCPA)', kind: 'standard' }
   - { title: 'CFPB debt-collection rules and guidance', kind: 'standard' }
   - { title: 'ACA International collections standards and ethics', kind: 'standard' }
-status: stable
+status: draft

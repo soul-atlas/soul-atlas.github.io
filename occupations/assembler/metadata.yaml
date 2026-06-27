@@ -6,7 +6,8 @@ tags: ['assembly', 'manufacturing', 'quality', 'consistency', 'production']
 difficulty: 'foundational'
 summary: 'The hands of production — building products to specification correctly, consistently, and at pace, maintaining quality through repetition and catching the defect rather than passing it on.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -39,4 +40,4 @@ sources:
   - { title: 'The Toyota Way (Jeffrey Liker)', kind: 'book' }
   - { title: 'Lean manufacturing and Toyota Production System resources', kind: 'other' }
   - { title: 'Manufacturing assembly and quality (ISO 9001) standards', kind: 'standard' }
-status: stable
+status: draft

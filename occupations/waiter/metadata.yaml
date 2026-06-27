@@ -6,7 +6,8 @@ tags: ['service', 'front-of-house', 'coursing', 'hospitality', 'tipping']
 difficulty: 'intermediate'
 summary: 'How a master server thinks: read the table, run the steps of service, time courses to two clocks, and turn the table while earning the tip and the team.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -40,4 +41,4 @@ country_variants: []
 sources:
   - { title: 'Setting the Table (Danny Meyer)', kind: 'book' }
   - { title: 'ServSafe Allergen Awareness', kind: 'standard' }
-status: stable
+status: draft

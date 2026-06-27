@@ -6,7 +6,8 @@ tags: ['stone-setting', 'metalsmithing', 'soldering', 'lost-wax-casting', 'gemol
 difficulty: advanced
 summary: 'How a master jeweler thinks: inspect at 10x, build settings for decades of wear, control heat around fragile stones, and disclose every material honestly.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -41,4 +42,4 @@ sources:
   - { title: 'The Complete Metalsmith', kind: 'book' }
   - { title: 'Professional Goldsmithing', kind: 'book' }
   - { title: 'GIA Diamond Grading curriculum', kind: 'course' }
-status: stable
+status: draft

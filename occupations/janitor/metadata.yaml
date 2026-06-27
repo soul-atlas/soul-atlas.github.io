@@ -6,7 +6,8 @@ tags: ['cleaning', 'sanitation', 'disinfection', 'chemical-safety', 'building-up
 difficulty: 'foundational'
 summary: "The often-invisible workforce that keeps buildings clean, sanitary, and safe — preventing the spread of germs and hazards through proper cleaning and disinfection, work whose quality directly affects everyone's health."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -38,4 +39,4 @@ sources:
   - { title: 'ISSA cleaning standards', kind: 'standard' }
   - { title: 'CDC environmental cleaning and disinfection guidelines', kind: 'standard' }
   - { title: 'OSHA hazard-communication and chemical-safety standards', kind: 'standard' }
-status: stable
+status: draft

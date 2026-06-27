@@ -6,7 +6,8 @@ tags: ['executive-support', 'calendar-management', 'coordination', 'anticipation
 difficulty: 'intermediate'
 summary: 'A force multiplier for an executive or team — managing time, information, and logistics, anticipating needs, and handling the details with discretion so they can focus on the work only they can do.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -43,4 +44,4 @@ sources:
     }
   - { title: 'Getting Things Done (David Allen)', kind: 'book' }
   - { title: 'IAAP administrative-professional resources', kind: 'documentation' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['exercise-prescription', 'cardiac-rehab', 'vo2-max', 'dose-response', 'ri
 difficulty: 'advanced'
 summary: 'Applies the science of how the body responds to exercise to prescribe and supervise the right dose for a specific body and condition — enough to drive adaptation, not so much as to harm — from measured physiology, not generic guidelines.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -51,4 +52,4 @@ sources:
   - { title: "ACSM's Guidelines for Exercise Testing and Prescription", kind: 'standard' }
   - { title: 'Exercise Physiology: Theory and Application (Powers & Howley)', kind: 'book' }
   - { title: 'AACVPR cardiac and pulmonary rehabilitation guidelines', kind: 'standard' }
-status: stable
+status: draft

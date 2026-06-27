@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: ✏️ Suggest a change without a GitHub account
+    url: https://soul-atlas.github.io/suggest
+    about: Use the website form — your suggestion becomes a pull request automatically.
   - name: 💬 Discussions
     url: https://github.com/soul-atlas/soul-atlas.github.io/discussions
     about: Questions, ideas, and conversations about the Atlas and the SOUL format.

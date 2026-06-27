@@ -53,7 +53,9 @@ allowed but flagged as warnings by the validator.
 | `difficulty` | enum | — | `foundational` \| `intermediate` \| `advanced` \| `expert`. |
 | `summary` | string | ✓ | 20–320 chars; how the mind works. Shown on cards/search. |
 | `contributors` | string[] | — | Names/handles. Merged with git authors on the page. |
-| `last_reviewed` | date \| null | — | ISO date of last accuracy review. |
+| `provenance` | enum | — | `human` \| `ai-assisted` \| `ai-generated`. How the first draft was written. |
+| `last_reviewed` | date \| null | — | ISO date a human checked accuracy. `null` = never. |
+| `reviewers` | object[] | — | `{ name, credential?, date? }`. Practitioners who vouched for it. |
 | `created` | date | ✓ | ISO date. (Git history overrides on the page when present.) |
 | `updated` | date | ✓ | ISO date. |
 | `related` | object[] | — | Typed edges: `{ slug, type, note? }`. |
@@ -61,6 +63,12 @@ allowed but flagged as warnings by the validator.
 | `country_variants` | object[] | — | `{ region, note }`. |
 | `sources` | object[] | — | `{ title, url?, kind? }`. |
 | `status` | enum | ✓ | `stub` \| `draft` \| `review` \| `stable`. |
+
+**Verification.** `provenance`, `last_reviewed`, and `reviewers` together drive the
+trust badge on every SOUL page. An AI-drafted SOUL with no reviewer and no review
+date shows **"AI-drafted · unverified"**; once a practitioner reviews it (added to
+`reviewers`, with `last_reviewed` set), it shows **"Practitioner-reviewed."** Don't
+mark something reviewed unless a person actually checked it for accuracy.
 
 ### Categories
 
@@ -94,13 +102,15 @@ tags: [software, programming, systems]
 difficulty: advanced
 summary: "Turns ambiguous intent into systems that behave correctly under conditions nobody anticipated."
 contributors: ["soul-atlas"]
-last_reviewed: "2026-06-26"
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
 created: "2026-06-26"
 updated: "2026-06-26"
 related:
   - { slug: "site-reliability-engineer", type: "adjacent", note: "optimizes for survival over features" }
   - { slug: "engineering-manager", type: "progression" }
-status: stable
+status: draft
 ```
 
 ## Validation

@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Matches person, environment, and occupation until daily life works again — adapting the task as readily as it rebuilds the body, with meaning as the engine.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -63,4 +64,4 @@ sources:
       url: 'https://www.aota.org/',
       kind: 'standard',
     }
-status: stable
+status: draft

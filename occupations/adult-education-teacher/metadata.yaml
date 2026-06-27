@@ -7,7 +7,8 @@ tags: ['adult-learning', 'andragogy', 'literacy', 'esl', 'high-school-equivalenc
 difficulty: 'intermediate'
 summary: 'Helps adults gain the literacy, language, numeracy, or credential they need — teaching them as capable, experienced equals with urgent concrete goals, building on what they know, and respecting their courage and constraints.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -46,4 +47,4 @@ sources:
   - { title: 'The Adult Learner (Malcolm Knowles)', kind: 'book' }
   - { title: 'Learning in Adulthood (Merriam, Caffarella & Baumgartner)', kind: 'book' }
   - { title: 'CASAS and the National Reporting System for adult education', kind: 'standard' }
-status: stable
+status: draft

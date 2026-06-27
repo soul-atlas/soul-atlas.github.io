@@ -16,7 +16,8 @@ difficulty: advanced
 summary: "Turns a company's carbon, social, and environmental footprint into measured business risk and defensible claims, and drives change through functions it does not own."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -63,4 +64,4 @@ sources:
     }
   - { title: 'GRI Standards', kind: 'standard' }
   - { title: 'TCFD Recommendations', kind: 'standard' }
-status: stable
+status: draft

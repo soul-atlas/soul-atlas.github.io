@@ -6,7 +6,8 @@ tags: ['photography', 'visual-storytelling', 'lighting', 'composition', 'image-e
 difficulty: 'advanced'
 summary: 'How a working photographer reads light, frames the rectangle, times the decisive moment, and edits ruthlessly to make pictures that hold attention.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -43,4 +44,4 @@ sources:
   - { title: 'The Decisive Moment (Henri Cartier-Bresson)', kind: 'book' }
   - { title: 'The Camera / The Negative / The Print (Ansel Adams, Zone System)', kind: 'book' }
   - { title: "The Photographer's Eye (Michael Freeman)", kind: 'book' }
-status: stable
+status: draft

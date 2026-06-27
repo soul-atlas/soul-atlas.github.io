@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Renders the diagnosis behind the diagnosis from tissue, cells, and lab data — gating on specimen adequacy and correlating with the clinical picture so the verdict the tissue carries is the one acted on.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Robbins and Cotran Pathologic Basis of Disease', kind: 'book' }
   - { title: "Rosai and Ackerman's Surgical Pathology", kind: 'book' }
   - { title: 'College of American Pathologists protocols', kind: 'standard' }
-status: stable
+status: draft

@@ -12,7 +12,8 @@ tags: ['fire-prevention', 'life-safety-code', 'egress', 'fire-investigation', 'c
 difficulty: 'intermediate'
 summary: "The preventive arm of the fire service — enforcing fire and life-safety codes, verifying egress and suppression systems will work when needed, and determining a fire's cause so the next one is prevented."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'NFPA 1 Fire Code and NFPA 101 Life Safety Code', kind: 'standard' }
   - { title: 'International Fire Code (IFC)', kind: 'standard' }
   - { title: 'NFPA 921 Guide for Fire and Explosion Investigations', kind: 'standard' }
-status: stable
+status: draft

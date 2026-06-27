@@ -10,8 +10,11 @@ const githubRepo = SITE.githubRepo;
 const dayIndex = Math.floor(Date.parse('2026-06-26') / 86400000) % Math.max(1, souls.length);
 const ofTheDay = souls[dayIndex];
 
-const featured = souls
-  .filter((s) => s.status === 'stable')
+// Prefer practitioner-verified SOULs; fall back to the most complete drafts so
+// the homepage always has something to feature while the corpus is being reviewed.
+const verifiedFeatured = souls.filter((s) => s.verified);
+const featured = (verifiedFeatured.length >= 6 ? verifiedFeatured : souls)
+  .slice()
   .sort((a, b) => b.completeness - a.completeness || b.wordCount - a.wordCount)
   .slice(0, 6);
 

@@ -6,7 +6,8 @@ tags: ['spatial-analysis', 'space-and-place', 'gis', 'regions', 'scale']
 difficulty: 'advanced'
 summary: 'How a geographer thinks: where is a variable not a footnote, scale and units change the answer, near things are more related, and area data cannot indict individuals.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ sources:
   - { title: 'Geography: Realms, Regions, and Concepts (de Blij & Muller)', kind: 'book' }
   - { title: 'Space and Place (Yi-Fu Tuan)', kind: 'book' }
   - { title: 'The Modifiable Areal Unit Problem (Openshaw)', kind: 'book' }
-status: stable
+status: draft

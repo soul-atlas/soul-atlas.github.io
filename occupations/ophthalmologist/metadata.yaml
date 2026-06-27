@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Examines the eye with micron-scale precision to localize problems along the visual axis, catches vision-threatening emergencies before damage becomes permanent, and restores sight medically or with microsurgery.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
   - { title: "Kanski's Clinical Ophthalmology", kind: 'book' }
   - { title: 'The Wills Eye Manual', kind: 'book' }
   - { title: 'AAO Basic and Clinical Science Course', kind: 'standard' }
-status: stable
+status: draft

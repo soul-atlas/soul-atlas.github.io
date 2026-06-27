@@ -6,7 +6,8 @@ tags: ['property-valuation', 'comparables', 'highest-and-best-use', 'independenc
 difficulty: 'intermediate'
 summary: 'The independent expert who estimates what a unique property is worth — developing a credible, evidence-supported value opinion defensible under scrutiny and free of the pressure to hit a desired number.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -49,4 +50,4 @@ sources:
   - { title: 'The Appraisal of Real Estate (Appraisal Institute)', kind: 'book' }
   - { title: 'Uniform Standards of Professional Appraisal Practice (USPAP)', kind: 'standard' }
   - { title: 'The Dictionary of Real Estate Appraisal', kind: 'book' }
-status: stable
+status: draft

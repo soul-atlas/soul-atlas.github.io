@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Bears personal overriding authority for a vessel, planning every passage berth to berth and applying the rules of the road to protect life, ship, and cargo over schedule.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
       kind: 'standard',
     }
   - { title: 'Bridge Team Management (The Nautical Institute)', kind: 'book' }
-status: stable
+status: draft

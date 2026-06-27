@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Designs electrical and electronic systems that meet voltage, current, timing, and signal goals with margin while surviving heat, tolerance, and noise.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'The Art of Electronics', kind: 'book' }
   - { title: 'Noise Reduction Techniques in Electronic Systems', kind: 'book' }
-status: stable
+status: draft

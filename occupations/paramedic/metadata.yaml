@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Brings the first hour of medicine to people where they fall, deciding fast what is killing them and stabilizing for transport with the resources actually on the truck.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ country_variants: []
 sources:
   - { title: 'PHTLS: Prehospital Trauma Life Support (NAEMT)', kind: 'book' }
   - { title: "Nancy Caroline's Emergency Care in the Streets", kind: 'book' }
-status: stable
+status: draft

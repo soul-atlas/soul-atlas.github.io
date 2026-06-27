@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks in rotations of decades, deciding what to cut, grow, and leave so the forest sustains its yield, health, and watershed long after the decision is made.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'The Practice of Silviculture: Applied Forest Ecology', kind: 'book' }
   - { title: 'Forest Mensuration', kind: 'book' }
   - { title: 'Forest Management: To Sustain Ecological, Economic, and Social Values', kind: 'book' }
-status: stable
+status: draft

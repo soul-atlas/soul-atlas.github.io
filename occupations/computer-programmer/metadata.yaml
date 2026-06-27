@@ -6,7 +6,8 @@ tags: ['implementation', 'debugging', 'legacy-maintenance', 'spec-fidelity', 'de
 difficulty: intermediate
 summary: 'Thinks of the spec as a contract, chases faults to root cause through reproduction and bisection, and changes one thing at a time in small reviewable diffs.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -41,4 +42,4 @@ country_variants: []
 sources:
   - { title: 'The Pragmatic Programmer (Hunt & Thomas)', kind: 'book' }
   - { title: 'Code Complete (Steve McConnell)', kind: 'book' }
-status: stable
+status: draft

@@ -13,15 +13,31 @@ deadlines, and this is community-paced.
 - [x] CI validation and automatic GitHub Pages deployment.
 - [x] A launch corpus spanning every major domain as a quality baseline.
 
-## Next — Breadth and depth
+## Next — Verification and depth (the priority)
 
-- [ ] Grow coverage toward full enumeration of occupations across every industry.
-- [ ] Expand beyond occupations into disciplines, communities, and life roles.
-- [ ] Specialization trees (e.g. physician → cardiologist → electrophysiologist). _Sub-specialties
-  now surfaced per SOUL; multi-level interactive trees still to come._
+The launch corpus is AI-drafted scaffolding, marked honestly as such. It becomes
+trustworthy only when people who do the work verify it. Depth and verification now
+matter more than adding nodes.
+
+- [x] Honest provenance: AI-drafted SOULs are `status: draft` / `provenance:
+  ai-generated`, badged "unverified" until a human reviews them.
+- [x] No-account suggestion + verification flow: anyone can correct or vouch for a
+  SOUL from the website, landing as a pull request.
+- [x] `npm run audit` — a specificity signal that surfaces the thinnest entries to
+  review first.
+- [ ] Drive the practitioner-verified share up: recruit reviewers, prioritise the
+  thinnest/abstract entries the audit flags.
+- [ ] A review pass that moves SOULs from `draft` → `review` → `stable` as
+  `reviewers` accumulate.
+- [ ] Specialization trees (e.g. physician → cardiologist → electrophysiologist).
+  _Sub-specialties surfaced per SOUL; multi-level interactive trees still to come._
 - [x] Country/jurisdiction variants surfaced as first-class on the page.
-- [ ] A "completeness" review pass to move SOULs from `draft` → `review` → `stable`.
 - [ ] Diff viewer for comparing revisions of a single SOUL on the site.
+- [ ] Grow coverage toward full enumeration — but depth-per-entry leads breadth.
+
+> **On the knowledge graph:** the schema and graph earn their keep as the corpus
+> grows and people traverse it. Until then, the prose is the product. We invest in
+> making individual SOULs genuinely good before adding graph features.
 
 ## Later — Interoperability and scale
 

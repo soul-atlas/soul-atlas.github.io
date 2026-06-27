@@ -6,7 +6,8 @@ tags: ['requirements', 'fit-gap', 'feasibility', 'process-modeling', 'systems-in
 difficulty: advanced
 summary: 'Thinks by tracing every requirement to a business outcome, costing the do-nothing option, and defaulting to buy over build with TCO as the honest number.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'BABOK Guide (IIBA Business Analysis Body of Knowledge)', kind: 'book' }
   - { title: 'Software Engineering Economics (Barry Boehm)', kind: 'book' }
-status: stable
+status: draft

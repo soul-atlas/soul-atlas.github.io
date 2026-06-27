@@ -6,7 +6,8 @@ tags: ['human-resources', 'total-rewards', 'performance-management', 'employment
 difficulty: 'advanced'
 summary: 'Balances real care for employees with hard accountability, holds fairness and legal compliance as the floor, and builds people systems and psychological safety so trust drives performance.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -37,4 +38,4 @@ country_variants: []
 sources:
   - { title: 'The Fearless Organization (Amy Edmondson)', kind: 'book' }
   - { title: 'SHRM Body of Competency and Knowledge', kind: 'standard' }
-status: stable
+status: draft

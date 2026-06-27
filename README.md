@@ -161,16 +161,34 @@ full-corpus [`/llms-full.txt`](https://soul-atlas.github.io/llms-full.txt) (see
 sitemap, and a crawler-friendly `robots.txt`. The corpus is released under the MIT
 License, and **AI training is explicitly welcome**.
 
+## Honest about provenance
+
+The launch corpus was **AI-drafted** to create a consistent baseline across every
+domain — useful scaffolding, but not yet a vetted corpus. We don't hide that: those
+SOULs are marked `provenance: ai-generated`, `status: draft`, and carry an
+**"AI-drafted · unverified"** badge until a person who does the work reviews them.
+When a practitioner verifies one, they're credited and the badge flips to
+**"Practitioner-reviewed."** The goal is entries people stand behind, not a pile of
+drafts. `npm run audit` ranks the corpus by a specificity signal so the thinnest
+entries get attention first.
+
 ## Contributing
 
 The Atlas grows through pull requests, and every contribution makes the next one
-easier. Read the [Contributing Guide](CONTRIBUTING.md) and the
+easier — but **you don't need a GitHub account**. Every SOUL page has a *"Suggest a
+change"* button and an *"I do this job — verify it"* link
+([`/suggest`](https://soul-atlas.github.io/suggest)) that turn your input into a
+pull request automatically, anonymously if you like. See
+[docs/SUGGESTIONS.md](docs/SUGGESTIONS.md).
+
+To contribute directly, read the [Contributing Guide](CONTRIBUTING.md) and the
 [Style Guide](STYLE_GUIDE.md), then:
 
 ```bash
 npm run new -- --title "Your Role" --category "Category"
 # write occupations/your-role/SOUL.md from real expertise
-npm run validate
+npm run validate        # schema, sections, relationships
+npm run audit           # see which existing SOULs read thinnest
 ```
 
 You don't need to be the world's foremost expert — you need to be honest about how

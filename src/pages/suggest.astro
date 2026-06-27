@@ -1,0 +1,330 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { souls } from '../lib/data';
+import { GITHUB_URL, url } from '../lib/site';
+
+// Static page; the specific SOUL (and optional section / mode) is read from the
+// query string on the client so a single prerendered page serves every SOUL.
+const options = souls
+  .map((s) => ({ slug: s.slug, title: s.title }))
+  .sort((a, b) => a.title.localeCompare(b.title));
+const endpoint = import.meta.env.PUBLIC_SUGGEST_ENDPOINT || '';
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
+const issueBase = `${GITHUB_URL}/issues/new`;
+---
+
+<Layout
+  title="Suggest a change"
+  description="Suggest a correction or verify a SOUL — no GitHub account required."
+>
+  <div class="mx-auto max-w-2xl px-4 py-12">
+    <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Help fix a SOUL</h1>
+    <p class="mt-3 text-base leading-relaxed" style="color:var(--ink-soft)">
+      Most SOULs are AI-drafted first passes. The people who can make them right are the ones who do
+      the work. Tell us what's wrong — or, if you do this job, vouch for what's right. No GitHub
+      account needed: your input becomes a pull request a maintainer reviews.
+    </p>
+
+    <form
+      id="suggest-page-form"
+      class="mt-8 space-y-4"
+      data-endpoint={endpoint}
+      data-issue-base={issueBase}
+    >
+      <div class="card space-y-4 p-5">
+        <div class="flex flex-wrap gap-2" role="tablist" aria-label="Type of contribution">
+          <button
+            type="button"
+            class="btn !py-1.5 text-sm"
+            data-mode="suggestion"
+            aria-pressed="true">Suggest a change</button
+          >
+          <button type="button" class="btn !py-1.5 text-sm" data-mode="review" aria-pressed="false"
+            >I do this job — verify it</button
+          >
+        </div>
+
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium" style="color:var(--ink-soft)">Which SOUL?</span>
+          <select name="slug" class="suggest-input" required>
+            <option value="">— Choose a SOUL —</option>
+            {options.map((o) => <option value={o.slug}>{o.title}</option>)}
+          </select>
+        </label>
+
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+            >Section (optional)</span
+          >
+          <input
+            name="section"
+            class="suggest-input"
+            placeholder="e.g. Mental Models, Failure Modes"
+          />
+        </label>
+
+        <label class="block text-sm" data-when="suggestion">
+          <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+            >What's wrong or missing? <span style="color:#dc2626">*</span></span
+          >
+          <textarea
+            name="problem"
+            rows="4"
+            class="suggest-input"
+            placeholder="Be specific. What does the current text get wrong, and how would a practitioner describe it?"
+          ></textarea>
+        </label>
+
+        <label class="block text-sm hidden" data-when="review">
+          <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+            >Your verdict <span style="color:#dc2626">*</span></span
+          >
+          <textarea
+            name="review"
+            rows="4"
+            class="suggest-input"
+            placeholder="What does this SOUL get right? What's off or missing? Where would a veteran wince?"
+          ></textarea>
+        </label>
+
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+            >Suggested wording (optional)</span
+          >
+          <textarea
+            name="suggestion"
+            rows="3"
+            class="suggest-input"
+            placeholder="Proposed replacement or addition, in your own words."></textarea>
+        </label>
+
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+            >How do you know? <span data-req-review style="color:#dc2626; display:none">*</span
+            ><span class="font-normal" style="color:var(--ink-faint)">
+              (your experience or a source)</span
+            ></span
+          >
+          <input
+            name="basis"
+            class="suggest-input"
+            placeholder="e.g. 15 years as a climbing arborist; or ANSI A300."
+          />
+        </label>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <label class="block text-sm">
+            <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+              >Your name (optional)</span
+            >
+            <input name="name" class="suggest-input" placeholder="Stays anonymous if blank." />
+          </label>
+          <label class="block text-sm">
+            <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
+              >Email (optional)</span
+            >
+            <input
+              name="email"
+              type="email"
+              class="suggest-input"
+              placeholder="Only to follow up. Never published."
+            />
+          </label>
+        </div>
+
+        <label class="flex items-start gap-2 text-sm" style="color:var(--ink-soft)">
+          <input type="checkbox" name="credit_ok" class="mt-1" />
+          <span>Credit me as a reviewer/contributor if this is used (uses the name above).</span>
+        </label>
+
+        <input
+          type="text"
+          name="website"
+          tabindex="-1"
+          autocomplete="off"
+          aria-hidden="true"
+          class="suggest-hp"
+        />
+
+        {
+          turnstileSiteKey && (
+            <div class="cf-turnstile" data-sitekey={turnstileSiteKey} data-theme="auto" />
+          )
+        }
+
+        <p class="suggest-status hidden text-sm" data-status></p>
+
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <a
+            class="text-sm underline"
+            data-gh
+            href={issueBase}
+            target="_blank"
+            rel="noopener"
+            style="color:var(--ink-faint)">Prefer GitHub? Open an issue instead</a
+          >
+          <button type="submit" class="btn btn-accent font-semibold" data-submit>Submit</button>
+        </div>
+      </div>
+      <p class="text-xs" style="color:var(--ink-faint)">
+        By submitting you agree your contribution may be published under the project's
+        <a href={url('/about')} class="underline">MIT License</a>.
+      </p>
+    </form>
+  </div>
+
+  {
+    turnstileSiteKey && (
+      <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer />
+    )
+  }
+
+  <script is:inline>
+    (function () {
+      const form = document.getElementById('suggest-page-form');
+      if (!form) return;
+      const endpoint = form.getAttribute('data-endpoint') || '';
+      const issueBase = form.getAttribute('data-issue-base');
+      const statusEl = form.querySelector('[data-status]');
+      const ghLink = form.querySelector('[data-gh]');
+      const submitBtn = form.querySelector('[data-submit]');
+      const modeBtns = [...form.querySelectorAll('[data-mode]')];
+      const reqReview = form.querySelector('[data-req-review]');
+      let mode = 'suggestion';
+
+      const params = new URLSearchParams(location.search);
+      if (params.get('slug')) form.querySelector('select[name="slug"]').value = params.get('slug');
+      if (params.get('section'))
+        form.querySelector('input[name="section"]').value = params.get('section');
+      if (params.get('mode') === 'review') setMode('review');
+
+      function setMode(m) {
+        mode = m;
+        modeBtns.forEach((b) =>
+          b.setAttribute('aria-pressed', b.getAttribute('data-mode') === m ? 'true' : 'false'),
+        );
+        form.querySelectorAll('[data-when]').forEach((el) => {
+          el.classList.toggle('hidden', el.getAttribute('data-when') !== m);
+        });
+        reqReview.style.display = m === 'review' ? 'inline' : 'none';
+        refreshGh();
+      }
+      modeBtns.forEach((b) =>
+        b.addEventListener('click', () => setMode(b.getAttribute('data-mode'))),
+      );
+
+      function val(name) {
+        const el = form.querySelector(`[name="${name}"]`);
+        return el ? el.value.trim() : '';
+      }
+      function problemText() {
+        return mode === 'review' ? val('review') : val('problem');
+      }
+
+      function issueUrl() {
+        const p = new URLSearchParams({
+          template: 'correction.yml',
+          title: `[${val('slug') || 'soul'}] ${val('section') || mode}`,
+          slug: val('slug'),
+          section: val('section'),
+          problem: problemText(),
+          suggestion: val('suggestion'),
+          basis: val('basis'),
+        });
+        return `${issueBase}?${p.toString()}`;
+      }
+      function refreshGh() {
+        ghLink.href = issueUrl();
+      }
+      form.addEventListener('input', refreshGh);
+      refreshGh();
+
+      function setStatus(msg, kind) {
+        statusEl.textContent = msg;
+        statusEl.classList.remove('hidden');
+        statusEl.style.color =
+          kind === 'error' ? '#dc2626' : kind === 'ok' ? '#047857' : 'var(--ink-soft)';
+      }
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        if (val('website')) return; // honeypot
+        if (!val('slug')) return setStatus('Please choose which SOUL this is about.', 'error');
+        if (problemText().length < 10)
+          return setStatus('Please add a little more detail.', 'error');
+
+        if (!endpoint) {
+          window.open(issueUrl(), '_blank', 'noopener');
+          return;
+        }
+
+        const fd = new FormData(form);
+        const payload = {
+          kind: mode,
+          slug: val('slug'),
+          section: val('section'),
+          problem: problemText(),
+          suggestion: val('suggestion'),
+          basis: val('basis'),
+          name: val('name'),
+          email: val('email'),
+          credit_ok: Boolean(fd.get('credit_ok')),
+          website: val('website'),
+          turnstileToken: (fd.get('cf-turnstile-response') || '').toString(),
+          source: location.href,
+        };
+        submitBtn.disabled = true;
+        setStatus('Submitting…', 'info');
+        try {
+          const res = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+          });
+          const data = await res.json().catch(() => ({}));
+          if (res.ok && data.url) {
+            setStatus('Thank you! Your contribution is now pull request ' + data.url, 'ok');
+            form.querySelector('.card').style.opacity = '0.5';
+          } else {
+            throw new Error(data.error || 'Submission failed');
+          }
+        } catch (err) {
+          setStatus(
+            'Could not submit automatically. Use "Open an issue instead" — it carries your text over.',
+            'error',
+          );
+          refreshGh();
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+    })();
+  </script>
+
+  <style>
+    .suggest-input {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      background: var(--bg-soft);
+      color: var(--ink);
+      padding: 0.5rem 0.65rem;
+      font-size: 0.9rem;
+    }
+    .suggest-input:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 1px;
+    }
+    [data-mode][aria-pressed='true'] {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .suggest-hp {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+    }
+  </style>
+</Layout>

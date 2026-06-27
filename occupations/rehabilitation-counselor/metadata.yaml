@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Aims a person with a disability at work and independent living by matching residual function to job demands, engineering away barriers, and keeping the client's own informed choice at the center."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -61,4 +62,4 @@ sources:
       kind: 'standard',
     }
   - { title: 'Foundations of the Vocational Rehabilitation Process', kind: 'book' }
-status: stable
+status: draft

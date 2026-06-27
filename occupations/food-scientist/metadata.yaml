@@ -6,7 +6,8 @@ tags: ['food-safety', 'formulation', 'shelf-life', 'sensory-science', 'haccp']
 difficulty: 'expert'
 summary: 'How a food scientist thinks: water activity as the master variable, stacking hurdles for safety, and engineering food that stays safe, stable, and acceptable at industrial scale.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -42,4 +43,4 @@ country_variants: []
 sources:
   - { title: "Fennema's Food Chemistry (Damodaran & Parkin)", kind: 'book' }
   - { title: 'FDA Food Code', kind: 'standard' }
-status: stable
+status: draft

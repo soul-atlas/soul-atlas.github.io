@@ -6,7 +6,8 @@ tags: ['bartending', 'cocktails', 'mise-en-place', 'hospitality', 'responsible-s
 difficulty: intermediate
 summary: 'How an expert bartender thinks: spec and balance under speed, the well as cockpit, reading the room continuously, and treating responsible service and cut-offs as core craft.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -39,4 +40,4 @@ specializations: ['craft-cocktail-bartender', 'high-volume-bartender', 'head-bar
 country_variants: []
 sources:
   - { title: 'The Joy of Mixology (Gary Regan)', kind: 'book' }
-status: stable
+status: draft

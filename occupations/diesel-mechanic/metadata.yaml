@@ -6,7 +6,8 @@ tags: ['diesel', 'engine-diagnostics', 'aftertreatment', 'heavy-equipment', 'pow
 difficulty: intermediate
 summary: 'How an expert diesel mechanic diagnoses to root cause across fuel, air, compression, and electronics, reads codes and smoke as symptoms, and repairs emissions systems rather than defeating them.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'Modern Diesel Technology (Sean Bennett)', kind: 'book' }
   - { title: 'OEM service manuals and EPA emissions regulations', kind: 'standard' }
-status: stable
+status: draft

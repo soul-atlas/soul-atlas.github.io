@@ -6,7 +6,8 @@ tags: ['chemistry', 'synthesis', 'characterization', 'reaction-mechanism', 'lab-
 difficulty: 'expert'
 summary: 'How an excellent chemist thinks: reasoning from structure and mechanism, balancing thermodynamics against kinetics, and proving identity and purity with orthogonal methods.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'Organic Chemistry (Clayden, Greeves & Warren)', kind: 'book' }
   - { title: 'The Logic of Chemical Synthesis (Corey & Cheng)', kind: 'book' }
-status: stable
+status: draft

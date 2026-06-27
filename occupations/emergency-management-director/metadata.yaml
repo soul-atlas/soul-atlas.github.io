@@ -19,7 +19,8 @@ tags:
 difficulty: 'advanced'
 summary: "Reduces a community's losses from disasters across mitigation, preparedness, response, and recovery — coordinating fragmented agencies through structure and relationships built before the sirens, not commanded during them."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -69,4 +70,4 @@ sources:
   - { title: 'Introduction to Emergency Management (Haddow, Bullock & Coppola)', kind: 'book' }
   - { title: 'FEMA NIMS and ICS doctrine', kind: 'standard' }
   - { title: 'The Stafford Act and National Response Framework', kind: 'standard' }
-status: stable
+status: draft

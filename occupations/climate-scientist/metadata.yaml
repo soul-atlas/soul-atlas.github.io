@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Constrains a planetary system that cannot be experimented on by closing the energy budget, separating forced signal from internal variability, and projecting futures with calibrated uncertainty.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'Principles of Planetary Climate', kind: 'book' }
   - { title: 'Global Physical Climatology', kind: 'book' }
   - { title: 'IPCC Sixth Assessment Report (AR6) WGI', kind: 'standard' }
-status: stable
+status: draft

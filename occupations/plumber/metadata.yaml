@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Keeps clean water in and dirty water out, isolating the pressurized potable supply from the gravity-fed waste system so the two never mix and sewer gas never enters.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'Uniform Plumbing Code (UPC)', kind: 'standard' }
   - { title: 'International Plumbing Code (IPC)', kind: 'standard' }
   - { title: 'Code Check Plumbing', kind: 'book' }
-status: stable
+status: draft

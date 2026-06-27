@@ -6,7 +6,8 @@ tags: ['clerical', 'records-management', 'data-entry', 'document-processing', 'o
 difficulty: 'foundational'
 summary: "The reliable generalist who keeps the office's administrative machinery running — filing, data entry, and document processing kept accurate, organized, and done, so nothing gets lost or wrong."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -36,4 +37,4 @@ sources:
   - { title: 'ARMA records-management standards', kind: 'standard' }
   - { title: 'Getting Things Done (David Allen)', kind: 'book' }
   - { title: 'ISO 15489 records management principles', kind: 'standard' }
-status: stable
+status: draft

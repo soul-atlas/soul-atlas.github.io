@@ -13,7 +13,8 @@ tags:
 difficulty: advanced
 summary: "How an excellent engineering manager thinks: as a force multiplier balancing delivery, people, and direction so the team's output exceeds the sum of its individuals."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ specializations: ['director-of-engineering', 'platform-engineering-manager', 'fr
 country_variants: []
 sources:
   - { title: "The Manager's Path (Camille Fournier)", kind: 'book' }
-status: stable
+status: draft

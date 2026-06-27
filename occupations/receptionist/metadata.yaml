@@ -7,7 +7,8 @@ tags: ['front-desk', 'visitor-management', 'phone-handling', 'multitasking', 'fi
 difficulty: 'foundational'
 summary: 'The competent, welcoming front line — greeting and directing people, managing calls and information flow, and keeping the front of the organization running, so every first contact feels warm and professional.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -42,4 +43,4 @@ sources:
     }
   - { title: 'How to Win Friends and Influence People (Dale Carnegie)', kind: 'book' }
   - { title: 'Office administration and front-of-house standards', kind: 'documentation' }
-status: stable
+status: draft

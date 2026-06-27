@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Builds interactive systems that manufacture a specific feeling at 60fps, then playtests and tunes until intended experience and felt experience converge.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'Game Programming Patterns', kind: 'book' }
   - { title: 'Game Engine Architecture', kind: 'book' }
   - { title: 'The Art of Game Design: A Book of Lenses', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['space-planning', 'lighting', 'proportion', 'materials', 'ergonomics']
 difficulty: advanced
 summary: 'How an interior designer resolves function, flow, light, and proportion first, then layers material and color so a space works for the life lived inside it.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -42,4 +43,4 @@ country_variants: []
 sources:
   - { title: 'Interior Design Illustrated (Francis D.K. Ching)', kind: 'book' }
   - { title: 'Human Dimension and Interior Space (Panero & Zelnik)', kind: 'book' }
-status: stable
+status: draft

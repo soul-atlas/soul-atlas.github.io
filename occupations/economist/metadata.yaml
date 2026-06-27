@@ -17,7 +17,8 @@ summary: >-
   from correlation and counting the cost of what does not happen.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - title: FRED (Federal Reserve Economic Data)
     url: https://fred.stlouisfed.org/
     kind: other
-status: stable
+status: draft

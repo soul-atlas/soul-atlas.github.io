@@ -13,7 +13,8 @@ tags:
 difficulty: 'advanced'
 summary: 'Runs the linear accelerator to deliver a lethal radiation dose to a tumor while sparing tissue millimeters away — the last human checkpoint before an irreversible beam, reproducing the plan exactly every fraction.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'Principles and Practice of Radiation Therapy (Washington & Leaver)', kind: 'book' }
   - { title: "Khan's The Physics of Radiation Therapy", kind: 'book' }
   - { title: 'ASRT practice standards; ICRP radiation protection', kind: 'standard' }
-status: stable
+status: draft

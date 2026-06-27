@@ -15,7 +15,8 @@ difficulty: expert
 summary: "Stratifies cardiovascular risk and reads the heart's electrical and mechanical signals to open occluded arteries and correct failing pumps fast enough to save muscle and life."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
   - { title: "Braunwald's Heart Disease", kind: 'book' }
   - { title: 'ACC/AHA Clinical Practice Guidelines', kind: 'standard' }
   - { title: "Marriott's Practical Electrocardiography", kind: 'book' }
-status: stable
+status: draft

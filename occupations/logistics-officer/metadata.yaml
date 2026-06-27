@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Bounds the commander's plan in the reality of fuel, ammunition, and movement — managing flow against bottlenecks, distance, and an enemy, and naming the culminating point before the force runs dry."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ country_variants: []
 sources:
   - { title: 'Supplying War: Logistics from Wallenstein to Patton', kind: 'book' }
   - { title: 'Sustainment Operations (ADP 4-0)', kind: 'standard' }
-status: stable
+status: draft

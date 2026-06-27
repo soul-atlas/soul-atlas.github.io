@@ -21,6 +21,12 @@ export interface Related {
   note?: string;
 }
 
+export interface Reviewer {
+  name: string;
+  credential?: string;
+  date?: string;
+}
+
 export interface SoulSummary {
   slug: string;
   title: string;
@@ -29,6 +35,11 @@ export interface SoulSummary {
   aliases: string[];
   difficulty: string | null;
   status: string;
+  provenance: string | null;
+  verified: boolean;
+  unverifiedAiDraft: boolean;
+  reviewers: Reviewer[];
+  lastReviewed: string | null;
   summary: string;
   wordCount: number;
   readingTimeMinutes: number;
@@ -71,6 +82,9 @@ export interface SoulRecord {
     readingTimeMinutes: number;
     completeness: number;
     backlinks: string[];
+    verified: boolean;
+    aiDrafted: boolean;
+    unverifiedAiDraft: boolean;
   };
   git: GitHistory;
   citation: Citation;
@@ -83,6 +97,7 @@ export interface GraphData {
     category: string;
     difficulty: string | null;
     status: string;
+    verified: boolean;
     tags: string[];
     wordCount: number;
     degree: number;
@@ -163,4 +178,39 @@ export const CATEGORY_COLORS: Record<string, string> = {
 
 export function categoryColor(cat: string): string {
   return CATEGORY_COLORS[cat] ?? '#94a3b8';
+}
+
+export interface VerificationBadge {
+  tone: 'verified' | 'unverified';
+  label: string;
+  title: string;
+}
+
+/**
+ * The one place that turns provenance + review state into a user-facing badge.
+ * Honesty is the point: an AI-drafted SOUL nobody has checked says so plainly.
+ */
+export function verificationBadge(s: {
+  verified: boolean;
+  provenance?: string | null;
+  reviewers?: Reviewer[];
+  lastReviewed?: string | null;
+}): VerificationBadge {
+  if (s.verified) {
+    const n = (s.reviewers || []).length;
+    return {
+      tone: 'verified',
+      label: n > 0 ? `Practitioner-reviewed${n > 1 ? ` · ${n}` : ''}` : 'Reviewed',
+      title:
+        n > 0
+          ? `Reviewed against real practice by ${n} ${n === 1 ? 'person' : 'people'}.`
+          : `Last reviewed ${s.lastReviewed || 'by a human'}.`,
+    };
+  }
+  return {
+    tone: 'unverified',
+    label: s.provenance === 'ai-generated' ? 'AI-drafted · unverified' : 'Unverified',
+    title:
+      'A first draft no practitioner has verified yet. Treat it as a starting point, not authority — and tell us where it is wrong.',
+  };
 }

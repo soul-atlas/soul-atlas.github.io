@@ -16,7 +16,8 @@ difficulty: expert
 summary: 'Converts incomplete, noisy clinical information into the most probable diagnosis and least harmful effective treatment for one patient at a time, under unrelenting uncertainty.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -56,4 +57,4 @@ sources:
   - { title: "Harrison's Principles of Internal Medicine", kind: 'book' }
   - { title: 'How Doctors Think', kind: 'book' }
   - { title: 'Principles of Biomedical Ethics (Beauchamp & Childress)', kind: 'book' }
-status: stable
+status: draft

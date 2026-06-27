@@ -19,7 +19,8 @@ tags:
 difficulty: 'intermediate'
 summary: 'Owns the built environment as a twenty-year operating asset — keeping it safe, compliant, comfortable, and running at the lowest total cost so the organization inside never has to think about it.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -65,4 +66,4 @@ sources:
   - { title: 'Total Facilities Management (Atkin & Brooks)', kind: 'book' }
   - { title: 'IFMA competencies and guides', kind: 'standard' }
   - { title: 'NFPA 101 Life Safety Code; ASHRAE standards', kind: 'standard' }
-status: stable
+status: draft

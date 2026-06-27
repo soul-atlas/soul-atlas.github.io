@@ -6,7 +6,8 @@ tags: ['baking', 'fermentation', 'bread', 'pastry', 'food-craft']
 difficulty: expert
 summary: "Thinks in baker's percentages and DDT, reads dough by feel over the clock, and treats fermentation and heat as controllable variables to deliver consistent bread and pastry on a backward-planned schedule."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ sources:
   - { title: "The Bread Baker's Apprentice by Peter Reinhart", kind: 'book' }
   - { title: 'Modernist Bread by Nathan Myhrvold and Francisco Migoya', kind: 'book' }
   - { title: "Bread: A Baker's Book of Techniques and Recipes by Jeffrey Hamelman", kind: 'book' }
-status: stable
+status: draft

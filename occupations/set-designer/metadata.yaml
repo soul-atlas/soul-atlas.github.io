@@ -6,7 +6,8 @@ tags: ['scenic-design', 'visual-storytelling', 'sightlines', 'buildability', 'st
 difficulty: 'advanced'
 summary: "The architect of a story's physical world — translating script and director's vision into an environment that tells the story, works for the audience or camera, and can actually be built and operated."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -45,4 +46,4 @@ sources:
   - { title: 'The Dramatic Imagination (Robert Edmond Jones)', kind: 'book' }
   - { title: 'Theatrical Design and Production (J. Michael Gillette)', kind: 'book' }
   - { title: 'Scene Design and Stage Lighting (Parker, Wolf & Block)', kind: 'book' }
-status: stable
+status: draft

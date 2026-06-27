@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Treats data as guilty until proven clean: builds idempotent, replayable pipelines and tests tables like code so the same input always yields the same trustworthy answer.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'The Data Warehouse Toolkit', kind: 'book' }
   - { title: 'Fundamentals of Data Engineering', kind: 'book' }
   - { title: 'Designing Data-Intensive Applications', kind: 'book' }
-status: stable
+status: draft

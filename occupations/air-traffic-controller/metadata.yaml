@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Holds a live 3-D mental model of all traffic, projects trajectories minutes ahead, and resolves conflicts early to keep aircraft separated by the required minima.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'ICAO Doc 4444 (PANS-ATM)', kind: 'standard' }
   - { title: 'FAA Order JO 7110.65 Air Traffic Control', kind: 'standard' }
   - { title: "The Field Guide to Understanding 'Human Error'", kind: 'book' }
-status: stable
+status: draft

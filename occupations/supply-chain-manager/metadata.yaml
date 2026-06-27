@@ -6,7 +6,8 @@ tags: ['supply-chain', 'inventory', 'forecasting', 'logistics', 's-and-op']
 difficulty: advanced
 summary: 'How an excellent supply chain manager balances service, cost, and cash by managing variability and lead time across an uncertain global network.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -48,4 +49,4 @@ sources:
       kind: 'book',
     }
   - { title: 'APICS/ASCM SCOR model and CPIM body of knowledge', kind: 'standard' }
-status: stable
+status: draft

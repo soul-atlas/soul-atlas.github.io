@@ -6,7 +6,8 @@ tags: ['roofing', 'waterproofing', 'flashing', 'fall-protection', 'construction'
 difficulty: intermediate
 summary: 'How an expert roofer thinks in drainage planes and laps, sheds water by geometry first and materials second, and never trusts a roof to sealant.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'The NRCA Roofing Manual', kind: 'book' }
   - { title: 'OSHA 29 CFR 1926 Subpart M (Fall Protection)', kind: 'standard' }
-status: stable
+status: draft

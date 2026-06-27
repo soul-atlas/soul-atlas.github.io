@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Gets the most out of the players and resources at hand by developing people, designing systems that fit them, and making the calls in the moments that decide games.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'The Score Takes Care of Itself', kind: 'book' }
   - { title: 'Legacy', kind: 'book' }
   - { title: 'Inverting the Pyramid', kind: 'book' }
-status: stable
+status: draft

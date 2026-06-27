@@ -6,7 +6,8 @@ tags: ['industrial-design', 'product-design', 'design-for-manufacture', 'ergonom
 difficulty: 'expert'
 summary: 'How an industrial designer reconciles human need, engineering function, and manufacturing constraint into one buildable, desirable physical form.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -49,4 +50,4 @@ sources:
       title: 'Product Design for Manufacture and Assembly (Boothroyd, Dewhurst & Knight)',
       kind: 'book',
     }
-status: stable
+status: draft

@@ -16,7 +16,8 @@ difficulty: expert
 summary: 'Treats the relationship system rather than the symptom-bearer — reading and shifting the patterns, boundaries, and triangles that keep a couple or family stuck, while holding multipartiality toward everyone in the room.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: 'Families and Family Therapy', kind: 'book' }
   - { title: 'Family Therapy in Clinical Practice', kind: 'book' }
   - { title: 'AAMFT Code of Ethics', kind: 'standard' }
-status: stable
+status: draft

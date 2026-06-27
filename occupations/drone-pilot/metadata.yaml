@@ -16,7 +16,8 @@ difficulty: intermediate
 summary: 'Extracts aerial value safely by managing risk before and during flight, treating the battery and airspace as hard limits and declining the mission when conditions or rules forbid it.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ sources:
   - { title: 'FAA Part 107 Small UAS Rule', kind: 'standard' }
   - { title: "FAA Pilot's Handbook of Aeronautical Knowledge", kind: 'book' }
   - { title: 'The Complete Guide to Drones', kind: 'book' }
-status: stable
+status: draft

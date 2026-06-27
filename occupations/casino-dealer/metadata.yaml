@@ -6,7 +6,8 @@ tags: ['table-games', 'game-integrity', 'money-handling', 'security', 'customer-
 difficulty: 'foundational'
 summary: 'Runs casino table games quickly, accurately, and with absolute integrity — flawless procedure, correct payouts, and vigilant security — while providing the personable service that keeps players at the table.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -29,4 +30,4 @@ sources:
   - { title: 'Casino dealing-school curricula and game-procedure manuals', kind: 'course' }
   - { title: 'Gaming commission regulations and game-integrity standards', kind: 'standard' }
   - { title: 'Responsible-gaming and problem-gambling awareness resources', kind: 'documentation' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['skincare', 'facials', 'hygiene', 'skin-analysis', 'cosmetic-treatment']
 difficulty: 'foundational'
 summary: "Improves clients' skin health and appearance through safe, knowledgeable treatments and honest advice — analyzing skin and treating hygienically within cosmetic scope, while knowing the line to medical care."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -47,4 +48,4 @@ sources:
   - { title: 'Milady Standard Esthetics', kind: 'book' }
   - { title: 'Skin Care: Beyond the Basics (Mark Lees)', kind: 'book' }
   - { title: 'State esthetics licensing and sanitation regulations', kind: 'standard' }
-status: stable
+status: draft

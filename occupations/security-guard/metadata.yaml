@@ -6,7 +6,8 @@ tags: ['observe-and-report', 'access-control', 'deterrence', 'patrol', 'incident
 difficulty: 'intermediate'
 summary: 'How a security guard thinks: observe and report over enforce, deterrence by presence, condition-yellow awareness, and documenting everything as if it will reach a courtroom.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ country_variants: []
 sources:
   - { title: 'ASIS International, Protection of Assets', kind: 'standard' }
   - { title: 'Introduction to Security (Fischer, Halibozek & Walters)', kind: 'book' }
-status: stable
+status: draft

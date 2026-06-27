@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Finds the actual cause of a vehicle fault before replacing anything, fixing the root not the symptom, and never returns a car to the road with a safety defect.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'Automotive Technology: A Systems Approach', kind: 'book' }
   - { title: 'ASE Certification Standards', kind: 'standard' }
   - { title: 'Bosch Automotive Handbook', kind: 'book' }
-status: stable
+status: draft

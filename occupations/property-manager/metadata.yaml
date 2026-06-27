@@ -12,7 +12,8 @@ tags: ['leasing', 'net-operating-income', 'tenant-relations', 'fair-housing', 'a
 difficulty: 'intermediate'
 summary: "The owner's operational steward and the tenant's point of contact at once — maximizing risk-adjusted return through occupancy, income, and asset preservation while treating tenants lawfully and fairly."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'Property Management (Kyle & Baird)', kind: 'book' }
   - { title: 'IREM CPM body of knowledge', kind: 'standard' }
   - { title: 'The Fair Housing Act and landlord-tenant law', kind: 'standard' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Grows another person's capability and judgment over time by lending experience as scaffolding, then deliberately removing it — building independence, not dependence."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -49,4 +50,4 @@ sources:
   - { title: 'Mind in Society', kind: 'book' }
   - { title: 'Mindset', kind: 'book' }
   - { title: 'Coaching for Performance', kind: 'book' }
-status: stable
+status: draft

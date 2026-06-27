@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks in render paths, state placement, and performance budgets; turns designs into fast, accessible interfaces that survive real content on the worst device and network.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'Inclusive Components', kind: 'book' }
   - { title: 'High Performance Browser Networking', kind: 'book' }
   - { title: 'WCAG 2.2', url: 'https://www.w3.org/TR/WCAG22/', kind: 'standard' }
-status: stable
+status: draft

@@ -16,7 +16,8 @@ difficulty: intermediate
 summary: 'Holds the whole order-to-delivery flow in their head, trading time against cost against risk to land freight on time and in full while the chain breaks underneath them.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
       url: 'https://iccwbo.org/business-solutions/incoterms-rules/',
       kind: 'standard',
     }
-status: stable
+status: draft

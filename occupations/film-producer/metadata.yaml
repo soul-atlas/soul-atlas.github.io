@@ -6,7 +6,8 @@ tags: ['film-financing', 'production', 'budgeting', 'rights', 'distribution']
 difficulty: 'expert'
 summary: "How a film producer thinks: own the money, schedule, and business so the film gets finished and delivered, while protecting the director's vision against the budget."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ sources:
   - { title: 'The Movie Business Book (Jason E. Squire)', kind: 'book' }
   - { title: 'The Complete Film Production Handbook (Eve Light Honthaner)', kind: 'book' }
   - { title: 'Film Finance Handbook (Davies & Wistreich)', kind: 'book' }
-status: stable
+status: draft

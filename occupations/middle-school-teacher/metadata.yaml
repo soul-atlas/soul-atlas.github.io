@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks belonging-before-content — reading dysregulated tweens through the developmental earthquake and guarding the learner identity that sets in early adolescence.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'Age of Opportunity', kind: 'book' }
   - { title: 'Mindset', kind: 'book' }
   - { title: 'This We Believe (AMLE)', kind: 'book' }
-status: stable
+status: draft

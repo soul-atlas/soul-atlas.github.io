@@ -7,7 +7,8 @@ tags: ['mine-planning', 'ground-control', 'cutoff-grade', 'drill-and-blast', 'ta
 difficulty: 'advanced'
 summary: 'Converts a fixed, finite orebody into delivered material at the lowest cost and risk over the whole mine life, treating ground control as life safety and cutoff grade as an economic decision.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -61,4 +62,4 @@ sources:
   - { title: 'SME Mining Engineering Handbook', kind: 'book' }
   - { title: 'Introductory Mining Engineering (Hartman & Mutmansky)', kind: 'book' }
   - { title: 'JORC Code / NI 43-101', kind: 'standard' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['nail-care', 'sanitation', 'salon', 'nail-anatomy', 'client-care']
 difficulty: 'intermediate'
 summary: 'How a master nail tech thinks: protect the living tissue, keep a sterile field, match chemistry to the nail, and refer what is medical rather than cosmetic.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -40,4 +41,4 @@ country_variants: []
 sources:
   - { title: 'Milady Standard Nail Technology', kind: 'book' }
   - { title: 'State Cosmetology Board Sanitation Regulations', kind: 'standard' }
-status: stable
+status: draft

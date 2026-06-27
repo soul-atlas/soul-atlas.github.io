@@ -6,7 +6,8 @@ tags: ['narrative', 'prose', 'revision', 'storytelling', 'voice']
 difficulty: 'advanced'
 summary: "How a writer engineers a reader's experience line by line — drafting fast, revising ruthlessly, and choosing between scene and summary to control meaning."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -24,4 +25,4 @@ country_variants: []
 sources:
   - { title: 'The Elements of Style (Strunk & White)', kind: 'book' }
   - { title: 'Story (Robert McKee)', kind: 'book' }
-status: stable
+status: draft

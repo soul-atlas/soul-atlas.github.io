@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Controls tons of force with finesse to move earth and place loads to grade, reading ground, slope, and load charts to stay upright and keep people out of the danger zone.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'OSHA 29 CFR 1926 Subpart P and CC', kind: 'standard' }
   - { title: 'NCCCO Crane Operator Certification', kind: 'standard' }
   - { title: 'Moving the Earth', kind: 'book' }
-status: stable
+status: draft

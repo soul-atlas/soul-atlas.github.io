@@ -6,7 +6,8 @@ tags: ['investigation', 'criminal-justice', 'evidence', 'interviewing', 'forensi
 difficulty: expert
 summary: 'How an investigator reconstructs the truth from fragments, tests case theories against evidence, and builds a case that survives a courtroom.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'Criminal Investigation (Swanson, Chamelin, Territo)', kind: 'book' }
   - { title: 'Practical Homicide Investigation (Geberth)', kind: 'book' }
-status: stable
+status: draft

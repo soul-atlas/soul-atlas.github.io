@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Turns deceptive, partial fragments into the clearest honest assessment of what an adversary can and will do, guarding against bias and stating uncertainty in calibrated confidence the commander can act on.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'Psychology of Intelligence Analysis', kind: 'book' }
   - { title: 'Words of Estimative Probability (Sherman Kent)', kind: 'article' }
-status: stable
+status: draft

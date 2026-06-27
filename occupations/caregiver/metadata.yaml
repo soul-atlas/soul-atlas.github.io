@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Thinks in dignity and function — filling exactly the gaps a dependent person can't, never more, while staying intact enough to keep going."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'Being Mortal', kind: 'book' }
   - { title: 'The 36-Hour Day', kind: 'book' }
   - { title: 'Dementia Reconsidered', kind: 'book' }
-status: stable
+status: draft

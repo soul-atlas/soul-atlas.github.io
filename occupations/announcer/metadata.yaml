@@ -6,7 +6,8 @@ tags: ['broadcasting', 'radio', 'voice', 'live-performance', 'fcc-compliance']
 difficulty: 'advanced'
 summary: 'How an on-air announcer thinks: voice as an instrument under a clock, hitting the post, dead air as the enemy, and the regulator always in the room.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -47,4 +48,4 @@ sources:
   - { title: 'NAB Engineering Handbook', kind: 'book' }
   - { title: 'Television and Radio Announcing (Stuart Hyde)', kind: 'book' }
   - { title: 'FCC Rules 47 CFR Part 73', kind: 'standard' }
-status: stable
+status: draft

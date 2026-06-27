@@ -13,7 +13,8 @@ tags:
 difficulty: 'foundational'
 summary: "The company's voice and ears at the point of trouble — absorbing frustration, diagnosing the real problem, resolving it within authority, and turning a moment of failure into a reason the customer stays."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -51,4 +52,4 @@ sources:
   - { title: 'The Effortless Experience (Dixon, Toman & DeLisi)', kind: 'book' }
   - { title: 'Delivering Happiness (Tony Hsieh)', kind: 'book' }
   - { title: 'Contact-center service and de-escalation standards', kind: 'documentation' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['sheet-metal', 'ductwork', 'hvac', 'fabrication', 'pattern-development']
 difficulty: intermediate
 summary: 'How an expert sheet metal worker thinks in flat-pattern geometry and static-pressure budgets, fabricating sealed duct that delivers the design airflow without choking the fan.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'SMACNA HVAC Duct Construction Standards', kind: 'standard' }
   - { title: 'ASHRAE Handbook — Fundamentals', kind: 'book' }
-status: stable
+status: draft

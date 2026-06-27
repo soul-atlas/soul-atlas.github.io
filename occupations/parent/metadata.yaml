@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Thinks in the long game of raising a child toward independence — building security and judgment while steadily working themselves out of a job.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'A Secure Base', kind: 'book' }
   - { title: 'The Whole-Brain Child', kind: 'book' }
   - { title: 'Childhood and Society', kind: 'book' }
-status: stable
+status: draft

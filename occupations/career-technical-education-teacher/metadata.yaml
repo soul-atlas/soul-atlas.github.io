@@ -18,7 +18,8 @@ summary: >-
   skill in a shop where safety is life-or-death and the product, not a test, is the proof.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
     kind: book
   - title: Cognitive Apprenticeship (Collins, Brown & Newman)
     kind: article
-status: stable
+status: draft

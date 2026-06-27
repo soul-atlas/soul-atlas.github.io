@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Designs and validates medical devices that work safely on real patients, biocompatible and durable, meeting the risk-management and regulatory bar that earns trust.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'ISO 14971 Risk Management for Medical Devices', kind: 'standard' }
   - { title: 'Introduction to Biomedical Engineering', kind: 'book' }
-status: stable
+status: draft

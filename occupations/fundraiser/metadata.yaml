@@ -6,7 +6,8 @@ tags: ['fundraising', 'donor-relations', 'major-gifts', 'nonprofit-development',
 difficulty: 'intermediate'
 summary: 'How a development professional thinks: stewarding donor relationships through a moves-management pipeline, framing a donor-centric case, making the ask, and treating retention as the real engine.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ sources:
     }
   - { title: 'Asking (Jerold Panas)', kind: 'book' }
   - { title: 'Penelope Burk, Donor-Centered Fundraising', kind: 'book' }
-status: stable
+status: draft

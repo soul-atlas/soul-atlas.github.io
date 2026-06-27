@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Infers the nature of objects that can never be touched or experimented on from the light they emit, wringing reliable signal from noise and reasoning from biased samples to robust truth.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'An Introduction to Modern Astrophysics', kind: 'book' }
   - { title: 'Statistics, Data Mining, and Machine Learning in Astronomy', kind: 'book' }
   - { title: 'Astronomical Spectroscopy', kind: 'book' }
-status: stable
+status: draft

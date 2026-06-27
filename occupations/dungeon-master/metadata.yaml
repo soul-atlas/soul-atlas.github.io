@@ -15,7 +15,8 @@ difficulty: intermediate
 summary: 'Runs a fair, fun game for the whole table by prepping situations not scripts, improvising honestly, reading the spotlight, and being a generous fan of the heroes.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -56,4 +57,4 @@ sources:
   - { title: 'Return of the Lazy Dungeon Master', kind: 'book' }
   - { title: "The Monsters Know What They're Doing", kind: 'book' }
   - { title: "Dungeon Master's Guide", kind: 'book' }
-status: stable
+status: draft

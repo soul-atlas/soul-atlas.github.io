@@ -6,7 +6,8 @@ tags: ['real-estate', 'sales', 'negotiation', 'fiduciary-duty', 'lead-generation
 difficulty: advanced
 summary: 'How an expert agent thinks: prices to the market via comps, treats lead generation as the real job, and protects clients as a fiduciary through negotiation and escrow.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'NAR Code of Ethics and Standards of Practice', kind: 'standard' }
   - { title: 'The Millionaire Real Estate Agent (Gary Keller)', kind: 'book' }
-status: stable
+status: draft

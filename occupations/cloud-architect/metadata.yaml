@@ -15,7 +15,8 @@ difficulty: expert
 summary: "Makes the hardest-to-reverse infrastructure decisions on purpose: treats cost, reliability, and security as design parameters and reads the cloud bill as a readout of the architecture's quality."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -62,4 +63,4 @@ sources:
     }
   - { title: 'Fundamentals of Software Architecture', kind: 'book' }
   - { title: 'Designing Data-Intensive Applications', kind: 'book' }
-status: stable
+status: draft

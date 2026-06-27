@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Stewards a software commons by saying no more than yes, treating every merge as a forever liability, and guarding scope, trust, and their own attention against burnout.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'Producing Open Source Software', kind: 'book' }
   - { title: 'The Cathedral and the Bazaar', kind: 'book' }
   - { title: 'Semantic Versioning Specification', url: 'https://semver.org/', kind: 'standard' }
-status: stable
+status: draft

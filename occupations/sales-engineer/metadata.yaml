@@ -7,7 +7,8 @@ tags: ['pre-sales', 'solution-design', 'technical-demos', 'discovery', 'proof-of
 difficulty: 'advanced'
 summary: "Occupies the gap between engineering and sales — technical enough to earn an expert buyer's trust, commercial enough to tie capability to a business outcome, and honest enough to say what the product cannot do."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'Mastering Technical Sales (John Care)', kind: 'book' }
   - { title: 'SPIN Selling (Neil Rackham)', kind: 'book' }
   - { title: 'The Trusted Advisor (Maister, Green & Galford)', kind: 'book' }
-status: stable
+status: draft

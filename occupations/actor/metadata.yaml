@@ -16,7 +16,8 @@ difficulty: expert
 summary: "Lives truthfully under imaginary circumstances by pursuing a character's objective against an obstacle, playing action not emotion, and listening so the scene happens rather than gets shown."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -61,4 +62,4 @@ sources:
   - { title: 'Sanford Meisner on Acting', kind: 'book' }
   - { title: 'Respect for Acting', kind: 'book' }
   - { title: 'The Actor and the Target', kind: 'book' }
-status: stable
+status: draft

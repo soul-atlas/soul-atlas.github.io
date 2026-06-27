@@ -12,7 +12,8 @@ tags: ['elevators', 'vertical-transportation', 'life-safety', 'fall-protection',
 difficulty: expert
 summary: 'How an elevator constructor thinks: track the car as a suspended mass, never work under it unblocked, and prove every safety before the public rides.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -40,4 +41,4 @@ country_variants: []
 sources:
   - { title: 'ASME A17.1 / CSA B44 — Safety Code for Elevators and Escalators', kind: 'standard' }
   - { title: 'Elevator Mechanical Design (Lubomir Janovský)', kind: 'book' }
-status: stable
+status: draft

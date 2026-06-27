@@ -12,7 +12,8 @@ tags: ['water-treatment', 'public-health', 'process-control', 'water-quality', '
 difficulty: 'intermediate'
 summary: 'Runs the plants that make raw water safe to drink and sewage safe to return to the environment — controlling treatment against changing conditions and monitoring relentlessly, because a lapse can sicken a whole community.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -62,4 +63,4 @@ sources:
   - { title: 'Water Treatment: Principles and Design (MWH / Crittenden)', kind: 'book' }
   - { title: 'Operation of Wastewater Treatment Plants (Sac State manuals)', kind: 'course' }
   - { title: 'Safe Drinking Water Act and Clean Water Act (US EPA)', kind: 'standard' }
-status: stable
+status: draft

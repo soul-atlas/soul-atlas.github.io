@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Relieves mental suffering by distinguishing the biological, psychological, and social drivers of distress and choosing the treatment that fits the cause and the person, while keeping them safe.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: "Kaplan & Sadock's Synopsis of Psychiatry", kind: 'book' }
   - { title: 'Diagnostic and Statistical Manual of Mental Disorders (DSM-5-TR)', kind: 'standard' }
   - { title: 'APA Principles of Medical Ethics for Psychiatry', kind: 'standard' }
-status: stable
+status: draft

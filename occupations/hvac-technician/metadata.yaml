@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Moves heat and humidity where people want them by reading the refrigeration cycle through superheat and subcooling, balancing airflow, and keeping combustion vented and carbon monoxide out.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
   - { title: 'ACCA Manual J / Manual D', kind: 'standard' }
   - { title: 'EPA Section 608 Refrigerant Handling', kind: 'standard' }
   - { title: 'Refrigeration and Air Conditioning Technology', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['filmmaking', 'directing', 'staging', 'performance', 'storytelling']
 difficulty: 'expert'
 summary: 'How a director holds one story in their head and shapes performance, staging, and coverage so the edit builds the intended emotional experience for an audience.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -47,4 +48,4 @@ sources:
   - { title: 'Making Movies (Sidney Lumet)', kind: 'book' }
   - { title: 'On Directing Film (David Mamet)', kind: 'book' }
   - { title: 'In the Blink of an Eye (Walter Murch)', kind: 'book' }
-status: stable
+status: draft

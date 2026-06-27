@@ -6,7 +6,8 @@ tags: ['conservation', 'public-lands', 'search-and-rescue', 'wildlife', 'steward
 difficulty: advanced
 summary: 'How a ranger reconciles protecting a resource unimpaired with serving visitors, leading with education, and stewarding land on a fifty-year horizon.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -42,4 +43,4 @@ country_variants: []
 sources:
   - { title: 'A Sand County Almanac (Aldo Leopold)', kind: 'book' }
   - { title: 'Leave No Trace Seven Principles', kind: 'standard' }
-status: stable
+status: draft

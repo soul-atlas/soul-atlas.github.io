@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Keeps patients physiologically stable and humanly cared for across the whole shift, catching deterioration early and advocating for the patient when no one else is in the room.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'Fundamentals of Nursing (Potter & Perry)', kind: 'book' }
   - { title: 'ANA Code of Ethics for Nurses', kind: 'standard' }
   - { title: 'AACN Critical Care Nursing Core Curriculum', kind: 'book' }
-status: stable
+status: draft

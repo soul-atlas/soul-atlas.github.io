@@ -17,7 +17,8 @@ summary: >-
   experiments, and quantifying uncertainty so a skeptic can reproduce the result.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -48,4 +49,4 @@ sources:
     kind: book
   - title: Strong Inference (Platt, Science 1964)
     kind: article
-status: stable
+status: draft

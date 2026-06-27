@@ -6,7 +6,8 @@ tags: ['banking', 'cash-handling', 'fraud-detection', 'customer-service', 'compl
 difficulty: 'foundational'
 summary: 'The trusted human front line of the bank — handling transactions accurately and securely, balancing to the penny, serving customers, and staying alert to fraud, scams, and risk.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -43,4 +44,4 @@ sources:
   - { title: 'American Bankers Association teller training resources', kind: 'course' }
   - { title: 'Bank Secrecy Act / AML and KYC compliance standards', kind: 'standard' }
   - { title: 'FTC resources on fraud and elder scams', kind: 'documentation' }
-status: stable
+status: draft

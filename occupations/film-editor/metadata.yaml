@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks in attention and time, cutting on emotion first to author the final performance and pace so the seams are felt, never seen.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
   - { title: 'In the Blink of an Eye', kind: 'book' }
   - { title: 'The Conversations: Walter Murch and the Art of Editing Film', kind: 'book' }
   - { title: 'The Technique of Film and Video Editing', kind: 'book' }
-status: stable
+status: draft

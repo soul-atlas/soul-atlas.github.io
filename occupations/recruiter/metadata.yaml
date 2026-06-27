@@ -6,7 +6,8 @@ tags: ['recruiting', 'talent-acquisition', 'sourcing', 'hiring', 'candidate-expe
 difficulty: intermediate
 summary: "How an excellent recruiter thinks: as a market-maker matching scarce talent to specific need, reading signal past the resume, running the funnel by its ratios, and closing on the candidate's real motivation."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'Who: The A Method for Hiring (Smart & Street)', kind: 'book' }
   - { title: 'Work Rules! (Laszlo Bock)', kind: 'book' }
-status: stable
+status: draft

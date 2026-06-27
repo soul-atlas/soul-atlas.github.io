@@ -6,7 +6,8 @@ tags: ['grading', 'hydrology', 'planting-design', 'sense-of-place', 'stormwater'
 difficulty: expert
 summary: 'How a landscape architect reads and shapes land so water, plants, and people all work over decades, designing for grading, succession, and a rooted sense of place.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'Design with Nature (Ian McHarg)', kind: 'book' }
   - { title: 'Site Engineering for Landscape Architects (Strom, Nathan, Woland)', kind: 'book' }
-status: stable
+status: draft

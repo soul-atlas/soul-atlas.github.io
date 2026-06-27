@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Holds the athlete's health above the scoreboard, ruling out the catastrophe first and clearing return-to-play on criteria met, not the calendar or the crowd."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'NATA Position Statements', kind: 'standard' }
   - { title: 'Examination of Orthopedic & Athletic Injuries (Starkey & Brown)', kind: 'book' }
   - { title: 'Principles of Athletic Training (Prentice/Arnheim)', kind: 'book' }
-status: stable
+status: draft

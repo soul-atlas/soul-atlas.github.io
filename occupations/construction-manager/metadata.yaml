@@ -7,7 +7,8 @@ tags: ['scheduling', 'critical-path', 'cost-control', 'site-safety', 'trade-coor
 difficulty: 'advanced'
 summary: "The single throat to choke between an owner's intent and a finished, safe structure — sequencing trades and money so each can do its part without tripping over the others, and catching the problem while it is still cheap."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -49,4 +50,4 @@ sources:
   - { title: 'Construction Project Management (Gould & Joyce)', kind: 'book' }
   - { title: "CPM in Construction Management (O'Brien & Plotnick)", kind: 'book' }
   - { title: 'OSHA 29 CFR 1926 (Construction safety standards)', kind: 'standard' }
-status: stable
+status: draft

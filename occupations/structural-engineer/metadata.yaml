@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Designs the load-carrying skeleton so every load reaches the ground through a redundant, ductile path with code margins against collapse and extreme events.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ country_variants: []
 sources:
   - { title: 'ASCE 7 Minimum Design Loads', kind: 'standard' }
   - { title: 'AISC Steel Construction Manual', kind: 'book' }
-status: stable
+status: draft

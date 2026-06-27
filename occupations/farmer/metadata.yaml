@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Turns soil, seed, weather, and borrowed capital into a profitable crop on a fixed annual clock, managing a biological system against forces nobody controls while protecting the soil that feeds next year.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
       kind: 'standard',
     }
   - { title: 'Modern Corn and Soybean Production', kind: 'book' }
-status: stable
+status: draft

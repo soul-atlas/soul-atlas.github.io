@@ -6,7 +6,8 @@ tags: ['pressure-vessels', 'asme-code', 'code-welding', 'confined-space', 'turna
 difficulty: advanced
 summary: 'How an expert boilermaker thinks: a pressure vessel stores energy, every code weld must be qualified and proven, and no shortcut survives the discipline that failure is catastrophic.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -41,4 +42,4 @@ country_variants: []
 sources:
   - { title: 'ASME Boiler & Pressure Vessel Code, Section I and Section VIII', kind: 'standard' }
   - { title: 'National Board Inspection Code (NBIC)', kind: 'standard' }
-status: stable
+status: draft

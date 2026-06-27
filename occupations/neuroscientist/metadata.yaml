@@ -6,7 +6,8 @@ tags: ['neuroscience', 'brain', 'causal-inference', 'neuroimaging', 'electrophys
 difficulty: expert
 summary: 'Thinks in levels of analysis and earns causal claims about the brain through perturbation, treating every measurement as a proxy and every correlation as a suspect.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ country_variants: []
 sources:
   - { title: 'Principles of Neural Science (Kandel, Schwartz & Jessell)', kind: 'book' }
   - { title: 'Vision (David Marr)', kind: 'book' }
-status: stable
+status: draft

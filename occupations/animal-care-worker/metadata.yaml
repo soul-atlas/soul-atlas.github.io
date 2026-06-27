@@ -14,7 +14,8 @@ tags: ['animal-welfare', 'animal-handling', 'husbandry', 'behavior-reading', 'en
 difficulty: 'foundational'
 summary: 'The daily hands-on presence in the lives of animals in human care — meeting their needs, reading the signals of a creature that cannot speak, handling them safely, and noticing trouble early.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -57,4 +58,4 @@ sources:
   - { title: 'Animal Welfare (Appleby, Mench, Olsson & Hughes)', kind: 'book' }
   - { title: 'Animals in Translation (Temple Grandin)', kind: 'book' }
   - { title: 'Fear Free / low-stress handling certification', kind: 'course' }
-status: stable
+status: draft

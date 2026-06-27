@@ -17,7 +17,8 @@ summary: >-
   real input distribution and proving it with evals, not vibes.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
     kind: article
   - title: OWASP Top 10 for LLM Applications
     kind: standard
-status: stable
+status: draft

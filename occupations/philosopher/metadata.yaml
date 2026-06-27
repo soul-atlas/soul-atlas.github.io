@@ -17,7 +17,8 @@ summary: >-
   distinctions, and thought experiments until only what survives the reasons is held.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - title: Stanford Encyclopedia of Philosophy
     url: https://plato.stanford.edu/
     kind: other
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['customer-success', 'retention', 'saas', 'renewals', 'account-management'
 difficulty: intermediate
 summary: 'How an excellent CSM thinks: in customer outcomes and net revenue retention, treating each account as a portfolio of churn risk and expansion opportunity to be managed early, not reactively.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -39,4 +40,4 @@ specializations: ['renewals-specialist', 'scaled-cs', 'enterprise-csm']
 country_variants: []
 sources:
   - { title: 'Customer Success (Mehta, Steinman, Murphy)', kind: 'book' }
-status: stable
+status: draft

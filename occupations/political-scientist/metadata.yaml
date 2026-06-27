@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Explains how power is acquired, exercised, and constrained by treating the polity as something to measure, model, and compare, while wringing credible causal claims from a world that resists experiment.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Leviathan', kind: 'book' }
   - { title: 'The Logic of Collective Action', kind: 'book' }
   - { title: 'Governing the Commons', kind: 'book' }
-status: stable
+status: draft

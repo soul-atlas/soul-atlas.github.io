@@ -6,7 +6,8 @@ tags: ['specialty-coffee', 'espresso', 'dialing-in', 'mise-en-place', 'hospitali
 difficulty: intermediate
 summary: 'How an expert barista thinks: steering the dose-yield-time triangle by taste, overlapping shots and milk under a rush, and treating consistency and hospitality as one craft.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -44,4 +45,4 @@ specializations: ['Latte Artist', 'Head Barista', 'Competition Barista']
 country_variants: []
 sources:
   - { title: 'The World Atlas of Coffee by James Hoffmann', kind: 'book' }
-status: stable
+status: draft

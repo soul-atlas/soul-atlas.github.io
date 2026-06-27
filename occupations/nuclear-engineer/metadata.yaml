@@ -13,7 +13,8 @@ tags:
 difficulty: 'expert'
 summary: 'Extracts energy from the nucleus under a unique constraint — the heat never stops — using defense-in-depth and conservatism to keep radioactive material confined through every credible failure.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -69,4 +70,4 @@ sources:
   - { title: 'Nuclear Systems (Todreas & Kazimi)', kind: 'book' }
   - { title: 'US NRC Regulations (10 CFR)', kind: 'standard' }
   - { title: 'IAEA Safety Standards Series', kind: 'standard' }
-status: stable
+status: draft

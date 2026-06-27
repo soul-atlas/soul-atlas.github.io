@@ -6,7 +6,8 @@ tags: ['fashion', 'silhouette', 'draping', 'fit', 'collection-design']
 difficulty: 'expert'
 summary: 'How a fashion designer thinks across cloth physics, the moving body, and social meaning to resolve silhouette, drape, and fit into a wearable collection.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'Patternmaking for Fashion Design (Helen Joseph-Armstrong)', kind: 'book' }
   - { title: 'The Art of Fashion Draping (Connie Amaden-Crawford)', kind: 'book' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Creates the diagnostic image in real time by reasoning from echoes, optimizing the machine, and recognizing pathology while the patient is still on the table.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'Diagnostic Ultrasound (Rumack & Levine)', kind: 'book' }
   - { title: 'Understanding Ultrasound Physics (Edelman)', kind: 'book' }
   - { title: 'AIUM Practice Parameters', kind: 'standard' }
-status: stable
+status: draft

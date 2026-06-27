@@ -13,7 +13,8 @@ tags:
 difficulty: 'intermediate'
 summary: 'How an L&D professional thinks: diagnosing whether a problem is even a training problem, designing for adult learners, and proving capability actually transferred to the job.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'The Adult Learner (Malcolm Knowles)', kind: 'book' }
   - { title: 'Evaluating Training Programs (Donald Kirkpatrick)', kind: 'book' }
   - { title: "Telling Ain't Training (Harold Stolovitch)", kind: 'book' }
-status: stable
+status: draft

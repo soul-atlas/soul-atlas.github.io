@@ -13,7 +13,8 @@ tags:
 difficulty: 'intermediate'
 summary: "The nurse, lab tech, anesthetist, and radiographer of the animal world combined — providing skilled care to patients who cannot speak, monitoring vigilantly for hidden signs, under the veterinarian's direction."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -63,4 +64,4 @@ sources:
   - { title: "McCurnin's Clinical Textbook for Veterinary Technicians", kind: 'book' }
   - { title: 'Anesthesia and Analgesia for Veterinary Technicians (Bryant)', kind: 'book' }
   - { title: 'AVMA / NAVTA scope-of-practice and credentialing standards', kind: 'standard' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Designs machines and parts that carry load with margin, manage heat and vibration, and can actually be manufactured within real tolerances.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ country_variants: []
 sources:
   - { title: "Shigley's Mechanical Engineering Design", kind: 'book' }
   - { title: 'Materials Selection in Mechanical Design', kind: 'book' }
-status: stable
+status: draft

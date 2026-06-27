@@ -6,7 +6,8 @@ tags: ['sql', 'dashboards', 'metrics', 'business-intelligence', 'decision-suppor
 difficulty: intermediate
 summary: 'Thinks from the decision backward: scopes the question, distrusts the data until it ties to a source of truth, segments before concluding, and ships a recommendation, not a data dump.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ country_variants: []
 sources:
   - { title: 'Storytelling with Data (Cole Nussbaumer Knaflic)', kind: 'book' }
   - { title: 'Trustworthy Online Controlled Experiments (Kohavi, Tang, Xu)', kind: 'book' }
-status: stable
+status: draft

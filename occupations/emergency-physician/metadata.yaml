@@ -18,7 +18,8 @@ summary: >-
   dispositions them safely, acting decisively without ever needing a final diagnosis.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ sources:
     kind: book
   - title: Advanced Cardiovascular Life Support (ACLS)
     kind: standard
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['point-of-sale', 'cash-handling', 'customer-service', 'transactions', 'lo
 difficulty: 'foundational'
 summary: "The store's financial control point and front-line ambassador at once — processing transactions accurately and honestly, keeping the line moving, and leaving each customer with a good last impression."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -40,4 +41,4 @@ sources:
     }
   - { title: 'The Customer Rules (Lee Cockerell)', kind: 'book' }
   - { title: 'Retail cash-handling and PCI payment-security standards', kind: 'standard' }
-status: stable
+status: draft

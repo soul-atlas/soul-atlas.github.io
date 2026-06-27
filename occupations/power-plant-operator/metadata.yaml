@@ -6,7 +6,8 @@ tags: ['power-generation', 'grid-balance', 'control-room', 'operating-envelope',
 difficulty: 'advanced'
 summary: 'Runs the machinery that generates electricity safely and reliably — keeping the plant inside its safe envelope and synchronized with the grid, matching output to demand moment by moment, and stabilizing upsets before they cascade.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -57,4 +58,4 @@ sources:
   - { title: 'Power Plant Engineering (Black & Veatch)', kind: 'book' }
   - { title: 'NERC operating standards', kind: 'standard' }
   - { title: "Boiler Operator's Handbook (Heselton)", kind: 'book' }
-status: stable
+status: draft

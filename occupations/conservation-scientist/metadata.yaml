@@ -12,7 +12,8 @@ tags: ['land-management', 'ecosystem-services', 'sustained-yield', 'restoration'
 difficulty: 'expert'
 summary: 'How a conservation scientist thinks: working land managed for sustained yield and ecological function together, conservation over preservation, and trust as the limiting nutrient.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ country_variants: []
 sources:
   - { title: 'A Sand County Almanac (Aldo Leopold)', kind: 'book' }
   - { title: 'NRCS National Planning Procedures Handbook', kind: 'standard' }
-status: stable
+status: draft

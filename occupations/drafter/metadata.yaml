@@ -6,7 +6,8 @@ tags: ['technical-drawing', 'cad', 'gd-and-t', 'tolerancing', 'bim']
 difficulty: 'intermediate'
 summary: 'Translates engineering and architectural intent into precise, unambiguous, standards-compliant drawings and models, so the person making the part or building it never has to guess.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -49,4 +50,4 @@ sources:
   - { title: 'Technical Drawing with Engineering Graphics (Giesecke et al.)', kind: 'book' }
   - { title: 'ASME Y14.5 Dimensioning and Tolerancing', kind: 'standard' }
   - { title: 'Geometric Dimensioning and Tolerancing (Krulikowski)', kind: 'book' }
-status: stable
+status: draft

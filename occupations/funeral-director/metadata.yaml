@@ -6,7 +6,8 @@ tags: ['death-care', 'grief-support', 'ftc-funeral-rule', 'bereavement', 'mortua
 difficulty: advanced
 summary: "Serves the living more than the dead: reads a grieving family's dynamics, offers honest itemized choices without selling, honors every custom exactly, and holds the body with unobserved dignity."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'FTC Funeral Rule (16 CFR Part 453)', kind: 'standard' }
   - { title: 'The American Way of Death Revisited (Jessica Mitford)', kind: 'book' }
-status: stable
+status: draft

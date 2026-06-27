@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks in two parallel tracks — making the world sharp through refraction while hunting the asymptomatic sight-threatening disease behind every routine eye exam, and knowing when the eye belongs to a surgeon.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: "Kanski's Clinical Ophthalmology", kind: 'book' }
   - { title: "Borish's Clinical Refraction", kind: 'book' }
   - { title: 'The Wills Eye Manual', kind: 'book' }
-status: stable
+status: draft

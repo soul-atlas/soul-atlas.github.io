@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Turns incomplete information into a defensible estimate of value and risk, honest about its own uncertainty, so capital flows to the best risk-adjusted return.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'Security Analysis', kind: 'book' }
   - { title: 'Investment Valuation (Damodaran)', kind: 'book' }
   - { title: 'CFA Institute Standards of Professional Conduct', kind: 'standard' }
-status: stable
+status: draft

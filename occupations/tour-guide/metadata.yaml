@@ -13,7 +13,8 @@ tags:
 difficulty: 'foundational'
 summary: "Turns a place into a meaningful, engaging, and safe experience — revealing its story and significance, keeping a group of strangers together and well, and creating a memorable day they couldn't have had alone."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -43,4 +44,4 @@ sources:
   - { title: 'Interpreting Our Heritage (Freeman Tilden)', kind: 'book' }
   - { title: 'Conducting Tours (Marc Mancini)', kind: 'book' }
   - { title: 'National Association for Interpretation (NAI) resources', kind: 'documentation' }
-status: stable
+status: draft

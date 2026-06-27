@@ -6,7 +6,8 @@ tags: ['locks', 'access-control', 'key-systems', 'security', 'lockout']
 difficulty: intermediate
 summary: 'How an expert locksmith thinks about access as a system, opens locks by feel before force, designs key control, and verifies authority before any mechanism is touched.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'Locksmithing (Bill Phillips)', kind: 'book' }
   - { title: 'ALOA training curriculum and ANSI/BHMA A156 hardware standards', kind: 'standard' }
-status: stable
+status: draft

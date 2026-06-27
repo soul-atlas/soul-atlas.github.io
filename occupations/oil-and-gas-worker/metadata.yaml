@@ -6,7 +6,8 @@ tags: ['drilling', 'oilfield', 'well-control', 'rig-safety', 'extraction']
 difficulty: 'foundational'
 summary: 'The physical, skilled, safety-critical crew of extraction — running the rigs, wells, and field equipment that produce oil and gas, working around the clock amid serious hazards in one of the more dangerous industries.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -49,4 +50,4 @@ sources:
   - { title: 'IADC well-control and drilling safety standards', kind: 'standard' }
   - { title: 'Fundamentals of Drilling Engineering (SPE)', kind: 'book' }
   - { title: 'OSHA oil and gas extraction safety standards', kind: 'standard' }
-status: stable
+status: draft

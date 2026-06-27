@@ -14,7 +14,8 @@ difficulty: advanced
 summary: 'How a neutral thinks: serving the process while parties own the outcome, converting positions into interests, and reality-testing alternatives to reach durable agreements.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 specializations:
@@ -27,7 +28,7 @@ sources:
     kind: book
   - title: 'The Mediation Process'
     kind: book
-status: stable
+status: draft
 related:
   - {
       slug: 'lawyer',

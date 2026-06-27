@@ -16,7 +16,8 @@ difficulty: advanced
 summary: "Stands in for the absent expert: anticipates a stranger's question and answers it in the fewest words, keeping it true as the product changes underneath."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Developing Quality Technical Information', kind: 'book' }
   - { title: 'The Nurnberg Funnel', kind: 'book' }
   - { title: 'Diataxis Framework', url: 'https://diataxis.fr/', kind: 'standard' }
-status: stable
+status: draft

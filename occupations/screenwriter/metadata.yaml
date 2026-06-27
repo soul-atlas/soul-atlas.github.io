@@ -6,7 +6,8 @@ tags: ['screenwriting', 'story-structure', 'dialogue', 'subtext', 'film']
 difficulty: advanced
 summary: 'How a screenwriter engineers scene-by-scene structure, externalizes interiority into behavior, and buries meaning in subtext so a story works on screen.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -32,4 +33,4 @@ country_variants: []
 sources:
   - { title: 'Story (Robert McKee)', kind: 'book' }
   - { title: 'Screenplay (Syd Field)', kind: 'book' }
-status: stable
+status: draft

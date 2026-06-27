@@ -6,7 +6,8 @@ tags: ['community-supervision', 'risk-assessment', 'rnr-model', 'reentry', 'beha
 difficulty: 'advanced'
 summary: 'How a probation officer thinks: public safety through behavior change, the cop/social-worker tension, risk-need-responsivity over gut feel, and deciding when supervision must become incarceration.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ country_variants: []
 sources:
   - { title: 'The Psychology of Criminal Conduct (Andrews & Bonta)', kind: 'book' }
   - { title: 'Motivational Interviewing (Miller & Rollnick)', kind: 'book' }
-status: stable
+status: draft

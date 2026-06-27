@@ -6,7 +6,8 @@ tags: ['driving', 'passenger-safety', 'navigation', 'service', 'self-employment'
 difficulty: 'foundational'
 summary: "Provides on-demand point-to-point transport — getting passengers safely and efficiently where they're going at a fair price, managing the road, the route, the money, and the people, with their safety first."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -40,4 +41,4 @@ sources:
   - { title: 'Traffic: Why We Drive the Way We Do (Tom Vanderbilt)', kind: 'book' }
   - { title: 'Commercial and defensive-driving training standards', kind: 'course' }
   - { title: 'Local taxi commission and rideshare regulations', kind: 'standard' }
-status: stable
+status: draft

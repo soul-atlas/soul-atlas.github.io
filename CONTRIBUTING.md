@@ -3,12 +3,36 @@
 Thank you for helping map how humans think. Every SOUL you add or improve makes the
 Atlas more useful to the next reader — human or machine.
 
-There are three ways to contribute, in rough order of value:
+Most SOULs today are **AI-drafted first passes** — honest scaffolding, marked
+`status: draft` / `provenance: ai-generated` and badged "unverified" on the site
+until a person who does the work has checked them. The most valuable thing you can
+do is tell us where they're wrong.
 
-1. **Improve an existing SOUL** — sharpen a heuristic, add a failure mode, fix a
+There are several ways to contribute, in rough order of value:
+
+1. **Verify a SOUL you have lived** — if you do (or did) the job, vouch for what's
+   right and flag what's thin or wrong. This is what turns a draft into a
+   practitioner-reviewed entry. No coding required.
+2. **Improve an existing SOUL** — sharpen a heuristic, add a failure mode, fix a
    mischaracterization. The fastest way to learn the format.
-2. **Add a new SOUL** — capture a way of thinking that isn't here yet.
-3. **Improve the platform** — the engine, website, schema, or docs.
+3. **Add a new SOUL** — capture a way of thinking that isn't here yet.
+4. **Improve the platform** — the engine, website, schema, or docs.
+
+## No GitHub account? No problem
+
+Every SOUL page has a **"Suggest a change"** button and an **"I do this job —
+verify it"** link. They open a short form ([`/suggest`](https://soul-atlas.github.io/suggest))
+that turns your input into a pull request automatically — anonymously if you like.
+You don't need to know git, the schema, or the build. If you'd rather use GitHub
+directly, the templated [issue forms](https://github.com/soul-atlas/soul-atlas.github.io/issues/new/choose)
+work too.
+
+## Finding what needs work
+
+`npm run audit` ranks every SOUL by a rough **specificity signal** — the entries
+most likely to read like paraphrase float to the top of the worklist. It's a
+triage aid, not a verdict (plain-language trades can score low while reading
+well), but it's a good place to start looking for thin sections to deepen.
 
 ## Before you start
 
@@ -52,6 +76,28 @@ Connect your SOUL into the graph with 4–6 `related` entries, using varied type
 (`related`, `specialization`, `prerequisite`, `adjacent`, `collaboration`,
 `progression`). Reference only slugs that already exist. A well-connected SOUL is far
 more useful than an island.
+
+## Verifying a SOUL (provenance & review)
+
+Trust comes from being honest about what each SOUL is. Three metadata fields carry
+that signal:
+
+- `provenance` — `human`, `ai-assisted`, or `ai-generated`. Be truthful about how
+  the first draft was written.
+- `last_reviewed` — the ISO date a human checked it for accuracy. `null` means
+  nobody has yet.
+- `reviewers` — people who vouched for it against real practice, ideally with a
+  short credential.
+
+```yaml
+reviewers:
+  - { name: 'Jordan Lee', credential: '15 years as a climbing arborist', date: '2026-07-01' }
+```
+
+When you verify a SOUL from real experience, add yourself to `reviewers`, set
+`last_reviewed`, and move `status` from `draft` toward `review`/`stable`. That flips
+the site badge from **"AI-drafted · unverified"** to **"Practitioner-reviewed"**.
+Don't mark something reviewed unless a person actually read it for accuracy.
 
 ## Pull request checklist
 

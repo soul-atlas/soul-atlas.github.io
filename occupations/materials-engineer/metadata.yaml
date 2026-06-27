@@ -12,7 +12,8 @@ tags: ['materials-selection', 'failure-analysis', 'metallurgy', 'microstructure'
 difficulty: 'advanced'
 summary: 'Bridges what a designer wants from a part and what atoms allow, owning the processing-structure-properties chain and reading fracture surfaces to explain why things break.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Materials Science and Engineering: An Introduction (Callister)', kind: 'book' }
   - { title: 'Materials Selection in Mechanical Design (Ashby)', kind: 'book' }
   - { title: 'ASM Handbook Vol. 11: Failure Analysis and Prevention', kind: 'standard' }
-status: stable
+status: draft

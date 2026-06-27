@@ -6,7 +6,8 @@ tags: ['design', 'built-environment', 'parti', 'structure', 'space-planning']
 difficulty: 'expert'
 summary: 'How an architect synthesizes program, site, structure, budget, and code into buildable form — thinking in section and parti while protecting the idea through cost and construction.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -41,4 +42,4 @@ country_variants: []
 sources:
   - { title: 'Architecture: Form, Space, and Order (Francis D.K. Ching)', kind: 'book' }
   - { title: 'Towards a New Architecture (Le Corbusier)', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['operations', 'lean', 'theory-of-constraints', 'six-sigma', 'throughput']
 difficulty: 'advanced'
 summary: 'Sees the whole system, finds the single constraint that governs throughput, and improves flow rather than utilization while building quality in at the source.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -36,4 +37,4 @@ country_variants: []
 sources:
   - { title: 'The Goal (Eliyahu Goldratt)', kind: 'book' }
   - { title: 'Lean Thinking (Womack & Jones)', kind: 'book' }
-status: stable
+status: draft

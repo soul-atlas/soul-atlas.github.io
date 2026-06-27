@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Produces trustworthy information about software quality by designing the cheapest tests that find the most damaging bugs, automating the stable and exploring the unknown.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: 'Lessons Learned in Software Testing', kind: 'book' }
   - { title: 'Agile Testing', kind: 'book' }
   - { title: 'ISTQB Foundation Syllabus', kind: 'standard' }
-status: stable
+status: draft

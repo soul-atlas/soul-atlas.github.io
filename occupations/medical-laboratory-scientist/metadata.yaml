@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Turns a sample into a number clinicians can trust without seeing the work, guarding the whole chain from vein to report against the artifacts and errors that would make a result lie.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: "Henry's Clinical Diagnosis and Management by Laboratory Methods", kind: 'book' }
   - { title: 'Tietz Textbook of Clinical Chemistry and Molecular Diagnostics', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['genetics', 'genomics', 'variant-interpretation', 'crispr', 'inheritance'
 difficulty: expert
 summary: 'How an expert reasons from DNA variation through transmission to phenotype, separating genetic from environmental and causal from correlated.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
       title: 'ACMG/AMP Standards and Guidelines for the Interpretation of Sequence Variants (Richards et al., 2015)',
       kind: 'standard',
     }
-status: stable
+status: draft

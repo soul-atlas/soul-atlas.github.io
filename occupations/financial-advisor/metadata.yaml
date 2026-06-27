@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks goals-first and fiduciary-first: solves allocation backward from liabilities, weighs risk capacity over tolerance, and treats behavior, costs, and taxes as the real levers.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 specializations:
@@ -28,7 +29,7 @@ sources:
     kind: book
   - title: 'Thinking, Fast and Slow'
     kind: book
-status: stable
+status: draft
 related:
   - {
       slug: 'financial-analyst',

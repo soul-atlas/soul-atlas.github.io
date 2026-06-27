@@ -16,7 +16,8 @@ difficulty: expert
 summary: "Pushes a discipline's frontier outward through rigorous original research while training the next generation of independent thinkers to replace and surpass them."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'The Structure of Scientific Revolutions', kind: 'book' }
   - { title: 'A PhD Is Not Enough!', kind: 'book' }
   - { title: 'The Craft of Research', kind: 'book' }
-status: stable
+status: draft

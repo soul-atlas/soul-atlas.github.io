@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks by localizing the lesion along the auditory pathway from the audiogram, separating conductive from sensorineural loss, catching the asymmetry that hides a tumor, then rebuilding access to sound with verified technology.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -56,4 +57,4 @@ sources:
       title: 'JCIH Position Statement (Early Hearing Detection and Intervention)',
       kind: 'standard',
     }
-status: stable
+status: draft

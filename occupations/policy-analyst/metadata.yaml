@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Brings disciplined reasoning to consequential choices, framing the real problem and comparing alternatives against the counterfactual while telling the truth about tradeoffs.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'A Practical Guide for Policy Analysis: The Eightfold Path', kind: 'book' }
   - { title: 'Poor Economics', kind: 'book' }
   - { title: 'OECD Best Practice Principles for Regulatory Impact Assessment', kind: 'standard' }
-status: stable
+status: draft

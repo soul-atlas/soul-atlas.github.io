@@ -6,7 +6,8 @@ tags: ['aviation-maintenance', 'airworthiness', 'faa-compliance', 'inspection', 
 difficulty: advanced
 summary: 'How an expert aircraft mechanic keeps aircraft airworthy through approved data, traceable parts, AD compliance, and torque-and-safety discipline, with documentation as part of the work itself.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -42,4 +43,4 @@ country_variants: []
 sources:
   - { title: 'FAA Airframe and Powerplant Handbooks (FAA-H-8083 series)', kind: 'book' }
   - { title: '14 CFR Parts 43, 65, 91, 121, 145 (FAA maintenance regulations)', kind: 'standard' }
-status: stable
+status: draft

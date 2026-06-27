@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Turns a commander's intent into coordinated, lawful, lethal action under fire — deciding faster than the enemy while holding a frightened unit together and owning the moral weight of command."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'On War', kind: 'book' }
   - { title: 'Mission Command (ADP 6-0)', kind: 'standard' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks first about ruling out the dangerous mimics of back pain, then uses hands, movement, and reassurance to get stiff joints moving while knowing exactly when to refer out.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -57,4 +58,4 @@ sources:
   - { title: "Greenman's Principles of Manual Medicine", kind: 'book' }
   - { title: 'NICE Guideline NG59 (Low back pain and sciatica)', kind: 'standard' }
   - { title: 'The Back Pain Revolution (Waddell)', kind: 'book' }
-status: stable
+status: draft

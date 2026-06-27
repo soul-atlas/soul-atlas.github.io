@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Reasons from professional skepticism toward sufficient appropriate evidence, weighing materiality and audit risk to form a defensible opinion on whether the numbers are fairly stated.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ specializations:
 country_variants: []
 sources:
   - { title: "Montgomery's Auditing", kind: 'book' }
-status: stable
+status: draft

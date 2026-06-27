@@ -6,7 +6,8 @@ tags: ['public-administration', 'local-government', 'budgeting', 'management', '
 difficulty: expert
 summary: 'How a professional administrator implements council policy through apolitical management and a balanced budget, keeping a city running across election cycles.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'The Effective Local Government Manager (ICMA)', kind: 'book' }
   - { title: 'The Politics of the Budgetary Process (Wildavsky)', kind: 'book' }
-status: stable
+status: draft

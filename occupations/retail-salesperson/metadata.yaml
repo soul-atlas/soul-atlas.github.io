@@ -6,7 +6,8 @@ tags: ['retail-sales', 'needs-discovery', 'product-knowledge', 'customer-service
 difficulty: 'foundational'
 summary: 'The human expertise on the sales floor — understanding what a customer actually needs, knowing the merchandise, and guiding an honest purchase that brings them back.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -39,4 +40,4 @@ sources:
   - { title: 'Why We Buy: The Science of Shopping (Paco Underhill)', kind: 'book' }
   - { title: 'To Sell Is Human (Daniel Pink)', kind: 'book' }
   - { title: 'National Retail Federation selling and service resources', kind: 'documentation' }
-status: stable
+status: draft

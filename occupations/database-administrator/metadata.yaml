@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Guards irreplaceable state: makes data durable, correct, and recoverable against explicit RPO/RTO, reads query plans over queries, and treats every migration as a one-way door.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'Database Internals', kind: 'book' }
   - { title: 'Designing Data-Intensive Applications', kind: 'book' }
   - { title: 'SQL Performance Explained', kind: 'book' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Separates skill from luck and signal from noise in competition, then distills it into one actionable insight a coach will use, with the uncertainty stated.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: 'The Numbers Game', kind: 'book' }
   - { title: 'Basketball on Paper', kind: 'book' }
   - { title: 'The Signal and the Noise', kind: 'book' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Turns shadows of tissue into a diagnosis that changes care, extracting maximum true information from an image while resisting both missing what is there and seeing what is not.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'Fundamentals of Diagnostic Radiology (Brant & Helms)', kind: 'book' }
   - { title: 'ACR Appropriateness Criteria', kind: 'standard' }
   - { title: "Felson's Principles of Chest Roentgenology", kind: 'book' }
-status: stable
+status: draft

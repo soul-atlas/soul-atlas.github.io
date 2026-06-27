@@ -6,7 +6,8 @@ tags: ['treasury', 'capital-structure', 'liquidity', 'capital-allocation']
 difficulty: 'advanced'
 summary: "Thinks as the steward of the firm's money: funds the enterprise at the lowest sustainable cost of capital and keeps it liquid enough to never miss a payment or opportunity."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -44,4 +45,4 @@ specializations: ['Treasurer', 'FP&A leadership', 'Corporate development finance
 country_variants: []
 sources:
   - { title: 'Principles of Corporate Finance (Brealey, Myers & Allen)', kind: 'book' }
-status: stable
+status: draft

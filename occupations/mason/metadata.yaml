@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Lays brick, block, and stone true, plumb, and level so the wall carries load in compression, sheds water, and moves with the seasons without cracking, for generations.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'TMS 402/602 Masonry Code', kind: 'standard' }
   - { title: 'Building with Masonry', kind: 'book' }
   - { title: 'Brick Industry Association Technical Notes', kind: 'standard' }
-status: stable
+status: draft

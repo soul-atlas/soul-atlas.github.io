@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Thinks like a single-subject specialist at scale — earning buy-in from 150 near-adults a day and guarding the transcript that decides their next door.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'Understanding by Design', kind: 'book' }
   - { title: 'Drive', kind: 'book' }
   - { title: 'How to Grade for Learning', kind: 'book' }
-status: stable
+status: draft

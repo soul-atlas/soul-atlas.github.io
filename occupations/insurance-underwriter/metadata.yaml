@@ -6,7 +6,8 @@ tags: ['insurance', 'risk-selection', 'pricing', 'underwriting', 'risk-managemen
 difficulty: advanced
 summary: "Thinks in pooled risk and loss ratios: selects against adverse selection, judges individual risks above the actuary's class rate, and prices for an underwriting profit over the cycle."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ country_variants: []
 sources:
   - { title: 'Principles of Risk Management and Insurance (Rejda & McNamara)', kind: 'book' }
   - { title: 'The Institutes CPCU Underwriting Curriculum', kind: 'course' }
-status: stable
+status: draft

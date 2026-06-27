@@ -6,7 +6,8 @@ tags: ['surveillance', 'osint', 'skip-tracing', 'evidence', 'investigation']
 difficulty: 'advanced'
 summary: "How a private investigator thinks: build a defensible factual record covertly but always legally, document for the courtroom, and serve the client's real objective without crossing the legal line."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ country_variants: []
 sources:
   - { title: 'Surveillance Tradecraft (Peter Jenkins)', kind: 'book' }
   - { title: 'Gramm-Leach-Bliley Act and state PI-licensing statutes', kind: 'standard' }
-status: stable
+status: draft

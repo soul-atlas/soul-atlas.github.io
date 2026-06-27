@@ -18,7 +18,8 @@ summary: >-
   guarding stability, and obeying conventions written after past disasters.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
     kind: book
   - title: STCW Convention and SOLAS/MARPOL
     kind: other
-status: stable
+status: draft

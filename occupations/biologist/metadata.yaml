@@ -6,7 +6,8 @@ tags: ['biology', 'experimental-design', 'evolution', 'replication', 'model-orga
 difficulty: 'expert'
 summary: 'How an excellent biologist thinks: designing controlled, replicated studies that find signal in living variability and reading every result through the logic of evolution.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'Molecular Biology of the Cell (Alberts et al.)', kind: 'book' }
   - { title: 'Experimental Design for Biologists (David J. Glass)', kind: 'book' }
-status: stable
+status: draft

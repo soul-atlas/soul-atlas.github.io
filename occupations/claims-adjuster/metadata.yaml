@@ -6,7 +6,8 @@ tags: ['insurance-claims', 'coverage-analysis', 'loss-valuation', 'fraud-detecti
 difficulty: 'intermediate'
 summary: 'Investigates claims, determines coverage, and settles for the right amount — fairly and in good faith to the policyholder, accurately against the policy, and protected against the fraud that harms every other premium-payer.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'The Institutes (AICPCU) Claims curriculum', kind: 'course' }
   - { title: 'Property and Casualty Insurance (The Institutes)', kind: 'book' }
   - { title: 'State unfair-claims-practices and good-faith statutes', kind: 'standard' }
-status: stable
+status: draft

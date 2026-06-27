@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Diagnoses and treats patients that cannot speak, across species, balancing animal welfare, the owner's wishes and means, and public safety — and knowing when the kindest medicine is to stop."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'The Merck Veterinary Manual', kind: 'book' }
   - { title: 'Textbook of Veterinary Internal Medicine (Ettinger & Feldman)', kind: 'book' }
-status: stable
+status: draft

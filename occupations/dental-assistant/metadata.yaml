@@ -14,7 +14,8 @@ tags:
 difficulty: 'intermediate'
 summary: "The dentist's second pair of hands — anticipating instruments, keeping the field clear and sterile, guarding the infection-control chain, and caring for an anxious patient through a procedure they cannot see."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Modern Dental Assisting (Bird & Robinson)', kind: 'book' }
   - { title: 'CDC Guidelines for Infection Control in Dental Settings', kind: 'standard' }
   - { title: 'DANB certification standards; OSHA bloodborne pathogens standard', kind: 'standard' }
-status: stable
+status: draft

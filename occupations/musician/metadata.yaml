@@ -6,7 +6,8 @@ tags: ['music', 'performance', 'ensemble', 'rhythm', 'improvisation']
 difficulty: 'advanced'
 summary: 'How a musician locks time and feel, listens harder than they play, shapes phrasing and dynamics, and subordinates ego to serve the song and the ensemble.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ sources:
   - { title: 'Effortless Mastery (Kenny Werner)', kind: 'book' }
   - { title: 'Forward Motion (Hal Galper)', kind: 'book' }
   - { title: 'The Jazz Theory Book (Mark Levine)', kind: 'book' }
-status: stable
+status: draft

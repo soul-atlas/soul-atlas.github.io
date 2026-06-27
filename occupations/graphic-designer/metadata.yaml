@@ -6,7 +6,8 @@ tags: ['typography', 'hierarchy', 'branding', 'layout', 'visual-communication']
 difficulty: 'advanced'
 summary: 'How a graphic designer turns a brief into a message that lands — directing the eye with hierarchy, type, contrast, and white space, and codifying it into systems.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -36,4 +37,4 @@ country_variants: []
 sources:
   - { title: "The Non-Designer's Design Book (Robin Williams)", kind: 'book' }
   - { title: 'Grid Systems in Graphic Design (Müller-Brockmann)', kind: 'book' }
-status: stable
+status: draft

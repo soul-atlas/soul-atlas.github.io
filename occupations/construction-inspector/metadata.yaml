@@ -6,7 +6,8 @@ tags: ['building-code', 'inspection', 'public-safety', 'code-enforcement', 'plan
 difficulty: 'intermediate'
 summary: "The independent check between the contractor's work and the public's safety — verifying construction matches the approved plans and code at the stages where defects are still visible, before they are buried."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -57,4 +58,4 @@ sources:
   - { title: 'International Building Code (IBC) and related I-Codes', kind: 'standard' }
   - { title: 'National Electrical Code (NFPA 70)', kind: 'standard' }
   - { title: 'ICC inspector certification programs and reference manuals', kind: 'standard' }
-status: stable
+status: draft

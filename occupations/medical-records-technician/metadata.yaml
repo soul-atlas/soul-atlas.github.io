@@ -12,7 +12,8 @@ tags: ['medical-coding', 'health-information', 'hipaa', 'documentation-integrity
 difficulty: 'intermediate'
 summary: 'Steward of the health record — coding diagnoses and procedures accurately, auditing documentation integrity, and guarding patient privacy, never letting coding chase revenue at the expense of truth.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'AHIMA Health Information Management body of knowledge', kind: 'standard' }
   - { title: 'AHA Coding Clinic and AMA CPT guidance', kind: 'standard' }
   - { title: 'HIPAA Privacy and Security Rules', kind: 'standard' }
-status: stable
+status: draft

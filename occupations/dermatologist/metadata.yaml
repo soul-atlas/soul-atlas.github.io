@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Reads the skin by morphology and dermoscopy to separate the benign mole from the melanoma and the harmless rash from the lethal drug reaction, choosing what to biopsy and what to watch.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: "Fitzpatrick's Dermatology in General Medicine", kind: 'book' }
   - { title: 'Dermatology (Bolognia)', kind: 'book' }
   - { title: 'AAD Clinical Guidelines', kind: 'standard' }
-status: stable
+status: draft

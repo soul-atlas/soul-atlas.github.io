@@ -16,7 +16,8 @@ difficulty: intermediate
 summary: 'Engineers learning experiences without a live room, subtracting ruthlessly toward measurable objectives and proving transfer rather than trusting smile sheets.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Design for How People Learn', kind: 'book' }
   - { title: 'Multimedia Learning', kind: 'book' }
   - { title: 'Evaluating Training Programs (Kirkpatrick)', kind: 'book' }
-status: stable
+status: draft

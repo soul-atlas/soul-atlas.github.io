@@ -7,7 +7,8 @@ tags:
 difficulty: 'intermediate'
 summary: "A travel expert and advocate — designing trips that fit the client, finding value and navigating complexity the booking sites can't, and being the human who solves the problem when travel goes wrong."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -41,4 +42,4 @@ sources:
   - { title: 'ASTA (American Society of Travel Advisors) resources', kind: 'documentation' }
   - { title: 'The Travel Institute certification (CTA/CTC) curriculum', kind: 'course' }
   - { title: 'The Experience Economy (Pine & Gilmore)', kind: 'book' }
-status: stable
+status: draft

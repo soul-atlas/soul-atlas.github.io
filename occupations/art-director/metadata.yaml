@@ -7,7 +7,8 @@ tags:
 difficulty: 'advanced'
 summary: 'Owns the visual vision — making every aesthetic decision serve one concept and leading the designers, photographers, and illustrators who execute it, so the work communicates the intended message and feeling.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'Art Direction Explained, At Last! (Mahon)', kind: 'book' }
   - { title: 'Thinking with Type (Ellen Lupton)', kind: 'book' }
   - { title: 'Hey Whipple, Squeeze This (Luke Sullivan)', kind: 'book' }
-status: stable
+status: draft

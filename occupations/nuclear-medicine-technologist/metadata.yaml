@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Turns the patient into the imaging source by safely preparing and administering radiopharmaceuticals, reasoning in decay math and ALARA while acquiring images of physiology.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'Essentials of Nuclear Medicine Imaging (Mettler & Guiberteau)', kind: 'book' }
   - { title: 'NRC 10 CFR Part 35', kind: 'standard' }
   - { title: 'SNMMI Procedure Standards', kind: 'standard' }
-status: stable
+status: draft

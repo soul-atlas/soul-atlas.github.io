@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Designs and fits orthoses and prostheses by managing forces through the device into living tissue, reading gait, dialing socket fit, and balancing function, comfort, and cosmesis a patient will accept.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'Atlas of Orthoses and Assistive Devices (AAOS)', kind: 'book' }
   - { title: 'Atlas of Amputations and Limb Deficiencies (AAOS)', kind: 'book' }
   - { title: 'Orthotics and Prosthetics in Rehabilitation', kind: 'book' }
-status: stable
+status: draft

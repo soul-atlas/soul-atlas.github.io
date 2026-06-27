@@ -6,7 +6,8 @@ tags: ['bank-supervision', 'camels', 'aml-bsa', 'safety-soundness', 'regulation'
 difficulty: 'advanced'
 summary: 'How a bank examiner thinks: read CAMELS as a causal system, judge management as the lead indicator, stress capital against concentrations and funding runs, and force correction before depositors pay.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -39,4 +40,4 @@ country_variants: []
 sources:
   - { title: 'Uniform Financial Institutions Rating System (CAMELS)', kind: 'standard' }
   - { title: 'Bank Secrecy Act and AML Examination Manual', kind: 'book' }
-status: stable
+status: draft

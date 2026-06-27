@@ -6,7 +6,8 @@ tags: ['hair', 'color-theory', 'consultation', 'client-retention', 'cutting']
 difficulty: expert
 summary: 'Reads face, head, hair type, and lifestyle to design cuts and color that flatter, grow out gracefully, and protect hair integrity over chasing a photo.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'Milady Standard Cosmetology', kind: 'book' }
   - { title: 'State Board Cosmetology Licensing Standards', kind: 'standard' }
-status: stable
+status: draft

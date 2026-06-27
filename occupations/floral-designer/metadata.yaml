@@ -6,7 +6,8 @@ tags: ['floral-design', 'horticulture', 'event-flowers', 'perishable-inventory',
 difficulty: 'intermediate'
 summary: 'Composes flowers into arrangements that carry the right emotion and fit the occasion, made to be beautiful and to last — balancing artistry, the realities of perishable living material, and the economics of the craft.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -43,4 +44,4 @@ sources:
   - { title: 'The Flower Recipe Book (Harampolis & Rizzo)', kind: 'book' }
   - { title: 'AIFD (American Institute of Floral Designers) resources', kind: 'documentation' }
   - { title: 'Horticultural references on cut-flower care and vase life', kind: 'other' }
-status: stable
+status: draft

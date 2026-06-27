@@ -18,7 +18,8 @@ summary: >-
   safe, and effective for the specific patient and that they can use it correctly.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ sources:
     kind: book
   - title: ISMP High-Alert Medication Lists
     kind: standard
-status: stable
+status: draft

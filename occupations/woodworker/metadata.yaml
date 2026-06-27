@@ -6,7 +6,8 @@ tags: ['woodworking', 'joinery', 'wood-movement', 'furniture-making', 'craftsman
 difficulty: 'intermediate'
 summary: "Turns wood into sound, beautiful, lasting objects through skilled cutting, joinery, and finishing that respect wood's living, moving, variable nature, so the piece functions and endures."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -34,4 +35,4 @@ sources:
   - { title: 'Understanding Wood (R. Bruce Hoadley)', kind: 'book' }
   - { title: 'The Complete Manual of Woodworking (Jackson & Day)', kind: 'book' }
   - { title: 'Fine Woodworking resources', kind: 'documentation' }
-status: stable
+status: draft

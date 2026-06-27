@@ -90,9 +90,11 @@ export function computeStats(corpus, gitBySlug = {}) {
   const total = souls.length;
   const byCategory = {};
   const byStatus = {};
+  const byProvenance = {};
   const byDifficulty = {};
   const tagCounts = {};
   const contributorCounts = {};
+  let verifiedCount = 0;
 
   let totalWords = 0;
   const incomplete = [];
@@ -106,6 +108,8 @@ export function computeStats(corpus, gitBySlug = {}) {
     const m = s.metadata;
     byCategory[m.category] = (byCategory[m.category] || 0) + 1;
     byStatus[m.status] = (byStatus[m.status] || 0) + 1;
+    byProvenance[m.provenance || 'unknown'] = (byProvenance[m.provenance || 'unknown'] || 0) + 1;
+    if (s.computed.verified) verifiedCount += 1;
     if (m.difficulty) byDifficulty[m.difficulty] = (byDifficulty[m.difficulty] || 0) + 1;
     for (const t of m.tags) tagCounts[t] = (tagCounts[t] || 0) + 1;
     const git = gitBySlug[s.slug];
@@ -194,9 +198,12 @@ export function computeStats(corpus, gitBySlug = {}) {
         : 0,
       graphDensity: Math.round(density * 100000) / 100000,
       stableShare: total ? Math.round(((byStatus.stable || 0) / total) * 1000) / 1000 : 0,
+      verified: verifiedCount,
+      verifiedShare: total ? Math.round((verifiedCount / total) * 1000) / 1000 : 0,
     },
     byCategory: sortRecord(byCategory),
     byStatus,
+    byProvenance,
     byDifficulty,
     tags: Object.entries(tagCounts)
       .map(([tag, count]) => ({ tag, count }))
@@ -212,6 +219,7 @@ export function computeStats(corpus, gitBySlug = {}) {
     smallest: [...bySize].reverse().slice(0, 12),
     quality: {
       requiredSections: requiredCount,
+      unverified: souls.filter((s) => !s.computed.verified).length,
       incomplete: incomplete.sort((a, b) => a.completeness - b.completeness).slice(0, 50),
       missingMetadata: missingMetadata.slice(0, 50),
       stalePages: stalePages.slice(0, 50),

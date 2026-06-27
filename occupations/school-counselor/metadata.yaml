@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Triages academic, emotional, and systemic barriers for a caseload of hundreds, holding student trust as a working tool bounded precisely by the duty to protect.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'ASCA National Model and Ethical Standards', kind: 'standard' }
   - { title: 'Columbia-Suicide Severity Rating Scale (C-SSRS)', kind: 'standard' }
   - { title: 'Motivational Interviewing', kind: 'book' }
-status: stable
+status: draft

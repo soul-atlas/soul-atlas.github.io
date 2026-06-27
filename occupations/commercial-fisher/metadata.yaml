@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Reads weather, water, biology, and money at once to find and land a wild catch worth more than the trip cost, while keeping a small boat upright and the grounds alive for next year.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -62,4 +63,4 @@ sources:
       url: 'https://www.msc.org/standards-and-certification/fisheries-standard',
       kind: 'standard',
     }
-status: stable
+status: draft

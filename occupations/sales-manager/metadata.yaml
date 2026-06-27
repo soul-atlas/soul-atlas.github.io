@@ -6,7 +6,8 @@ tags: ['sales-leadership', 'forecasting', 'coaching', 'pipeline-management', 'qu
 difficulty: 'advanced'
 summary: 'Turns a group of individual sellers into a predictable revenue engine — hiring, coaching, running disciplined process, and forecasting honestly — through leverage rather than closing the deals themselves.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -52,4 +53,4 @@ sources:
   - { title: 'Cracking the Sales Management Code (Jordan & Vazzana)', kind: 'book' }
   - { title: 'The Sales Acceleration Formula (Mark Roberge)', kind: 'book' }
   - { title: 'Coaching Salespeople into Sales Champions (Keith Rosen)', kind: 'book' }
-status: stable
+status: draft

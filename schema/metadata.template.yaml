@@ -9,7 +9,9 @@ tags: []
 difficulty: intermediate # foundational | intermediate | advanced | expert
 summary: '{{One or two sentences on how this mind works.}}'
 contributors: []
-last_reviewed: null
+provenance: human # human | ai-assisted | ai-generated — be honest about the first draft
+last_reviewed: null # ISO date a human checked accuracy; null until then
+reviewers: [] # - { name: "Your Name", credential: "how you know the field", date: "YYYY-MM-DD" }
 created: '{{YYYY-MM-DD}}'
 updated: '{{YYYY-MM-DD}}'
 related:

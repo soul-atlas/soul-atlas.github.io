@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Integrates mechanics, sensing, control, and software so machines perceive, plan, and act accurately and safely under real-world uncertainty.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ country_variants: []
 sources:
   - { title: 'Probabilistic Robotics', kind: 'book' }
   - { title: 'Modern Robotics: Mechanics, Planning, and Control', kind: 'book' }
-status: stable
+status: draft

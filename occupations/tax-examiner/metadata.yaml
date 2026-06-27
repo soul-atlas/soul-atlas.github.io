@@ -6,7 +6,8 @@ tags: ['tax-enforcement', 'audit', 'compliance', 'revenue', 'examination']
 difficulty: 'advanced'
 summary: 'How a government tax examiner thinks: develop facts before theory, watch the statute, allocate the burden of proof, and assess the correct liability on a record that survives appeal.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -38,4 +39,4 @@ country_variants: []
 sources:
   - { title: 'Internal Revenue Manual', kind: 'book' }
   - { title: 'Internal Revenue Code and Treasury Regulations', kind: 'book' }
-status: stable
+status: draft

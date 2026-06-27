@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Runs toward danger with disciplined courage, reading smoke and structure to weigh risk against savable life under a command structure where everyone goes home.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ country_variants: []
 sources:
   - { title: 'Essentials of Fire Fighting (IFSTA)', kind: 'book' }
   - { title: 'NIMS / Incident Command System (FEMA)', kind: 'standard' }
-status: stable
+status: draft

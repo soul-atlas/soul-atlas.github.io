@@ -7,6 +7,18 @@ mental models, instincts, decision frameworks, tradeoffs, heuristics, failure mo
 vocabulary, and ethics. It's the tacit knowledge that usually only transfers through
 years of apprenticeship.
 
+## Who writes these — experts or AI?
+
+Right now, mostly AI. The launch corpus was machine-drafted to create a consistent
+starting point across every domain, and we say so plainly: those entries are marked
+`provenance: ai-generated`, `status: draft`, and carry an **"AI-drafted ·
+unverified"** badge until a human who does the work has checked them. The drafts are
+uneven — concrete trades tend to come out specific and useful; more abstract roles
+can read like paraphrase. That's exactly where you come in. When a practitioner
+reviews a SOUL, they're credited in `reviewers` and the badge flips to
+**"Practitioner-reviewed."** The goal isn't 383 AI drafts — it's 383 entries that
+people who do the work have stood behind. See [`/suggest`](https://soul-atlas.github.io/suggest).
+
 ## How is this different from a prompt?
 
 A prompt instructs a model for one task and is tuned to a specific model. A SOUL is a

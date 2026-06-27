@@ -17,7 +17,8 @@ summary: >-
   enhancement, and spends the user's bytes and time as scarce resources.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -49,4 +50,4 @@ sources:
     kind: other
   - title: WCAG 2.2 (W3C Web Content Accessibility Guidelines)
     kind: standard
-status: stable
+status: draft

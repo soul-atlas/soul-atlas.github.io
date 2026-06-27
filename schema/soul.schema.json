@@ -43,6 +43,18 @@
           "type": "array",
           "items": { "type": "string" },
           "description": "Slugs of SOULs that reference this one."
+        },
+        "verified": {
+          "type": "boolean",
+          "description": "True if a human reviewer or review date is recorded."
+        },
+        "aiDrafted": {
+          "type": "boolean",
+          "description": "True if provenance is ai-generated or ai-assisted."
+        },
+        "unverifiedAiDraft": {
+          "type": "boolean",
+          "description": "True if AI-drafted and not yet verified by a human."
         }
       }
     },

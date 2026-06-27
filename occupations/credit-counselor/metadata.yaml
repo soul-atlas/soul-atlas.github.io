@@ -13,7 +13,8 @@ tags:
 difficulty: 'intermediate'
 summary: "An honest guide for people trapped in debt — assessing their situation, building realistic budgets, negotiating with creditors, and matching them to the genuine best path, always in the client's interest rather than to sell a product."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'NFCC standards and certification', kind: 'standard' }
   - { title: 'CFPB resources on debt relief and credit counseling', kind: 'documentation' }
   - { title: 'FTC guidance on credit counseling and debt settlement', kind: 'standard' }
-status: stable
+status: draft

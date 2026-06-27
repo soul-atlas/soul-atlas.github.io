@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Turns moving wood into square, plumb, level, load-bearing structure and tight-jointed finish, working everything to a single reference so error never compounds.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'International Residential Code (IRC)', kind: 'standard' }
   - { title: 'Graphic Guide to Frame Construction', kind: 'book' }
   - { title: 'Wood Handbook (USDA Forest Products Laboratory)', kind: 'book' }
-status: stable
+status: draft

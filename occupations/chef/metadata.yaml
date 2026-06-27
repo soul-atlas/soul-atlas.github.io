@@ -6,7 +6,8 @@ tags: ['culinary', 'kitchen-management', 'food-cost', 'service', 'menu-design']
 difficulty: 'expert'
 summary: 'How a head chef thinks: mise en place as discipline, tasting as the only real instrument, and margin made in the walk-in as much as on the plate.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ country_variants: []
 sources:
   - { title: 'Larousse Gastronomique', kind: 'book' }
   - { title: 'On Food and Cooking (Harold McGee)', kind: 'book' }
-status: stable
+status: draft

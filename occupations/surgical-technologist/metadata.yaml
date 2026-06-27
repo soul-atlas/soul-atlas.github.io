@@ -15,7 +15,8 @@ difficulty: intermediate
 summary: "Owns the sterile field and the surgical count, anticipating the surgeon's next instrument and treating the reconciled count as a hard safety gate before closure."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'Surgical Technology for the Surgical Technologist (AST)', kind: 'book' }
   - { title: 'AST Standards of Practice', kind: 'standard' }
   - { title: 'AORN Guidelines for Perioperative Practice', kind: 'standard' }
-status: stable
+status: draft

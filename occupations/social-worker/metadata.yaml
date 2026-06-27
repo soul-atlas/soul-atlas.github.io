@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Works the seam between person and environment, balancing client self-determination against the duty to protect, building on strengths and the least restrictive intervention.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ country_variants: []
 sources:
   - { title: 'NASW Code of Ethics', kind: 'standard' }
   - { title: 'Motivational Interviewing (Miller & Rollnick)', kind: 'book' }
-status: stable
+status: draft

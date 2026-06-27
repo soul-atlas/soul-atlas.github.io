@@ -6,7 +6,8 @@ tags: ['glass', 'glazing', 'curtain-wall', 'safety-glazing', 'construction']
 difficulty: intermediate
 summary: 'How an expert glazier thinks about a brittle material in a moving building, picking glass by how it must break and protecting the seal and the bond that no one can see.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'GANA/NGA Glazing Manual', kind: 'book' }
   - { title: 'International Building Code (safety glazing provisions)', kind: 'standard' }
-status: stable
+status: draft

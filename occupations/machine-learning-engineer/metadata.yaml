@@ -17,7 +17,8 @@ summary: >-
   training-serving skew, and watches for the silently-wrong prediction the world drifted into.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ sources:
     kind: book
   - title: Hidden Technical Debt in Machine Learning Systems
     kind: article
-status: stable
+status: draft

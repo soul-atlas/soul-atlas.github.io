@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Treats the network as a shared contended resource, troubleshoots bottom-up through the OSI stack, and engineers redundancy and segmentation so a single failure stays local.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'TCP/IP Illustrated, Volume 1', kind: 'book' }
   - { title: 'Computer Networks (Tanenbaum)', kind: 'book' }
   - { title: 'RFC 4271 (BGP-4)', url: 'https://www.rfc-editor.org/rfc/rfc4271', kind: 'standard' }
-status: stable
+status: draft

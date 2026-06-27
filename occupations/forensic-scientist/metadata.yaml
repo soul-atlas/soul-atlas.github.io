@@ -17,7 +17,8 @@ summary: >-
   refuses to overstate what the data supports.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -47,4 +48,4 @@ sources:
     kind: article
   - title: PCAST Report on Forensic Science in Criminal Courts (2016)
     kind: article
-status: stable
+status: draft

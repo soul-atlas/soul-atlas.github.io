@@ -6,7 +6,8 @@ tags: ['machinery', 'precision-alignment', 'vibration', 'bearings', 'industrial-
 difficulty: advanced
 summary: 'How an expert millwright thinks in thousandths and vibration signatures, setting heavy machinery on rigid foundations and aligning shafts so they reach design life instead of failing early.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'Audel Millwrights and Mechanics Guide', kind: 'book' }
   - { title: 'Shaft Alignment Handbook (John Piotrowski)', kind: 'book' }
-status: stable
+status: draft

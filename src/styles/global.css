@@ -192,6 +192,33 @@ a {
   text-decoration: none;
   color: var(--ink-faint);
 }
+/* Per-section "suggest an edit" affordance — quiet until you hover the heading. */
+.section-suggest {
+  opacity: 0;
+  transition: opacity 0.15s;
+  margin-left: 0.6rem;
+  font-size: 0.62em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.prose h2:hover .section-suggest {
+  opacity: 0.85;
+}
+.section-suggest:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+@media (max-width: 640px) {
+  .section-suggest {
+    opacity: 0.7;
+  }
+}
 
 /* ---------------------------------------------------------------------------
    Reusable surface classes
@@ -212,6 +239,41 @@ a {
   background: var(--bg-soft);
   border: 1px solid var(--border);
   color: var(--ink-soft);
+}
+/* Provenance / verification badges. Honest by design: unverified AI drafts
+   are visibly marked so nothing reads as authoritative until a human checks it. */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+.badge-unverified {
+  background: rgba(245, 158, 11, 0.12);
+  border-color: rgba(245, 158, 11, 0.35);
+  color: #b45309;
+}
+[data-theme='dark'] .badge-unverified {
+  color: #fbbf24;
+}
+.badge-verified {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: rgba(16, 185, 129, 0.35);
+  color: #047857;
+}
+[data-theme='dark'] .badge-verified {
+  color: #34d399;
+}
+.badge .dot {
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 999px;
+  background: currentColor;
 }
 .btn {
   display: inline-flex;

@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Shapes air pressure into emotion by capturing it right at the source and carving frequency space so every element is heard, deciding by ear over meter.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: "The Mixing Engineer's Handbook", kind: 'book' }
   - { title: 'Mixing Secrets for the Small Studio', kind: 'book' }
   - { title: 'Mastering Audio: The Art and the Science', kind: 'book' }
-status: stable
+status: draft

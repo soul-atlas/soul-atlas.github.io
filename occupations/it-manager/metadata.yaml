@@ -12,7 +12,8 @@ tags: ['it-operations', 'security', 'business-alignment', 'reliability', 'vendor
 difficulty: 'advanced'
 summary: "Owns the gap between the business's demands and technical reality — keeping infrastructure reliable, secure, and aligned at a justifiable cost while leading a scarce technical team and translating risk into terms executives can decide on."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -54,4 +55,4 @@ sources:
   - { title: 'The Phoenix Project / The DevOps Handbook (Gene Kim et al.)', kind: 'book' }
   - { title: 'ITIL 4 service-management framework', kind: 'standard' }
   - { title: 'NIST Cybersecurity Framework', kind: 'standard' }
-status: stable
+status: draft

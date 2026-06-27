@@ -14,7 +14,8 @@ tags:
 difficulty: 'intermediate'
 summary: 'The frontline, most-present caregiver in psychiatric and developmental settings — keeping vulnerable patients safe through observation, de-escalation, and connection rather than control, while treating them with dignity.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: "Varcarolis' Foundations of Psychiatric-Mental Health Nursing", kind: 'book' }
   - { title: 'SAMHSA trauma-informed care framework', kind: 'standard' }
   - { title: 'CPI nonviolent crisis-intervention training', kind: 'course' }
-status: stable
+status: draft

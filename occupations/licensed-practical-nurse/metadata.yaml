@@ -13,7 +13,8 @@ tags:
 difficulty: 'intermediate'
 summary: 'The licensed clinician most constantly at the bedside in long-term and chronic care — administering treatments and medications safely, watching patients closely, and escalating change early, within a precisely known scope.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'Fundamentals of Nursing (Potter & Perry)', kind: 'book' }
   - { title: 'NCSBN scope-of-practice resources; State Nurse Practice Acts', kind: 'standard' }
   - { title: 'Institute for Safe Medication Practices (ISMP) guidelines', kind: 'standard' }
-status: stable
+status: draft

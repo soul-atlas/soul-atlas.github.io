@@ -6,7 +6,8 @@ tags: ['corrections', 'security', 'de-escalation', 'public-safety', 'custody']
 difficulty: advanced
 summary: 'How an officer keeps a prison safe and humane through dynamic security, relationships, and consistency rather than force.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'The Society of Captives (Gresham Sykes)', kind: 'book' }
   - { title: 'UN Nelson Mandela Rules', kind: 'standard' }
-status: stable
+status: draft

@@ -16,7 +16,8 @@ difficulty: intermediate
 summary: 'Works on borrowed trust earned by being of the community, bridging people to care and to the social determinants — housing, food, transportation — that decide their health more than the clinic does.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Community Health Worker Core Consensus (C3) Project', kind: 'standard' }
   - { title: 'APHA Definition of the Community Health Worker', kind: 'standard' }
   - { title: 'Healthy People Framework and Social Determinants of Health', kind: 'standard' }
-status: stable
+status: draft

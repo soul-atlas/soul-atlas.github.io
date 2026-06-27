@@ -6,7 +6,8 @@ tags: ['naval-architecture', 'ship-stability', 'marine-propulsion', 'corrosion',
 difficulty: 'advanced'
 summary: 'Designs and runs the hull and machinery of a self-contained ship that cannot pull over, holding stability sacred and engineering for corrosion, motion, and total isolation at sea.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -48,4 +49,4 @@ sources:
   - { title: 'Principles of Naval Architecture (SNAME)', kind: 'book' }
   - { title: "Pounder's Marine Diesel Engines and Gas Turbines", kind: 'book' }
   - { title: 'SOLAS and MARPOL conventions (IMO)', kind: 'standard' }
-status: stable
+status: draft

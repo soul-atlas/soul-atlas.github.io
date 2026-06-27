@@ -15,7 +15,8 @@ difficulty: 'expert'
 summary: 'How an expert trader thinks: convert a defensible edge into positive expectancy, size by risk-of-ruin, cut losers, run winners, and never confuse luck with skill.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 specializations:
@@ -28,7 +29,7 @@ sources:
     kind: book
   - title: 'Fooled by Randomness'
     kind: book
-status: 'stable'
+status: draft
 related:
   - {
       slug: 'financial-analyst',

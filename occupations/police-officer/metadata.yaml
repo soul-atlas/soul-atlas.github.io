@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Wields borrowed, revocable authority to protect life and uphold law using the least force and the most legitimacy possible, treating restraint as the core skill.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ country_variants: []
 sources:
   - { title: 'Why People Obey the Law (Procedural Justice)', kind: 'book' }
   - { title: 'Graham v. Connor, 490 U.S. 386 (1989)', kind: 'standard' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: intermediate
 summary: 'Thinks in bacterial load and host response, measures disease in millimeters and bleeding indices, and treats home-care behavior change as the real clinical lever.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: "Wilkins' Clinical Practice of the Dental Hygienist", kind: 'book' }
   - { title: "Carranza's Clinical Periodontology", kind: 'book' }
   - { title: '2017 AAP/EFP Classification of Periodontal Diseases', kind: 'standard' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: intermediate
 summary: 'Builds durable collective power among the people affected by an injustice — organizing around self-interest, cutting winnable issues, and developing leaders, never doing for others what they can do for themselves.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ country_variants: []
 sources:
   - { title: 'Rules for Radicals', kind: 'book' }
   - { title: 'Roots for Radicals', kind: 'book' }
-status: stable
+status: draft

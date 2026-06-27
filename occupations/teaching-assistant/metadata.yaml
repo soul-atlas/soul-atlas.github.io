@@ -16,7 +16,8 @@ difficulty: intermediate
 summary: 'Executes the lead teacher’s plan up close, giving the least support that works and fading it deliberately so students gain independence rather than dependence.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'The Inclusive Classroom', kind: 'book' }
   - { title: 'Mind in Society', kind: 'book' }
-status: stable
+status: draft

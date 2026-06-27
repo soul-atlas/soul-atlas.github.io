@@ -13,7 +13,8 @@ tags:
 difficulty: 'expert'
 summary: 'How an expert reads the ocean as one coupled system — fingerprinting water masses by T-S signature, computing currents from density, and extracting climate signal from a chronically undersampled sea.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
   - { title: 'Descriptive Physical Oceanography (Talley, Pickard, Emery & Swift)', kind: 'book' }
   - { title: 'Atmosphere, Ocean and Climate Dynamics (Marshall & Plumb)', kind: 'book' }
   - { title: 'Introductory Dynamical Oceanography (Pond & Pickard)', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['composition', 'orchestration', 'film-scoring', 'music-theory', 'emotiona
 difficulty: 'advanced'
 summary: 'Organizes sound and time into music that achieves an intended effect — serving the work, whether a film, game, ensemble, or personal vision, and rendering it so performers or technology can realize it.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -49,4 +50,4 @@ sources:
   - { title: 'The Study of Orchestration (Samuel Adler)', kind: 'book' }
   - { title: 'On the Track: A Guide to Contemporary Film Scoring (Karlin & Wright)', kind: 'book' }
   - { title: 'Harmony (Walter Piston)', kind: 'book' }
-status: stable
+status: draft

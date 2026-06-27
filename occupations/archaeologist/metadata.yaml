@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Reads past human behavior from material residue, treating excavation as irreversible destruction and the record of context as the only knowledge that survives.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'Archaeology: Theories, Methods and Practice', kind: 'book' }
   - { title: 'Principles of Archaeological Stratigraphy', kind: 'book' }
   - { title: 'Formation Processes of the Archaeological Record', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['water-balance', 'flood-frequency', 'groundwater', 'watershed', 'hydrolog
 difficulty: 'advanced'
 summary: 'How a hydrologist thinks: close the water balance, read the hydrograph, treat the 100-year flood as an annual probability, and design knowing stationarity is dead.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -47,4 +48,4 @@ sources:
   - { title: 'Applied Hydrology (Chow, Maidment & Mays)', kind: 'book' }
   - { title: 'Applied Hydrogeology (Fetter)', kind: 'book' }
   - { title: 'USGS Bulletin 17C: Flood Flow Frequency', kind: 'standard' }
-status: stable
+status: draft

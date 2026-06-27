@@ -6,7 +6,8 @@ tags: ['arboriculture', 'tree-care', 'rigging', 'pruning', 'tree-biomechanics']
 difficulty: intermediate
 summary: "How an expert arborist reads a tree's biology and biomechanics to prune it right, judges where it will fail, and dismantles it under controlled rigging without harming the crew or the targets below."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -45,4 +46,4 @@ sources:
       title: 'Arboriculture: Integrated Management of Landscape Trees, Shrubs, and Vines',
       kind: 'book',
     }
-status: stable
+status: draft

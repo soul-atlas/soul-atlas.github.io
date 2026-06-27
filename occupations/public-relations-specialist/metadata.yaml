@@ -6,7 +6,8 @@ tags: ['public-relations', 'media-relations', 'crisis-communications', 'reputati
 difficulty: advanced
 summary: "Treats reputation as a bank account built over years and spent in a crisis, orchestrates the PESO mix knowing earned media's credibility comes from the control you give up, and measures outcomes not AVE."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'The New Rules of Marketing and PR (David Meerman Scott)', kind: 'book' }
   - { title: 'Spin Sucks (Gini Dietrich)', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['precision-machining', 'dies', 'molds', 'tooling', 'heat-treatment']
 difficulty: expert
 summary: 'How a master toolmaker thinks: build the tool one tolerance tighter than the part, machine soft then harden then grind, and design for a million cycles.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -42,4 +43,4 @@ sources:
   - { title: "Machinery's Handbook", kind: 'book' }
   - { title: 'Die Design Fundamentals', kind: 'book' }
   - { title: 'ASME Y14.5 Dimensioning and Tolerancing', kind: 'standard' }
-status: stable
+status: draft

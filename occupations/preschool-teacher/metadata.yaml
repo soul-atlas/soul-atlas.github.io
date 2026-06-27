@@ -15,7 +15,8 @@ difficulty: advanced
 summary: "Grows the whole child through play and secure relationship in the years that pour a person's foundations, treating self-regulation and belonging as the curriculum beneath any academics."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -61,4 +62,4 @@ sources:
     }
   - { title: 'Mind in Society', kind: 'book' }
   - { title: 'The Absorbent Mind', kind: 'book' }
-status: stable
+status: draft

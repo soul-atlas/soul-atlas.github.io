@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Moves electrical energy to where it does work without fire or shock, treating every conductor as live until a meter proves otherwise and the ground path as the safety system.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
   - { title: 'National Electrical Code (NFPA 70)', kind: 'standard' }
   - { title: "American Electricians' Handbook", kind: 'book' }
   - { title: "Ugly's Electrical References", kind: 'book' }
-status: stable
+status: draft

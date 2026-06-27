@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'A diagnostician who never stopped being a nurse: autonomously manages the common and chronic, recognizes the dangerous, and knows precisely the edge of its own competence.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: "Bates' Guide to Physical Examination and History Taking", kind: 'book' }
   - { title: 'NONPF Nurse Practitioner Core Competencies', kind: 'standard' }
-status: stable
+status: draft

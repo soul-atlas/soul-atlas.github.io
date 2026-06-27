@@ -1,6 +1,6 @@
 ---
 import type { SoulSummary } from '../lib/data';
-import { categoryColor } from '../lib/data';
+import { categoryColor, verificationBadge } from '../lib/data';
 import { soulUrl, categoryUrl } from '../lib/site';
 
 interface Props {
@@ -9,6 +9,7 @@ interface Props {
 }
 const { soul, compact = false } = Astro.props;
 const color = categoryColor(soul.category);
+const badge = verificationBadge(soul);
 ---
 
 <a
@@ -21,7 +22,22 @@ const color = categoryColor(soul.category);
       <span class="inline-block h-2 w-2 rounded-full" style={`background:${color}`}></span>
       {soul.category}
     </span>
-    {soul.difficulty && <span class="chip capitalize">{soul.difficulty}</span>}
+    <span class="flex items-center gap-1.5">
+      {
+        badge.tone === 'verified' ? (
+          <span class={`badge badge-${badge.tone}`} title={badge.title}>
+            <span class="dot" />
+            {badge.label}
+          </span>
+        ) : (
+          <span class="badge badge-unverified" title={badge.title}>
+            <span class="dot" />
+            Unverified
+          </span>
+        )
+      }
+      {soul.difficulty && <span class="chip capitalize">{soul.difficulty}</span>}
+    </span>
   </div>
   <h3 class="text-base font-semibold leading-snug" style="color:var(--ink)">{soul.title}</h3>
   {

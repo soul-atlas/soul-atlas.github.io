@@ -6,7 +6,8 @@ tags: ['stand-up', 'joke-writing', 'timing', 'premise', 'performance']
 difficulty: advanced
 summary: 'How a comedian engineers laughter reliably — finding the premise, structuring setup and punchline, riding tags and callbacks, and tuning timing against the only judge, the room.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -24,4 +25,4 @@ country_variants: []
 sources:
   - { title: 'Step by Step to Stand-Up Comedy (Greg Dean)', kind: 'book' }
   - { title: 'Born Standing Up (Steve Martin)', kind: 'book' }
-status: stable
+status: draft

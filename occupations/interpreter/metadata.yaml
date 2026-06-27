@@ -7,7 +7,8 @@ tags: ['interpreting', 'simultaneous', 'consecutive', 'fidelity', 'language-medi
 difficulty: 'expert'
 summary: 'How a spoken-language interpreter thinks: fidelity and register in real time, managing décalage and cognitive load, and staying a transparent conduit rather than a party.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ country_variants: []
 sources:
   - { title: 'Conference Interpreting: A Complete Course (Setton & Dawrant)', kind: 'book' }
   - { title: 'Note-Taking in Consecutive Interpreting (Jean-François Rozan)', kind: 'book' }
-status: stable
+status: draft

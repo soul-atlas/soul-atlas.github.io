@@ -6,7 +6,8 @@ tags: ['food-service', 'prime-cost', 'food-safety', 'service-recovery', 'staffin
 difficulty: 'intermediate'
 summary: 'Stands in the gap between owner economics, kitchen craft, server hustle, and guest expectation — delivering a consistent, safe, profitable experience every shift on razor-thin margins.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -43,4 +44,4 @@ sources:
   - { title: 'Restaurant Success by the Numbers (Roger Fields)', kind: 'book' }
   - { title: 'Setting the Table (Danny Meyer)', kind: 'book' }
   - { title: 'ServSafe / HACCP food-safety standards', kind: 'standard' }
-status: stable
+status: draft

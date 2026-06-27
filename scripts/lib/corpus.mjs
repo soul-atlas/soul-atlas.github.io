@@ -61,6 +61,7 @@ function parseMetadata(slug, dir) {
   meta.specializations ??= [];
   meta.country_variants ??= [];
   meta.sources ??= [];
+  meta.reviewers ??= [];
   return meta;
 }
 
@@ -101,6 +102,13 @@ export function loadSoul(slug) {
   }
   const completeness = requiredHeadings.length ? satisfied / requiredHeadings.length : 1;
 
+  // The single definition of "has a human stood behind this?". An AI-drafted
+  // SOUL with no reviewer and no review date is explicitly unverified, and we
+  // say so everywhere rather than letting status: stable imply authority.
+  const reviewers = metadata.reviewers || [];
+  const verified = reviewers.length > 0 || Boolean(metadata.last_reviewed);
+  const aiDrafted = metadata.provenance === 'ai-generated' || metadata.provenance === 'ai-assisted';
+
   return {
     slug,
     title: metadata.title || docTitle || slug,
@@ -111,6 +119,9 @@ export function loadSoul(slug) {
       readingTimeMinutes: readingTime(totalWords),
       completeness: Math.round(completeness * 1000) / 1000,
       backlinks: [], // filled in by buildCorpus once all souls are known
+      verified,
+      aiDrafted,
+      unverifiedAiDraft: aiDrafted && !verified,
     },
   };
 }
@@ -169,6 +180,7 @@ export function buildCorpus() {
     category: s.metadata.category,
     difficulty: s.metadata.difficulty || null,
     status: s.metadata.status,
+    verified: s.computed.verified,
     tags: s.metadata.tags,
     wordCount: s.computed.wordCount,
     degree: 0,

@@ -6,7 +6,8 @@ tags: ['animation', 'character-performance', 'timing-and-spacing', '12-principle
 difficulty: 'expert'
 summary: 'How an animator thinks in poses, weight, and timing to perform the illusion of life rather than merely move drawings.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -42,4 +43,4 @@ country_variants: []
 sources:
   - { title: 'The Illusion of Life: Disney Animation (Thomas & Johnston)', kind: 'book' }
   - { title: "The Animator's Survival Kit (Richard Williams)", kind: 'book' }
-status: stable
+status: draft

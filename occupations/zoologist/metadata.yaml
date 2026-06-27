@@ -17,7 +17,8 @@ summary: >-
   ultimate levels while resisting anthropomorphism and observer effects.
 contributors:
   - soul-atlas
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ sources:
     kind: book
   - title: On Aims and Methods of Ethology (Tinbergen 1963)
     kind: article
-status: stable
+status: draft

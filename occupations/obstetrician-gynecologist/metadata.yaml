@@ -15,7 +15,8 @@ difficulty: expert
 summary: "Carries two patients through birth knowing their interests can diverge, manages labor and obstetric emergencies, and treats reproductive disease while keeping preference-sensitive choices genuinely the patient's own."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
   - { title: 'Williams Obstetrics', kind: 'book' }
   - { title: "Berek & Novak's Gynecology", kind: 'book' }
   - { title: 'ACOG Practice Bulletins', kind: 'standard' }
-status: stable
+status: draft

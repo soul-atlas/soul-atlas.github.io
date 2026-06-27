@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Collapses the wall between building and running software: automates the path to production, treats infrastructure as code, and makes deploys fast, frequent, and boring.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: 'The DevOps Handbook', kind: 'book' }
   - { title: 'Accelerate', kind: 'book' }
   - { title: 'Continuous Delivery', kind: 'book' }
-status: stable
+status: draft

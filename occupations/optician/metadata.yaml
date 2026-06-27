@@ -6,7 +6,8 @@ tags: ['eyewear', 'optics', 'lens-fitting', 'measurement-precision', 'prescripti
 difficulty: 'intermediate'
 summary: 'The craftsperson and translator between prescriber and patient — turning a vision prescription into eyewear that delivers the correction accurately and comfortably, where a millimeter off means a patient who cannot see well.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -42,4 +43,4 @@ sources:
   - { title: 'System for Ophthalmic Dispensing (Brooks & Borish)', kind: 'book' }
   - { title: 'Ophthalmic Lenses and Dispensing (Mo Jalie)', kind: 'book' }
   - { title: 'ABO certification standards; ANSI Z80', kind: 'standard' }
-status: stable
+status: draft

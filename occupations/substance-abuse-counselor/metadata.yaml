@@ -16,7 +16,8 @@ difficulty: expert
 summary: "Works with rather than against a client's ambivalence — evoking their own reasons for change, treating addiction as a chronic relapsing disease, and keeping them alive across setbacks."
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: 'Motivational Interviewing: Helping People Change', kind: 'book' }
   - { title: 'ASAM Criteria', kind: 'standard' }
   - { title: 'SAMHSA TIP Series', kind: 'standard' }
-status: stable
+status: draft

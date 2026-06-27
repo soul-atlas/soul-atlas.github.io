@@ -6,7 +6,8 @@ tags: ['landscaping', 'horticulture', 'grounds-maintenance', 'planting', 'season
 difficulty: 'foundational'
 summary: 'Creates and maintains healthy, attractive, functional outdoor spaces — installing and caring for plants, lawns, and features with horticultural understanding and the practical realities of living things and the seasons.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -41,4 +42,4 @@ sources:
   - { title: 'Landscaping Principles and Practices (Jack Ingels)', kind: 'book' }
   - { title: 'The Pruning Book (Lee Reich)', kind: 'book' }
   - { title: 'Cooperative extension horticulture and turf resources', kind: 'documentation' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Safeguards normal birth by trusting physiology while watching for the moment it stops being normal, escalating to medical care at exactly the right time and keeping the woman in control.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -52,4 +53,4 @@ country_variants: []
 sources:
   - { title: "Myles' Textbook for Midwives", kind: 'book' }
   - { title: 'WHO recommendations on intrapartum care', kind: 'standard' }
-status: stable
+status: draft

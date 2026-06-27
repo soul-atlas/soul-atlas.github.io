@@ -6,7 +6,8 @@ tags: ['customs', 'border-security', 'risk-targeting', 'trade', 'enforcement']
 difficulty: advanced
 summary: 'How a border officer facilitates lawful trade and travel while intercepting contraband and fraud through risk-based targeting and reading the story behind the answer.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'WCO Harmonized System and General Rules of Interpretation', kind: 'standard' }
   - { title: 'WCO SAFE Framework of Standards', kind: 'standard' }
-status: stable
+status: draft

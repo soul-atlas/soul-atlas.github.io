@@ -1,0 +1,21 @@
+# Cloudflare Worker that turns anonymous website suggestions into pull requests.
+# Deploy with:  cd workers/suggest && npx wrangler deploy
+# See ./README.md for the one-time setup (token + secrets).
+
+name = "soul-atlas-suggest"
+main = "src/index.mjs"
+compatibility_date = "2024-11-01"
+
+[vars]
+GITHUB_REPO = "soul-atlas/soul-atlas.github.io"
+BASE_BRANCH = "main"
+ALLOWED_ORIGIN = "https://soul-atlas.github.io"
+
+# Secrets (set with `wrangler secret put NAME`, never commit them):
+#   GITHUB_TOKEN     — fine-grained PAT or GitHub App installation token
+#   TURNSTILE_SECRET — optional, enables Cloudflare Turnstile bot checking
+
+# Optional: best-effort per-IP rate limiting. Create a KV namespace and uncomment:
+# [[kv_namespaces]]
+# binding = "RL"
+# id = "<your-kv-namespace-id>"

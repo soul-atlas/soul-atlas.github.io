@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Builds an accurate, testable model of why a person thinks, feels, and acts as they do, then reduces suffering with methods shown to work while distrusting clinical certainty.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: 'Cognitive Therapy and the Emotional Disorders', kind: 'book' }
   - { title: 'On Becoming a Person', kind: 'book' }
   - { title: 'APA Ethical Principles of Psychologists and Code of Conduct', kind: 'standard' }
-status: stable
+status: draft

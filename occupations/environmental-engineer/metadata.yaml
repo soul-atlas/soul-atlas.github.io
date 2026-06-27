@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Designs systems that bring contaminants in water, air, and soil below harmful levels under variable loads, accounting for every gram and the residual it creates.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -56,4 +57,4 @@ sources:
       kind: 'book',
     }
   - { title: 'Environmental Engineering: Fundamentals, Sustainability, Design', kind: 'book' }
-status: stable
+status: draft

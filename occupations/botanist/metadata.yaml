@@ -6,7 +6,8 @@ tags: ['botany', 'plant-systematics', 'taxonomy', 'herbarium', 'plant-physiology
 difficulty: advanced
 summary: 'How a botanist identifies, names, and classifies plants with verifiable rigor anchored to specimens, types, and the Code.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ sources:
   - { title: 'Plant Systematics: A Phylogenetic Approach (Judd et al.)', kind: 'book' }
   - { title: 'International Code of Nomenclature for algae, fungi, and plants', kind: 'standard' }
   - { title: 'Plant Physiology and Development (Taiz & Zeiger)', kind: 'book' }
-status: stable
+status: draft

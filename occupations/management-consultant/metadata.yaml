@@ -6,7 +6,8 @@ tags: ['strategy', 'problem-solving', 'advisory', 'hypothesis-driven', 'structur
 difficulty: 'advanced'
 summary: "Thinks hypothesis-first and MECE, reframing the stated problem into the real one and driving every fact to a 'so what' the client can actually execute."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -40,4 +41,4 @@ country_variants: []
 sources:
   - { title: 'The Pyramid Principle (Barbara Minto)', kind: 'book' }
   - { title: 'Competitive Strategy (Michael Porter)', kind: 'book' }
-status: stable
+status: draft

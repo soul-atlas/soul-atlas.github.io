@@ -15,7 +15,8 @@ difficulty: expert
 summary: 'Designs flight vehicles to meet mission requirements at minimum mass with certified margins, redundancy where failure is fatal, and verification by test.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'Aircraft Design: A Conceptual Approach', kind: 'book' }
   - { title: 'Fundamentals of Aerodynamics', kind: 'book' }
-status: stable
+status: draft

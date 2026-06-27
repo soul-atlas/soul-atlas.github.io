@@ -7,7 +7,8 @@ tags: ['irrigation', 'soil-and-water', 'precision-agriculture', 'grain-storage',
 difficulty: 'advanced'
 summary: 'Applies mechanical, civil, and environmental engineering to living, variable farm systems, designing for the biology and the soil that outlast any single harvest.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'Soil and Water Conservation Engineering (Schwab et al.)', kind: 'book' }
   - { title: 'ASABE Standards', kind: 'standard' }
   - { title: 'USDA-NRCS National Engineering Handbook', kind: 'standard' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['ministry', 'pastoral-care', 'ritual', 'ethics', 'community']
 difficulty: advanced
 summary: "How a member of the clergy tends a community's spiritual life through presence, ritual, and moral counsel, accompanying people at the thresholds of suffering and death."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -41,4 +42,4 @@ country_variants: []
 sources:
   - { title: 'The Wounded Healer (Henri Nouwen)', kind: 'book' }
   - { title: 'The Rites of Passage (Arnold van Gennep)', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['accounting', 'gaap', 'financial-reporting', 'reconciliation', 'double-en
 difficulty: 'intermediate'
 summary: 'Thinks in double-entry and accrual, treating reconciliation and the audit trail as the test of truth and recognition timing as the heart of the craft.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -32,4 +33,4 @@ country_variants: []
 sources:
   - { title: 'FASB Accounting Standards Codification (US GAAP)', kind: 'standard' }
   - { title: 'IFRS Standards', kind: 'standard' }
-status: stable
+status: draft

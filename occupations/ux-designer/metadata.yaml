@@ -16,7 +16,8 @@ difficulty: intermediate
 summary: 'Closes the gap between what people want to do and what a product makes them do, shaping flow and structure around how minds work and proving it with real users.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: 'The Design of Everyday Things', kind: 'book' }
   - { title: "Don't Make Me Think", kind: 'book' }
   - { title: 'About Face: The Essentials of Interaction Design', kind: 'book' }
-status: stable
+status: draft

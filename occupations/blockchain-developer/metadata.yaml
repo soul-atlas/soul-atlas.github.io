@@ -6,7 +6,8 @@ tags: ['smart-contracts', 'solidity', 'evm', 'security', 'consensus']
 difficulty: advanced
 summary: 'Thinks in immutability, keys, gas, and adversaries: writes code that holds money in public, cannot be patched, and is under constant economic attack, so security and threat modeling come before features.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -51,4 +52,4 @@ country_variants: []
 sources:
   - { title: 'Mastering Ethereum (Andreas Antonopoulos, Gavin Wood)', kind: 'book' }
   - { title: 'Ethereum Yellow Paper (Gavin Wood)', kind: 'standard' }
-status: stable
+status: draft

@@ -12,7 +12,8 @@ tags: ['health-operations', 'reimbursement', 'compliance', 'patient-safety', 'va
 difficulty: 'advanced'
 summary: 'Runs the complex organizations that deliver medicine — keeping them safe, compliant, and solvent so clinicians can practice, never trading patient safety for margin or letting the business collapse for lack of one.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -59,4 +60,4 @@ sources:
   - { title: 'The Well-Managed Healthcare Organization (White & Griffith)', kind: 'book' }
   - { title: 'Crossing the Quality Chasm (Institute of Medicine)', kind: 'book' }
   - { title: 'CMS Conditions of Participation; Joint Commission standards', kind: 'standard' }
-status: stable
+status: draft

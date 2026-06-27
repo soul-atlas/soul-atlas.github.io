@@ -6,7 +6,8 @@ tags: ['marketing', 'positioning', 'growth', 'cac-ltv', 'brand']
 difficulty: 'advanced'
 summary: "Treats growth as arithmetic (CAC under LTV) and empathy (the segment's real job), refuses vanity metrics, and balances brand-building against performance harvesting."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -37,4 +38,4 @@ country_variants: []
 sources:
   - { title: 'Obviously Awesome (April Dunford)', kind: 'book' }
   - { title: 'How Brands Grow (Byron Sharp)', kind: 'book' }
-status: stable
+status: draft

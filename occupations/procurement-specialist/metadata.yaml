@@ -6,7 +6,8 @@ tags: ['procurement', 'sourcing', 'negotiation', 'supply-chain', 'category-manag
 difficulty: intermediate
 summary: 'How an excellent buyer thinks: in total cost of ownership and supply risk rather than sticker price, building leverage through competition before the negotiation ever starts.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -44,4 +45,4 @@ specializations: ['category-manager', 'strategic-sourcing-manager', 'contracts-s
 country_variants: []
 sources:
   - { title: 'Purchasing and Supply Chain Management (Monczka et al.)', kind: 'book' }
-status: stable
+status: draft

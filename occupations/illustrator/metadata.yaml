@@ -6,7 +6,8 @@ tags: ['illustration', 'composition', 'value', 'visual-storytelling', 'silhouett
 difficulty: advanced
 summary: "How an illustrator turns a brief or text into an image that reads at a glance, controlling composition, value, and silhouette to lead the viewer's eye and carry mood."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -41,4 +42,4 @@ country_variants: []
 sources:
   - { title: 'Creative Illustration (Andrew Loomis)', kind: 'book' }
   - { title: 'Picture This: How Pictures Work (Molly Bang)', kind: 'book' }
-status: stable
+status: draft

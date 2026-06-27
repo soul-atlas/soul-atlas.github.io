@@ -6,7 +6,8 @@ tags: ['mapping', 'projections', 'gis', 'cartographic-design', 'geospatial']
 difficulty: 'advanced'
 summary: 'How a mapmaker thinks: no projection is perfect, so distortion is chosen consciously, data is normalized before it is shaded, and the honest map lies legibly.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -48,4 +49,4 @@ sources:
   - { title: 'How to Lie with Maps (Mark Monmonier)', kind: 'book' }
   - { title: 'Elements of Cartography (Robinson et al.)', kind: 'book' }
   - { title: 'Map Projections: A Working Manual (USGS, Snyder)', kind: 'book' }
-status: stable
+status: draft

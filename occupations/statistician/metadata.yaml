@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Turns noisy, imperfect data into calibrated belief — estimates with honest uncertainty — by reasoning about how the data were generated and how an analysis could be fooling itself.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -58,4 +59,4 @@ sources:
   - { title: 'Statistical Inference (Casella & Berger)', kind: 'book' }
   - { title: 'Bayesian Data Analysis (Gelman et al.)', kind: 'book' }
   - { title: 'Causality (Judea Pearl)', kind: 'book' }
-status: stable
+status: draft

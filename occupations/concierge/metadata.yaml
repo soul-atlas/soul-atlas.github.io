@@ -6,7 +6,8 @@ tags: ['guest-service', 'local-knowledge', 'networking', 'anticipatory-service',
 difficulty: 'intermediate'
 summary: "The fixer and host of hospitality — anticipating and fulfilling guests' needs and desires, from the routine to the seemingly impossible, with resourcefulness, insider knowledge, and grace."
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -43,4 +44,4 @@ sources:
   - { title: "Les Clefs d'Or concierge society standards", kind: 'standard' }
   - { title: 'The Heart of Hospitality (Micah Solomon)', kind: 'book' }
   - { title: 'Be Our Guest (Disney Institute)', kind: 'book' }
-status: stable
+status: draft

@@ -6,7 +6,8 @@ tags: ['materials', 'metallurgy', 'microstructure', 'characterization', 'failure
 difficulty: advanced
 summary: 'How an expert in materials reasons through the structure-property-processing-performance tetrahedron, treating defects as controls and every failure as a lesson.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ sources:
     }
   - { title: 'Materials Selection in Mechanical Design (Ashby)', kind: 'book' }
   - { title: 'Physical Metallurgy Principles (Reed-Hill & Abbaschian)', kind: 'book' }
-status: stable
+status: draft

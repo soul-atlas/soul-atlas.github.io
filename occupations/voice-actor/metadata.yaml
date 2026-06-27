@@ -16,7 +16,8 @@ difficulty: advanced
 summary: 'Acts with the voice alone, reading intention off the page and putting all character and physicality into sound, clean enough to edit and repeatable across sessions.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -60,4 +61,4 @@ sources:
   - { title: 'Word of Mouth', kind: 'book' }
   - { title: "There's Money Where Your Mouth Is", kind: 'book' }
   - { title: 'The Art of Voice Acting', kind: 'book' }
-status: stable
+status: draft

@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Restores movement and function by loading the body in the right dose at the right time, hunting the driver behind the symptom, and coaching patients to manage themselves.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -53,4 +54,4 @@ country_variants: []
 sources:
   - { title: 'Clinical Sports Medicine (Brukner & Khan)', kind: 'book' }
   - { title: 'Explain Pain (Butler & Moseley)', kind: 'book' }
-status: stable
+status: draft

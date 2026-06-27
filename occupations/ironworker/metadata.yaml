@@ -6,7 +6,8 @@ tags: ['steel-erection', 'rigging', 'bolting', 'fall-protection', 'construction'
 difficulty: advanced
 summary: 'How an expert ironworker thinks in stable structural states and engineered connections, keeping a half-built frame standing while tensioning every bolt to spec at lethal height.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: 'AISC Steel Construction Manual', kind: 'book' }
   - { title: 'OSHA 29 CFR 1926 Subpart R (Steel Erection)', kind: 'standard' }
-status: stable
+status: draft

@@ -7,7 +7,8 @@ tags:
 difficulty: 'advanced'
 summary: 'Turns messy operational decisions into formal models of objectives, constraints, and uncertainty, computes the best feasible answer, and translates it into a decision people will trust and act on.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-27'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-27'
 updated: '2026-06-27'
 related:
@@ -53,4 +54,4 @@ sources:
   - { title: 'Introduction to Operations Research (Hillier & Lieberman)', kind: 'book' }
   - { title: 'Model Building in Mathematical Programming (H.P. Williams)', kind: 'book' }
   - { title: 'The Flaw of Averages (Sam Savage)', kind: 'book' }
-status: stable
+status: draft

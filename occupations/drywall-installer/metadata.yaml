@@ -6,7 +6,8 @@ tags: ['drywall', 'gypsum-board', 'taping', 'finishing', 'fire-rated']
 difficulty: intermediate
 summary: 'How a drywall finisher thinks in planes and raking light, matching board, mud, and level of finish to the surface the room will actually reveal.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -41,4 +42,4 @@ country_variants: []
 sources:
   - { title: 'Gypsum Association GA-214: Recommended Levels of Finish', kind: 'standard' }
   - { title: 'USG Gypsum Construction Handbook', kind: 'book' }
-status: stable
+status: draft

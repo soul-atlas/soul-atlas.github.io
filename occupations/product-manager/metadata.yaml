@@ -6,7 +6,8 @@ tags: ['product-management', 'discovery', 'prioritization', 'roadmap', 'outcomes
 difficulty: advanced
 summary: 'How an excellent product manager thinks: obsessed with customer problems and outcomes over output, validating the riskiest assumption cheaply and deciding ruthlessly what not to build.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -50,4 +51,4 @@ specializations:
 country_variants: []
 sources:
   - { title: 'Inspired (Marty Cagan)', kind: 'book' }
-status: stable
+status: draft

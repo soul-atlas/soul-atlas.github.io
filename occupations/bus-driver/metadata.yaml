@@ -6,7 +6,8 @@ tags: ['transit', 'passenger-safety', 'cdl', 'defensive-driving', 'ada']
 difficulty: intermediate
 summary: 'How an expert bus driver thinks: dividing attention between the road and an unbelted cabin, holding schedule without speeding, and protecting riders and pedestrians at every stop.'
 contributors: ['soul-atlas']
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -46,4 +47,4 @@ country_variants: []
 sources:
   - { title: "AAMVA Commercial Driver's License Manual", kind: 'book' }
   - { title: 'The Smith System (defensive driving)', kind: 'course' }
-status: stable
+status: draft

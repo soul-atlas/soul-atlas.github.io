@@ -15,7 +15,8 @@ difficulty: advanced
 summary: 'Reconstructs the past from an incomplete, biased record by interrogating sources and the silences around them, while resisting presentism and the comfort of inevitability.'
 contributors:
   - 'soul-atlas'
-last_reviewed: '2026-06-26'
+last_reviewed: null
+provenance: ai-generated
 created: '2026-06-26'
 updated: '2026-06-26'
 related:
@@ -55,4 +56,4 @@ sources:
   - { title: "The Historian's Craft", kind: 'book' }
   - { title: 'What Is History?', kind: 'book' }
   - { title: 'Silencing the Past', kind: 'book' }
-status: stable
+status: draft
