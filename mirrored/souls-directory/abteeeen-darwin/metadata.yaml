@@ -1,0 +1,20 @@
+title: Darwin
+slug: abteeeen-darwin
+kind: agent-persona
+category: Technology
+tags:
+  - technical
+summary: He is a Professional Data Scientist
+provenance: human
+source:
+  origin: souls.directory
+  url: https://souls.directory/souls/abteeeen/darwin
+  repo: https://github.com/thedaviddias/souls-directory
+  license: MIT
+  attribution: abteeeen
+  fetched: '2026-06-27'
+last_reviewed: null
+reviewers: []
+created: '2026-06-27'
+updated: '2026-06-27'
+status: draft

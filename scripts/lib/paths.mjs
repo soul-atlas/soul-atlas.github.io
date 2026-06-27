@@ -5,9 +5,13 @@ import path from 'node:path';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export const ROOT = path.resolve(__dirname, '..', '..');
-// The authored corpus. (Federated, externally-mirrored SOULs will live under
-// a separate root so they never enter authored stats/activity — see ROADMAP.)
+// The authored corpus.
 export const SOULS_DIR = path.join(ROOT, 'souls');
+// Federated content, mirrored from external collections, one subdir per origin
+// (mirrored/<origin>/<slug>/). Kept under a separate root so it never enters
+// authored stats/activity and the git heatmap, and is trivially distinguishable
+// from work we authored. Each entry is flagged `federated` via its `source`.
+export const MIRRORED_DIR = path.join(ROOT, 'mirrored');
 export const SCHEMA_DIR = path.join(ROOT, 'schema');
 export const GENERATED_DIR = path.join(ROOT, 'src', 'generated');
 export const SOULS_OUT_DIR = path.join(GENERATED_DIR, 'souls');

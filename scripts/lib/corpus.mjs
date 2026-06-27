@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import yaml from 'js-yaml';
-import { SOULS_DIR, SCHEMA_DIR, RELATIONSHIP_TYPES } from './paths.mjs';
+import { SOULS_DIR, MIRRORED_DIR, SCHEMA_DIR, RELATIONSHIP_TYPES } from './paths.mjs';
 import { renderWithToc, countWords, readingTime } from './markdown.mjs';
 
 let _sections = null;
@@ -68,9 +68,41 @@ function parseMetadata(slug, dir) {
   return meta;
 }
 
+/**
+ * Discover every SOUL on disk and map its slug to its directory: the authored
+ * corpus (souls/<slug>/) plus federated mirrors (mirrored/<origin>/<slug>/).
+ * Authored entries win on a slug clash, so a mirror can never shadow our work.
+ */
+function discoverSoulDirs() {
+  const dirs = new Map();
+  const addChildren = (root) => {
+    if (!fs.existsSync(root)) return;
+    for (const e of fs.readdirSync(root, { withFileTypes: true })) {
+      if (!e.isDirectory() || e.name.startsWith('.')) continue;
+      const dir = path.join(root, e.name);
+      if (!dirs.has(e.name) && fs.existsSync(path.join(dir, 'SOUL.md'))) dirs.set(e.name, dir);
+    }
+  };
+  addChildren(SOULS_DIR);
+  if (fs.existsSync(MIRRORED_DIR)) {
+    for (const origin of fs.readdirSync(MIRRORED_DIR, { withFileTypes: true })) {
+      if (origin.isDirectory() && !origin.name.startsWith('.')) {
+        addChildren(path.join(MIRRORED_DIR, origin.name));
+      }
+    }
+  }
+  return dirs;
+}
+
+let _soulDirs = null;
+function soulDirs() {
+  if (!_soulDirs) _soulDirs = discoverSoulDirs();
+  return _soulDirs;
+}
+
 /** Read and fully process a single SOUL directory. */
 export function loadSoul(slug) {
-  const dir = path.join(SOULS_DIR, slug);
+  const dir = soulDirs().get(slug) || path.join(SOULS_DIR, slug);
   const soulPath = path.join(dir, 'SOUL.md');
   if (!fs.existsSync(soulPath)) throw new Error(`Missing SOUL.md for "${slug}"`);
 
@@ -123,7 +155,9 @@ export function loadSoul(slug) {
     computed: {
       wordCount: totalWords,
       readingTimeMinutes: readingTime(totalWords),
-      completeness: Math.round(completeness * 1000) / 1000,
+      // Federated SOULs don't follow our section spec, so completeness is N/A —
+      // treat as complete (and the page hides the figure for them).
+      completeness: federated ? 1 : Math.round(completeness * 1000) / 1000,
       backlinks: [], // filled in by buildCorpus once all souls are known
       verified,
       aiDrafted,
@@ -133,15 +167,9 @@ export function loadSoul(slug) {
   };
 }
 
-/** List every SOUL slug present on disk. */
+/** List every SOUL slug present on disk (authored + federated mirrors). */
 export function listSlugs() {
-  if (!fs.existsSync(SOULS_DIR)) return [];
-  return fs
-    .readdirSync(SOULS_DIR, { withFileTypes: true })
-    .filter((e) => e.isDirectory() && !e.name.startsWith('.'))
-    .map((e) => e.name)
-    .filter((slug) => fs.existsSync(path.join(SOULS_DIR, slug, 'SOUL.md')))
-    .sort();
+  return [...soulDirs().keys()].sort();
 }
 
 /**

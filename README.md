@@ -86,6 +86,7 @@ soul-atlas/
 │   └── software-engineer/
 │       ├── SOUL.md         # the portrait (H1 title + H2 sections)
 │       └── metadata.yaml   # category, tags, relationships, status…
+├── mirrored/               # federated SOULs from other collections (docs/FEDERATION.md)
 ├── schema/                 # the format contract: JSON Schema, sections, templates
 ├── scripts/                # the content engine (parse → validate → generate)
 ├── src/                    # the Astro website (pages, components, lib)

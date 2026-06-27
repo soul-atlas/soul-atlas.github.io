@@ -59,20 +59,25 @@ for (const slug of slugs) {
     err(slug, `metadata.slug "${m.slug}" does not match directory name "${slug}"`);
   }
 
-  // Section presence + minimum substance.
-  const present = new Map(soul.sections.map((s) => [s.heading, s]));
-  for (const def of requiredSections) {
-    const sec = present.get(def.heading);
-    if (!sec) {
-      err(slug, `missing required section "## ${def.heading}"`);
-    } else if (sec.wordCount < (def.minWords || 0)) {
-      warn(slug, `section "${def.heading}" is thin (${sec.wordCount}/${def.minWords} words)`);
+  // Section structure is the authored-SOUL contract. Federated mirrors carry the
+  // upstream's own shape (values/tone/vibe), so we validate their metadata but not
+  // our section spec — otherwise every mirror would fail.
+  if (!soul.computed.federated) {
+    // Section presence + minimum substance.
+    const present = new Map(soul.sections.map((s) => [s.heading, s]));
+    for (const def of requiredSections) {
+      const sec = present.get(def.heading);
+      if (!sec) {
+        err(slug, `missing required section "## ${def.heading}"`);
+      } else if (sec.wordCount < (def.minWords || 0)) {
+        warn(slug, `section "${def.heading}" is thin (${sec.wordCount}/${def.minWords} words)`);
+      }
     }
-  }
-  // Unknown headings: allowed, but flagged so the schema stays the contract.
-  const knownHeadings = new Set(spec.map((s) => s.heading));
-  for (const sec of soul.sections) {
-    if (!knownHeadings.has(sec.heading)) warn(slug, `non-canonical section "## ${sec.heading}"`);
+    // Unknown headings: allowed, but flagged so the schema stays the contract.
+    const knownHeadings = new Set(spec.map((s) => s.heading));
+    for (const sec of soul.sections) {
+      if (!knownHeadings.has(sec.heading)) warn(slug, `non-canonical section "## ${sec.heading}"`);
+    }
   }
 
   // Relationship integrity.
