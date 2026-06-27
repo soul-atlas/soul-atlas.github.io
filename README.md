@@ -27,6 +27,20 @@ someone who's mastered a field actually thinks, decides, and works.
 
 ---
 
+## See it in action
+
+<div align="center">
+
+<a href="https://soul-atlas.github.io">
+  <img src="./assets/tour.gif" alt="A guided tour of SOUL Atlas — search, explore, the knowledge graph, dashboard, and side-by-side comparison" width="100%" />
+</a>
+
+<em>Search with ⌘K · browse 300+ SOULs · navigate the knowledge graph · compare two minds side by side.</em>
+
+</div>
+
+---
+
 ## What is a SOUL?
 
 A SOUL isn't documentation, and it isn't a prompt.
