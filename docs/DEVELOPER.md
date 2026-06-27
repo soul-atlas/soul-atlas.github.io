@@ -26,7 +26,7 @@ the derived data.
 | `npm run dev` | Generate + dev server. |
 | `npm run build` | Generate + `astro build` + Pagefind search index → `dist/`. |
 | `npm run preview` | Serve the production build. |
-| `npm run generate` | Rebuild `src/generated/` and `public/api/` from `occupations/`. |
+| `npm run generate` | Rebuild `src/generated/` and `public/api/` from `souls/`. |
 | `npm run validate` | Schema + section + relationship validation (CI gate). |
 | `npm run stats` | Print quick corpus statistics. |
 | `npm run new -- --title "…" --category "…"` | Scaffold a new SOUL. |
@@ -54,15 +54,15 @@ public/             # static assets; public/api is generated
 
 ## How data reaches a page
 
-1. `generate.mjs` reads `occupations/`, computes everything, and writes
+1. `generate.mjs` reads `souls/`, computes everything, and writes
    `src/generated/{index,graph,stats,manifest,activity,search}.json` and
    `src/generated/souls/<slug>.json`.
 2. `src/lib/data.ts` imports those (full records via `import.meta.glob`) and exposes
    typed helpers (`souls`, `graph`, `stats`, `getRecord`, `categoryColor`, …).
-3. Pages import from `data.ts`. `occupations/[slug].astro` uses `getStaticPaths` over
+3. Pages import from `data.ts`. `souls/[slug].astro` uses `getStaticPaths` over
    `allRecords()`.
 
-Never read `occupations/` from a page directly — go through the engine so the API and
+Never read `souls/` from a page directly — go through the engine so the API and
 the website never diverge.
 
 ## Conventions

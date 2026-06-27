@@ -88,7 +88,14 @@ export function computeStats(corpus, gitBySlug = {}) {
   const bc = betweenness(graph, adj);
 
   const total = souls.length;
+  // Authored = everything we wrote here. Federated (externally-mirrored) SOULs
+  // are attributed and browsable but excluded from authored-quality headline
+  // shares so they can't flatter or distort the corpus's verified/stable signal.
+  const authored = souls.filter((s) => !s.computed.federated);
+  const authoredTotal = authored.length;
+  const federatedTotal = total - authoredTotal;
   const byCategory = {};
+  const byKind = {};
   const byStatus = {};
   const byProvenance = {};
   const byDifficulty = {};
@@ -107,6 +114,7 @@ export function computeStats(corpus, gitBySlug = {}) {
   for (const s of souls) {
     const m = s.metadata;
     byCategory[m.category] = (byCategory[m.category] || 0) + 1;
+    byKind[m.kind || 'occupation'] = (byKind[m.kind || 'occupation'] || 0) + 1;
     byStatus[m.status] = (byStatus[m.status] || 0) + 1;
     byProvenance[m.provenance || 'unknown'] = (byProvenance[m.provenance || 'unknown'] || 0) + 1;
     if (s.computed.verified) verifiedCount += 1;
@@ -186,6 +194,8 @@ export function computeStats(corpus, gitBySlug = {}) {
     generatedFor: '2026-06-26',
     totals: {
       souls: total,
+      federated: federatedTotal,
+      kinds: Object.keys(byKind).length,
       edges: graph.edges.length,
       words: totalWords,
       categories: Object.keys(byCategory).length,
@@ -197,11 +207,17 @@ export function computeStats(corpus, gitBySlug = {}) {
           10
         : 0,
       graphDensity: Math.round(density * 100000) / 100000,
-      stableShare: total ? Math.round(((byStatus.stable || 0) / total) * 1000) / 1000 : 0,
+      // Shares describe authored quality, so federated mirrors don't distort them.
+      stableShare: authoredTotal
+        ? Math.round(
+            (authored.filter((s) => s.metadata.status === 'stable').length / authoredTotal) * 1000,
+          ) / 1000
+        : 0,
       verified: verifiedCount,
-      verifiedShare: total ? Math.round((verifiedCount / total) * 1000) / 1000 : 0,
+      verifiedShare: authoredTotal ? Math.round((verifiedCount / authoredTotal) * 1000) / 1000 : 0,
     },
     byCategory: sortRecord(byCategory),
+    byKind: sortRecord(byKind),
     byStatus,
     byProvenance,
     byDifficulty,

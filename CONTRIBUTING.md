@@ -38,7 +38,7 @@ well), but it's a good place to start looking for thin sections to deepen.
 
 - Read the [Style Guide](STYLE_GUIDE.md) — it's the difference between a SOUL and a
   job description.
-- Skim a gold-standard example: [`occupations/software-engineer/SOUL.md`](occupations/software-engineer/SOUL.md).
+- Skim a gold-standard example: [`souls/software-engineer/SOUL.md`](souls/software-engineer/SOUL.md).
 - A SOUL must come from **real understanding** of the work. You don't have to be the
   world's leading expert, but you must be honest about how the work is actually done.
 
@@ -49,11 +49,11 @@ well), but it's a good place to start looking for thin sections to deepen.
 npm run new -- --title "Glassblower" --category "Skilled Trades" \
   --summary "Shapes molten glass by breath, gravity, and timing."
 
-# 2. Write occupations/glassblower/SOUL.md — fill every required section
+# 2. Write souls/glassblower/SOUL.md — fill every required section
 #    with dense, concrete, first-hand-feeling content. No filler.
 
-# 3. Fill in occupations/glassblower/metadata.yaml — tags, difficulty,
-#    and 4–6 typed `related` edges to occupations that already exist.
+# 3. Fill in souls/glassblower/metadata.yaml — tags, difficulty,
+#    and 4–6 typed `related` edges to SOULs that already exist.
 
 # 4. Validate locally
 npm run validate

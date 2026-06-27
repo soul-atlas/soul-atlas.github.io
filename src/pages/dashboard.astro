@@ -1,10 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { stats, activity, categories, categoryColor } from '../lib/data';
+import { stats, activity, categories, kinds, kindLabel, categoryColor } from '../lib/data';
 import { url, soulUrl } from '../lib/site';
 
 const t = stats.totals;
 const maxCat = Math.max(1, ...categories.map((c: any) => c.count));
+const maxKind = Math.max(1, ...kinds.map((k: any) => k.count));
 
 // Build a GitHub-style activity heatmap (last ~26 weeks) from commit counts.
 const byDate = new Map(activity.map((a: any) => [a.date, a.count]));
@@ -122,6 +123,39 @@ const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
         }
       </div>
     </section>
+
+    <!-- Kind distribution (only meaningful once we cover more than occupations) -->
+    {
+      kinds.length > 1 && (
+        <section class="mt-10">
+          <h2 class="text-lg font-semibold" style="color:var(--ink)">
+            Coverage by kind
+          </h2>
+          <p class="mt-1 text-sm" style="color:var(--ink-faint)">
+            How the Atlas is broadening past occupations toward every way humans think.
+          </p>
+          <div class="card mt-3 space-y-2 p-5">
+            {kinds.map((k: any) => (
+              <a href={url(`/souls?kind=${k.kind}`)} class="block">
+                <div class="flex items-center justify-between text-sm">
+                  <span style="color:var(--ink-soft)">{kindLabel(k.kind)}</span>
+                  <span style="color:var(--ink-faint)">{k.count}</span>
+                </div>
+                <div
+                  class="mt-1 h-2 overflow-hidden rounded-full"
+                  style="background:var(--bg-soft)"
+                >
+                  <div
+                    class="h-full rounded-full"
+                    style={`width:${(k.count / maxKind) * 100}%; background:var(--accent)`}
+                  />
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )
+    }
 
     <!-- Activity heatmap -->
     <section class="mt-10">
@@ -244,6 +278,14 @@ const tables: { title: string; rows: any[]; render: (r: any) => string }[] = [
               >{t.verified} ({Math.round((t.verifiedShare || 0) * 100)}%)</span
             >
           </li>
+          {
+            (t.federated || 0) > 0 && (
+              <li class="flex justify-between">
+                <span>Federated (external, excluded from shares)</span>
+                <span style="color:var(--ink)">{t.federated}</span>
+              </li>
+            )
+          }
         </ul>
         <p class="mt-3 text-xs" style="color:var(--ink-faint)">
           Most SOULs are AI-drafted first passes awaiting review by people who do the work.{' '}

@@ -27,10 +27,31 @@ export interface Reviewer {
   date?: string;
 }
 
+export type Kind =
+  | 'occupation'
+  | 'discipline'
+  | 'role'
+  | 'identity'
+  | 'community'
+  | 'historical'
+  | 'agent-persona';
+
+export interface SoulSource {
+  origin: string;
+  url?: string;
+  repo?: string;
+  license?: string;
+  attribution?: string;
+  fetched?: string;
+}
+
 export interface SoulSummary {
   slug: string;
   title: string;
   category: string;
+  kind: Kind;
+  source: SoulSource | null;
+  federated: boolean;
   tags: string[];
   aliases: string[];
   difficulty: string | null;
@@ -85,6 +106,7 @@ export interface SoulRecord {
     verified: boolean;
     aiDrafted: boolean;
     unverifiedAiDraft: boolean;
+    federated: boolean;
   };
   git: GitHistory;
   citation: Citation;
@@ -95,9 +117,11 @@ export interface GraphData {
     id: string;
     title: string;
     category: string;
+    kind: Kind;
     difficulty: string | null;
     status: string;
     verified: boolean;
+    federated: boolean;
     tags: string[];
     wordCount: number;
     degree: number;
@@ -141,7 +165,29 @@ export function allRecords(): SoulRecord[] {
 }
 
 export const categories = manifest.categories as { name: string; count: number }[];
+export const kinds = (manifest.kinds ?? []) as { kind: Kind; count: number }[];
 export const tags = manifest.tags as { tag: string; count: number }[];
+
+// Display labels and the noun used in kind-aware copy.
+export const KIND_LABELS: Record<Kind, string> = {
+  occupation: 'Occupation',
+  discipline: 'Discipline',
+  role: 'Role',
+  identity: 'Identity',
+  community: 'Community',
+  historical: 'Historical',
+  'agent-persona': 'Agent persona',
+};
+
+export function kindLabel(kind: string | null | undefined): string {
+  return KIND_LABELS[(kind as Kind) ?? 'occupation'] ?? 'Occupation';
+}
+
+// schema.org type for JSON-LD `about`. Occupations are a first-class type; every
+// other way of thinking is best described as a DefinedTerm (a named concept).
+export function schemaOrgType(kind: string | null | undefined): string {
+  return (kind ?? 'occupation') === 'occupation' ? 'Occupation' : 'DefinedTerm';
+}
 
 export const RELATION_LABELS: Record<RelationshipType, string> = {
   related: 'Related',

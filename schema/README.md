@@ -8,14 +8,14 @@ here, in one place, and everything downstream follows.
 | --- | --- |
 | [`sections.json`](./sections.json) | The canonical, ordered list of [SOUL.md](https://soul.md/) sections, which are required, their minimum substance, and the authoring prompt for each. |
 | [`metadata.schema.json`](./metadata.schema.json) | JSON Schema (draft-07) for `metadata.yaml`. Validated on every build. |
-| [`soul.schema.json`](./soul.schema.json) | JSON Schema for the fully assembled record emitted at `/api/occupations/{slug}.json`. |
+| [`soul.schema.json`](./soul.schema.json) | JSON Schema for the fully assembled record emitted at `/api/souls/{slug}.json`. |
 | [`SOUL.template.md`](./SOUL.template.md) | The starting point for a new SOUL body. `npm run new` copies it. |
 | [`metadata.template.yaml`](./metadata.template.yaml) | The starting point for a new `metadata.yaml`. |
 
 ## A SOUL is two files
 
 ```text
-occupations/<slug>/
+souls/<slug>/
 ├── SOUL.md         # the portrait of how this mind works (H1 title, H2 sections)
 └── metadata.yaml   # structured facts: category, tags, relationships, status…
 ```

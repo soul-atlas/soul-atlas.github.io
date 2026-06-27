@@ -180,6 +180,9 @@ const lightList = corpus.souls.map((s) => ({
   slug: s.slug,
   title: s.title,
   category: s.metadata.category,
+  kind: s.metadata.kind,
+  source: s.metadata.source || null,
+  federated: s.computed.federated,
   tags: s.metadata.tags,
   aliases: s.metadata.aliases,
   difficulty: s.metadata.difficulty || null,
@@ -217,6 +220,7 @@ const searchDocs = corpus.souls.map((s) => ({
 }));
 
 const categories = Object.entries(stats.byCategory).map(([name, count]) => ({ name, count }));
+const kinds = Object.entries(stats.byKind).map(([kind, count]) => ({ kind, count }));
 const tags = stats.tags;
 
 console.log('• Writing src/generated …');
@@ -228,6 +232,7 @@ writeJSON(path.join(GENERATED_DIR, 'manifest.json'), {
   build: buildMeta,
   sections: spec,
   categories,
+  kinds,
   tags,
   githubUrl: GITHUB_URL,
 });

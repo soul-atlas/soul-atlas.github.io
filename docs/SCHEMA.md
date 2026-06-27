@@ -1,12 +1,12 @@
 # Schema Reference
 
-A SOUL is two files in `occupations/<slug>/`:
+A SOUL is two files in `souls/<slug>/`:
 
 - **[`SOUL.md`](https://soul.md/)** — the portrait: an `# H1` title followed by `## H2` sections.
 - **`metadata.yaml`** — structured facts, validated against
   [`schema/metadata.schema.json`](../schema/metadata.schema.json).
 
-The fully assembled, computed record served at `/api/occupations/<slug>.json` is
+The fully assembled, computed record served at `/api/souls/<slug>.json` is
 described by [`schema/soul.schema.json`](../schema/soul.schema.json).
 
 ## [`SOUL.md`](https://soul.md/) sections

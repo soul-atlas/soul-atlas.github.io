@@ -34,6 +34,10 @@ matter more than adding nodes.
 - [x] Country/jurisdiction variants surfaced as first-class on the page.
 - [ ] Diff viewer for comparing revisions of a single SOUL on the site.
 - [ ] Grow coverage toward full enumeration — but depth-per-entry leads breadth.
+- [x] Beyond occupations: a `kind` axis (occupation · discipline · role · identity ·
+  community · historical · agent-persona) so the Atlas can hold every way humans
+  think, not only job titles. Surfaced as a filter, a dashboard breakdown, and
+  kind-aware page metadata. _Now: seed real non-occupation SOULs._
 
 > **On the knowledge graph:** the schema and graph earn their keep as the corpus
 > grows and people traverse it. Until then, the prose is the product. We invest in
@@ -44,6 +48,11 @@ matter more than adding nodes.
 - [x] Stable, versioned API contract and an OpenAPI/JSON-Schema description of it
   ([`/api/openapi.json`](https://soul-atlas.github.io/api/openapi.json) + served JSON Schema).
 - [ ] Incremental / sharded builds to comfortably handle 10,000+ SOULs.
+- [ ] Federate third-party SOUL collections (e.g. [souls.directory](https://souls.directory)):
+  mirror their MIT-licensed files into a separate `federated/` root, attribute and
+  link back via the `source` field, and keep them out of authored stats. The schema
+  (`kind: agent-persona` + `source`) and UI (external badge, source card, stats
+  exclusion) already support this; the ingestion adapter is the remaining piece.
 - [ ] Embeddings + semantic "explore similar minds" beyond explicit edges.
 - [ ] Translations and multilingual SOULs.
 - [ ] EPUB / PDF export of curated collections ("a reader's atlas of the trades").

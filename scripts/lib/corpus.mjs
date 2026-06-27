@@ -53,6 +53,9 @@ function parseMetadata(slug, dir) {
     throw new Error(`Missing metadata.yaml for "${slug}"`);
   }
   const meta = yaml.load(fs.readFileSync(metaPath, 'utf8')) || {};
+  // The Atlas began as occupations; entries without an explicit kind are
+  // occupations. Everything downstream can rely on kind being present.
+  meta.kind ??= 'occupation';
   // Normalise optional arrays so downstream code never guards for null.
   meta.aliases ??= [];
   meta.tags ??= [];
@@ -108,6 +111,9 @@ export function loadSoul(slug) {
   const reviewers = metadata.reviewers || [];
   const verified = reviewers.length > 0 || Boolean(metadata.last_reviewed);
   const aiDrafted = metadata.provenance === 'ai-generated' || metadata.provenance === 'ai-assisted';
+  // Federated = mirrored from an external collection (has a `source`). These are
+  // attributed, badged, and kept out of authored headline stats — never absorbed.
+  const federated = Boolean(metadata.source && metadata.source.origin);
 
   return {
     slug,
@@ -122,6 +128,7 @@ export function loadSoul(slug) {
       verified,
       aiDrafted,
       unverifiedAiDraft: aiDrafted && !verified,
+      federated,
     },
   };
 }
@@ -178,9 +185,11 @@ export function buildCorpus() {
     id: s.slug,
     title: s.title,
     category: s.metadata.category,
+    kind: s.metadata.kind,
     difficulty: s.metadata.difficulty || null,
     status: s.metadata.status,
     verified: s.computed.verified,
+    federated: s.computed.federated,
     tags: s.metadata.tags,
     wordCount: s.computed.wordCount,
     degree: 0,

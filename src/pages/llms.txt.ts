@@ -42,9 +42,7 @@ export async function GET(context: APIContext) {
 
   lines.push('## API (machine-readable)');
   lines.push(`- [API index](${abs('/api/index.json')}): endpoint map and build metadata`);
-  lines.push(
-    `- [All SOULs (JSON)](${abs('/api/souls.json')}): summaries, metadata, relationships`,
-  );
+  lines.push(`- [All SOULs (JSON)](${abs('/api/souls.json')}): summaries, metadata, relationships`);
   lines.push(`- [Knowledge graph (JSON)](${abs('/api/graph.json')}): nodes and typed edges`);
   lines.push(
     `- [Statistics (JSON)](${abs('/api/stats.json')}): coverage, centrality, leaderboards, quality`,

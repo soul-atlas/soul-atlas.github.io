@@ -7,15 +7,7 @@ export async function GET(context: APIContext) {
   const origin = (context.site?.origin ?? 'https://soul-atlas.github.io').replace(/\/$/, '');
   const abs = (path: string) => `${origin}${path}`;
 
-  const staticPages = [
-    '/',
-    '/souls',
-    '/graph',
-    '/dashboard',
-    '/compare',
-    '/about',
-    '/search',
-  ];
+  const staticPages = ['/', '/souls', '/graph', '/dashboard', '/compare', '/about', '/search'];
   const urls: { loc: string; lastmod?: string }[] = [];
 
   for (const p of staticPages) urls.push({ loc: abs(url(p)) });

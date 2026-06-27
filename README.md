@@ -21,7 +21,7 @@ someone who's mastered a field actually thinks, decides, and works.
 
 [![Build](https://github.com/soul-atlas/soul-atlas.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/soul-atlas/soul-atlas.github.io/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![SOULs](https://img.shields.io/endpoint?url=https://soul-atlas.github.io/api/badge.json)](https://soul-atlas.github.io/occupations)
+[![SOULs](https://img.shields.io/endpoint?url=https://soul-atlas.github.io/api/badge.json)](https://soul-atlas.github.io/souls)
 
 </div>
 
@@ -82,7 +82,7 @@ on its own.
 
 ```text
 soul-atlas/
-├── occupations/            # the corpus — one folder per SOUL
+├── souls/                  # the corpus — one folder per SOUL
 │   └── software-engineer/
 │       ├── SOUL.md         # the portrait (H1 title + H2 sections)
 │       └── metadata.yaml   # category, tags, relationships, status…
@@ -116,7 +116,7 @@ npm run check      # validate + lint + format check
 ## How it works
 
 SOUL Atlas is **100% static** — no backend, no database, no server. Everything is
-derived from the `occupations/` directory at build time:
+derived from the `souls/` directory at build time:
 
 1. **`npm run generate`** parses every SOUL, validates structure, renders Markdown,
    reads git history, computes statistics and the knowledge graph, and emits:
@@ -147,12 +147,12 @@ Every artifact is available as static JSON (and per-occupation Markdown/YAML):
 /api/index.json                     # API root + endpoint map
 /api/openapi.json                   # OpenAPI 3.1 description of this API
 /api/schema/*.schema.json           # the JSON Schemas the corpus validates against
-/api/occupations.json               # every SOUL (summary)
+/api/souls.json               # every SOUL (summary)
 /api/categories.json   /api/tags.json
 /api/graph.json                     # nodes + typed edges
 /api/stats.json                     # all computed analytics
-/api/occupations/<slug>.json        # full record (sections, HTML, git history, citation)
-/api/occupations/<slug>.md|.yaml    # exports
+/api/souls/<slug>.json        # full record (sections, HTML, git history, citation)
+/api/souls/<slug>.md|.yaml    # exports
 ```
 
 For LLMs, there's an [`/llms.txt`](https://soul-atlas.github.io/llms.txt) index and a
@@ -186,7 +186,7 @@ To contribute directly, read the [Contributing Guide](CONTRIBUTING.md) and the
 
 ```bash
 npm run new -- --title "Your Role" --category "Category"
-# write occupations/your-role/SOUL.md from real expertise
+# write souls/your-role/SOUL.md from real expertise
 npm run validate        # schema, sections, relationships
 npm run audit           # see which existing SOULs read thinnest
 ```

@@ -191,7 +191,7 @@ function buildRecord(r) {
 
 function prBody({ kind, slug, section, filePath }) {
   return [
-    `Community ${kind} for [\`${slug}\`](../../tree/main/occupations/${slug}/SOUL.md)` +
+    `Community ${kind} for [\`${slug}\`](../../tree/main/souls/${slug}/SOUL.md)` +
       (section ? ` — section **${section}**` : '') +
       '.',
     '',
@@ -202,7 +202,7 @@ function prBody({ kind, slug, section, filePath }) {
     '**Maintainer checklist**',
     '',
     '- [ ] Sanity-check the suggestion against the Style Guide and real practice',
-    '- [ ] Apply the wording to `occupations/' + slug + "/SOUL.md` (don't just merge the record)",
+    '- [ ] Apply the wording to `souls/' + slug + "/SOUL.md` (don't just merge the record)",
     '- [ ] If a practitioner verified it, add them to `reviewers` and set `last_reviewed`',
     '- [ ] Delete the `suggestions/` record file before merging',
     '- [ ] `npm run validate` passes',

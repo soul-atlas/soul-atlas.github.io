@@ -10,7 +10,7 @@
       "options": { "parser": "astro" }
     },
     {
-      "files": ["*.md", "occupations/**/*.md"],
+      "files": ["*.md", "souls/**/*.md"],
       "options": { "proseWrap": "preserve", "printWidth": 80 }
     }
   ]
