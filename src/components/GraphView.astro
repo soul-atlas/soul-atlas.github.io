@@ -53,6 +53,13 @@ const base = import.meta.env.BASE_URL;
             <option value={name}>{name}</option>
           ))}
         </select>
+        <select
+          class="rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
+          style="border-color:var(--border); color:var(--ink); display:none"
+          data-graph-kind-filter
+        >
+          <option value="">All kinds</option>
+        </select>
         <span class="text-xs" style="color:var(--ink-faint)" data-graph-count />
         <span class="ml-auto text-xs" style="color:var(--ink-faint)">
           drag · scroll to zoom · click to open
@@ -106,6 +113,29 @@ const base = import.meta.env.BASE_URL;
     'Life Roles': '#fb7185',
   };
   const color = (c: string) => CATEGORY_COLORS[c] ?? '#94a3b8';
+
+  // Kind is encoded by node SHAPE (colour stays = category). Occupations are
+  // circles (the overwhelming majority); other ways of thinking get a distinct
+  // glyph so they read at a glance.
+  const KIND_SYMBOLS: Record<string, any> = {
+    occupation: d3.symbolCircle,
+    discipline: d3.symbolDiamond,
+    role: d3.symbolSquare,
+    identity: d3.symbolTriangle,
+    community: d3.symbolWye,
+    historical: d3.symbolCross,
+    'agent-persona': d3.symbolStar,
+  };
+  const KIND_LABELS: Record<string, string> = {
+    occupation: 'Occupation',
+    discipline: 'Discipline',
+    role: 'Role',
+    identity: 'Identity',
+    community: 'Community',
+    historical: 'Historical',
+    'agent-persona': 'Agent persona',
+  };
+  const symbolFor = (kind: string) => KIND_SYMBOLS[kind] ?? d3.symbolCircle;
 
   async function initGraph(wrap: Element) {
     const canvas = wrap.querySelector('[data-graph-canvas]') as HTMLElement;
@@ -176,8 +206,14 @@ const base = import.meta.env.BASE_URL;
     const node = root.append('g').selectAll('g').data(nodes).join('g').style('cursor', 'pointer');
 
     node
-      .append('circle')
-      .attr('r', (d: any) => sizeScale(d.degree))
+      .append('path')
+      .attr('d', (d: any) =>
+        d3
+          .symbol()
+          .type(symbolFor(d.kind))
+          // size is area; match the equivalent circle radius so shapes feel even
+          .size(Math.PI * Math.pow(sizeScale(d.degree), 2))(),
+      )
       .attr('fill', (d: any) => color(d.category))
       .attr('stroke', (d: any) => (d.id === focus ? 'var(--ink)' : 'var(--surface)'))
       .attr('stroke-width', (d: any) => (d.id === focus ? 2.5 : 1));
@@ -213,7 +249,9 @@ const base = import.meta.env.BASE_URL;
       .on('mouseenter', (ev: any, d: any) => {
         highlight(d.id);
         tip.style.display = 'block';
-        tip.textContent = `${d.title} — ${d.category} · ${d.degree} links`;
+        const kindBit =
+          d.kind && d.kind !== 'occupation' ? `${KIND_LABELS[d.kind] ?? d.kind} · ` : '';
+        tip.textContent = `${d.title} — ${kindBit}${d.category} · ${d.degree} links`;
       })
       .on('mouseleave', () => {
         highlight(focus);
@@ -306,6 +344,31 @@ const base = import.meta.env.BASE_URL;
           !c || d.source.category === c || d.target.category === c ? 0.6 : 0.03,
         );
       });
+    }
+
+    // Kind filter: populated from the kinds actually present in this graph, so
+    // it only appears once the Atlas covers more than occupations.
+    const kindFilter = wrap.querySelector('[data-graph-kind-filter]') as HTMLSelectElement | null;
+    if (kindFilter) {
+      const present = [...new Set(nodes.map((n: any) => n.kind || 'occupation'))];
+      if (present.length > 1) {
+        for (const k of present.sort()) {
+          const opt = document.createElement('option');
+          opt.value = k;
+          opt.textContent = KIND_LABELS[k] ?? k;
+          kindFilter.appendChild(opt);
+        }
+        kindFilter.style.display = '';
+        kindFilter.addEventListener('change', () => {
+          const k = kindFilter.value;
+          node.style('opacity', (d: any) => (!k || (d.kind || 'occupation') === k ? 1 : 0.08));
+          link.style('opacity', (d: any) =>
+            !k || (d.source.kind || 'occupation') === k || (d.target.kind || 'occupation') === k
+              ? 0.6
+              : 0.03,
+          );
+        });
+      }
     }
   }
 
