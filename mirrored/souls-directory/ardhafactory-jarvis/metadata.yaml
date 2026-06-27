@@ -1,0 +1,20 @@
+title: Jarvis
+slug: ardhafactory-jarvis
+kind: agent-persona
+category: Business
+tags:
+  - professional
+summary: Jarvis — an AI agent persona mirrored from souls.directory (business category).
+provenance: human
+source:
+  origin: souls.directory
+  url: https://souls.directory/souls/ardhafactory/jarvis
+  repo: https://github.com/thedaviddias/souls-directory
+  license: MIT
+  attribution: ardhafactory
+  fetched: '2026-06-27'
+last_reviewed: null
+reviewers: []
+created: '2026-06-27'
+updated: '2026-06-27'
+status: draft

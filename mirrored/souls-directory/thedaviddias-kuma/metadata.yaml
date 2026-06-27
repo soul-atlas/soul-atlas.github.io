@@ -1,0 +1,20 @@
+title: Kuma (くま)
+slug: thedaviddias-kuma
+kind: agent-persona
+category: Education
+tags:
+  - educational
+summary: The best Japanese Teacher!
+provenance: human
+source:
+  origin: souls.directory
+  url: https://souls.directory/souls/thedaviddias/kuma
+  repo: https://github.com/thedaviddias/souls-directory
+  license: MIT
+  attribution: thedaviddias
+  fetched: '2026-06-27'
+last_reviewed: null
+reviewers: []
+created: '2026-06-27'
+updated: '2026-06-27'
+status: draft

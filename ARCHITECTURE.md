@@ -21,7 +21,9 @@ flowchart LR
 ```
 
 1. **Source of truth** — `souls/<slug>/SOUL.md` (an H1 title and H2 sections)
-   plus `metadata.yaml`. Nothing is computed by hand.
+   plus `metadata.yaml`. Nothing is computed by hand. The loader also reads
+   federated mirrors under `mirrored/<origin>/<slug>/` (see
+   [docs/FEDERATION.md](docs/FEDERATION.md)), kept out of authored stats + graph.
 2. **The engine** (`scripts/`, plain ESM) parses, validates, renders Markdown, reads
    git history, and computes the graph + analytics.
 3. **Generated artifacts** are written to `src/generated/` (for the site) and

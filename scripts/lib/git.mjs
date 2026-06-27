@@ -77,7 +77,8 @@ export function repoActivity(days = 365) {
   let out;
   try {
     // Both paths: 'occupations' is the pre-rename history, 'souls' the current
-    // corpus. Federated/ is intentionally excluded — authored activity only.
+    // corpus. mirrored/ (federated content) is intentionally excluded — authored
+    // activity only.
     out = git(['log', `--since=${days} days ago`, '--format=%aI', '--', 'souls', 'occupations']);
   } catch {
     return [];

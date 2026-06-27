@@ -213,7 +213,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
             <span>{rec.computed.readingTimeMinutes} min read</span>
             <span>· {rec.computed.wordCount.toLocaleString('en-US')} words</span>
             {updated && <span>· Updated {updated}</span>}
-            <span>· {Math.round(rec.computed.completeness * 100)}% complete</span>
+            {!isFederated && <span>· {Math.round(rec.computed.completeness * 100)}% complete</span>}
           </div>
           {
             (m.tags || []).length > 0 && (
@@ -390,28 +390,47 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
             </svg>
             Download SOUL.md
           </a>
-          <button
-            type="button"
-            class="btn w-full justify-center !py-2 text-sm font-semibold"
-            data-suggest-open
-          >
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path
-                d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5Z"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"></path>
-            </svg>
-            Suggest a change
-          </button>
-          <div class="text-[11px]" style="color:var(--ink-faint)">
-            No GitHub account needed — your suggestion becomes a reviewable pull request.
-          </div>
+          {
+            !isFederated && (
+              <>
+                <button
+                  type="button"
+                  class="btn w-full justify-center !py-2 text-sm font-semibold"
+                  data-suggest-open
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path
+                      d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Suggest a change
+                </button>
+                <div class="text-[11px]" style="color:var(--ink-faint)">
+                  No GitHub account needed — your suggestion becomes a reviewable pull request.
+                </div>
+              </>
+            )
+          }
           <div class="flex flex-wrap gap-2">
-            <a href={ghEditUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">Edit on GitHub</a>
-            <a href={ghHistoryUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">History</a>
-            <a href={ghBlameUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">Blame</a>
+            {
+              !isFederated && (
+                <>
+                  <a href={ghEditUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">
+                    Edit on GitHub
+                  </a>
+                  <a href={ghHistoryUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">
+                    History
+                  </a>
+                  <a href={ghBlameUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">
+                    Blame
+                  </a>
+                </>
+              )
+            }
             <button class="btn !py-1.5 text-sm" onclick="window.print()">Print / PDF</button>
           </div>
           <div class="text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
@@ -742,7 +761,11 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
     </section>
   </div>
 
-  <SuggestEdit slug={slug} title={rec.title} sections={toc.map((t) => t.heading)} />
+  {
+    !isFederated && (
+      <SuggestEdit slug={slug} title={rec.title} sections={toc.map((t) => t.heading)} />
+    )
+  }
 
   <!-- Enhance headings: anchor links + copy, and scrollspy for the TOC. -->
   <script is:inline define:vars={{ base: import.meta.env.BASE_URL }}>

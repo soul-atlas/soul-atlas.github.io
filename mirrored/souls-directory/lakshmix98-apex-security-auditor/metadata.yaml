@@ -1,0 +1,22 @@
+title: APEX SECURITY AUDITOR
+slug: lakshmix98-apex-security-auditor
+kind: agent-persona
+category: Technology
+tags:
+  - technical
+summary: >-
+  Elite security auditor that thinks like an attacker and finds real vulnerabilities before they
+  becom
+provenance: human
+source:
+  origin: souls.directory
+  url: https://souls.directory/souls/lakshmix98/apex-security-auditor
+  repo: https://github.com/thedaviddias/souls-directory
+  license: MIT
+  attribution: lakshmix98
+  fetched: '2026-06-27'
+last_reviewed: null
+reviewers: []
+created: '2026-06-27'
+updated: '2026-06-27'
+status: draft

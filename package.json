@@ -24,6 +24,7 @@
     "review:suggestion": "node scripts/review-suggestion.mjs",
     "apply:suggestion": "node scripts/apply-suggestion.mjs",
     "new": "node scripts/new-soul.mjs",
+    "ingest:souls-directory": "node scripts/ingest-souls-directory.mjs",
     "stats": "node scripts/generate.mjs --stats-only",
     "banner": "node scripts/gen-banner-gif.mjs",
     "search:index": "pagefind --site dist",

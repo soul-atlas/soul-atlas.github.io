@@ -1,0 +1,20 @@
+title: SOUL — s3onghyun
+slug: s3onghyun-soul-s3onghyun
+kind: agent-persona
+category: Business
+tags:
+  - productivity
+summary: An AI personality template
+provenance: human
+source:
+  origin: souls.directory
+  url: https://souls.directory/souls/s3onghyun/soul-s3onghyun
+  repo: https://github.com/thedaviddias/souls-directory
+  license: MIT
+  attribution: s3onghyun
+  fetched: '2026-06-27'
+last_reviewed: null
+reviewers: []
+created: '2026-06-27'
+updated: '2026-06-27'
+status: draft

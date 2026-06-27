@@ -49,7 +49,7 @@ matter more than adding nodes.
   ([`/api/openapi.json`](https://soul-atlas.github.io/api/openapi.json) + served JSON Schema).
 - [ ] Incremental / sharded builds to comfortably handle 10,000+ SOULs.
 - [ ] Federate third-party SOUL collections (e.g. [souls.directory](https://souls.directory)):
-  mirror their MIT-licensed files into a separate `federated/` root, attribute and
+  mirror their MIT-licensed files into a separate `mirrored/` root, attribute and
   link back via the `source` field, and keep them out of authored stats. The schema
   (`kind: agent-persona` + `source`) and UI (external badge, source card, stats
   exclusion) already support this; the ingestion adapter is the remaining piece.
