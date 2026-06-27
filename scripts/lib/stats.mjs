@@ -128,26 +128,31 @@ export function computeStats(corpus, gitBySlug = {}) {
     for (const c of contributors) contributorCounts[c] = (contributorCounts[c] || 0) + 1;
 
     totalWords += s.computed.wordCount;
-    if (s.computed.completeness < 1) {
-      incomplete.push({ slug: s.slug, title: s.title, completeness: s.computed.completeness });
-    }
-    if (!m.summary || !m.difficulty || (m.tags || []).length === 0) {
-      missingMetadata.push({
-        slug: s.slug,
-        title: s.title,
-        missing: [
-          !m.summary && 'summary',
-          !m.difficulty && 'difficulty',
-          (m.tags || []).length === 0 && 'tags',
-        ].filter(Boolean),
-      });
-    }
-    const reviewed = m.last_reviewed || m.updated;
-    if (reviewed && now - Date.parse(reviewed) > 1000 * 60 * 60 * 24 * 365) {
-      stalePages.push({ slug: s.slug, title: s.title, last: reviewed });
-    }
-    if ((adj.get(s.slug) || new Set()).size === 0) {
-      orphanPages.push({ slug: s.slug, title: s.title });
+    // Quality signals describe the authored corpus. Federated mirrors aren't ours
+    // to "complete" or "review", and they're not in the graph, so skip them here —
+    // otherwise every mirror would show up as incomplete debt and a graph orphan.
+    if (!s.computed.federated) {
+      if (s.computed.completeness < 1) {
+        incomplete.push({ slug: s.slug, title: s.title, completeness: s.computed.completeness });
+      }
+      if (!m.summary || !m.difficulty || (m.tags || []).length === 0) {
+        missingMetadata.push({
+          slug: s.slug,
+          title: s.title,
+          missing: [
+            !m.summary && 'summary',
+            !m.difficulty && 'difficulty',
+            (m.tags || []).length === 0 && 'tags',
+          ].filter(Boolean),
+        });
+      }
+      const reviewed = m.last_reviewed || m.updated;
+      if (reviewed && now - Date.parse(reviewed) > 1000 * 60 * 60 * 24 * 365) {
+        stalePages.push({ slug: s.slug, title: s.title, last: reviewed });
+      }
+      if ((adj.get(s.slug) || new Set()).size === 0) {
+        orphanPages.push({ slug: s.slug, title: s.title });
+      }
     }
   }
 

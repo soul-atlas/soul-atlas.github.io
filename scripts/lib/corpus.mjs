@@ -181,21 +181,33 @@ export function buildCorpus() {
   }
   for (const soul of souls) soul.computed.backlinks.sort();
 
-  const nodes = souls.map((s) => ({
-    id: s.slug,
-    title: s.title,
-    category: s.metadata.category,
-    kind: s.metadata.kind,
-    difficulty: s.metadata.difficulty || null,
-    status: s.metadata.status,
-    verified: s.computed.verified,
-    federated: s.computed.federated,
-    tags: s.metadata.tags,
-    wordCount: s.computed.wordCount,
-    degree: 0,
-  }));
+  // The knowledge graph is the AUTHORED corpus only. Federated (externally
+  // mirrored) SOULs are browsable on their own pages but kept out of the graph:
+  // they rarely carry typed edges (so they'd float as orphans) and could number
+  // in the thousands, swamping a map that's meant to show the work we stand
+  // behind. Edges between authored SOULs of different kinds are preserved — those
+  // cross-kind links are exactly the connective tissue "beyond occupations" adds.
+  const inGraph = (slug) => {
+    const s = bySlug.get(slug);
+    return Boolean(s && !s.computed.federated);
+  };
+  const graphEdges = edges.filter((e) => inGraph(e.source) && inGraph(e.target));
+  const nodes = souls
+    .filter((s) => !s.computed.federated)
+    .map((s) => ({
+      id: s.slug,
+      title: s.title,
+      category: s.metadata.category,
+      kind: s.metadata.kind,
+      difficulty: s.metadata.difficulty || null,
+      status: s.metadata.status,
+      verified: s.computed.verified,
+      tags: s.metadata.tags,
+      wordCount: s.computed.wordCount,
+      degree: 0,
+    }));
   const degreeBySlug = new Map(nodes.map((n) => [n.id, 0]));
-  for (const e of edges) {
+  for (const e of graphEdges) {
     degreeBySlug.set(e.source, (degreeBySlug.get(e.source) || 0) + 1);
     degreeBySlug.set(e.target, (degreeBySlug.get(e.target) || 0) + 1);
   }
@@ -204,7 +216,7 @@ export function buildCorpus() {
   return {
     souls,
     bySlug,
-    graph: { nodes, edges },
+    graph: { nodes, edges: graphEdges },
     danglers,
   };
 }

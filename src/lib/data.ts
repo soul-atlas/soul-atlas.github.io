@@ -121,7 +121,6 @@ export interface GraphData {
     difficulty: string | null;
     status: string;
     verified: boolean;
-    federated: boolean;
     tags: string[];
     wordCount: number;
     degree: number;

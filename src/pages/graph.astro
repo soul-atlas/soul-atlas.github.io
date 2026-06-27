@@ -1,12 +1,45 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import GraphView from '../components/GraphView.astro';
-import { graph, stats, CATEGORY_COLORS } from '../lib/data';
+import { graph, stats, CATEGORY_COLORS, kindLabel } from '../lib/data';
 import { url } from '../lib/site';
+import {
+  symbol,
+  symbolCircle,
+  symbolDiamond,
+  symbolSquare,
+  symbolTriangle,
+  symbolWye,
+  symbolCross,
+  symbolStar,
+} from 'd3';
 
 const legend = Object.entries(CATEGORY_COLORS).filter(([name]) =>
   graph.nodes.some((n) => n.category === name),
 );
+
+// Kind is encoded as node shape; build a matching legend from the d3 symbols,
+// for the kinds actually present in the graph. Only shown once we're past
+// occupation-only (i.e. more than one kind), so today it renders nothing.
+const KIND_SYMBOLS: Record<string, any> = {
+  occupation: symbolCircle,
+  discipline: symbolDiamond,
+  role: symbolSquare,
+  identity: symbolTriangle,
+  community: symbolWye,
+  historical: symbolCross,
+  'agent-persona': symbolStar,
+};
+const kindsInGraph = [...new Set(graph.nodes.map((n: any) => n.kind || 'occupation'))].sort();
+const kindLegend =
+  kindsInGraph.length > 1
+    ? kindsInGraph.map((k) => ({
+        label: kindLabel(k),
+        path: symbol()
+          .type(KIND_SYMBOLS[k] ?? symbolCircle)
+          .size(70)(),
+      }))
+    : [];
 ---
 
 <Layout
@@ -41,6 +74,24 @@ const legend = Object.entries(CATEGORY_COLORS).filter(([name]) =>
         ))
       }
     </div>
+
+    {
+      kindLegend.length > 0 && (
+        <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-2">
+          <span class="text-xs" style="color:var(--ink-faint)">
+            Shape = kind:
+          </span>
+          {kindLegend.map((k) => (
+            <span class="inline-flex items-center gap-1.5 text-xs" style="color:var(--ink-soft)">
+              <svg width="14" height="14" viewBox="-8 -8 16 16" aria-hidden="true">
+                <path d={k.path} fill="var(--ink-soft)" />
+              </svg>
+              {k.label}
+            </span>
+          ))}
+        </div>
+      )
+    }
 
     <div class="mt-8 grid gap-4 sm:grid-cols-3">
       <div class="card p-4">
