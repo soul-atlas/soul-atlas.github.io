@@ -23,14 +23,14 @@
     "audit": "node scripts/audit-depth.mjs",
     "review:suggestion": "node scripts/review-suggestion.mjs",
     "apply:suggestion": "node scripts/apply-suggestion.mjs",
-    "new": "node scripts/new-occupation.mjs",
+    "new": "node scripts/new-soul.mjs",
     "stats": "node scripts/generate.mjs --stats-only",
     "banner": "node scripts/gen-banner-gif.mjs",
     "search:index": "pagefind --site dist",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint . && markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#dist\"",
-    "lint:md": "markdownlint-cli2 \"occupations/**/SOUL.md\"",
+    "lint:md": "markdownlint-cli2 \"souls/**/SOUL.md\"",
     "check": "npm run validate && npm run lint && npm run format:check"
   },
   "dependencies": {

@@ -10,6 +10,6 @@
     "MD046": false, // allow both fenced and indented code
     "MD036": false, // bold-as-heading sometimes used in scenarios
   },
-  "globs": ["occupations/**/SOUL.md", "*.md", "docs/**/*.md"],
+  "globs": ["souls/**/SOUL.md", "*.md", "docs/**/*.md"],
   "ignores": ["node_modules", "dist", ".astro", "CHANGELOG.md"],
 }

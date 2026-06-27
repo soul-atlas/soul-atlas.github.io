@@ -8,7 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
-import { OCCUPATIONS_DIR } from './paths.mjs';
+import { SOULS_DIR } from './paths.mjs';
 import { loadSectionSpec, listSlugs } from './corpus.mjs';
 
 // Markdown/HTML that should never be auto-applied from anonymous input.
@@ -76,7 +76,7 @@ export function reviewRecord(record) {
   const slugs = new Set(listSlugs());
 
   if (!record.slug || !slugs.has(record.slug)) {
-    errors.push(`Unknown SOUL slug \`${record.slug || '(missing)'}\` — no matching occupation.`);
+    errors.push(`Unknown SOUL slug \`${record.slug || '(missing)'}\` — no matching SOUL.`);
   }
   if (!record.section) {
     errors.push('No target section named — cannot auto-apply.');
@@ -117,7 +117,7 @@ export function reviewRecord(record) {
 }
 
 function soulPath(slug) {
-  return path.join(OCCUPATIONS_DIR, slug, 'SOUL.md');
+  return path.join(SOULS_DIR, slug, 'SOUL.md');
 }
 function readSoul(slug) {
   const p = soulPath(slug);

@@ -1,11 +1,11 @@
-// The corpus loader: the single source of truth that turns the occupations/
+// The corpus loader: the single source of truth that turns the souls/
 // directory into structured, computed records. Everything downstream (APIs,
 // graph, stats, website, search) is derived from what this returns.
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import yaml from 'js-yaml';
-import { OCCUPATIONS_DIR, SCHEMA_DIR, RELATIONSHIP_TYPES } from './paths.mjs';
+import { SOULS_DIR, SCHEMA_DIR, RELATIONSHIP_TYPES } from './paths.mjs';
 import { renderWithToc, countWords, readingTime } from './markdown.mjs';
 
 let _sections = null;
@@ -53,6 +53,9 @@ function parseMetadata(slug, dir) {
     throw new Error(`Missing metadata.yaml for "${slug}"`);
   }
   const meta = yaml.load(fs.readFileSync(metaPath, 'utf8')) || {};
+  // The Atlas began as occupations; entries without an explicit kind are
+  // occupations. Everything downstream can rely on kind being present.
+  meta.kind ??= 'occupation';
   // Normalise optional arrays so downstream code never guards for null.
   meta.aliases ??= [];
   meta.tags ??= [];
@@ -65,9 +68,9 @@ function parseMetadata(slug, dir) {
   return meta;
 }
 
-/** Read and fully process a single occupation directory. */
+/** Read and fully process a single SOUL directory. */
 export function loadSoul(slug) {
-  const dir = path.join(OCCUPATIONS_DIR, slug);
+  const dir = path.join(SOULS_DIR, slug);
   const soulPath = path.join(dir, 'SOUL.md');
   if (!fs.existsSync(soulPath)) throw new Error(`Missing SOUL.md for "${slug}"`);
 
@@ -108,6 +111,9 @@ export function loadSoul(slug) {
   const reviewers = metadata.reviewers || [];
   const verified = reviewers.length > 0 || Boolean(metadata.last_reviewed);
   const aiDrafted = metadata.provenance === 'ai-generated' || metadata.provenance === 'ai-assisted';
+  // Federated = mirrored from an external collection (has a `source`). These are
+  // attributed, badged, and kept out of authored headline stats — never absorbed.
+  const federated = Boolean(metadata.source && metadata.source.origin);
 
   return {
     slug,
@@ -122,18 +128,19 @@ export function loadSoul(slug) {
       verified,
       aiDrafted,
       unverifiedAiDraft: aiDrafted && !verified,
+      federated,
     },
   };
 }
 
-/** List every occupation slug present on disk. */
+/** List every SOUL slug present on disk. */
 export function listSlugs() {
-  if (!fs.existsSync(OCCUPATIONS_DIR)) return [];
+  if (!fs.existsSync(SOULS_DIR)) return [];
   return fs
-    .readdirSync(OCCUPATIONS_DIR, { withFileTypes: true })
+    .readdirSync(SOULS_DIR, { withFileTypes: true })
     .filter((e) => e.isDirectory() && !e.name.startsWith('.'))
     .map((e) => e.name)
-    .filter((slug) => fs.existsSync(path.join(OCCUPATIONS_DIR, slug, 'SOUL.md')))
+    .filter((slug) => fs.existsSync(path.join(SOULS_DIR, slug, 'SOUL.md')))
     .sort();
 }
 
@@ -147,7 +154,7 @@ export function buildCorpus() {
   const bySlug = new Map(souls.map((s) => [s.slug, s]));
 
   // Build typed edges from metadata.related, deduplicating and dropping
-  // references to occupations that don't exist yet (tracked as danglers).
+  // references to SOULs that don't exist yet (tracked as danglers).
   const edges = [];
   const danglers = [];
   const seenEdge = new Set();
@@ -178,9 +185,11 @@ export function buildCorpus() {
     id: s.slug,
     title: s.title,
     category: s.metadata.category,
+    kind: s.metadata.kind,
     difficulty: s.metadata.difficulty || null,
     status: s.metadata.status,
     verified: s.computed.verified,
+    federated: s.computed.federated,
     tags: s.metadata.tags,
     wordCount: s.computed.wordCount,
     degree: 0,

@@ -11,6 +11,8 @@ import {
   titleOf,
   categoryColor,
   verificationBadge,
+  kindLabel,
+  schemaOrgType,
   RELATION_LABELS,
   type RelationshipType,
 } from '../../lib/data';
@@ -42,6 +44,9 @@ const rec = getRecord(slug)!;
 const summary = getSummary(slug)!;
 const m = rec.metadata;
 const color = categoryColor(m.category);
+const kind = m.kind || 'occupation';
+const isFederated = Boolean(rec.computed?.federated || (m.source && m.source.origin));
+const source = m.source || null;
 
 // Resolve typed relationships (only those that exist), grouped by type.
 const relations = (m.related || [])
@@ -57,7 +62,7 @@ const backlinks = (rec.computed.backlinks || []).map((s: string) => ({
   title: titleOf(s),
 }));
 
-// One-hop neighborhood graph for this occupation.
+// One-hop neighborhood graph for this SOUL.
 const neighborIds = new Set<string>([slug]);
 for (const e of graph.edges) {
   if (e.source === slug) neighborIds.add(e.target);
@@ -82,18 +87,18 @@ const jsonLd = {
   '@type': 'Article',
   headline: `${rec.title} — SOUL`,
   description: m.summary,
-  about: { '@type': 'Occupation', name: rec.title },
+  about: { '@type': schemaOrgType(kind), name: rec.title },
   dateCreated: created,
   dateModified: updated,
   keywords: (m.tags || []).join(', '),
   wordCount: rec.computed.wordCount,
 };
 
-const downloadHref = url(`/api/occupations/${slug}.md`);
+const downloadHref = url(`/api/souls/${slug}.md`);
 const exports = [
   { label: 'Markdown', href: downloadHref },
-  { label: 'JSON', href: url(`/api/occupations/${slug}.json`) },
-  { label: 'YAML', href: url(`/api/occupations/${slug}.yaml`) },
+  { label: 'JSON', href: url(`/api/souls/${slug}.json`) },
+  { label: 'YAML', href: url(`/api/souls/${slug}.yaml`) },
 ];
 
 // Citation strings (computed at build time for reproducibility).
@@ -148,7 +153,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
     >
       <a href={url('/')} class="hover:underline">Atlas</a>
       <span>/</span>
-      <a href={url('/occupations')} class="hover:underline">Explore</a>
+      <a href={url('/souls')} class="hover:underline">Explore</a>
       <span>/</span>
       <a href={categoryUrl(m.category)} class="hover:underline" style={`color:${color}`}
         >{m.category}</a
@@ -169,12 +174,26 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
               <span class="inline-block h-2 w-2 rounded-full" style={`background:${color}`}></span>
               {m.category}
             </span>
+            {kind !== 'occupation' && <span class="chip">{kindLabel(kind)}</span>}
             {m.difficulty && <span class="chip capitalize">{m.difficulty}</span>}
             <span class="chip capitalize">{m.status}</span>
-            <span class={`badge badge-${badge.tone}`} title={badge.title}>
-              <span class="dot"></span>
-              {badge.label}
-            </span>
+            {
+              isFederated ? (
+                <span
+                  class="badge"
+                  style="border-color:rgba(99,102,241,0.4); background:rgba(99,102,241,0.1); color:var(--ink-soft)"
+                  title={`Mirrored from ${source?.origin}. Not authored or verified by SOUL Atlas.`}
+                >
+                  <span class="dot" style="background:#6366f1" />
+                  External · {source?.origin}
+                </span>
+              ) : (
+                <span class={`badge badge-${badge.tone}`} title={badge.title}>
+                  <span class="dot" />
+                  {badge.label}
+                </span>
+              )
+            }
           </div>
           <h1 class="text-4xl font-bold tracking-tight" style="color:var(--ink)">{rec.title}</h1>
           <p class="mt-3 max-w-2xl text-lg leading-relaxed" style="color:var(--ink-soft)">
@@ -209,9 +228,33 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
           }
         </header>
 
+        <!-- Federated notice: be explicit that this is mirrored, not authored. -->
+        {
+          isFederated && (
+            <div
+              class="mb-8 rounded-lg border p-4 text-sm"
+              style="border-color:rgba(99,102,241,0.35); background:rgba(99,102,241,0.08)"
+            >
+              <div class="font-semibold" style="color:var(--ink)">
+                Mirrored from {source?.origin} — not authored or verified by SOUL Atlas.
+              </div>
+              <p class="mt-1" style="color:var(--ink-soft)">
+                This is an externally-sourced SOUL, indexed here for discovery and kept separate
+                from the authored corpus.{' '}
+                {source?.license && `Distributed under the ${source.license} license. `}
+                {source?.url && (
+                  <a href={source.url} class="underline" rel="noopener" target="_blank">
+                    View the original →
+                  </a>
+                )}
+              </p>
+            </div>
+          )
+        }
+
         <!-- Provenance notice: be explicit about what this is and isn't. -->
         {
-          !verified && (
+          !verified && !isFederated && (
             <div
               class="mb-8 rounded-lg border p-4 text-sm"
               style="border-color:rgba(245,158,11,0.35); background:rgba(245,158,11,0.08)"
@@ -385,35 +428,62 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
           </div>
         </div>
 
-        <!-- Verification -->
-        <div class="card space-y-2 p-4">
-          <div class="text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
-            Verification
-          </div>
-          <span class={`badge badge-${badge.tone}`} title={badge.title}>
-            <span class="dot"></span>
-            {badge.label}
-          </span>
-          {
-            reviewers.length > 0 ? (
-              <ul class="space-y-1 text-sm">
-                {reviewers.map((r: any) => (
-                  <li style="color:var(--ink-soft)">
-                    <span style="color:var(--ink)">{r.name}</span>
-                    {r.credential && <span class="text-xs"> — {r.credential}</span>}
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p class="text-xs" style="color:var(--ink-soft)">
-                No practitioner has verified this SOUL yet. If you do this work, you can.
+        <!-- Source (federated) or Verification (authored) -->
+        {
+          isFederated && source ? (
+            <div class="card space-y-2 p-4">
+              <div
+                class="text-xs font-semibold uppercase tracking-wide"
+                style="color:var(--ink-faint)"
+              >
+                Source
+              </div>
+              <p class="text-sm" style="color:var(--ink-soft)">
+                Mirrored from <span style="color:var(--ink)">{source.origin}</span>.
+                {source.attribution && ` By ${source.attribution}.`}
               </p>
-            )
-          }
-          <a href={url(`/suggest?slug=${slug}`)} class="btn !py-1.5 text-sm">
-            {reviewers.length > 0 ? 'Add your review' : 'Verify this SOUL'}
-          </a>
-        </div>
+              <ul class="space-y-1 text-xs" style="color:var(--ink-faint)">
+                {source.license && <li>License: {source.license}</li>}
+                {source.fetched && <li>Fetched: {source.fetched}</li>}
+              </ul>
+              {source.url && (
+                <a href={source.url} class="btn !py-1.5 text-sm" rel="noopener" target="_blank">
+                  View original →
+                </a>
+              )}
+            </div>
+          ) : (
+            <div class="card space-y-2 p-4">
+              <div
+                class="text-xs font-semibold uppercase tracking-wide"
+                style="color:var(--ink-faint)"
+              >
+                Verification
+              </div>
+              <span class={`badge badge-${badge.tone}`} title={badge.title}>
+                <span class="dot" />
+                {badge.label}
+              </span>
+              {reviewers.length > 0 ? (
+                <ul class="space-y-1 text-sm">
+                  {reviewers.map((r: any) => (
+                    <li style="color:var(--ink-soft)">
+                      <span style="color:var(--ink)">{r.name}</span>
+                      {r.credential && <span class="text-xs"> — {r.credential}</span>}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p class="text-xs" style="color:var(--ink-soft)">
+                  No practitioner has verified this SOUL yet. If you do this work, you can.
+                </p>
+              )}
+              <a href={url(`/suggest?slug=${slug}`)} class="btn !py-1.5 text-sm">
+                {reviewers.length > 0 ? 'Add your review' : 'Verify this SOUL'}
+              </a>
+            </div>
+          )
+        }
 
         <!-- Cite this SOUL -->
         <div class="card space-y-3 p-4" id="cite">

@@ -53,7 +53,7 @@ machine-readable API (`/api/...`) exists precisely so systems can consume it.
 
 ## How do I use a SOUL with an AI assistant?
 
-Fetch `/api/occupations/<slug>.md` (or `.json`) and include it as context/system
+Fetch `/api/souls/<slug>.md` (or `.json`) and include it as context/system
 material when you want the assistant to reason like a domain expert. The structured
 sections map cleanly onto how you'd brief a new hire.
 

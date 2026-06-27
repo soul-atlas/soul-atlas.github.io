@@ -1,12 +1,12 @@
 # Schema Reference
 
-A SOUL is two files in `occupations/<slug>/`:
+A SOUL is two files in `souls/<slug>/`:
 
 - **[`SOUL.md`](https://soul.md/)** — the portrait: an `# H1` title followed by `## H2` sections.
 - **`metadata.yaml`** — structured facts, validated against
   [`schema/metadata.schema.json`](../schema/metadata.schema.json).
 
-The fully assembled, computed record served at `/api/occupations/<slug>.json` is
+The fully assembled, computed record served at `/api/souls/<slug>.json` is
 described by [`schema/soul.schema.json`](../schema/soul.schema.json).
 
 ## [`SOUL.md`](https://soul.md/) sections
@@ -48,12 +48,14 @@ allowed but flagged as warnings by the validator.
 | `title` | string | ✓ | Display name, 2–80 chars. |
 | `slug` | string | ✓ | Must equal the directory name; `^[a-z0-9]+(?:-[a-z0-9]+)*$`. |
 | `aliases` | string[] | — | Synonyms used in search. |
+| `kind` | enum | — | `occupation` (default) \| `discipline` \| `role` \| `identity` \| `community` \| `historical` \| `agent-persona`. What kind of mind this is — the Atlas began with occupations and branches out from there. |
 | `category` | enum | ✓ | One of the 21 top-level domains (see below). |
 | `tags` | string[] | — | Lowercase-hyphenated; faceted browsing. |
 | `difficulty` | enum | — | `foundational` \| `intermediate` \| `advanced` \| `expert`. |
 | `summary` | string | ✓ | 20–320 chars; how the mind works. Shown on cards/search. |
 | `contributors` | string[] | — | Names/handles. Merged with git authors on the page. |
 | `provenance` | enum | — | `human` \| `ai-assisted` \| `ai-generated`. How the first draft was written. |
+| `source` | object | — | `{ origin, url?, repo?, license?, attribution?, fetched? }`. Set only on SOULs federated from an external collection; absent means the entry originated here. |
 | `last_reviewed` | date \| null | — | ISO date a human checked accuracy. `null` = never. |
 | `reviewers` | object[] | — | `{ name, credential?, date? }`. Practitioners who vouched for it. |
 | `created` | date | ✓ | ISO date. (Git history overrides on the page when present.) |

@@ -6,7 +6,7 @@ import { url, GITHUB_URL, SITE } from '../lib/site';
 
 const githubRepo = SITE.githubRepo;
 
-// Occupation of the Day — deterministic per day so SSG output is stable but rotates.
+// SOUL of the Day — deterministic per day so SSG output is stable but rotates.
 const dayIndex = Math.floor(Date.parse('2026-06-26') / 86400000) % Math.max(1, souls.length);
 const ofTheDay = souls[dayIndex];
 
@@ -41,15 +41,15 @@ const jsonLd = {
         class="mx-auto max-w-3xl text-4xl font-bold leading-[1.1] tracking-tight sm:text-6xl"
         style="color:var(--ink)"
       >
-        How experts <span style="color:var(--accent)">think</span>.
+        One SOUL for every way humans <span style="color:var(--accent)">think</span>.
       </h1>
       <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed" style="color:var(--ink-soft)">
-        A SOUL captures the tacit knowledge of a practitioner — the goals, instincts, mental models,
-        tradeoffs, and judgment behind a way of thinking. Not documentation. Not a prompt. A
-        portrait of a mind at work.
+        A SOUL captures the tacit knowledge behind a way of thinking — the goals, instincts, mental
+        models, tradeoffs, and judgment that usually go unwritten. Not documentation. Not a prompt.
+        A portrait of a mind at work.
       </p>
       <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
-        <a href={url('/occupations')} class="btn btn-accent">Explore the Atlas</a>
+        <a href={url('/souls')} class="btn btn-accent">Explore the Atlas</a>
         <a href={url('/graph')} class="btn">See the graph</a>
         <a href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`} class="btn">Contribute a SOUL</a>
         <a
@@ -76,7 +76,7 @@ const jsonLd = {
       </div>
       <p class="mt-6 text-xs" style="color:var(--ink-faint)">
         Press <kbd class="rounded border px-1" style="border-color:var(--border)">⌘K</kbd> to search ·
-        {totalWords.toLocaleString('en-US')} words of distilled expertise
+        {totalWords.toLocaleString('en-US')} words of distilled thinking
       </p>
     </div>
   </section>
@@ -124,21 +124,21 @@ const jsonLd = {
     </div>
   </section>
 
-  <!-- Occupation of the day + featured -->
+  <!-- SOUL of the day + featured -->
   {
     ofTheDay && (
       <section class="border-y" style="border-color:var(--border); background:var(--bg-soft)">
         <div class="mx-auto max-w-5xl px-4 py-12">
           <div class="flex items-baseline justify-between">
             <h2 class="text-xl font-semibold tracking-tight" style="color:var(--ink)">
-              Occupation of the day
+              SOUL of the day
             </h2>
             <a href={url('/random')} class="text-sm hover:underline" style="color:var(--accent)">
               Surprise me →
             </a>
           </div>
           <a
-            href={url(`/occupations/${ofTheDay.slug}`)}
+            href={url(`/souls/${ofTheDay.slug}`)}
             class="card mt-4 block p-6 transition-transform hover:-translate-y-0.5"
             style="text-decoration:none"
           >
@@ -160,7 +160,7 @@ const jsonLd = {
   <section class="mx-auto max-w-5xl px-4 py-16">
     <div class="flex items-baseline justify-between">
       <h2 class="text-xl font-semibold tracking-tight" style="color:var(--ink)">Featured SOULs</h2>
-      <a href={url('/occupations')} class="text-sm hover:underline" style="color:var(--accent)"
+      <a href={url('/souls')} class="text-sm hover:underline" style="color:var(--accent)"
         >Browse all →</a
       >
     </div>

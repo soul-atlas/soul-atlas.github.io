@@ -10,7 +10,7 @@ inspectable.
 
 ```mermaid
 flowchart LR
-  A[occupations/*/SOUL.md<br/>occupations/*/metadata.yaml] --> B[scripts/ engine]
+  A[souls/*/SOUL.md<br/>souls/*/metadata.yaml] --> B[scripts/ engine]
   G[git history] --> B
   B --> C[src/generated/*<br/>corpus, graph, stats, search]
   B --> D[public/api/*<br/>static JSON + md/yaml exports]
@@ -20,7 +20,7 @@ flowchart LR
   D --> F
 ```
 
-1. **Source of truth** — `occupations/<slug>/SOUL.md` (an H1 title and H2 sections)
+1. **Source of truth** — `souls/<slug>/SOUL.md` (an H1 title and H2 sections)
    plus `metadata.yaml`. Nothing is computed by hand.
 2. **The engine** (`scripts/`, plain ESM) parses, validates, renders Markdown, reads
    git history, and computes the graph + analytics.
@@ -55,7 +55,7 @@ front-end, or none. It has no dependency on the website.
   header, footer, command palette.
 - `components/` — `GraphView` (reusable D3 force graph), `CommandPalette` (⌘K fuzzy
   search), `SoulCard`, `Header`, `Footer`, `ThemeToggle`.
-- `pages/` — homepage, explorer, `occupations/[slug]`, graph, dashboard, compare,
+- `pages/` — homepage, explorer, `souls/[slug]`, graph, dashboard, compare,
   categories, tags, search, about, plus API-adjacent endpoints (`rss.xml`,
   `feed/new.xml`, `sitemap.xml`, `robots.txt`).
 

@@ -3,7 +3,7 @@ import type { APIContext } from 'astro';
 import { souls } from '../../lib/data';
 import { soulUrl } from '../../lib/site';
 
-// Newest occupations feed: most-recently-created SOULs first.
+// Newest SOULs feed: most-recently-created SOULs first.
 export async function GET(context: APIContext) {
   const items = [...souls]
     .filter((s) => s.created)
@@ -18,7 +18,7 @@ export async function GET(context: APIContext) {
     }));
 
   return rss({
-    title: 'SOUL Atlas — newest occupations',
+    title: 'SOUL Atlas — newest SOULs',
     description: 'Newly added SOULs in the Atlas.',
     site: context.site ?? 'https://soul-atlas.github.io',
     items,

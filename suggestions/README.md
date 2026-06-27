@@ -17,7 +17,7 @@ They are a review queue.
    the PR `suggestion-review-passed` or `suggestion-review-failed`.
 2. **Maintainer approval.** A maintainer comments **`/lgtm`** (or `lgtm`). If the
    PR passed review, [`suggestion-apply.yml`](../.github/workflows/suggestion-apply.yml)
-   then applies the wording to `occupations/<slug>/SOUL.md`, deletes the record,
+   then applies the wording to `souls/<slug>/SOUL.md`, deletes the record,
    runs `npm run validate`, squash-merges, and triggers a deploy — automatically.
 
 So in the happy path you only read the suggestion and type `/lgtm`.
@@ -41,7 +41,7 @@ flips the badge from "AI-drafted · unverified" to "Practitioner-reviewed."
 If review failed, the suggestion needs nuance, or you'd rather not auto-merge:
 
 1. Read the record under `suggestions/<slug>/`.
-2. Apply the wording to `occupations/<slug>/SOUL.md` yourself.
+2. Apply the wording to `souls/<slug>/SOUL.md` yourself.
 3. Delete the record file.
 4. Make sure `npm run validate` passes, then merge.
 

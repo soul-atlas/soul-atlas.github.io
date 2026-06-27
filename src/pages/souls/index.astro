@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { souls, categories } from '../../lib/data';
+import { souls, categories, kinds, kindLabel } from '../../lib/data';
 import { url, soulUrl, categoryColor } from '../../lib/site';
 
 const sorted = [...souls].sort((a, b) => a.title.localeCompare(b.title));
@@ -9,6 +9,7 @@ const clientData = sorted.map((s) => ({
   slug: s.slug,
   title: s.title,
   category: s.category,
+  kind: s.kind,
   difficulty: s.difficulty,
   summary: s.summary,
   tags: s.tags,
@@ -49,6 +50,22 @@ const clientData = sorted.map((s) => ({
           ))
         }
       </select>
+      {
+        kinds.length > 1 && (
+          <select
+            id="kind"
+            class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none"
+            style="border-color:var(--border); color:var(--ink)"
+          >
+            <option value="">All kinds</option>
+            {kinds.map((k) => (
+              <option value={k.kind}>
+                {kindLabel(k.kind)} ({k.count})
+              </option>
+            ))}
+          </select>
+        )
+      }
       <select
         id="diff"
         class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none"
@@ -128,13 +145,14 @@ const clientData = sorted.map((s) => ({
       const count = document.getElementById('count');
       const q = document.getElementById('q');
       const cat = document.getElementById('cat');
+      const kind = document.getElementById('kind'); // only present with >1 kind
       const diff = document.getElementById('diff');
       const sort = document.getElementById('sort');
       let view = 'grid';
 
       function card(s) {
         const c = colors[s.category] || '#94a3b8';
-        return `<a href="${root}/occupations/${s.slug}" class="card group flex flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5" style="text-decoration:none">
+        return `<a href="${root}/souls/${s.slug}" class="card group flex flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5" style="text-decoration:none">
           <div class="flex items-center justify-between gap-2">
             <span class="inline-flex items-center gap-1.5 text-xs font-medium" style="color:${c}"><span class="inline-block h-2 w-2 rounded-full" style="background:${c}"></span>${s.category}</span>
             ${s.difficulty ? `<span class="chip capitalize">${s.difficulty}</span>` : ''}
@@ -148,10 +166,12 @@ const clientData = sorted.map((s) => ({
       function apply() {
         const term = q.value.trim().toLowerCase();
         const fc = cat.value,
+          fk = kind ? kind.value : '',
           fd = diff.value,
           fs = sort.value;
         let list = data.filter((s) => {
           if (fc && s.category !== fc) return false;
+          if (fk && s.kind !== fk) return false;
           if (fd && s.difficulty !== fd) return false;
           if (term) {
             const hay = (
@@ -180,7 +200,9 @@ const clientData = sorted.map((s) => ({
         empty.classList.toggle('hidden', list.length > 0);
       }
 
-      [q, cat, diff, sort].forEach((el) => el.addEventListener('input', apply));
+      [q, cat, kind, diff, sort]
+        .filter(Boolean)
+        .forEach((el) => el.addEventListener('input', apply));
       document.getElementById('view-grid').addEventListener('click', () => {
         view = 'grid';
         setView();
@@ -201,6 +223,7 @@ const clientData = sorted.map((s) => ({
       // Deep-link support: ?q= / ?category=
       const params = new URLSearchParams(location.search);
       if (params.get('category')) cat.value = params.get('category');
+      if (kind && params.get('kind')) kind.value = params.get('kind');
       if (params.get('q')) q.value = params.get('q');
       apply();
     })();
