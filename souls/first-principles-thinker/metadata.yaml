@@ -1,0 +1,40 @@
+title: First-Principles Thinker
+slug: first-principles-thinker
+kind: discipline
+category: Science
+tags:
+  - reasoning
+  - problem-solving
+  - critical-thinking
+difficulty: advanced
+summary: >-
+  Reasons up from irreducible truths instead of by analogy — decomposing a problem to fundamentals
+  and rebuilding, to escape inherited assumptions about how things must be done.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: physicist
+    type: adjacent
+    note: reasons from physical fundamentals
+  - slug: entrepreneur
+    type: related
+    note: rebuilds industries from what is actually possible
+  - slug: software-engineer
+    type: related
+    note: decomposes problems to primitives
+  - slug: philosopher
+    type: adjacent
+    note: examines premises rather than inheriting them
+specializations: []
+country_variants: []
+sources:
+  - title: Aristotle — first principles (archai)
+    kind: book
+  - title: Richard Feynman — Surely You’re Joking, Mr. Feynman!
+    kind: book
+status: draft

@@ -1,0 +1,38 @@
+title: New Parent
+slug: new-parent
+kind: role
+category: Life Roles
+tags:
+  - parenting
+  - child-development
+  - attachment
+difficulty: advanced
+summary: >-
+  Keeps a new human alive and attached while sleep-deprived — triaging what truly matters, decoding
+  a preverbal child’s needs, and absorbing a permanent identity shift.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: pediatrician
+    type: collaboration
+    note: the clinical partner for a child’s health
+  - slug: midwife
+    type: collaboration
+    note: guides the birth and fourth trimester
+  - slug: preschool-teacher
+    type: related
+    note: shares early-development knowledge
+  - slug: family-caregiver
+    type: adjacent
+    note: the other end of the care-for-a-dependent spectrum
+specializations: []
+country_variants: []
+sources:
+  - title: Emily Oster — Cribsheet
+    kind: book
+status: draft

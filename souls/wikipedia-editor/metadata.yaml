@@ -1,0 +1,39 @@
+title: Wikipedia Editor
+slug: wikipedia-editor
+kind: community
+category: Education
+tags:
+  - knowledge
+  - encyclopedia
+  - sourcing
+  - consensus
+difficulty: advanced
+summary: >-
+  Builds reference knowledge anyone can check — writing for verifiability and a neutral point of
+  view, citing reliable sources, and reaching consensus with strangers over contested facts.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: librarian
+    type: related
+    note: shares a reference-and-sourcing ethic
+  - slug: editor
+    type: adjacent
+    note: edits prose, but for a single owner not a consensus
+  - slug: journalist
+    type: related
+    note: sourcing and verification overlap
+  - slug: research-scientist
+    type: related
+    note: cares about citation and primary vs. secondary sources
+specializations: []
+country_variants: []
+sources:
+  - title: Wikipedia — Five Pillars and core content policies (V, NPOV, NOR)
+    kind: documentation
+status: draft

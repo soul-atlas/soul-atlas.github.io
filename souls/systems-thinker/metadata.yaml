@@ -1,0 +1,43 @@
+title: Systems Thinker
+slug: systems-thinker
+kind: discipline
+category: Science
+tags:
+  - systems
+  - complexity
+  - feedback-loops
+  - modeling
+difficulty: advanced
+summary: >-
+  Sees the structure behind events — stocks, flows, feedback loops, and delays — and hunts for the
+  few leverage points where a small change shifts the whole system.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: ecologist
+    type: adjacent
+    note: reasons about ecosystems as dynamic systems
+  - slug: economist
+    type: adjacent
+    note: models feedback in markets and incentives
+  - slug: embedded-systems-engineer
+    type: related
+    note: designs systems with loops and constraints
+  - slug: software-engineer
+    type: related
+    note: manages complexity and coupling
+specializations: []
+country_variants: []
+sources:
+  - title: Donella Meadows — Thinking in Systems
+    kind: book
+  - title: 'Donella Meadows — Leverage Points: Places to Intervene in a System'
+    kind: article
+  - title: Peter Senge — The Fifth Discipline
+    kind: book
+status: draft

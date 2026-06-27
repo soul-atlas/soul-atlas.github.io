@@ -1,0 +1,39 @@
+title: Family Caregiver
+slug: family-caregiver
+kind: role
+category: Life Roles
+tags:
+  - caregiving
+  - health
+  - aging
+  - advocacy
+difficulty: advanced
+summary: >-
+  Coordinates the care, safety, and dignity of an ailing loved one across fragmented medical and
+  insurance systems — triaging needs and advocating while guarding against their own collapse.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: registered-nurse
+    type: collaboration
+    note: shares the bedside; trades off clinical authority
+  - slug: home-health-aide
+    type: collaboration
+    note: hands-on daily care in the home
+  - slug: social-worker
+    type: collaboration
+    note: navigates benefits and placement together
+  - slug: nurse-practitioner
+    type: collaboration
+    note: sets the care plan the caregiver runs
+specializations: []
+country_variants: []
+sources:
+  - title: Atul Gawande — Being Mortal
+    kind: book
+status: draft
