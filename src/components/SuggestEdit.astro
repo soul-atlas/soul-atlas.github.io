@@ -66,16 +66,26 @@ const issueBase = `${GITHUB_URL}/issues/new`;
         ></textarea>
       </label>
 
-      <label class="block text-sm">
-        <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
-          >Suggested wording (optional)</span
-        >
+      <div class="block text-sm">
+        <div class="mb-1 flex items-center justify-between gap-2">
+          <span class="font-medium" style="color:var(--ink-soft)">Suggested wording (optional)</span
+          >
+          <div class="md-toggle inline-flex gap-1" role="tablist" aria-label="Editor mode">
+            <button type="button" class="chip" data-md-write aria-pressed="true">Write</button>
+            <button type="button" class="chip" data-md-preview aria-pressed="false">Preview</button>
+          </div>
+        </div>
         <textarea
           name="suggestion"
           rows="3"
           class="suggest-input"
+          data-md-input
           placeholder="Proposed replacement or addition, in your own words."></textarea>
-      </label>
+        <div class="prose suggest-preview hidden" data-md-output aria-live="polite"></div>
+        <p class="mt-1 text-xs" style="color:var(--ink-faint)">
+          Markdown supported — bullets, <code>**bold**</code>, <code>`code`</code>.
+        </p>
+      </div>
 
       <label class="block text-sm">
         <span class="mb-1 block font-medium" style="color:var(--ink-soft)"
@@ -181,6 +191,50 @@ const issueBase = `${GITHUB_URL}/issues/new`;
         kind === 'error' ? '#dc2626' : kind === 'ok' ? '#047857' : 'var(--ink-soft)';
     }
 
+    // Success message with a clickable PR link (url comes from our worker).
+    function setStatusLink(prefix, url) {
+      statusEl.textContent = prefix;
+      const a = document.createElement('a');
+      a.href = url;
+      a.textContent = url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.className = 'underline';
+      a.style.wordBreak = 'break-all';
+      statusEl.appendChild(a);
+      statusEl.classList.remove('hidden');
+      statusEl.style.color = '#047857';
+    }
+
+    // Write / Preview toggle for the suggested-wording field (lazy-loads marked,
+    // the same CDN-import pattern the site uses for mermaid).
+    const mdInput = form.querySelector('[data-md-input]');
+    const mdOutput = form.querySelector('[data-md-output]');
+    const mdWrite = form.querySelector('[data-md-write]');
+    const mdPreview = form.querySelector('[data-md-preview]');
+    let mdParse = null;
+    async function renderPreview() {
+      const md = (mdInput.value || '').trim() || '_Nothing to preview yet._';
+      try {
+        if (!mdParse) {
+          const mod = await import('https://cdn.jsdelivr.net/npm/marked@14/+esm');
+          mdParse = mod.parse || (mod.marked && mod.marked.parse) || mod.default;
+        }
+        mdOutput.innerHTML = mdParse(md);
+      } catch (e) {
+        mdOutput.textContent = mdInput.value; // graceful fallback to plain text
+      }
+    }
+    function setMode(preview) {
+      mdPreview.setAttribute('aria-pressed', preview ? 'true' : 'false');
+      mdWrite.setAttribute('aria-pressed', preview ? 'false' : 'true');
+      mdOutput.classList.toggle('hidden', !preview);
+      mdInput.classList.toggle('hidden', preview);
+      if (preview) renderPreview();
+    }
+    mdPreview.addEventListener('click', () => setMode(true));
+    mdWrite.addEventListener('click', () => setMode(false));
+
     // Build a prefilled GitHub-issue URL as the always-available fallback.
     function issueUrl() {
       const fd = new FormData(form);
@@ -210,6 +264,7 @@ const issueBase = `${GITHUB_URL}/issues/new`;
           sectionSel.value = has ? opts.section : '';
         }
         statusEl.classList.add('hidden');
+        setMode(false); // always open in Write mode
         refreshGh();
         if (typeof dialog.showModal === 'function') dialog.showModal();
         else dialog.setAttribute('open', '');
@@ -274,7 +329,7 @@ const issueBase = `${GITHUB_URL}/issues/new`;
         });
         const data = await res.json().catch(() => ({}));
         if (res.ok && data.url) {
-          setStatus('Thank you! Your suggestion is now pull request ' + data.url, 'ok');
+          setStatusLink('Thank you! Your suggestion is now pull request ', data.url);
           form.querySelector('.suggest-body').style.opacity = '0.5';
         } else {
           throw new Error(data.error || 'Submission failed');
@@ -323,5 +378,25 @@ const issueBase = `${GITHUB_URL}/issues/new`;
     width: 1px;
     height: 1px;
     opacity: 0;
+  }
+  .md-toggle .chip {
+    cursor: pointer;
+    padding: 0.05rem 0.5rem;
+    font-size: 0.72rem;
+  }
+  .md-toggle .chip[aria-pressed='true'] {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .suggest-preview {
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    background: var(--bg-soft);
+    padding: 0.5rem 0.65rem;
+    min-height: 5rem;
+    font-size: 0.875rem;
+  }
+  .suggest-preview > :first-child {
+    margin-top: 0;
   }
 </style>
