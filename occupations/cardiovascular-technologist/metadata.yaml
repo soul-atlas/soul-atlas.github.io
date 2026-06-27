@@ -1,0 +1,71 @@
+title: 'Cardiovascular Technologist'
+slug: 'cardiovascular-technologist'
+aliases:
+  [
+    'Cardiovascular Technician',
+    'Cath Lab Tech',
+    'Cardiac Sonographer',
+    'Invasive Cardiovascular Specialist',
+  ]
+category: 'Healthcare'
+tags:
+  [
+    'cardiac-cath',
+    'echocardiography',
+    'hemodynamics',
+    'arrhythmia-recognition',
+    'procedural-support',
+  ]
+difficulty: 'advanced'
+summary: 'The hands and eyes in the cath lab and at the cardiac bedside — capturing diagnostic-quality cardiovascular data and supporting interventions while recognizing the life-threatening finding in real time.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'cardiologist',
+      type: 'collaboration',
+      note: 'The physician the tech supports and supplies diagnostic data to',
+    }
+  - {
+      slug: 'diagnostic-medical-sonographer',
+      type: 'adjacent',
+      note: 'Echocardiography is cardiac ultrasound',
+    }
+  - {
+      slug: 'radiologic-technologist',
+      type: 'related',
+      note: 'Shares imaging and radiation-safety craft',
+    }
+  - {
+      slug: 'surgical-technologist',
+      type: 'adjacent',
+      note: 'Shares sterile procedural support and anticipation',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'Partner in patient care during cardiac procedures',
+    }
+  - {
+      slug: 'paramedic',
+      type: 'related',
+      note: 'Shares cardiac emergency-recognition and resuscitation readiness',
+    }
+specializations:
+  [
+    'Invasive (Cath Lab) Technologist',
+    'Echocardiographer',
+    'Electrophysiology Technologist',
+    'Cardiographic / Stress Technician',
+  ]
+country_variants: []
+sources:
+  - {
+      title: "Grossman & Baim's Cardiac Catheterization, Angiography, and Intervention",
+      kind: 'book',
+    }
+  - { title: 'The Echo Manual (Oh, Seward & Tajik)', kind: 'book' }
+  - { title: 'ACLS guidelines (American Heart Association); CCI/ARDMS standards', kind: 'standard' }
+status: stable

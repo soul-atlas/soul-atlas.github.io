@@ -1,0 +1,42 @@
+title: 'Retail Salesperson'
+slug: 'retail-salesperson'
+aliases: ['Retail Sales Associate', 'Sales Clerk', 'Sales Floor Associate', 'Shop Assistant']
+category: 'Business'
+tags: ['retail-sales', 'needs-discovery', 'product-knowledge', 'customer-service', 'honest-selling']
+difficulty: 'foundational'
+summary: 'The human expertise on the sales floor — understanding what a customer actually needs, knowing the merchandise, and guiding an honest purchase that brings them back.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - { slug: 'cashier', type: 'adjacent', note: 'Completes the sale the salesperson originates' }
+  - {
+      slug: 'sales-representative',
+      type: 'adjacent',
+      note: 'Shares needs-discovery and honest-matching in a B2B context',
+    }
+  - {
+      slug: 'customer-service-representative',
+      type: 'related',
+      note: 'Shares front-line customer service',
+    }
+  - {
+      slug: 'insurance-agent',
+      type: 'related',
+      note: 'Shares relationship-and-trust selling done honestly',
+    }
+  - { slug: 'sales-manager', type: 'progression', note: 'Leads and grows from retail sales staff' }
+specializations:
+  [
+    'Apparel / Fashion Associate',
+    'Electronics Specialist',
+    'Furniture / Big-Ticket Sales',
+    'Luxury / Clienteling Associate',
+  ]
+country_variants: []
+sources:
+  - { title: 'Why We Buy: The Science of Shopping (Paco Underhill)', kind: 'book' }
+  - { title: 'To Sell Is Human (Daniel Pink)', kind: 'book' }
+  - { title: 'National Retail Federation selling and service resources', kind: 'documentation' }
+status: stable

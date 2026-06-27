@@ -1,0 +1,56 @@
+title: 'Operations Research Analyst'
+slug: 'operations-research-analyst'
+aliases: ['OR Analyst', 'Optimization Analyst', 'Management Scientist', 'Decision Scientist']
+category: 'Business'
+tags:
+  ['optimization', 'mathematical-modeling', 'simulation', 'decision-science', 'linear-programming']
+difficulty: 'advanced'
+summary: 'Turns messy operational decisions into formal models of objectives, constraints, and uncertainty, computes the best feasible answer, and translates it into a decision people will trust and act on.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'data-scientist',
+      type: 'adjacent',
+      note: 'Prediction from data vs. optimization under explicit constraints',
+    }
+  - {
+      slug: 'statistician',
+      type: 'related',
+      note: 'Shares quantitative rigor and uncertainty modeling',
+    }
+  - {
+      slug: 'management-consultant',
+      type: 'adjacent',
+      note: 'Addresses similar problems qualitatively where OR computes',
+    }
+  - {
+      slug: 'supply-chain-manager',
+      type: 'collaboration',
+      note: 'Frequent client of OR optimization',
+    }
+  - {
+      slug: 'industrial-engineer',
+      type: 'related',
+      note: 'Applies closely related methods to process and system design',
+    }
+  - {
+      slug: 'mathematician',
+      type: 'related',
+      note: 'Source of the optimization methods the analyst applies',
+    }
+specializations:
+  [
+    'Optimization Analyst',
+    'Simulation Modeler',
+    'Revenue Management Analyst',
+    'Logistics / Supply-Chain Analyst',
+  ]
+country_variants: []
+sources:
+  - { title: 'Introduction to Operations Research (Hillier & Lieberman)', kind: 'book' }
+  - { title: 'Model Building in Mathematical Programming (H.P. Williams)', kind: 'book' }
+  - { title: 'The Flaw of Averages (Sam Savage)', kind: 'book' }
+status: stable

@@ -1,0 +1,62 @@
+title: 'Healthcare Administrator'
+slug: 'healthcare-administrator'
+aliases:
+  [
+    'Medical and Health Services Manager',
+    'Hospital Administrator',
+    'Practice Manager',
+    'Health System Executive',
+  ]
+category: 'Healthcare'
+tags: ['health-operations', 'reimbursement', 'compliance', 'patient-safety', 'value-based-care']
+difficulty: 'advanced'
+summary: 'Runs the complex organizations that deliver medicine — keeping them safe, compliant, and solvent so clinicians can practice, never trading patient safety for margin or letting the business collapse for lack of one.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'operations-manager',
+      type: 'adjacent',
+      note: 'Shares operations and strategy craft under heavy regulation',
+    }
+  - { slug: 'chief-executive', type: 'progression', note: 'Senior leadership of the health system' }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'Clinical staff whose work conditions the administrator shapes',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'Clinical judgment the administration must earn the trust of',
+    }
+  - {
+      slug: 'compliance-officer',
+      type: 'collaboration',
+      note: 'Owns the regulatory discipline the administrator must embody',
+    }
+  - {
+      slug: 'public-health-officer',
+      type: 'related',
+      note: 'Works the health mission at population level',
+    }
+specializations:
+  [
+    'Hospital Administrator',
+    'Clinic / Practice Manager',
+    'Long-Term Care Administrator',
+    'Health Information Manager',
+    'Service Line Director',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Dominated by multi-payer reimbursement (Medicare/Medicaid/commercial), CMS rules, and Joint Commission accreditation.',
+    }
+sources:
+  - { title: 'The Well-Managed Healthcare Organization (White & Griffith)', kind: 'book' }
+  - { title: 'Crossing the Quality Chasm (Institute of Medicine)', kind: 'book' }
+  - { title: 'CMS Conditions of Participation; Joint Commission standards', kind: 'standard' }
+status: stable

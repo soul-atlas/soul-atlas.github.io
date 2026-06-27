@@ -1,0 +1,48 @@
+title: 'Set Designer'
+slug: 'set-designer'
+aliases: ['Scenic Designer', 'Production Designer', 'Set and Exhibit Designer', 'Stage Designer']
+category: 'Entertainment'
+tags: ['scenic-design', 'visual-storytelling', 'sightlines', 'buildability', 'staging']
+difficulty: 'advanced'
+summary: "The architect of a story's physical world — translating script and director's vision into an environment that tells the story, works for the audience or camera, and can actually be built and operated."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'film-director',
+      type: 'collaboration',
+      note: 'Whose vision the design realizes; develops the concept together',
+    }
+  - { slug: 'art-director', type: 'collaboration', note: 'Coordinates the broader visual world' }
+  - {
+      slug: 'architect',
+      type: 'adjacent',
+      note: 'Shares design-and-buildability craft applied to fiction and the temporary',
+    }
+  - {
+      slug: 'interior-designer',
+      type: 'related',
+      note: 'Shares designing inhabited space for effect',
+    }
+  - { slug: 'carpenter', type: 'collaboration', note: 'Builds the set the designer documents' }
+  - {
+      slug: 'film-producer',
+      type: 'collaboration',
+      note: 'Owns the budget and schedule the design must fit',
+    }
+specializations:
+  [
+    'Theatre / Scenic Designer',
+    'Film / TV Production Designer',
+    'Exhibit Designer',
+    'Themed Entertainment Designer',
+    'Opera / Dance Designer',
+  ]
+country_variants: []
+sources:
+  - { title: 'The Dramatic Imagination (Robert Edmond Jones)', kind: 'book' }
+  - { title: 'Theatrical Design and Production (J. Michael Gillette)', kind: 'book' }
+  - { title: 'Scene Design and Stage Lighting (Parker, Wolf & Block)', kind: 'book' }
+status: stable

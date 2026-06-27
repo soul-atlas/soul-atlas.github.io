@@ -1,0 +1,62 @@
+title: 'Materials Engineer'
+slug: 'materials-engineer'
+aliases:
+  [
+    'Metallurgist',
+    'Materials Scientist (applied)',
+    'Failure Analyst',
+    'Materials and Process Engineer',
+  ]
+category: 'Engineering'
+tags: ['materials-selection', 'failure-analysis', 'metallurgy', 'microstructure', 'fatigue']
+difficulty: 'advanced'
+summary: 'Bridges what a designer wants from a part and what atoms allow, owning the processing-structure-properties chain and reading fracture surfaces to explain why things break.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'mechanical-engineer',
+      type: 'collaboration',
+      note: 'Primary client needing parts that survive loads and temperature',
+    }
+  - {
+      slug: 'materials-scientist',
+      type: 'adjacent',
+      note: 'Explores the science the engineer applies and qualifies',
+    }
+  - {
+      slug: 'chemical-engineer',
+      type: 'related',
+      note: 'Shares processing and reaction science for polymers and ceramics',
+    }
+  - {
+      slug: 'aerospace-engineer',
+      type: 'collaboration',
+      note: 'Needs weight-critical materials qualified to survive service',
+    }
+  - {
+      slug: 'biomedical-engineer',
+      type: 'related',
+      note: 'Applies materials science to implants and the body',
+    }
+  - {
+      slug: 'chemist',
+      type: 'related',
+      note: 'Works the molecular scale below the materials engineer',
+    }
+specializations:
+  [
+    'Metallurgist',
+    'Failure Analyst',
+    'Polymer / Composites Engineer',
+    'Ceramics Engineer',
+    'Corrosion Engineer',
+  ]
+country_variants: []
+sources:
+  - { title: 'Materials Science and Engineering: An Introduction (Callister)', kind: 'book' }
+  - { title: 'Materials Selection in Mechanical Design (Ashby)', kind: 'book' }
+  - { title: 'ASM Handbook Vol. 11: Failure Analysis and Prevention', kind: 'standard' }
+status: stable

@@ -1,0 +1,46 @@
+title: 'Administrative Assistant'
+slug: 'administrative-assistant'
+aliases: ['Executive Assistant', 'Secretary', 'Personal Assistant', 'Office Assistant', 'EA']
+category: 'Business'
+tags: ['executive-support', 'calendar-management', 'coordination', 'anticipation', 'discretion']
+difficulty: 'intermediate'
+summary: 'A force multiplier for an executive or team — managing time, information, and logistics, anticipating needs, and handling the details with discretion so they can focus on the work only they can do.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'receptionist',
+      type: 'adjacent',
+      note: 'Close cousin sharing front-line and coordination work',
+    }
+  - { slug: 'office-clerk', type: 'adjacent', note: 'Shares clerical and office-support work' }
+  - {
+      slug: 'project-manager',
+      type: 'related',
+      note: 'Shares coordination and follow-through craft at a larger scale',
+    }
+  - { slug: 'chief-executive', type: 'collaboration', note: 'The executive the assistant enables' }
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'Shares organization and coordination discipline',
+    }
+specializations:
+  [
+    'Executive Assistant',
+    'Personal Assistant',
+    'Legal / Medical Secretary',
+    'Office Coordinator',
+    'Virtual Assistant',
+  ]
+country_variants: []
+sources:
+  - {
+      title: 'The Definitive Executive Assistant and Managerial Handbook (Sue France)',
+      kind: 'book',
+    }
+  - { title: 'Getting Things Done (David Allen)', kind: 'book' }
+  - { title: 'IAAP administrative-professional resources', kind: 'documentation' }
+status: stable

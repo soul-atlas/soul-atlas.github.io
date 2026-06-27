@@ -1,0 +1,61 @@
+title: 'Health and Safety Engineer'
+slug: 'health-and-safety-engineer'
+aliases:
+  ['Safety Engineer', 'EHS Engineer', 'Process Safety Engineer', 'Occupational Safety Engineer']
+category: 'Engineering'
+tags: ['hierarchy-of-controls', 'risk-assessment', 'process-safety', 'human-factors', 'osha']
+difficulty: 'advanced'
+summary: 'Engineers hazards out of systems and, where they remain, controls them by the most reliable means — never by relying on people to be careful — to prevent injury, illness, and catastrophic loss.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'mechanical-engineer',
+      type: 'collaboration',
+      note: 'Both collaborator and source of hazards to control',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'adjacent',
+      note: 'Shares exposure and mass-balance discipline aimed at the public',
+    }
+  - {
+      slug: 'nuclear-engineer',
+      type: 'related',
+      note: 'Shares defense-in-depth and catastrophic-risk thinking',
+    }
+  - {
+      slug: 'fire-inspector',
+      type: 'collaboration',
+      note: 'Enforces overlapping safety codes in the field',
+    }
+  - {
+      slug: 'construction-inspector',
+      type: 'collaboration',
+      note: 'Enforces construction safety codes',
+    }
+  - {
+      slug: 'epidemiologist',
+      type: 'related',
+      note: 'Studies population health outcomes the engineer prevents at source',
+    }
+specializations:
+  [
+    'Process Safety Engineer',
+    'Industrial Hygiene Engineer',
+    'Construction Safety Engineer',
+    'Product Safety Engineer',
+    'Fire Protection Engineer',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Regulated under OSHA (29 CFR); process safety under the PSM standard.',
+    }
+sources:
+  - { title: 'Safeware: System Safety and Computers (Leveson)', kind: 'book' }
+  - { title: "Lees' Loss Prevention in the Process Industries", kind: 'book' }
+  - { title: 'OSHA standards (29 CFR 1910/1926) and ISO 45001', kind: 'standard' }
+status: stable

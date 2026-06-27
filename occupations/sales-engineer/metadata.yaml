@@ -1,0 +1,56 @@
+title: 'Sales Engineer'
+slug: 'sales-engineer'
+aliases:
+  ['Solutions Engineer', 'Pre-Sales Engineer', 'Technical Account Manager', 'Solutions Consultant']
+category: 'Business'
+tags: ['pre-sales', 'solution-design', 'technical-demos', 'discovery', 'proof-of-concept']
+difficulty: 'advanced'
+summary: "Occupies the gap between engineering and sales — technical enough to earn an expert buyer's trust, commercial enough to tie capability to a business outcome, and honest enough to say what the product cannot do."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'sales-representative',
+      type: 'collaboration',
+      note: 'Partners on the deal; AE owns commercial close, SE owns technical win',
+    }
+  - {
+      slug: 'software-engineer',
+      type: 'related',
+      note: 'Shares the deep product knowledge the SE represents',
+    }
+  - {
+      slug: 'customer-success-manager',
+      type: 'collaboration',
+      note: 'Inherits the relationship and scope the SE sets',
+    }
+  - {
+      slug: 'product-manager',
+      type: 'collaboration',
+      note: 'Consumes field intelligence; owns the roadmap the SE represents',
+    }
+  - {
+      slug: 'sales-manager',
+      type: 'related',
+      note: 'Manages the commercial side of the deals SEs support',
+    }
+  - {
+      slug: 'management-consultant',
+      type: 'adjacent',
+      note: 'Shares the discovery-and-trust dynamic',
+    }
+specializations:
+  [
+    'Pre-Sales Solutions Engineer',
+    'Technical Account Manager',
+    'Field / Specialist SE',
+    'Post-Sales Solutions Architect',
+  ]
+country_variants: []
+sources:
+  - { title: 'Mastering Technical Sales (John Care)', kind: 'book' }
+  - { title: 'SPIN Selling (Neil Rackham)', kind: 'book' }
+  - { title: 'The Trusted Advisor (Maister, Green & Galford)', kind: 'book' }
+status: stable

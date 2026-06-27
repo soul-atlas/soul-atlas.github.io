@@ -1,0 +1,43 @@
+title: 'Construction Laborer'
+slug: 'construction-laborer'
+aliases: ['Laborer', 'Construction Helper', 'General Laborer', 'Construction Craft Laborer']
+category: 'Skilled Trades'
+tags: ['construction', 'physical-labor', 'site-safety', 'material-handling', 'trade-support']
+difficulty: 'foundational'
+summary: 'The versatile, hardworking foundation of the construction site — doing the physical, varied work that supports the trades and moves the project, safely, in one of the most dangerous occupations, often learning the trades on the way up.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'construction-manager',
+      type: 'collaboration',
+      note: 'Runs the project the laborer works on',
+    }
+  - {
+      slug: 'carpenter',
+      type: 'progression',
+      note: 'A skilled trade the laborer supports and can grow into',
+    }
+  - { slug: 'mason', type: 'related', note: 'A trade the laborer supports and learns from' }
+  - {
+      slug: 'heavy-equipment-operator',
+      type: 'related',
+      note: 'Shares physical, hazardous site work',
+    }
+  - { slug: 'ironworker', type: 'related', note: 'A trade the laborer supports on site' }
+  - { slug: 'landscaper', type: 'related', note: 'Shares physical outdoor labor' }
+specializations:
+  [
+    'General Construction Laborer',
+    'Demolition Laborer',
+    'Concrete Laborer',
+    'Highway / Heavy Civil Laborer',
+  ]
+country_variants: []
+sources:
+  - { title: 'OSHA construction safety standards (29 CFR 1926)', kind: 'standard' }
+  - { title: "LIUNA (Laborers' International Union) training resources", kind: 'course' }
+  - { title: 'Construction safety and site-safety training materials', kind: 'documentation' }
+status: stable

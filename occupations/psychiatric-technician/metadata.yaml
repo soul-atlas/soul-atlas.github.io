@@ -1,0 +1,63 @@
+title: 'Psychiatric Technician'
+slug: 'psychiatric-technician'
+aliases:
+  ['Mental Health Technician', 'Behavioral Health Technician', 'Psych Tech', 'Mental Health Worker']
+category: 'Healthcare'
+tags:
+  [
+    'behavioral-health',
+    'de-escalation',
+    'crisis-intervention',
+    'patient-safety',
+    'trauma-informed-care',
+  ]
+difficulty: 'intermediate'
+summary: 'The frontline, most-present caregiver in psychiatric and developmental settings — keeping vulnerable patients safe through observation, de-escalation, and connection rather than control, while treating them with dignity.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: "Directs care; receives the tech's observations and risk reports",
+    }
+  - {
+      slug: 'psychiatrist',
+      type: 'collaboration',
+      note: 'Sets treatment the tech supports and reports ground-truth to',
+    }
+  - {
+      slug: 'mental-health-counselor',
+      type: 'related',
+      note: 'Shares the behavioral-health mission with a counseling focus',
+    }
+  - {
+      slug: 'nursing-assistant',
+      type: 'adjacent',
+      note: 'Shares direct-care, safety-and-dignity craft in a behavioral context',
+    }
+  - {
+      slug: 'caregiver',
+      type: 'related',
+      note: 'Shares dignified, hands-on care of vulnerable people',
+    }
+  - {
+      slug: 'recreational-therapist',
+      type: 'collaboration',
+      note: 'Partners on therapeutic activities structuring the milieu',
+    }
+specializations:
+  [
+    'Inpatient Psychiatric Technician',
+    'Developmental Disabilities Technician',
+    'Forensic Psychiatric Technician',
+    'Crisis / Behavioral Health Technician',
+  ]
+country_variants: []
+sources:
+  - { title: "Varcarolis' Foundations of Psychiatric-Mental Health Nursing", kind: 'book' }
+  - { title: 'SAMHSA trauma-informed care framework', kind: 'standard' }
+  - { title: 'CPI nonviolent crisis-intervention training', kind: 'course' }
+status: stable

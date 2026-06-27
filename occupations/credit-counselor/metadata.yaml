@@ -1,0 +1,58 @@
+title: 'Credit Counselor'
+slug: 'credit-counselor'
+aliases:
+  [
+    'Debt Counselor',
+    'Consumer Credit Counselor',
+    'Financial Counselor',
+    'Debt Management Counselor',
+  ]
+category: 'Finance'
+tags:
+  ['debt-management', 'budgeting', 'financial-counseling', 'creditor-negotiation', 'client-first']
+difficulty: 'intermediate'
+summary: "An honest guide for people trapped in debt — assessing their situation, building realistic budgets, negotiating with creditors, and matching them to the genuine best path, always in the client's interest rather than to sell a product."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'financial-advisor',
+      type: 'adjacent',
+      note: 'Helps clients build wealth where the counselor helps them escape debt',
+    }
+  - { slug: 'loan-officer', type: 'related', note: 'The lending side of consumer credit' }
+  - {
+      slug: 'social-worker',
+      type: 'related',
+      note: 'Shares non-judgmental, helping, referral orientation',
+    }
+  - {
+      slug: 'mental-health-counselor',
+      type: 'related',
+      note: 'Shares the counseling stance with vulnerable clients',
+    }
+  - { slug: 'claims-adjuster', type: 'adjacent', note: 'Shares creditor/party negotiation craft' }
+  - {
+      slug: 'lawyer',
+      type: 'collaboration',
+      note: "Referral path for bankruptcy when it is the client's best option",
+    }
+specializations:
+  [
+    'Debt Management Plan Counselor',
+    'Housing / Foreclosure Counselor',
+    'Student Loan Counselor',
+    'Bankruptcy Pre-Filing Counselor',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Nonprofit agencies dominate legitimate practice; pre-bankruptcy counseling is federally required.',
+    }
+sources:
+  - { title: 'NFCC standards and certification', kind: 'standard' }
+  - { title: 'CFPB resources on debt relief and credit counseling', kind: 'documentation' }
+  - { title: 'FTC guidance on credit counseling and debt settlement', kind: 'standard' }
+status: stable

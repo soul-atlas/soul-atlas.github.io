@@ -1,0 +1,61 @@
+title: 'Radiation Therapist'
+slug: 'radiation-therapist'
+aliases: ['Radiation Therapy Technologist', 'Therapeutic Radiographer', 'RTT']
+category: 'Healthcare'
+tags:
+  [
+    'radiation-oncology',
+    'treatment-delivery',
+    'image-guidance',
+    'patient-positioning',
+    'radiation-safety',
+  ]
+difficulty: 'advanced'
+summary: 'Runs the linear accelerator to deliver a lethal radiation dose to a tumor while sparing tissue millimeters away — the last human checkpoint before an irreversible beam, reproducing the plan exactly every fraction.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'oncologist',
+      type: 'collaboration',
+      note: 'Prescribes the dose and target and manages the patient medically',
+    }
+  - {
+      slug: 'radiologic-technologist',
+      type: 'adjacent',
+      note: 'Shares radiation physics but images to diagnose, not treat',
+    }
+  - {
+      slug: 'nuclear-medicine-technologist',
+      type: 'related',
+      note: 'Shares radiation-safety discipline in a different modality',
+    }
+  - {
+      slug: 'radiologist',
+      type: 'related',
+      note: 'Shares imaging and radiation physics on the diagnostic side',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'collaboration',
+      note: 'Part of the cancer-care team managing the patient',
+    }
+  - {
+      slug: 'diagnostic-medical-sonographer',
+      type: 'adjacent',
+      note: 'Shares imaging-and-positioning craft in a non-ionizing modality',
+    }
+specializations:
+  ['Dosimetry track', 'Brachytherapy Therapist', 'SRS/SBRT Specialist', 'Proton Therapy Therapist']
+country_variants:
+  - {
+      region: 'United Kingdom',
+      note: 'Known as a therapeutic radiographer; registered with the HCPC.',
+    }
+sources:
+  - { title: 'Principles and Practice of Radiation Therapy (Washington & Leaver)', kind: 'book' }
+  - { title: "Khan's The Physics of Radiation Therapy", kind: 'book' }
+  - { title: 'ASRT practice standards; ICRP radiation protection', kind: 'standard' }
+status: stable

@@ -1,0 +1,60 @@
+title: 'Power Plant Operator'
+slug: 'power-plant-operator'
+aliases: ['Control Room Operator', 'Plant Operator', 'Generation Operator', 'Power Dispatcher']
+category: 'Skilled Trades'
+tags: ['power-generation', 'grid-balance', 'control-room', 'operating-envelope', 'upset-response']
+difficulty: 'advanced'
+summary: 'Runs the machinery that generates electricity safely and reliably — keeping the plant inside its safe envelope and synchronized with the grid, matching output to demand moment by moment, and stabilizing upsets before they cascade.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'stationary-engineer',
+      type: 'adjacent',
+      note: 'Operates building boiler/HVAC plants with the same discipline at smaller scale',
+    }
+  - {
+      slug: 'water-treatment-operator',
+      type: 'adjacent',
+      note: 'Runs a comparable continuous-process utility',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'collaboration',
+      note: 'Designs the generation and grid systems the operator runs',
+    }
+  - {
+      slug: 'nuclear-engineer',
+      type: 'related',
+      note: 'Designs the reactor plant nuclear operators run under strict regulation',
+    }
+  - {
+      slug: 'dispatcher',
+      type: 'collaboration',
+      note: 'Grid dispatch the operator follows to balance supply and demand',
+    }
+  - {
+      slug: 'air-traffic-controller',
+      type: 'related',
+      note: 'Shares continuous-vigilance, high-consequence monitoring craft',
+    }
+specializations:
+  [
+    'Fossil Plant Operator',
+    'Nuclear Reactor Operator',
+    'Hydroelectric Operator',
+    'Gas Turbine / Combined-Cycle Operator',
+    'Renewable / Storage Operator',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Nuclear operators are NRC-licensed; grid operation follows NERC reliability standards.',
+    }
+sources:
+  - { title: 'Power Plant Engineering (Black & Veatch)', kind: 'book' }
+  - { title: 'NERC operating standards', kind: 'standard' }
+  - { title: "Boiler Operator's Handbook (Heselton)", kind: 'book' }
+status: stable

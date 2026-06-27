@@ -1,0 +1,37 @@
+title: 'Butcher'
+slug: 'butcher'
+aliases: ['Meat Cutter', 'Meat Butcher', 'Charcutier', 'Whole-Animal Butcher']
+category: 'Skilled Trades'
+tags: ['meat-cutting', 'seam-butchery', 'food-safety', 'knife-skills', 'yield']
+difficulty: 'intermediate'
+summary: "The skilled craftsperson at the cutting block — breaking carcasses into the right cuts along the animal's anatomy with minimal waste and absolute food safety, and advising customers on what to buy and how to cook it."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'chef',
+      type: 'collaboration',
+      note: 'Uses the cuts the butcher provides; close culinary collaboration',
+    }
+  - { slug: 'cook', type: 'related', note: 'Shares the food craft downstream of the cut' }
+  - {
+      slug: 'retail-salesperson',
+      type: 'related',
+      note: 'Shares advising customers through product knowledge',
+    }
+  - {
+      slug: 'restaurant-manager',
+      type: 'related',
+      note: 'Shares the food-safety and sanitation discipline',
+    }
+  - { slug: 'farmer', type: 'related', note: 'Raises the animal the butcher breaks down' }
+specializations:
+  ['Retail Butcher', 'Whole-Animal / Craft Butcher', 'Charcutier', 'Meat Processor / Cutter']
+country_variants: []
+sources:
+  - { title: 'Whole Beast Butchery (Ryan Farr)', kind: 'book' }
+  - { title: 'The Art of Beef Cutting (Kari Underly)', kind: 'book' }
+  - { title: 'USDA meat-handling and food-safety (HACCP) standards', kind: 'standard' }
+status: stable

@@ -1,0 +1,57 @@
+title: 'Property Manager'
+slug: 'property-manager'
+aliases:
+  [
+    'Real Estate Manager',
+    'Community Association Manager',
+    'Leasing Manager',
+    'Residential Property Manager',
+  ]
+category: 'Business'
+tags: ['leasing', 'net-operating-income', 'tenant-relations', 'fair-housing', 'asset-preservation']
+difficulty: 'intermediate'
+summary: "The owner's operational steward and the tenant's point of contact at once — maximizing risk-adjusted return through occupancy, income, and asset preservation while treating tenants lawfully and fairly."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'facilities-manager',
+      type: 'adjacent',
+      note: 'Shares building operations but optimizes for the occupant organization, not asset return',
+    }
+  - {
+      slug: 'real-estate-agent',
+      type: 'collaboration',
+      note: 'Transacts the property the manager then operates',
+    }
+  - {
+      slug: 'real-estate-appraiser',
+      type: 'related',
+      note: 'Values the asset the manager operates',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'Shares budgeting and vendor-management craft',
+    }
+  - { slug: 'financial-manager', type: 'related', note: 'Shares the NOI-and-return frame' }
+  - {
+      slug: 'plumber',
+      type: 'collaboration',
+      note: 'A trade the manager coordinates for maintenance',
+    }
+specializations:
+  [
+    'Residential Property Manager',
+    'Commercial Property Manager',
+    'Community Association (HOA) Manager',
+    'Asset Manager',
+  ]
+country_variants: []
+sources:
+  - { title: 'Property Management (Kyle & Baird)', kind: 'book' }
+  - { title: 'IREM CPM body of knowledge', kind: 'standard' }
+  - { title: 'The Fair Housing Act and landlord-tenant law', kind: 'standard' }
+status: stable

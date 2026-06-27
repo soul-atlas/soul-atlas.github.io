@@ -1,0 +1,57 @@
+title: 'Art Director'
+slug: 'art-director'
+aliases: ['Creative Lead', 'Visual Director', 'Design Director', 'Associate Creative Director']
+category: 'Creative'
+tags:
+  ['visual-direction', 'concept-development', 'creative-leadership', 'visual-coherence', 'branding']
+difficulty: 'advanced'
+summary: 'Owns the visual vision — making every aesthetic decision serve one concept and leading the designers, photographers, and illustrators who execute it, so the work communicates the intended message and feeling.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'graphic-designer',
+      type: 'progression',
+      note: 'A maker the art director directs and often grows from',
+    }
+  - {
+      slug: 'copywriter',
+      type: 'collaboration',
+      note: 'The verbal half of the classic advertising creative team',
+    }
+  - {
+      slug: 'photographer',
+      type: 'collaboration',
+      note: 'A specialist the art director directs to execute the vision',
+    }
+  - {
+      slug: 'film-director',
+      type: 'adjacent',
+      note: 'Overlaps in directing a visual vision for the screen',
+    }
+  - {
+      slug: 'set-designer',
+      type: 'collaboration',
+      note: 'Realizes the physical look in film/TV/theatre',
+    }
+  - {
+      slug: 'marketing-manager',
+      type: 'collaboration',
+      note: 'Owns the brand message the art direction serves',
+    }
+specializations:
+  [
+    'Advertising Art Director',
+    'Editorial / Publishing Art Director',
+    'Film / TV Art Director',
+    'Brand / Digital Art Director',
+    'Game Art Director',
+  ]
+country_variants: []
+sources:
+  - { title: 'Art Direction Explained, At Last! (Mahon)', kind: 'book' }
+  - { title: 'Thinking with Type (Ellen Lupton)', kind: 'book' }
+  - { title: 'Hey Whipple, Squeeze This (Luke Sullivan)', kind: 'book' }
+status: stable

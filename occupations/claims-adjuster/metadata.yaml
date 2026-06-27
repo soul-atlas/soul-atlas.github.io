@@ -1,0 +1,61 @@
+title: 'Claims Adjuster'
+slug: 'claims-adjuster'
+aliases: ['Insurance Adjuster', 'Claims Examiner', 'Claims Investigator', 'Public Adjuster']
+category: 'Finance'
+tags: ['insurance-claims', 'coverage-analysis', 'loss-valuation', 'fraud-detection', 'good-faith']
+difficulty: 'intermediate'
+summary: 'Investigates claims, determines coverage, and settles for the right amount — fairly and in good faith to the policyholder, accurately against the policy, and protected against the fraud that harms every other premium-payer.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'insurance-underwriter',
+      type: 'collaboration',
+      note: 'Prices the risk the adjuster later pays claims on',
+    }
+  - {
+      slug: 'insurance-agent',
+      type: 'collaboration',
+      note: 'Sells the policy the adjuster administers at claim time',
+    }
+  - {
+      slug: 'real-estate-appraiser',
+      type: 'adjacent',
+      note: 'Shares independent investigation and valuation discipline',
+    }
+  - {
+      slug: 'private-investigator',
+      type: 'related',
+      note: 'Overlaps on claims investigation and fraud detection',
+    }
+  - {
+      slug: 'financial-examiner',
+      type: 'related',
+      note: 'Shares independent scrutiny and rules discipline',
+    }
+  - {
+      slug: 'lawyer',
+      type: 'collaboration',
+      note: 'Works opposite or with attorneys in disputed and injury claims',
+    }
+specializations:
+  [
+    'Auto Claims Adjuster',
+    'Property Adjuster',
+    'Liability / Bodily Injury Adjuster',
+    "Workers' Comp Adjuster",
+    'Catastrophe Adjuster',
+    'Public Adjuster',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Licensed by state; bound by unfair-claims-practices and good-faith statutes that create bad-faith liability.',
+    }
+sources:
+  - { title: 'The Institutes (AICPCU) Claims curriculum', kind: 'course' }
+  - { title: 'Property and Casualty Insurance (The Institutes)', kind: 'book' }
+  - { title: 'State unfair-claims-practices and good-faith statutes', kind: 'standard' }
+status: stable

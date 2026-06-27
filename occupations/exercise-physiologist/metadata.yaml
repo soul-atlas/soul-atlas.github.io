@@ -1,0 +1,54 @@
+title: 'Exercise Physiologist'
+slug: 'exercise-physiologist'
+aliases: ['Clinical Exercise Physiologist', 'Cardiac Rehab Specialist', 'Applied Physiologist']
+category: 'Healthcare'
+tags: ['exercise-prescription', 'cardiac-rehab', 'vo2-max', 'dose-response', 'risk-stratification']
+difficulty: 'advanced'
+summary: 'Applies the science of how the body responds to exercise to prescribe and supervise the right dose for a specific body and condition — enough to drive adaptation, not so much as to harm — from measured physiology, not generic guidelines.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'physical-therapist',
+      type: 'adjacent',
+      note: 'Rehabilitates injury where the physiologist conditions and manages chronic disease',
+    }
+  - {
+      slug: 'personal-trainer',
+      type: 'adjacent',
+      note: 'Overlaps in performance settings with deeper physiological grounding',
+    }
+  - {
+      slug: 'athletic-trainer',
+      type: 'related',
+      note: 'Shares the performance and movement domain',
+    }
+  - {
+      slug: 'cardiologist',
+      type: 'collaboration',
+      note: 'Clears patients and receives referred abnormal findings in cardiac rehab',
+    }
+  - {
+      slug: 'dietitian',
+      type: 'collaboration',
+      note: 'Owns the nutrition side of metabolic health',
+    }
+  - {
+      slug: 'respiratory-therapist',
+      type: 'related',
+      note: 'Shares the allied-health rehabilitation orientation',
+    }
+specializations:
+  [
+    'Clinical Exercise Physiologist',
+    'Cardiac / Pulmonary Rehab Specialist',
+    'Sports / Performance Physiologist',
+  ]
+country_variants: []
+sources:
+  - { title: "ACSM's Guidelines for Exercise Testing and Prescription", kind: 'standard' }
+  - { title: 'Exercise Physiology: Theory and Application (Powers & Howley)', kind: 'book' }
+  - { title: 'AACVPR cardiac and pulmonary rehabilitation guidelines', kind: 'standard' }
+status: stable

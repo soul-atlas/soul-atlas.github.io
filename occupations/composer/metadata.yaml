@@ -1,0 +1,52 @@
+title: 'Composer'
+slug: 'composer'
+aliases: ['Music Composer', 'Film Composer', 'Songwriter', 'Music Director', 'Arranger']
+category: 'Creative'
+tags: ['composition', 'orchestration', 'film-scoring', 'music-theory', 'emotional-arc']
+difficulty: 'advanced'
+summary: 'Organizes sound and time into music that achieves an intended effect — serving the work, whether a film, game, ensemble, or personal vision, and rendering it so performers or technology can realize it.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'musician',
+      type: 'adjacent',
+      note: 'Performs the music the composer creates; the two roles often overlap',
+    }
+  - {
+      slug: 'sound-engineer',
+      type: 'collaboration',
+      note: "Records, mixes, and realizes the composer's produced work",
+    }
+  - {
+      slug: 'film-director',
+      type: 'collaboration',
+      note: 'Whose vision the film score serves and whose feedback drives revision',
+    }
+  - {
+      slug: 'fine-artist',
+      type: 'related',
+      note: 'Shares self-directed, vision-and-craft, market-navigating practice',
+    }
+  - {
+      slug: 'game-developer',
+      type: 'collaboration',
+      note: 'Collaborates on adaptive/interactive game music',
+    }
+  - { slug: 'screenwriter', type: 'related', note: 'Parallel service to story in screen work' }
+specializations:
+  [
+    'Film / TV Composer',
+    'Game Composer',
+    'Concert / Classical Composer',
+    'Songwriter',
+    'Orchestrator / Arranger',
+  ]
+country_variants: []
+sources:
+  - { title: 'The Study of Orchestration (Samuel Adler)', kind: 'book' }
+  - { title: 'On the Track: A Guide to Contemporary Film Scoring (Karlin & Wright)', kind: 'book' }
+  - { title: 'Harmony (Walter Piston)', kind: 'book' }
+status: stable

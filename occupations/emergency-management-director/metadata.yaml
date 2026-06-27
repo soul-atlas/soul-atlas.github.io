@@ -1,0 +1,72 @@
+title: 'Emergency Management Director'
+slug: 'emergency-management-director'
+aliases:
+  [
+    'Emergency Manager',
+    'Disaster Management Coordinator',
+    'Director of Emergency Services',
+    'Civil Defense Director',
+  ]
+category: 'Public Service'
+tags:
+  [
+    'disaster-preparedness',
+    'incident-command',
+    'mitigation',
+    'multi-agency-coordination',
+    'recovery',
+  ]
+difficulty: 'advanced'
+summary: "Reduces a community's losses from disasters across mitigation, preparedness, response, and recovery — coordinating fragmented agencies through structure and relationships built before the sirens, not commanded during them."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'firefighter',
+      type: 'collaboration',
+      note: 'A frontline responder the director coordinates but does not command',
+    }
+  - {
+      slug: 'public-health-officer',
+      type: 'collaboration',
+      note: 'Co-leads during health emergencies and pandemics',
+    }
+  - {
+      slug: 'logistics-officer',
+      type: 'adjacent',
+      note: 'Shares logistics and coordination craft applied to chaos',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'Shares planning and resource-coordination discipline',
+    }
+  - {
+      slug: 'urban-planner',
+      type: 'related',
+      note: 'Shares the mitigation mindset of reducing risk in advance',
+    }
+  - {
+      slug: 'police-officer',
+      type: 'collaboration',
+      note: 'A frontline responder coordinated under ICS',
+    }
+specializations:
+  [
+    'Local / County Emergency Manager',
+    'Hospital / Healthcare Emergency Manager',
+    'Business Continuity Manager',
+    'Hazard Mitigation Planner',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Operates under FEMA, NIMS/ICS, and the Stafford Act; response is local-first, escalating to state and federal.',
+    }
+sources:
+  - { title: 'Introduction to Emergency Management (Haddow, Bullock & Coppola)', kind: 'book' }
+  - { title: 'FEMA NIMS and ICS doctrine', kind: 'standard' }
+  - { title: 'The Stafford Act and National Response Framework', kind: 'standard' }
+status: stable

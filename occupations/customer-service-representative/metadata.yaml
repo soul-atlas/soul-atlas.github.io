@@ -1,0 +1,54 @@
+title: 'Customer Service Representative'
+slug: 'customer-service-representative'
+aliases: ['CSR', 'Customer Support Rep', 'Call Center Agent', 'Contact Center Representative']
+category: 'Business'
+tags:
+  [
+    'customer-support',
+    'de-escalation',
+    'problem-resolution',
+    'emotional-labor',
+    'first-contact-resolution',
+  ]
+difficulty: 'foundational'
+summary: "The company's voice and ears at the point of trouble — absorbing frustration, diagnosing the real problem, resolving it within authority, and turning a moment of failure into a reason the customer stays."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - { slug: 'cashier', type: 'related', note: 'Shares front-line service and de-escalation' }
+  - {
+      slug: 'it-support-specialist',
+      type: 'adjacent',
+      note: 'Technical support is a specialized form of customer service',
+    }
+  - {
+      slug: 'customer-success-manager',
+      type: 'progression',
+      note: 'Escalation path and career growth toward relationship retention',
+    }
+  - {
+      slug: 'receptionist',
+      type: 'related',
+      note: 'Shares the front-line, company-face contact role',
+    }
+  - {
+      slug: 'retail-salesperson',
+      type: 'related',
+      note: 'Shares customer-facing service and problem-solving',
+    }
+specializations:
+  [
+    'Call Center Agent',
+    'Technical Support Rep',
+    'Billing / Account Support',
+    'Retention Specialist',
+    'Chat / Email Support',
+  ]
+country_variants: []
+sources:
+  - { title: 'The Effortless Experience (Dixon, Toman & DeLisi)', kind: 'book' }
+  - { title: 'Delivering Happiness (Tony Hsieh)', kind: 'book' }
+  - { title: 'Contact-center service and de-escalation standards', kind: 'documentation' }
+status: stable

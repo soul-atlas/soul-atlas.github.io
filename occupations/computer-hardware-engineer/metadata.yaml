@@ -1,0 +1,59 @@
+title: 'Computer Hardware Engineer'
+slug: 'computer-hardware-engineer'
+aliases:
+  [
+    'Hardware Engineer',
+    'ASIC Engineer',
+    'Digital Design Engineer',
+    'Chip Designer',
+    'FPGA Engineer',
+  ]
+category: 'Engineering'
+tags: ['rtl-design', 'verification', 'timing-closure', 'signal-integrity', 'power-performance-area']
+difficulty: 'advanced'
+summary: 'Designs the physical computing machine where logic meets the hard walls of physics, verifying exhaustively before tape-out because a fabricated bug gives no patch on Tuesday.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'electrical-engineer',
+      type: 'prerequisite',
+      note: 'Parent discipline; hardware engineering is EE specialized to digital systems',
+    }
+  - {
+      slug: 'embedded-systems-engineer',
+      type: 'collaboration',
+      note: 'Meets at the hardware-software boundary',
+    }
+  - {
+      slug: 'software-engineer',
+      type: 'adjacent',
+      note: 'Builds on the platform the hardware engineer provides',
+    }
+  - {
+      slug: 'materials-engineer',
+      type: 'related',
+      note: 'Owns the semiconductor and packaging materials',
+    }
+  - { slug: 'mechanical-engineer', type: 'related', note: 'Owns the thermal and packaging path' }
+  - {
+      slug: 'robotics-engineer',
+      type: 'adjacent',
+      note: 'Pushes physical-design discipline toward new substrates',
+    }
+specializations:
+  [
+    'ASIC Design Engineer',
+    'Verification Engineer',
+    'Physical Design Engineer',
+    'FPGA Engineer',
+    'Board / Hardware Systems Engineer',
+  ]
+country_variants: []
+sources:
+  - { title: 'Computer Architecture: A Quantitative Approach (Hennessy & Patterson)', kind: 'book' }
+  - { title: 'CMOS VLSI Design (Weste & Harris)', kind: 'book' }
+  - { title: 'High-Speed Digital Design (Johnson & Graham)', kind: 'book' }
+status: stable

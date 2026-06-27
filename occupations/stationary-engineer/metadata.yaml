@@ -1,0 +1,59 @@
+title: 'Stationary Engineer'
+slug: 'stationary-engineer'
+aliases: ['Operating Engineer', 'Boiler Operator', 'Power Engineer', 'Building Engineer']
+category: 'Skilled Trades'
+tags: ['boiler-operation', 'hvac', 'central-plant', 'pressure-safety', 'energy-efficiency']
+difficulty: 'intermediate'
+summary: "The licensed professional who runs a facility's central plant — boilers, chillers, and HVAC — safely and efficiently, keeping pressure equipment within safe limits absolutely so the building functions and never suffers a catastrophic failure."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'power-plant-operator',
+      type: 'adjacent',
+      note: 'Shares continuous-plant safety-envelope operation at larger scale',
+    }
+  - {
+      slug: 'water-treatment-operator',
+      type: 'adjacent',
+      note: 'Shares continuous-utility-plant operator discipline',
+    }
+  - {
+      slug: 'facilities-manager',
+      type: 'collaboration',
+      note: 'Owns the building operation the engineer runs the plant for',
+    }
+  - {
+      slug: 'hvac-technician',
+      type: 'collaboration',
+      note: 'A trade working the same heating/cooling systems',
+    }
+  - {
+      slug: 'boilermaker',
+      type: 'related',
+      note: 'Builds the pressure vessels the stationary engineer operates',
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'related',
+      note: 'Designs the plant systems the engineer runs',
+    }
+specializations:
+  [
+    'Boiler Operator',
+    'HVAC / Chiller Plant Operator',
+    'Hospital / Critical Facility Engineer',
+    'Refrigeration Operator',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Licensed by grade for boiler size/pressure; requirements vary by city and state.',
+    }
+sources:
+  - { title: "Boiler Operator's Handbook (Heselton)", kind: 'book' }
+  - { title: 'ASME Boiler and Pressure Vessel Code', kind: 'standard' }
+  - { title: "Standard Boiler Operators' Questions and Answers (Elonka & Minich)", kind: 'book' }
+status: stable

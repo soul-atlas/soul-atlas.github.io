@@ -1,0 +1,50 @@
+title: 'Esthetician'
+slug: 'esthetician'
+aliases: ['Skincare Specialist', 'Aesthetician', 'Facialist', 'Skin Care Therapist']
+category: 'Hospitality'
+tags: ['skincare', 'facials', 'hygiene', 'skin-analysis', 'cosmetic-treatment']
+difficulty: 'foundational'
+summary: "Improves clients' skin health and appearance through safe, knowledgeable treatments and honest advice — analyzing skin and treating hygienically within cosmetic scope, while knowing the line to medical care."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'hairstylist',
+      type: 'related',
+      note: 'Shares personal-care beauty-and-wellness service',
+    }
+  - {
+      slug: 'manicurist',
+      type: 'related',
+      note: 'Shares personal-care service and sanitation discipline',
+    }
+  - {
+      slug: 'massage-therapist',
+      type: 'related',
+      note: 'Shares hands-on personal wellness service',
+    }
+  - {
+      slug: 'dermatologist',
+      type: 'collaboration',
+      note: 'The medical counterpart the esthetician refers conditions to',
+    }
+  - { slug: 'retail-salesperson', type: 'related', note: 'Shares honest product advice to clients' }
+specializations:
+  [
+    'Spa Esthetician',
+    'Medical Esthetician',
+    'Waxing / Hair Removal Specialist',
+    'Makeup / Lash Artist',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Licensed by state cosmetology/esthetics boards; scope and sanitation are regulated.',
+    }
+sources:
+  - { title: 'Milady Standard Esthetics', kind: 'book' }
+  - { title: 'Skin Care: Beyond the Basics (Mark Lees)', kind: 'book' }
+  - { title: 'State esthetics licensing and sanitation regulations', kind: 'standard' }
+status: stable

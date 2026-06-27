@@ -1,0 +1,39 @@
+title: 'Office Clerk'
+slug: 'office-clerk'
+aliases: ['General Office Clerk', 'Clerical Worker', 'Data Entry Clerk', 'Records Clerk']
+category: 'Business'
+tags: ['clerical', 'records-management', 'data-entry', 'document-processing', 'office-support']
+difficulty: 'foundational'
+summary: "The reliable generalist who keeps the office's administrative machinery running — filing, data entry, and document processing kept accurate, organized, and done, so nothing gets lost or wrong."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'administrative-assistant',
+      type: 'adjacent',
+      note: 'Close, often overlapping cousin in office support',
+    }
+  - { slug: 'receptionist', type: 'related', note: 'Shares front-office clerical and support work' }
+  - { slug: 'bookkeeper', type: 'related', note: 'Shares data-and-records accuracy discipline' }
+  - {
+      slug: 'medical-records-technician',
+      type: 'related',
+      note: 'Specialized records-handling cousin',
+    }
+  - { slug: 'bill-collector', type: 'related', note: 'Adjacent specialized clerk role' }
+specializations:
+  [
+    'Data Entry Clerk',
+    'Records / File Clerk',
+    'Billing Clerk',
+    'Mail Clerk',
+    'Bookkeeping / Accounting Clerk',
+  ]
+country_variants: []
+sources:
+  - { title: 'ARMA records-management standards', kind: 'standard' }
+  - { title: 'Getting Things Done (David Allen)', kind: 'book' }
+  - { title: 'ISO 15489 records management principles', kind: 'standard' }
+status: stable

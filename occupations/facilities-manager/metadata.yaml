@@ -1,0 +1,68 @@
+title: 'Facilities Manager'
+slug: 'facilities-manager'
+aliases:
+  [
+    'Administrative Services Manager',
+    'Building Operations Manager',
+    'FM',
+    'Plant Manager (buildings)',
+  ]
+category: 'Business'
+tags:
+  [
+    'operations-and-maintenance',
+    'life-safety',
+    'total-cost-of-ownership',
+    'space-management',
+    'energy',
+  ]
+difficulty: 'intermediate'
+summary: 'Owns the built environment as a twenty-year operating asset — keeping it safe, compliant, comfortable, and running at the lowest total cost so the organization inside never has to think about it.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'operations-manager',
+      type: 'adjacent',
+      note: 'Shares budgeting, vendor, and operations craft applied to physical space',
+    }
+  - {
+      slug: 'construction-manager',
+      type: 'collaboration',
+      note: 'Creates the building the FM then operates for decades',
+    }
+  - {
+      slug: 'property-manager',
+      type: 'adjacent',
+      note: 'Overlaps but optimizes for asset return rather than the occupant organization',
+    }
+  - {
+      slug: 'hvac-technician',
+      type: 'collaboration',
+      note: 'A trade the FM directs through maintenance and contracts',
+    }
+  - {
+      slug: 'electrician',
+      type: 'collaboration',
+      note: 'A trade the FM directs through maintenance and contracts',
+    }
+  - {
+      slug: 'health-and-safety-engineer',
+      type: 'related',
+      note: 'Sets life-safety standards the FM enforces',
+    }
+specializations:
+  [
+    'Operations & Maintenance Manager',
+    'Space / Workplace Manager',
+    'Energy & Sustainability Manager',
+    'Healthcare / Campus Facilities Manager',
+  ]
+country_variants: []
+sources:
+  - { title: 'Total Facilities Management (Atkin & Brooks)', kind: 'book' }
+  - { title: 'IFMA competencies and guides', kind: 'standard' }
+  - { title: 'NFPA 101 Life Safety Code; ASHRAE standards', kind: 'standard' }
+status: stable

@@ -1,0 +1,52 @@
+title: 'Quality Control Inspector'
+slug: 'quality-control-inspector'
+aliases: ['QC Inspector', 'Quality Inspector', 'QA/QC Technician', 'Incoming Inspector']
+category: 'Skilled Trades'
+tags: ['quality-control', 'inspection', 'metrology', 'spec-conformance', 'defect-detection']
+difficulty: 'intermediate'
+summary: 'The gate between "made" and "acceptable" — measuring products against specification objectively, catching defects early when they are cheapest to fix, and never passing what does not conform.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'construction-inspector',
+      type: 'adjacent',
+      note: 'The same verification-and-enforcement role in construction',
+    }
+  - {
+      slug: 'auditor',
+      type: 'related',
+      note: 'Shares objective verification against a standard under pressure',
+    }
+  - {
+      slug: 'industrial-engineer',
+      type: 'collaboration',
+      note: 'Designs the processes and inspection plans; uses defect data',
+    }
+  - { slug: 'machinist', type: 'collaboration', note: 'Produces the parts the inspector verifies' }
+  - {
+      slug: 'statistician',
+      type: 'related',
+      note: 'Underpins sampling and statistical process control',
+    }
+  - {
+      slug: 'materials-engineer',
+      type: 'related',
+      note: 'Connects to materials testing and failure analysis',
+    }
+specializations:
+  [
+    'Incoming / Receiving Inspector',
+    'In-Process Inspector',
+    'Final / Outgoing Inspector',
+    'NDT Inspector',
+    'CMM Programmer / Operator',
+  ]
+country_variants: []
+sources:
+  - { title: "Juran's Quality Handbook", kind: 'book' }
+  - { title: 'Quality Control (Dale Besterfield)', kind: 'book' }
+  - { title: 'ISO 9001 and ANSI/ASQ Z1.4 sampling standards', kind: 'standard' }
+status: stable

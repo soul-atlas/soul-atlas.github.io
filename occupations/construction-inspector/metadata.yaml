@@ -1,0 +1,60 @@
+title: 'Construction and Building Inspector'
+slug: 'construction-inspector'
+aliases: ['Building Inspector', 'Code Inspector', 'Code Official', 'Special Inspector']
+category: 'Skilled Trades'
+tags: ['building-code', 'inspection', 'public-safety', 'code-enforcement', 'plan-review']
+difficulty: 'intermediate'
+summary: "The independent check between the contractor's work and the public's safety — verifying construction matches the approved plans and code at the stages where defects are still visible, before they are buried."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'construction-manager',
+      type: 'collaboration',
+      note: 'Schedules around inspection points; responsible for code compliance',
+    }
+  - {
+      slug: 'electrician',
+      type: 'collaboration',
+      note: 'A trade whose work the inspector verifies against code',
+    }
+  - {
+      slug: 'fire-inspector',
+      type: 'adjacent',
+      note: 'Close specialty cousin enforcing overlapping life-safety codes',
+    }
+  - {
+      slug: 'quality-control-inspector',
+      type: 'adjacent',
+      note: 'The same verification-and-enforcement discipline in manufacturing',
+    }
+  - {
+      slug: 'architect',
+      type: 'collaboration',
+      note: 'Originates the plans the inspector verifies against',
+    }
+  - {
+      slug: 'health-and-safety-engineer',
+      type: 'related',
+      note: 'Sets safety standards the inspector enforces',
+    }
+specializations:
+  [
+    'Building Inspector',
+    'Electrical Inspector',
+    'Plumbing / Mechanical Inspector',
+    'Public Works Inspector',
+    'Special Inspector (welding/concrete)',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Enforces the ICC family of I-Codes plus local amendments; certification through the ICC.',
+    }
+sources:
+  - { title: 'International Building Code (IBC) and related I-Codes', kind: 'standard' }
+  - { title: 'National Electrical Code (NFPA 70)', kind: 'standard' }
+  - { title: 'ICC inspector certification programs and reference manuals', kind: 'standard' }
+status: stable

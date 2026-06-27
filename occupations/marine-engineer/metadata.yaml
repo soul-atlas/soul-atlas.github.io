@@ -1,0 +1,51 @@
+title: 'Marine Engineer'
+slug: 'marine-engineer'
+aliases: ['Naval Architect', 'Ship Engineer', 'Marine Systems Engineer', 'Engineering Officer']
+category: 'Engineering'
+tags: ['naval-architecture', 'ship-stability', 'marine-propulsion', 'corrosion', 'solas']
+difficulty: 'advanced'
+summary: 'Designs and runs the hull and machinery of a self-contained ship that cannot pull over, holding stability sacred and engineering for corrosion, motion, and total isolation at sea.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - { slug: 'mechanical-engineer', type: 'related', note: 'Shares the propulsion and thermal core' }
+  - {
+      slug: 'structural-engineer',
+      type: 'related',
+      note: 'Shares fatigue-and-load discipline applied to the hull',
+    }
+  - {
+      slug: 'ship-captain',
+      type: 'collaboration',
+      note: 'Operates the vessel the engineer keeps alive',
+    }
+  - { slug: 'merchant-mariner', type: 'collaboration', note: 'Crew running the systems at sea' }
+  - {
+      slug: 'aerospace-engineer',
+      type: 'adjacent',
+      note: 'Shares weight-critical, redundancy-and-fatigue mindset',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'related',
+      note: 'Power generation and distribution aboard',
+    }
+specializations:
+  [
+    'Naval Architect',
+    'Marine Systems / Machinery Engineer',
+    'Engineering Officer (sailing)',
+    'Offshore / Subsea Engineer',
+  ]
+country_variants:
+  - {
+      region: 'International',
+      note: 'Sailing engineers certified under the IMO STCW convention; ships built and surveyed to classification-society rules.',
+    }
+sources:
+  - { title: 'Principles of Naval Architecture (SNAME)', kind: 'book' }
+  - { title: "Pounder's Marine Diesel Engines and Gas Turbines", kind: 'book' }
+  - { title: 'SOLAS and MARPOL conventions (IMO)', kind: 'standard' }
+status: stable

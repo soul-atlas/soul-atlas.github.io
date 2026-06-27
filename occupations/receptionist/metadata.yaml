@@ -1,0 +1,45 @@
+title: 'Receptionist'
+slug: 'receptionist'
+aliases:
+  ['Front Desk Associate', 'Front Office Coordinator', 'Front Desk Clerk', 'Information Clerk']
+category: 'Business'
+tags: ['front-desk', 'visitor-management', 'phone-handling', 'multitasking', 'first-impression']
+difficulty: 'foundational'
+summary: 'The competent, welcoming front line — greeting and directing people, managing calls and information flow, and keeping the front of the organization running, so every first contact feels warm and professional.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'administrative-assistant',
+      type: 'adjacent',
+      note: 'Close cousin sharing administrative and coordination work',
+    }
+  - {
+      slug: 'concierge',
+      type: 'adjacent',
+      note: 'A higher-service hospitality relative of the front-desk role',
+    }
+  - {
+      slug: 'customer-service-representative',
+      type: 'related',
+      note: 'Shares front-line, company-face service',
+    }
+  - { slug: 'office-clerk', type: 'related', note: 'Shares clerical and office-support work' }
+  - {
+      slug: 'medical-assistant',
+      type: 'related',
+      note: 'Front-desk and coordination function in clinical settings',
+    }
+specializations:
+  ['Medical Receptionist', 'Corporate Front Desk', 'Hotel Front Desk Agent', 'Legal Receptionist']
+country_variants: []
+sources:
+  - {
+      title: 'The Definitive Executive Assistant and Managerial Handbook (Sue France)',
+      kind: 'book',
+    }
+  - { title: 'How to Win Friends and Influence People (Dale Carnegie)', kind: 'book' }
+  - { title: 'Office administration and front-of-house standards', kind: 'documentation' }
+status: stable

@@ -1,0 +1,66 @@
+title: 'Veterinary Technician'
+slug: 'veterinary-technician'
+aliases: ['Vet Tech', 'Veterinary Nurse', 'Veterinary Technologist', 'Animal Health Technician']
+category: 'Healthcare'
+tags:
+  [
+    'animal-care',
+    'anesthesia-monitoring',
+    'veterinary-nursing',
+    'low-stress-handling',
+    'diagnostics',
+  ]
+difficulty: 'intermediate'
+summary: "The nurse, lab tech, anesthetist, and radiographer of the animal world combined — providing skilled care to patients who cannot speak, monitoring vigilantly for hidden signs, under the veterinarian's direction."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'veterinarian',
+      type: 'collaboration',
+      note: 'Directs care and holds the exclusive acts of diagnosis, prescription, and surgery',
+    }
+  - {
+      slug: 'registered-nurse',
+      type: 'adjacent',
+      note: 'The human-medicine parallel to veterinary nursing',
+    }
+  - {
+      slug: 'surgical-technologist',
+      type: 'adjacent',
+      note: 'Shares sterile surgical-support craft',
+    }
+  - {
+      slug: 'nurse-anesthetist',
+      type: 'related',
+      note: 'Shares anesthetic monitoring and patient advocacy under anesthesia',
+    }
+  - {
+      slug: 'medical-laboratory-scientist',
+      type: 'related',
+      note: 'Shares diagnostic lab-work craft',
+    }
+  - {
+      slug: 'caregiver',
+      type: 'related',
+      note: 'Shares dignified care of those who cannot advocate for themselves',
+    }
+specializations:
+  [
+    'Veterinary Anesthesia Technician',
+    'Emergency / Critical Care Vet Tech',
+    'Veterinary Dental Technician',
+    'Exotic / Zoo Animal Technician',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Credentialed as RVT/LVT/CVT by state; called veterinary nurse in some countries.',
+    }
+sources:
+  - { title: "McCurnin's Clinical Textbook for Veterinary Technicians", kind: 'book' }
+  - { title: 'Anesthesia and Analgesia for Veterinary Technicians (Bryant)', kind: 'book' }
+  - { title: 'AVMA / NAVTA scope-of-practice and credentialing standards', kind: 'standard' }
+status: stable

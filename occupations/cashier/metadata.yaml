@@ -1,0 +1,43 @@
+title: 'Cashier'
+slug: 'cashier'
+aliases: ['Checkout Operator', 'Sales Associate (checkout)', 'Till Operator', 'Front-End Associate']
+category: 'Business'
+tags: ['point-of-sale', 'cash-handling', 'customer-service', 'transactions', 'loss-prevention']
+difficulty: 'foundational'
+summary: "The store's financial control point and front-line ambassador at once — processing transactions accurately and honestly, keeping the line moving, and leaving each customer with a good last impression."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'retail-salesperson',
+      type: 'adjacent',
+      note: 'Sells the goods the cashier completes the sale of',
+    }
+  - {
+      slug: 'bank-teller',
+      type: 'adjacent',
+      note: 'Closest cousin — money handling plus customer service',
+    }
+  - {
+      slug: 'customer-service-representative',
+      type: 'related',
+      note: 'Shares front-line service and de-escalation',
+    }
+  - { slug: 'waiter', type: 'related', note: 'Shares customer-facing service under volume' }
+  - {
+      slug: 'bookkeeper',
+      type: 'related',
+      note: 'Shares money accuracy and reconciliation discipline',
+    }
+specializations: ['Grocery Cashier', 'Retail Checkout Associate', 'Head Cashier / Front-End Lead']
+country_variants: []
+sources:
+  - {
+      title: 'National Retail Federation service and loss-prevention resources',
+      kind: 'documentation',
+    }
+  - { title: 'The Customer Rules (Lee Cockerell)', kind: 'book' }
+  - { title: 'Retail cash-handling and PCI payment-security standards', kind: 'standard' }
+status: stable

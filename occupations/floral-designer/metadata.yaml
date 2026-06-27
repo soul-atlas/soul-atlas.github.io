@@ -1,0 +1,46 @@
+title: 'Floral Designer'
+slug: 'floral-designer'
+aliases: ['Florist', 'Floral Arranger', 'Flower Designer', 'Event Florist']
+category: 'Creative'
+tags: ['floral-design', 'horticulture', 'event-flowers', 'perishable-inventory', 'visual-design']
+difficulty: 'intermediate'
+summary: 'Composes flowers into arrangements that carry the right emotion and fit the occasion, made to be beautiful and to last — balancing artistry, the realities of perishable living material, and the economics of the craft.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'fine-artist',
+      type: 'related',
+      note: 'Shares visual-design craft applied to living material',
+    }
+  - {
+      slug: 'interior-designer',
+      type: 'related',
+      note: 'Shares composing beauty for spaces and occasions',
+    }
+  - {
+      slug: 'event-planner',
+      type: 'collaboration',
+      note: 'Integrates floral work into larger events',
+    }
+  - { slug: 'botanist', type: 'related', note: 'Shares knowledge of living plant material' }
+  - {
+      slug: 'retail-salesperson',
+      type: 'related',
+      note: 'Shares the perishable-product retail business',
+    }
+specializations:
+  [
+    'Event / Wedding Florist',
+    'Retail Florist',
+    'Sympathy / Funeral Designer',
+    'Installation Artist',
+  ]
+country_variants: []
+sources:
+  - { title: 'The Flower Recipe Book (Harampolis & Rizzo)', kind: 'book' }
+  - { title: 'AIFD (American Institute of Floral Designers) resources', kind: 'documentation' }
+  - { title: 'Horticultural references on cut-flower care and vase life', kind: 'other' }
+status: stable

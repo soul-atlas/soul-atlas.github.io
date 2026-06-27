@@ -1,0 +1,46 @@
+title: 'Bank Teller'
+slug: 'bank-teller'
+aliases: ['Teller', 'Bank Clerk', 'Customer Service Teller', 'Branch Teller']
+category: 'Finance'
+tags: ['banking', 'cash-handling', 'fraud-detection', 'customer-service', 'compliance']
+difficulty: 'foundational'
+summary: 'The trusted human front line of the bank — handling transactions accurately and securely, balancing to the penny, serving customers, and staying alert to fraud, scams, and risk.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - { slug: 'cashier', type: 'adjacent', note: 'Closest cousin — money handling plus service' }
+  - {
+      slug: 'bookkeeper',
+      type: 'related',
+      note: 'Shares financial-accuracy and reconciliation discipline',
+    }
+  - {
+      slug: 'loan-officer',
+      type: 'progression',
+      note: 'A referral path and career progression in banking',
+    }
+  - {
+      slug: 'customer-service-representative',
+      type: 'related',
+      note: 'Shares front-line service and de-escalation',
+    }
+  - { slug: 'claims-adjuster', type: 'related', note: 'Shares fraud-vigilance discipline' }
+specializations:
+  [
+    'Retail Bank Teller',
+    'Head Teller',
+    'Personal Banker (progression)',
+    'Vault / Commercial Teller',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Bound by Bank Secrecy Act / AML rules, currency-transaction reporting, and KYC requirements.',
+    }
+sources:
+  - { title: 'American Bankers Association teller training resources', kind: 'course' }
+  - { title: 'Bank Secrecy Act / AML and KYC compliance standards', kind: 'standard' }
+  - { title: 'FTC resources on fraud and elder scams', kind: 'documentation' }
+status: stable

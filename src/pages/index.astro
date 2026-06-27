@@ -4,6 +4,8 @@ import SoulCard from '../components/SoulCard.astro';
 import { souls, stats, categories } from '../lib/data';
 import { url, GITHUB_URL, SITE } from '../lib/site';
 
+const githubRepo = SITE.githubRepo;
+
 // Occupation of the Day — deterministic per day so SSG output is stable but rotates.
 const dayIndex = Math.floor(Date.parse('2026-06-26') / 86400000) % Math.max(1, souls.length);
 const ofTheDay = souls[dayIndex];
@@ -30,7 +32,7 @@ const jsonLd = {
     <div class="mx-auto max-w-5xl px-4 py-20 text-center">
       <div class="mb-5 inline-flex items-center gap-2 chip">
         <span class="inline-block h-1.5 w-1.5 rounded-full" style="background:var(--accent)"></span>
-        Open · MIT License · {souls.length.toLocaleString('en-US')} SOULs and growing
+        Open · MIT License · {Math.floor(souls.length / 100) * 100}+ SOULs and growing
       </div>
       <h1
         class="mx-auto max-w-3xl text-4xl font-bold leading-[1.1] tracking-tight sm:text-6xl"
@@ -47,6 +49,27 @@ const jsonLd = {
         <a href={url('/occupations')} class="btn btn-accent">Explore the Atlas</a>
         <a href={url('/graph')} class="btn">See the graph</a>
         <a href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`} class="btn">Contribute a SOUL</a>
+        <a
+          href={GITHUB_URL}
+          class="btn"
+          rel="noopener"
+          target="_blank"
+          data-star-link
+          data-repo={githubRepo}
+          aria-label={`Star ${SITE.name} on GitHub`}
+          title="Star this repo on GitHub"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 17.3l-5.6 3.3 1.5-6.4-4.9-4.3 6.5-.6L12 3.3l2.5 6 6.5.6-4.9 4.3 1.5 6.4z"
+            ></path>
+          </svg>
+          Star on GitHub
+          <span
+            data-star-count
+            class="ml-0.5 rounded border px-1.5 text-xs tabular-nums"
+            style="border-color:var(--border); color:var(--ink-faint)"
+            hidden></span>
+        </a>
       </div>
       <p class="mt-6 text-xs" style="color:var(--ink-faint)">
         Press <kbd class="rounded border px-1" style="border-color:var(--border)">⌘K</kbd> to search ·
@@ -161,3 +184,28 @@ const jsonLd = {
     </div>
   </section>
 </Layout>
+
+<script>
+  // Progressive enhancement: show the live GitHub star count next to the
+  // "Star on GitHub" button. If the API is unavailable or rate-limited, the
+  // button stays a plain link to the repo — no count, no error.
+  const link = document.querySelector<HTMLAnchorElement>('[data-star-link]');
+  const count = document.querySelector<HTMLSpanElement>('[data-star-count]');
+  const repo = link?.dataset.repo;
+  if (link && count && repo) {
+    fetch(`https://api.github.com/repos/${repo}`, {
+      headers: { Accept: 'application/vnd.github+json' },
+    })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        const stars = data?.stargazers_count;
+        if (typeof stars === 'number') {
+          count.textContent = stars.toLocaleString('en-US');
+          count.hidden = false;
+        }
+      })
+      .catch(() => {
+        /* offline or rate-limited — leave the button as a plain link */
+      });
+  }
+</script>

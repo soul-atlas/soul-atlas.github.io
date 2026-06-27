@@ -1,0 +1,52 @@
+title: 'Oil and Gas Worker'
+slug: 'oil-and-gas-worker'
+aliases: ['Roughneck', 'Rig Worker', 'Roustabout', 'Derrickhand', 'Pumper', 'Oilfield Worker']
+category: 'Skilled Trades'
+tags: ['drilling', 'oilfield', 'well-control', 'rig-safety', 'extraction']
+difficulty: 'foundational'
+summary: 'The physical, skilled, safety-critical crew of extraction — running the rigs, wells, and field equipment that produce oil and gas, working around the clock amid serious hazards in one of the more dangerous industries.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'petroleum-engineer',
+      type: 'collaboration',
+      note: 'Plans the well the crew operates and recognizes the signs of',
+    }
+  - {
+      slug: 'heavy-equipment-operator',
+      type: 'related',
+      note: 'Shares physical, hazardous, equipment-operating work',
+    }
+  - {
+      slug: 'construction-laborer',
+      type: 'related',
+      note: 'Shares physical, hazardous, crew-based labor',
+    }
+  - {
+      slug: 'power-plant-operator',
+      type: 'related',
+      note: 'Shares continuous-operation safety discipline',
+    }
+  - {
+      slug: 'diesel-mechanic',
+      type: 'related',
+      note: 'Shares mechanical and equipment-maintenance skills',
+    }
+  - { slug: 'merchant-mariner', type: 'related', note: 'Shares the offshore extraction world' }
+specializations:
+  [
+    'Roughneck (Drilling Crew)',
+    'Derrickhand',
+    'Driller',
+    'Pumper / Lease Operator',
+    'Offshore Rig Worker',
+  ]
+country_variants: []
+sources:
+  - { title: 'IADC well-control and drilling safety standards', kind: 'standard' }
+  - { title: 'Fundamentals of Drilling Engineering (SPE)', kind: 'book' }
+  - { title: 'OSHA oil and gas extraction safety standards', kind: 'standard' }
+status: stable

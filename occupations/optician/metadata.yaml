@@ -1,0 +1,45 @@
+title: 'Optician'
+slug: 'optician'
+aliases: ['Dispensing Optician', 'Optical Dispenser', 'Eyewear Specialist', 'Contact Lens Fitter']
+category: 'Healthcare'
+tags: ['eyewear', 'optics', 'lens-fitting', 'measurement-precision', 'prescription-interpretation']
+difficulty: 'intermediate'
+summary: 'The craftsperson and translator between prescriber and patient — turning a vision prescription into eyewear that delivers the correction accurately and comfortably, where a millimeter off means a patient who cannot see well.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'optometrist',
+      type: 'collaboration',
+      note: 'Writes the prescription the optician executes and refers back to',
+    }
+  - {
+      slug: 'ophthalmologist',
+      type: 'collaboration',
+      note: 'Prescribes and owns eye health the optician refers to',
+    }
+  - {
+      slug: 'orthotist-prosthetist',
+      type: 'adjacent',
+      note: 'Shares custom-fitting a precise device to an individual body',
+    }
+  - { slug: 'jeweler', type: 'related', note: 'Shares precise small-scale fabrication craft' }
+  - {
+      slug: 'retail-salesperson',
+      type: 'related',
+      note: 'Overlaps on the patient-facing retail aspect, grounded in optics',
+    }
+specializations:
+  ['Dispensing Optician', 'Contact Lens Fitter', 'Optical Lab Technician', 'Low-Vision Specialist']
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Licensing varies by state; some require it, others do not. ABO certification is common.',
+    }
+sources:
+  - { title: 'System for Ophthalmic Dispensing (Brooks & Borish)', kind: 'book' }
+  - { title: 'Ophthalmic Lenses and Dispensing (Mo Jalie)', kind: 'book' }
+  - { title: 'ABO certification standards; ANSI Z80', kind: 'standard' }
+status: stable

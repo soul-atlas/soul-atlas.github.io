@@ -1,0 +1,60 @@
+title: 'Animal Care Worker'
+slug: 'animal-care-worker'
+aliases:
+  [
+    'Kennel Attendant',
+    'Animal Caretaker',
+    'Pet Groomer',
+    'Zookeeper',
+    'Shelter Worker',
+    'Animal Trainer',
+  ]
+category: 'Agriculture'
+tags: ['animal-welfare', 'animal-handling', 'husbandry', 'behavior-reading', 'enrichment']
+difficulty: 'foundational'
+summary: 'The daily hands-on presence in the lives of animals in human care — meeting their needs, reading the signals of a creature that cannot speak, handling them safely, and noticing trouble early.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'veterinarian',
+      type: 'collaboration',
+      note: 'Treats the medical problems the carer spots and reports',
+    }
+  - {
+      slug: 'veterinary-technician',
+      type: 'collaboration',
+      note: 'Clinical partner in animal health',
+    }
+  - {
+      slug: 'caregiver',
+      type: 'adjacent',
+      note: 'Shares dignified, hands-on daily care of those who cannot advocate for themselves',
+    }
+  - {
+      slug: 'farmer',
+      type: 'related',
+      note: 'Shares animal handling and welfare in a livestock context',
+    }
+  - {
+      slug: 'home-health-aide',
+      type: 'related',
+      note: 'Parallel daily-care role for dependent beings',
+    }
+specializations:
+  [
+    'Kennel / Boarding Attendant',
+    'Pet Groomer',
+    'Animal Trainer',
+    'Zookeeper',
+    'Shelter Caretaker',
+    'Stable Hand',
+  ]
+country_variants: []
+sources:
+  - { title: 'Animal Welfare (Appleby, Mench, Olsson & Hughes)', kind: 'book' }
+  - { title: 'Animals in Translation (Temple Grandin)', kind: 'book' }
+  - { title: 'Fear Free / low-stress handling certification', kind: 'course' }
+status: stable

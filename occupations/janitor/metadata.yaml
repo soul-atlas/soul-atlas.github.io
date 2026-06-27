@@ -1,0 +1,41 @@
+title: 'Janitor'
+slug: 'janitor'
+aliases: ['Custodian', 'Cleaner', 'Building Cleaner', 'Custodial Worker']
+category: 'Skilled Trades'
+tags: ['cleaning', 'sanitation', 'disinfection', 'chemical-safety', 'building-upkeep']
+difficulty: 'foundational'
+summary: "The often-invisible workforce that keeps buildings clean, sanitary, and safe — preventing the spread of germs and hazards through proper cleaning and disinfection, work whose quality directly affects everyone's health."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'maintenance-worker',
+      type: 'adjacent',
+      note: 'Close cousin — repairs where the janitor cleans',
+    }
+  - {
+      slug: 'facilities-manager',
+      type: 'collaboration',
+      note: 'Oversees the building operations the janitor maintains',
+    }
+  - { slug: 'landscaper', type: 'related', note: 'Grounds upkeep where the janitor does interiors' }
+  - {
+      slug: 'restaurant-manager',
+      type: 'related',
+      note: 'Shares the food-safety and sanitation discipline',
+    }
+specializations:
+  [
+    'Healthcare / Environmental Services Cleaner',
+    'School Custodian',
+    'Commercial Cleaner',
+    'Floor-Care Technician',
+  ]
+country_variants: []
+sources:
+  - { title: 'ISSA cleaning standards', kind: 'standard' }
+  - { title: 'CDC environmental cleaning and disinfection guidelines', kind: 'standard' }
+  - { title: 'OSHA hazard-communication and chemical-safety standards', kind: 'standard' }
+status: stable

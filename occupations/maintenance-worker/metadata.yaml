@@ -1,0 +1,44 @@
+title: 'Maintenance Worker'
+slug: 'maintenance-worker'
+aliases:
+  ['General Maintenance Worker', 'Maintenance Technician', 'Handyman', 'Building Maintenance']
+category: 'Skilled Trades'
+tags: ['general-maintenance', 'repair', 'troubleshooting', 'preventive-maintenance', 'multi-trade']
+difficulty: 'foundational'
+summary: 'The resourceful generalist a building depends on — diagnosing and repairing across plumbing, electrical, carpentry, and mechanical systems, doing preventive upkeep, and knowing when a problem needs a specialist.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'electrician',
+      type: 'related',
+      note: 'A specialist trade the generalist hands off to and overlaps',
+    }
+  - {
+      slug: 'plumber',
+      type: 'related',
+      note: 'A specialist trade the generalist hands off to and overlaps',
+    }
+  - { slug: 'hvac-technician', type: 'related', note: 'A specialist trade the generalist overlaps' }
+  - { slug: 'janitor', type: 'adjacent', note: 'Cleaning where the maintenance worker repairs' }
+  - {
+      slug: 'facilities-manager',
+      type: 'collaboration',
+      note: 'Oversees the building operations the worker maintains',
+    }
+  - { slug: 'auto-mechanic', type: 'related', note: 'Shares diagnostic problem-solving and repair' }
+specializations:
+  [
+    'Building Maintenance Technician',
+    'Apartment / Property Maintenance',
+    'Industrial Maintenance Mechanic',
+    'Groundskeeping & Maintenance',
+  ]
+country_variants: []
+sources:
+  - { title: 'Audel practical maintenance and trade guides', kind: 'book' }
+  - { title: 'OSHA safety standards for maintenance work', kind: 'standard' }
+  - { title: 'Facilities-maintenance and preventive-maintenance resources', kind: 'documentation' }
+status: stable

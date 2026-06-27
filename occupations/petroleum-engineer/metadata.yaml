@@ -1,0 +1,55 @@
+title: 'Petroleum Engineer'
+slug: 'petroleum-engineer'
+aliases: ['Reservoir Engineer', 'Drilling Engineer', 'Production Engineer', 'Completions Engineer']
+category: 'Engineering'
+tags: ['reservoir-engineering', 'drilling', 'well-control', 'recovery', 'subsurface-uncertainty']
+difficulty: 'advanced'
+summary: 'Recovers hydrocarbons from rock that can never be directly observed, carrying explicit uncertainty and treating well control and reservoir pressure as finite budgets to be spent for maximum recovery.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'geologist',
+      type: 'collaboration',
+      note: 'Builds the static subsurface model the engineer makes flow',
+    }
+  - {
+      slug: 'chemical-engineer',
+      type: 'adjacent',
+      note: 'Handles the same fluids at the surface facility',
+    }
+  - {
+      slug: 'materials-engineer',
+      type: 'related',
+      note: 'Owns corrosion and metallurgy of downhole equipment',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'related',
+      note: 'Carries groundwater, emissions, and disposal consequences',
+    }
+  - {
+      slug: 'mining-engineer',
+      type: 'adjacent',
+      note: 'Shares subsurface extraction and resource-economics thinking',
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'related',
+      note: 'Shares fluid, pressure, and equipment engineering',
+    }
+specializations:
+  [
+    'Reservoir Engineer',
+    'Drilling Engineer',
+    'Completions / Production Engineer',
+    'Subsurface / Geomechanics Engineer',
+  ]
+country_variants: []
+sources:
+  - { title: 'Applied Petroleum Reservoir Engineering (Craft & Hawkins)', kind: 'book' }
+  - { title: 'Fundamentals of Reservoir Engineering (Dake)', kind: 'book' }
+  - { title: 'SPE Petroleum Resources Management System (PRMS)', kind: 'standard' }
+status: stable

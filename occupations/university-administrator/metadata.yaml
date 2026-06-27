@@ -1,0 +1,70 @@
+title: 'University Administrator'
+slug: 'university-administrator'
+aliases:
+  [
+    'Postsecondary Education Administrator',
+    'Provost',
+    'Dean',
+    'Registrar',
+    'Director of Admissions',
+  ]
+category: 'Education'
+tags:
+  [
+    'higher-education',
+    'shared-governance',
+    'enrollment-management',
+    'compliance',
+    'academic-administration',
+  ]
+difficulty: 'advanced'
+summary: 'Sustains the university — financially, legally, operationally — so teaching and research can flourish, governing through shared authority and persuasion rather than command, with student success as the measure.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'professor',
+      type: 'collaboration',
+      note: 'Holds academic authority under shared governance; the mission the admin serves',
+    }
+  - {
+      slug: 'chief-executive',
+      type: 'adjacent',
+      note: 'Shares strategy and leadership craft, under shared governance not command',
+    }
+  - { slug: 'school-principal', type: 'adjacent', note: 'Closest analog at the K-12 level' }
+  - {
+      slug: 'healthcare-administrator',
+      type: 'related',
+      note: 'Parallel mission-vs-margin-and-compliance challenge in another sector',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'related',
+      note: 'Shares budgeting and operations leadership',
+    }
+  - {
+      slug: 'school-counselor',
+      type: 'related',
+      note: 'Connects on admissions and student-success work',
+    }
+specializations:
+  [
+    'Provost / Chief Academic Officer',
+    'Dean',
+    'Registrar',
+    'Director of Admissions / Enrollment Management',
+    'Dean of Students',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Shaped by shared governance, regional accreditation tied to federal aid, and Title IX/FERPA/Clery obligations.',
+    }
+sources:
+  - { title: 'How Colleges Work (Robert Birnbaum)', kind: 'book' }
+  - { title: 'AGB / AAUP governance and academic-freedom statements', kind: 'standard' }
+  - { title: 'Title IX, FERPA, and Clery Act regulations', kind: 'standard' }
+status: stable

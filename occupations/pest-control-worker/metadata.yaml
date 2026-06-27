@@ -1,0 +1,64 @@
+title: 'Pest Control Worker'
+slug: 'pest-control-worker'
+aliases:
+  [
+    'Exterminator',
+    'Pest Management Professional',
+    'Pest Control Technician',
+    'Pest Control Operator',
+  ]
+category: 'Skilled Trades'
+tags:
+  [
+    'pest-management',
+    'integrated-pest-management',
+    'pesticide-safety',
+    'pest-biology',
+    'prevention',
+  ]
+difficulty: 'foundational'
+summary: 'Identifies, controls, and prevents pest problems at the source using the least-harmful effective methods and safe pesticide application — protecting health, property, and food without harming the people, pets, and environment in the process.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'maintenance-worker',
+      type: 'related',
+      note: 'Shares building-service work and exclusion/repair overlap',
+    }
+  - {
+      slug: 'biologist',
+      type: 'related',
+      note: 'Source of the pest-biology knowledge the work applies',
+    }
+  - {
+      slug: 'agronomist',
+      type: 'related',
+      note: 'Shares pest-management and chemical-safety discipline in crops',
+    }
+  - { slug: 'janitor', type: 'related', note: 'Shares building-sanitation and service work' }
+  - {
+      slug: 'restaurant-manager',
+      type: 'collaboration',
+      note: 'Pest control intersects food safety in their facilities',
+    }
+specializations:
+  [
+    'Residential Pest Technician',
+    'Commercial / Food Facility Technician',
+    'Termite / Wood-Destroying Organism Specialist',
+    'Fumigator',
+    'Wildlife Control',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Pesticide use regulated under FIFRA/EPA; applicators state-licensed.',
+    }
+sources:
+  - { title: "Truman's Scientific Guide to Pest Management Operations", kind: 'book' }
+  - { title: 'EPA pesticide regulations and label-use requirements (FIFRA)', kind: 'standard' }
+  - { title: 'Integrated Pest Management (IPM) frameworks', kind: 'other' }
+status: stable

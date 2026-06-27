@@ -1,0 +1,55 @@
+title: 'Sales Manager'
+slug: 'sales-manager'
+aliases: ['Sales Director', 'Head of Sales', 'Regional Sales Manager', 'VP of Sales']
+category: 'Business'
+tags: ['sales-leadership', 'forecasting', 'coaching', 'pipeline-management', 'quota']
+difficulty: 'advanced'
+summary: 'Turns a group of individual sellers into a predictable revenue engine — hiring, coaching, running disciplined process, and forecasting honestly — through leverage rather than closing the deals themselves.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'sales-representative',
+      type: 'progression',
+      note: 'The reps the manager hires, coaches, and leads',
+    }
+  - {
+      slug: 'sales-engineer',
+      type: 'collaboration',
+      note: 'Carries the technical win on complex deals',
+    }
+  - {
+      slug: 'marketing-manager',
+      type: 'collaboration',
+      note: 'Feeds the funnel; constant negotiation over lead flow',
+    }
+  - {
+      slug: 'operations-manager',
+      type: 'adjacent',
+      note: 'Shares people-leadership and target-driven craft',
+    }
+  - {
+      slug: 'customer-success-manager',
+      type: 'collaboration',
+      note: 'Inherits customers and feels how they were sold',
+    }
+  - {
+      slug: 'financial-manager',
+      type: 'related',
+      note: 'Consumes the forecast and scrutinizes comp cost',
+    }
+specializations:
+  [
+    'Regional / Field Sales Manager',
+    'Inside Sales Manager',
+    'Enterprise Sales Director',
+    'VP of Sales / CRO',
+  ]
+country_variants: []
+sources:
+  - { title: 'Cracking the Sales Management Code (Jordan & Vazzana)', kind: 'book' }
+  - { title: 'The Sales Acceleration Formula (Mark Roberge)', kind: 'book' }
+  - { title: 'Coaching Salespeople into Sales Champions (Keith Rosen)', kind: 'book' }
+status: stable

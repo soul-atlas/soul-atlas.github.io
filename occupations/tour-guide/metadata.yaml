@@ -1,0 +1,46 @@
+title: 'Tour Guide'
+slug: 'tour-guide'
+aliases: ['Tour Director', 'Docent', 'Travel Guide', 'Interpretive Guide']
+category: 'Hospitality'
+tags:
+  [
+    'interpretation',
+    'storytelling',
+    'group-management',
+    'destination-knowledge',
+    'guest-experience',
+  ]
+difficulty: 'foundational'
+summary: "Turns a place into a meaningful, engaging, and safe experience — revealing its story and significance, keeping a group of strangers together and well, and creating a memorable day they couldn't have had alone."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'travel-agent',
+      type: 'related',
+      note: 'Shares destination knowledge; plans the trips guides deliver',
+    }
+  - { slug: 'concierge', type: 'related', note: 'Shares local knowledge and guest service' }
+  - {
+      slug: 'park-ranger',
+      type: 'related',
+      note: 'Overlaps in wilderness/nature guiding and safety',
+    }
+  - { slug: 'curator', type: 'related', note: 'Docents are museum guides; shares interpretation' }
+  - { slug: 'teacher', type: 'adjacent', note: 'Shares the educator-and-storyteller craft' }
+specializations:
+  [
+    'City / Walking Tour Guide',
+    'Museum Docent',
+    'Adventure / Wilderness Guide',
+    'Tour Director (multi-day)',
+    'Cultural / Historical Guide',
+  ]
+country_variants: []
+sources:
+  - { title: 'Interpreting Our Heritage (Freeman Tilden)', kind: 'book' }
+  - { title: 'Conducting Tours (Marc Mancini)', kind: 'book' }
+  - { title: 'National Association for Interpretation (NAI) resources', kind: 'documentation' }
+status: stable

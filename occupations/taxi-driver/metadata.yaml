@@ -1,0 +1,43 @@
+title: 'Taxi Driver'
+slug: 'taxi-driver'
+aliases: ['Rideshare Driver', 'Cab Driver', 'Chauffeur', 'For-Hire Driver']
+category: 'Transportation'
+tags: ['driving', 'passenger-safety', 'navigation', 'service', 'self-employment']
+difficulty: 'foundational'
+summary: "Provides on-demand point-to-point transport — getting passengers safely and efficiently where they're going at a fair price, managing the road, the route, the money, and the people, with their safety first."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'truck-driver',
+      type: 'related',
+      note: 'Shares the professional-driving-and-safety core',
+    }
+  - { slug: 'bus-driver', type: 'related', note: 'Shares passenger-safety driving' }
+  - { slug: 'delivery-driver', type: 'related', note: 'Shares on-demand driving and routing' }
+  - {
+      slug: 'flight-attendant',
+      type: 'related',
+      note: 'Shares public-facing service and reading passengers',
+    }
+  - { slug: 'tour-guide', type: 'related', note: 'Shares navigation and local knowledge' }
+  - {
+      slug: 'entrepreneur',
+      type: 'related',
+      note: 'The small-business-operator aspect of the work',
+    }
+specializations:
+  [
+    'Rideshare Driver',
+    'Traditional Taxi Driver',
+    'Chauffeur / Private Car',
+    'Airport / Livery Driver',
+  ]
+country_variants: []
+sources:
+  - { title: 'Traffic: Why We Drive the Way We Do (Tom Vanderbilt)', kind: 'book' }
+  - { title: 'Commercial and defensive-driving training standards', kind: 'course' }
+  - { title: 'Local taxi commission and rideshare regulations', kind: 'standard' }
+status: stable

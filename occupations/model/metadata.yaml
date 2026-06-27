@@ -1,0 +1,41 @@
+title: 'Model'
+slug: 'model'
+aliases: ['Fashion Model', 'Commercial Model', 'Runway Model', 'Photographic Model']
+category: 'Entertainment'
+tags: ['modeling', 'performance', 'fashion', 'image-making', 'self-protection']
+difficulty: 'foundational'
+summary: "Brings a designer's or brand's vision to life — embodying a look and evoking a feeling through pose, expression, and presence — collaborating to create compelling imagery while navigating a demanding, hazardous industry."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'actor',
+      type: 'related',
+      note: 'Shares performance, presence, and the audition-driven resilient career',
+    }
+  - {
+      slug: 'photographer',
+      type: 'collaboration',
+      note: 'The central creative partner in making the image',
+    }
+  - {
+      slug: 'fashion-designer',
+      type: 'collaboration',
+      note: 'Whose garments and vision the model embodies',
+    }
+  - { slug: 'dancer', type: 'related', note: 'Shares physical performance and instrument upkeep' }
+  - {
+      slug: 'art-director',
+      type: 'collaboration',
+      note: 'Directs the visual concept the model realizes',
+    }
+specializations:
+  ['Fashion / Editorial Model', 'Commercial Model', 'Runway Model', 'Fitness / Parts Model']
+country_variants: []
+sources:
+  - { title: "The Model Alliance (models' rights advocacy)", kind: 'documentation' }
+  - { title: 'Model: The Ugly Business of Beautiful Women (Michael Gross)', kind: 'book' }
+  - { title: "Industry resources on models' rights, contracts, and image usage", kind: 'other' }
+status: stable

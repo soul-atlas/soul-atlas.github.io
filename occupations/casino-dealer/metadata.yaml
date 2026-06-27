@@ -1,0 +1,32 @@
+title: 'Casino Dealer'
+slug: 'casino-dealer'
+aliases: ['Croupier', 'Table Games Dealer', 'Gaming Dealer', 'Dealer']
+category: 'Hospitality'
+tags: ['table-games', 'game-integrity', 'money-handling', 'security', 'customer-service']
+difficulty: 'foundational'
+summary: 'Runs casino table games quickly, accurately, and with absolute integrity — flawless procedure, correct payouts, and vigilant security — while providing the personable service that keeps players at the table.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - { slug: 'cashier', type: 'related', note: 'Shares fast, accurate money handling' }
+  - {
+      slug: 'bank-teller',
+      type: 'related',
+      note: 'Shares money handling under integrity and scrutiny',
+    }
+  - { slug: 'bartender', type: 'related', note: 'A money-handling table host in hospitality' }
+  - {
+      slug: 'hotel-manager',
+      type: 'related',
+      note: 'Part of the casino/hospitality operations world',
+    }
+  - { slug: 'security-guard', type: 'related', note: 'Shares the security-and-integrity vigilance' }
+specializations: ['Blackjack Dealer', 'Poker Dealer', 'Roulette Croupier', 'Craps Dealer']
+country_variants: []
+sources:
+  - { title: 'Casino dealing-school curricula and game-procedure manuals', kind: 'course' }
+  - { title: 'Gaming commission regulations and game-integrity standards', kind: 'standard' }
+  - { title: 'Responsible-gaming and problem-gambling awareness resources', kind: 'documentation' }
+status: stable

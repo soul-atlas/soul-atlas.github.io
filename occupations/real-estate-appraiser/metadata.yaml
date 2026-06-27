@@ -1,0 +1,52 @@
+title: 'Real Estate Appraiser'
+slug: 'real-estate-appraiser'
+aliases: ['Property Appraiser', 'Real Property Appraiser', 'Valuer', 'Assessor']
+category: 'Finance'
+tags: ['property-valuation', 'comparables', 'highest-and-best-use', 'independence', 'uspap']
+difficulty: 'intermediate'
+summary: 'The independent expert who estimates what a unique property is worth — developing a credible, evidence-supported value opinion defensible under scrutiny and free of the pressure to hit a desired number.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'real-estate-agent',
+      type: 'collaboration',
+      note: 'Transacts the property the appraiser values independently',
+    }
+  - { slug: 'property-manager', type: 'related', note: 'Operates the asset the appraiser values' }
+  - {
+      slug: 'auditor',
+      type: 'adjacent',
+      note: 'Shares independent-opinion and evidence discipline',
+    }
+  - {
+      slug: 'claims-adjuster',
+      type: 'adjacent',
+      note: 'Shares independent valuation and investigation under pressure',
+    }
+  - { slug: 'financial-analyst', type: 'related', note: 'Shares valuation craft applied to assets' }
+  - {
+      slug: 'financial-examiner',
+      type: 'related',
+      note: 'Shares independent regulatory-grade scrutiny',
+    }
+specializations:
+  [
+    'Residential Appraiser',
+    'Commercial Appraiser',
+    'Litigation / Expert-Witness Appraiser',
+    'Tax Assessor',
+    'Review Appraiser',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Licensed/certified by state; governed by USPAP, with post-2008 appraiser-independence rules.',
+    }
+sources:
+  - { title: 'The Appraisal of Real Estate (Appraisal Institute)', kind: 'book' }
+  - { title: 'Uniform Standards of Professional Appraisal Practice (USPAP)', kind: 'standard' }
+  - { title: 'The Dictionary of Real Estate Appraisal', kind: 'book' }
+status: stable

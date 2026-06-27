@@ -1,0 +1,61 @@
+title: 'Fire Inspector'
+slug: 'fire-inspector'
+aliases:
+  [
+    'Fire Marshal',
+    'Fire Prevention Officer',
+    'Fire Investigator',
+    'Code Enforcement Officer (fire)',
+  ]
+category: 'Public Service'
+tags: ['fire-prevention', 'life-safety-code', 'egress', 'fire-investigation', 'code-enforcement']
+difficulty: 'intermediate'
+summary: "The preventive arm of the fire service — enforcing fire and life-safety codes, verifying egress and suppression systems will work when needed, and determining a fire's cause so the next one is prevented."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'firefighter',
+      type: 'collaboration',
+      note: 'The suppression arm whose dangerous work prevention aims to make unnecessary',
+    }
+  - {
+      slug: 'construction-inspector',
+      type: 'adjacent',
+      note: 'Overlapping enforcement at the building/fire-code seam',
+    }
+  - {
+      slug: 'health-and-safety-engineer',
+      type: 'related',
+      note: 'Shares independent enforcement for public safety',
+    }
+  - {
+      slug: 'forensic-scientist',
+      type: 'related',
+      note: 'Connects on fire origin, cause, and arson investigation',
+    }
+  - { slug: 'detective', type: 'related', note: 'Partners on arson investigation' }
+  - {
+      slug: 'architect',
+      type: 'collaboration',
+      note: 'Designs fire systems the inspector reviews in plan review',
+    }
+specializations:
+  [
+    'Fire Prevention Inspector',
+    'Fire Marshal',
+    'Fire Investigator (origin & cause)',
+    'Plan Review Inspector',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Enforces NFPA codes and the International Fire Code; certification via IFSAC/Pro Board.',
+    }
+sources:
+  - { title: 'NFPA 1 Fire Code and NFPA 101 Life Safety Code', kind: 'standard' }
+  - { title: 'International Fire Code (IFC)', kind: 'standard' }
+  - { title: 'NFPA 921 Guide for Fire and Explosion Investigations', kind: 'standard' }
+status: stable

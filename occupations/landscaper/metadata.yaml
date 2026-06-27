@@ -1,0 +1,44 @@
+title: 'Landscaper'
+slug: 'landscaper'
+aliases: ['Groundskeeper', 'Grounds Maintenance Worker', 'Landscape Technician', 'Gardener']
+category: 'Skilled Trades'
+tags: ['landscaping', 'horticulture', 'grounds-maintenance', 'planting', 'seasonal-work']
+difficulty: 'foundational'
+summary: 'Creates and maintains healthy, attractive, functional outdoor spaces — installing and caring for plants, lawns, and features with horticultural understanding and the practical realities of living things and the seasons.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'landscape-architect',
+      type: 'collaboration',
+      note: 'Designs the landscapes the landscaper builds and maintains',
+    }
+  - { slug: 'arborist', type: 'related', note: 'Shares horticulture, specialized in trees' }
+  - { slug: 'agronomist', type: 'related', note: 'Shares plant, soil, and growing knowledge' }
+  - {
+      slug: 'maintenance-worker',
+      type: 'related',
+      note: 'Grounds-and-building upkeep; grounds vs. interiors',
+    }
+  - {
+      slug: 'pest-control-worker',
+      type: 'related',
+      note: 'Overlaps on plant pest and chemical work',
+    }
+  - { slug: 'botanist', type: 'related', note: 'Shares plant knowledge' }
+specializations:
+  [
+    'Grounds Maintenance Worker',
+    'Landscape Installer',
+    'Lawn Care Technician',
+    'Irrigation Technician',
+    'Hardscape Specialist',
+  ]
+country_variants: []
+sources:
+  - { title: 'Landscaping Principles and Practices (Jack Ingels)', kind: 'book' }
+  - { title: 'The Pruning Book (Lee Reich)', kind: 'book' }
+  - { title: 'Cooperative extension horticulture and turf resources', kind: 'documentation' }
+status: stable

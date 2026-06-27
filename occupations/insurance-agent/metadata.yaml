@@ -1,0 +1,56 @@
+title: 'Insurance Agent'
+slug: 'insurance-agent'
+aliases: ['Insurance Sales Agent', 'Insurance Broker', 'Insurance Producer', 'Insurance Advisor']
+category: 'Finance'
+tags: ['risk-transfer', 'coverage-matching', 'insurance-sales', 'needs-analysis', 'claims-advocacy']
+difficulty: 'intermediate'
+summary: "The client's interface to risk transfer — assessing real exposures, matching coverage and adequate limits to the losses that could ruin them, and advocating at the claim, rather than selling whatever pays the most commission."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'insurance-underwriter',
+      type: 'collaboration',
+      note: 'Prices and accepts the risk the agent places',
+    }
+  - {
+      slug: 'claims-adjuster',
+      type: 'collaboration',
+      note: 'Pays the loss the agent helps the client claim',
+    }
+  - {
+      slug: 'financial-advisor',
+      type: 'adjacent',
+      note: 'Insurance is part of the financial plan; shares needs-based advising',
+    }
+  - { slug: 'actuary', type: 'related', note: 'Models the risk pool the agent sells from' }
+  - {
+      slug: 'sales-representative',
+      type: 'related',
+      note: 'Shares relationship selling, grounded in genuine advising',
+    }
+  - {
+      slug: 'loan-officer',
+      type: 'related',
+      note: 'Adjacent commission-based financial-services advising',
+    }
+specializations:
+  [
+    'Property & Casualty Agent',
+    'Life & Health Agent',
+    'Commercial Lines Agent',
+    'Independent Broker',
+    'Captive Agent',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Licensed by state as a producer; conduct governed by NAIC model rules and state law.',
+    }
+sources:
+  - { title: 'Principles of Risk Management and Insurance (Rejda)', kind: 'book' }
+  - { title: 'The Institutes Property/Casualty and Life/Health curricula', kind: 'course' }
+  - { title: 'NAIC model rules and state producer regulations', kind: 'standard' }
+status: stable

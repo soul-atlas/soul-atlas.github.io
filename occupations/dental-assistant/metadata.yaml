@@ -1,0 +1,62 @@
+title: 'Dental Assistant'
+slug: 'dental-assistant'
+aliases:
+  ['Certified Dental Assistant', 'CDA', 'Chairside Assistant', 'Expanded Function Dental Assistant']
+category: 'Healthcare'
+tags:
+  [
+    'chairside-assisting',
+    'infection-control',
+    'four-handed-dentistry',
+    'patient-care',
+    'sterilization',
+  ]
+difficulty: 'intermediate'
+summary: "The dentist's second pair of hands — anticipating instruments, keeping the field clear and sterile, guarding the infection-control chain, and caring for an anxious patient through a procedure they cannot see."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'dentist',
+      type: 'collaboration',
+      note: 'The clinician the assistant works as one unit with in four-handed dentistry',
+    }
+  - {
+      slug: 'dental-hygienist',
+      type: 'adjacent',
+      note: 'Shares operatory and sterilization; a common progression',
+    }
+  - {
+      slug: 'surgical-technologist',
+      type: 'adjacent',
+      note: 'Shares chairside, sterile-field, anticipation craft in the OR',
+    }
+  - {
+      slug: 'medical-assistant',
+      type: 'adjacent',
+      note: 'Clinic-based parallel patient-and-procedure support role',
+    }
+  - {
+      slug: 'orthotist-prosthetist',
+      type: 'related',
+      note: 'Adjacent fabrication world fed by dental impressions',
+    }
+specializations:
+  [
+    'Expanded Function Dental Assistant',
+    'Orthodontic Assistant',
+    'Oral Surgery Assistant',
+    'Dental Radiographer',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Permitted clinical duties (radiographs, coronal polishing, sealants) vary widely by state; DANB certification is common.',
+    }
+sources:
+  - { title: 'Modern Dental Assisting (Bird & Robinson)', kind: 'book' }
+  - { title: 'CDC Guidelines for Infection Control in Dental Settings', kind: 'standard' }
+  - { title: 'DANB certification standards; OSHA bloodborne pathogens standard', kind: 'standard' }
+status: stable

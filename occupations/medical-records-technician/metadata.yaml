@@ -1,0 +1,62 @@
+title: 'Medical Records Technician'
+slug: 'medical-records-technician'
+aliases:
+  [
+    'Health Information Technician',
+    'Medical Coder',
+    'Health Information Specialist',
+    'Medical Registrar',
+  ]
+category: 'Healthcare'
+tags: ['medical-coding', 'health-information', 'hipaa', 'documentation-integrity', 'icd-10']
+difficulty: 'intermediate'
+summary: 'Steward of the health record — coding diagnoses and procedures accurately, auditing documentation integrity, and guarding patient privacy, never letting coding chase revenue at the expense of truth.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'healthcare-administrator',
+      type: 'collaboration',
+      note: 'Depends on accurate coding for the revenue cycle',
+    }
+  - {
+      slug: 'physician',
+      type: 'collaboration',
+      note: 'Whose documentation the technician codes and queries',
+    }
+  - {
+      slug: 'compliance-officer',
+      type: 'related',
+      note: 'Shares the precision-and-rules and fraud-prevention discipline',
+    }
+  - { slug: 'auditor', type: 'adjacent', note: 'Shares evidence-and-rules verification discipline' }
+  - {
+      slug: 'epidemiologist',
+      type: 'related',
+      note: 'Consumes the coded data to study populations',
+    }
+  - {
+      slug: 'database-administrator',
+      type: 'related',
+      note: 'Shares data-stewardship and privacy concerns',
+    }
+specializations:
+  [
+    'Inpatient Coder',
+    'Outpatient / Professional-Fee Coder',
+    'Clinical Documentation Specialist',
+    'Privacy / Release-of-Information Specialist',
+    'Cancer / Tumor Registrar',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Governed by HIPAA and US code sets (ICD-10-CM/PCS, CPT); AHIMA/AAPC credentials common.',
+    }
+sources:
+  - { title: 'AHIMA Health Information Management body of knowledge', kind: 'standard' }
+  - { title: 'AHA Coding Clinic and AMA CPT guidance', kind: 'standard' }
+  - { title: 'HIPAA Privacy and Security Rules', kind: 'standard' }
+status: stable

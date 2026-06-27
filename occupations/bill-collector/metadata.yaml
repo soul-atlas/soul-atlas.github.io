@@ -1,0 +1,50 @@
+title: 'Bill Collector'
+slug: 'bill-collector'
+aliases: ['Debt Collector', 'Collections Agent', 'Collections Specialist', 'Accounts Collector']
+category: 'Finance'
+tags: ['debt-collection', 'fdcpa-compliance', 'negotiation', 'accounts-recovery', 'consumer-law']
+difficulty: 'foundational'
+summary: 'Recovers overdue debts within strict legal limits and with decency — resolving accounts by finding a workable path to payment for debtors often in genuine hardship, not through harassment or deception.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'credit-counselor',
+      type: 'adjacent',
+      note: 'Helps debtors from the other side of the same situation',
+    }
+  - {
+      slug: 'claims-adjuster',
+      type: 'related',
+      note: 'Shares negotiation and regulated financial-recovery work',
+    }
+  - {
+      slug: 'loan-officer',
+      type: 'related',
+      note: 'The lending side of the credit the collector recovers',
+    }
+  - { slug: 'office-clerk', type: 'related', note: 'Shares clerical and records work' }
+  - {
+      slug: 'compliance-officer',
+      type: 'related',
+      note: 'Shares the regulated-conduct, hard-boundary discipline',
+    }
+specializations:
+  [
+    'Consumer Collections Agent',
+    'Commercial Collections',
+    'Medical Debt Collector',
+    'Early-Stage / Late-Stage Collector',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Strictly governed by the FDCPA and state law on contact, disclosure, and conduct.',
+    }
+sources:
+  - { title: 'The Fair Debt Collection Practices Act (FDCPA)', kind: 'standard' }
+  - { title: 'CFPB debt-collection rules and guidance', kind: 'standard' }
+  - { title: 'ACA International collections standards and ethics', kind: 'standard' }
+status: stable

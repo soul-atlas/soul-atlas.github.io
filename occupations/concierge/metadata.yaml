@@ -1,0 +1,46 @@
+title: 'Concierge'
+slug: 'concierge'
+aliases: ['Hotel Concierge', 'Guest Services', 'Lifestyle Manager', 'Residential Concierge']
+category: 'Hospitality'
+tags: ['guest-service', 'local-knowledge', 'networking', 'anticipatory-service', 'problem-solving']
+difficulty: 'intermediate'
+summary: "The fixer and host of hospitality — anticipating and fulfilling guests' needs and desires, from the routine to the seemingly impossible, with resourcefulness, insider knowledge, and grace."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'hotel-manager',
+      type: 'collaboration',
+      note: 'Shares the gracious-service hospitality field',
+    }
+  - {
+      slug: 'receptionist',
+      type: 'adjacent',
+      note: 'A service-elevated relative of the front-desk role',
+    }
+  - {
+      slug: 'travel-agent',
+      type: 'related',
+      note: 'Shares arranging, network, and local expertise',
+    }
+  - { slug: 'event-planner', type: 'related', note: 'Shares arranging and fulfillment craft' }
+  - {
+      slug: 'administrative-assistant',
+      type: 'related',
+      note: 'Shares anticipatory service and discretion',
+    }
+specializations:
+  [
+    'Hotel Concierge',
+    'Residential / Building Concierge',
+    'Corporate Concierge',
+    'Lifestyle / Personal Concierge',
+  ]
+country_variants: []
+sources:
+  - { title: "Les Clefs d'Or concierge society standards", kind: 'standard' }
+  - { title: 'The Heart of Hospitality (Micah Solomon)', kind: 'book' }
+  - { title: 'Be Our Guest (Disney Institute)', kind: 'book' }
+status: stable

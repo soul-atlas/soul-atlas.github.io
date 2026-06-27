@@ -1,0 +1,37 @@
+title: 'Woodworker'
+slug: 'woodworker'
+aliases: ['Cabinetmaker', 'Furniture Maker', 'Joiner', 'Wood Craftsperson']
+category: 'Skilled Trades'
+tags: ['woodworking', 'joinery', 'wood-movement', 'furniture-making', 'craftsmanship']
+difficulty: 'intermediate'
+summary: "Turns wood into sound, beautiful, lasting objects through skilled cutting, joinery, and finishing that respect wood's living, moving, variable nature, so the piece functions and endures."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'carpenter',
+      type: 'adjacent',
+      note: 'Construction woodwork, where the woodworker does fine furniture and cabinetry',
+    }
+  - { slug: 'machinist', type: 'related', note: 'Shares precision fabrication in another material' }
+  - { slug: 'industrial-designer', type: 'related', note: 'Shares the design-and-make of objects' }
+  - {
+      slug: 'fine-artist',
+      type: 'related',
+      note: 'Overlaps in art furniture and craft as expression',
+    }
+  - {
+      slug: 'interior-designer',
+      type: 'collaboration',
+      note: 'Custom cabinetry and furniture for designed spaces',
+    }
+specializations:
+  ['Cabinetmaker', 'Furniture Maker', 'Wood Turner', 'Finish Carpenter', 'CNC Woodworker']
+country_variants: []
+sources:
+  - { title: 'Understanding Wood (R. Bruce Hoadley)', kind: 'book' }
+  - { title: 'The Complete Manual of Woodworking (Jackson & Day)', kind: 'book' }
+  - { title: 'Fine Woodworking resources', kind: 'documentation' }
+status: stable

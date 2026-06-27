@@ -1,0 +1,50 @@
+title: 'Fine Artist'
+slug: 'fine-artist'
+aliases: ['Artist', 'Painter (fine art)', 'Sculptor', 'Visual Artist', 'Studio Artist']
+category: 'Creative'
+tags: ['studio-practice', 'artistic-vision', 'body-of-work', 'art-market', 'visual-language']
+difficulty: 'advanced'
+summary: 'Pursues a genuine personal vision through a sustained body of work — making objects and images that carry meaning nothing else can — while navigating a brutal economy without letting the market dictate the vision.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'illustrator',
+      type: 'adjacent',
+      note: 'Shares making craft but answers to client brief rather than personal vision',
+    }
+  - {
+      slug: 'photographer',
+      type: 'related',
+      note: 'Overlapping medium pursued as fine art or applied work',
+    }
+  - {
+      slug: 'art-director',
+      type: 'adjacent',
+      note: 'Directs applied visual work where the fine artist follows a personal vision',
+    }
+  - {
+      slug: 'poet',
+      type: 'related',
+      note: 'Shares self-directed, vision-driven, market-navigating practice',
+    }
+  - {
+      slug: 'curator',
+      type: 'collaboration',
+      note: "Selects, contextualizes, and exhibits the artist's work",
+    }
+  - {
+      slug: 'professor',
+      type: 'related',
+      note: 'A common way artists sustain the practice through teaching',
+    }
+specializations:
+  ['Painter', 'Sculptor', 'Printmaker', 'Installation / Multimedia Artist', 'Ceramicist']
+country_variants: []
+sources:
+  - { title: 'Art & Fear (Bayles & Orland)', kind: 'book' }
+  - { title: 'Ways of Seeing (John Berger)', kind: 'book' }
+  - { title: 'The Story of Art (E.H. Gombrich)', kind: 'book' }
+status: stable

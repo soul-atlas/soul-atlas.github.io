@@ -1,0 +1,61 @@
+title: 'Licensed Practical Nurse'
+slug: 'licensed-practical-nurse'
+aliases: ['LPN', 'Licensed Vocational Nurse', 'LVN', 'Practical Nurse']
+category: 'Healthcare'
+tags:
+  [
+    'bedside-nursing',
+    'medication-administration',
+    'scope-of-practice',
+    'long-term-care',
+    'patient-monitoring',
+  ]
+difficulty: 'intermediate'
+summary: 'The licensed clinician most constantly at the bedside in long-term and chronic care — administering treatments and medications safely, watching patients closely, and escalating change early, within a precisely known scope.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'registered-nurse',
+      type: 'progression',
+      note: 'Directs the LPN and is the most common career progression',
+    }
+  - {
+      slug: 'nursing-assistant',
+      type: 'adjacent',
+      note: "Provides daily-living care under the LPN's supervision",
+    }
+  - {
+      slug: 'home-health-aide',
+      type: 'collaboration',
+      note: 'Works alongside the LPN in home and long-term settings',
+    }
+  - {
+      slug: 'medical-assistant',
+      type: 'adjacent',
+      note: 'Clinic-based parallel with a different, unlicensed scope',
+    }
+  - {
+      slug: 'pharmacy-technician',
+      type: 'collaboration',
+      note: 'Supports the medication system the LPN administers from',
+    }
+  - {
+      slug: 'caregiver',
+      type: 'related',
+      note: 'Shares the dignified care of vulnerable, dependent patients',
+    }
+specializations:
+  ['Long-Term Care LPN', 'IV-Certified LPN', 'Clinic / Ambulatory LPN', 'Home Health LPN']
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Called LVN in California and Texas; scope is defined state-by-state by the Nurse Practice Act.',
+    }
+sources:
+  - { title: 'Fundamentals of Nursing (Potter & Perry)', kind: 'book' }
+  - { title: 'NCSBN scope-of-practice resources; State Nurse Practice Acts', kind: 'standard' }
+  - { title: 'Institute for Safe Medication Practices (ISMP) guidelines', kind: 'standard' }
+status: stable

@@ -1,0 +1,44 @@
+title: 'Travel Agent'
+slug: 'travel-agent'
+aliases: ['Travel Advisor', 'Travel Consultant', 'Travel Planner', 'Destination Specialist']
+category: 'Hospitality'
+tags:
+  ['travel-planning', 'destination-expertise', 'itinerary-design', 'client-advocacy', 'logistics']
+difficulty: 'intermediate'
+summary: "A travel expert and advocate — designing trips that fit the client, finding value and navigating complexity the booking sites can't, and being the human who solves the problem when travel goes wrong."
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'concierge',
+      type: 'adjacent',
+      note: 'Shares service-and-logistics and local expertise',
+    }
+  - { slug: 'tour-guide', type: 'related', note: 'Shares destination knowledge and guiding' }
+  - { slug: 'event-planner', type: 'related', note: 'Shares logistics-and-coordination craft' }
+  - {
+      slug: 'financial-advisor',
+      type: 'related',
+      note: 'Shares advisory, client-fit, honest-recommendation craft',
+    }
+  - {
+      slug: 'insurance-agent',
+      type: 'related',
+      note: 'Shares commission-vs-client-interest advisory dynamic',
+    }
+specializations:
+  [
+    'Leisure Travel Advisor',
+    'Corporate Travel Agent',
+    'Luxury / Bespoke Travel Designer',
+    'Cruise / Group Specialist',
+    'Destination Specialist',
+  ]
+country_variants: []
+sources:
+  - { title: 'ASTA (American Society of Travel Advisors) resources', kind: 'documentation' }
+  - { title: 'The Travel Institute certification (CTA/CTC) curriculum', kind: 'course' }
+  - { title: 'The Experience Economy (Pine & Gilmore)', kind: 'book' }
+status: stable

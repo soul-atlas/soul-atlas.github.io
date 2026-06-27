@@ -1,0 +1,65 @@
+title: 'Water Treatment Operator'
+slug: 'water-treatment-operator'
+aliases:
+  [
+    'Wastewater Operator',
+    'Water Plant Operator',
+    'Water and Wastewater Treatment Operator',
+    'Treatment Plant Operator',
+  ]
+category: 'Skilled Trades'
+tags: ['water-treatment', 'public-health', 'process-control', 'water-quality', 'multi-barrier']
+difficulty: 'intermediate'
+summary: 'Runs the plants that make raw water safe to drink and sewage safe to return to the environment — controlling treatment against changing conditions and monitoring relentlessly, because a lapse can sicken a whole community.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'power-plant-operator',
+      type: 'adjacent',
+      note: 'Shares continuous-process, envelope-keeping operator discipline',
+    }
+  - {
+      slug: 'stationary-engineer',
+      type: 'adjacent',
+      note: 'Shares continuous-utility-plant operation craft',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'collaboration',
+      note: 'Designs the treatment plants and processes the operator runs',
+    }
+  - {
+      slug: 'public-health-officer',
+      type: 'related',
+      note: 'Shares the public-health mission at the infrastructure level',
+    }
+  - {
+      slug: 'hydrologist',
+      type: 'related',
+      note: 'Concerned with the water resource the operator treats',
+    }
+  - {
+      slug: 'microbiologist',
+      type: 'related',
+      note: 'Connects to the biological-process management of wastewater',
+    }
+specializations:
+  [
+    'Drinking Water Operator',
+    'Wastewater Operator',
+    'Distribution / Collection System Operator',
+    'Industrial Pretreatment Operator',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Operators are state-certified; governed by the Safe Drinking Water Act and Clean Water Act under EPA.',
+    }
+sources:
+  - { title: 'Water Treatment: Principles and Design (MWH / Crittenden)', kind: 'book' }
+  - { title: 'Operation of Wastewater Treatment Plants (Sac State manuals)', kind: 'course' }
+  - { title: 'Safe Drinking Water Act and Clean Water Act (US EPA)', kind: 'standard' }
+status: stable

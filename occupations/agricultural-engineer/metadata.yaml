@@ -1,0 +1,56 @@
+title: 'Agricultural Engineer'
+slug: 'agricultural-engineer'
+aliases:
+  ['Biological Systems Engineer', 'Irrigation Engineer', 'Agricultural and Biosystems Engineer']
+category: 'Engineering'
+tags: ['irrigation', 'soil-and-water', 'precision-agriculture', 'grain-storage', 'asabe']
+difficulty: 'advanced'
+summary: 'Applies mechanical, civil, and environmental engineering to living, variable farm systems, designing for the biology and the soil that outlast any single harvest.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'agronomist',
+      type: 'collaboration',
+      note: 'Owns the biology and nutrient prescription the engineer serves',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'adjacent',
+      note: 'Shares water-quality and mass-balance discipline at watershed scale',
+    }
+  - {
+      slug: 'hydrologist',
+      type: 'related',
+      note: 'Owns the water resource irrigation and drainage tap',
+    }
+  - {
+      slug: 'mechanical-engineer',
+      type: 'related',
+      note: 'Shares machinery, thermal, and fluid engineering',
+    }
+  - {
+      slug: 'farmer',
+      type: 'collaboration',
+      note: 'The client whose field constraints bind every design',
+    }
+  - {
+      slug: 'food-scientist',
+      type: 'adjacent',
+      note: 'Takes the product where bioprocess engineering hands off',
+    }
+specializations:
+  [
+    'Irrigation and Drainage Engineer',
+    'Power and Machinery Engineer',
+    'Food and Bioprocess Engineer',
+    'Structures and Environment Engineer',
+  ]
+country_variants: []
+sources:
+  - { title: 'Soil and Water Conservation Engineering (Schwab et al.)', kind: 'book' }
+  - { title: 'ASABE Standards', kind: 'standard' }
+  - { title: 'USDA-NRCS National Engineering Handbook', kind: 'standard' }
+status: stable

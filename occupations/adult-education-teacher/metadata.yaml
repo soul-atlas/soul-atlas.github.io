@@ -1,0 +1,49 @@
+title: 'Adult Education Teacher'
+slug: 'adult-education-teacher'
+aliases:
+  ['Adult Literacy Teacher', 'ESL/ESOL Teacher', 'GED Instructor', 'Adult Basic Education Teacher']
+category: 'Education'
+tags: ['adult-learning', 'andragogy', 'literacy', 'esl', 'high-school-equivalency']
+difficulty: 'intermediate'
+summary: 'Helps adults gain the literacy, language, numeracy, or credential they need — teaching them as capable, experienced equals with urgent concrete goals, building on what they know, and respecting their courage and constraints.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'teacher',
+      type: 'adjacent',
+      note: 'Shares teaching craft applied to children rather than autonomous adults',
+    }
+  - { slug: 'tutor', type: 'related', note: 'Shares individualized, goal-oriented instruction' }
+  - { slug: 'instructional-designer', type: 'related', note: 'Designs adult learning experiences' }
+  - {
+      slug: 'training-and-development-specialist',
+      type: 'adjacent',
+      note: 'Adult learning applied in the workplace',
+    }
+  - {
+      slug: 'social-worker',
+      type: 'collaboration',
+      note: 'Shares the support-and-advocacy dimension for vulnerable learners',
+    }
+  - {
+      slug: 'community-health-worker',
+      type: 'related',
+      note: 'Shares serving marginalized communities with wraparound support',
+    }
+specializations:
+  [
+    'ESL/ESOL Teacher',
+    'Adult Basic Education Teacher',
+    'GED/HiSET Instructor',
+    'Workforce / Workplace Literacy Instructor',
+    'Correctional Education Teacher',
+  ]
+country_variants: []
+sources:
+  - { title: 'The Adult Learner (Malcolm Knowles)', kind: 'book' }
+  - { title: 'Learning in Adulthood (Merriam, Caffarella & Baumgartner)', kind: 'book' }
+  - { title: 'CASAS and the National Reporting System for adult education', kind: 'standard' }
+status: stable

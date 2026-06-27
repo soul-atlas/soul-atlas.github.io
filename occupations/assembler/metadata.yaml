@@ -1,0 +1,42 @@
+title: 'Assembler'
+slug: 'assembler'
+aliases: ['Assembly Worker', 'Fabricator', 'Production Assembler', 'Assembly Technician']
+category: 'Skilled Trades'
+tags: ['assembly', 'manufacturing', 'quality', 'consistency', 'production']
+difficulty: 'foundational'
+summary: 'The hands of production — building products to specification correctly, consistently, and at pace, maintaining quality through repetition and catching the defect rather than passing it on.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - { slug: 'machinist', type: 'related', note: 'Makes the parts the assembler combines' }
+  - {
+      slug: 'quality-control-inspector',
+      type: 'collaboration',
+      note: 'Inspects the work; shares the catch-the-defect discipline',
+    }
+  - {
+      slug: 'industrial-engineer',
+      type: 'collaboration',
+      note: 'Designs the assembly processes the assembler follows',
+    }
+  - {
+      slug: 'robotics-engineer',
+      type: 'related',
+      note: 'Automation increasingly overlaps the assembly domain',
+    }
+  - { slug: 'welder', type: 'related', note: 'Adjacent fabrication trade in manufacturing' }
+specializations:
+  [
+    'Electronics Assembler',
+    'Mechanical / Machine Assembler',
+    'Automotive Assembler',
+    'Aircraft / Precision Assembler',
+  ]
+country_variants: []
+sources:
+  - { title: 'The Toyota Way (Jeffrey Liker)', kind: 'book' }
+  - { title: 'Lean manufacturing and Toyota Production System resources', kind: 'other' }
+  - { title: 'Manufacturing assembly and quality (ISO 9001) standards', kind: 'standard' }
+status: stable

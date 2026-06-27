@@ -1,0 +1,64 @@
+title: 'Mining Engineer'
+slug: 'mining-engineer'
+aliases:
+  ['Mine Engineer', 'Geological Engineer', 'Mine Planning Engineer', 'Geotechnical Mining Engineer']
+category: 'Engineering'
+tags: ['mine-planning', 'ground-control', 'cutoff-grade', 'drill-and-blast', 'tailings']
+difficulty: 'advanced'
+summary: 'Converts a fixed, finite orebody into delivered material at the lowest cost and risk over the whole mine life, treating ground control as life safety and cutoff grade as an economic decision.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'geologist',
+      type: 'collaboration',
+      note: 'Defines the orebody and block model the engineer mines',
+    }
+  - {
+      slug: 'petroleum-engineer',
+      type: 'adjacent',
+      note: 'Shares subsurface extraction and resource economics',
+    }
+  - {
+      slug: 'civil-engineer',
+      type: 'related',
+      note: 'Shares geotechnical and earth-structure discipline',
+    }
+  - {
+      slug: 'materials-engineer',
+      type: 'related',
+      note: 'Picks up the ore at the mill / metallurgy',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'related',
+      note: 'Carries water, waste, and reclamation consequences',
+    }
+  - {
+      slug: 'heavy-equipment-operator',
+      type: 'collaboration',
+      note: 'Executes the extraction the engineer sequences',
+    }
+specializations:
+  [
+    'Mine Planning Engineer',
+    'Geotechnical / Ground-Control Engineer',
+    'Drill-and-Blast Engineer',
+    'Ventilation Engineer',
+  ]
+country_variants:
+  - {
+      region: 'Australia',
+      note: 'Reserves reported under the JORC Code; strong statutory mine-safety regime.',
+    }
+  - {
+      region: 'Canada',
+      note: 'Reserves reported under NI 43-101 with a Qualified Person sign-off.',
+    }
+sources:
+  - { title: 'SME Mining Engineering Handbook', kind: 'book' }
+  - { title: 'Introductory Mining Engineering (Hartman & Mutmansky)', kind: 'book' }
+  - { title: 'JORC Code / NI 43-101', kind: 'standard' }
+status: stable

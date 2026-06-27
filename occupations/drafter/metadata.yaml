@@ -1,0 +1,52 @@
+title: 'Drafter'
+slug: 'drafter'
+aliases: ['CAD Designer', 'Draftsperson', 'Detailer', 'Design Drafter', 'BIM Technician']
+category: 'Engineering'
+tags: ['technical-drawing', 'cad', 'gd-and-t', 'tolerancing', 'bim']
+difficulty: 'intermediate'
+summary: 'Translates engineering and architectural intent into precise, unambiguous, standards-compliant drawings and models, so the person making the part or building it never has to guess.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'mechanical-engineer',
+      type: 'collaboration',
+      note: 'Originates the design intent the drafter encodes',
+    }
+  - {
+      slug: 'architect',
+      type: 'collaboration',
+      note: 'Originates building designs the drafter details',
+    }
+  - {
+      slug: 'machinist',
+      type: 'collaboration',
+      note: "Builds the parts from the drafter's documentation",
+    }
+  - {
+      slug: 'civil-engineer',
+      type: 'collaboration',
+      note: 'Originates infrastructure designs the drafter documents',
+    }
+  - { slug: 'surveyor', type: 'related', note: 'Shares precision documentation of geometry' }
+  - {
+      slug: 'industrial-designer',
+      type: 'related',
+      note: 'Shares product-definition and form craft',
+    }
+specializations:
+  [
+    'Mechanical Drafter',
+    'Architectural Drafter',
+    'Civil / Structural Drafter',
+    'Electrical Drafter',
+    'BIM Modeler',
+  ]
+country_variants: []
+sources:
+  - { title: 'Technical Drawing with Engineering Graphics (Giesecke et al.)', kind: 'book' }
+  - { title: 'ASME Y14.5 Dimensioning and Tolerancing', kind: 'standard' }
+  - { title: 'Geometric Dimensioning and Tolerancing (Krulikowski)', kind: 'book' }
+status: stable

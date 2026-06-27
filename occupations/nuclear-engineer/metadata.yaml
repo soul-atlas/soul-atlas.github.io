@@ -1,0 +1,72 @@
+title: 'Nuclear Engineer'
+slug: 'nuclear-engineer'
+aliases: ['Reactor Engineer', 'Nuclear Safety Engineer', 'Reactor Physicist']
+category: 'Engineering'
+tags:
+  [
+    'reactor-physics',
+    'thermal-hydraulics',
+    'safety-analysis',
+    'radiation-protection',
+    'defense-in-depth',
+  ]
+difficulty: 'expert'
+summary: 'Extracts energy from the nucleus under a unique constraint — the heat never stops — using defense-in-depth and conservatism to keep radioactive material confined through every credible failure.'
+contributors: ['soul-atlas']
+last_reviewed: '2026-06-27'
+created: '2026-06-27'
+updated: '2026-06-27'
+related:
+  - {
+      slug: 'mechanical-engineer',
+      type: 'related',
+      note: 'Shares heat, fluid, and structural physics',
+    }
+  - {
+      slug: 'materials-engineer',
+      type: 'collaboration',
+      note: 'Owns embrittlement and corrosion under irradiation',
+    }
+  - {
+      slug: 'electrical-engineer',
+      type: 'collaboration',
+      note: 'Provides reliable power and instrumentation the safety case needs',
+    }
+  - {
+      slug: 'radiation-therapist',
+      type: 'adjacent',
+      note: 'Applies radiation physics aimed at patients',
+    }
+  - {
+      slug: 'radiologic-technologist',
+      type: 'adjacent',
+      note: 'Shares radiation safety and shielding practice',
+    }
+  - {
+      slug: 'environmental-engineer',
+      type: 'related',
+      note: 'Shares dose, contamination, and waste stewardship concerns',
+    }
+specializations:
+  [
+    'Reactor Physics Engineer',
+    'Thermal-Hydraulics Engineer',
+    'Nuclear Safety / PRA Engineer',
+    'Health Physicist',
+    'Fuel Cycle Engineer',
+  ]
+country_variants:
+  - {
+      region: 'United States',
+      note: 'Licensed and regulated by the NRC under 10 CFR; operator licensing is federal.',
+    }
+  - {
+      region: 'International',
+      note: 'IAEA safety standards and WANO peer review provide cross-border norms.',
+    }
+sources:
+  - { title: 'Nuclear Reactor Analysis (Duderstadt & Hamilton)', kind: 'book' }
+  - { title: 'Nuclear Systems (Todreas & Kazimi)', kind: 'book' }
+  - { title: 'US NRC Regulations (10 CFR)', kind: 'standard' }
+  - { title: 'IAEA Safety Standards Series', kind: 'standard' }
+status: stable
