@@ -12,6 +12,9 @@ export const SITE = {
 
 export const GITHUB_URL = `https://github.com/${SITE.githubRepo}`;
 
+/** The home of the SOUL.md format specification. */
+export const SOUL_FORMAT_URL = 'https://soul.md/';
+
 const BASE = import.meta.env.BASE_URL || '/';
 
 /** Build an internal URL that respects the configured base path. */

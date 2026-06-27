@@ -121,7 +121,9 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the full data flow.
 - **Compare** — two minds side by side, with synchronized scroll and shortest-path
 - **Command palette** (`⌘K` / `/`) — instant fuzzy navigation
 - Per-SOUL pages with table of contents, reading time, git history, contributors,
-  backlinks, related minds, a neighborhood graph, and exports (Markdown / JSON / YAML / print-to-PDF)
+  backlinks, related minds, a neighborhood graph, sub-specialties and regional variants,
+  a one-click **Download SOUL.md** button, ready-made citations (APA / BibTeX / plain text),
+  and exports (Markdown / JSON / YAML / print-to-PDF)
 
 ## The API
 
@@ -129,11 +131,13 @@ Every artifact is available as static JSON (and per-occupation Markdown/YAML):
 
 ```text
 /api/index.json                     # API root + endpoint map
+/api/openapi.json                   # OpenAPI 3.1 description of this API
+/api/schema/*.schema.json           # the JSON Schemas the corpus validates against
 /api/occupations.json               # every SOUL (summary)
 /api/categories.json   /api/tags.json
 /api/graph.json                     # nodes + typed edges
 /api/stats.json                     # all computed analytics
-/api/occupations/<slug>.json        # full record (sections, HTML, git history)
+/api/occupations/<slug>.json        # full record (sections, HTML, git history, citation)
 /api/occupations/<slug>.md|.yaml    # exports
 ```
 

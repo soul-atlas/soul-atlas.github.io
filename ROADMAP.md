@@ -17,19 +17,22 @@ deadlines, and this is community-paced.
 
 - [ ] Grow coverage toward full enumeration of occupations across every industry.
 - [ ] Expand beyond occupations into disciplines, communities, and life roles.
-- [ ] Specialization trees (e.g. physician → cardiologist → electrophysiologist).
-- [ ] Country/jurisdiction variants surfaced as first-class on the page.
+- [ ] Specialization trees (e.g. physician → cardiologist → electrophysiologist). _Sub-specialties
+  now surfaced per SOUL; multi-level interactive trees still to come._
+- [x] Country/jurisdiction variants surfaced as first-class on the page.
 - [ ] A "completeness" review pass to move SOULs from `draft` → `review` → `stable`.
 - [ ] Diff viewer for comparing revisions of a single SOUL on the site.
 
 ## Later — Interoperability and scale
 
-- [ ] Stable, versioned API contract and an OpenAPI/JSON-Schema description of it.
+- [x] Stable, versioned API contract and an OpenAPI/JSON-Schema description of it
+  ([`/api/openapi.json`](https://soul-atlas.github.io/api/openapi.json) + served JSON Schema).
 - [ ] Incremental / sharded builds to comfortably handle 10,000+ SOULs.
 - [ ] Embeddings + semantic "explore similar minds" beyond explicit edges.
 - [ ] Translations and multilingual SOULs.
 - [ ] EPUB / PDF export of curated collections ("a reader's atlas of the trades").
-- [ ] Citation format so SOULs can be referenced in papers and prompts reproducibly.
+- [x] Citation format so SOULs can be referenced in papers and prompts reproducibly (APA / BibTeX /
+  plain text on every SOUL page and in the JSON API).
 
 ## Principles that won't change
 

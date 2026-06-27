@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { url, GITHUB_URL } from '../lib/site';
+import { url, GITHUB_URL, SOUL_FORMAT_URL } from '../lib/site';
 import { souls } from '../lib/data';
 ---
 
@@ -9,10 +9,11 @@ import { souls } from '../lib/data';
     <div class="prose">
       <h1 style="font-size:2rem; font-weight:700; margin-bottom:0.5rem">About SOUL Atlas</h1>
       <p style="color:var(--ink-soft)">
-        SOUL Atlas is the open, community-maintained collection of <strong>SOUL.md</strong> files — structured
-        portraits of how experts think. The long-term vision is simple and large: <em
-          >one SOUL for every way humans think.</em
-        >
+        SOUL Atlas is the open, community-maintained collection of <a
+          href={SOUL_FORMAT_URL}
+          rel="noopener"><strong>SOUL.md</strong></a
+        > files — structured portraits of how experts think. The long-term vision is simple and large:
+        <em>one SOUL for every way humans think.</em>
       </p>
 
       <h2>What is a SOUL?</h2>
@@ -62,7 +63,10 @@ import { souls } from '../lib/data';
 
       <h2>How to contribute</h2>
       <p>
-        The Atlas grows through pull requests. Every SOUL is two files — <code>SOUL.md</code> and
+        The Atlas grows through pull requests. Every SOUL is two files — a <a
+          href={SOUL_FORMAT_URL}
+          rel="noopener"><code>SOUL.md</code></a
+        > and
         <code>metadata.yaml</code> — validated against a shared schema. Run <code>npm run new</code> to
         scaffold one, write from real expertise, and open a PR.
       </p>

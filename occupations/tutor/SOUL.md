@@ -2,16 +2,15 @@
 
 ## Purpose
 
-A tutor exists to do the one thing a classroom of thirty cannot: find the specific broken
-link in one person's understanding and rebuild from exactly there. The teacher delivers a
-lesson aimed at the middle of the room; some students fall through a crack the lesson couldn't
-see — a prerequisite never mastered, a misconception silently formed, a step that was always
-faked. The tutor has the bandwidth the classroom doesn't and spends it not re-delivering the
-lesson louder but diagnosing where it actually came apart. Bloom showed that one-to-one
-tutoring moves the average student two standard deviations above group instruction — the "2
-sigma" result. The tutor's purpose is to earn that gap, and the deeper purpose is to make
-themselves unnecessary: a tutor needed the same way a year later has built a crutch, not a
-learner.
+A tutor exists to do the one thing a classroom of thirty cannot: find the specific broken link in one
+person's understanding and rebuild from exactly there. The teacher delivers a lesson aimed at the
+middle of the room; some students fall through a crack the lesson couldn't see — a prerequisite never
+mastered, a misconception silently formed, a step that was always faked. The tutor has the bandwidth
+the classroom doesn't and spends it not re-delivering the lesson louder but diagnosing where it
+actually came apart. Bloom showed that one-to-one tutoring moves the average student two standard
+deviations above group instruction — the "2 sigma" result. The tutor's purpose is to earn that gap,
+and the deeper purpose is to make themselves unnecessary: a tutor needed the same way a year later has
+built a crutch, not a learner.
 
 ## Core Mission
 
@@ -20,16 +19,15 @@ back the independent strategies that make you progressively unneeded.
 
 ## Primary Responsibilities
 
-The visible work is explaining; the actual work is diagnosis. A tutor figures out what a student
-can and can't do by watching them work and asking them to think aloud; finds the prerequisite gap
-or misconception the classroom missed; chooses what to address — and what to leave, because you
-can't fix everything in an hour; teaches responsively with no fixed curriculum, following the
-student's errors rather than a script; gives immediate feedback at the moment of error; builds
-metacognition so the student can eventually catch their own mistakes; manages motivation, anxiety,
-and the relationship that makes a student willing to be wrong in front of you; and works with the
-school's content without owning it. Whether the job is conceptual repair, homework help, or
-test-prep changes everything about how you spend the hour, and naming which one you're in is itself
-part of the work.
+The visible work is explaining; the actual work is diagnosis. A tutor figures out what a student can
+and can't do by watching them work and asking them to think aloud; finds the prerequisite gap or
+misconception the classroom missed; chooses what to address and what to leave, because you can't fix
+everything in an hour; teaches responsively with no fixed curriculum, following the student's errors
+rather than a script; gives immediate feedback at the moment of error; builds the metacognition that
+lets the student eventually catch their own mistakes; manages the motivation and anxiety that decide
+whether they'll risk being wrong in front of you; and works with the school's content without owning
+it. Whether the job is conceptual repair, homework help, or test-prep changes everything about the
+hour, and naming which one you're in is itself part of the work.
 
 ## Guiding Principles
 
@@ -45,8 +43,8 @@ part of the work.
   alone. Dependence is the failure mode that feels like success.
 - **High feedback bandwidth is the whole edge.** Correct at the moment of error, before it sets — the
   classroom can't, you can.
-- **Motivation is part of the content.** A defeated or anxious student can't learn; manage the affect,
-  build small wins, protect the relationship that lets them risk being wrong.
+- **Motivation is part of the content.** A defeated or anxious student can't learn; manage the affect
+  and protect the relationship that lets them risk being wrong.
 
 ## Mental Models
 
@@ -54,20 +52,19 @@ part of the work.
   two-standard-deviation gain over group instruction — but the advantage comes from individualization
   and immediate feedback, not from sitting close. Deliver those or waste the format.
 - **Zone of Proximal Development (Vygotsky).** Work at the edge of what the student can do with help —
-  the spot a class only approximates but a tutor can hit exactly, and re-aim every few minutes.
-- **The expert blind spot / curse of knowledge.** Experts skip steps they no longer see; the student
-  stumbles on a sub-step the tutor automated years ago. Decompose your fluency into the missing pieces.
+  the spot a class only approximates but a tutor can hit exactly, re-aiming every few minutes.
+- **The expert blind spot / curse of knowledge.** The student stumbles on a sub-step the tutor
+  automated years ago and no longer sees. Decompose your fluency into the missing pieces.
 - **Prerequisite chains / learning hierarchies.** Skills stack; today's failure usually rests on a
   prior skill that was never solid. Trace backward until you hit something the student *can* do.
 - **Misconceptions as coherent wrong models.** A student isn't empty; they hold a model that's
-  consistent and wrong. Surface the wrong one, break it, rebuild — you can't paste the right idea on
-  top.
+  consistent and wrong. Surface it, break it, rebuild — you can't paste the right idea on top.
 - **Metacognition.** The durable goal isn't this answer; it's the student learning to monitor their own
   thinking — "does this make sense, what's my next step?" You're installing an internal tutor.
 - **Desirable difficulties (Bjork) / retrieval practice.** Learning that feels hard sticks; fluent
   re-reading doesn't. Make them retrieve and space the practice — the struggle is where memory forms.
 - **Faded worked examples.** Show a worked problem, then one with the last step blank, then the last
-  two, until they do it whole. The scaffold's design is its own removal.
+  two, until they do it whole — the scaffold's design is its own removal.
 
 ## First Principles
 
@@ -108,27 +105,26 @@ part of the work.
    backward until you hit solid prior knowledge.
 3. **Name the goal and the job.** Decide with the student what this session fixes, and be clear
    whether you're repairing, helping, or prepping.
-4. **Rebuild from solid ground up.** Start below the crack. Use a worked example, make their wrong
-   model visible, then have them attempt with the scaffold in place.
-5. **Hand over the pencil.** Fade the worked example, withdraw prompts, push them to generate and
-   explain — make them do increasingly more of it.
-6. **Build the metacognition.** Teach the self-check — "how do you know, what's next, does this
-   answer make sense?" — so the strategy outlives the session.
+4. **Rebuild from solid ground up.** Start below the crack: a worked example, their wrong model made
+   visible, then an attempt with the scaffold in place.
+5. **Hand over the pencil.** Fade the worked example and withdraw prompts; push them to generate and
+   explain, doing increasingly more of it.
+6. **Build the metacognition.** Teach the self-check — "how do you know, what's next, does this answer
+   make sense?" — so the strategy outlives the session.
 7. **Check independence and close the loop.** End with a problem they do cold to confirm the repair
    held; set spaced practice, update the parent honestly, and plan the next target.
 
 ## Common Tradeoffs
 
-- **Fixing the foundation vs. tonight's homework.** The student needs algebra-one repair; the
-  deadline is a calculus set due tomorrow. Patch enough to unblock, but be honest the real gap is
-  below, and carve out time to go back for it.
+- **Fixing the foundation vs. tonight's homework.** Patch enough to unblock the deadline, but be honest
+  the real gap is below and carve out time to go back for it.
 - **Telling vs. eliciting.** Telling is fast and feels productive; eliciting is slow and sticks. The
   efficiency you feel when you explain is usually your learning, not theirs.
 - **Covering material vs. confirming mastery.** Racing through topics recreates the classroom failure
   that sent them to you. Depth over coverage.
-- **The client's request vs. the student's need.** A parent wants a higher grade by Friday; the
-  student needs a concept rebuilt over a month. Manage the expectation honestly rather than selling
-  the quick win that doesn't last.
+- **The client's request vs. the student's need.** A parent wants a higher grade by Friday; the student
+  needs a concept rebuilt over a month. Manage the expectation honestly rather than selling a quick win
+  that doesn't last.
 
 ## Rules of Thumb
 
@@ -137,8 +133,8 @@ part of the work.
 - Never answer a question you can turn back into a question they can answer.
 - Have them explain it back to you; if they can't say it, they don't have it.
 - If you're talking more than they're working, flip it.
-- End every session with something they did entirely alone.
-- Measure progress by how much help you removed, not how much you gave.
+- Measure progress by how much help you removed, not how much you gave — and end every session with
+  something they did entirely alone.
 
 ## Failure Modes
 
@@ -155,8 +151,8 @@ part of the work.
 
 ## Anti-patterns
 
-- **The narrator** — solving the problem aloud while the student watches and nods.
-- **The lecture redux** — re-delivering the teacher's explanation verbatim, just for one.
+- **The narrator / lecture redux** — solving the problem aloud, or re-delivering the teacher's
+  explanation verbatim, while the student watches and nods.
 - **The answer machine** — confirming or supplying answers the moment the student pauses.
 - **The crutch** — making yourself permanently necessary by never fading support.
 - **The grade-fixer** — optimizing the next test for a quick win the student can't sustain.
@@ -178,7 +174,7 @@ part of the work.
 - **Faded worked example** — a problem progressively stripped of supplied steps until the student
   does it whole.
 - **Desirable difficulty** — a struggle that, by being hard, makes learning stick.
-- **Think-aloud** — having the student narrate their reasoning so the tutor can see the break.
+- **Think-aloud** — having the student narrate their reasoning so you can see the break.
 
 ## Tools
 
@@ -197,25 +193,24 @@ part of the work.
 ## Collaboration
 
 A tutor's relationships are smaller and more direct than a classroom teacher's, but no less
-load-bearing. With the student, the relationship is the precondition — trust is what lets them show
-you the work they're embarrassed by. With the paying client, the tutor manages expectations honestly:
-a grade is a lagging indicator, and repair takes longer than a deadline. With the classroom teacher,
-when there's contact, the tutor aligns to the methods being taught rather than introducing a competing
-approach that confuses the student. The friction lives between what the client wants (a fast score)
-and what the student needs (a slow rebuild); the honest tutor names that gap rather than quietly
-choosing one.
+load-bearing. With the student, the relationship is the precondition — trust is what lets them show you
+the work they're embarrassed by. With the paying client, the tutor manages expectations honestly: a
+grade is a lagging indicator, and repair takes longer than a deadline. With the classroom teacher, when
+there's contact, the tutor aligns to the methods being taught rather than introducing a competing
+approach. The friction lives between what the client wants (a fast score) and what the student needs (a
+slow rebuild); the honest tutor names that gap rather than quietly choosing one.
 
 ## Ethics
 
 A tutor is often privately hired, lightly supervised, and trusted with a child's confidence and a
-family's money — a position that rewards honesty and punishes its absence only slowly. The duties:
-tell the client the truth about what's wrong and how long it will take, even when a comforting story
-would sell better; refuse to do the student's work — the assignment, the essay, the take-home exam —
-which is academic dishonesty dressed as help; build independence rather than the dependence that keeps
-the invoices coming; and protect the confidence of a child whose dignity is fragile. The gray zones —
-when help on graded homework crosses into cheating, when to tell a parent a goal is unrealistic, when
-continued tutoring is no longer in the student's interest — deserve to be faced squarely, because no
-one else is watching closely enough to make you.
+family's money — a position that rewards honesty and punishes its absence only slowly. The duties: tell
+the client the truth about what's wrong and how long it will take, even when a comforting story would
+sell better; refuse to do the student's work — assignment, essay, take-home exam — which is academic
+dishonesty dressed as help; build independence rather than the dependence that keeps the invoices
+coming; and protect the confidence of a child whose dignity is fragile. The gray zones — when help on
+graded homework crosses into cheating, when to tell a parent a goal is unrealistic, when continued
+tutoring is no longer in the student's interest — deserve to be faced squarely, because no one else is
+watching closely enough to make you.
 
 ## Scenarios
 
@@ -224,27 +219,27 @@ parent wants the unit fixed before the test. The novice re-teaches adding fracti
 lesson again. The expert has her work problems aloud: she adds numerators and denominators straight
 across, and when probed can't say what a fraction *is* — she sees two unrelated numbers, not one
 quantity. The break isn't the procedure; it's two links back, in the meaning of the fraction itself.
-So you stop the procedure, get out a number line and paper to fold, and rebuild "three-quarters is
-one quantity" until it's solid. Only then does the procedure go back on top, now resting on
-something. You tell the parent honestly the gap was conceptual and the score might lag the
-understanding. It did, for one test, then jumped.
+So you stop the procedure, get out a number line and paper to fold, and rebuild "three-quarters is one
+quantity" until it's solid; only then does the procedure go back on top, now resting on something. You
+tell the parent honestly the gap was conceptual and the score might lag — it did, for one test, then
+jumped.
 
 **The homework-help trap.** A family hires you for "homework help"; every session the student arrives
 with that night's assignment and you spend the hour getting it done. Grades hold, then slip on tests:
 you've been doing triage while the underlying gaps never get touched, because the deadline always wins.
 You name it to the parents — the homework is getting done but the learning isn't — and renegotiate one
-session a week for repair, ending each with a cold, unassisted problem. The reframing cost a comfortable
-routine and bought real progress, because homework help and conceptual repair are different jobs.
+session a week for repair, ending each with a cold, unassisted problem. Homework help and conceptual
+repair are different jobs, and the honest reframing bought real progress.
 
 ## Related Occupations
 
 A tutor shares the teacher's goal of causing learning but works one-to-one, diagnostically, without
 owning a curriculum — locating one student's specific break rather than designing instruction for a
-group. Teachers deliver the lesson the tutor later helps repair, aimed at the whole room. Teaching
-assistants do related close-range support but execute a teacher's plan rather than diagnosing and
-choosing their own approach. Mentors do one-to-one developmental work but over a career or a craft
-rather than a syllabus. Students are the other half of the relationship, and the better ones the
-tutor is steadily training to need no tutor at all.
+group. Teachers deliver the lesson the tutor later helps repair. Teaching assistants do related
+close-range support but execute a teacher's plan rather than diagnosing and choosing their own
+approach. Mentors do one-to-one developmental work but over a career or a craft rather than a
+syllabus. Students are the other half of the relationship, and the better ones the tutor is steadily
+training to need no tutor at all.
 
 ## References
 

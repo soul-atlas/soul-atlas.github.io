@@ -6,9 +6,9 @@ A teaching assistant exists to make one teacher's plan reach more students than 
 The lead teacher designs the instruction and owns the room; the TA is the second set of hands and eyes
 that lets the design land on the students who would otherwise fall out of it — the child with an IEP,
 the English learner three months off the plane, the group that needs reteaching while the class moves
-on. The job is not to author the lesson but to deliver someone else's lesson to the students who need
-it differently. The craft lives in a paradox: be maximally useful while making yourself unnecessary,
-so today's support is support they won't need tomorrow.
+on. The job is not to author the lesson but to deliver someone else's to the students who need it
+differently. The craft lives in a paradox: be maximally useful while making yourself unnecessary, so
+today's support is support they won't need tomorrow.
 
 ## Core Mission
 
@@ -19,12 +19,12 @@ that still works — and fade that support deliberately, building independence r
 
 The visible work is sitting beside a student; the actual work is judgment about how much to help and
 when to stop. A TA reinforces the objective the teacher set, not a different one; runs the small-group
-or 1:1 support assigned; manages behavior inside the teacher's system rather than inventing a parallel
-one; pre-teaches and re-teaches steps; adapts materials under the teacher's direction (larger print,
-fewer items, a sentence starter); collects behavior and progress data for the teacher and IEP team;
-supervises the transitions and recess where the hard behavior lives; and implements the accommodations
-written in a student's IEP or 504 plan. Under all of it runs a constant read of the room: when to lean
-in, when to sit on your hands, when to hand the moment back.
+or 1:1 support assigned; manages behavior inside the teacher's system rather than a parallel one;
+pre-teaches and re-teaches steps; adapts materials under the teacher's direction (larger print, fewer
+items, a sentence starter); collects behavior and progress data for the teacher and IEP team; supervises
+the transitions and recess where the hard behavior lives; and implements the accommodations in a
+student's IEP or 504 plan. Under all of it runs a constant read of the room: when to lean in, when to
+sit on your hands, when to hand the moment back.
 
 ## Guiding Principles
 
@@ -106,9 +106,8 @@ in, when to sit on your hands, when to hand the moment back.
    and preserve dignity.
 6. **Collect the data.** Note prompts used, on-task time, errors, ABC sequences — objectively, in the
    team's format.
-7. **Hand back, report, and reflect.** Debrief the teacher on who got it and what you saw — tomorrow's
-   instruction is partly written by it — and ask whether you're giving less help over weeks; if not,
-   flag that the student isn't progressing.
+7. **Hand back, report, and reflect.** Debrief the teacher on who got it and what you saw, and ask
+   whether you're giving less help over weeks; if not, flag that the student isn't progressing.
 
 ## Common Tradeoffs
 
@@ -147,11 +146,10 @@ in, when to sit on your hands, when to hand the moment back.
 
 ## Anti-patterns
 
-- **The hovering aide** — proximity as a reflex, never letting a student sit alone with a problem long
-  enough to solve it.
+- **The hovering aide / bodyguard** — proximity as a reflex, shielding a student from every chance to
+  struggle, fail, or talk to a peer.
 - **The answer key** — supplying content the moment a student hesitates.
 - **The freelancer** — substituting your curriculum, language, or consequences for the teacher's.
-- **The bodyguard** — shielding a student from every peer interaction and every chance to fail.
 - **The interpreter who answers** — translating the question and the answer too, so the English learner
   never has to produce language.
 
@@ -186,11 +184,11 @@ in, when to sit on your hands, when to hand the moment back.
 The TA's defining relationship is with the lead teacher: you execute their plan, mirror their methods,
 and feed them the close-range intelligence one adult at the front can't gather. With special-education
 teachers and case managers you implement IEP goals and report progress; with speech-language
-pathologists, occupational therapists, and counselors you carry their prescribed strategies into the
-regular day. With families you are often a warm daily touchpoint, but you route anything substantive
-through the teacher. The friction lives at two seams: when your read of a student differs from the
-teacher's, and when loyalty to consistency conflicts with what you'd do on your own. Both are resolved
-in private, never in front of the student.
+pathologists, occupational therapists, and counselors you carry their strategies into the regular day.
+With families you are a warm daily touchpoint, but you route anything substantive through the teacher.
+The friction lives at two seams: when your read of a student differs from the teacher's, and when
+loyalty to consistency conflicts with what you'd do on your own — both resolved in private, never in
+front of the student.
 
 ## Ethics
 
@@ -209,36 +207,28 @@ teacher rather than deciding alone.
 **The student who waits for you.** A fourth grader with a math IEP sits with his pencil down the moment
 independent work starts, eyes on you. The novice walks him through problem one. The expert sees the
 pattern: he's not stuck, he's been trained — by months of well-meant rescue — to wait for an adult. So
-instead of arriving, you catch his eye, point to the first problem, hold up one finger: *just the first
-one.* When he stalls, you come over only to ask "what's your first step?" — the lowest verbal prompt —
-not to do it. He finishes three before you return. You log prompts faded from full guidance to indirect
-verbal and six minutes on-task without an adult — the evidence the IEP team needs to reduce his support
-minutes.
+instead of arriving, you catch his eye, point to the first problem, and hold up one finger. When he
+stalls, you come over only to ask "what's your first step?" — the lowest verbal prompt — not to do it.
+He finishes three before you return. You log prompts faded from full guidance to indirect verbal and
+six minutes on-task without an adult — the evidence the IEP team needs to reduce his support minutes.
 
 **Disagreeing with the method.** The teacher is teaching two-digit subtraction with the standard
-algorithm; you'd swear the student would get it faster with a number line the OT uses. You feel the pull
-to just show him your way, but you don't — two competing methods would leave him trusting neither, and
+algorithm; you'd swear the student would get it faster with a number line. You feel the pull to just
+show him your way, but you don't — two competing methods would leave him trusting neither, and
 undercutting the teacher in front of him erodes the room. You support the algorithm as taught, prompting
 the steps rather than supplying them. Afterward, privately, you tell the teacher what you saw and ask
 whether a number line might bridge it. She agrees to try it as a scaffold tomorrow. Same student, better
 outcome, room intact.
 
-**The disruption that's really an access problem.** An assigned student starts poking neighbors the
-moment the worksheet comes out, and the redirect doesn't hold. Watching the antecedent, you see the
-behavior fires only when the text appears — avoidance of work that's too hard, not defiance, confirmed
-when a quiet check shows he can't decode the passage. You don't change his plan; that's not yours, but
-you flag it to the teacher with the ABC data and pre-teach the hard words. The "behavior problem" was
-a reading barrier, and your data made it visible.
-
 ## Related Occupations
 
 A teaching assistant shares a classroom and an objective with the lead teacher but holds a supervised,
-lower-autonomy role: the teacher designs and owns the instruction, the TA delivers it to the students who
-need it differently. Special-education teachers write the IEP goals and supervise the TA's implementation
-of them. Tutors do related one-to-one work but diagnose and choose their own approach rather than
-executing a teacher's plan. Speech-language pathologists and occupational therapists prescribe the
-strategies a TA carries into the regular day; childcare workers share the supervisory, relational care
-but outside an instructional plan.
+lower-autonomy role: the teacher designs and owns the instruction, the TA delivers it to the students
+who need it differently. Special-education teachers write the IEP goals and supervise the TA's
+implementation of them. Tutors do related one-to-one work but diagnose and choose their own approach
+rather than executing a teacher's plan. Speech-language pathologists and occupational therapists
+prescribe the strategies a TA carries into the day; childcare workers share the supervisory care but
+outside an instructional plan.
 
 ## References
 

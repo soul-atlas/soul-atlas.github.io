@@ -37,7 +37,7 @@ question of any document is not what it says but why it exists.
   papers were burned — shapes the story as much as what survives. Mistake silence for
   nonexistence and you launder its biases into fact.
 - **Know the conversation, not just the facts.** A finding means something only against
-  the historiography it answers or overturns.
+  the historiography it answers.
 - **Contingency over inevitability.** Nothing had to happen as it did; hindsight makes
   outcomes look fated.
 
@@ -49,7 +49,7 @@ question of any document is not what it says but why it exists.
   claims — its provenance, date, authenticity. Internal critique asks what it means:
   intent, audience, what is assumed.
 - **Contextualization and historicism.** A word, law, or act means what it meant to
-  contemporaries; the historian holds the event inside its own world.
+  contemporaries; hold the event inside its own world.
 - **The longue durée.** Following the Annales school (Braudel), some change runs on the
   timescale of events, some on that of structures — climate, geography, demography.
 - **Microhistory versus macrohistory.** One miller's cosmology can illuminate a whole
@@ -64,7 +64,7 @@ question of any document is not what it says but why it exists.
 
 - The record is a sample, never the population, and not random — it favors the literate,
   the powerful, and the durable.
-- Correlation in time is not causation; sequence is necessary but never sufficient.
+- Correlation in time is not causation; sequence is necessary, never sufficient.
 - We know how the story ends and the people in it did not; this asymmetry distorts
   judgment.
 - A document tells you what someone wanted recorded, not what happened.
@@ -127,7 +127,7 @@ question of any document is not what it says but why it exists.
 - **Theory versus evidence.** A strong framework organizes chaos but tempts you to see
   only what it predicts; hold it loosely enough for the sources to surprise you.
 - **The new source versus the known one.** A spectacular find is seductive; the boring,
-  abundant records often carry more reliable weight.
+  abundant records often carry more weight.
 
 ## Rules of Thumb
 
@@ -183,16 +183,16 @@ question of any document is not what it says but why it exists.
 - **Longue durée** — the slow-moving structural timescale, distinct from the history of
   events.
 - **Provenience** — an artifact's find-spot, versus its ownership history.
-- **Teleology** — explaining the past as if aimed at a known later end.
+- **Teleology** — explaining the past as if aimed at a known end.
 
 ## Tools
 
 - **Archives and manuscript collections** — the primary workplace; finding aids, call
-  numbers, and the patience to read what was never indexed for you.
+  numbers, and the patience to read what was never indexed.
 - **Paleography and diplomatics** — the skills to read old handwriting and to authenticate
   and date documents from their physical and formal features.
 - **The citation apparatus** — footnotes and endnotes, the audit trail that lets a reader
-  retrace and contest the argument.
+  retrace and contest the claim.
 - **Critical editions** — scholarly texts that record variant readings and establish what
   a source said.
 - **Digital humanities** — text mining, databases, network analysis, and GIS for patterns
@@ -212,13 +212,13 @@ the synthesizer who compresses it into a chapter.
 ## Ethics
 
 The historian holds a quiet power: to confer or withhold remembrance, to legitimize or
-puncture the stories nations and institutions tell. Core duties:
-represent the evidence honestly, including what wounds your thesis; do not distort to
-serve a politics, however just the cause; give voice to those the record tried to erase
-without inventing words they never spoke; respect the dead by reconstructing them as they
-were; and disclose your standpoint rather than posing as a view from nowhere. The
-hard cases — contested national memory, documents kept by regimes that should not have —
-are betrayed by the historian who pretends there was no choice.
+puncture the stories nations and institutions tell. Core duties: represent the evidence
+honestly, including what wounds your thesis; do not distort to serve a politics, however
+just the cause; give voice to those the record tried to erase without inventing words they
+never spoke; respect the dead by reconstructing them as they were; and disclose your
+standpoint rather than posing as a view from nowhere. The hard cases — contested national
+memory, documents kept by regimes that should not have — are betrayed by the historian who
+pretends there was no choice.
 
 ## Scenarios
 

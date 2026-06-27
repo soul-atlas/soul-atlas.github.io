@@ -17,6 +17,7 @@ import {
   soulUrl,
   categoryUrl,
   tagUrl,
+  slugifyCat,
   ghEditUrl,
   ghHistoryUrl,
   ghBlameUrl,
@@ -86,11 +87,31 @@ const jsonLd = {
   wordCount: rec.computed.wordCount,
 };
 
+const downloadHref = url(`/api/occupations/${slug}.md`);
 const exports = [
-  { label: 'Markdown', href: url(`/api/occupations/${slug}.md`) },
+  { label: 'Markdown', href: downloadHref },
   { label: 'JSON', href: url(`/api/occupations/${slug}.json`) },
   { label: 'YAML', href: url(`/api/occupations/${slug}.yaml`) },
 ];
+
+// Citation strings (computed at build time for reproducibility).
+const citation = rec.citation;
+const citationFormats = [
+  { key: 'apa', label: 'APA', text: citation.apa },
+  { key: 'text', label: 'Plain', text: citation.text },
+  { key: 'bibtex', label: 'BibTeX', text: citation.bibtex },
+];
+
+// Free-text sub-specialties; link any that map to an existing SOUL.
+const specializations = (m.specializations || [])
+  .filter((x: any) => typeof x === 'string' && x.trim())
+  .map((name: string) => {
+    const s = slugifyCat(name);
+    return { name, href: getSummary(s) ? soulUrl(s) : null };
+  });
+
+// Country / jurisdiction variants surfaced first-class on the page.
+const countryVariants = (m.country_variants || []).filter((v: any) => v && (v.region || v.note));
 ---
 
 <Layout
@@ -244,6 +265,21 @@ const exports = [
           <div class="text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
             This SOUL
           </div>
+          <a
+            href={downloadHref}
+            class="btn btn-accent w-full justify-center !py-2 text-sm font-semibold"
+            download={`${slug}.SOUL.md`}
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+            Download SOUL.md
+          </a>
           <div class="flex flex-wrap gap-2">
             <a href={ghEditUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">Edit</a>
             <a href={ghHistoryUrl(slug)} class="btn !py-1.5 text-sm" rel="noopener">History</a>
@@ -263,6 +299,52 @@ const exports = [
               ))
             }
           </div>
+        </div>
+
+        <!-- Cite this SOUL -->
+        <div class="card space-y-3 p-4" id="cite">
+          <div class="flex items-center justify-between">
+            <div
+              class="text-xs font-semibold uppercase tracking-wide"
+              style="color:var(--ink-faint)"
+            >
+              Cite this SOUL
+            </div>
+            <button
+              type="button"
+              class="chip cite-copy hover:underline"
+              data-cite-copy
+              title="Copy citation"
+            >
+              Copy
+            </button>
+          </div>
+          <div class="flex flex-wrap gap-1.5" role="tablist" aria-label="Citation format">
+            {
+              citationFormats.map((c, i) => (
+                <button
+                  type="button"
+                  class="chip cite-tab"
+                  role="tab"
+                  data-cite-tab={c.key}
+                  aria-selected={i === 0 ? 'true' : 'false'}
+                >
+                  {c.label}
+                </button>
+              ))
+            }
+          </div>
+          {
+            citationFormats.map((c, i) => (
+              <pre
+                class="cite-panel overflow-x-auto whitespace-pre-wrap break-words rounded-md p-3 text-xs"
+                data-cite-panel={c.key}
+                style={`background:var(--bg-soft); color:var(--ink-soft); margin:0; ${i === 0 ? '' : 'display:none'}`}
+              >
+                {c.text}
+              </pre>
+            ))
+          }
         </div>
 
         <!-- Git history -->
@@ -334,6 +416,55 @@ const exports = [
                   <span class="chip">{c}</span>
                 ))}
               </div>
+            </div>
+          )
+        }
+
+        <!-- Specializations -->
+        {
+          specializations.length > 0 && (
+            <div class="card p-4">
+              <div
+                class="mb-2 text-xs font-semibold uppercase tracking-wide"
+                style="color:var(--ink-faint)"
+              >
+                Specializations
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+                {specializations.map((sp: { name: string; href: string | null }) =>
+                  sp.href ? (
+                    <a href={sp.href} class="chip hover:underline">
+                      {sp.name}
+                    </a>
+                  ) : (
+                    <span class="chip">{sp.name}</span>
+                  ),
+                )}
+              </div>
+            </div>
+          )
+        }
+
+        <!-- Regional / jurisdiction variants -->
+        {
+          countryVariants.length > 0 && (
+            <div class="card p-4">
+              <div
+                class="mb-2 text-xs font-semibold uppercase tracking-wide"
+                style="color:var(--ink-faint)"
+              >
+                Regional variants
+              </div>
+              <ul class="space-y-1.5 text-sm">
+                {countryVariants.map((v: { region?: string; note?: string }) => (
+                  <li>
+                    <span style="color:var(--ink)">{v.region || v.note}</span>
+                    {v.region && v.note && v.note !== v.region && (
+                      <span style="color:var(--ink-faint)"> — {v.note}</span>
+                    )}
+                  </li>
+                ))}
+              </ul>
             </div>
           )
         }
@@ -448,6 +579,39 @@ const exports = [
         });
         h.appendChild(a);
       });
+
+      // Citation: tab switching + copy-to-clipboard.
+      const cite = document.getElementById('cite');
+      if (cite) {
+        const tabs = [...cite.querySelectorAll('[data-cite-tab]')];
+        const panels = [...cite.querySelectorAll('[data-cite-panel]')];
+        let activeKey = tabs[0]?.getAttribute('data-cite-tab');
+        const select = (key) => {
+          activeKey = key;
+          tabs.forEach((t) =>
+            t.setAttribute(
+              'aria-selected',
+              t.getAttribute('data-cite-tab') === key ? 'true' : 'false',
+            ),
+          );
+          panels.forEach((p) => {
+            p.style.display = p.getAttribute('data-cite-panel') === key ? '' : 'none';
+          });
+        };
+        tabs.forEach((t) =>
+          t.addEventListener('click', () => select(t.getAttribute('data-cite-tab'))),
+        );
+        const copyBtn = cite.querySelector('[data-cite-copy]');
+        copyBtn?.addEventListener('click', () => {
+          const panel = cite.querySelector(`[data-cite-panel="${activeKey}"]`);
+          const text = panel?.textContent || '';
+          navigator.clipboard?.writeText(text).then(() => {
+            const prev = copyBtn.textContent;
+            copyBtn.textContent = 'Copied';
+            setTimeout(() => (copyBtn.textContent = prev), 1500);
+          });
+        });
+      }
 
       const links = [...document.querySelectorAll('#toc .toc-link')];
       const map = new Map(links.map((l) => [l.getAttribute('href').slice(1), l]));

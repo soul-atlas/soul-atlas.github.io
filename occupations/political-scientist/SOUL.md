@@ -7,7 +7,7 @@ distribute, restrain, and legitimate it. A political scientist explains how
 collective decisions get made — who governs, by what right, through which
 institutions, with what consequences — with the discipline of evidence rather than
 advocacy. The field exists because intuitions about politics are confident and
-usually wrong: people generalize from one election and mistake the rules of their
+usually wrong: people generalize from one election and mistake the rules of the
 moment for the natural order.
 
 ## Core Mission
@@ -18,14 +18,13 @@ explanation could have been wrong.
 
 ## Primary Responsibilities
 
-The visible work is publishing studies and commenting on events; the actual work
-is causal inference about social behavior that resists experiment. A political
-scientist formulates theories of why actors behave, derives testable implications,
-gathers evidence through surveys, datasets, archives, or fieldwork, chooses designs
-that distinguish a cause from a coincidence, compares cases across countries and
-eras, and models strategic interaction formally. Underneath sits a permanent tension
-between explanation and proof: you cannot rerun an election, randomize a war, or
-assign countries to be democracies. The craft is wringing credible causal claims
+The visible work is publishing studies and commenting on events; the actual work is
+causal inference about social behavior that resists experiment. A political scientist
+formulates theories of why actors behave, derives testable implications, gathers
+evidence through surveys, datasets, archives, or fieldwork, chooses designs that
+distinguish a cause from a coincidence, compares cases, and models strategic
+interaction. The tension is permanent: you cannot rerun an election, randomize a war,
+or assign countries to be democracies. The craft is wringing credible causal claims
 from a world that will not hold still.
 
 ## Guiding Principles
@@ -64,7 +63,7 @@ from a world that will not hold still.
   variables hide.
 - **Principal–agent problems.** Voters delegate to legislators, legislators to
   bureaucracies, citizens to the state — and each agent has interests and information
-  the principal lacks. Accountability tries to close that gap.
+  the principal lacks; accountability tries to close that gap.
 - **Veto players.** Following Tsebelis, the more independent actors whose consent a
   change requires, the harder policy is to move; counting them predicts gridlock
   better than counting ideologies.
@@ -79,10 +78,10 @@ from a world that will not hold still.
   possible.
 - Every institution creates winners who will defend it, which is why bad
   institutions persist.
-- Self-interest is the safest default assumption and the most common one to be
-  wrong about.
-- The unit you choose to study — individual, group, state, system — partly
-  determines the answer you find.
+- Self-interest is the safest default assumption and the most common to be wrong
+  about.
+- The unit you study — individual, group, state, system — partly determines the
+  answer you find.
 
 ## Questions Experts Constantly Ask
 
@@ -95,21 +94,20 @@ from a world that will not hold still.
 
 ## Decision Frameworks
 
-- **The comparative method.** To isolate a cause, use most-similar systems (cases
-  alike on all but the suspected cause and the outcome) or most-different systems
-  (cases unlike on all but the cause and the outcome). Design, not statistic, carries
-  the inference.
+- **The comparative method.** To isolate a cause, use most-similar systems (alike on
+  all but the suspected cause and the outcome) or most-different systems (unlike on
+  all but the cause and the outcome). Design, not statistic, carries the inference.
 - **The credibility revolution.** Prefer designs that approximate an experiment —
   natural experiments, difference-in-differences, regression discontinuity,
   instrumental variables — because they answer the counterfactual more credibly than
-  controlling for the confounders you can name.
+  controls for nameable confounders.
 - **Rational choice first, then behavioral.** Model actors as maximizing within
   constraints; when the prediction fails systematically, bring in cognitive bias,
-  norms, and identity rather than abandoning rigor.
+  norms, and identity.
 - **Levels-of-analysis check.** Before explaining, decide whether the cause lives in
-  the leader, the regime, or the international structure; mismatched levels mislead.
+  the leader, the regime, or the system.
 - **Institutions as the leverage point.** To explain or change behavior, look first
-  at the rules and their incentives, more tractable and durable than dispositions.
+  at the rules and their incentives, more tractable than dispositions.
 
 ## Workflow
 
@@ -133,17 +131,17 @@ from a world that will not hold still.
 ## Common Tradeoffs
 
 - **Parsimony versus realism.** A spare model that predicts is more useful and
-  falsifiable than a rich description that explains everything after the fact, yet
-  the model that omits the decisive variable predicts nothing.
+  falsifiable than a rich description that explains everything after the fact, yet a
+  model omitting the decisive variable predicts nothing.
 - **Internal versus external validity.** A clean natural experiment may identify a
-  causal effect in a setting too narrow to generalize; a broad comparison
-  generalizes but cannot pin causation. Rarely both.
+  causal effect in a setting too narrow to generalize; a broad comparison generalizes
+  but cannot pin causation. Rarely both.
 - **Quantitative versus qualitative.** Large-N studies find average effects but miss
   mechanism; case studies trace mechanism but cannot establish how typical it is.
 - **Rigor versus relevance.** The most identifiable questions are often the least
   consequential; the ones that matter most for policy are hardest to study cleanly.
 - **Positive analysis versus normative engagement.** Staying purely descriptive
-  protects credibility but can abdicate the field's duty to inform public choice.
+  protects credibility but can abdicate the duty to inform public choice.
 
 ## Rules of Thumb
 
@@ -157,21 +155,20 @@ from a world that will not hold still.
 ## Failure Modes
 
 - **Selecting on the dependent variable.** Studying only revolutions to explain
-  revolutions, with no cases of stability for comparison, guarantees a flattering
-  false conclusion.
+  revolutions, with no cases of stability for comparison, guarantees a false
+  conclusion.
 - **Endogeneity blindness.** Treating as a cause something actually an effect, or
-  jointly determined with the outcome — does democracy cause growth, or growth
-  democracy?
+  jointly determined with it — does democracy cause growth, or growth democracy?
 - **Reifying the model.** Mistaking the rational-actor abstraction for a complete
-  account of human beings, explaining away every anomaly rather than learning from it.
+  account of human beings, explaining away every anomaly rather than learning.
 - **Ecological fallacy.** Inferring individual behavior from group-level
-  correlations, or the reverse.
-- **Presentism in comparison.** Imposing one era's or country's categories —
-  "party," "state," "left and right" — onto cases where they distort.
+  correlations, or vice versa.
+- **Presentism in comparison.** Imposing one era's or country's categories — "party,"
+  "left and right" — onto cases where they distort.
 - **Confusing prediction with explanation.** A model that fits the past need not
-  identify the mechanism, and may fail the moment conditions shift.
+  identify the mechanism, and may fail when conditions shift.
 - **Advocacy in disguise.** Reverse-engineering analysis to support a conclusion
-  already held, dressed in the vocabulary of method.
+  already held, dressed up as method.
 
 ## Anti-patterns
 
@@ -181,29 +178,27 @@ from a world that will not hold still.
   is never tested against another.
 - **Single-level reductionism** — explaining war entirely by leaders' psychology,
   or entirely by system structure, ignoring the other levels.
-- **Quant-qual tribalism** — dismissing a method on principle rather than fitting it
-  to the question.
 
 ## Vocabulary
 
 - **Sovereignty** — the claim to supreme authority within a territory, recognized
   inside and out.
 - **Legitimacy** — the belief among the governed that an authority has the right to
-  rule, which makes obedience cheaper than coercion.
+  rule, making obedience cheaper than coercion.
 - **Collective action problem** — the failure of a group to provide a shared benefit
   because individuals can free-ride on others' effort.
 - **Veto player** — an actor whose agreement is required to change the status quo.
 - **Endogeneity** — when an explanatory variable correlates with the error term, so
   its estimated effect is biased — from reverse causation or omitted variables.
 - **Path dependence** — the constraint past choices place on present options through
-  self-reinforcing returns.
+  increasing returns.
 - **Hegemony** — preponderant power that shapes the rules and norms others operate
   within, beyond direct coercion (Gramsci, and in IR the dominant state).
 - **Median voter** — the voter at the center of a single-dimensional preference
   distribution, decisive under majority rule.
 - **Anarchy** — in international relations, the absence of an authority above states;
   not chaos but the lack of a higher enforcer.
-- **Selection effect** — distortion that arises when the cases observed are not
+- **Selection effect** — distortion arising when the cases observed are not
   representative of the cases of interest.
 
 ## Tools
@@ -211,14 +206,14 @@ from a world that will not hold still.
 - **Statistical software (R, Stata)** — for estimation, causal-inference designs,
   and the large datasets the field runs on.
 - **Cross-national datasets** — Polity and V-Dem for regime characteristics, ANES
-  for U.S. opinion, Correlates of War, the World Values Survey; the field's shared
-  evidence base.
+  for U.S. opinion, Correlates of War, the World Values Survey; the shared evidence
+  base.
 - **Survey methodology** — sampling, question design, and embedded experiments to
-  measure opinion and test treatments while guarding against bias.
+  measure opinion and test treatments.
 - **Formal models** — game theory and social choice to derive the consequences of
-  actors' incentives before testing them.
+  incentives before testing them.
 - **Comparative case studies** — process tracing and structured comparison for the
-  mechanism the numbers cannot show.
+  mechanism numbers cannot show.
 
 ## Collaboration
 
@@ -226,57 +221,56 @@ Political science draws constantly from its neighbors: economists, whose
 rational-choice models and inference methods the field borrowed and extended;
 statisticians, on identification; sociologists, on social structure; and
 historians, who supply the long-run cases. Beyond the academy they advise
-policymakers, brief diplomats, and inform legislators, where the scholar's hedged
-finding meets the demand for a clear recommendation now — translated without
-overclaiming, and without becoming a partisan.
+policymakers, brief diplomats, and inform legislators, where the hedged finding
+meets the demand for a clear recommendation — translated without overclaiming, and
+without becoming a partisan.
 
 ## Ethics
 
 The political scientist studies power and is therefore courted by it. Core duties:
-keep the positive analysis honest even when the conclusion is politically
-unwelcome; disclose funding, assumptions, and the limits of the design rather than
-projecting false certainty; protect human subjects, especially in fieldwork under
-repressive regimes where candor can be dangerous; label normative claims as such
-rather than laundering advocacy as science; and weigh public influence, since a
-misread finding can move votes and lives. The hard cases — advising a government
-whose ends you distrust, releasing data that could be weaponized — expose the
-scholar who pretends the work is neutral.
+keep the positive analysis honest even when the conclusion is politically unwelcome;
+disclose funding, assumptions, and the limits of the design rather than projecting
+false certainty; protect human subjects, especially in fieldwork under repressive
+regimes where candor can be dangerous; label normative claims as such rather than
+laundering advocacy as science; and weigh public influence, since a misread finding
+can move votes and lives. The hard cases — advising a government whose ends you
+distrust, releasing data that could be weaponized — expose the scholar who pretends
+the work is neutral.
 
 ## Scenarios
 
-**Does foreign aid cause growth?** A naive study regresses growth on aid and calls
-the weak link proof that aid is useless. Aid is not assigned at random — donors send
-more to countries in crisis, so aid correlates with the very conditions that depress
-growth. That is endogeneity, and it biases the estimate. Rather than pile on
-controls, the political scientist looks for an instrument or natural experiment — a
-funding rule that shifted aid for reasons unrelated to a country's prospects — to
-approximate the counterfactual. The honest answer is conditional and bounded.
+**Does foreign aid cause growth?** A naive regression of growth on aid finds a weak
+link and calls aid useless. But aid is not assigned at random — donors send more to
+countries in crisis, so aid correlates with the very conditions that depress growth.
+That is endogeneity, and it biases the estimate. Rather than pile on controls, the
+political scientist looks for an instrument or natural experiment — a funding rule
+that shifted aid for reasons unrelated to a country's prospects — to approximate the
+counterfactual. The honest answer is conditional.
 
 **Why did this reform die?** A government's flagship bill collapses, and pundits
 blame the leader's weakness. The political scientist counts veto players first: two
 legislative chambers, a coalition partner, a constitutional court, a federal
-structure. Five independent gatekeepers, any one of which could block change, and
-the reform shifted the outcome too far from at least one. The structure predicted
-gridlock before the first vote; the leader's skill mattered only at the margin. The
-explanation lives at the institutional level, not the personal.
+structure. Five independent gatekeepers, any one of which could block change, and the
+reform shifted the outcome too far from at least one. The structure predicted gridlock
+before the first vote; the leader's skill mattered only at the margin. The explanation
+is institutional, not personal.
 
 **Will arming for defense make us safer?** Two states, each fearing the other,
-debate a military buildup framed as purely defensive. The realist sees the security
-dilemma: under anarchy, the neighbor cannot read intentions, only capabilities, and
-will arm in response, leaving both poorer and no safer — a prisoner's dilemma with
-guns. The political scientist specifies the conditions that change the payoff:
-whether offense or defense has the advantage, whether the move is observable,
-whether institutions can make commitments credible. The recommendation follows from
-the structure of the game, not from preference.
+debate a buildup framed as purely defensive. The realist sees the security dilemma:
+under anarchy, the neighbor reads capabilities, not intentions, and arms in response,
+leaving both poorer and no safer — a prisoner's dilemma with guns. The political
+scientist specifies the conditions that change the payoff: whether offense or defense
+has the advantage, whether the move is observable, whether institutions can make
+commitments credible. The recommendation follows from the structure of the game.
 
 ## Related Occupations
 
 The political scientist shares tools and questions with several fields but is
-defined by the rigorous study of power and collective choice. Economists supplied
-the rational-choice models and inference methods the discipline runs on; sociologists
-examine the social structures within which politics operates; statisticians push
-causal identification. Policy analysts translate findings into recommendations;
-diplomats and legislators are both objects of study and consumers of the analysis.
+defined by the rigorous study of power and collective choice. Economists supply the
+rational-choice models and inference methods the discipline runs on; sociologists
+the social structures within which politics operates; statisticians causal
+identification. Policy analysts translate findings into recommendations; diplomats
+and legislators are both objects of study and consumers of the analysis.
 
 ## References
 
