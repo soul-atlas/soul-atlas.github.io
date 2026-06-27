@@ -35,6 +35,29 @@ prompt-injection risk. Adding a record under `suggestions/` keeps every submissi
 visible and reviewable as a normal PR, while making it impossible to silently
 change a SOUL. Maintainer review is the gate; merging is never automatic.
 
+## Automated triage and one-command apply
+
+Two GitHub Actions close the loop on suggestion PRs:
+
+- **[`suggestion-review.yml`](../.github/workflows/suggestion-review.yml)** runs on
+  every suggestion PR. It reviews the record deterministically (canonical target
+  section, SOUL + section exist, concrete wording present, no script/HTML, no Style
+  Guide banned phrases), posts a sticky verdict comment, and labels the PR
+  `suggestion-review-passed` / `suggestion-review-failed`.
+- **[`suggestion-apply.yml`](../.github/workflows/suggestion-apply.yml)** listens for
+  a maintainer comment of **`/lgtm`**. If the commenter has write access and the PR
+  passed review, it applies the wording to the SOUL, deletes the record, runs
+  `npm run validate`, squash-merges, and triggers a deploy — automatically.
+
+Guardrails: review must pass first; only `OWNER`/`MEMBER`/`COLLABORATOR` comments
+trigger apply; auto-apply **replaces the whole target section** (the review comment
+shows exactly what); and it never sets `reviewers`/`last_reviewed`, so an applied
+suggestion stays a draft until a real practitioner verifies it.
+
+The logic lives in [`scripts/lib/suggestions.mjs`](../scripts/lib/suggestions.mjs)
+and is runnable locally: `npm run review:suggestion <record.md>` and
+`npm run apply:suggestion <record.md>`.
+
 ## Graceful degradation
 
 If `PUBLIC_SUGGEST_ENDPOINT` is not set at build time, the form still renders and

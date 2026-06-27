@@ -1,0 +1,93 @@
+name: Suggestion apply
+
+# When a maintainer comments /lgtm on a suggestion PR that passed automated
+# review, apply the wording to the SOUL, delete the record, validate, and
+# squash-merge — then trigger a deploy. Fully automatic by design; the human
+# /lgtm plus the review-passed label are the gates.
+
+on:
+  issue_comment:
+    types: [created]
+
+# Only privileged commenters, only on PRs, only when the comment says lgtm.
+jobs:
+  apply:
+    if: >-
+      github.event.issue.pull_request &&
+      (contains(github.event.comment.body, 'lgtm') || contains(github.event.comment.body, 'LGTM')) &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      actions: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PR: ${{ github.event.issue.number }}
+    steps:
+      - name: Acknowledge
+        run: gh api -X POST repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions -f content=eyes || true
+
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Gate — must be a reviewed suggestion PR
+        run: |
+          gh pr view "$PR" --json labels,files > pr.json
+          if ! jq -e '.labels[] | select(.name=="suggestion-review-passed")' pr.json >/dev/null; then
+            gh pr comment "$PR" --body "🚫 Can't auto-apply: this PR hasn't passed automated review (no \`suggestion-review-passed\` label). Resolve the review issues first."
+            exit 1
+          fi
+          if ! jq -e '.files[] | select(.path | startswith("suggestions/"))' pr.json >/dev/null; then
+            gh pr comment "$PR" --body "🚫 Can't auto-apply: this PR doesn't touch \`suggestions/\`."
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      - name: Check out the PR branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          gh pr checkout "$PR"
+
+      - name: Find changed suggestion records
+        id: changed
+        run: |
+          base=$(gh pr view "$PR" --json baseRefName -q .baseRefName)
+          files=$(git diff --name-only --diff-filter=AM "origin/${base}...HEAD" -- 'suggestions/**/*.md' | grep -v '/README.md$' || true)
+          if [ -z "$files" ]; then
+            gh pr comment "$PR" --body "🚫 Can't auto-apply: found no suggestion record in this PR."
+            exit 1
+          fi
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$files" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Apply suggestion(s)
+        run: node scripts/apply-suggestion.mjs ${{ steps.changed.outputs.files }}
+
+      - name: Validate
+        run: npm run validate
+
+      - name: Commit, push, merge, deploy
+        run: |
+          git commit -am "Apply suggestion via /lgtm by @${{ github.event.comment.user.login }}
+
+          Auto-applied after automated review + maintainer approval.
+          Co-Authored-By: ${{ github.event.comment.user.login }} <${{ github.event.comment.user.login }}@users.noreply.github.com>"
+          git push
+          gh pr merge "$PR" --squash --delete-branch
+          gh workflow run deploy.yml --ref ${{ github.event.repository.default_branch }}
+          gh pr comment "$PR" --body "✅ Applied and merged. The change is on \`main\` and a deploy was triggered. Thanks!"
+
+      - name: Report failure
+        if: failure()
+        run: |
+          gh pr comment "$PR" --body "⚠️ Auto-apply failed partway — see the [workflow logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}). Nothing was merged; a maintainer can apply it by hand." || true

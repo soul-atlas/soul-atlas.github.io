@@ -8,18 +8,42 @@ correction or practitioner review of a SOUL, opened as a PR by the
 These records are **not part of the corpus** and are not built into the site.
 They are a review queue.
 
-## For maintainers
+## What happens automatically
 
-When a `[suggestion]` or `[review]` PR comes in:
+1. **Automated review** ([`suggestion-review.yml`](../.github/workflows/suggestion-review.yml))
+   runs on every suggestion PR. It checks the record deterministically — target
+   section is canonical, the SOUL and section exist, there's concrete wording, no
+   script/HTML, no Style Guide banned phrases — posts a verdict comment, and labels
+   the PR `suggestion-review-passed` or `suggestion-review-failed`.
+2. **Maintainer approval.** A maintainer comments **`/lgtm`** (or `lgtm`). If the
+   PR passed review, [`suggestion-apply.yml`](../.github/workflows/suggestion-apply.yml)
+   then applies the wording to `occupations/<slug>/SOUL.md`, deletes the record,
+   runs `npm run validate`, squash-merges, and triggers a deploy — automatically.
+
+So in the happy path you only read the suggestion and type `/lgtm`.
+
+## The auto-apply rule (read before /lgtm)
+
+Auto-apply **replaces the entire target `## Section`** with the suggested wording —
+it can't do nuanced merges. The review comment shows exactly what will be replaced.
+If you want to keep some existing lines or merge by hand, edit the file yourself
+instead of using `/lgtm`.
+
+## Provenance
+
+Auto-apply does **not** set `reviewers` or `last_reviewed` — an applied suggestion
+is still a draft. Only mark a SOUL practitioner-reviewed when a person who does the
+work has actually vouched for it (add them to `reviewers`, set `last_reviewed`); that
+flips the badge from "AI-drafted · unverified" to "Practitioner-reviewed."
+
+## Doing it by hand
+
+If review failed, the suggestion needs nuance, or you'd rather not auto-merge:
 
 1. Read the record under `suggestions/<slug>/`.
-2. If it improves the SOUL, apply the wording to `occupations/<slug>/SOUL.md`
-   yourself (in the same PR or a follow-up) — don't just merge the record.
-3. If a practitioner verified the SOUL, add them to `reviewers` in
-   `metadata.yaml` and set `last_reviewed`. That flips the entry from
-   "AI-drafted · unverified" to "Practitioner-reviewed" on the site.
-4. Delete the record file before merging.
-5. Make sure `npm run validate` passes.
+2. Apply the wording to `occupations/<slug>/SOUL.md` yourself.
+3. Delete the record file.
+4. Make sure `npm run validate` passes, then merge.
 
-If a suggestion isn't right, thank the contributor and close the PR. The point is
-to make it effortless for someone who does the work to tell us where we're wrong.
+If a suggestion isn't right, thank the contributor and close the PR. The point is to
+make it effortless for someone who does the work to tell us where we're wrong.
