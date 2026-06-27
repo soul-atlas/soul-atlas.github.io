@@ -186,12 +186,15 @@ occasions, within a tight-margin business.
 
 ## Tools
 
-- **Cutting and design tools** — shears, knives, wire, tape, foam, vases.
-- **Fresh flowers and foliage** — the living, perishable medium.
-- **Conditioning and storage (cooler)** — to keep material fresh.
-- **Design knowledge** — the elements and principles applied to flowers.
-- **Horticultural knowledge** — flower behavior, care, and longevity.
-- **Sourcing relationships** — wholesalers and markets for fresh material.
+- **Floral foam (e.g. Oasis)** — water-retaining brick for fixed arrangements; soaked by floating it, never pushed under (dry pockets starve stems). Increasingly avoided as a microplastic — chicken-wire armatures and pin frogs are the sustainable alternatives.
+- **Kenzan / pin frog & chicken-wire armature** — reusable mechanics that hold stems in water without foam (ikebana lineage).
+- **Floral wire (#22–#26 gauge) & stem tape (floratape/Parafilm)** — for boutonnieres, corsages, and bouquet stems; lower gauge number means thicker wire.
+- **Floral knife, snips & rose strippers** — a knife drawn along the stem gives a clean angled cut; crushing shears on woody stems block water uptake.
+- **Water tubes/picks** — hydrate single stems in arch, cake, and installation work.
+- **Reach-in cooler (~34–38°F)** — the cold chain that buys vase life; ethylene-sensitive blooms kept away from ripening fruit.
+- **Flower food** — biocide + acidifier + sugar: the acid moves water up the stem, the biocide stops the bacterial slime that clogs it.
+- **Fresh flowers and foliage** — the living, perishable medium, chosen for season, color, form, and vase life.
+- **Sourcing relationships** — wholesalers, flower markets, and local growers for fresh, seasonal material.
 
 ## Collaboration
 
