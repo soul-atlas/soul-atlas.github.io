@@ -336,19 +336,31 @@ const base = import.meta.env.BASE_URL;
         }
       });
     }
-    if (filter) {
-      filter.addEventListener('change', () => {
-        const c = filter.value;
-        node.style('opacity', (d: any) => (!c || d.category === c ? 1 : 0.08));
-        link.style('opacity', (d: any) =>
-          !c || d.source.category === c || d.target.category === c ? 0.6 : 0.03,
-        );
-      });
+    // Category + kind filters HIDE non-matching nodes (and any edge touching a
+    // hidden node), rather than just dimming them. Both selects apply together.
+    const kindFilter = wrap.querySelector('[data-graph-kind-filter]') as HTMLSelectElement | null;
+    const nodeShown = (d: any) => {
+      const c = filter ? filter.value : '';
+      const k = kindFilter ? kindFilter.value : '';
+      return (!c || d.category === c) && (!k || (d.kind || 'occupation') === k);
+    };
+    function applyFilters() {
+      node.style('display', (d: any) => (nodeShown(d) ? null : 'none'));
+      link.style('display', (d: any) =>
+        nodeShown(d.source) && nodeShown(d.target) ? null : 'none',
+      );
+      if (count) {
+        const active = (filter && filter.value) || (kindFilter && kindFilter.value);
+        const vis = nodes.filter(nodeShown).length;
+        count.textContent = active
+          ? `${vis} of ${nodes.length} nodes`
+          : `${nodes.length} nodes · ${links.length} edges`;
+      }
     }
+    if (filter) filter.addEventListener('change', applyFilters);
 
     // Kind filter: populated from the kinds actually present in this graph, so
     // it only appears once the Atlas covers more than occupations.
-    const kindFilter = wrap.querySelector('[data-graph-kind-filter]') as HTMLSelectElement | null;
     if (kindFilter) {
       const present = [...new Set(nodes.map((n: any) => n.kind || 'occupation'))];
       if (present.length > 1) {
@@ -359,15 +371,7 @@ const base = import.meta.env.BASE_URL;
           kindFilter.appendChild(opt);
         }
         kindFilter.style.display = '';
-        kindFilter.addEventListener('change', () => {
-          const k = kindFilter.value;
-          node.style('opacity', (d: any) => (!k || (d.kind || 'occupation') === k ? 1 : 0.08));
-          link.style('opacity', (d: any) =>
-            !k || (d.source.kind || 'occupation') === k || (d.target.kind || 'occupation') === k
-              ? 0.6
-              : 0.03,
-          );
-        });
+        kindFilter.addEventListener('change', applyFilters);
       }
     }
   }
