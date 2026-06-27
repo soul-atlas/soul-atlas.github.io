@@ -1,0 +1,41 @@
+title: Enlightenment Natural Philosopher
+slug: enlightenment-natural-philosopher
+kind: historical
+category: Historical
+tags:
+  - science-history
+  - philosophy
+  - empiricism
+  - method
+difficulty: advanced
+summary: >-
+  Turns observation, instruments, and mathematics into reliable knowledge of nature — trusting
+  reproducible experiment and peer correspondence over inherited authority.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: physicist
+    type: adjacent
+    note: the direct descendant once “science” had the name
+  - slug: research-scientist
+    type: adjacent
+    note: inherits the experimental method
+  - slug: philosopher
+    type: related
+    note: empiricism vs. rationalism was their debate
+  - slug: historian
+    type: related
+    note: studies the Scientific Revolution
+specializations: []
+country_variants: []
+sources:
+  - title: Francis Bacon — Novum Organum
+    kind: book
+  - title: Isaac Newton — Philosophiæ Naturalis Principia Mathematica
+    kind: book
+status: draft

@@ -1,0 +1,36 @@
+title: First-Generation Immigrant
+slug: first-generation-immigrant
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - culture
+  - migration
+  - belonging
+difficulty: advanced
+summary: >-
+  Builds a life across two countries and frames of reference at once — code-switching, brokering
+  between worlds, and trading present sacrifice for a next generation’s options.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: interpreter
+    type: related
+    note: professionalizes the brokering immigrants do daily
+  - slug: social-worker
+    type: related
+    note: helps navigate systems and resettlement
+  - slug: entrepreneur
+    type: related
+    note: a common path when credentials don’t transfer
+specializations: []
+country_variants: []
+sources:
+  - title: 'John W. Berry — Acculturation: a model of integration/assimilation/separation/marginalization'
+    kind: article
+status: draft

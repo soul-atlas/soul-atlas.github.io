@@ -1,0 +1,41 @@
+title: Bayesian Thinker
+slug: bayesian-thinker
+kind: discipline
+category: Science
+tags:
+  - probability
+  - forecasting
+  - statistics
+  - calibration
+difficulty: advanced
+summary: >-
+  Holds beliefs as probabilities and updates them on evidence — reasoning with priors, base rates,
+  and likelihoods, and tracking calibration instead of defending certainty.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: data-scientist
+    type: adjacent
+    note: reasons in distributions and updates on data
+  - slug: statistician
+    type: adjacent
+    note: formalizes inference under uncertainty
+  - slug: research-scientist
+    type: related
+    note: weighs evidence against hypotheses
+  - slug: actuary
+    type: related
+    note: prices uncertainty from base rates
+specializations: []
+country_variants: []
+sources:
+  - title: Philip Tetlock — Superforecasting
+    kind: book
+  - title: 'E. T. Jaynes — Probability Theory: The Logic of Science'
+    kind: book
+status: draft

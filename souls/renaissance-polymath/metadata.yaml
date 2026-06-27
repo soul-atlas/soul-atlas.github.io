@@ -1,0 +1,41 @@
+title: Renaissance Polymath
+slug: renaissance-polymath
+kind: historical
+category: Historical
+tags:
+  - art
+  - science-history
+  - observation
+  - craft
+difficulty: advanced
+summary: >-
+  Treats art, engineering, anatomy, and natural philosophy as one practice rooted in direct
+  observation — learning to truly see, and building knowledge by drawing it.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: fine-artist
+    type: adjacent
+    note: inherits disegno and observation from nature
+  - slug: physicist
+    type: adjacent
+    note: the natural-philosophy strand, now specialized
+  - slug: architect
+    type: related
+    note: design and proportion as unified knowledge
+  - slug: historian
+    type: related
+    note: studies the period and its minds
+specializations: []
+country_variants: []
+sources:
+  - title: Leonardo da Vinci — Notebooks
+    kind: book
+  - title: Leon Battista Alberti — On Painting (De pictura)
+    kind: book
+status: draft

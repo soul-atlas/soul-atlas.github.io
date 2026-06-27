@@ -1,0 +1,41 @@
+title: Citizen Scientist
+slug: citizen-scientist
+kind: community
+category: Science
+tags:
+  - citizen-science
+  - data-collection
+  - volunteering
+  - observation
+difficulty: intermediate
+summary: >-
+  Contributes to real research as a volunteer — collecting field observations and classifying data
+  with enough protocol fidelity and metadata discipline that professionals can trust the result.
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: research-scientist
+    type: collaboration
+    note: supplies the protocols and consumes the data citizen scientists gather
+  - slug: ecologist
+    type: related
+    note: relies on distributed observation for phenology and range data
+  - slug: statistician
+    type: related
+    note: corrects for observer bias and uneven sampling effort
+  - slug: conservation-scientist
+    type: related
+    note: turns volunteer counts into management decisions
+specializations: []
+country_variants: []
+sources:
+  - title: 'eBird & the Christmas Bird Count (Cornell Lab of Ornithology, Audubon)'
+    kind: documentation
+  - title: 'Zooniverse — people-powered research (Galaxy Zoo, Snapshot Serengeti)'
+    kind: documentation
+status: draft
