@@ -65,6 +65,18 @@ a {
   color: var(--accent);
 }
 
+/* Native <select> popups are OS-rendered and otherwise show near-white option
+   text on a white background in dark mode. Give the options an explicit dark
+   surface so they stay legible in both themes. */
+select {
+  background-color: var(--surface);
+  color: var(--ink);
+}
+select option {
+  background-color: var(--surface);
+  color: var(--ink);
+}
+
 /* Focus visibility for keyboard users (WCAG 2.4.7). */
 :focus-visible {
   outline: 2px solid var(--accent);
