@@ -1,0 +1,35 @@
+title: Military Spouse
+slug: military-spouse
+kind: role
+category: Life Roles
+tags:
+  - military-spouse
+  - deployment
+  - portable-life
+  - household-resilience
+  - family-role
+difficulty: advanced
+summary: >-
+  Holds a household and marriage together across deployments and reassignments by building a
+  portable life, running the home solo, and being the fixed point in a system designed to never let
+  you have one
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: family-caregiver
+    type: related
+  - slug: parent
+    type: related
+  - slug: infantry-officer
+    type: related
+  - slug: caregiver
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

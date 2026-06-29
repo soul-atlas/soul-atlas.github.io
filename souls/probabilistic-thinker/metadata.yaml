@@ -1,0 +1,35 @@
+title: Probabilistic Thinker
+slug: probabilistic-thinker
+kind: discipline
+category: Science
+tags:
+  - probability
+  - decision-making
+  - expected-value
+  - calibration
+  - risk
+difficulty: advanced
+summary: >-
+  Holds every belief as a distribution and every decision as a bet sized to the odds and the stakes,
+  judging the wager by its expected value rather than its one noisy outcome
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: bayesian-thinker
+    type: related
+    note: closely allied updating stance
+  - slug: statistician
+    type: related
+    note: formalizes uncertainty
+  - slug: actuary
+    type: related
+    note: prices risk in probabilities
+specializations: []
+country_variants: []
+sources: []
+status: draft

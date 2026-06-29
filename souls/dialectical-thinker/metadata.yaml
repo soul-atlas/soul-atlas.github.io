@@ -1,0 +1,35 @@
+title: Dialectical Thinker
+slug: dialectical-thinker
+kind: discipline
+category: Historical
+tags:
+  - dialectics
+  - synthesis
+  - contradiction
+  - hegel
+  - critical-thinking
+difficulty: advanced
+summary: >-
+  Treats contradiction as the engine of thought: steelmans both poles, hunts the shared false
+  premise, and forges a synthesis that sublates rather than splits the difference
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: philosopher
+    type: related
+    note: works the tradition this practices
+  - slug: sociologist
+    type: related
+    note: reads society through opposing forces
+  - slug: mediator
+    type: related
+    note: reconciles opposing claims
+specializations: []
+country_variants: []
+sources: []
+status: draft

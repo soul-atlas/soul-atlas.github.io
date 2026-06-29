@@ -1,0 +1,35 @@
+title: Foster Parent
+slug: foster-parent
+kind: role
+category: Life Roles
+tags:
+  - foster-care
+  - child-welfare
+  - trauma-informed-care
+  - attachment
+  - reunification
+difficulty: advanced
+summary: >-
+  How a foster parent thinks: love a child fully while preparing to let go, read trauma behavior as
+  communication, and work the court-and-caseworker system without making the child pay for its
+  uncertainty
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: parent
+    type: related
+  - slug: social-worker
+    type: related
+  - slug: caregiver
+    type: related
+  - slug: childcare-worker
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

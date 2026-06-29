@@ -1,0 +1,35 @@
+title: Ecological Thinker
+slug: ecological-thinker
+kind: discipline
+category: Science
+tags:
+  - ecology
+  - systems
+  - second-order-effects
+  - consequences
+  - discipline
+difficulty: advanced
+summary: >-
+  Widens the boundary until the externality is back inside it, tracing every organism, intervention,
+  or decision through its web of niches, feedbacks, and downstream consequences
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: ecologist
+    type: related
+    note: studies the systems this mind intuits
+  - slug: conservation-scientist
+    type: related
+    note: acts on interconnection
+  - slug: systems-thinker
+    type: related
+    note: shares the feedback-loop lens
+specializations: []
+country_variants: []
+sources: []
+status: draft

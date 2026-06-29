@@ -1,0 +1,35 @@
+title: Chronic Illness Patient
+slug: chronic-illness-patient
+kind: role
+category: Life Roles
+tags:
+  - chronic-illness
+  - patient-expertise
+  - self-management
+  - spoon-theory
+  - healthcare
+difficulty: advanced
+summary: >-
+  The resident expert on a body doctors only sample in fifteen-minute slices — budgeting finite
+  energy like capital, engineering clinical credibility, and running N-of-1 experiments to manage
+  what cannot be cured
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: family-caregiver
+    type: related
+  - slug: caregiver
+    type: related
+  - slug: physician
+    type: related
+  - slug: physical-therapist
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

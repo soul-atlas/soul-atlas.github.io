@@ -1,0 +1,34 @@
+title: Town Crier
+slug: town-crier
+kind: historical
+category: Historical
+tags:
+  - town-crier
+  - historical
+  - public-proclamation
+  - oral-communication
+  - verbatim-fidelity
+difficulty: advanced
+summary: >-
+  The voice that publishes authority to an illiterate crowd — ring the bell to seize attention, then
+  deliver the proclamation verbatim, because a word altered is the king's word usurped
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: announcer
+    type: related
+  - slug: broadcast-journalist
+    type: related
+  - slug: public-relations-specialist
+    type: related
+  - slug: journalist
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

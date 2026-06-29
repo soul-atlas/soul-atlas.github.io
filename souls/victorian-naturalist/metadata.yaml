@@ -1,0 +1,35 @@
+title: Victorian Naturalist
+slug: victorian-naturalist
+kind: historical
+category: Historical
+tags:
+  - natural-history
+  - natural-theology
+  - taxonomy
+  - victorian-science
+  - collecting
+difficulty: advanced
+summary: >-
+  How a gentleman-amateur reads Creation as a cabinet to be collected, determined, and figured —
+  judging by the graded series, honoring priority, and recording the fact even when it troubles the
+  argument from design
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: biologist
+    type: related
+  - slug: botanist
+    type: related
+  - slug: zoologist
+    type: related
+  - slug: abteeeen-darwin
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

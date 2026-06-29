@@ -1,0 +1,35 @@
+title: Randonneur
+slug: long-distance-cyclist
+kind: community
+category: Sports
+tags:
+  - randonneuring
+  - endurance-cycling
+  - self-supported
+  - time-management
+  - sleep-deprivation
+difficulty: advanced
+summary: >-
+  Rides absurd distances self-supported inside strict time limits, banking minutes against each
+  control's closing while fueling, sleep, and a quitting mind get managed on a clock that never
+  stops
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: athlete
+    type: related
+  - slug: logistics-coordinator
+    type: related
+  - slug: meteorologist
+    type: related
+  - slug: auto-mechanic
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

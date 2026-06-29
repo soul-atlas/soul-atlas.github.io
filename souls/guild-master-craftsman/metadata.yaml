@@ -1,0 +1,34 @@
+title: Guild Master Craftsman
+slug: guild-master-craftsman
+kind: historical
+category: Historical
+tags:
+  - historical
+  - craftsmanship
+  - guild
+  - apprenticeship
+  - trade-mystery
+difficulty: advanced
+summary: >-
+  Thinks like a custodian of a guarded craft secret, judging quality as a sworn oath, price as
+  justice, and a man's honor as the whole brotherhood's shared purse
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: carpenter
+    type: related
+  - slug: woodworker
+    type: related
+  - slug: jeweler
+    type: related
+  - slug: mason
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

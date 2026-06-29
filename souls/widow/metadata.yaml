@@ -1,0 +1,35 @@
+title: Widowed Person
+slug: widow
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - grief
+  - bereavement
+  - self-reconstruction
+  - loss
+difficulty: advanced
+summary: >-
+  Treats widowhood as identity reconstruction: a self that was structurally fused into a "we" must
+  sort what is genuinely its own from what was only the marriage's, while grief ebbs and ambushes
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: funeral-director
+    type: related
+    note: the professional at the threshold of loss
+  - slug: mental-health-counselor
+    type: related
+    note: grief support
+  - slug: clergy
+    type: related
+    note: often walks alongside the bereaved
+specializations: []
+country_variants: []
+sources: []
+status: draft

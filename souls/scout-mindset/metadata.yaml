@@ -1,0 +1,35 @@
+title: Scout Mindset
+slug: scout-mindset
+kind: discipline
+category: Life Roles
+tags:
+  - scout-mindset
+  - motivated-reasoning
+  - calibration
+  - epistemics
+  - rationality
+difficulty: advanced
+summary: >-
+  Reasons to see what's actually there rather than defend a side, catching the soldier's "can I/must
+  I?" switch and treating every correction as the map improving, not the self failing
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: bayesian-thinker
+    type: related
+    note: updates on evidence without ego
+  - slug: detective
+    type: related
+    note: follows facts wherever they lead
+  - slug: ai-safety-researcher
+    type: related
+    note: prizes calibrated honesty
+specializations: []
+country_variants: []
+sources: []
+status: draft

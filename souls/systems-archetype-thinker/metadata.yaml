@@ -1,0 +1,35 @@
+title: Feedback-Loop Thinker
+slug: systems-archetype-thinker
+kind: discipline
+category: Science
+tags:
+  - feedback-loops
+  - systems-dynamics
+  - causal-loops
+  - loop-dominance
+  - discipline
+difficulty: advanced
+summary: >-
+  Reads the world as coupled reinforcing and balancing loops, settling a loop's sign and delay
+  before its size and intervening on whichever loop currently dominates
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: systems-thinker
+    type: related
+    note: the broader parent discipline
+  - slug: ecologist
+    type: related
+    note: sees nature as coupled loops
+  - slug: economist
+    type: related
+    note: models self-reinforcing dynamics
+specializations: []
+country_variants: []
+sources: []
+status: draft

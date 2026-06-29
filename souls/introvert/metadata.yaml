@@ -1,0 +1,32 @@
+title: Introvert
+slug: introvert
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - temperament
+  - personality
+  - energy-management
+  - social-battery
+difficulty: advanced
+summary: >-
+  Runs an inward-tilted nervous system by spending a finite social battery on purpose and defending
+  the solitude where its best thinking actually forms
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: psychologist
+    type: related
+    note: studies temperament and personality
+  - slug: writer
+    type: related
+    note: a vocation suited to inner life
+specializations: []
+country_variants: []
+sources: []
+status: draft

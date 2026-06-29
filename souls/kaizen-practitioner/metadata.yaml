@@ -1,0 +1,35 @@
+title: Kaizen Practitioner
+slug: kaizen-practitioner
+kind: discipline
+category: Business
+tags:
+  - kaizen
+  - lean
+  - continuous-improvement
+  - toyota-production-system
+  - process-improvement
+difficulty: advanced
+summary: >-
+  Hunts waste at the gemba and runs relentless small PDCA experiments, standardizing each gain so a
+  thousand one-percents compound past any heroic leap
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: operations-manager
+    type: related
+    note: applies continuous improvement
+  - slug: industrial-engineer
+    type: related
+    note: engineers waste out of processes
+  - slug: quality-control-inspector
+    type: related
+    note: hunts the next small defect
+specializations: []
+country_variants: []
+sources: []
+status: draft

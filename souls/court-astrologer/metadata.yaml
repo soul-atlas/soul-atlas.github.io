@@ -1,0 +1,34 @@
+title: Court Astrologer
+slug: court-astrologer
+kind: historical
+category: Historical
+tags:
+  - historical
+  - astrology
+  - divination
+  - court-counsel
+  - judgment-under-fate
+difficulty: advanced
+summary: >-
+  Reads fate from the exact moment, judging a dynasty's nativities and elections by the lord of the
+  house and a quorum of testimony — and knowing when the strictures forbid judgment
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: astronomer
+    type: related
+  - slug: diplomat
+    type: related
+  - slug: meteorologist
+    type: related
+  - slug: policy-analyst
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

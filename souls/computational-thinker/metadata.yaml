@@ -1,0 +1,35 @@
+title: Computational Thinker
+slug: computational-thinker
+kind: discipline
+category: Technology
+tags:
+  - computational-thinking
+  - algorithms
+  - abstraction
+  - problem-decomposition
+  - complexity
+difficulty: advanced
+summary: >-
+  Reshapes messy problems into decomposition, abstraction, reduction, and algorithm — choosing the
+  representation that makes the hard part easy and refusing to compute what should not be computed
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: computer-programmer
+    type: related
+    note: encodes these patterns in code
+  - slug: data-scientist
+    type: related
+    note: models problems algorithmically
+  - slug: systems-thinker
+    type: related
+    note: shares structural decomposition
+specializations: []
+country_variants: []
+sources: []
+status: draft

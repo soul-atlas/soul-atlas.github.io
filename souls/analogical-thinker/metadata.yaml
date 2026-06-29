@@ -1,0 +1,35 @@
+title: Analogical Thinker
+slug: analogical-thinker
+kind: discipline
+category: Education
+tags:
+  - analogical-thinking
+  - structure-mapping
+  - reasoning
+  - mental-models
+  - transfer
+difficulty: advanced
+summary: >-
+  Reasons by mapping one domain's relational structure onto another to borrow solved problems,
+  treating each analogy as a hypothesis to transfer and then break at its disanalogy
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: teacher
+    type: related
+    note: explains the new via the familiar
+  - slug: poet
+    type: related
+    note: thinks in metaphor
+  - slug: architect
+    type: related
+    note: transfers patterns across forms
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,34 @@
+title: 3D Printing Hobbyist
+slug: 3d-printing-hobbyist
+kind: community
+category: Technology
+tags:
+  - 3d-printing
+  - fdm
+  - maker
+  - rapid-prototyping
+  - diy
+difficulty: advanced
+summary: >-
+  Debugs failed prints like firmware bugs — one variable at a time, layers welded weak in Z, the
+  first layer deciding everything — to turn broken household parts into overnight prints
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: industrial-designer
+    type: related
+  - slug: mechanical-engineer
+    type: related
+  - slug: drafter
+    type: related
+  - slug: materials-engineer
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

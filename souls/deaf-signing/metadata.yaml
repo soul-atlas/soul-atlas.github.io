@@ -1,0 +1,36 @@
+title: Deaf Signer (Big-D)
+slug: deaf-signing
+kind: identity
+category: Life Roles
+tags:
+  - deaf-culture
+  - sign-language
+  - identity
+  - disability-rights
+  - linguistics
+difficulty: advanced
+summary: >-
+  Thinks in visual-spatial language and reads deafness as cultural identity and Deaf gain, refusing
+  the medical deficit frame while guarding the language's sideways transmission to the next
+  generation
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: audiologist
+    type: related
+    note: the medical lens Deaf culture often pushes back on
+  - slug: interpreter
+    type: related
+    note: sign-language interpreters bridge the worlds
+  - slug: speech-language-pathologist
+    type: related
+    note: a clinical counterpart with contested aims
+specializations: []
+country_variants: []
+sources: []
+status: draft

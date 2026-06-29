@@ -1,0 +1,36 @@
+title: Second-Order Thinker
+slug: second-order-thinker
+kind: discipline
+category: Business
+tags:
+  - systems-thinking
+  - consequences
+  - incentives
+  - feedback-loops
+  - decision-making
+difficulty: advanced
+summary: >-
+  Keeps asking 'and then what?' past the obvious first effect, tracing reactions and feedback loops
+  until the dominant downstream consequence — usually late, diffuse, and opposite in sign — decides
+  the call
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: economist
+    type: related
+    note: traces downstream incentives
+  - slug: policy-analyst
+    type: related
+    note: anticipates unintended effects
+  - slug: systems-thinker
+    type: related
+    note: shares the ripple-tracing lens
+specializations: []
+country_variants: []
+sources: []
+status: draft

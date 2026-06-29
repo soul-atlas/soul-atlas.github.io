@@ -1,0 +1,35 @@
+title: Rural-to-Urban Migrant
+slug: rural-to-urban-migrant
+kind: identity
+category: Life Roles
+tags:
+  - migration
+  - rural-urban
+  - identity
+  - belonging
+  - social-capital
+difficulty: advanced
+summary: >-
+  Runs country social reflexes inside a city built for strangers — switching tempo on purpose,
+  building weak ties to replace inherited trust, and holding two Americas as one life
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: farmer
+    type: related
+    note: the world left behind
+  - slug: urban-planner
+    type: related
+    note: designs the destination city
+  - slug: first-generation-immigrant
+    type: related
+    note: a parallel relocation identity
+specializations: []
+country_variants: []
+sources: []
+status: draft

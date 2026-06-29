@@ -1,0 +1,35 @@
+title: PTA Organizer
+slug: pta-organizer
+kind: role
+category: Life Roles
+tags:
+  - pta
+  - volunteer-management
+  - school-fundraising
+  - community-organizing
+  - nonprofit
+difficulty: advanced
+summary: >-
+  Runs a school's volunteer machine with responsibility but no authority — spending volunteer hours,
+  donated dollars, and social capital without going bankrupt in any one, while keeping the cash box
+  visibly clean
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: event-planner
+    type: related
+  - slug: community-organizer
+    type: related
+  - slug: fundraiser
+    type: related
+  - slug: school-principal
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Naturalized Citizen
+slug: naturalized-citizen
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - citizenship
+  - belonging
+  - naturalization
+  - patriotism
+difficulty: advanced
+summary: >-
+  Holds citizenship as an examined choice rather than an inheritance, welding loyalty to criticism
+  and refusing both probation-mind and the gratitude muzzle
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: first-generation-immigrant
+    type: related
+    note: the prior stage of the same journey
+  - slug: customs-officer
+    type: related
+    note: the system's gatekeeping side
+  - slug: lawyer
+    type: related
+    note: immigration law shapes the path
+specializations: []
+country_variants: []
+sources: []
+status: draft

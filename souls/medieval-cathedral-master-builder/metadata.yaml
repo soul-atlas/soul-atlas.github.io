@@ -1,0 +1,34 @@
+title: Cathedral Master Builder
+slug: medieval-cathedral-master-builder
+kind: historical
+category: Historical
+tags:
+  - medieval
+  - architecture
+  - gothic
+  - masonry
+  - historical
+difficulty: advanced
+summary: >-
+  Holds an unbuildable hundred-year church in one head as templates and thrust-lines, sequencing
+  stone so the half-built bay stands as soundly as the finished one
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: architect
+    type: related
+  - slug: structural-engineer
+    type: related
+  - slug: mason
+    type: related
+  - slug: construction-manager
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Self-Hosting Advocate
+slug: self-hosted-software-advocate
+kind: community
+category: Technology
+tags:
+  - self-hosting
+  - data-sovereignty
+  - homelab
+  - privacy
+  - open-source
+difficulty: advanced
+summary: >-
+  Treats letting someone else own your data as a worse deal than the labor of running it yourself,
+  but counts the sovereignty tax honestly: backups you've actually restored, ports you don't expose,
+  and the family who are your real SLA
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: systems-administrator
+    type: related
+  - slug: open-source-maintainer
+    type: related
+  - slug: security-engineer
+    type: related
+  - slug: network-engineer
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

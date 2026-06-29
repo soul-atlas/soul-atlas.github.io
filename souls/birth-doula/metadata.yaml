@@ -1,0 +1,35 @@
+title: Birth Doula
+slug: birth-doula
+kind: role
+category: Life Roles
+tags:
+  - birth-doula
+  - labor-support
+  - patient-advocacy
+  - informed-consent
+  - childbirth
+difficulty: advanced
+summary: >-
+  Holds a laboring person's voice when labor takes it away — brokering informed consent and reading
+  the green/red clinical tempo, never crossing into the clinical lane or replacing the patient's own
+  choice
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: midwife
+    type: related
+  - slug: obstetrician-gynecologist
+    type: related
+  - slug: new-parent
+    type: related
+  - slug: registered-nurse
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,36 @@
+title: Pragmatist
+slug: pragmatist
+kind: discipline
+category: Historical
+tags:
+  - pragmatism
+  - consequences
+  - fallibilism
+  - inquiry
+  - philosophy
+difficulty: advanced
+summary: >-
+  Judges every idea by the concrete difference it makes in practice — cashing claims out into
+  testable consequences, treating beliefs as revisable tools, and dissolving disputes no observation
+  could settle
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: philosopher
+    type: related
+    note: works the American pragmatist tradition
+  - slug: entrepreneur
+    type: related
+    note: values what actually ships
+  - slug: engineering-manager
+    type: related
+    note: optimizes for what works in the field
+specializations: []
+country_variants: []
+sources: []
+status: draft

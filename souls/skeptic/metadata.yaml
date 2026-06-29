@@ -1,0 +1,32 @@
+title: Philosophical Skeptic
+slug: skeptic
+kind: discipline
+category: Historical
+tags:
+  - skepticism
+  - epistemology
+  - epoche
+  - fallibilism
+  - critical-thinking
+difficulty: advanced
+summary: >-
+  Apportions belief to evidence and treats suspension of judgment as a verdict, turning the blade of
+  doubt inward before aiming it at anyone else
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: philosopher
+    type: related
+    note: works the skeptical tradition
+  - slug: detective
+    type: related
+    note: withholds belief pending proof
+specializations: []
+country_variants: []
+sources: []
+status: draft

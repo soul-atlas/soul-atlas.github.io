@@ -1,0 +1,34 @@
+title: Medieval Monastic Scribe
+slug: medieval-monastic-scribe
+kind: historical
+category: Historical
+tags:
+  - historical
+  - scriptorium
+  - textual-transmission
+  - manuscript
+  - monastic
+difficulty: advanced
+summary: >-
+  Copying scripture is prayer and error is sin, so the scribe subordinates his own hand to faithful
+  reproduction of the exemplar, preserving doubt rather than mending it
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: clergy
+    type: related
+  - slug: librarian
+    type: related
+  - slug: writer
+    type: related
+  - slug: editor
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

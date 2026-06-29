@@ -1,0 +1,36 @@
+title: Empiricist
+slug: empiricist
+kind: discipline
+category: Science
+tags:
+  - empiricism
+  - scientific-method
+  - falsification
+  - experiment-design
+  - causal-inference
+difficulty: advanced
+summary: >-
+  Trusts only what observation and controlled experiment can show, treating every untested belief as
+  a hypothesis owed a confrontation with data and demanding "compared to what?" before any causal
+  claim
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: research-scientist
+    type: related
+    note: lives by experiment
+  - slug: citizen-scientist
+    type: related
+    note: tests claims by measuring
+  - slug: enlightenment-natural-philosopher
+    type: related
+    note: historical root of the stance
+specializations: []
+country_variants: []
+sources: []
+status: draft

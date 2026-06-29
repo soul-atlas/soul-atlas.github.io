@@ -1,0 +1,35 @@
+title: Room Parent
+slug: room-parent
+kind: role
+category: Life Roles
+tags:
+  - room-parent
+  - school-volunteer
+  - classroom-liaison
+  - parent-coordination
+  - education-support
+difficulty: advanced
+summary: >-
+  Converts scattered parent goodwill into reliable logistics for one teacher — subtracting from her
+  load, never coercing volunteers, designing every ask so the least-resourced family can opt out
+  unseen
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: teacher
+    type: related
+  - slug: event-planner
+    type: related
+  - slug: parent
+    type: related
+  - slug: kindergarten-teacher
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Organ Donor Advocate
+slug: organ-donor-advocate
+kind: role
+category: Life Roles
+tags:
+  - organ-donation
+  - advocacy
+  - persuasion
+  - public-health
+  - transplantation
+difficulty: advanced
+summary: >-
+  Captures the organ donor advocate's judgment: that consent, not surgery, is the binding
+  constraint, and the craft is answering a specific fear with a precise truth while never crossing
+  into the OPO's bedside consent role or NOTA's payment line
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: community-health-worker
+    type: related
+  - slug: fundraiser
+    type: related
+  - slug: surgeon
+    type: related
+  - slug: community-organizer
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

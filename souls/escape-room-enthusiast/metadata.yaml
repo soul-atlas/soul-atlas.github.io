@@ -1,0 +1,35 @@
+title: Escape Room Enthusiast
+slug: escape-room-enthusiast
+kind: community
+category: Entertainment
+tags:
+  - escape-room
+  - puzzle-solving
+  - teamwork
+  - authorial-intent
+  - community
+difficulty: advanced
+summary: >-
+  Reads a locked room as a designed conversation — infers the author's intent, treats it as a
+  lock-and-key state machine, parallelizes labor across the team, and spends hints like currency
+  while savoring the mechanism over the clock
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: detective
+    type: related
+  - slug: systems-thinker
+    type: related
+  - slug: set-designer
+    type: related
+  - slug: event-planner
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

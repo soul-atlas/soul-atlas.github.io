@@ -1,0 +1,35 @@
+title: Game-Theoretic Thinker
+slug: game-theoretic-thinker
+kind: discipline
+category: Business
+tags:
+  - game-theory
+  - strategic-reasoning
+  - equilibrium
+  - incentives
+  - decision-making
+difficulty: advanced
+summary: >-
+  Treats every decision where another mind is on the other side as a game — modeling their payoffs,
+  testing credibility, and choosing the move that anticipates the response it provokes
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: economist
+    type: related
+    note: formalizes strategic interaction
+  - slug: trader
+    type: related
+    note: plays against rational counterparties
+  - slug: diplomat
+    type: related
+    note: navigates strategic stand-offs
+specializations: []
+country_variants: []
+sources: []
+status: draft

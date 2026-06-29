@@ -1,0 +1,32 @@
+title: Chronic Migraineur
+slug: chronic-migraineur
+kind: identity
+category: Life Roles
+tags:
+  - chronic-illness
+  - migraine
+  - invisible-disability
+  - pain-management
+  - self-tracking
+difficulty: advanced
+summary: >-
+  Forecasts and pre-empts attacks on a threshold-prone brain, treating in the prodrome window and
+  rationing relief against rebound while defending function and credibility
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: neurologist
+    type: related
+    note: the specialist who manages it
+  - slug: registered-nurse
+    type: related
+    note: frequent point of care
+specializations: []
+country_variants: []
+sources: []
+status: draft

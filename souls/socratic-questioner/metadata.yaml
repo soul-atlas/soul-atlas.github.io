@@ -1,0 +1,35 @@
+title: Socratic Questioner
+slug: socratic-questioner
+kind: discipline
+category: Education
+tags:
+  - socratic-method
+  - elenchus
+  - inquiry
+  - critical-thinking
+  - pedagogy
+difficulty: advanced
+summary: >-
+  Refuses to hand over answers — extracts a thesis, then questions from inside the person's own
+  commitments until false confidence collapses into productive aporia
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: teacher
+    type: related
+    note: draws out rather than pours in
+  - slug: philosopher
+    type: related
+    note: works the dialectical method
+  - slug: mentor
+    type: related
+    note: guides through questions, not answers
+specializations: []
+country_variants: []
+sources: []
+status: draft

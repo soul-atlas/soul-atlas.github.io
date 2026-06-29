@@ -1,0 +1,32 @@
+title: Perpetual Nomad
+slug: chronic-traveler
+kind: identity
+category: Life Roles
+tags:
+  - nomad
+  - minimalism
+  - geoarbitrage
+  - remote-work
+  - identity
+difficulty: advanced
+summary: >-
+  Treats permanence as a cost and movement as the default, pricing every possession as a tax on
+  mobility and diagnosing whether the itch to leave is a real signal or just running away
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: travel-agent
+    type: related
+    note: the industry around mobility
+  - slug: flight-attendant
+    type: related
+    note: a life lived in transit
+specializations: []
+country_variants: []
+sources: []
+status: draft

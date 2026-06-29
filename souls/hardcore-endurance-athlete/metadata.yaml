@@ -1,0 +1,35 @@
+title: Endurance Athlete
+slug: hardcore-endurance-athlete
+kind: identity
+category: Sports
+tags:
+  - endurance-athlete
+  - suffering-as-practice
+  - central-governor
+  - training-periodization
+  - identity
+difficulty: advanced
+summary: >-
+  Treats suffering as the one honest language and chases the quiet place past exhaustion, rationing
+  a finite store of depletion while guarding against the sport becoming an anesthetic
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: athlete
+    type: related
+    note: the broader competitive identity
+  - slug: exercise-physiologist
+    type: related
+    note: the science of endurance
+  - slug: personal-trainer
+    type: related
+    note: the coaching side
+specializations: []
+country_variants: []
+sources: []
+status: draft

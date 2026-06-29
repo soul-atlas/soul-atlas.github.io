@@ -1,0 +1,34 @@
+title: Mechanical Keyboard Enthusiast
+slug: mechanical-keyboard-enthusiast
+kind: community
+category: Technology
+tags:
+  - mechanical-keyboards
+  - switches
+  - acoustics
+  - diy-hardware
+  - hobbyist-community
+difficulty: advanced
+summary: >-
+  Treats the most-touched tool on the desk as tunable, trusting hands over spec sheets and bisecting
+  the switch-plate-case stack to chase a sound and feel
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: computer-hardware-engineer
+    type: related
+  - slug: embedded-systems-engineer
+    type: related
+  - slug: industrial-designer
+    type: related
+  - slug: software-engineer
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

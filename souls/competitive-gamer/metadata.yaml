@@ -1,0 +1,35 @@
+title: Competitive Gamer
+slug: competitive-gamer
+kind: identity
+category: Entertainment
+tags:
+  - gaming
+  - esports
+  - competition
+  - deliberate-practice
+  - mental-game
+difficulty: advanced
+summary: >-
+  Treats reflexes and meta-strategy as a craft to grind, thinking in frames and matchups and
+  trusting the rank as the only honest scoreboard while fixing the input instead of blaming the loss
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: game-developer
+    type: related
+    note: builds the worlds they compete in
+  - slug: athlete
+    type: related
+    note: shares the training-and-ranking mindset
+  - slug: sports-analyst
+    type: related
+    note: the analytics of competition
+specializations: []
+country_variants: []
+sources: []
+status: draft

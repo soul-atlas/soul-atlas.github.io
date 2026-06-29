@@ -1,0 +1,36 @@
+title: Adoptee
+slug: adoptee
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - adoption
+  - belonging
+  - search-and-reunion
+  - genealogical-bewilderment
+difficulty: advanced
+summary: >-
+  Holds two families and a known origin-gap at once, reading the missing genetic mirror as a
+  structural absence rather than ingratitude, and choosing whether to search by separating facts a
+  reunion can deliver from feelings it cannot
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: genetic-counselor
+    type: related
+    note: the medical-history gap adoptees face
+  - slug: social-worker
+    type: related
+    note: the adoption system
+  - slug: psychologist
+    type: related
+    note: studies identity and attachment
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Counterfactual Thinker
+slug: counterfactual-thinker
+kind: discipline
+category: Historical
+tags:
+  - counterfactual-reasoning
+  - causal-inference
+  - potential-outcomes
+  - possible-worlds
+  - discipline
+difficulty: advanced
+summary: >-
+  Treats causation as the gap between what happened and the nearest world where one thing was
+  otherwise; refuses to credit a cause until the comparison world is named
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: historian
+    type: related
+    note: weighs roads not taken
+  - slug: economist
+    type: related
+    note: estimates the counterfactual
+  - slug: detective
+    type: related
+    note: tests alternative explanations
+specializations: []
+country_variants: []
+sources: []
+status: draft

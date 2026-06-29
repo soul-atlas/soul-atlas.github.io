@@ -1,0 +1,36 @@
+title: Reductionist
+slug: reductionist
+kind: discipline
+category: Science
+tags:
+  - reductionism
+  - mechanism
+  - decomposition
+  - scientific-method
+  - philosophy-of-science
+difficulty: advanced
+summary: >-
+  Explains a whole by cutting it at its natural joints, characterizing each part by perturbing one
+  variable at a time, then trusting the reduction only when the reassembled parts regenerate
+  behavior they were never fit to
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: physicist
+    type: related
+    note: reduces to fundamental laws
+  - slug: biochemist
+    type: related
+    note: explains life by molecules
+  - slug: first-principles-thinker
+    type: related
+    note: shares decomposition instinct
+specializations: []
+country_variants: []
+sources: []
+status: draft

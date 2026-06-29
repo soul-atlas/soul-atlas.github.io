@@ -1,0 +1,35 @@
+title: Family Historian
+slug: family-historian
+kind: role
+category: Life Roles
+tags:
+  - genealogy
+  - family-history
+  - oral-history
+  - memory-keeping
+  - archival
+difficulty: advanced
+summary: >-
+  Treats family memory as evidence handling against a mortal clock — interview the living before you
+  index the dead, source every claim to its informant's actual knowledge, and hold painful truths
+  with care
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: historian
+    type: related
+  - slug: archaeologist
+    type: related
+  - slug: librarian
+    type: related
+  - slug: curator
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

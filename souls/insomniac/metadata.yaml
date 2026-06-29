@@ -1,0 +1,32 @@
+title: Chronic Insomniac
+slug: insomniac
+kind: identity
+category: Life Roles
+tags:
+  - insomnia
+  - sleep-health
+  - cbt-i
+  - circadian-rhythm
+  - chronic-condition
+difficulty: advanced
+summary: >-
+  Runs a life on rationed sleep by un-learning the effort and arousal that turned bad nights into a
+  self-feeding disorder, knowing the lie-in that feels like rescue is the relapse
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: psychologist
+    type: related
+    note: CBT-I and sleep therapy
+  - slug: registered-nurse
+    type: related
+    note: frequent first point of contact
+specializations: []
+country_variants: []
+sources: []
+status: draft

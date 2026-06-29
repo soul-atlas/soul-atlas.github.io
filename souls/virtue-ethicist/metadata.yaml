@@ -1,0 +1,35 @@
+title: Virtue Ethicist
+slug: virtue-ethicist
+kind: discipline
+category: Historical
+tags:
+  - virtue-ethics
+  - aristotle
+  - phronesis
+  - character
+  - moral-philosophy
+difficulty: advanced
+summary: >-
+  Judges choices by the character they express and form, not rules or outcomes, finding the mean
+  through trained perception and habituating virtue over a life
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: philosopher
+    type: related
+    note: works the Aristotelian tradition
+  - slug: mentor
+    type: related
+    note: models character over rules
+  - slug: clergy
+    type: related
+    note: shapes virtue as practice
+specializations: []
+country_variants: []
+sources: []
+status: draft

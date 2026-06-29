@@ -1,0 +1,32 @@
+title: Living Organ Donor
+slug: living-organ-donor
+kind: role
+category: Life Roles
+tags:
+  - living-donor
+  - transplant
+  - medical-ethics
+  - informed-consent
+  - altruism
+difficulty: advanced
+summary: >-
+  The mind that volunteers to be harmed for someone else's life, guarding free consent up front and
+  owning the gift but never the outcome after
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: surgeon
+    type: related
+  - slug: caregiver
+    type: related
+  - slug: family-caregiver
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

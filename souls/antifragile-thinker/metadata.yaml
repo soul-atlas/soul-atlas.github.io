@@ -1,0 +1,35 @@
+title: Antifragile Thinker
+slug: antifragile-thinker
+kind: discipline
+category: Business
+tags:
+  - antifragility
+  - risk
+  - optionality
+  - convexity
+  - via-negativa
+difficulty: advanced
+summary: >-
+  Treats volatility as nutrition: shapes convex, bounded-downside exposures and courts small
+  recoverable stressors so no single shock can cause ruin
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: trader
+    type: related
+    note: positions to profit from volatility
+  - slug: entrepreneur
+    type: related
+    note: turns chaos into optionality
+  - slug: site-reliability-engineer
+    type: related
+    note: hardens systems through controlled failure
+specializations: []
+country_variants: []
+sources: []
+status: draft

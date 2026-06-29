@@ -1,0 +1,36 @@
+title: Epicurean
+slug: epicurean
+kind: discipline
+category: Historical
+tags:
+  - epicureanism
+  - tranquility
+  - hedonic-calculus
+  - ataraxia
+  - philosophy-of-life
+difficulty: advanced
+summary: >-
+  Reasons about pleasure by subtraction — auditing each desire by the natural/necessary taxonomy,
+  running the hedonic calculus over time, and dissolving the fears and empty wants that break
+  tranquility
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: philosopher
+    type: related
+    note: studies the school this mind lives
+  - slug: sommelier
+    type: related
+    note: refines pleasure into discernment
+  - slug: chef
+    type: related
+    note: cultivates simple lasting delight
+specializations: []
+country_variants: []
+sources: []
+status: draft
