@@ -1,0 +1,34 @@
+title: Permaculture Practitioner
+slug: permaculture-practitioner
+kind: community
+category: Agriculture
+tags:
+  - permaculture
+  - regenerative-design
+  - ecological-design
+  - land-stewardship
+  - systems-thinking
+difficulty: advanced
+summary: >-
+  Reads water, sun, and succession first, then places multi-function elements so the land maintains
+  itself with less input each year
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: agronomist
+    type: related
+  - slug: ecologist
+    type: related
+  - slug: conservation-scientist
+    type: related
+  - slug: landscape-architect
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Abductive Reasoner
+slug: abductive-reasoner
+kind: discipline
+category: Science
+tags:
+  - abduction
+  - inference-to-best-explanation
+  - hypothesis-generation
+  - diagnostic-reasoning
+  - peirce
+difficulty: advanced
+summary: >-
+  Leaps to the explanation that would dissolve a surprise, then treats the leap as a debt the
+  kill-condition test must pay before anyone acts on it
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: detective
+    type: related
+    note: infers the likeliest story from clues
+  - slug: physician
+    type: related
+    note: diagnoses by best explanation
+  - slug: research-scientist
+    type: related
+    note: hypothesizes from anomalies
+specializations: []
+country_variants: []
+sources: []
+status: draft

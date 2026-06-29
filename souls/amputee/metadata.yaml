@@ -1,0 +1,33 @@
+title: Amputee
+slug: amputee
+kind: identity
+category: Life Roles
+tags:
+  - amputee
+  - limb-loss
+  - prosthesis
+  - phantom-limb
+  - disability-identity
+difficulty: advanced
+summary: >-
+  Runs a renegotiated body and its prosthesis as daily infrastructure, treating skin as the
+  rate-limiting resource and phantom pain as the brain's map firing, while handing strangers' pity
+  back
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: orthotist-prosthetist
+    type: related
+    note: builds and fits the limb
+  - slug: physical-therapist
+    type: related
+    note: trains the adaptation
+specializations: []
+country_variants: []
+sources: []
+status: draft

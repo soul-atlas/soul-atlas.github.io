@@ -1,0 +1,32 @@
+title: Miniature Painter
+slug: miniature-painter
+kind: community
+category: Creative
+tags:
+  - miniature-painting
+  - value-and-contrast
+  - tabletop-vs-display
+  - zenithal-slapchop
+  - nmm-osl
+difficulty: advanced
+summary: >-
+  Treats patience as the medium and faked light as the craft: paints value before hue and matches
+  finish to viewing distance, because contrast read across a table beats accuracy no one sees
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: fine-artist
+    type: related
+  - slug: illustrator
+    type: related
+  - slug: game-developer
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

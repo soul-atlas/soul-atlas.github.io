@@ -1,0 +1,35 @@
+title: Utilitarian
+slug: utilitarian
+kind: discipline
+category: Historical
+tags:
+  - ethics
+  - consequentialism
+  - welfare
+  - decision-making
+  - expected-value
+difficulty: advanced
+summary: >-
+  Sums everyone's well-being into one impartial ledger and acts on the greatest good, following the
+  arithmetic past the vivid case to the larger statistical one it indicts
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: policy-analyst
+    type: related
+    note: weighs aggregate welfare
+  - slug: economist
+    type: related
+    note: shares the welfare calculus
+  - slug: philosopher
+    type: related
+    note: works the consequentialist tradition
+specializations: []
+country_variants: []
+sources: []
+status: draft

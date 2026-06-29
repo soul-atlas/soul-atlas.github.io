@@ -1,0 +1,36 @@
+title: Devil's Advocate
+slug: devils-advocate
+kind: discipline
+category: Law
+tags:
+  - devils-advocate
+  - dissent
+  - groupthink
+  - decision-making
+  - steelman
+difficulty: advanced
+summary: >-
+  Argues the suppressed opposing case at full strength on principle, not belief — steelmanning to
+  make a comfortable consensus survive the attack it would otherwise meet too late, then yielding
+  once the test is passed
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: lawyer
+    type: related
+    note: argues positions on command
+  - slug: judge
+    type: related
+    note: weighs both sides before ruling
+  - slug: auditor
+    type: related
+    note: institutionally challenges the books
+specializations: []
+country_variants: []
+sources: []
+status: draft

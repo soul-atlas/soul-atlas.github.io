@@ -1,0 +1,35 @@
+title: Refugee
+slug: refugee
+kind: identity
+category: Life Roles
+tags:
+  - forced-displacement
+  - asylum-limbo
+  - ambiguous-loss
+  - identity
+  - single-story
+difficulty: advanced
+summary: >-
+  Did not choose to leave; rebuilds from a standing start while refusing to be collapsed into the
+  asylum-file's worst chapter
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: social-worker
+    type: related
+    note: central to resettlement
+  - slug: first-generation-immigrant
+    type: related
+    note: an adjacent migration identity
+  - slug: community-organizer
+    type: related
+    note: diaspora mutual-aid networks
+specializations: []
+country_variants: []
+sources: []
+status: draft

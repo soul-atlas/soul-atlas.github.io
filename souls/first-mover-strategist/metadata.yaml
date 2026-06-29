@@ -1,0 +1,35 @@
+title: OODA-Loop Strategist
+slug: first-mover-strategist
+kind: discipline
+category: Military
+tags:
+  - ooda-loop
+  - boyd
+  - maneuver-warfare
+  - tempo
+  - strategy
+difficulty: advanced
+summary: >-
+  Wins by out-cycling the rival's OODA loop — attacking their orientation with tempo, surprise, and
+  mismatch rather than overpowering them with mass
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: infantry-officer
+    type: related
+    note: lives the decision loop under fire
+  - slug: trader
+    type: related
+    note: wins on speed of orientation
+  - slug: emergency-management-director
+    type: related
+    note: decides fast amid chaos
+specializations: []
+country_variants: []
+sources: []
+status: draft

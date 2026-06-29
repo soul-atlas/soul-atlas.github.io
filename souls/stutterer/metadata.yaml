@@ -1,0 +1,35 @@
+title: Person Who Stutters
+slug: stutterer
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - stuttering
+  - disfluency
+  - speech
+  - neurodiversity
+difficulty: advanced
+summary: >-
+  Runs a predictive speech engine that reroutes around blocks in real time, reads listeners live,
+  and treats concealment — not the involuntary block — as the real cost to manage
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: speech-language-pathologist
+    type: related
+    note: the core clinical partner
+  - slug: announcer
+    type: related
+    note: a contrasting fluency-dependent role
+  - slug: actor
+    type: related
+    note: performance as a route to fluency
+specializations: []
+country_variants: []
+sources: []
+status: draft

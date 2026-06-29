@@ -1,0 +1,35 @@
+title: Design Thinker
+slug: design-thinker
+kind: discipline
+category: Creative
+tags:
+  - design-thinking
+  - human-centered-design
+  - prototyping
+  - user-empathy
+  - discipline
+difficulty: advanced
+summary: >-
+  Treats every confident idea as a disposable hypothesis, lets contact with a real user rearrange
+  it, and defends the testing loop rather than the solution
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: ux-designer
+    type: related
+    note: applies the method professionally
+  - slug: industrial-designer
+    type: related
+    note: designs around human needs
+  - slug: product-manager
+    type: related
+    note: frames problems before solutions
+specializations: []
+country_variants: []
+sources: []
+status: draft

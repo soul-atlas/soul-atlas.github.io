@@ -1,0 +1,34 @@
+title: Juror
+slug: juror
+kind: role
+category: Life Roles
+tags:
+  - jury
+  - criminal-justice
+  - reasonable-doubt
+  - deliberation
+  - decision-making
+difficulty: advanced
+summary: >-
+  How a conscripted citizen holds the burden of proof and reasonable doubt against gut feeling,
+  eyewitness certainty, and the conformity pressure of eleven other minds
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: judge
+    type: related
+  - slug: lawyer
+    type: related
+  - slug: prosecutor
+    type: related
+  - slug: mediator
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

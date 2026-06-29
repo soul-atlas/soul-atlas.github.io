@@ -1,0 +1,33 @@
+title: Devout Believer
+slug: devout-believer
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - faith
+  - spirituality
+  - discernment
+  - providence
+difficulty: advanced
+summary: >-
+  Reads events as addressed rather than accidental, decides by Ignatian consolation/desolation, and
+  ties the camel before surrendering the outcome — finding freedom in a wholehearted yes that closes
+  most options
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: clergy
+    type: related
+    note: the vocational center of the faith
+  - slug: philosopher
+    type: related
+    note: the contrasting reasoned stance
+specializations: []
+country_variants: []
+sources: []
+status: draft

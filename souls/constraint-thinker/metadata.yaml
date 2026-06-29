@@ -1,0 +1,35 @@
+title: Theory-of-Constraints Thinker
+slug: constraint-thinker
+kind: discipline
+category: Business
+tags:
+  - theory-of-constraints
+  - bottleneck
+  - throughput
+  - systems-thinking
+  - operations
+difficulty: advanced
+summary: >-
+  Hunts the one bottleneck that caps a whole system's throughput and refuses to optimize anything
+  else first — exploiting the constraint before spending a cent and subordinating everything to it
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: operations-manager
+    type: related
+    note: manages the binding constraint
+  - slug: industrial-engineer
+    type: related
+    note: locates system bottlenecks
+  - slug: supply-chain-manager
+    type: related
+    note: throughput limited by one link
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Only Child
+slug: only-child
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - only-child
+  - family-systems
+  - parentification
+  - sole-caregiver
+difficulty: advanced
+summary: >-
+  The mind of the family's single node — fluent in solitude and adult talk, sole carrier of
+  concentrated hope and, eventually, of aging parents with no sibling to split the load
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: family-caregiver
+    type: related
+    note: the solo eldercare burden only children often face
+  - slug: new-parent
+    type: related
+    note: navigates family roles from the other side
+  - slug: psychologist
+    type: related
+    note: studies birth-order and attachment effects
+specializations: []
+country_variants: []
+sources: []
+status: draft

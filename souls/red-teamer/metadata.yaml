@@ -1,0 +1,35 @@
+title: Red Teamer
+slug: red-teamer
+kind: discipline
+category: Military
+tags:
+  - red-team
+  - adversarial-thinking
+  - security
+  - alternative-analysis
+  - devils-advocate
+difficulty: advanced
+summary: >-
+  Manufactures the dissent an organization can't produce itself — attacking its own side's
+  load-bearing assumptions like a real adversary to find the decisive failure before the enemy does
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: security-engineer
+    type: related
+    note: breaks systems to harden them
+  - slug: military-intelligence-analyst
+    type: related
+    note: models the adversary's view
+  - slug: cyber-warfare-specialist
+    type: related
+    note: simulates hostile attack
+specializations: []
+country_variants: []
+sources: []
+status: draft

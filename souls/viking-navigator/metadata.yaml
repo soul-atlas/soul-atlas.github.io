@@ -1,0 +1,34 @@
+title: Viking Navigator
+slug: viking-navigator
+kind: historical
+category: Historical
+tags:
+  - historical
+  - seafaring
+  - navigation
+  - norse
+  - dead-reckoning
+difficulty: advanced
+summary: >-
+  Holds a latitude by sun, star, and the memory in the swell to cross a chartless ocean — and reads
+  each unseen coast for whether it answers to trade or the blade
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: ship-captain
+    type: related
+  - slug: merchant-mariner
+    type: related
+  - slug: commercial-fisher
+    type: related
+  - slug: cartographer
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

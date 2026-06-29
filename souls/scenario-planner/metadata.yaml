@@ -1,0 +1,35 @@
+title: Scenario Planner
+slug: scenario-planner
+kind: discipline
+category: Business
+tags:
+  - scenario-planning
+  - strategic-foresight
+  - decision-under-uncertainty
+  - futures-thinking
+  - discipline
+difficulty: advanced
+summary: >-
+  Refuses the single forecast, builds several divergent plausible futures, and keeps the strategy
+  robust across all of them rather than optimal for the one someone hoped for
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: management-consultant
+    type: related
+    note: plans across multiple futures
+  - slug: emergency-management-director
+    type: related
+    note: prepares for divergent outcomes
+  - slug: policy-analyst
+    type: related
+    note: weighs branching policy paths
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Team Captain
+slug: team-captain
+kind: role
+category: Life Roles
+tags:
+  - leadership
+  - team
+  - peer-leadership
+  - locker-room
+  - influence
+difficulty: advanced
+summary: >-
+  Leads peers without authority, holding the locker room together when the scoreboard turns ugly by
+  earning trust daily, setting the standard, and bridging coach and players without becoming
+  either's mouthpiece
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: athlete
+    type: related
+  - slug: coach
+    type: related
+  - slug: mentor
+    type: related
+  - slug: referee
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

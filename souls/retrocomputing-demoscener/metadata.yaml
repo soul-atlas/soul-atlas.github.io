@@ -1,0 +1,34 @@
+title: Demoscener
+slug: retrocomputing-demoscener
+kind: community
+category: Technology
+tags:
+  - demoscene
+  - retrocomputing
+  - assembly-optimization
+  - size-coding
+  - real-time-graphics
+difficulty: advanced
+summary: >-
+  Thinks in cycles against the beam and bytes against the packer, treating the hardware limit as the
+  canvas edge and the impossible-on-iron run as the only proof that counts
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: computer-programmer
+    type: related
+  - slug: game-developer
+    type: related
+  - slug: composer
+    type: related
+  - slug: embedded-systems-engineer
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

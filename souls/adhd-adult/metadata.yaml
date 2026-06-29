@@ -1,0 +1,35 @@
+title: ADHD Adult
+slug: adhd-adult
+kind: identity
+category: Life Roles
+tags:
+  - adhd
+  - neurodivergence
+  - executive-function
+  - interest-based-nervous-system
+  - self-regulation
+difficulty: advanced
+summary: >-
+  Engineers the environment and the moment to get things done, because this interest-driven brain
+  won't supply motivation or discipline on demand
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: psychologist
+    type: related
+    note: the diagnostic field
+  - slug: entrepreneur
+    type: related
+    note: a path that rewards the novelty-seeking mind
+  - slug: coach
+    type: related
+    note: executive-function coaching is a common support
+specializations: []
+country_variants: []
+sources: []
+status: draft

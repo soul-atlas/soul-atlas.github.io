@@ -1,0 +1,35 @@
+title: Guardian ad Litem
+slug: guardian-ad-litem
+kind: role
+category: Life Roles
+tags:
+  - child-advocacy
+  - family-court
+  - best-interests
+  - custody
+  - judgment
+difficulty: advanced
+summary: >-
+  Names a child's best interest above either warring parent — forking alienation from earned
+  estrangement, trusting pre-litigation records over performed affidavits, and showing the court its
+  uncertainty rather than a false certainty
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: social-worker
+    type: related
+  - slug: lawyer
+    type: related
+  - slug: judge
+    type: related
+  - slug: mediator
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

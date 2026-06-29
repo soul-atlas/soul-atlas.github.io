@@ -1,0 +1,35 @@
+title: Neighborhood Watch Lead
+slug: neighborhood-watch-lead
+kind: role
+category: Life Roles
+tags:
+  - public-safety
+  - community
+  - civic-role
+  - surveillance-ethics
+  - crime-prevention
+difficulty: advanced
+summary: >-
+  Manufactures eyes on the street from a block of strangers while ruthlessly gating every report
+  through behavior-not-appearance and observe-never-engage, so vigilance never curdles into
+  profiling
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: community-organizer
+    type: related
+  - slug: police-officer
+    type: related
+  - slug: security-guard
+    type: related
+  - slug: emergency-management-director
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,34 @@
+title: Backyard Chicken Keeper
+slug: backyard-chicken-keeper
+kind: community
+category: Agriculture
+tags:
+  - poultry
+  - animal-husbandry
+  - predator-defense
+  - homesteading
+  - flock-management
+difficulty: advanced
+summary: >-
+  Runs a backyard flock as a tiny ecosystem — reading prey animals that hide illness, engineering
+  against specialized predators, and treating the coop as climate-control carpentry
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: farmer
+    type: related
+  - slug: veterinary-technician
+    type: related
+  - slug: animal-care-worker
+    type: related
+  - slug: carpenter
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

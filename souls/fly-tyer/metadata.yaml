@@ -1,0 +1,32 @@
+title: Fly Tyer & Angler
+slug: fly-tyer
+kind: community
+category: Sports
+tags:
+  - fly-tying
+  - fly-fishing
+  - entomology
+  - match-the-hatch
+  - trout
+difficulty: advanced
+summary: >-
+  Reads the hatch like a naturalist and ties sparse imitations keyed to the stage a trout is
+  actually eating, treating the drift as the fly and the catch as secondary to the deception
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: biologist
+    type: related
+  - slug: conservation-scientist
+    type: related
+  - slug: commercial-fisher
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

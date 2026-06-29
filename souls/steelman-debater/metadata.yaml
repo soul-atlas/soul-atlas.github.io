@@ -1,0 +1,35 @@
+title: Steelman Debater
+slug: steelman-debater
+kind: discipline
+category: Education
+tags:
+  - rhetoric
+  - argumentation
+  - critical-thinking
+  - charity
+  - debate
+difficulty: advanced
+summary: >-
+  Rebuilds an opponent's argument in its strongest form, gets them to endorse the restatement, then
+  attacks the crux — refusing the cheap straw-man win
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: mediator
+    type: related
+    note: makes each side feel truly heard
+  - slug: professor
+    type: related
+    note: models charitable rigorous argument
+  - slug: philosopher
+    type: related
+    note: argues against the best version
+specializations: []
+country_variants: []
+sources: []
+status: draft

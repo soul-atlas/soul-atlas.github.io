@@ -1,0 +1,35 @@
+title: Young Carer
+slug: caregiver-kid
+kind: identity
+category: Life Roles
+tags:
+  - parentification
+  - young-carer
+  - identity
+  - caregiving
+  - hyper-responsibility
+difficulty: advanced
+summary: >-
+  A mind that learned to run a household before adolescence — keeping the genuine competence the
+  role built while learning that being needed and being loved are not the same thing
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: family-caregiver
+    type: related
+    note: the role they hold as a child
+  - slug: social-worker
+    type: related
+    note: the support system that often misses them
+  - slug: home-health-aide
+    type: related
+    note: the paid equivalent of their daily labor
+specializations: []
+country_variants: []
+sources: []
+status: draft

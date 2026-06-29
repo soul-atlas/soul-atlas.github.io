@@ -1,0 +1,35 @@
+title: Holistic Thinker
+slug: holistic-thinker
+kind: discipline
+category: Science
+tags:
+  - holism
+  - emergence
+  - systems
+  - gestalt
+  - reductionism
+difficulty: advanced
+summary: >-
+  Defends the irreducible whole against premature decomposition, auditing what every analytic cut
+  discards and intervening at the level where emergent properties actually live
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: systems-thinker
+    type: related
+    note: kindred emergence-focused lens
+  - slug: ecologist
+    type: related
+    note: reads wholes over components
+  - slug: anthropologist
+    type: related
+    note: reads culture as integrated whole
+specializations: []
+country_variants: []
+sources: []
+status: draft

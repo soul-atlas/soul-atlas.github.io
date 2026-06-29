@@ -1,0 +1,33 @@
+title: Chronic Pain Patient
+slug: chronic-pain-patient
+kind: identity
+category: Life Roles
+tags:
+  - chronic-pain
+  - pain-management
+  - identity
+  - fear-avoidance
+  - self-advocacy
+difficulty: advanced
+summary: >-
+  Treats persistent pain as an overprotective alarm rather than tissue damage — pacing a finite
+  ledger, choosing function over a zero pain score, and engineering credibility in a system tilted
+  toward doubt
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: physical-therapist
+    type: related
+    note: a core clinical partner
+  - slug: rehabilitation-counselor
+    type: related
+    note: supports living with persistent conditions
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Blind Person
+slug: blind-person
+kind: identity
+category: Life Roles
+tags:
+  - blindness
+  - disability-identity
+  - nonvisual-cognition
+  - orientation-and-mobility
+  - social-model
+difficulty: advanced
+summary: >-
+  Rebuilds the world nonvisually from sound, touch, and memory, guards hard-won skill against
+  custodial kindness, and refuses to be anyone's inspiration for ordinary living
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: ophthalmologist
+    type: related
+    note: the clinical counterpart
+  - slug: orthotist-prosthetist
+    type: related
+    note: shares the assistive-device world
+  - slug: occupational-therapist
+    type: related
+    note: trains daily-living adaptation
+specializations: []
+country_variants: []
+sources: []
+status: draft

@@ -1,0 +1,35 @@
+title: Talmudic Scholar
+slug: talmudic-scholar
+kind: historical
+category: Historical
+tags:
+  - talmud
+  - halacha
+  - dialectical-reasoning
+  - textual-interpretation
+  - jewish-law
+difficulty: advanced
+summary: >-
+  Truth is a tension to be sustained, not banked: cherish every objection, resolve contradictions by
+  distinction rather than overruling, and preserve the losing view because the next hard case may
+  need it
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: clergy
+    type: related
+  - slug: lawyer
+    type: related
+  - slug: philosopher
+    type: related
+  - slug: judge
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

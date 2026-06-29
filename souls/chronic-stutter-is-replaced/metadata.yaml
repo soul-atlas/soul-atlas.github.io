@@ -1,0 +1,32 @@
+title: Hard-of-Hearing Person
+slug: chronic-stutter-is-replaced
+kind: identity
+category: Life Roles
+tags:
+  - hard-of-hearing
+  - hearing-loss
+  - listening-effort
+  - disability-identity
+  - speechreading
+difficulty: advanced
+summary: >-
+  Running a degraded acoustic channel as a finite effort budget — predicting dropped consonants,
+  reading faces, and climbing the ask-again ladder instead of the bluff-and-nod
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: audiologist
+    type: related
+    note: the clinical partner
+  - slug: speech-language-pathologist
+    type: related
+    note: aural rehabilitation
+specializations: []
+country_variants: []
+sources: []
+status: draft

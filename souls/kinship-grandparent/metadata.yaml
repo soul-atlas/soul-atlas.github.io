@@ -1,0 +1,35 @@
+title: Kinship Grandparent
+slug: kinship-grandparent
+kind: role
+category: Life Roles
+tags:
+  - kinship-care
+  - grandfamilies
+  - ambiguous-loss
+  - trauma-informed-parenting
+  - guardianship
+difficulty: advanced
+summary: >-
+  Parents a grandchild from an aging body and thin budget, gating contact on the absent parent's
+  behavior rather than promises, while grieving the adult child who couldn't and planning explicitly
+  for its own decline
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: parent
+    type: related
+  - slug: family-caregiver
+    type: related
+  - slug: caregiver
+    type: related
+  - slug: social-worker
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

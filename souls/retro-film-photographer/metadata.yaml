@@ -1,0 +1,35 @@
+title: Film Photographer
+slug: retro-film-photographer
+kind: community
+category: Creative
+tags:
+  - film-photography
+  - darkroom
+  - zone-system
+  - analog-craft
+  - exposure
+difficulty: advanced
+summary: >-
+  Treats scarcity, cost, and the delay before seeing as discipline — commits each finite frame by
+  metering against a stock's latitude, then carries the latent image faithfully through one-way
+  chemistry to print
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: photographer
+    type: related
+  - slug: chemist
+    type: related
+  - slug: fine-artist
+    type: related
+  - slug: curator
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

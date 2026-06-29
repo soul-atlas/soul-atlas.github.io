@@ -1,0 +1,32 @@
+title: Military Brat
+slug: military-brat
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - third-culture-kid
+  - attachment
+  - belonging
+  - relocation
+difficulty: advanced
+summary: >-
+  Builds a portable self for a life uprooted on orders — attaches fast, leaves clean, and treats
+  home as people rather than any address
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: infantry-officer
+    type: related
+    note: the parent's world that shaped the childhood
+  - slug: combat-medic
+    type: related
+    note: shares the base-life culture
+specializations: []
+country_variants: []
+sources: []
+status: draft

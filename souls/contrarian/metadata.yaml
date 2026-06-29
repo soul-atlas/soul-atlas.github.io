@@ -1,0 +1,35 @@
+title: Contrarian
+slug: contrarian
+kind: discipline
+category: Business
+tags:
+  - skepticism
+  - consensus
+  - independent-thinking
+  - inversion
+  - decision-making
+difficulty: advanced
+summary: >-
+  Treats consensus as a measurement of the crowd, not the world, and hunts the widely held belief
+  that is precisely backwards — then bets only when it is non-consensus AND correct
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: entrepreneur
+    type: related
+    note: profits from non-consensus bets
+  - slug: trader
+    type: related
+    note: fades the crowd for edge
+  - slug: bayesian-thinker
+    type: related
+    note: weighs evidence against the herd
+specializations: []
+country_variants: []
+sources: []
+status: draft

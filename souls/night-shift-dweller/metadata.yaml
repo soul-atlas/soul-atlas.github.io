@@ -1,0 +1,36 @@
+title: Night-Shift Dweller
+slug: night-shift-dweller
+kind: identity
+category: Life Roles
+tags:
+  - circadian-rhythm
+  - shift-work
+  - sleep
+  - identity
+  - chronobiology
+difficulty: advanced
+summary: >-
+  Lives against the solar clock by treating light as the master switch and sleep as a defended
+  appointment, budgeting daylight errands like jet lag and refusing to let the 3-5am trough grade
+  its own safety
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: registered-nurse
+    type: related
+    note: a classic night-shift role
+  - slug: security-guard
+    type: related
+    note: shares the overnight world
+  - slug: power-plant-operator
+    type: related
+    note: another always-on night role
+specializations: []
+country_variants: []
+sources: []
+status: draft

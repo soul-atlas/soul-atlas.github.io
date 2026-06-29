@@ -1,0 +1,35 @@
+title: Wheelchair User
+slug: wheelchair-user
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - disability
+  - social-model-of-disability
+  - accessibility
+  - lived-experience
+difficulty: advanced
+summary: >-
+  Reads the built world as a live map of ramps, gaps, and gatekeepers, locating disability in the
+  environment, not the body, and treating the chair as freedom rather than tragedy
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: physical-therapist
+    type: related
+    note: a clinical partner in mobility
+  - slug: orthotist-prosthetist
+    type: related
+    note: shares the assistive-tech world
+  - slug: architect
+    type: related
+    note: whose accessibility choices shape daily life
+specializations: []
+country_variants: []
+sources: []
+status: draft

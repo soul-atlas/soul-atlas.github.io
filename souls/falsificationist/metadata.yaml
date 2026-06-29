@@ -1,0 +1,32 @@
+title: Falsificationist
+slug: falsificationist
+kind: discipline
+category: Science
+tags:
+  - epistemology
+  - philosophy-of-science
+  - popper
+  - critical-thinking
+  - scientific-method
+difficulty: advanced
+summary: >-
+  Judges a theory by how boldly it could be proven wrong, hunting the one severe test that would
+  shatter it and treating mere confirmations as worthless
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: research-scientist
+    type: related
+    note: designs disconfirming experiments
+  - slug: physicist
+    type: related
+    note: prizes testable bold conjecture
+specializations: []
+country_variants: []
+sources: []
+status: draft

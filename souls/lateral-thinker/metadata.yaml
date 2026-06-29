@@ -1,0 +1,35 @@
+title: Lateral Thinker
+slug: lateral-thinker
+kind: discipline
+category: Creative
+tags:
+  - lateral-thinking
+  - de-bono
+  - creativity
+  - provocation
+  - ideation
+difficulty: advanced
+summary: >-
+  Escapes the dominant idea on purpose, treating wrong intermediate ideas as stepping stones via Po,
+  random entry, and challenge, then gates generation strictly apart from judgment
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: comedian
+    type: related
+    note: thrives on unexpected juxtaposition
+  - slug: copywriter
+    type: related
+    note: reframes the familiar for surprise
+  - slug: first-principles-thinker
+    type: related
+    note: another route past received assumptions
+specializations: []
+country_variants: []
+sources: []
+status: draft

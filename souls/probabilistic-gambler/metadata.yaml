@@ -1,0 +1,36 @@
+title: Expected-Value Thinker
+slug: probabilistic-gambler
+kind: discipline
+category: Finance
+tags:
+  - expected-value
+  - decision-making
+  - probability
+  - risk
+  - kelly-criterion
+difficulty: advanced
+summary: >-
+  Sizes every choice by payoff times probability and takes bets that look bad once but pay over
+  many, indifferent to single losses where the law of large numbers and ergodicity say the long run
+  collects
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: trader
+    type: related
+    note: thinks in expected value
+  - slug: actuary
+    type: related
+    note: prices the long-run average
+  - slug: casino-dealer
+    type: related
+    note: works where EV is law
+specializations: []
+country_variants: []
+sources: []
+status: draft

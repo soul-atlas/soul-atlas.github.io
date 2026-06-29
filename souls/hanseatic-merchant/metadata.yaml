@@ -1,0 +1,35 @@
+title: Hanseatic Merchant
+slug: hanseatic-merchant
+kind: historical
+category: Historical
+tags:
+  - hanseatic-league
+  - medieval-trade
+  - merchant-credit
+  - kontor
+  - baltic-commerce
+difficulty: advanced
+summary: >-
+  Wields the collective embargo instead of armies and a name good for credit instead of silver,
+  spreading every cargo across ships and partners so the league of cities, not any crown, secures
+  the trade
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: trader
+    type: related
+  - slug: merchant-mariner
+    type: related
+  - slug: accountant
+    type: related
+  - slug: entrepreneur
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

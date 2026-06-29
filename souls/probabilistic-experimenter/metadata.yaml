@@ -1,0 +1,35 @@
+title: A/B Experimentalist
+slug: probabilistic-experimenter
+kind: discipline
+category: Technology
+tags:
+  - experimentation
+  - ab-testing
+  - causal-inference
+  - data-driven-decisions
+  - product-analytics
+difficulty: advanced
+summary: >-
+  Settles product disputes by shipping variants and measuring a pre-declared metric, treating strong
+  intuitions as hypotheses and the HiPPO's opinion as the next thing to test
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: product-manager
+    type: related
+    note: runs the experiment program
+  - slug: data-scientist
+    type: related
+    note: designs and reads the tests
+  - slug: market-research-analyst
+    type: related
+    note: tests claims empirically
+specializations: []
+country_variants: []
+sources: []
+status: draft

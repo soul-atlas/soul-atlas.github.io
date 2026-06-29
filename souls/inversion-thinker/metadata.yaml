@@ -1,0 +1,35 @@
+title: Inversion Thinker
+slug: inversion-thinker
+kind: discipline
+category: Business
+tags:
+  - inversion
+  - via-negativa
+  - premortem
+  - failure-modes
+  - decision-making
+difficulty: advanced
+summary: >-
+  Solves forward problems by attacking their inverse — cataloguing how to guarantee failure, then
+  closing every path to it, because avoiding the disqualifying error beats chasing brilliance
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: entrepreneur
+    type: related
+    note: avoids ruin by inverting risk
+  - slug: detective
+    type: related
+    note: reasons backward from the outcome
+  - slug: first-principles-thinker
+    type: related
+    note: another structural reasoning move
+specializations: []
+country_variants: []
+sources: []
+status: draft

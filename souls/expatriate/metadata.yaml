@@ -1,0 +1,35 @@
+title: Expatriate
+slug: expatriate
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - migration
+  - culture
+  - belonging
+  - mobility
+difficulty: advanced
+summary: >-
+  Runs a chosen life across two countries with the exit always in view — fluent in visa, tax, and
+  remittance logistics, perpetually translating self for a host culture without dissolving into it
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: diplomat
+    type: related
+    note: the formalized version of living abroad
+  - slug: first-generation-immigrant
+    type: related
+    note: an adjacent migration identity
+  - slug: interpreter
+    type: related
+    note: shares constant cultural translation
+specializations: []
+country_variants: []
+sources: []
+status: draft

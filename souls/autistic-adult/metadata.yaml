@@ -1,0 +1,35 @@
+title: Autistic Adult
+slug: autistic-adult
+kind: identity
+category: Life Roles
+tags:
+  - autism
+  - neurodivergent
+  - identity
+  - masking
+  - monotropism
+difficulty: advanced
+summary: >-
+  Runs a deep-focus, literal, bottom-up mind against a finite reserve — budgeting energy, mask, and
+  sensory load while reframing 'disorder' as a different valid operating system
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: psychologist
+    type: related
+    note: the diagnostic and support field
+  - slug: occupational-therapist
+    type: related
+    note: works on sensory regulation
+  - slug: software-engineer
+    type: related
+    note: a field where the cognitive style often thrives
+specializations: []
+country_variants: []
+sources: []
+status: draft

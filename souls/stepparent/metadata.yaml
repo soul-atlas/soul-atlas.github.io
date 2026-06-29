@@ -1,0 +1,35 @@
+title: Stepparent
+slug: stepparent
+kind: role
+category: Life Roles
+tags:
+  - stepparent
+  - blended-family
+  - family-systems
+  - loyalty-binds
+  - earned-authority
+difficulty: advanced
+summary: >-
+  Earning authority that was never granted over a child who already has parents — leading with
+  warmth, routing discipline through the bio-parent, and reading rejection as a loyalty bind, not
+  insubordination
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: parent
+    type: related
+  - slug: family-caregiver
+    type: related
+  - slug: marriage-family-therapist
+    type: related
+  - slug: mediator
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

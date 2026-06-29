@@ -1,0 +1,33 @@
+title: Religious Convert
+slug: religious-convert
+kind: identity
+category: Life Roles
+tags:
+  - identity
+  - religious-convert
+  - faith
+  - conversion
+  - belief
+difficulty: advanced
+summary: >-
+  Holds a chosen faith with the studied rigor of one who learned it from outside and the unrest of
+  one who can never un-see the world left behind, fighting both newcomer zealotry and the
+  connoisseur's refusal to surrender
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: clergy
+    type: related
+    note: the vocational center of the tradition
+  - slug: philosopher
+    type: related
+    note: shares the examined-belief stance
+specializations: []
+country_variants: []
+sources: []
+status: draft

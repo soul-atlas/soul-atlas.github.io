@@ -1,0 +1,36 @@
+title: Ethical Vegan
+slug: ethical-vegan
+kind: identity
+category: Life Roles
+tags:
+  - ethics
+  - animal-rights
+  - identity
+  - moral-philosophy
+  - veganism
+difficulty: advanced
+summary: >-
+  Weighs every meal as an ethical act by sentience not species, running a
+  necessity-and-practicability cascade that prizes reducing real suffering over performing personal
+  purity
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: dietitian
+    type: related
+    note: the nutrition partner
+  - slug: animal-care-worker
+    type: related
+    note: shares the animal-welfare commitment
+  - slug: philosopher
+    type: related
+    note: the ethics underpinning the stance
+specializations: []
+country_variants: []
+sources: []
+status: draft

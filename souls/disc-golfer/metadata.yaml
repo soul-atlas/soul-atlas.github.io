@@ -1,0 +1,34 @@
+title: Disc Golfer
+slug: disc-golfer
+kind: community
+category: Sports
+tags:
+  - disc-golf
+  - course-management
+  - flight-physics
+  - risk-reward
+  - land-stewardship
+difficulty: advanced
+summary: >-
+  Reads each hole as a routing problem, tunes a bag of plastic to flight paths via stability and
+  wind, and scores by leaving the easiest next throw rather than chasing the heroic line
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: athlete
+    type: related
+  - slug: coach
+    type: related
+  - slug: forester
+    type: related
+  - slug: park-ranger
+    type: related
+specializations: []
+country_variants: []
+sources: []
+status: draft

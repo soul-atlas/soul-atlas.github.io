@@ -1,0 +1,35 @@
+title: Narrative Thinker
+slug: narrative-thinker
+kind: discipline
+category: Creative
+tags:
+  - narrative
+  - storytelling
+  - sense-making
+  - framing
+  - interpretation
+difficulty: advanced
+summary: >-
+  Treats the world as competing stories and interrogates which plot the evidence is actually inside
+  of, refusing to be governed by the most satisfying one
+contributors:
+  - soul-atlas
+provenance: ai-generated
+last_reviewed: null
+reviewers: []
+created: '2026-06-28'
+updated: '2026-06-28'
+related:
+  - slug: writer
+    type: related
+    note: crafts the stories this mind dwells in
+  - slug: historian
+    type: related
+    note: reads events as narrative arcs
+  - slug: anthropologist
+    type: related
+    note: decodes the myths cultures live by
+specializations: []
+country_variants: []
+sources: []
+status: draft
