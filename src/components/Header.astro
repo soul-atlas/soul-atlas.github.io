@@ -25,13 +25,27 @@ const isActive = (href: string) =>
       style="color:var(--ink)"
     >
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <circle cx="12" cy="12" r="9" stroke="var(--accent)" stroke-width="1.6"></circle>
-        <circle cx="12" cy="12" r="3.2" fill="var(--accent)"></circle>
-        <path
-          d="M12 3v3M12 18v3M3 12h3M18 12h3"
+        <g
           stroke="var(--accent)"
-          stroke-width="1.6"
-          stroke-linecap="round"></path>
+          stroke-width="1.1"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-opacity="0.45"
+        >
+          <path d="M6.5 7L14 4.5L19.5 9.5L16.5 17L8 18M19.5 9.5L12.5 11.5L8 18"></path>
+        </g>
+        <g fill="var(--accent)">
+          <circle cx="6.5" cy="7" r="2.7"></circle>
+          <circle cx="14" cy="4.5" r="1.5"></circle>
+          <circle cx="19.5" cy="9.5" r="2.1"></circle>
+          <circle cx="16.5" cy="17" r="1.8"></circle>
+          <circle cx="8" cy="18" r="1.5"></circle>
+          <circle cx="12.5" cy="11.5" r="1.2"></circle>
+        </g>
+        <g fill="var(--accent)" fill-opacity="0.4">
+          <circle cx="20.5" cy="18.5" r="0.85"></circle>
+          <circle cx="4" cy="13.5" r="0.85"></circle>
+        </g>
       </svg>
       <span>SOUL <span style="color:var(--ink-faint)">Atlas</span></span>
     </a>

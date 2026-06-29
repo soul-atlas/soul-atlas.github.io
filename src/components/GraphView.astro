@@ -53,13 +53,12 @@ const base = import.meta.env.BASE_URL;
             <option value={name}>{name}</option>
           ))}
         </select>
-        <select
-          class="rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
-          style="border-color:var(--border); color:var(--ink); display:none"
-          data-graph-kind-filter
-        >
-          <option value="">All kinds</option>
-        </select>
+        <div
+          class="hidden flex-wrap items-center gap-1"
+          data-graph-kind-chips
+          role="group"
+          aria-label="Filter by kind (toggle any number)"
+        />
         <span class="text-xs" style="color:var(--ink-faint)" data-graph-count />
         <span class="ml-auto text-xs" style="color:var(--ink-faint)">
           drag · scroll to zoom · click to open
@@ -180,7 +179,9 @@ const base = import.meta.env.BASE_URL;
     svg.call(zoom as any);
 
     const linkStroke: Record<string, string> = {
-      related: 'var(--border)',
+      // --border is nearly invisible in dark mode; most cross-kind edges are
+      // "related", so stroke them in a muted-but-visible ink instead.
+      related: 'var(--ink-faint)',
       specialization: '#8b5cf6',
       prerequisite: '#f59e0b',
       adjacent: '#06b6d4',
@@ -336,13 +337,15 @@ const base = import.meta.env.BASE_URL;
         }
       });
     }
-    // Category + kind filters HIDE non-matching nodes (and any edge touching a
-    // hidden node), rather than just dimming them. Both selects apply together.
-    const kindFilter = wrap.querySelector('[data-graph-kind-filter]') as HTMLSelectElement | null;
+    // Category (single) + kind (multi) filters HIDE non-matching nodes and any
+    // edge touching a hidden node, rather than dimming. Empty kind set = all kinds.
+    const selectedKinds = new Set<string>();
     const nodeShown = (d: any) => {
       const c = filter ? filter.value : '';
-      const k = kindFilter ? kindFilter.value : '';
-      return (!c || d.category === c) && (!k || (d.kind || 'occupation') === k);
+      return (
+        (!c || d.category === c) &&
+        (selectedKinds.size === 0 || selectedKinds.has(d.kind || 'occupation'))
+      );
     };
     function applyFilters() {
       node.style('display', (d: any) => (nodeShown(d) ? null : 'none'));
@@ -350,7 +353,7 @@ const base = import.meta.env.BASE_URL;
         nodeShown(d.source) && nodeShown(d.target) ? null : 'none',
       );
       if (count) {
-        const active = (filter && filter.value) || (kindFilter && kindFilter.value);
+        const active = (filter && filter.value) || selectedKinds.size > 0;
         const vis = nodes.filter(nodeShown).length;
         count.textContent = active
           ? `${vis} of ${nodes.length} nodes`
@@ -359,19 +362,37 @@ const base = import.meta.env.BASE_URL;
     }
     if (filter) filter.addEventListener('change', applyFilters);
 
-    // Kind filter: populated from the kinds actually present in this graph, so
-    // it only appears once the Atlas covers more than occupations.
-    if (kindFilter) {
-      const present = [...new Set(nodes.map((n: any) => n.kind || 'occupation'))];
+    // Kind chips: one toggle per kind present in this graph (so they only appear
+    // once the Atlas covers more than occupations). Toggle any number on/off.
+    const kindChips = wrap.querySelector('[data-graph-kind-chips]') as HTMLElement | null;
+    if (kindChips) {
+      const present = [...new Set(nodes.map((n: any) => n.kind || 'occupation'))].sort();
       if (present.length > 1) {
-        for (const k of present.sort()) {
-          const opt = document.createElement('option');
-          opt.value = k;
-          opt.textContent = KIND_LABELS[k] ?? k;
-          kindFilter.appendChild(opt);
+        const paint = (b: HTMLButtonElement, on: boolean) => {
+          b.style.background = on ? 'var(--accent-soft)' : 'transparent';
+          b.style.color = on ? 'var(--accent)' : 'var(--ink-soft)';
+          b.style.borderColor = on ? 'var(--accent)' : 'var(--border)';
+        };
+        for (const k of present) {
+          const b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'rounded-md border px-2 py-1 text-xs';
+          b.dataset.kind = k;
+          b.setAttribute('aria-pressed', 'false');
+          b.textContent = KIND_LABELS[k] ?? k;
+          paint(b, false);
+          b.addEventListener('click', () => {
+            const on = b.getAttribute('aria-pressed') !== 'true';
+            b.setAttribute('aria-pressed', String(on));
+            if (on) selectedKinds.add(k);
+            else selectedKinds.delete(k);
+            paint(b, on);
+            applyFilters();
+          });
+          kindChips.appendChild(b);
         }
-        kindFilter.style.display = '';
-        kindFilter.addEventListener('change', applyFilters);
+        kindChips.classList.remove('hidden');
+        kindChips.classList.add('flex');
       }
     }
   }
