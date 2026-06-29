@@ -53,15 +53,52 @@ const base = import.meta.env.BASE_URL;
             <option value={name}>{name}</option>
           ))}
         </select>
+        <select
+          class="rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
+          style="border-color:var(--border); color:var(--ink)"
+          data-graph-group
+          aria-label="Cluster the layout"
+        >
+          <option value="category">Cluster by category</option>
+          <option value="kind">Cluster by kind</option>
+          <option value="none">No clustering</option>
+        </select>
         <div
           class="hidden flex-wrap items-center gap-1"
           data-graph-kind-chips
           role="group"
           aria-label="Filter by kind (toggle any number)"
         />
+        <button
+          type="button"
+          class="rounded-md border px-2.5 py-1.5 text-sm"
+          style="border-color:var(--border); color:var(--ink-soft)"
+          data-graph-random
+          title="Jump to a random SOUL"
+        >
+          🎲 Surprise me
+        </button>
+        <button
+          type="button"
+          class="rounded-md border px-2.5 py-1.5 text-sm"
+          style="border-color:var(--border); color:var(--ink-soft)"
+          data-graph-reset
+          title="Clear filters and recenter"
+        >
+          Reset
+        </button>
+        <button
+          type="button"
+          class="rounded-md border px-2.5 py-1.5 text-sm"
+          style="border-color:var(--border); color:var(--ink-soft)"
+          data-graph-fullscreen
+          title="Maximize the graph"
+        >
+          ⤢ Fullscreen
+        </button>
         <span class="text-xs" style="color:var(--ink-faint)" data-graph-count />
         <span class="ml-auto text-xs" style="color:var(--ink-faint)">
-          drag · scroll to zoom · click to open
+          drag · scroll to zoom · hover to isolate · click to open
         </span>
       </div>
     )
@@ -172,10 +209,17 @@ const base = import.meta.env.BASE_URL;
     svg.selectAll('*').remove();
     const root = svg.append('g');
 
+    let zoomK = 1;
     const zoom = d3
       .zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.15, 6])
-      .on('zoom', (ev) => root.attr('transform', ev.transform));
+      .on('zoom', (ev) => {
+        root.attr('transform', ev.transform);
+        // Reveal all labels once zoomed in past a threshold (and re-hide on out).
+        const crossed = ev.transform.k >= 1.8 !== zoomK >= 1.8;
+        zoomK = ev.transform.k;
+        if (crossed) refreshLabels();
+      });
     svg.call(zoom as any);
 
     const linkStroke: Record<string, string> = {
@@ -219,6 +263,14 @@ const base = import.meta.env.BASE_URL;
       .attr('stroke', (d: any) => (d.id === focus ? 'var(--ink)' : 'var(--surface)'))
       .attr('stroke-width', (d: any) => (d.id === focus ? 2.5 : 1));
 
+    // The most-connected "hub" SOULs keep their labels in the wide view; the rest
+    // reveal as you zoom in. Small/neighborhood graphs label everything.
+    const degreesDesc = nodes.map((n: any) => n.degree).sort((a: number, b: number) => b - a);
+    const hubMin = nodes.length > 120 ? degreesDesc[Math.min(18, degreesDesc.length - 1)] || 0 : 0;
+    let activeId: string | null = focus;
+    const labelVisible = (d: any) =>
+      nodes.length <= 120 || !!focus ? true : zoomK >= 1.8 || d.degree >= hubMin;
+
     const label = node
       .append('text')
       .text((d: any) => d.title)
@@ -227,7 +279,7 @@ const base = import.meta.env.BASE_URL;
       .attr('font-size', 11)
       .attr('fill', 'var(--ink-soft)')
       .style('pointer-events', 'none')
-      .style('opacity', nodes.length > 120 && !focus ? 0 : 1);
+      .style('opacity', (d: any) => (labelVisible(d) ? 1 : 0));
 
     const neighbors = new Map<string, Set<string>>();
     nodes.forEach((n) => neighbors.set(n.id, new Set([n.id])));
@@ -236,14 +288,18 @@ const base = import.meta.env.BASE_URL;
       neighbors.get(l.target)?.add(l.source);
     });
 
+    function refreshLabels() {
+      label.style('opacity', (d: any) =>
+        activeId ? (neighbors.get(activeId)?.has(d.id) ? 1 : 0) : labelVisible(d) ? 1 : 0,
+      );
+    }
     function highlight(id: string | null) {
+      activeId = id;
       node.style('opacity', (d: any) => (!id || neighbors.get(id)?.has(d.id) ? 1 : 0.12));
       link.style('opacity', (d: any) =>
         !id || d.source.id === id || d.target.id === id ? 0.8 : 0.04,
       );
-      label.style('opacity', (d: any) =>
-        id ? (neighbors.get(id)?.has(d.id) ? 1 : 0) : nodes.length > 120 ? 0 : 1,
-      );
+      refreshLabels();
     }
 
     node
@@ -262,6 +318,17 @@ const base = import.meta.env.BASE_URL;
         window.location.href = `${base}/souls/${d.id}`;
       });
 
+    // Clustering: pull each node toward a per-group anchor arranged on a ring, so
+    // the big graph reads as a map of domains/kinds instead of one hairball. Group
+    // names render faintly behind the nodes. Disabled (free force) for small graphs.
+    const baseCharge = nodes.length > 200 ? -55 : -120;
+    const groupKeyOf = (d: any, mode: string) =>
+      mode === 'kind' ? (KIND_LABELS[d.kind || 'occupation'] ?? d.kind) : d.category;
+    let groupMode = 'none';
+    let anchors = new Map<string, { x: number; y: number }>();
+    const anchorOf = (d: any) => anchors.get(groupKeyOf(d, groupMode)) || { x: W / 2, y: H / 2 };
+    const clusterLayer = root.insert('g', ':first-child').attr('pointer-events', 'none');
+
     const sim = d3
       .forceSimulation(nodes as any)
       .force(
@@ -269,11 +336,13 @@ const base = import.meta.env.BASE_URL;
         d3
           .forceLink(links)
           .id((d: any) => d.id)
-          .distance(focus ? 60 : 45)
-          .strength(0.4),
+          .distance(focus ? 60 : 40)
+          .strength(0.25),
       )
-      .force('charge', d3.forceManyBody().strength(nodes.length > 200 ? -40 : -120))
-      .force('center', d3.forceCenter(W / 2, H / 2))
+      .force('charge', d3.forceManyBody().strength(baseCharge).distanceMax(360))
+      .force('center', d3.forceCenter(W / 2, H / 2).strength(0.04))
+      .force('x', d3.forceX((d: any) => anchorOf(d).x).strength(0.02))
+      .force('y', d3.forceY((d: any) => anchorOf(d).y).strength(0.02))
       .force(
         'collide',
         d3.forceCollide().radius((d: any) => sizeScale(d.degree) + 3),
@@ -286,6 +355,45 @@ const base = import.meta.env.BASE_URL;
           .attr('y2', (d: any) => d.target.y);
         node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
       });
+
+    function applyGrouping(mode: string) {
+      groupMode = mode;
+      anchors = new Map();
+      if (mode !== 'none') {
+        const groups = [...new Set(nodes.map((d: any) => groupKeyOf(d, mode)))];
+        const R = Math.min(W, H) * 0.36;
+        groups.forEach((g, i) => {
+          const a = (i / groups.length) * 2 * Math.PI - Math.PI / 2;
+          anchors.set(g, { x: W / 2 + R * Math.cos(a), y: H / 2 + R * Math.sin(a) });
+        });
+      }
+      // Re-add the forces (not just .strength) so their per-node targets recompute
+      // from the new anchors — d3 caches those at initialize time.
+      const s = mode === 'none' ? 0.02 : 0.22;
+      sim.force('x', d3.forceX((d: any) => anchorOf(d).x).strength(s));
+      sim.force('y', d3.forceY((d: any) => anchorOf(d).y).strength(s));
+      sim.force(
+        'charge',
+        d3
+          .forceManyBody()
+          .strength(mode === 'none' ? baseCharge : -24)
+          .distanceMax(360),
+      );
+      const gl = clusterLayer.selectAll('text').data(mode === 'none' ? [] : [...anchors.entries()]);
+      gl.exit().remove();
+      gl.enter()
+        .append('text')
+        .attr('text-anchor', 'middle')
+        .attr('font-size', 13)
+        .attr('font-weight', 600)
+        .attr('fill', 'var(--ink-faint)')
+        .attr('opacity', 0.5)
+        .merge(gl as any)
+        .attr('x', (d: any) => d[1].x)
+        .attr('y', (d: any) => d[1].y)
+        .text((d: any) => d[0]);
+      sim.alpha(0.7).restart();
+    }
 
     node.call(
       d3
@@ -347,7 +455,39 @@ const base = import.meta.env.BASE_URL;
         (selectedKinds.size === 0 || selectedKinds.has(d.kind || 'occupation'))
       );
     };
-    function applyFilters() {
+    // Zoom/pan to frame a set of nodes (defaults to the currently-visible ones),
+    // so filtering down to a subset fills the view instead of leaving a far clump.
+    function fitTo() {
+      const pts = nodes.filter((d: any) => nodeShown(d) && d.x != null);
+      if (!pts.length) return;
+      let minX = Infinity,
+        minY = Infinity,
+        maxX = -Infinity,
+        maxY = -Infinity;
+      for (const d of pts) {
+        minX = Math.min(minX, d.x);
+        maxX = Math.max(maxX, d.x);
+        minY = Math.min(minY, d.y);
+        maxY = Math.max(maxY, d.y);
+      }
+      const pad = 70;
+      const w = Math.max(maxX - minX, 1);
+      const h = Math.max(maxY - minY, 1);
+      const k = Math.max(0.2, Math.min(2.4, 0.9 * Math.min((W - 2 * pad) / w, (H - 2 * pad) / h)));
+      const cx = (minX + maxX) / 2;
+      const cy = (minY + maxY) / 2;
+      svg
+        .transition()
+        .duration(650)
+        .call(
+          zoom.transform as any,
+          d3.zoomIdentity
+            .translate(W / 2, H / 2)
+            .scale(k)
+            .translate(-cx, -cy),
+        );
+    }
+    function applyFilters(fit = true) {
       node.style('display', (d: any) => (nodeShown(d) ? null : 'none'));
       link.style('display', (d: any) =>
         nodeShown(d.source) && nodeShown(d.target) ? null : 'none',
@@ -359,6 +499,7 @@ const base = import.meta.env.BASE_URL;
           ? `${vis} of ${nodes.length} nodes`
           : `${nodes.length} nodes · ${links.length} edges`;
       }
+      if (fit) fitTo();
     }
     if (filter) filter.addEventListener('change', applyFilters);
 
@@ -394,6 +535,74 @@ const base = import.meta.env.BASE_URL;
         kindChips.classList.remove('hidden');
         kindChips.classList.add('flex');
       }
+    }
+
+    // Cluster control: defaults to "by category" on the full graph; neighborhood
+    // graphs have no control and stay free-force.
+    const groupSel = wrap.querySelector('[data-graph-group]') as HTMLSelectElement | null;
+    if (groupSel) {
+      applyGrouping(groupSel.value);
+      groupSel.addEventListener('change', () => applyGrouping(groupSel.value));
+    }
+
+    const zoomTo = (d: any, k = 1.7) =>
+      svg
+        .transition()
+        .duration(600)
+        .call(
+          zoom.transform as any,
+          d3.zoomIdentity
+            .translate(W / 2, H / 2)
+            .scale(k)
+            .translate(-d.x, -d.y),
+        );
+
+    // Surprise me — jump to a random visible SOUL and isolate its neighborhood.
+    const randomBtn = wrap.querySelector('[data-graph-random]') as HTMLButtonElement | null;
+    randomBtn?.addEventListener('click', () => {
+      const pool = nodes.filter(nodeShown);
+      if (!pool.length) return;
+      const d = pool[Math.floor(Math.random() * pool.length)];
+      highlight(d.id);
+      tip.style.display = 'block';
+      const kindBit =
+        d.kind && d.kind !== 'occupation' ? `${KIND_LABELS[d.kind] ?? d.kind} · ` : '';
+      tip.textContent = `${d.title} — ${kindBit}${d.category} · ${d.degree} links`;
+      zoomTo(d);
+    });
+
+    // Reset — clear filters + selection + zoom.
+    const resetBtn = wrap.querySelector('[data-graph-reset]') as HTMLButtonElement | null;
+    resetBtn?.addEventListener('click', () => {
+      if (search) search.value = '';
+      if (filter) filter.value = '';
+      selectedKinds.clear();
+      wrap.querySelectorAll('[data-graph-kind-chips] button').forEach((b) => {
+        b.setAttribute('aria-pressed', 'false');
+        (b as HTMLElement).style.background = 'transparent';
+        (b as HTMLElement).style.color = 'var(--ink-soft)';
+        (b as HTMLElement).style.borderColor = 'var(--border)';
+      });
+      applyFilters(false);
+      highlight(focus);
+      tip.style.display = 'none';
+      svg
+        .transition()
+        .duration(500)
+        .call(zoom.transform as any, d3.zoomIdentity);
+    });
+
+    // Fullscreen toggle (full graph only). The SVG (100% w/h, fixed viewBox)
+    // scales to fill the maximized canvas.
+    const fsBtn = wrap.querySelector('[data-graph-fullscreen]') as HTMLButtonElement | null;
+    if (fsBtn) {
+      fsBtn.addEventListener('click', () => {
+        if (document.fullscreenElement) document.exitFullscreen();
+        else (wrap as HTMLElement).requestFullscreen?.();
+      });
+      document.addEventListener('fullscreenchange', () => {
+        fsBtn.textContent = document.fullscreenElement === wrap ? '⤡ Exit' : '⤢ Fullscreen';
+      });
     }
   }
 

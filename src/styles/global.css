@@ -77,6 +77,18 @@ select option {
   color: var(--ink);
 }
 
+/* Maximized knowledge graph: fill the screen and let the canvas grow to fit. */
+.graph-wrap:fullscreen {
+  background: var(--bg);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+.graph-wrap:fullscreen [data-graph-canvas] {
+  flex: 1 1 auto;
+  height: auto !important;
+}
+
 /* Focus visibility for keyboard users (WCAG 2.4.7). */
 :focus-visible {
   outline: 2px solid var(--accent);

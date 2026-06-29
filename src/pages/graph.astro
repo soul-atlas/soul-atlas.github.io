@@ -30,6 +30,13 @@ const KIND_SYMBOLS: Record<string, any> = {
   historical: symbolCross,
   'agent-persona': symbolStar,
 };
+// Average connections per SOUL — a far more legible signal than graph density,
+// which is a near-zero fraction at this scale and tells a reader nothing.
+const avgConnections =
+  graph.nodes.length > 0
+    ? Math.round(((graph.edges.length * 2) / graph.nodes.length) * 10) / 10
+    : 0;
+
 const kindsInGraph = [...new Set(graph.nodes.map((n: any) => n.kind || 'occupation'))].sort();
 const kindLegend =
   kindsInGraph.length > 1
@@ -51,10 +58,10 @@ const kindLegend =
       <div>
         <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Knowledge Graph</h1>
         <p class="mt-2 max-w-2xl" style="color:var(--ink-soft)">
-          Every SOUL is a node; every typed relationship an edge. Drag to rearrange, scroll to zoom,
-          hover to isolate a neighborhood, click to open. {graph.nodes.length} nodes · {
-            graph.edges.length
-          } edges.
+          Every SOUL is a node; every typed relationship an edge. It opens clustered by category —
+          switch to <em>by kind</em> or <em>no clustering</em>, filter by category or kind, hover to
+          isolate a neighborhood, zoom in for labels, or hit <em>Surprise me</em> to land somewhere new.
+          {graph.nodes.length} nodes · {graph.edges.length} edges.
         </p>
       </div>
       <a href={url('/dashboard')} class="btn text-sm">Graph statistics →</a>
@@ -96,10 +103,10 @@ const kindLegend =
     <div class="mt-8 grid gap-4 sm:grid-cols-3">
       <div class="card p-4">
         <div class="text-xs uppercase tracking-wide" style="color:var(--ink-faint)">
-          Graph density
+          Avg. connections
         </div>
         <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">
-          {stats.totals.graphDensity}
+          {avgConnections}
         </div>
       </div>
       <div class="card p-4">
