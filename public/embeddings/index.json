@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "id": "minilm",
+      "name": "all-MiniLM-L6-v2",
+      "dim": 384,
+      "count": 654
+    },
+    {
+      "id": "bge-small",
+      "name": "bge-small-en-v1.5",
+      "dim": 384,
+      "count": 654
+    }
+  ]
+}

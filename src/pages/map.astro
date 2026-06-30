@@ -1,0 +1,236 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import Layout from '../layouts/Layout.astro';
+import { CATEGORY_COLORS } from '../lib/data';
+
+// Enumerate the committed embedding models (generated offline by
+// scripts/gen-embeddings.py). Each file holds precomputed 2D projections.
+let models: { id: string; name: string; dim: number; count: number }[] = [];
+try {
+  models = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), 'public', 'embeddings', 'index.json'), 'utf8'),
+  ).models;
+} catch {
+  models = [];
+}
+
+const config = { base: import.meta.env.BASE_URL, models, colors: CATEGORY_COLORS };
+const cats = Object.entries(CATEGORY_COLORS);
+---
+
+<Layout
+  title="Embedding map"
+  description="Project the SOUL corpus into 2D with PCA, UMAP, or t-SNE and explore how minds cluster by meaning."
+>
+  <div class="mx-auto max-w-6xl px-4 py-10">
+    <h1 class="text-3xl font-bold tracking-tight" style="color:var(--ink)">Embedding map</h1>
+    <p class="mt-2 max-w-3xl" style="color:var(--ink-soft)">
+      Every SOUL embedded with a sentence-transformer model, then projected into two dimensions.
+      Minds that think alike land near each other. Switch the model and the projection, drag to pan,
+      scroll to zoom, search to highlight, and click any point to open it.
+    </p>
+
+    {
+      models.length === 0 ? (
+        <div class="card mt-8 p-6" style="color:var(--ink-soft)">
+          No embeddings found. Generate them with <code>python scripts/gen-embeddings.py</code> and
+          rebuild.
+        </div>
+      ) : (
+        <>
+          <div class="mt-6 flex flex-wrap items-center gap-2">
+            <label class="text-sm" style="color:var(--ink-faint)">
+              Model
+              <select
+                id="model"
+                class="ml-1 rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
+                style="border-color:var(--border); color:var(--ink)"
+              >
+                {models.map((m) => (
+                  <option value={m.id}>{m.name}</option>
+                ))}
+              </select>
+            </label>
+            <div class="flex overflow-hidden rounded-md border" style="border-color:var(--border)">
+              {[
+                ['pca', 'PCA'],
+                ['umap', 'UMAP'],
+                ['tsne', 't-SNE'],
+              ].map(([v, lbl], i) => (
+                <button
+                  data-method={v}
+                  class="px-3 py-1.5 text-sm"
+                  style={`color:var(--ink-soft);${i ? 'border-left:1px solid var(--border)' : ''}`}
+                  aria-pressed={i === 0 ? 'true' : 'false'}
+                >
+                  {lbl}
+                </button>
+              ))}
+            </div>
+            <input
+              id="search"
+              type="search"
+              placeholder="Highlight a mind…"
+              class="min-w-[12rem] flex-1 rounded-md border bg-transparent px-3 py-1.5 text-sm outline-none"
+              style="border-color:var(--border); color:var(--ink)"
+            />
+            <span id="status" class="text-xs" style="color:var(--ink-faint)" />
+          </div>
+
+          <div
+            id="plot"
+            class="card relative mt-4 overflow-hidden"
+            style="height:640px"
+            data-config={JSON.stringify(config)}
+          >
+            <svg width="100%" height="100%" role="img" aria-label="Embedding projection of SOULs" />
+            <div
+              id="tip"
+              class="pointer-events-none absolute left-3 top-3 hidden rounded-md px-2.5 py-1.5 text-xs shadow"
+              style="background:var(--surface); border:1px solid var(--border); color:var(--ink)"
+            />
+          </div>
+
+          <div class="mt-4 flex flex-wrap gap-x-4 gap-y-1.5 text-xs">
+            {cats.map(([name, c]) => (
+              <span class="inline-flex items-center gap-1.5" style="color:var(--ink-soft)">
+                <span class="inline-block h-2 w-2 rounded-full" style={`background:${c}`} />
+                {name}
+              </span>
+            ))}
+          </div>
+
+          <p class="mt-6 max-w-3xl text-xs" style="color:var(--ink-faint)">
+            Projections are precomputed (scikit-learn + umap-learn) so the map is instant. PCA is
+            linear; UMAP and t-SNE are non-linear — in those, read clusters and neighbourhoods, not
+            absolute distances. Tuned defaults: UMAP n_neighbors=15 / min_dist=0.1, t-SNE
+            perplexity=30, cosine metric.
+          </p>
+        </>
+      )
+    }
+  </div>
+
+  <script>
+    import * as d3 from 'd3';
+
+    type Payload = {
+      id: string;
+      ids: string[];
+      titles: string[];
+      categories: string[];
+      projections: Record<string, number[][]>;
+    };
+
+    const plot = document.getElementById('plot');
+    if (plot) main(plot);
+
+    async function main(root: HTMLElement) {
+      const cfg = JSON.parse(root.dataset.config || '{}');
+      const base = (cfg.base || '/').replace(/\/$/, '');
+      const colors: Record<string, string> = cfg.colors || {};
+      const color = (c: string) => colors[c] || '#94a3b8';
+
+      const svgEl = root.querySelector('svg') as SVGSVGElement;
+      const tip = root.querySelector('#tip') as HTMLElement;
+      const modelSel = document.getElementById('model') as HTMLSelectElement;
+      const search = document.getElementById('search') as HTMLInputElement;
+      const status = document.getElementById('status') as HTMLElement;
+      const methodBtns = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-method]'));
+
+      let payload: Payload | null = null;
+      let method = 'pca';
+
+      const W = root.clientWidth || 900;
+      const H = root.clientHeight || 640;
+      const svg = d3.select(svgEl).attr('viewBox', `0 0 ${W} ${H}`);
+      const gZoom = svg.append('g');
+      const gPts = gZoom.append('g');
+      svg.call(
+        d3
+          .zoom<SVGSVGElement, unknown>()
+          .scaleExtent([0.4, 12])
+          .on('zoom', (ev) => gZoom.attr('transform', ev.transform)) as any,
+      );
+
+      async function loadModel(id: string) {
+        status.textContent = 'loading…';
+        payload = (await (await fetch(`${base}/embeddings/${id}.json`)).json()) as Payload;
+      }
+
+      function render() {
+        if (!payload) return;
+        const coords = payload.projections[method] || payload.projections.pca;
+        const xs = coords.map((c) => c[0]);
+        const ys = coords.map((c) => c[1]);
+        const pad = 30;
+        const x = d3
+          .scaleLinear()
+          .domain([Math.min(...xs), Math.max(...xs)])
+          .range([pad, W - pad]);
+        const y = d3
+          .scaleLinear()
+          .domain([Math.min(...ys), Math.max(...ys)])
+          .range([H - pad, pad]);
+
+        gPts
+          .selectAll('circle')
+          .data(payload.ids)
+          .join('circle')
+          .attr('cx', (_d, i) => x(coords[i][0]))
+          .attr('cy', (_d, i) => y(coords[i][1]))
+          .attr('r', 3.5)
+          .attr('fill', (_d, i) => color(payload!.categories[i]))
+          .attr('fill-opacity', 0.82)
+          .attr('stroke', 'var(--surface)')
+          .attr('stroke-width', 0.5)
+          .style('cursor', 'pointer')
+          .on('mouseenter', (_ev, d) => {
+            const i = payload!.ids.indexOf(d as string);
+            tip.style.display = 'block';
+            tip.textContent = `${payload!.titles[i]} · ${payload!.categories[i]}`;
+          })
+          .on('mouseleave', () => (tip.style.display = 'none'))
+          .on('click', (_ev, d) => (window.location.href = `${base}/souls/${d}`));
+        applySearch();
+        status.textContent = `${payload.ids.length} minds · ${method.toUpperCase()}`;
+      }
+
+      function applySearch() {
+        const q = search.value.trim().toLowerCase();
+        gPts
+          .selectAll<SVGCircleElement, string>('circle')
+          .attr('fill-opacity', (_d, i) =>
+            !q ? 0.82 : payload!.titles[i].toLowerCase().includes(q) ? 1 : 0.07,
+          )
+          .attr('r', (_d, i) => (q && payload!.titles[i].toLowerCase().includes(q) ? 6 : 3.5));
+      }
+
+      methodBtns.forEach((b) =>
+        b.addEventListener('click', () => {
+          method = b.dataset.method || 'pca';
+          methodBtns.forEach((o) => {
+            const on = o === b;
+            o.setAttribute('aria-pressed', String(on));
+            o.style.color = on ? 'var(--accent)' : 'var(--ink-soft)';
+            o.style.background = on ? 'var(--accent-soft)' : 'transparent';
+          });
+          render();
+        }),
+      );
+      modelSel.addEventListener('change', async () => {
+        await loadModel(modelSel.value);
+        render();
+      });
+      search.addEventListener('input', applySearch);
+
+      // Paint the default method button as active.
+      methodBtns[0].style.color = 'var(--accent)';
+      methodBtns[0].style.background = 'var(--accent-soft)';
+
+      await loadModel(modelSel.value);
+      render();
+    }
+  </script>
+</Layout>

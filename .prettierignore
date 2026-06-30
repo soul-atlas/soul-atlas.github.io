@@ -4,5 +4,6 @@ node_modules
 src/generated
 public/api
 public/pagefind
+public/embeddings
 package-lock.json
 *.md
