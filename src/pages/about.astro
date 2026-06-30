@@ -4,6 +4,33 @@ import Layout from '../layouts/Layout.astro';
 import { url, GITHUB_URL, SOUL_FORMAT_URL } from '../lib/site';
 import { souls } from '../lib/data';
 
+// 1. Read a SOUL straight off disk after cloning the repo.
+const repoSnippet = `git clone https://github.com/soul-atlas/soul-atlas.github.io
+
+# One folder per SOUL: SOUL.md (the portrait) + metadata.yaml
+cat soul-atlas.github.io/souls/barista/SOUL.md`;
+
+// 2. Fetch a single SOUL from the static JSON API.
+const apiSnippet = `// Markdown — ready to drop into a system prompt
+const soul = await fetch(
+  "https://soul-atlas.github.io/api/souls/barista.md",
+).then((r) => r.text());
+
+// JSON — pre-parsed into sections (heading, markdown, html, wordCount),
+// so you can inject just the parts that ground best
+const { sections } = await fetch(
+  "https://soul-atlas.github.io/api/souls/barista.json",
+).then((r) => r.json());
+const mentalModels = sections.find((s) => s.heading === "Mental Models");`;
+
+// 3. Pull the whole corpus as one document for RAG or training.
+const corpusSnippet = `// Every SOUL as one Markdown file — chunk it, embed it,
+// and retrieve the minds relevant to a query
+const corpus = await fetch(
+  "https://soul-atlas.github.io/llms-full.txt",
+).then((r) => r.text());`;
+
+// Ground a model with whichever SOUL you loaded.
 const soulSnippet = `import Anthropic from "@anthropic-ai/sdk";
 
 const soul = await fetch(
@@ -82,20 +109,50 @@ const response = await client.messages.create({
       </p>
 
       <h2>Using a SOUL in your code</h2>
-      <p>Grab one three ways:</p>
-      <ul>
-        <li>Read it from the repo: <code>souls/&lt;slug&gt;/SOUL.md</code></li>
-        <li>
-          Fetch one from the static <a href={url('/api/index.json')}>JSON API</a>:
-          <code>/api/souls/&lt;slug&gt;.md</code> (also <code>.json</code> / <code>.yaml</code>)
-        </li>
-        <li>
-          Pull the whole corpus for LLMs / RAG: <a href={url('/llms-full.txt')}>/llms-full.txt</a>
-        </li>
-      </ul>
       <p>
-        Then ground a model with it — shown with the Anthropic SDK, but a SOUL works in any model's
-        system prompt:
+        A <code>SOUL.md</code> is just Markdown. There are three ways to pull one into your stack.
+      </p>
+
+      <h3>1. From the repo</h3>
+      <p>Clone the Atlas and read any SOUL straight off disk — one folder per SOUL.</p>
+      <Code
+        code={repoSnippet}
+        lang="bash"
+        themes={{ light: 'github-light', dark: 'github-dark' }}
+        defaultColor="light"
+      />
+
+      <h3>2. From the JSON API</h3>
+      <p>
+        Fetch a single SOUL without cloning. The <a href={url('/api/index.json')}>static API</a> serves
+        each one as <code>.md</code> (ready for a system prompt), or as <code>.json</code> / <code
+          >.yaml</code
+        > pre-parsed into sections so you can inject just the parts that ground best — Guiding Principles,
+        Mental Models, Decision Frameworks, Rules of Thumb.
+      </p>
+      <Code
+        code={apiSnippet}
+        lang="ts"
+        themes={{ light: 'github-light', dark: 'github-dark' }}
+        defaultColor="light"
+      />
+
+      <h3>3. The whole corpus</h3>
+      <p>
+        Pull every SOUL as one document — the <a href={url('/llms-full.txt')}>/llms-full.txt</a> index
+        — for retrieval-augmented generation or training.
+      </p>
+      <Code
+        code={corpusSnippet}
+        lang="ts"
+        themes={{ light: 'github-light', dark: 'github-dark' }}
+        defaultColor="light"
+      />
+
+      <h3>Ground a model with it</h3>
+      <p>
+        However you load it, a SOUL drops into any model's system prompt — shown here with the
+        Anthropic SDK:
       </p>
       <Code
         code={soulSnippet}
@@ -104,11 +161,8 @@ const response = await client.messages.create({
         defaultColor="light"
       />
       <p>
-        The <code>.json</code> endpoint returns each SOUL pre-parsed into <code>sections</code> and rendered
-        <code>html</code>, so you can inject just the parts that ground best — Guiding Principles,
-        Mental Models, Decision Frameworks, Rules of Thumb. Everything is static, open, and released
-        under the MIT License — free to reuse, remix, and train on. Using SOULs to ground or train
-        AI is explicitly welcome.
+        Everything is static, open, and released under the MIT License — free to reuse, remix, and
+        train on. Using SOULs to ground or train AI is explicitly welcome.
       </p>
 
       <h2>How to contribute</h2>

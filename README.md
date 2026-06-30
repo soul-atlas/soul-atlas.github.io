@@ -165,17 +165,44 @@ License, and **AI training is explicitly welcome**.
 ## Using SOULs in your code
 
 A `SOUL.md` is just Markdown, so it drops into the system prompt of *any* model — or
-into a retrieval pipeline — to ground it in how an expert actually reasons. Grab one
-three ways:
+into a retrieval pipeline — to ground it in how an expert actually reasons. There are
+three ways to pull one into your stack.
+
+**1. From the repo** — clone the Atlas and read any SOUL off disk (one folder per SOUL):
 
 ```bash
-cat souls/barista/SOUL.md                                  # 1. read it from the repo
-curl https://soul-atlas.github.io/api/souls/barista.md     # 2. fetch one (also .json / .yaml)
-curl https://soul-atlas.github.io/llms-full.txt            # 3. pull the whole corpus for LLMs / RAG
+git clone https://github.com/soul-atlas/soul-atlas.github.io
+cat soul-atlas.github.io/souls/barista/SOUL.md
 ```
 
-Then ground a model with it — shown here with the Anthropic SDK, but a SOUL works in
-any model's system prompt:
+**2. From the JSON API** — fetch a single SOUL without cloning. The `.md` is ready for a
+system prompt; the `.json` is pre-parsed into `sections` (`heading`, `markdown`, `html`,
+`wordCount`) so you can inject just the parts that ground best:
+
+```ts
+// Markdown — ready to drop into a system prompt
+const soul = await fetch(
+  "https://soul-atlas.github.io/api/souls/barista.md",
+).then((r) => r.text());
+
+// JSON — pre-parsed into sections
+const { sections } = await fetch(
+  "https://soul-atlas.github.io/api/souls/barista.json",
+).then((r) => r.json());
+const mentalModels = sections.find((s) => s.heading === "Mental Models");
+```
+
+**3. The whole corpus** — pull every SOUL as one document for RAG or training:
+
+```ts
+// Chunk it, embed it, and retrieve the minds relevant to a query
+const corpus = await fetch(
+  "https://soul-atlas.github.io/llms-full.txt",
+).then((r) => r.text());
+```
+
+However you load it, ground a model with it — shown here with the Anthropic SDK, but a
+SOUL works in any model's system prompt:
 
 ```ts
 import Anthropic from "@anthropic-ai/sdk";
@@ -199,10 +226,7 @@ const response = await client.messages.create({
 });
 ```
 
-The `/api/souls/<slug>.json` endpoint returns each SOUL pre-parsed into `sections` and
-rendered `html`, so you can inject just the parts that ground best — Guiding Principles,
-Mental Models, Decision Frameworks, Rules of Thumb — and skip the rest. It's all
-MIT-licensed, and using SOULs to ground or train AI is explicitly welcome.
+It's all MIT-licensed, and using SOULs to ground or train AI is explicitly welcome.
 
 ## Honest about provenance
 
