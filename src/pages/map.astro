@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import Layout from '../layouts/Layout.astro';
-import { CATEGORY_COLORS } from '../lib/data';
+import { CATEGORY_COLORS, souls } from '../lib/data';
 
 // Enumerate the committed embedding models (generated offline by
 // scripts/gen-embeddings.py). Each file holds precomputed 2D projections.
@@ -15,7 +15,9 @@ try {
   models = [];
 }
 
-const config = { base: import.meta.env.BASE_URL, models, colors: CATEGORY_COLORS };
+// slug → short description, for the hover card (not stored in the embedding files).
+const summaries: Record<string, string> = Object.fromEntries(souls.map((s) => [s.slug, s.summary]));
+const config = { base: import.meta.env.BASE_URL, models, colors: CATEGORY_COLORS, summaries };
 const cats = Object.entries(CATEGORY_COLORS);
 ---
 
@@ -87,9 +89,13 @@ const cats = Object.entries(CATEGORY_COLORS);
             <svg width="100%" height="100%" role="img" aria-label="Embedding projection of SOULs" />
             <div
               id="tip"
-              class="pointer-events-none absolute left-3 top-3 hidden rounded-md px-2.5 py-1.5 text-xs shadow"
-              style="background:var(--surface); border:1px solid var(--border); color:var(--ink)"
-            />
+              class="pointer-events-none absolute left-0 top-0 hidden rounded-md px-3 py-2 text-xs shadow-lg"
+              style="background:var(--surface); border:1px solid var(--border); max-width:18rem; z-index:5"
+            >
+              <div id="tip-title" class="text-sm font-semibold" style="color:var(--ink)" />
+              <div id="tip-cat" class="mt-0.5" style="color:var(--ink-faint)" />
+              <div id="tip-desc" class="mt-1 leading-snug" style="color:var(--ink-soft)" />
+            </div>
           </div>
 
           <div class="mt-4 flex flex-wrap gap-x-4 gap-y-1.5 text-xs">
@@ -131,9 +137,28 @@ const cats = Object.entries(CATEGORY_COLORS);
       const base = (cfg.base || '/').replace(/\/$/, '');
       const colors: Record<string, string> = cfg.colors || {};
       const color = (c: string) => colors[c] || '#94a3b8';
+      const summaries: Record<string, string> = cfg.summaries || {};
 
       const svgEl = root.querySelector('svg') as SVGSVGElement;
       const tip = root.querySelector('#tip') as HTMLElement;
+      const tipTitle = root.querySelector('#tip-title') as HTMLElement;
+      const tipCat = root.querySelector('#tip-cat') as HTMLElement;
+      const tipDesc = root.querySelector('#tip-desc') as HTMLElement;
+
+      // Position the hover card next to the cursor, flipping/clamping so it never
+      // spills outside the plot.
+      function moveTip(ev: MouseEvent) {
+        const r = root.getBoundingClientRect();
+        const pad = 14;
+        let mx = ev.clientX - r.left + pad;
+        let my = ev.clientY - r.top + pad;
+        const tw = tip.offsetWidth || 220;
+        const th = tip.offsetHeight || 80;
+        if (mx + tw > r.width) mx = ev.clientX - r.left - tw - pad;
+        if (my + th > r.height) my = r.height - th - 6;
+        tip.style.left = `${Math.max(6, mx)}px`;
+        tip.style.top = `${Math.max(6, my)}px`;
+      }
       const modelSel = document.getElementById('model') as HTMLSelectElement;
       const search = document.getElementById('search') as HTMLInputElement;
       const status = document.getElementById('status') as HTMLElement;
@@ -186,11 +211,16 @@ const cats = Object.entries(CATEGORY_COLORS);
           .attr('stroke', 'var(--surface)')
           .attr('stroke-width', 0.5)
           .style('cursor', 'pointer')
-          .on('mouseenter', (_ev, d) => {
+          .on('mouseenter', (ev, d) => {
             const i = payload!.ids.indexOf(d as string);
+            tipTitle.textContent = payload!.titles[i];
+            tipCat.textContent = payload!.categories[i];
+            tipCat.style.color = color(payload!.categories[i]);
+            tipDesc.textContent = summaries[d as string] || '';
             tip.style.display = 'block';
-            tip.textContent = `${payload!.titles[i]} · ${payload!.categories[i]}`;
+            moveTip(ev as MouseEvent);
           })
+          .on('mousemove', (ev) => moveTip(ev as MouseEvent))
           .on('mouseleave', () => (tip.style.display = 'none'))
           .on('click', (_ev, d) => (window.location.href = `${base}/souls/${d}`));
         applySearch();
