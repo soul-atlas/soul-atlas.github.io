@@ -145,7 +145,8 @@ async function nodePoints(want) {
           return { x: r.x + r.width / 2, y: r.y + r.height / 2, w: r.width };
         })
         .filter(
-          (p) => p.x > cv.left + 40 && p.x < cv.right - 40 && p.y > cv.top + 40 && p.y < cv.bottom - 40,
+          (p) =>
+            p.x > cv.left + 40 && p.x < cv.right - 40 && p.y > cv.top + 40 && p.y < cv.bottom - 40,
         )
         .sort((a, b) => b.w - a.w)
         .slice(0, 60);
