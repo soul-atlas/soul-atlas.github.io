@@ -1,4 +1,5 @@
 ---
+import { Code } from 'astro:components';
 import Layout from '../layouts/Layout.astro';
 import { url, GITHUB_URL, SOUL_FORMAT_URL } from '../lib/site';
 import { souls } from '../lib/data';
@@ -75,9 +76,9 @@ const response = await client.messages.create({
       <h2>For humans and AI</h2>
       <p>
         Read a SOUL to onboard into an unfamiliar field in an afternoon, to mentor, or to check your
-        own blind spots. Or feed it to a model: a <code>SOUL.md</code> is just Markdown, so it drops
-        straight into any model's system prompt — or a retrieval pipeline — to ground it in how a
-        domain expert actually reasons.
+        own blind spots. Or feed it to a model: a <code>SOUL.md</code> is just Markdown, so it drops straight
+        into any model's system prompt — or a retrieval pipeline — to ground it in how a domain expert
+        actually reasons.
       </p>
 
       <h2>Using a SOUL in your code</h2>
@@ -96,13 +97,18 @@ const response = await client.messages.create({
         Then ground a model with it — shown with the Anthropic SDK, but a SOUL works in any model's
         system prompt:
       </p>
-      <pre><code>{soulSnippet}</code></pre>
+      <Code
+        code={soulSnippet}
+        lang="ts"
+        themes={{ light: 'github-light', dark: 'github-dark' }}
+        defaultColor="light"
+      />
       <p>
-        The <code>.json</code> endpoint returns each SOUL pre-parsed into <code>sections</code> and
-        rendered <code>html</code>, so you can inject just the parts that ground best — Guiding
-        Principles, Mental Models, Decision Frameworks, Rules of Thumb. Everything is static, open,
-        and released under the MIT License — free to reuse, remix, and train on. Using SOULs to
-        ground or train AI is explicitly welcome.
+        The <code>.json</code> endpoint returns each SOUL pre-parsed into <code>sections</code> and rendered
+        <code>html</code>, so you can inject just the parts that ground best — Guiding Principles,
+        Mental Models, Decision Frameworks, Rules of Thumb. Everything is static, open, and released
+        under the MIT License — free to reuse, remix, and train on. Using SOULs to ground or train
+        AI is explicitly welcome.
       </p>
 
       <h2>How to contribute</h2>

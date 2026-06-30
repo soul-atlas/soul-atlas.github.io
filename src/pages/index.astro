@@ -1,10 +1,16 @@
 ---
+import { Code } from 'astro:components';
 import Layout from '../layouts/Layout.astro';
 import SoulCard from '../components/SoulCard.astro';
 import { souls, stats, categories } from '../lib/data';
 import { url, GITHUB_URL, SITE } from '../lib/site';
 
 const githubRepo = SITE.githubRepo;
+
+// Short, illustrative snippet for the "For developers" tip below.
+const tipSnippet = `const soul = await fetch(soulUrl).then((r) => r.text());
+// pass the SOUL as the system prompt to ground any model
+const res = await client.messages.create({ model, system: soul, messages });`;
 
 // SOUL of the Day — deterministic per day so SSG output is stable but rotates.
 const dayIndex = Math.floor(Date.parse('2026-06-26') / 86400000) % Math.max(1, souls.length);
@@ -121,6 +127,28 @@ const jsonLd = {
           the way a domain expert would.
         </p>
       </div>
+    </div>
+
+    <!-- Developer tip -->
+    <div class="card mt-4 p-5 sm:p-6">
+      <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <div class="text-sm font-semibold" style="color:var(--ink)">For developers</div>
+        <a href={url('/about')} class="text-sm hover:underline" style="color:var(--accent)">
+          Using a SOUL in your code →
+        </a>
+      </div>
+      <p class="mt-2 max-w-3xl text-sm leading-relaxed" style="color:var(--ink-soft)">
+        A <code class="code-inline">SOUL.md</code> is just Markdown — drop it into any model's system
+        prompt to ground it in how an expert reasons. Fetch one from
+        <code class="code-inline">/api/souls/&lt;slug&gt;.md</code>, or pull the whole corpus from
+        <a href={url('/llms-full.txt')} class="underline">/llms-full.txt</a>.
+      </p>
+      <Code
+        code={tipSnippet}
+        lang="ts"
+        themes={{ light: 'github-light', dark: 'github-dark' }}
+        defaultColor="light"
+      />
     </div>
   </section>
 

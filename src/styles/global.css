@@ -176,6 +176,38 @@ select option {
   border: none;
   padding: 0;
 }
+
+/* Inline code outside .prose (e.g. the homepage developer tip). */
+.code-inline {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.86em;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+/* Shiki <Code> blocks. Base chrome covers usage outside .prose; inside .prose
+   the .prose pre rules above add to it. Token + background colors come from the
+   theme's inline styles (light default); swap to the dark variant by data-theme. */
+.astro-code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 1rem 1.1rem;
+  margin: 1.1rem 0 0;
+  overflow-x: auto;
+}
+.astro-code code {
+  font-family: inherit;
+}
+[data-theme='dark'] .astro-code,
+[data-theme='dark'] .astro-code span {
+  color: var(--shiki-dark) !important;
+  background-color: var(--shiki-dark-bg) !important;
+}
 .prose blockquote {
   border-left: 3px solid var(--accent);
   padding-left: 1rem;
