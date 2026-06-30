@@ -222,6 +222,70 @@ const mdUrl = `${base}api/souls/${slug}.md`;
     color: var(--ink);
     border-top-right-radius: 0.25rem;
   }
+  /* Markdown rendered inside SOUL bubbles (built as DOM, never innerHTML). */
+  .chat-bubble > :first-child {
+    margin-top: 0;
+  }
+  .chat-bubble > :last-child {
+    margin-bottom: 0;
+  }
+  .chat-bubble p {
+    margin: 0 0 0.5rem;
+  }
+  .chat-bubble h3,
+  .chat-bubble h4,
+  .chat-bubble h5 {
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0.6rem 0 0.3rem;
+  }
+  .chat-bubble ul,
+  .chat-bubble ol {
+    margin: 0.4rem 0;
+    padding-left: 1.25rem;
+  }
+  .chat-bubble ul {
+    list-style: disc;
+  }
+  .chat-bubble ol {
+    list-style: decimal;
+  }
+  .chat-bubble li {
+    margin: 0.15rem 0;
+  }
+  .chat-bubble code {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    font-size: 0.85em;
+  }
+  .chat-bubble :not(pre) > code {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.05em 0.32em;
+  }
+  .chat-bubble pre {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.7rem;
+    margin: 0.5rem 0;
+    overflow-x: auto;
+  }
+  .chat-bubble pre code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .chat-bubble a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .chat-bubble blockquote {
+    margin: 0.5rem 0;
+    padding-left: 0.7rem;
+    border-left: 3px solid var(--border);
+    color: var(--ink-faint);
+  }
   .chat-typing {
     display: inline-flex;
     gap: 4px;
@@ -510,6 +574,127 @@ const mdUrl = `${base}api/souls/${slug}.md`;
     // Rendering — built with the DOM API + textContent only, never innerHTML.
     const scroll = () => (log.scrollTop = log.scrollHeight);
 
+    // Minimal, safe Markdown → DOM. Every text value goes through textContent /
+    // createTextNode, and link hrefs are protocol-allowlisted, so untrusted model
+    // output can never inject markup, script, or a javascript: URL.
+    function appendText(parent: Node, text: string) {
+      const parts = text.split('\n');
+      parts.forEach((part, idx) => {
+        if (idx) parent.appendChild(document.createElement('br'));
+        if (part) parent.appendChild(document.createTextNode(part));
+      });
+    }
+    const INLINE: { re: RegExp; tag?: string; recurse?: boolean; link?: boolean }[] = [
+      { re: /`([^`]+)`/, tag: 'code' },
+      { re: /\*\*([^*]+?)\*\*/, tag: 'strong', recurse: true },
+      { re: /__([^_]+?)__/, tag: 'strong', recurse: true },
+      { re: /\*([^*]+?)\*/, tag: 'em', recurse: true },
+      { re: /_([^_]+?)_/, tag: 'em', recurse: true },
+      { re: /\[([^\]]+)\]\(([^)\s]+)\)/, link: true },
+    ];
+    function appendInline(parent: Node, text: string) {
+      let earliest: { p: (typeof INLINE)[number]; m: RegExpExecArray } | null = null;
+      for (const p of INLINE) {
+        const m = p.re.exec(text);
+        if (m && (!earliest || m.index < earliest.m.index)) earliest = { p, m };
+      }
+      if (!earliest) {
+        appendText(parent, text);
+        return;
+      }
+      const { p, m } = earliest;
+      if (m.index > 0) appendText(parent, text.slice(0, m.index));
+      if (p.link) {
+        const a = document.createElement('a');
+        a.textContent = m[1];
+        if (/^(https?:|mailto:)/i.test(m[2])) {
+          a.href = m[2];
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+        }
+        parent.appendChild(a);
+      } else {
+        const el = document.createElement(p.tag!);
+        if (p.recurse) appendInline(el, m[1]);
+        else el.textContent = m[1];
+        parent.appendChild(el);
+      }
+      appendInline(parent, text.slice(m.index + m[0].length));
+    }
+    function renderMarkdown(container: HTMLElement, text: string) {
+      container.replaceChildren();
+      const lines = text.split('\n');
+      let i = 0;
+      const isList = (l: string) => /^\s*([-*+]|\d+\.)\s+/.test(l);
+      while (i < lines.length) {
+        const line = lines[i];
+        const fence = line.match(/^```(\w*)\s*$/);
+        if (fence) {
+          i++;
+          const buf: string[] = [];
+          while (i < lines.length && !/^```\s*$/.test(lines[i])) buf.push(lines[i++]);
+          i++; // skip closing fence (or run off EOF for a still-streaming block)
+          const pre = document.createElement('pre');
+          const code = document.createElement('code');
+          if (fence[1]) code.className = `language-${fence[1]}`;
+          code.textContent = buf.join('\n');
+          pre.appendChild(code);
+          container.appendChild(pre);
+          continue;
+        }
+        if (/^\s*$/.test(line)) {
+          i++;
+          continue;
+        }
+        const h = line.match(/^(#{1,6})\s+(.*)$/);
+        if (h) {
+          const el = document.createElement(
+            h[1].length <= 2 ? 'h3' : h[1].length === 3 ? 'h4' : 'h5',
+          );
+          appendInline(el, h[2]);
+          container.appendChild(el);
+          i++;
+          continue;
+        }
+        if (isList(line)) {
+          const ordered = /^\s*\d+\.\s+/.test(line);
+          const list = document.createElement(ordered ? 'ol' : 'ul');
+          while (i < lines.length && isList(lines[i])) {
+            const li = document.createElement('li');
+            appendInline(li, lines[i].replace(/^\s*([-*+]|\d+\.)\s+/, ''));
+            list.appendChild(li);
+            i++;
+          }
+          container.appendChild(list);
+          continue;
+        }
+        if (/^\s*>\s?/.test(line)) {
+          const bq = document.createElement('blockquote');
+          const buf: string[] = [];
+          while (i < lines.length && /^\s*>\s?/.test(lines[i]))
+            buf.push(lines[i++].replace(/^\s*>\s?/, ''));
+          appendInline(bq, buf.join('\n'));
+          container.appendChild(bq);
+          continue;
+        }
+        const buf = [line];
+        i++;
+        while (
+          i < lines.length &&
+          !/^\s*$/.test(lines[i]) &&
+          !/^```/.test(lines[i]) &&
+          !/^#{1,6}\s/.test(lines[i]) &&
+          !isList(lines[i]) &&
+          !/^\s*>\s?/.test(lines[i])
+        ) {
+          buf.push(lines[i++]);
+        }
+        const p = document.createElement('p');
+        appendInline(p, buf.join('\n'));
+        container.appendChild(p);
+      }
+    }
+
     function userIcon(): SVGSVGElement {
       const ns = 'http://www.w3.org/2000/svg';
       const svg = document.createElementNS(ns, 'svg');
@@ -557,12 +742,25 @@ const mdUrl = `${base}api/souls/${slug}.md`;
       for (let i = 0; i < 3; i++) typing.appendChild(document.createElement('span'));
       bubble.appendChild(typing);
       const row = bubble.parentElement;
+      // Re-render the Markdown at most once per frame while tokens stream in.
+      let raf = 0;
+      let pending = '';
+      const paint = () => {
+        raf = 0;
+        renderMarkdown(bubble, pending);
+        scroll();
+      };
       return {
         set(text: string) {
-          bubble.textContent = text;
-          scroll();
+          pending = text;
+          if (!raf) raf = requestAnimationFrame(paint);
+        },
+        flush() {
+          if (raf) cancelAnimationFrame(raf);
+          paint();
         },
         remove() {
+          if (raf) cancelAnimationFrame(raf);
           row?.remove();
         },
       };
@@ -708,6 +906,7 @@ const mdUrl = `${base}api/souls/${slug}.md`;
           }
         }
         if (!acc) out.set('(no response)');
+        out.flush();
         history.push({ role: 'assistant', content: acc });
       } catch (e: any) {
         if (e?.name !== 'AbortError') {
