@@ -2,6 +2,7 @@
 import { Code } from 'astro:components';
 import Layout from '../layouts/Layout.astro';
 import SoulCard from '../components/SoulCard.astro';
+import Constellation from '../components/Constellation.astro';
 import { souls, stats, categories } from '../lib/data';
 import { url, GITHUB_URL, SITE } from '../lib/site';
 
@@ -55,8 +56,9 @@ const jsonLd = {
 
 <Layout jsonLd={jsonLd}>
   <!-- Hero -->
-  <section class="border-b" style="border-color:var(--border)">
-    <div class="mx-auto max-w-5xl px-4 py-20 text-center">
+  <section class="relative overflow-hidden border-b" style="border-color:var(--border)">
+    <Constellation />
+    <div class="relative z-10 mx-auto max-w-5xl px-4 py-20 text-center">
       <div class="mb-5 inline-flex items-center gap-2 chip">
         <span class="inline-block h-1.5 w-1.5 rounded-full" style="background:var(--accent)"></span>
         Open · MIT License · {souls.length.toLocaleString('en-US')} SOULs and growing
