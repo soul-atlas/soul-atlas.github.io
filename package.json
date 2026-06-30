@@ -15,10 +15,11 @@
   "scripts": {
     "dev": "npm run generate && astro dev",
     "start": "astro dev",
-    "build": "npm run generate && astro build && npm run search:index",
+    "build": "npm run generate && npm run og && astro build && npm run search:index",
     "preview": "astro preview",
     "astro": "astro",
     "generate": "node scripts/generate.mjs",
+    "og": "node scripts/gen-og.mjs",
     "validate": "node scripts/validate.mjs",
     "audit": "node scripts/audit-depth.mjs",
     "review:suggestion": "node scripts/review-suggestion.mjs",
@@ -46,6 +47,7 @@
     "tailwindcss": "^3.4.13"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@types/d3": "^7.4.3",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^20.16.0",

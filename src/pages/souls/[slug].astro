@@ -141,6 +141,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
   title={rec.title}
   description={m.summary}
   ogType="article"
+  ogImage={url(`/og/${slug}.png`)}
   jsonLd={jsonLd}
   readingProgress={true}
 >

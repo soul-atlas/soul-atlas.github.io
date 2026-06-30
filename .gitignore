@@ -9,6 +9,7 @@ node_modules/
 src/generated/
 public/api/
 public/pagefind/
+public/og/
 
 # logs & env
 *.log

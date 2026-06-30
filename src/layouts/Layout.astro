@@ -9,6 +9,7 @@ interface Props {
   title?: string;
   description?: string;
   ogType?: string;
+  ogImage?: string;
   jsonLd?: Record<string, any> | null;
   readingProgress?: boolean;
 }
@@ -17,12 +18,18 @@ const {
   title,
   description = SITE.description,
   ogType = 'website',
+  ogImage,
   jsonLd = null,
   readingProgress = false,
 } = Astro.props;
 
 const pageTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
-const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://soul-atlas.github.io').href;
+const SITE_ORIGIN = Astro.site ?? 'https://soul-atlas.github.io';
+const canonical = new URL(Astro.url.pathname, SITE_ORIGIN).href;
+// Per-page OG card (built into public/og/ at build time); falls back to the
+// site-wide default. Resolved to an absolute URL — social crawlers require it.
+const ogImageUrl = new URL(ogImage ?? `${import.meta.env.BASE_URL}og/default.png`, SITE_ORIGIN)
+  .href;
 ---
 
 <!doctype html>
@@ -41,10 +48,15 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://soul-atlas.
     <meta property="og:description" content={description} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title ?? SITE.name} />
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title ?? SITE.name} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
 
     <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.svg`} type="image/svg+xml" />
     <link
