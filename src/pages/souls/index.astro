@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { souls, categories, kinds, kindLabel } from '../../lib/data';
+import { souls, categories, kinds, kindLabel, topSimilarSlugs } from '../../lib/data';
 import { url, soulUrl, categoryColor } from '../../lib/site';
 
 const sorted = [...souls].sort((a, b) => a.title.localeCompare(b.title));
@@ -18,6 +18,10 @@ const clientData = sorted.map((s) => ({
   links: s.backlinks.length,
   updated: s.updated,
 }));
+// Per-SOUL "find similar" lists (ranked slugs), for the Explore similarity picker.
+const similarTop: Record<string, string[]> = Object.fromEntries(
+  sorted.map((s) => [s.slug, topSimilarSlugs(s.slug, 8)]),
+);
 ---
 
 <Layout title="Explore" description="Browse every SOUL — filter by domain, difficulty, and more.">
@@ -90,6 +94,15 @@ const clientData = sorted.map((s) => ({
         <option value="links">Most connected</option>
         <option value="updated">Recently updated</option>
       </select>
+      <select
+        id="sim"
+        title="Show the minds most similar by content to a chosen SOUL"
+        class="rounded-md border bg-transparent px-2 py-2 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink); max-width:13rem"
+      >
+        <option value="">✨ Find similar to…</option>
+        {sorted.map((s) => <option value={s.slug}>{s.title}</option>)}
+      </select>
       <div class="ml-auto flex rounded-md border" style="border-color:var(--border)">
         <button
           id="view-grid"
@@ -106,7 +119,14 @@ const clientData = sorted.map((s) => ({
       </div>
     </div>
 
-    <div class="mt-2 text-sm" style="color:var(--ink-faint)"><span id="count"></span></div>
+    <div class="mt-2 flex flex-wrap items-center gap-2 text-sm" style="color:var(--ink-faint)">
+      <span id="count"></span>
+      <span id="simnote" class="hidden">
+        · similar to <strong id="simname" style="color:var(--ink-soft)"></strong> by content
+        <button id="simclear" class="ml-1 hover:underline" style="color:var(--accent)">clear</button
+        >
+      </span>
+    </div>
 
     <div id="results" class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
     <div id="empty" class="hidden py-20 text-center" style="color:var(--ink-faint)">
@@ -114,9 +134,10 @@ const clientData = sorted.map((s) => ({
     </div>
   </div>
 
-  <script is:inline define:vars={{ data: clientData, base: import.meta.env.BASE_URL }}>
+  <script is:inline define:vars={{ data: clientData, similarTop, base: import.meta.env.BASE_URL }}>
     (function () {
       const root = base.replace(/\/$/, '');
+      const bySlug = new Map(data.map((s) => [s.slug, s]));
       const colors = {
         Technology: '#3b82f6',
         Healthcare: '#ef4444',
@@ -148,6 +169,9 @@ const clientData = sorted.map((s) => ({
       const kind = document.getElementById('kind'); // only present with >1 kind
       const diff = document.getElementById('diff');
       const sort = document.getElementById('sort');
+      const sim = document.getElementById('sim');
+      const simnote = document.getElementById('simnote');
+      const simname = document.getElementById('simname');
       let view = 'grid';
 
       function card(s) {
@@ -169,7 +193,13 @@ const clientData = sorted.map((s) => ({
           fk = kind ? kind.value : '',
           fd = diff.value,
           fs = sort.value;
-        let list = data.filter((s) => {
+        // Similar mode: base the list on the chosen SOUL's ranked neighbours.
+        const simSlug = sim.value;
+        const simMode = simSlug && bySlug.has(simSlug);
+        let list = simMode
+          ? (similarTop[simSlug] || []).map((sl) => bySlug.get(sl)).filter(Boolean)
+          : data.slice();
+        list = list.filter((s) => {
           if (fc && s.category !== fc) return false;
           if (fk && s.kind !== fk) return false;
           if (fd && s.difficulty !== fd) return false;
@@ -187,22 +217,35 @@ const clientData = sorted.map((s) => ({
           }
           return true;
         });
-        list.sort((a, b) => {
-          if (fs === 'words') return b.words - a.words;
-          if (fs === 'links') return b.links - a.links;
-          if (fs === 'updated') return (b.updated || '').localeCompare(a.updated || '');
-          return a.title.localeCompare(b.title);
-        });
+        // Keep similarity rank in similar mode; otherwise honour the sort control.
+        if (!simMode) {
+          list.sort((a, b) => {
+            if (fs === 'words') return b.words - a.words;
+            if (fs === 'links') return b.links - a.links;
+            if (fs === 'updated') return (b.updated || '').localeCompare(a.updated || '');
+            return a.title.localeCompare(b.title);
+          });
+        }
         results.className =
           view === 'grid' ? 'mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3' : 'mt-5 grid gap-3';
         results.innerHTML = list.map(card).join('');
-        count.textContent = `${list.length} of ${data.length} SOULs`;
+        count.textContent = simMode
+          ? `${list.length} similar`
+          : `${list.length} of ${data.length} SOULs`;
         empty.classList.toggle('hidden', list.length > 0);
+        simnote.classList.toggle('hidden', !simMode);
+        sort.disabled = !!simMode;
+        sort.style.opacity = simMode ? '0.5' : '1';
+        if (simMode) simname.textContent = bySlug.get(simSlug).title;
       }
 
-      [q, cat, kind, diff, sort]
+      [q, cat, kind, diff, sort, sim]
         .filter(Boolean)
         .forEach((el) => el.addEventListener('input', apply));
+      document.getElementById('simclear').addEventListener('click', () => {
+        sim.value = '';
+        apply();
+      });
       document.getElementById('view-grid').addEventListener('click', () => {
         view = 'grid';
         setView();
@@ -225,6 +268,8 @@ const clientData = sorted.map((s) => ({
       if (params.get('category')) cat.value = params.get('category');
       if (kind && params.get('kind')) kind.value = params.get('kind');
       if (params.get('q')) q.value = params.get('q');
+      if (params.get('similar') && similarTop[params.get('similar')])
+        sim.value = params.get('similar');
       apply();
     })();
   </script>

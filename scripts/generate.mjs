@@ -12,6 +12,7 @@ import yaml from 'js-yaml';
 import { buildCorpus, loadSectionSpec } from './lib/corpus.mjs';
 import { soulHistory, repoActivity } from './lib/git.mjs';
 import { computeStats } from './lib/stats.mjs';
+import { computeSimilarity } from './lib/similarity.mjs';
 import {
   SCHEMA_DIR,
   GENERATED_DIR,
@@ -154,6 +155,9 @@ const activity = repoActivity(365);
 console.log('• Computing statistics…');
 const stats = computeStats(corpus, gitBySlug);
 
+console.log('• Computing content similarity…');
+const similarity = computeSimilarity(corpus.souls);
+
 if (statsOnly) {
   const t = stats.totals;
   console.log('');
@@ -238,6 +242,7 @@ writeJSON(path.join(GENERATED_DIR, 'manifest.json'), {
 });
 writeJSON(path.join(GENERATED_DIR, 'index.json'), lightList);
 writeJSON(path.join(GENERATED_DIR, 'graph.json'), corpus.graph);
+writeJSON(path.join(GENERATED_DIR, 'similar.json'), similarity);
 writeJSON(path.join(GENERATED_DIR, 'stats.json'), stats);
 writeJSON(path.join(GENERATED_DIR, 'activity.json'), activity);
 writeJSON(path.join(GENERATED_DIR, 'search.json'), searchDocs);
@@ -285,6 +290,7 @@ writeJSON(path.join(PUBLIC_API_DIR, 'souls.json'), lightList);
 writeJSON(path.join(PUBLIC_API_DIR, 'categories.json'), categories);
 writeJSON(path.join(PUBLIC_API_DIR, 'tags.json'), tags);
 writeJSON(path.join(PUBLIC_API_DIR, 'graph.json'), corpus.graph);
+writeJSON(path.join(PUBLIC_API_DIR, 'similar.json'), similarity);
 writeJSON(path.join(PUBLIC_API_DIR, 'stats.json'), stats);
 
 // Per-SOUL machine formats: JSON, Markdown, YAML.

@@ -6,6 +6,7 @@ import statsJson from '../generated/stats.json';
 import manifestJson from '../generated/manifest.json';
 import activityJson from '../generated/activity.json';
 import searchJson from '../generated/search.json';
+import similarJson from '../generated/similar.json';
 
 export type RelationshipType =
   | 'related'
@@ -253,12 +254,12 @@ export function getSpecializationTree(slug: string): SpecNode | null {
 
 // ---------------------------------------------------------------------------
 // "Similar minds" — content similarity beyond the explicit, hand-authored graph
-// edges. We have no embedding service (the site is static, offline-built, and
-// dependency-light), so similarity is computed at build time with TF-IDF cosine
-// over each SOUL's text (title + tags + summary + section prose, with the
-// shorter, more topical fields weighted up). For a corpus this size that
-// surfaces genuinely related minds — shared vocabulary, mental models, and
-// concerns — that no one thought to link. Deterministic; recomputed each build.
+// edges. Computed at build time with TF-IDF cosine (see scripts/lib/similarity
+// .mjs) and emitted to generated/similar.json: a per-SOUL candidate list plus a
+// deduped edge set for the graph's similarity lens. We have no embedding service
+// (the site is static and offline-built), and this is the single source of truth
+// shared by the cards, the Explore "find similar" picker, and the graph lens.
+// (The neural embeddings under /map are a separate, optional artifact.)
 export interface SimilarMind {
   slug: string;
   title: string;
@@ -266,110 +267,22 @@ export interface SimilarMind {
   score: number;
 }
 
-const STOPWORDS = new Set(
-  (
-    'the and for are but not you all any can her was one our out has had his she him how its ' +
-    'who get why see use two has had let put say too via per yet off who whom this that with ' +
-    'from into over under than then them they their there here when what which while where ' +
-    'your yours about above after again against because been before being below between both ' +
-    'does doing down during each few more most other some such only own same these those very ' +
-    'will would should could other within without across among also like just much many often ' +
-    'every most less able based using used make makes made work works working one set sets'
-  ).split(/\s+/),
-);
-
-function tokenize(text: string): string[] {
-  const out: string[] = [];
-  const re = /[a-z][a-z'-]{2,}/g;
-  let m: RegExpExecArray | null;
-  const t = text.toLowerCase();
-  while ((m = re.exec(t))) {
-    const w = m[0].replace(/['-]/g, '');
-    if (w.length >= 3 && !STOPWORDS.has(w)) out.push(w);
-  }
-  return out;
+interface SimilarData {
+  map: Record<string, { slug: string; score: number }[]>;
+  edges: { source: string; target: string; score: number }[];
 }
+const similarData = similarJson as SimilarData;
 
-let _similar: Map<string, SimilarMind[]> | null = null;
+/** Raw deduped similarity edges (for the graph's similarity lens). */
+export const similarityEdges = similarData.edges;
 
-function buildSimilar(): Map<string, SimilarMind[]> {
-  if (_similar) return _similar;
-  const recs = [...fullBySlug.values()];
-  const N = recs.length || 1;
-
-  // Field-weighted term frequencies + document frequencies.
-  const docs: { slug: string; tf: Map<string, number> }[] = [];
-  const df = new Map<string, number>();
-  for (const r of recs) {
-    const m = r.metadata ?? {};
-    const parts: string[] = [];
-    const repeat = (s: string, n: number) => {
-      for (let i = 0; i < n; i++) parts.push(s);
-    };
-    repeat(r.title, 3);
-    for (const tag of (m.tags ?? []) as string[]) repeat(String(tag).replace(/-/g, ' '), 3);
-    if (m.summary) repeat(String(m.summary), 2);
-    for (const sec of r.sections ?? []) parts.push(sec.markdown ?? '');
-    const tf = new Map<string, number>();
-    for (const tok of tokenize(parts.join(' '))) tf.set(tok, (tf.get(tok) ?? 0) + 1);
-    for (const term of tf.keys()) df.set(term, (df.get(term) ?? 0) + 1);
-    docs.push({ slug: r.slug, tf });
-  }
-
-  // L2-normalized TF-IDF vectors (sublinear TF; drop near-ubiquitous terms).
-  const vecs = new Map<string, Map<string, number>>();
-  for (const { slug, tf } of docs) {
-    const v = new Map<string, number>();
-    let norm = 0;
-    for (const [term, count] of tf) {
-      const d = df.get(term)!;
-      if (d > N * 0.5) continue;
-      const w = (1 + Math.log(count)) * Math.log(N / d);
-      if (w <= 0) continue;
-      v.set(term, w);
-      norm += w * w;
-    }
-    norm = Math.sqrt(norm) || 1;
-    for (const [term, w] of v) v.set(term, w / norm);
-    vecs.set(slug, v);
-  }
-
-  // Inverted index → sparse cosine → top candidates per doc.
-  const inverted = new Map<string, [string, number][]>();
-  for (const [slug, v] of vecs)
-    for (const [term, w] of v) {
-      if (!inverted.has(term)) inverted.set(term, []);
-      inverted.get(term)!.push([slug, w]);
-    }
-
-  const out = new Map<string, SimilarMind[]>();
-  for (const [slug, v] of vecs) {
-    const score = new Map<string, number>();
-    for (const [term, w] of v) {
-      const postings = inverted.get(term)!;
-      if (postings.length > N * 0.4) continue;
-      for (const [other, ow] of postings) {
-        if (other === slug) continue;
-        score.set(other, (score.get(other) ?? 0) + w * ow);
-      }
-    }
-    // Keep a deep pool: the very top matches are often the same SOULs already
-    // linked in the curated graph, which getSimilar() excludes — so we need
-    // headroom to still fill K genuinely-novel "similar minds" below them.
-    const ranked = [...score.entries()]
-      .filter(([, s]) => s > 0)
-      .sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : 1))
-      .slice(0, 30)
-      .map(([s, sc]) => ({
-        slug: s,
-        title: titleOf(s),
-        category: getSummary(s)?.category ?? '',
-        score: sc,
-      }));
-    out.set(slug, ranked);
-  }
-  _similar = out;
-  return out;
+/**
+ * Top content-similar slugs for `slug`, ranked, WITHOUT excluding linked
+ * neighbours — for the Explore "find similar" picker, where the goal is "most
+ * similar minds" rather than the card's "beyond what's already linked".
+ */
+export function topSimilarSlugs(slug: string, k = 8): string[] {
+  return (similarData.map[slug] ?? []).slice(0, k).map((c) => c.slug);
 }
 
 /**
@@ -378,14 +291,22 @@ function buildSimilar(): Map<string, SimilarMind[]> {
  * discovery rather than repeating the curated graph.
  */
 export function getSimilar(slug: string, k = 6): SimilarMind[] {
-  const candidates = buildSimilar().get(slug) ?? [];
+  const candidates = similarData.map[slug] ?? [];
   const summary = getSummary(slug);
   const exclude = new Set<string>([
     slug,
     ...(summary?.related ?? []).map((r) => r.slug),
     ...(summary?.backlinks ?? []),
   ]);
-  return candidates.filter((c) => !exclude.has(c.slug)).slice(0, k);
+  return candidates
+    .filter((c) => !exclude.has(c.slug))
+    .slice(0, k)
+    .map((c) => ({
+      slug: c.slug,
+      title: titleOf(c.slug),
+      category: getSummary(c.slug)?.category ?? '',
+      score: c.score,
+    }));
 }
 
 export const categories = manifest.categories as { name: string; count: number }[];
