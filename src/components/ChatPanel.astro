@@ -1,17 +1,20 @@
 ---
 // "Chat with this SOUL" — a bring-your-own-key chat, grounded in the SOUL.md.
+// Supports Claude (Anthropic), OpenAI, and Gemini: the visitor picks a provider
+// + model and supplies their own key.
 //
-// Security model (the site is fully static — there is no backend that ever sees
-// the key or the messages):
-//   • The request endpoint is HARDCODED to api.anthropic.com — there is no
-//     user-configurable endpoint, so a key can never be sent anywhere else.
-//   • The key lives in memory for the session; it is persisted to localStorage
-//     ONLY if the visitor ticks "remember on this device", and "Forget key"
-//     wipes both. It is typed into a password field, never written to the DOM,
-//     a data-attribute, the URL, or the console.
-//   • All chat content (model output and the fetched SOUL.md) is rendered with
-//     textContent — never innerHTML — so nothing in a response can inject markup
-//     or script.
+// Security model (the site is fully static — no backend ever sees the key or
+// the messages):
+//   • Each provider's request endpoint is HARDCODED and chosen from a fixed
+//     list — there is no free-text endpoint, so a key can only ever be sent to
+//     that provider's official host (api.anthropic.com / api.openai.com /
+//     generativelanguage.googleapis.com).
+//   • Keys are per-provider, kept in memory for the session; persisted to
+//     localStorage ONLY on opt-in ("remember on this device") and wiped by
+//     "Forget key". Typed into a password field; never written to the DOM, a
+//     data-attribute, the URL, or the console.
+//   • All chat content (model output + the fetched SOUL.md) is rendered with
+//     textContent — never innerHTML — so a response can't inject markup/script.
 interface Props {
   slug: string;
   title: string;
@@ -71,7 +74,7 @@ const mdUrl = `${base}api/souls/${slug}.md`;
   <!-- Disclaimer -->
   <div
     class="border-b px-4 py-2 text-xs leading-snug"
-    style={`border-color:var(--border); color:var(--ink-faint); background:var(--bg-soft)`}
+    style="border-color:var(--border); color:var(--ink-faint); background:var(--bg-soft)"
   >
     {
       sensitive
@@ -88,7 +91,19 @@ const mdUrl = `${base}api/souls/${slug}.md`;
     style="border-color:var(--border); background:var(--bg-soft)"
   >
     <label class="block text-xs font-medium" style="color:var(--ink-soft)">
-      Anthropic API key
+      Provider
+      <select
+        data-chat-provider
+        class="mt-1 w-full rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink)"
+      >
+        <option value="anthropic">Claude (Anthropic)</option>
+        <option value="openai">OpenAI</option>
+        <option value="gemini">Gemini (Google)</option>
+      </select>
+    </label>
+    <label class="mt-2 block text-xs font-medium" style="color:var(--ink-soft)">
+      API key
       <input
         type="password"
         autocomplete="off"
@@ -96,7 +111,6 @@ const mdUrl = `${base}api/souls/${slug}.md`;
         autocorrect="off"
         spellcheck="false"
         data-chat-key
-        placeholder="sk-ant-…"
         class="mt-1 w-full rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
         style="border-color:var(--border); color:var(--ink)"
       />
@@ -111,9 +125,6 @@ const mdUrl = `${base}api/souls/${slug}.md`;
         class="mt-1 w-full rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
         style="border-color:var(--border); color:var(--ink)"
       >
-        <option value="claude-opus-4-8">Claude Opus 4.8 — highest quality</option>
-        <option value="claude-sonnet-4-6">Claude Sonnet 4.6 — balanced</option>
-        <option value="claude-haiku-4-5">Claude Haiku 4.5 — fastest / cheapest</option>
       </select>
     </label>
     <div class="mt-3 flex items-center gap-2">
@@ -130,10 +141,7 @@ const mdUrl = `${base}api/souls/${slug}.md`;
         style="border-color:var(--border); color:var(--ink-soft)">Forget key</button
       >
     </div>
-    <p class="mt-2 text-xs leading-snug" style="color:var(--ink-faint)">
-      Your key stays in this browser and is sent only to api.anthropic.com. This site has no server
-      and never sees your key or messages. Get a key at console.anthropic.com.
-    </p>
+    <p data-chat-privacy class="mt-2 text-xs leading-snug" style="color:var(--ink-faint)"></p>
   </div>
 
   <!-- Messages -->
@@ -185,11 +193,84 @@ const mdUrl = `${base}api/souls/${slug}.md`;
 </style>
 
 <script>
-  // Hardcoded — the key is only ever sent here. Never make this configurable.
-  const ENDPOINT = 'https://api.anthropic.com/v1/messages';
-  const KEY_STORE = 'soul-chat-key';
+  type Msg = { role: 'user' | 'assistant'; content: string };
+
+  // Each provider's endpoint is hardcoded here and selected from a fixed list.
+  // A key is only ever sent to the matching official host — never anywhere else.
+  const PROVIDERS: Record<
+    string,
+    {
+      host: string;
+      keyHint: string;
+      keyUrl: string;
+      models: string[];
+      endpoint: (model: string) => string;
+      headers: (key: string) => Record<string, string>;
+      body: (system: string, messages: Msg[], model: string) => unknown;
+      extract: (evt: any) => string;
+    }
+  > = {
+    anthropic: {
+      host: 'api.anthropic.com',
+      keyHint: 'sk-ant-…',
+      keyUrl: 'console.anthropic.com',
+      models: ['claude-opus-4-8', 'claude-sonnet-4-6', 'claude-haiku-4-5'],
+      endpoint: () => 'https://api.anthropic.com/v1/messages',
+      headers: (key) => ({
+        'content-type': 'application/json',
+        'x-api-key': key,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true',
+      }),
+      body: (system, messages, model) => ({
+        model,
+        max_tokens: 1024,
+        system: [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }],
+        messages,
+        stream: true,
+      }),
+      extract: (e) =>
+        e.type === 'content_block_delta' && e.delta?.type === 'text_delta' ? e.delta.text : '',
+    },
+    openai: {
+      host: 'api.openai.com',
+      keyHint: 'sk-…',
+      keyUrl: 'platform.openai.com',
+      models: ['gpt-4o', 'gpt-4o-mini', 'gpt-4.1'],
+      endpoint: () => 'https://api.openai.com/v1/chat/completions',
+      headers: (key) => ({ 'content-type': 'application/json', authorization: `Bearer ${key}` }),
+      body: (system, messages, model) => ({
+        model,
+        max_tokens: 1024,
+        stream: true,
+        messages: [{ role: 'system', content: system }, ...messages],
+      }),
+      extract: (e) => e.choices?.[0]?.delta?.content || '',
+    },
+    gemini: {
+      host: 'generativelanguage.googleapis.com',
+      keyHint: 'AIza…',
+      keyUrl: 'aistudio.google.com',
+      models: ['gemini-2.0-flash', 'gemini-1.5-pro', 'gemini-1.5-flash'],
+      endpoint: (model) =>
+        `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse`,
+      headers: (key) => ({ 'content-type': 'application/json', 'x-goog-api-key': key }),
+      body: (system, messages) => ({
+        systemInstruction: { parts: [{ text: system }] },
+        contents: messages.map((m) => ({
+          role: m.role === 'assistant' ? 'model' : 'user',
+          parts: [{ text: m.content }],
+        })),
+        generationConfig: { maxOutputTokens: 1024 },
+      }),
+      extract: (e) => e.candidates?.[0]?.content?.parts?.[0]?.text || '',
+    },
+  };
+
   const REMEMBER_STORE = 'soul-chat-remember';
-  const MODEL_STORE = 'soul-chat-model';
+  const PROVIDER_STORE = 'soul-chat-provider';
+  const keyStore = (p: string) => `soul-chat-key-${p}`;
+  const modelStore = (p: string) => `soul-chat-model-${p}`;
 
   const panel = document.getElementById('chat-panel');
   if (panel) init(panel);
@@ -201,41 +282,69 @@ const mdUrl = `${base}api/souls/${slug}.md`;
     const log = $('[data-chat-log]') as HTMLElement;
     const form = $('[data-chat-form]') as HTMLFormElement;
     const input = $('[data-chat-input]') as HTMLTextAreaElement;
+    const providerSel = $('[data-chat-provider]') as HTMLSelectElement;
     const keyInput = $('[data-chat-key]') as HTMLInputElement;
     const rememberInput = $('[data-chat-remember]') as HTMLInputElement;
     const modelSel = $('[data-chat-model]') as HTMLSelectElement;
     const settingsPanel = $('[data-chat-settings-panel]') as HTMLElement;
+    const privacy = $('[data-chat-privacy]') as HTMLElement;
 
     const title = panel.dataset.title || 'this SOUL';
     const mdUrl = panel.dataset.md!;
     const sensitive = panel.dataset.sensitive === '1';
 
-    // Key: in memory by default; only read from / written to localStorage when
-    // the visitor opts to remember it on this device.
-    let apiKey = '';
-    let remember = false;
-    try {
-      remember = localStorage.getItem(REMEMBER_STORE) === '1';
-      if (remember) apiKey = localStorage.getItem(KEY_STORE) || '';
-      const savedModel = localStorage.getItem(MODEL_STORE);
-      if (savedModel) modelSel.value = savedModel;
-    } catch {
-      /* storage blocked — stay in-memory only */
-    }
-    rememberInput.checked = remember;
-    keyInput.value = apiKey;
+    const safe = <T,>(fn: () => T, fallback: T): T => {
+      try {
+        return fn();
+      } catch {
+        return fallback;
+      }
+    };
 
-    let system: string | null = null; // built lazily from the SOUL.md
+    // Keys are per provider; only read from storage when "remember" is on.
+    let remember = safe(() => localStorage.getItem(REMEMBER_STORE) === '1', false);
+    let provider = safe(() => localStorage.getItem(PROVIDER_STORE), null) || 'anthropic';
+    if (!PROVIDERS[provider]) provider = 'anthropic';
+    const keys: Record<string, string> = { anthropic: '', openai: '', gemini: '' };
+    if (remember) {
+      for (const p of Object.keys(PROVIDERS))
+        keys[p] = safe(() => localStorage.getItem(keyStore(p)) || '', '');
+    }
+
+    function fillModels(p: string) {
+      const saved = safe(() => localStorage.getItem(modelStore(p)), null);
+      modelSel.replaceChildren(); // clear without innerHTML
+      for (const m of PROVIDERS[p].models) {
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = m; // model id as text — safe, no markup
+        modelSel.appendChild(opt);
+      }
+      if (saved && PROVIDERS[p].models.includes(saved)) modelSel.value = saved;
+    }
+
+    function syncProviderUI() {
+      const cfg = PROVIDERS[provider];
+      keyInput.value = keys[provider] || '';
+      keyInput.placeholder = cfg.keyHint;
+      fillModels(provider);
+      privacy.textContent = `Your key stays in this browser and is sent only to ${cfg.host}. This site has no server and never sees your key or messages. Get a key at ${cfg.keyUrl}.`;
+    }
+
+    providerSel.value = provider;
+    rememberInput.checked = remember;
+    syncProviderUI();
+
+    let system: string | null = null;
     let busy = false;
     let controller: AbortController | null = null;
-    const history: { role: 'user' | 'assistant'; content: string }[] = [];
+    const history: Msg[] = [];
 
-    // ---- open / close ----
     function open() {
       panel.style.display = 'flex';
       backdrop.style.display = 'block';
-      if (!apiKey) settingsPanel.classList.remove('hidden');
-      (apiKey ? input : keyInput).focus();
+      if (!keys[provider]) settingsPanel.classList.remove('hidden');
+      (keys[provider] ? input : keyInput).focus();
     }
     function close() {
       panel.style.display = 'none';
@@ -252,38 +361,37 @@ const mdUrl = `${base}api/souls/${slug}.md`;
       settingsPanel.classList.toggle('hidden'),
     );
 
-    // ---- settings ----
+    providerSel.addEventListener('change', () => {
+      provider = providerSel.value;
+      syncProviderUI();
+    });
+
     $('[data-chat-save]').addEventListener('click', () => {
-      apiKey = keyInput.value.trim();
+      keys[provider] = keyInput.value.trim();
       remember = rememberInput.checked;
-      try {
-        localStorage.setItem(MODEL_STORE, modelSel.value);
-        if (remember && apiKey) {
+      safe(() => {
+        localStorage.setItem(PROVIDER_STORE, provider);
+        localStorage.setItem(modelStore(provider), modelSel.value);
+        if (remember) {
           localStorage.setItem(REMEMBER_STORE, '1');
-          localStorage.setItem(KEY_STORE, apiKey);
+          for (const p of Object.keys(PROVIDERS)) {
+            if (keys[p]) localStorage.setItem(keyStore(p), keys[p]);
+          }
         } else {
           localStorage.removeItem(REMEMBER_STORE);
-          localStorage.removeItem(KEY_STORE);
+          for (const p of Object.keys(PROVIDERS)) localStorage.removeItem(keyStore(p));
         }
-      } catch {
-        /* ignore */
-      }
+      }, undefined);
       settingsPanel.classList.add('hidden');
       input.focus();
     });
     $('[data-chat-forget]').addEventListener('click', () => {
-      apiKey = '';
+      keys[provider] = '';
       keyInput.value = '';
-      rememberInput.checked = false;
-      try {
-        localStorage.removeItem(KEY_STORE);
-        localStorage.removeItem(REMEMBER_STORE);
-      } catch {
-        /* ignore */
-      }
+      safe(() => localStorage.removeItem(keyStore(provider)), undefined);
     });
 
-    // ---- rendering (textContent only — never innerHTML) ----
+    // Rendering — textContent only, never innerHTML.
     function bubble(role: 'user' | 'soul' | 'err', text: string): HTMLElement {
       const el = document.createElement('div');
       el.className = `chat-msg ${role === 'user' ? 'chat-user' : role === 'err' ? 'chat-err' : 'chat-soul'}`;
@@ -313,45 +421,36 @@ const mdUrl = `${base}api/souls/${slug}.md`;
 
     async function send(text: string) {
       if (busy) return;
-      if (!apiKey) {
+      const cfg = PROVIDERS[provider];
+      const key = keys[provider];
+      if (!key) {
         settingsPanel.classList.remove('hidden');
-        bubble('err', 'Add your Anthropic API key in settings (⚙) to start chatting.');
+        bubble('err', 'Add your API key in settings (⚙) to start chatting.');
         keyInput.focus();
         return;
       }
       busy = true;
       bubble('user', text);
       history.push({ role: 'user', content: text });
-      const out = bubble('soul', '');
-      out.textContent = '…';
+      const out = bubble('soul', '…');
+      const model = modelSel.value || cfg.models[0];
 
       controller = new AbortController();
       let acc = '';
       try {
         const sys = await ensureSystem();
-        const res = await fetch(ENDPOINT, {
+        const res = await fetch(cfg.endpoint(model), {
           method: 'POST',
           signal: controller.signal,
-          headers: {
-            'content-type': 'application/json',
-            'x-api-key': apiKey,
-            'anthropic-version': '2023-06-01',
-            'anthropic-dangerous-direct-browser-access': 'true',
-          },
-          body: JSON.stringify({
-            model: modelSel.value || 'claude-opus-4-8',
-            max_tokens: 1024,
-            system: [{ type: 'text', text: sys, cache_control: { type: 'ephemeral' } }],
-            messages: history,
-            stream: true,
-          }),
+          headers: cfg.headers(key),
+          body: JSON.stringify(cfg.body(sys, history, model)),
         });
 
         if (!res.ok || !res.body) {
           const err = await res.json().catch(() => null);
           const msg =
-            res.status === 401
-              ? 'Invalid API key.'
+            res.status === 401 || res.status === 403
+              ? 'Invalid API key (or this key lacks access to that model).'
               : res.status === 429
                 ? 'Rate limited — try again shortly.'
                 : err?.error?.message || `Request failed (${res.status}).`;
@@ -381,12 +480,12 @@ const mdUrl = `${base}api/souls/${slug}.md`;
             } catch {
               continue;
             }
-            if (evt.type === 'content_block_delta' && evt.delta?.type === 'text_delta') {
-              acc += evt.delta.text;
+            if (evt?.type === 'error') throw new Error(evt.error?.message || 'stream error');
+            const piece = cfg.extract(evt);
+            if (piece) {
+              acc += piece;
               out.textContent = acc;
               log.scrollTop = log.scrollHeight;
-            } else if (evt.type === 'error') {
-              throw new Error(evt.error?.message || 'stream error');
             }
           }
         }
@@ -412,7 +511,6 @@ const mdUrl = `${base}api/souls/${slug}.md`;
       input.style.height = 'auto';
       send(text);
     });
-    // Enter to send, Shift+Enter for newline; auto-grow.
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' && !e.shiftKey) {
         e.preventDefault();
