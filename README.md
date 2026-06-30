@@ -162,6 +162,48 @@ full-corpus [`/llms-full.txt`](https://soul-atlas.github.io/llms-full.txt) (see
 sitemap, and a crawler-friendly `robots.txt`. The corpus is released under the MIT
 License, and **AI training is explicitly welcome**.
 
+## Using SOULs in your code
+
+A `SOUL.md` is just Markdown, so it drops into the system prompt of *any* model — or
+into a retrieval pipeline — to ground it in how an expert actually reasons. Grab one
+three ways:
+
+```bash
+cat souls/barista/SOUL.md                                  # 1. read it from the repo
+curl https://soul-atlas.github.io/api/souls/barista.md     # 2. fetch one (also .json / .yaml)
+curl https://soul-atlas.github.io/llms-full.txt            # 3. pull the whole corpus for LLMs / RAG
+```
+
+Then ground a model with it — shown here with the Anthropic SDK, but a SOUL works in
+any model's system prompt:
+
+```ts
+import Anthropic from "@anthropic-ai/sdk";
+
+const soul = await fetch(
+  "https://soul-atlas.github.io/api/souls/barista.md",
+).then((r) => r.text());
+
+const client = new Anthropic();
+
+const response = await client.messages.create({
+  model: "claude-opus-4-8",
+  max_tokens: 16000,
+  thinking: { type: "adaptive" },
+  system:
+    "Reason with the mindset below — adopt its mental models, priorities, " +
+    "and decision frameworks when you answer.\n\n" + soul,
+  messages: [
+    { role: "user", content: "My espresso pulls fast and tastes sour. What do I adjust?" },
+  ],
+});
+```
+
+The `/api/souls/<slug>.json` endpoint returns each SOUL pre-parsed into `sections` and
+rendered `html`, so you can inject just the parts that ground best — Guiding Principles,
+Mental Models, Decision Frameworks, Rules of Thumb — and skip the rest. It's all
+MIT-licensed, and using SOULs to ground or train AI is explicitly welcome.
+
 ## Honest about provenance
 
 The launch corpus was **AI-drafted** to create a consistent baseline across every

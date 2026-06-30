@@ -2,6 +2,26 @@
 import Layout from '../layouts/Layout.astro';
 import { url, GITHUB_URL, SOUL_FORMAT_URL } from '../lib/site';
 import { souls } from '../lib/data';
+
+const soulSnippet = `import Anthropic from "@anthropic-ai/sdk";
+
+const soul = await fetch(
+  "https://soul-atlas.github.io/api/souls/barista.md",
+).then((r) => r.text());
+
+const client = new Anthropic();
+
+const response = await client.messages.create({
+  model: "claude-opus-4-8",
+  max_tokens: 16000,
+  thinking: { type: "adaptive" },
+  system:
+    "Reason with the mindset below — adopt its mental models, priorities, " +
+    "and decision frameworks when you answer.\\n\\n" + soul,
+  messages: [
+    { role: "user", content: "My espresso pulls fast and tastes sour. What do I adjust?" },
+  ],
+});`;
 ---
 
 <Layout title="About" description="What a SOUL is, why this project exists, and how to use it.">
@@ -55,10 +75,34 @@ import { souls } from '../lib/data';
       <h2>For humans and AI</h2>
       <p>
         Read a SOUL to onboard into an unfamiliar field in an afternoon, to mentor, or to check your
-        own blind spots. Or consume the machine-readable <a href={url('/api/index.json')}
-          >JSON API</a
-        > to ground an AI system in how a domain expert actually reasons. Everything is static, open,
-        and released under the MIT License — free to reuse, remix, and train on.
+        own blind spots. Or feed it to a model: a <code>SOUL.md</code> is just Markdown, so it drops
+        straight into any model's system prompt — or a retrieval pipeline — to ground it in how a
+        domain expert actually reasons.
+      </p>
+
+      <h2>Using a SOUL in your code</h2>
+      <p>Grab one three ways:</p>
+      <ul>
+        <li>Read it from the repo: <code>souls/&lt;slug&gt;/SOUL.md</code></li>
+        <li>
+          Fetch one from the static <a href={url('/api/index.json')}>JSON API</a>:
+          <code>/api/souls/&lt;slug&gt;.md</code> (also <code>.json</code> / <code>.yaml</code>)
+        </li>
+        <li>
+          Pull the whole corpus for LLMs / RAG: <a href={url('/llms-full.txt')}>/llms-full.txt</a>
+        </li>
+      </ul>
+      <p>
+        Then ground a model with it — shown with the Anthropic SDK, but a SOUL works in any model's
+        system prompt:
+      </p>
+      <pre><code>{soulSnippet}</code></pre>
+      <p>
+        The <code>.json</code> endpoint returns each SOUL pre-parsed into <code>sections</code> and
+        rendered <code>html</code>, so you can inject just the parts that ground best — Guiding
+        Principles, Mental Models, Decision Frameworks, Rules of Thumb. Everything is static, open,
+        and released under the MIT License — free to reuse, remix, and train on. Using SOULs to
+        ground or train AI is explicitly welcome.
       </p>
 
       <h2>How to contribute</h2>
