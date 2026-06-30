@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import GraphView from '../../components/GraphView.astro';
 import SuggestEdit from '../../components/SuggestEdit.astro';
+import SpecializationTree from '../../components/SpecializationTree.astro';
 import {
   allRecords,
   getRecord,
@@ -13,6 +14,7 @@ import {
   verificationBadge,
   kindLabel,
   schemaOrgType,
+  getSpecializationTree,
   RELATION_LABELS,
   type RelationshipType,
 } from '../../lib/data';
@@ -116,6 +118,10 @@ const specializations = (m.specializations || [])
     const s = slugifyCat(name);
     return { name, href: getSummary(s) ? soulUrl(s) : null };
   });
+
+// The specialization tree this SOUL sits in (rooted at its broadest ancestor),
+// or null if it has neither sub-specialties nor a parent specialization.
+const specTree = getSpecializationTree(slug);
 
 // Country / jurisdiction variants surfaced first-class on the page.
 const countryVariants = (m.country_variants || []).filter((v: any) => v && (v.region || v.note));
@@ -624,28 +630,41 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
           )
         }
 
-        <!-- Specializations -->
+        <!-- Specialization tree: where this SOUL sits among broader/narrower
+             forms. Falls back to a flat chip list if no hierarchy is known. -->
         {
-          specializations.length > 0 && (
+          specTree ? (
             <div class="card p-4">
               <div
                 class="mb-2 text-xs font-semibold uppercase tracking-wide"
                 style="color:var(--ink-faint)"
               >
-                Specializations
+                Specialization tree
               </div>
-              <div class="flex flex-wrap gap-1.5">
-                {specializations.map((sp: { name: string; href: string | null }) =>
-                  sp.href ? (
-                    <a href={sp.href} class="chip hover:underline">
-                      {sp.name}
-                    </a>
-                  ) : (
-                    <span class="chip">{sp.name}</span>
-                  ),
-                )}
-              </div>
+              <SpecializationTree node={specTree} root={true} />
             </div>
+          ) : (
+            specializations.length > 0 && (
+              <div class="card p-4">
+                <div
+                  class="mb-2 text-xs font-semibold uppercase tracking-wide"
+                  style="color:var(--ink-faint)"
+                >
+                  Specializations
+                </div>
+                <div class="flex flex-wrap gap-1.5">
+                  {specializations.map((sp: { name: string; href: string | null }) =>
+                    sp.href ? (
+                      <a href={sp.href} class="chip hover:underline">
+                        {sp.name}
+                      </a>
+                    ) : (
+                      <span class="chip">{sp.name}</span>
+                    ),
+                  )}
+                </div>
+              </div>
+            )
           )
         }
 

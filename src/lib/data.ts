@@ -163,6 +163,94 @@ export function allRecords(): SoulRecord[] {
   return [...fullBySlug.values()];
 }
 
+// ---------------------------------------------------------------------------
+// Specialization trees. A SOUL's free-text `specializations` list declares its
+// narrower forms (e.g. Architect → Landscape Architect); where a label resolves
+// to a real SOUL (by slug, title, or alias) it becomes a navigable parent→child
+// edge, otherwise it stays a leaf label. We root each SOUL's tree at its topmost
+// ancestor so the page shows where it sits, with the current node highlighted.
+// The forest deepens automatically as sub-specialty SOULs are added — no code
+// change needed.
+export interface SpecNode {
+  slug: string | null; // null for a free-text leaf with no SOUL of its own
+  title: string;
+  current: boolean; // the SOUL whose tree is being rendered
+  children: SpecNode[];
+}
+
+const normLabel = (s: string): string =>
+  s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+
+interface Forest {
+  childrenOf: Map<string, { slug: string | null; title: string }[]>;
+  parentOf: Map<string, string>;
+}
+let _forest: Forest | null = null;
+
+function specForest(): Forest {
+  if (_forest) return _forest;
+  const resolve = new Map<string, string>(); // normalized label → slug
+  for (const rec of fullBySlug.values()) {
+    resolve.set(normLabel(rec.slug), rec.slug);
+    resolve.set(normLabel(rec.title), rec.slug);
+    for (const a of (rec.metadata.aliases ?? []) as string[]) resolve.set(normLabel(a), rec.slug);
+  }
+  const childrenOf = new Map<string, { slug: string | null; title: string }[]>();
+  const parentOf = new Map<string, string>();
+  for (const rec of fullBySlug.values()) {
+    const specs = (rec.metadata.specializations ?? []) as string[];
+    const kids: { slug: string | null; title: string }[] = [];
+    for (const label of specs) {
+      if (typeof label !== 'string' || !label.trim()) continue;
+      const childSlug = resolve.get(normLabel(label));
+      if (childSlug && childSlug !== rec.slug) {
+        kids.push({ slug: childSlug, title: titleOf(childSlug) });
+        if (!parentOf.has(childSlug)) parentOf.set(childSlug, rec.slug);
+      } else {
+        kids.push({ slug: null, title: label.trim() });
+      }
+    }
+    if (kids.length) childrenOf.set(rec.slug, kids);
+  }
+  _forest = { childrenOf, parentOf };
+  return _forest;
+}
+
+/**
+ * The specialization tree a SOUL belongs to, rooted at its topmost ancestor with
+ * `current` flagged on the given slug — or null if it has no parent and no
+ * specializations of its own.
+ */
+export function getSpecializationTree(slug: string): SpecNode | null {
+  const { childrenOf, parentOf } = specForest();
+  if (!childrenOf.has(slug) && !parentOf.has(slug)) return null;
+
+  // Walk up to the root (guard against cycles).
+  let root = slug;
+  const seen = new Set([root]);
+  while (parentOf.has(root)) {
+    const p = parentOf.get(root)!;
+    if (seen.has(p)) break;
+    seen.add(p);
+    root = p;
+  }
+
+  const build = (s: string, visited: Set<string>): SpecNode => ({
+    slug: s,
+    title: titleOf(s),
+    current: s === slug,
+    children: (childrenOf.get(s) ?? []).map((k) =>
+      k.slug && !visited.has(k.slug)
+        ? build(k.slug, new Set(visited).add(k.slug))
+        : { slug: k.slug, title: k.title, current: false, children: [] },
+    ),
+  });
+  return build(root, new Set([root]));
+}
+
 export const categories = manifest.categories as { name: string; count: number }[];
 export const kinds = (manifest.kinds ?? []) as { kind: Kind; count: number }[];
 export const tags = manifest.tags as { tag: string; count: number }[];
