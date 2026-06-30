@@ -15,6 +15,7 @@ import {
   kindLabel,
   schemaOrgType,
   getSpecializationTree,
+  getSimilar,
   RELATION_LABELS,
   type RelationshipType,
 } from '../../lib/data';
@@ -122,6 +123,9 @@ const specializations = (m.specializations || [])
 // The specialization tree this SOUL sits in (rooted at its broadest ancestor),
 // or null if it has neither sub-specialties nor a parent specialization.
 const specTree = getSpecializationTree(slug);
+
+// Content-similar SOULs beyond the explicit graph edges (TF-IDF cosine).
+const similar = getSimilar(slug, 6);
 
 // Country / jurisdiction variants surfaced first-class on the page.
 const countryVariants = (m.country_variants || []).filter((v: any) => v && (v.region || v.note));
@@ -665,6 +669,41 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
                 </div>
               </div>
             )
+          )
+        }
+
+        <!-- Similar minds: content-similar SOULs beyond the explicit edges. -->
+        {
+          similar.length > 0 && (
+            <div class="card p-4">
+              <div
+                class="mb-1 text-xs font-semibold uppercase tracking-wide"
+                style="color:var(--ink-faint)"
+              >
+                Similar minds
+              </div>
+              <p class="mb-2.5 text-xs" style="color:var(--ink-faint)">
+                Closest by content — beyond the linked relationships.
+              </p>
+              <ul class="space-y-2 text-sm">
+                {similar.map((s) => (
+                  <li class="flex items-center gap-2">
+                    <span
+                      class="inline-block h-2 w-2 shrink-0 rounded-full"
+                      style={`background:${categoryColor(s.category)}`}
+                      aria-hidden="true"
+                    />
+                    <a
+                      href={url(`/souls/${s.slug}`)}
+                      class="hover:underline"
+                      style="color:var(--ink-soft)"
+                    >
+                      {s.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           )
         }
 
