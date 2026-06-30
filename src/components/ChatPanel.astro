@@ -1,0 +1,427 @@
+---
+// "Chat with this SOUL" — a bring-your-own-key chat, grounded in the SOUL.md.
+//
+// Security model (the site is fully static — there is no backend that ever sees
+// the key or the messages):
+//   • The request endpoint is HARDCODED to api.anthropic.com — there is no
+//     user-configurable endpoint, so a key can never be sent anywhere else.
+//   • The key lives in memory for the session; it is persisted to localStorage
+//     ONLY if the visitor ticks "remember on this device", and "Forget key"
+//     wipes both. It is typed into a password field, never written to the DOM,
+//     a data-attribute, the URL, or the console.
+//   • All chat content (model output and the fetched SOUL.md) is rendered with
+//     textContent — never innerHTML — so nothing in a response can inject markup
+//     or script.
+interface Props {
+  slug: string;
+  title: string;
+  category: string;
+  sensitive?: boolean;
+  verified?: boolean;
+}
+const { slug, title, category, sensitive = false, verified = false } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const mdUrl = `${base}api/souls/${slug}.md`;
+---
+
+<button
+  type="button"
+  class="btn btn-accent mt-5 inline-flex items-center gap-1.5"
+  data-chat-open
+  style="color:#fff"
+>
+  💬 Chat with this SOUL
+</button>
+
+<div
+  id="chat-panel"
+  class="fixed inset-y-0 right-0 z-50 hidden w-full max-w-md flex-col border-l shadow-2xl"
+  style="background:var(--bg); border-color:var(--border)"
+  role="dialog"
+  aria-modal="true"
+  aria-label={`Chat with ${title}`}
+  data-md={mdUrl}
+  data-title={title}
+  data-category={category}
+  data-sensitive={sensitive ? '1' : '0'}
+  data-verified={verified ? '1' : '0'}
+>
+  <!-- Header -->
+  <div class="flex items-center gap-2 border-b px-4 py-3" style="border-color:var(--border)">
+    <div class="min-w-0 flex-1">
+      <div class="truncate text-sm font-semibold" style="color:var(--ink)">Chat with {title}</div>
+      <div class="text-xs" style="color:var(--ink-faint)">{category}</div>
+    </div>
+    <button
+      type="button"
+      data-chat-settings
+      class="rounded-md border px-2 py-1 text-xs"
+      style="border-color:var(--border); color:var(--ink-soft)"
+      title="Settings">⚙</button
+    >
+    <button
+      type="button"
+      data-chat-close
+      class="rounded-md border px-2 py-1 text-xs"
+      style="border-color:var(--border); color:var(--ink-soft)"
+      aria-label="Close chat">✕</button
+    >
+  </div>
+
+  <!-- Disclaimer -->
+  <div
+    class="border-b px-4 py-2 text-xs leading-snug"
+    style={`border-color:var(--border); color:var(--ink-faint); background:var(--bg-soft)`}
+  >
+    {
+      sensitive
+        ? 'This is an AI grounded in a community-written portrait of how this role thinks — not a real practitioner and not professional advice. For medical, legal, or financial decisions, consult a qualified professional.'
+        : 'This is an AI grounded in a community-written portrait of how this role thinks — a thinking aid, not a real practitioner or professional advice.'
+    }
+    {!verified && ' This SOUL is AI-drafted and unverified.'}
+  </div>
+
+  <!-- Settings drawer -->
+  <div
+    data-chat-settings-panel
+    class="hidden border-b px-4 py-3 text-sm"
+    style="border-color:var(--border); background:var(--bg-soft)"
+  >
+    <label class="block text-xs font-medium" style="color:var(--ink-soft)">
+      Anthropic API key
+      <input
+        type="password"
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        spellcheck="false"
+        data-chat-key
+        placeholder="sk-ant-…"
+        class="mt-1 w-full rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink)"
+      />
+    </label>
+    <label class="mt-2 flex items-center gap-2 text-xs" style="color:var(--ink-soft)">
+      <input type="checkbox" data-chat-remember /> Remember on this device
+    </label>
+    <label class="mt-2 block text-xs font-medium" style="color:var(--ink-soft)">
+      Model
+      <select
+        data-chat-model
+        class="mt-1 w-full rounded-md border bg-transparent px-2 py-1.5 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink)"
+      >
+        <option value="claude-opus-4-8">Claude Opus 4.8 — highest quality</option>
+        <option value="claude-sonnet-4-6">Claude Sonnet 4.6 — balanced</option>
+        <option value="claude-haiku-4-5">Claude Haiku 4.5 — fastest / cheapest</option>
+      </select>
+    </label>
+    <div class="mt-3 flex items-center gap-2">
+      <button
+        type="button"
+        data-chat-save
+        class="btn btn-accent text-xs"
+        style="color:#fff; padding:0.3rem 0.7rem">Save</button
+      >
+      <button
+        type="button"
+        data-chat-forget
+        class="rounded-md border px-2 py-1 text-xs"
+        style="border-color:var(--border); color:var(--ink-soft)">Forget key</button
+      >
+    </div>
+    <p class="mt-2 text-xs leading-snug" style="color:var(--ink-faint)">
+      Your key stays in this browser and is sent only to api.anthropic.com. This site has no server
+      and never sees your key or messages. Get a key at console.anthropic.com.
+    </p>
+  </div>
+
+  <!-- Messages -->
+  <div data-chat-log class="flex-1 space-y-3 overflow-y-auto px-4 py-4 text-sm"></div>
+
+  <!-- Composer -->
+  <form data-chat-form class="border-t p-3" style="border-color:var(--border)">
+    <div class="flex items-end gap-2">
+      <textarea
+        data-chat-input
+        rows="1"
+        placeholder={`Ask ${title} how they'd think about…`}
+        class="max-h-32 flex-1 resize-none rounded-md border bg-transparent px-3 py-2 text-sm outline-none"
+        style="border-color:var(--border); color:var(--ink)"></textarea>
+      <button type="submit" data-chat-send class="btn btn-accent" style="color:#fff">Send</button>
+    </div>
+  </form>
+</div>
+<div
+  id="chat-backdrop"
+  class="fixed inset-0 z-40 hidden"
+  style="background:rgba(0,0,0,0.35)"
+  data-chat-backdrop
+>
+</div>
+
+<style>
+  .chat-msg {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+  }
+  .chat-user {
+    margin-left: auto;
+    max-width: 85%;
+    border-radius: 0.6rem;
+    padding: 0.5rem 0.7rem;
+    background: var(--accent-soft);
+    color: var(--ink);
+  }
+  .chat-soul {
+    max-width: 92%;
+    color: var(--ink-soft);
+  }
+  .chat-err {
+    color: #e0533d;
+    font-size: 0.85em;
+  }
+</style>
+
+<script>
+  // Hardcoded — the key is only ever sent here. Never make this configurable.
+  const ENDPOINT = 'https://api.anthropic.com/v1/messages';
+  const KEY_STORE = 'soul-chat-key';
+  const REMEMBER_STORE = 'soul-chat-remember';
+  const MODEL_STORE = 'soul-chat-model';
+
+  const panel = document.getElementById('chat-panel');
+  if (panel) init(panel);
+
+  function init(panel: HTMLElement) {
+    const $ = <T extends HTMLElement>(sel: string) => panel.querySelector(sel) as T;
+    const backdrop = document.getElementById('chat-backdrop')!;
+    const openBtn = document.querySelector('[data-chat-open]') as HTMLButtonElement;
+    const log = $('[data-chat-log]') as HTMLElement;
+    const form = $('[data-chat-form]') as HTMLFormElement;
+    const input = $('[data-chat-input]') as HTMLTextAreaElement;
+    const keyInput = $('[data-chat-key]') as HTMLInputElement;
+    const rememberInput = $('[data-chat-remember]') as HTMLInputElement;
+    const modelSel = $('[data-chat-model]') as HTMLSelectElement;
+    const settingsPanel = $('[data-chat-settings-panel]') as HTMLElement;
+
+    const title = panel.dataset.title || 'this SOUL';
+    const mdUrl = panel.dataset.md!;
+    const sensitive = panel.dataset.sensitive === '1';
+
+    // Key: in memory by default; only read from / written to localStorage when
+    // the visitor opts to remember it on this device.
+    let apiKey = '';
+    let remember = false;
+    try {
+      remember = localStorage.getItem(REMEMBER_STORE) === '1';
+      if (remember) apiKey = localStorage.getItem(KEY_STORE) || '';
+      const savedModel = localStorage.getItem(MODEL_STORE);
+      if (savedModel) modelSel.value = savedModel;
+    } catch {
+      /* storage blocked — stay in-memory only */
+    }
+    rememberInput.checked = remember;
+    keyInput.value = apiKey;
+
+    let system: string | null = null; // built lazily from the SOUL.md
+    let busy = false;
+    let controller: AbortController | null = null;
+    const history: { role: 'user' | 'assistant'; content: string }[] = [];
+
+    // ---- open / close ----
+    function open() {
+      panel.style.display = 'flex';
+      backdrop.style.display = 'block';
+      if (!apiKey) settingsPanel.classList.remove('hidden');
+      (apiKey ? input : keyInput).focus();
+    }
+    function close() {
+      panel.style.display = 'none';
+      backdrop.style.display = 'none';
+      controller?.abort();
+    }
+    openBtn?.addEventListener('click', open);
+    $('[data-chat-close]').addEventListener('click', close);
+    backdrop.addEventListener('click', close);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && panel.style.display === 'flex') close();
+    });
+    $('[data-chat-settings]').addEventListener('click', () =>
+      settingsPanel.classList.toggle('hidden'),
+    );
+
+    // ---- settings ----
+    $('[data-chat-save]').addEventListener('click', () => {
+      apiKey = keyInput.value.trim();
+      remember = rememberInput.checked;
+      try {
+        localStorage.setItem(MODEL_STORE, modelSel.value);
+        if (remember && apiKey) {
+          localStorage.setItem(REMEMBER_STORE, '1');
+          localStorage.setItem(KEY_STORE, apiKey);
+        } else {
+          localStorage.removeItem(REMEMBER_STORE);
+          localStorage.removeItem(KEY_STORE);
+        }
+      } catch {
+        /* ignore */
+      }
+      settingsPanel.classList.add('hidden');
+      input.focus();
+    });
+    $('[data-chat-forget]').addEventListener('click', () => {
+      apiKey = '';
+      keyInput.value = '';
+      rememberInput.checked = false;
+      try {
+        localStorage.removeItem(KEY_STORE);
+        localStorage.removeItem(REMEMBER_STORE);
+      } catch {
+        /* ignore */
+      }
+    });
+
+    // ---- rendering (textContent only — never innerHTML) ----
+    function bubble(role: 'user' | 'soul' | 'err', text: string): HTMLElement {
+      const el = document.createElement('div');
+      el.className = `chat-msg ${role === 'user' ? 'chat-user' : role === 'err' ? 'chat-err' : 'chat-soul'}`;
+      el.textContent = text;
+      log.appendChild(el);
+      log.scrollTop = log.scrollHeight;
+      return el;
+    }
+
+    async function ensureSystem(): Promise<string> {
+      if (system) return system;
+      const md = await (await fetch(mdUrl)).text();
+      system =
+        'You are in conversation as someone who embodies the way of thinking described in the ' +
+        'SOUL below. Adopt its mental models, priorities, decision frameworks, and heuristics; ' +
+        'ask the questions an expert in this domain would ask; speak in the first person as that ' +
+        'mind. Be honest about uncertainty and trade-offs. Do not claim real-world credentials, ' +
+        'identity, or authority — you are a portrait of how this role thinks, generated by an AI.' +
+        (sensitive
+          ? ' This domain involves high-stakes decisions: do not give individualized medical, ' +
+            'legal, or financial advice or anything that could be relied upon as such — explain ' +
+            'how a practitioner reasons, and tell the user to consult a qualified professional.'
+          : '') +
+        `\n\n<soul>\n${md}\n</soul>`;
+      return system;
+    }
+
+    async function send(text: string) {
+      if (busy) return;
+      if (!apiKey) {
+        settingsPanel.classList.remove('hidden');
+        bubble('err', 'Add your Anthropic API key in settings (⚙) to start chatting.');
+        keyInput.focus();
+        return;
+      }
+      busy = true;
+      bubble('user', text);
+      history.push({ role: 'user', content: text });
+      const out = bubble('soul', '');
+      out.textContent = '…';
+
+      controller = new AbortController();
+      let acc = '';
+      try {
+        const sys = await ensureSystem();
+        const res = await fetch(ENDPOINT, {
+          method: 'POST',
+          signal: controller.signal,
+          headers: {
+            'content-type': 'application/json',
+            'x-api-key': apiKey,
+            'anthropic-version': '2023-06-01',
+            'anthropic-dangerous-direct-browser-access': 'true',
+          },
+          body: JSON.stringify({
+            model: modelSel.value || 'claude-opus-4-8',
+            max_tokens: 1024,
+            system: [{ type: 'text', text: sys, cache_control: { type: 'ephemeral' } }],
+            messages: history,
+            stream: true,
+          }),
+        });
+
+        if (!res.ok || !res.body) {
+          const err = await res.json().catch(() => null);
+          const msg =
+            res.status === 401
+              ? 'Invalid API key.'
+              : res.status === 429
+                ? 'Rate limited — try again shortly.'
+                : err?.error?.message || `Request failed (${res.status}).`;
+          out.remove();
+          bubble('err', msg);
+          history.pop();
+          return;
+        }
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buf = '';
+        for (;;) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          buf += decoder.decode(value, { stream: true });
+          const lines = buf.split('\n');
+          buf = lines.pop() || '';
+          for (const line of lines) {
+            const t = line.trim();
+            if (!t.startsWith('data:')) continue;
+            const payload = t.slice(5).trim();
+            if (!payload || payload === '[DONE]') continue;
+            let evt: any;
+            try {
+              evt = JSON.parse(payload);
+            } catch {
+              continue;
+            }
+            if (evt.type === 'content_block_delta' && evt.delta?.type === 'text_delta') {
+              acc += evt.delta.text;
+              out.textContent = acc;
+              log.scrollTop = log.scrollHeight;
+            } else if (evt.type === 'error') {
+              throw new Error(evt.error?.message || 'stream error');
+            }
+          }
+        }
+        if (!acc) out.textContent = '(no response)';
+        history.push({ role: 'assistant', content: acc });
+      } catch (e: any) {
+        if (e?.name !== 'AbortError') {
+          out.remove();
+          bubble('err', e?.message || 'Something went wrong.');
+          history.pop();
+        }
+      } finally {
+        busy = false;
+        controller = null;
+      }
+    }
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const text = input.value.trim();
+      if (!text) return;
+      input.value = '';
+      input.style.height = 'auto';
+      send(text);
+    });
+    // Enter to send, Shift+Enter for newline; auto-grow.
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        form.requestSubmit();
+      }
+    });
+    input.addEventListener('input', () => {
+      input.style.height = 'auto';
+      input.style.height = Math.min(input.scrollHeight, 128) + 'px';
+    });
+  }
+</script>

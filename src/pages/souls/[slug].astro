@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import GraphView from '../../components/GraphView.astro';
 import SuggestEdit from '../../components/SuggestEdit.astro';
 import SpecializationTree from '../../components/SpecializationTree.astro';
+import ChatPanel from '../../components/ChatPanel.astro';
 import {
   allRecords,
   getRecord,
@@ -127,6 +128,11 @@ const specTree = getSpecializationTree(slug);
 // Content-similar SOULs beyond the explicit graph edges (TF-IDF cosine).
 const similar = getSimilar(slug, 6);
 
+// High-stakes domains get a stronger chat disclaimer + refusal posture.
+const SENSITIVE_CATEGORIES = new Set(['Healthcare', 'Law', 'Finance']);
+const sensitive =
+  SENSITIVE_CATEGORIES.has(m.category) || /therap|counsel|psych|psychiat/i.test(slug);
+
 // Country / jurisdiction variants surfaced first-class on the page.
 const countryVariants = (m.country_variants || []).filter((v: any) => v && (v.region || v.note));
 
@@ -237,6 +243,13 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
               </div>
             )
           }
+          <ChatPanel
+            slug={slug}
+            title={rec.title}
+            category={m.category}
+            sensitive={sensitive}
+            verified={rec.computed.verified}
+          />
         </header>
 
         <!-- Federated notice: be explicit that this is mirrored, not authored. -->
