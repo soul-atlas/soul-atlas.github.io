@@ -218,6 +218,10 @@ const base = import.meta.env.BASE_URL;
         // Reveal all labels once zoomed in past a threshold (and re-hide on out).
         const crossed = ev.transform.k >= 1.8 !== zoomK >= 1.8;
         zoomK = ev.transform.k;
+        // Labels live inside the zoomed <g>, so they'd grow with everything else
+        // and turn into an unreadable pile-up. Counter-scale them by 1/k so they
+        // stay a constant ~11px on screen, anchored just off each node's edge.
+        scaleLabels(zoomK);
         if (crossed) refreshLabels();
       });
     svg.call(zoom as any);
@@ -292,6 +296,15 @@ const base = import.meta.env.BASE_URL;
       label.style('opacity', (d: any) =>
         activeId ? (neighbors.get(activeId)?.has(d.id) ? 1 : 0) : labelVisible(d) ? 1 : 0,
       );
+    }
+    // Keep labels at a constant on-screen size by dividing out the zoom factor.
+    // The x/y offsets are likewise in graph units, so they get the same 1/k
+    // treatment to hold a steady ~4px gap from the (zoom-scaled) node glyph.
+    function scaleLabels(k: number) {
+      label
+        .attr('font-size', 11 / k)
+        .attr('x', (d: any) => sizeScale(d.degree) + 4 / k)
+        .attr('y', 4 / k);
     }
     function highlight(id: string | null) {
       activeId = id;
