@@ -1,5 +1,6 @@
 ---
 import { Code } from 'astro:components';
+import CodeTabs from '../components/CodeTabs.astro';
 import Layout from '../layouts/Layout.astro';
 import { url, GITHUB_URL, SOUL_FORMAT_URL } from '../lib/site';
 import { souls } from '../lib/data';
@@ -30,26 +31,60 @@ const corpus = await fetch(
   "https://soul-atlas.github.io/llms-full.txt",
 ).then((r) => r.text());`;
 
-// Ground a model with whichever SOUL you loaded.
-const soulSnippet = `import Anthropic from "@anthropic-ai/sdk";
-
-const soul = await fetch(
+// Ground a model with whichever SOUL you loaded — the same pattern across
+// providers: fetch the SOUL.md, pass it as the system prompt, ask away.
+const Q = 'My espresso pulls fast and tastes sour. What do I adjust?';
+const FETCH = `const soul = await fetch(
   "https://soul-atlas.github.io/api/souls/barista.md",
-).then((r) => r.text());
+).then((r) => r.text());`;
+
+const groundingTabs = [
+  {
+    label: 'Claude',
+    code: `import Anthropic from "@anthropic-ai/sdk";
+
+${FETCH}
 
 const client = new Anthropic();
-
-const response = await client.messages.create({
+const res = await client.messages.create({
   model: "claude-opus-4-8",
-  max_tokens: 16000,
-  thinking: { type: "adaptive" },
-  system:
-    "Reason with the mindset below — adopt its mental models, priorities, " +
-    "and decision frameworks when you answer.\\n\\n" + soul,
+  max_tokens: 1024,
+  system: "Reason with the mindset below.\\n\\n" + soul,
+  messages: [{ role: "user", content: "${Q}" }],
+});
+console.log(res.content[0].text);`,
+  },
+  {
+    label: 'OpenAI',
+    code: `import OpenAI from "openai";
+
+${FETCH}
+
+const client = new OpenAI();
+const res = await client.chat.completions.create({
+  model: "gpt-4o",
   messages: [
-    { role: "user", content: "My espresso pulls fast and tastes sour. What do I adjust?" },
+    { role: "system", content: "Reason with the mindset below.\\n\\n" + soul },
+    { role: "user", content: "${Q}" },
   ],
-});`;
+});
+console.log(res.choices[0].message.content);`,
+  },
+  {
+    label: 'Gemini',
+    code: `import { GoogleGenAI } from "@google/genai";
+
+${FETCH}
+
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const res = await ai.models.generateContent({
+  model: "gemini-2.0-flash",
+  config: { systemInstruction: "Reason with the mindset below.\\n\\n" + soul },
+  contents: "${Q}",
+});
+console.log(res.text);`,
+  },
+];
 ---
 
 <Layout title="About" description="What a SOUL is, why this project exists, and how to use it.">
@@ -151,15 +186,10 @@ const response = await client.messages.create({
 
       <h3>Ground a model with it</h3>
       <p>
-        However you load it, a SOUL drops into any model's system prompt — shown here with the
-        Anthropic SDK:
+        However you load it, a SOUL drops into any model's system prompt. Same pattern with Claude,
+        OpenAI, or Gemini:
       </p>
-      <Code
-        code={soulSnippet}
-        lang="ts"
-        themes={{ light: 'github-light', dark: 'github-dark' }}
-        defaultColor="light"
-      />
+      <CodeTabs tabs={groundingTabs} />
       <p>
         Everything is static, open, and released under the MIT License — free to reuse, remix, and
         train on. Using SOULs to ground or train AI is explicitly welcome.

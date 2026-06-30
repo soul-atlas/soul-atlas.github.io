@@ -1,5 +1,5 @@
 ---
-import { Code } from 'astro:components';
+import CodeTabs from '../components/CodeTabs.astro';
 import Layout from '../layouts/Layout.astro';
 import SoulCard from '../components/SoulCard.astro';
 import Constellation from '../components/Constellation.astro';
@@ -12,28 +12,59 @@ const githubRepo = SITE.githubRepo;
 const dayIndex = Math.floor(Date.parse('2026-06-26') / 86400000) % Math.max(1, souls.length);
 const ofTheDay = souls[dayIndex];
 
-// "For developers" tip — the same grounding example as the About page, pointed
-// at today's SOUL so the snippet is live rather than illustrative.
-const tipSnippet = `import Anthropic from "@anthropic-ai/sdk";
+// "For developers" tip — the grounding example, pointed at today's SOUL so it's
+// live rather than illustrative, with a tab per provider (Claude/OpenAI/Gemini).
+const tipFetch = `const soul = await fetch(
+  "https://soul-atlas.github.io/api/souls/${ofTheDay.slug}.md",
+).then((r) => r.text());`;
+const tipQ = 'What would you watch for that a novice would miss?';
+const tipTabs = [
+  {
+    label: 'Claude',
+    code: `import Anthropic from "@anthropic-ai/sdk";
 
 // Ground a model in today's SOUL — ${ofTheDay.title}
-const soul = await fetch(
-  "https://soul-atlas.github.io/api/souls/${ofTheDay.slug}.md",
-).then((r) => r.text());
+${tipFetch}
 
 const client = new Anthropic();
-
-const response = await client.messages.create({
+const res = await client.messages.create({
   model: "claude-opus-4-8",
-  max_tokens: 16000,
-  thinking: { type: "adaptive" },
-  system:
-    "Reason with the mindset below — adopt its mental models, priorities, " +
-    "and decision frameworks when you answer.\\n\\n" + soul,
+  max_tokens: 1024,
+  system: "Reason with the mindset below.\\n\\n" + soul,
+  messages: [{ role: "user", content: "${tipQ}" }],
+});`,
+  },
+  {
+    label: 'OpenAI',
+    code: `import OpenAI from "openai";
+
+// Ground a model in today's SOUL — ${ofTheDay.title}
+${tipFetch}
+
+const client = new OpenAI();
+const res = await client.chat.completions.create({
+  model: "gpt-4o",
   messages: [
-    { role: "user", content: "What would you watch for that a novice would miss?" },
+    { role: "system", content: "Reason with the mindset below.\\n\\n" + soul },
+    { role: "user", content: "${tipQ}" },
   ],
-});`;
+});`,
+  },
+  {
+    label: 'Gemini',
+    code: `import { GoogleGenAI } from "@google/genai";
+
+// Ground a model in today's SOUL — ${ofTheDay.title}
+${tipFetch}
+
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const res = await ai.models.generateContent({
+  model: "gemini-2.0-flash",
+  config: { systemInstruction: "Reason with the mindset below.\\n\\n" + soul },
+  contents: "${tipQ}",
+});`,
+  },
+];
 
 // Prefer practitioner-verified SOULs; fall back to the most complete drafts so
 // the homepage always has something to feature while the corpus is being reviewed.
@@ -163,12 +194,7 @@ const jsonLd = {
         <code class="code-inline">/api/souls/&lt;slug&gt;.md</code>, or pull the whole corpus from
         <a href={url('/llms-full.txt')} class="underline">/llms-full.txt</a>.
       </p>
-      <Code
-        code={tipSnippet}
-        lang="ts"
-        themes={{ light: 'github-light', dark: 'github-dark' }}
-        defaultColor="light"
-      />
+      <CodeTabs tabs={tipTabs} />
       {
         ofTheDay && (
           <p class="mt-3 text-xs" style="color:var(--ink-faint)">

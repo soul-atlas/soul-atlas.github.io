@@ -1,0 +1,89 @@
+---
+// Tabbed, syntax-highlighted code samples (one tab per provider/variant), in the
+// style of docs sites like uv's install page. Each tab is a Shiki <Code> block;
+// a small script toggles panels. Self-contained and reusable.
+import { Code } from 'astro:components';
+
+interface Tab {
+  label: string;
+  code: string;
+  lang?: string;
+}
+const { tabs } = Astro.props as { tabs: Tab[] };
+---
+
+<div data-codetabs>
+  <div class="codetab-row" role="tablist">
+    {
+      tabs.map((t, i) => (
+        <button
+          type="button"
+          role="tab"
+          data-tab={i}
+          aria-selected={i === 0 ? 'true' : 'false'}
+          class:list={['codetab', i === 0 && 'codetab-active']}
+        >
+          {t.label}
+        </button>
+      ))
+    }
+  </div>
+  {
+    tabs.map((t, i) => (
+      <div data-panel={i} class:list={[i !== 0 && 'hidden']}>
+        <Code
+          code={t.code}
+          lang={t.lang ?? 'ts'}
+          themes={{ light: 'github-light', dark: 'github-dark' }}
+          defaultColor="light"
+        />
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .codetab-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.15rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.25rem;
+  }
+  .codetab {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+    color: var(--ink-faint);
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    cursor: pointer;
+  }
+  .codetab:hover {
+    color: var(--ink-soft);
+  }
+  .codetab-active {
+    color: var(--ink);
+    font-weight: 600;
+    border-bottom-color: var(--accent);
+  }
+</style>
+
+<script>
+  document.querySelectorAll('[data-codetabs]').forEach((tabs) => {
+    const btns = Array.from(tabs.querySelectorAll<HTMLButtonElement>('[data-tab]'));
+    const panels = Array.from(tabs.querySelectorAll<HTMLElement>('[data-panel]'));
+    btns.forEach((btn) =>
+      btn.addEventListener('click', () => {
+        const i = btn.getAttribute('data-tab');
+        btns.forEach((b) => {
+          const on = b === btn;
+          b.setAttribute('aria-selected', String(on));
+          b.classList.toggle('codetab-active', on);
+        });
+        panels.forEach((p) => p.classList.toggle('hidden', p.getAttribute('data-panel') !== i));
+      }),
+    );
+  });
+</script>
