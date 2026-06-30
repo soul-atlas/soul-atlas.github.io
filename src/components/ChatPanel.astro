@@ -19,10 +19,18 @@ interface Props {
   slug: string;
   title: string;
   category: string;
+  color?: string;
   sensitive?: boolean;
   verified?: boolean;
 }
-const { slug, title, category, sensitive = false, verified = false } = Astro.props;
+const {
+  slug,
+  title,
+  category,
+  color = '#6f9bff',
+  sensitive = false,
+  verified = false,
+} = Astro.props;
 const base = import.meta.env.BASE_URL;
 const mdUrl = `${base}api/souls/${slug}.md`;
 ---
@@ -46,6 +54,7 @@ const mdUrl = `${base}api/souls/${slug}.md`;
   data-md={mdUrl}
   data-title={title}
   data-category={category}
+  data-color={color}
   data-sensitive={sensitive ? '1' : '0'}
   data-verified={verified ? '1' : '0'}
 >
@@ -168,27 +177,126 @@ const mdUrl = `${base}api/souls/${slug}.md`;
 >
 </div>
 
-<style>
-  .chat-msg {
+<!-- Global (not scoped): these style JS-created message nodes, which don't carry
+     Astro's scope attribute. All class names are chat-* to avoid collisions. -->
+<style is:global>
+  .chat-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .chat-row.user {
+    flex-direction: row-reverse;
+  }
+  .chat-av {
+    flex: 0 0 auto;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  .chat-av.user {
+    background: var(--ink-faint);
+  }
+  .chat-bubble {
+    max-width: 80%;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.9rem;
+    line-height: 1.5;
     white-space: pre-wrap;
     overflow-wrap: anywhere;
-    line-height: 1.5;
   }
-  .chat-user {
-    margin-left: auto;
-    max-width: 85%;
-    border-radius: 0.6rem;
-    padding: 0.5rem 0.7rem;
+  .chat-row.soul .chat-bubble {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--ink);
+    border-top-left-radius: 0.25rem;
+  }
+  .chat-row.user .chat-bubble {
     background: var(--accent-soft);
     color: var(--ink);
+    border-top-right-radius: 0.25rem;
   }
-  .chat-soul {
-    max-width: 92%;
-    color: var(--ink-soft);
+  .chat-typing {
+    display: inline-flex;
+    gap: 4px;
+    padding: 0.15rem 0;
   }
-  .chat-err {
+  .chat-typing span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--ink-faint);
+    animation: chat-dot 1s infinite ease-in-out;
+  }
+  .chat-typing span:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+  .chat-typing span:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  @keyframes chat-dot {
+    0%,
+    60%,
+    100% {
+      opacity: 0.25;
+      transform: translateY(0);
+    }
+    30% {
+      opacity: 1;
+      transform: translateY(-3px);
+    }
+  }
+  .chat-error {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    border: 1px solid rgba(224, 83, 61, 0.4);
+    background: rgba(224, 83, 61, 0.08);
+    color: var(--ink);
+    border-radius: 0.6rem;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.85rem;
+  }
+  .chat-error .ico {
     color: #e0533d;
-    font-size: 0.85em;
+    flex: 0 0 auto;
+  }
+  .chat-retry {
+    margin-top: 0.3rem;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .chat-empty {
+    color: var(--ink-faint);
+  }
+  .chat-suggest {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+  }
+  .chat-suggest button {
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    text-align: left;
+  }
+  .chat-suggest button:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .chat-typing span {
+      animation: none;
+    }
   }
 </style>
 
@@ -292,6 +400,13 @@ const mdUrl = `${base}api/souls/${slug}.md`;
     const title = panel.dataset.title || 'this SOUL';
     const mdUrl = panel.dataset.md!;
     const sensitive = panel.dataset.sensitive === '1';
+    const soulColor = panel.dataset.color || '#6f9bff';
+    const soulInitial = (title.trim()[0] || '?').toUpperCase();
+    const SUGGESTIONS = [
+      'What would you watch for that a novice would miss?',
+      "Walk me through how you'd approach a hard call.",
+      'What do people most often get wrong about your work?',
+    ];
 
     const safe = <T,>(fn: () => T, fallback: T): T => {
       try {
@@ -344,6 +459,7 @@ const mdUrl = `${base}api/souls/${slug}.md`;
       panel.style.display = 'flex';
       backdrop.style.display = 'block';
       if (!keys[provider]) settingsPanel.classList.remove('hidden');
+      showSuggestions();
       (keys[provider] ? input : keyInput).focus();
     }
     function close() {
@@ -391,14 +507,116 @@ const mdUrl = `${base}api/souls/${slug}.md`;
       safe(() => localStorage.removeItem(keyStore(provider)), undefined);
     });
 
-    // Rendering — textContent only, never innerHTML.
-    function bubble(role: 'user' | 'soul' | 'err', text: string): HTMLElement {
+    // Rendering — built with the DOM API + textContent only, never innerHTML.
+    const scroll = () => (log.scrollTop = log.scrollHeight);
+
+    function userIcon(): SVGSVGElement {
+      const ns = 'http://www.w3.org/2000/svg';
+      const svg = document.createElementNS(ns, 'svg');
+      svg.setAttribute('viewBox', '0 0 24 24');
+      svg.setAttribute('width', '15');
+      svg.setAttribute('height', '15');
+      svg.setAttribute('fill', '#fff');
+      const path = document.createElementNS(ns, 'path');
+      path.setAttribute(
+        'd',
+        'M12 12a5 5 0 100-10 5 5 0 000 10zm0 2c-5 0-9 2.6-9 6v1h18v-1c0-3.4-4-6-9-6z',
+      );
+      svg.appendChild(path);
+      return svg;
+    }
+
+    function newRow(role: 'user' | 'soul'): HTMLElement {
+      const row = document.createElement('div');
+      row.className = `chat-row ${role}`;
+      const av = document.createElement('div');
+      av.className = `chat-av ${role}`;
+      if (role === 'soul') {
+        av.style.background = soulColor;
+        av.textContent = soulInitial;
+      } else {
+        av.appendChild(userIcon());
+      }
+      const bubble = document.createElement('div');
+      bubble.className = 'chat-bubble';
+      row.append(av, bubble);
+      log.appendChild(row);
+      scroll();
+      return bubble;
+    }
+
+    function addUser(text: string) {
+      newRow('user').textContent = text;
+    }
+
+    // Soul bubble that begins as a typing indicator; returns setters.
+    function startSoul() {
+      const bubble = newRow('soul');
+      const typing = document.createElement('span');
+      typing.className = 'chat-typing';
+      for (let i = 0; i < 3; i++) typing.appendChild(document.createElement('span'));
+      bubble.appendChild(typing);
+      const row = bubble.parentElement;
+      return {
+        set(text: string) {
+          bubble.textContent = text;
+          scroll();
+        },
+        remove() {
+          row?.remove();
+        },
+      };
+    }
+
+    function addError(msg: string, retry?: () => void) {
       const el = document.createElement('div');
-      el.className = `chat-msg ${role === 'user' ? 'chat-user' : role === 'err' ? 'chat-err' : 'chat-soul'}`;
-      el.textContent = text;
+      el.className = 'chat-error';
+      const ico = document.createElement('span');
+      ico.className = 'ico';
+      ico.textContent = '⚠';
+      const wrap = document.createElement('div');
+      const m = document.createElement('div');
+      m.textContent = msg;
+      wrap.appendChild(m);
+      if (retry) {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'chat-retry';
+        btn.textContent = 'Retry';
+        btn.addEventListener('click', () => {
+          el.remove();
+          retry();
+        });
+        wrap.appendChild(btn);
+      }
+      el.append(ico, wrap);
       log.appendChild(el);
-      log.scrollTop = log.scrollHeight;
-      return el;
+      scroll();
+    }
+
+    // Empty-state greeting + suggested prompts.
+    let suggestEl: HTMLElement | null = null;
+    function showSuggestions() {
+      if (suggestEl || history.length) return;
+      suggestEl = document.createElement('div');
+      suggestEl.className = 'chat-empty';
+      const greet = document.createElement('div');
+      greet.textContent = `Ask ${title} how they think — in their own frameworks.`;
+      const chips = document.createElement('div');
+      chips.className = 'chat-suggest';
+      for (const s of SUGGESTIONS) {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.textContent = s;
+        b.addEventListener('click', () => send(s));
+        chips.appendChild(b);
+      }
+      suggestEl.append(greet, chips);
+      log.appendChild(suggestEl);
+    }
+    function clearSuggestions() {
+      suggestEl?.remove();
+      suggestEl = null;
     }
 
     async function ensureSystem(): Promise<string> {
@@ -425,14 +643,15 @@ const mdUrl = `${base}api/souls/${slug}.md`;
       const key = keys[provider];
       if (!key) {
         settingsPanel.classList.remove('hidden');
-        bubble('err', 'Add your API key in settings (⚙) to start chatting.');
+        addError('Add your API key in settings (⚙) to start chatting.');
         keyInput.focus();
         return;
       }
+      clearSuggestions();
       busy = true;
-      bubble('user', text);
+      addUser(text);
       history.push({ role: 'user', content: text });
-      const out = bubble('soul', '…');
+      const out = startSoul();
       const model = modelSel.value || cfg.models[0];
 
       controller = new AbortController();
@@ -455,8 +674,8 @@ const mdUrl = `${base}api/souls/${slug}.md`;
                 ? 'Rate limited — try again shortly.'
                 : err?.error?.message || `Request failed (${res.status}).`;
           out.remove();
-          bubble('err', msg);
           history.pop();
+          addError(msg, () => send(text));
           return;
         }
 
@@ -484,18 +703,17 @@ const mdUrl = `${base}api/souls/${slug}.md`;
             const piece = cfg.extract(evt);
             if (piece) {
               acc += piece;
-              out.textContent = acc;
-              log.scrollTop = log.scrollHeight;
+              out.set(acc);
             }
           }
         }
-        if (!acc) out.textContent = '(no response)';
+        if (!acc) out.set('(no response)');
         history.push({ role: 'assistant', content: acc });
       } catch (e: any) {
         if (e?.name !== 'AbortError') {
           out.remove();
-          bubble('err', e?.message || 'Something went wrong.');
           history.pop();
+          addError(e?.message || 'Something went wrong.', () => send(text));
         }
       } finally {
         busy = false;
