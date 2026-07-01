@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import GraphView from '../../components/GraphView.astro';
+import SoulSigil from '../../components/SoulSigil.astro';
 import SuggestEdit from '../../components/SuggestEdit.astro';
 import SpecializationTree from '../../components/SpecializationTree.astro';
 import ChatPanel from '../../components/ChatPanel.astro';
@@ -212,7 +213,27 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
               )
             }
           </div>
-          <h1 class="text-4xl font-bold tracking-tight" style="color:var(--ink)">{rec.title}</h1>
+          <div class="flex items-center gap-4">
+            <SoulSigil
+              size={72}
+              animate
+              class="shrink-0"
+              input={{
+                title: rec.title,
+                category: m.category,
+                kind,
+                difficulty: m.difficulty,
+                status: m.status,
+                provenance: m.provenance,
+                tags: m.tags,
+                related: (m.related || []).length,
+                wordCount: rec.computed.wordCount,
+                verified: rec.computed.verified,
+                reviewers: (m.reviewers || []).length,
+              }}
+            />
+            <h1 class="text-4xl font-bold tracking-tight" style="color:var(--ink)">{rec.title}</h1>
+          </div>
           <p class="mt-3 max-w-2xl text-lg leading-relaxed" style="color:var(--ink-soft)">
             {m.summary}
           </p>

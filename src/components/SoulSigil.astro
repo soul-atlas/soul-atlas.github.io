@@ -1,0 +1,79 @@
+---
+// Renders a SOUL's generative "star" — a deterministic SVG derived purely from
+// its metadata (see src/lib/star.ts). Accepts either a SoulSummary or the loose
+// fields, so it works from a card, the detail hero, or anywhere else.
+import { soulSigilSvg, type SigilInput } from '../lib/star';
+import type { SoulSummary } from '../lib/data';
+
+interface Props {
+  soul?: SoulSummary;
+  input?: SigilInput;
+  size?: number;
+  animate?: boolean;
+  class?: string;
+}
+
+const { soul, input, size = 48, animate = false, class: className = '' } = Astro.props;
+
+const data: SigilInput =
+  input ??
+  (soul
+    ? {
+        title: soul.title,
+        category: soul.category,
+        kind: soul.kind,
+        difficulty: soul.difficulty,
+        status: soul.status,
+        provenance: soul.provenance,
+        tags: soul.tags,
+        related: soul.related?.length ?? 0,
+        wordCount: soul.wordCount,
+        verified: soul.verified,
+        reviewers: soul.reviewers?.length ?? 0,
+      }
+    : { title: 'Unknown', category: '' });
+
+const svg = soulSigilSvg(data, { size, animate });
+---
+
+<span class:list={['soul-sigil-wrap', className]} set:html={svg} />
+
+<style is:global>
+  .soul-sigil-wrap {
+    display: inline-flex;
+    line-height: 0;
+  }
+  @keyframes soul-sigil-pulse {
+    0%,
+    100% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes soul-sigil-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .soul-sigil--animate .soul-sigil__pulse {
+    animation: soul-sigil-pulse 3.4s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  .soul-sigil--animate .soul-sigil__spin {
+    animation: soul-sigil-spin 40s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .soul-sigil__pulse,
+    .soul-sigil__spin {
+      animation: none !important;
+    }
+  }
+</style>
