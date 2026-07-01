@@ -220,7 +220,7 @@ export function soulSigilSvg(input: SigilInput, opts: SigilOptions = {}): string
     `<stop offset="100%" stop-color="${mix(color, DARK, 0.5)}" />` +
     `</radialGradient>` +
     `<filter id="${uid}g" x="-80%" y="-80%" width="260%" height="260%">` +
-    `<feGaussianBlur stdDeviation="2.4" />` +
+    `<feGaussianBlur stdDeviation="1.6" />` +
     `</filter>` +
     `</defs>`;
 
@@ -237,10 +237,10 @@ export function soulSigilSvg(input: SigilInput, opts: SigilOptions = {}): string
 
   const st = STATUS_STYLE[status] ?? STATUS_STYLE.stable;
 
-  // Soft glow behind a fully-formed emblem.
+  // A restrained glow disc behind a fully-formed emblem (the core stays crisp).
   if (st.glow) {
     layers.push(
-      `<circle cx="${cx}" cy="${cy}" r="${f(coreR * 1.15)}" fill="${rgba(color, 0.5)}" filter="url(#${uid}g)" />`,
+      `<circle cx="${cx}" cy="${cy}" r="${f(coreR * 1.05)}" fill="${rgba(color, 0.28)}" filter="url(#${uid}g)" />`,
     );
   }
 
@@ -266,10 +266,10 @@ export function soulSigilSvg(input: SigilInput, opts: SigilOptions = {}): string
     );
   }
 
-  // The core glyph (kind), a solid filled silhouette.
-  const coreGlow = st.glow ? ` filter="url(#${uid}g)"` : '';
+  // The core glyph (kind), a solid filled silhouette. It stays crisp — only the
+  // disc behind it glows — so bright hues don't bloom over the shape.
   layers.push(
-    `<g fill="url(#${uid}c)" fill-opacity="${st.fillOpacity}" stroke="${mix(color, WHITE, 0.55)}" stroke-width="1.3" stroke-linejoin="round"${coreGlow}>` +
+    `<g fill="url(#${uid}c)" fill-opacity="${st.fillOpacity}" stroke="${mix(color, WHITE, 0.55)}" stroke-width="1.3" stroke-linejoin="round">` +
       coreShape(kind, cx, cy, coreR, rotation) +
       `</g>`,
   );
