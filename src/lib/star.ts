@@ -2,20 +2,23 @@
 //
 // Every SOUL already carries a small constellation of facts — category, kind,
 // difficulty, status, provenance, tags, how many minds it links to, how much has
-// been written. This turns those facts into a single deterministic "star": same
+// been written. This turns those facts into a single deterministic emblem: same
 // input, same SVG, every build — exactly how the rest of the Atlas is derived
 // from the corpus rather than stored by hand. No portraits, no icon library, no
 // art queue that falls behind 300 SOULs today or 10,000 tomorrow.
 //
-// The mapping (see the field guide on any SOUL page):
-//   category    -> hue                (the Atlas's existing 21-colour palette)
-//   kind        -> core glyph shape   (occupation, discipline, role, identity, …)
-//   difficulty  -> size + glow radius
-//   status      -> formation stage    (stub gas cloud -> steadily glowing star)
-//   provenance  -> line confidence    (human solid, ai-assisted dashed, ai dotted)
-//   verified    -> a thin corona, brighter per practitioner reviewer
-//   related     -> diffraction spikes (one family of rays per linked mind)
-//   tags        -> orbiting moons      (each at a fixed, hash-derived angle)
+// Design goal: a clean, symmetric orbital seal with a strong silhouette that
+// still reads at 32px, not a scatter of particles. The mapping:
+//   category    -> hue (reuses the existing 21-colour palette)
+//   kind        -> the solid core glyph (occupation, discipline, role, …)
+//   difficulty  -> core size
+//   status      -> how "formed" the emblem is (stub = faint hollow ring;
+//                  draft/review/stable = progressively solid core + brighter orbit)
+//   provenance  -> the orbit line style, one subtle cue (human solid,
+//                  ai-assisted dashed, ai-generated finely dotted)
+//   verified    -> a bright halo ring, stronger per practitioner reviewer
+//   related     -> evenly spaced nodes on the orbit, one per linked mind
+//   tags        -> small evenly spaced satellites on a faint outer orbit
 //
 // This is pure and framework-free: it returns an SVG string and touches no DOM,
 // so it renders identically at build time in Astro, in the API, or in a test.
@@ -37,18 +40,18 @@ export interface SigilInput {
 
 export interface SigilOptions {
   size?: number; // rendered px (viewBox is a fixed 100x100)
-  animate?: boolean; // add classes the stylesheet animates (pulse / slow spin)
+  animate?: boolean; // add classes the stylesheet animates (pulse / spin)
   title?: string; // <title> for accessibility; defaults to "<name> sigil"
 }
 
 const DIFFICULTY_RADIUS: Record<string, number> = {
-  foundational: 12,
-  intermediate: 15,
-  advanced: 18,
+  foundational: 13,
+  intermediate: 16,
+  advanced: 19,
   expert: 22,
 };
 
-// --- deterministic hashing so a SOUL's star never changes between builds ------
+// --- deterministic hashing so a SOUL's emblem never changes between builds ----
 function fnv1a(str: string): number {
   let h = 0x811c9dc5;
   for (let i = 0; i < str.length; i++) {
@@ -56,16 +59,6 @@ function fnv1a(str: string): number {
     h = (h + ((h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24))) >>> 0;
   }
   return h >>> 0;
-}
-
-function mulberry32(seed: number): () => number {
-  let a = seed >>> 0;
-  return () => {
-    a = (a + 0x6d2b79f5) | 0;
-    let t = Math.imul(a ^ (a >>> 15), 1 | a);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
 }
 
 function hexToRgb(hex: string): [number, number, number] {
@@ -91,6 +84,7 @@ function rgba(hex: string, alpha: number): string {
 }
 
 const WHITE: [number, number, number] = [255, 255, 255];
+const DARK: [number, number, number] = [12, 16, 27]; // toward the panel background
 const f = (n: number) => Number(n.toFixed(2));
 
 function esc(s: string): string {
@@ -101,11 +95,17 @@ function esc(s: string): string {
     .replace(/"/g, '&quot;');
 }
 
+// A point on a circle. Angle 0 is straight up; increases clockwise.
+function pt(cx: number, cy: number, r: number, deg: number): [number, number] {
+  const a = ((deg - 90) * Math.PI) / 180;
+  return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
+}
+
 function polygon(cx: number, cy: number, r: number, sides: number, rot: number): string {
   const pts: string[] = [];
   for (let i = 0; i < sides; i++) {
-    const a = ((rot - 90 + (i * 360) / sides) * Math.PI) / 180;
-    pts.push(`${f(cx + r * Math.cos(a))},${f(cy + r * Math.sin(a))}`);
+    const [x, y] = pt(cx, cy, r, rot + (i * 360) / sides);
+    pts.push(`${f(x)},${f(y)}`);
   }
   return pts.join(' ');
 }
@@ -122,13 +122,14 @@ function starPolygon(
   const total = spikes * 2;
   for (let i = 0; i < total; i++) {
     const r = i % 2 === 0 ? outer : inner;
-    const a = ((rot - 90 + (i * 360) / total) * Math.PI) / 180;
-    pts.push(`${f(cx + r * Math.cos(a))},${f(cy + r * Math.sin(a))}`);
+    const [x, y] = pt(cx, cy, r, rot + (i * 360) / total);
+    pts.push(`${f(x)},${f(y)}`);
   }
   return pts.join(' ');
 }
 
-// The core glyph family for each `kind`. Stroke/fill are applied by the caller.
+// The solid core glyph for each `kind`. Fill/stroke are supplied by the caller's
+// group so the shape stays a clean, filled silhouette.
 function coreShape(kind: string, cx: number, cy: number, r: number, rot: number): string {
   switch (kind) {
     case 'discipline':
@@ -136,40 +137,57 @@ function coreShape(kind: string, cx: number, cy: number, r: number, rot: number)
     case 'role':
       return `<polygon points="${polygon(cx, cy, r, 5, rot)}" />`;
     case 'identity':
-      return `<circle cx="${cx}" cy="${cy}" r="${f(r)}" fill="none" />`;
+      return `<circle cx="${cx}" cy="${cy}" r="${f(r)}" />`;
     case 'community': {
-      const off = r * 0.42;
-      const a = ((rot - 90) * Math.PI) / 180;
-      const rr = f(r * 0.72);
+      // two interlocking discs (a vesica) — a shared way of thinking
+      const off = r * 0.4;
+      const [ax, ay] = pt(cx, cy, off, rot);
+      const [bx, by] = pt(cx, cy, off, rot + 180);
+      const rr = f(r * 0.74);
       return (
-        `<circle cx="${f(cx + off * Math.cos(a))}" cy="${f(cy + off * Math.sin(a))}" r="${rr}" fill="none" />` +
-        `<circle cx="${f(cx - off * Math.cos(a))}" cy="${f(cy - off * Math.sin(a))}" r="${rr}" fill="none" />`
+        `<circle cx="${f(ax)}" cy="${f(ay)}" r="${rr}" />` +
+        `<circle cx="${f(bx)}" cy="${f(by)}" r="${rr}" />`
       );
     }
-    case 'historical': {
-      let ticks = '';
-      for (let i = 0; i < 8; i++) {
-        const a = ((rot - 90 + (i * 360) / 8) * Math.PI) / 180;
-        ticks += `<line x1="${f(cx + r * Math.cos(a))}" y1="${f(cy + r * Math.sin(a))}" x2="${f(cx + (r + 4) * Math.cos(a))}" y2="${f(cy + (r + 4) * Math.sin(a))}" />`;
-      }
-      return `<polygon points="${polygon(cx, cy, r, 8, rot)}" />${ticks}`;
-    }
+    case 'historical':
+      return `<polygon points="${polygon(cx, cy, r, 8, rot)}" />`;
     case 'agent-persona': {
-      const s = r * 0.62;
+      // a diamond with a crosshair — a constructed persona
+      const s = r * 0.5;
       return (
-        `<polygon points="${polygon(cx, cy, r, 4, rot + 45)}" />` +
-        `<line x1="${f(cx - s)}" y1="${cy}" x2="${f(cx + s)}" y2="${cy}" />` +
-        `<line x1="${cx}" y1="${f(cy - s)}" x2="${cx}" y2="${f(cy + s)}" />`
+        `<polygon points="${polygon(cx, cy, r, 4, rot)}" />` +
+        `<line x1="${f(cx - s)}" y1="${cy}" x2="${f(cx + s)}" y2="${cy}" stroke-width="1" />` +
+        `<line x1="${cx}" y1="${f(cy - s)}" x2="${cx}" y2="${f(cy + s)}" stroke-width="1" />`
       );
     }
     case 'occupation':
     default:
-      return `<polygon points="${starPolygon(cx, cy, r, r * 0.42, 4, rot)}" />`;
+      // a sharp four-point star
+      return `<polygon points="${starPolygon(cx, cy, r, r * 0.4, 4, rot)}" />`;
   }
 }
 
+interface StatusStyle {
+  fillOpacity: number; // core fill strength
+  orbitOpacity: number; // main orbit ring strength
+  orbitWidth: number;
+  glow: boolean;
+}
+const STATUS_STYLE: Record<string, StatusStyle> = {
+  draft: { fillOpacity: 0.42, orbitOpacity: 0.35, orbitWidth: 0.9, glow: false },
+  review: { fillOpacity: 0.68, orbitOpacity: 0.6, orbitWidth: 1.1, glow: false },
+  stable: { fillOpacity: 0.92, orbitOpacity: 0.85, orbitWidth: 1.3, glow: true },
+};
+
+// Orbit line style is the single provenance cue.
+function orbitDash(provenance: string): string {
+  if (provenance === 'ai-generated') return ' stroke-dasharray="0.5 3"';
+  if (provenance === 'ai-assisted') return ' stroke-dasharray="4 3"';
+  return '';
+}
+
 /**
- * Build the SVG markup for a SOUL's star. Pure and deterministic — the same
+ * Build the SVG markup for a SOUL's emblem. Pure and deterministic — the same
  * input always yields the same string.
  */
 export function soulSigilSvg(input: SigilInput, opts: SigilOptions = {}): string {
@@ -181,135 +199,95 @@ export function soulSigilSvg(input: SigilInput, opts: SigilOptions = {}): string
   const kind = input.kind || 'occupation';
   const status = input.status || 'stable';
   const provenance = input.provenance || 'human';
-  const tags = input.tags ?? [];
+  const tags = (input.tags ?? []).slice(0, 8);
   const related = Math.max(0, Math.min(8, input.related ?? 0));
 
   const seed = fnv1a(`${input.title}|${input.category}|${kind}`);
-  const rng = mulberry32(seed);
-  const rotation = rng() * 360;
-
+  const rotation = seed % 360; // a stable orientation so the family isn't uniform
   const color = categoryColor(input.category);
-  const baseR = DIFFICULTY_RADIUS[input.difficulty || ''] ?? 15;
-  const wordFactor = Math.max(0, Math.min(1, ((input.wordCount ?? 1500) - 150) / 5850));
-  const glow = 1.5 + wordFactor * 5;
+  const coreR = DIFFICULTY_RADIUS[input.difficulty || ''] ?? 15;
+  const orbitR = coreR + 13;
+  const tagR = orbitR + 7;
   const uid = `sg${seed.toString(36)}`;
-  const pulse = animate ? ` class="soul-sigil__pulse"` : '';
-  const spin = animate ? ` class="soul-sigil__spin"` : '';
 
-  const parts: string[] = [];
-  parts.push(
-    `<defs><filter id="${uid}" x="-120%" y="-120%" width="340%" height="340%">` +
-      `<feGaussianBlur stdDeviation="${f(glow)}" result="b" />` +
-      `<feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>` +
-      `</filter></defs>`,
+  const pulse = animate ? ' class="soul-sigil__pulse"' : '';
+
+  const defs =
+    `<defs>` +
+    `<radialGradient id="${uid}c" cx="40%" cy="36%" r="72%">` +
+    `<stop offset="0%" stop-color="${mix(color, WHITE, 0.5)}" />` +
+    `<stop offset="55%" stop-color="${color}" />` +
+    `<stop offset="100%" stop-color="${mix(color, DARK, 0.5)}" />` +
+    `</radialGradient>` +
+    `<filter id="${uid}g" x="-80%" y="-80%" width="260%" height="260%">` +
+    `<feGaussianBlur stdDeviation="2.4" />` +
+    `</filter>` +
+    `</defs>`;
+
+  const layers: string[] = [];
+
+  // --- stub: barely formed. A single faint hollow ring, nothing else. ---------
+  if (status === 'stub') {
+    layers.push(
+      `<circle cx="${cx}" cy="${cy}" r="${f(coreR)}" fill="none" stroke="${color}" stroke-width="1.2" stroke-opacity="0.5" stroke-dasharray="1.5 3.5" />`,
+      `<circle cx="${cx}" cy="${cy}" r="2" fill="${rgba(color, 0.6)}" />`,
+    );
+    return wrap(defs + layers.join(''), size, animate, input, opts.title);
+  }
+
+  const st = STATUS_STYLE[status] ?? STATUS_STYLE.stable;
+
+  // Soft glow behind a fully-formed emblem.
+  if (st.glow) {
+    layers.push(
+      `<circle cx="${cx}" cy="${cy}" r="${f(coreR * 1.15)}" fill="${rgba(color, 0.5)}" filter="url(#${uid}g)" />`,
+    );
+  }
+
+  // Main orbit ring (provenance sets the dash; status sets the weight/opacity).
+  layers.push(
+    `<circle cx="${cx}" cy="${cy}" r="${f(orbitR)}" fill="none" stroke="${color}" stroke-width="${st.orbitWidth}" stroke-opacity="${st.orbitOpacity}"${orbitDash(provenance)} />`,
   );
 
-  // --- stub: a protostar — an unformed wisp of gas with no defined edges yet ---
-  if (status === 'stub') {
-    parts.push(
-      `<circle cx="${cx}" cy="${cy}" r="${f(baseR * 0.55)}" fill="${rgba(color, 0.28)}" filter="url(#${uid})" />`,
+  // Related minds — evenly spaced nodes riding the orbit.
+  for (let i = 0; i < related; i++) {
+    const [x, y] = pt(cx, cy, orbitR, rotation + (i * 360) / related);
+    layers.push(
+      `<circle cx="${f(x)}" cy="${f(y)}" r="2.3" fill="${mix(color, WHITE, 0.25)}" stroke="${mix(color, DARK, 0.3)}" stroke-width="0.6" />`,
     );
-    for (let d = 0; d < 6; d++) {
-      const dr = baseR * (0.6 + rng() * 0.9);
-      const da = rng() * Math.PI * 2;
-      parts.push(
-        `<circle cx="${f(cx + dr * Math.cos(da))}" cy="${f(cy + dr * Math.sin(da))}" r="${f(0.6 + rng() * 0.8)}" fill="${rgba(color, 0.35 + rng() * 0.3)}" />`,
-      );
-    }
-    return wrap(parts.join(''), size, animate, input, opts.title);
   }
 
-  // Formation stage (status) drives fill/stroke presence.
-  let fillOpacity: number;
-  let strokeOpacity: number;
-  let showGlow: boolean;
-  const pre: string[] = [];
-
-  if (status === 'draft') {
-    fillOpacity = 0.05;
-    strokeOpacity = 0.65;
-    showGlow = false;
-    pre.push(
-      `<ellipse cx="${cx}" cy="${cy}" rx="${f(baseR * 1.7)}" ry="${f(baseR * 0.55)}" transform="rotate(${f(rotation * 0.4)} ${cx} ${cy})" fill="none" stroke="${color}" stroke-opacity="0.25" stroke-dasharray="2 4" />`,
+  // Verified — a crisp bright halo just outside the core, stronger per reviewer.
+  if (input.verified) {
+    const reviewers = Math.max(1, input.reviewers ?? 1);
+    const haloR = coreR + 5;
+    layers.push(
+      `<circle cx="${cx}" cy="${cy}" r="${f(haloR)}" fill="none" stroke="${mix(color, WHITE, 0.7)}" stroke-width="${f(Math.min(2, 0.9 + reviewers * 0.35))}" stroke-opacity="${f(Math.min(0.95, 0.55 + reviewers * 0.15))}" />`,
     );
-  } else if (status === 'review') {
-    fillOpacity = 0.4;
-    strokeOpacity = 0.9;
-    showGlow = false;
-    for (let i = 0; i < 3; i++) {
-      const a = rng() * 360 * (Math.PI / 180);
-      const flen = baseR + 3 + rng() * 3;
-      pre.push(
-        `<line x1="${f(cx + baseR * Math.cos(a))}" y1="${f(cy + baseR * Math.sin(a))}" x2="${f(cx + flen * Math.cos(a))}" y2="${f(cy + flen * Math.sin(a))}" stroke="${color}" stroke-opacity="0.5" stroke-width="1"${pulse} />`,
-      );
-    }
-  } else {
-    fillOpacity = 0.85;
-    strokeOpacity = 1;
-    showGlow = true;
   }
 
-  // Provenance — how confidently the lines are drawn.
-  let dash = '';
-  let strokeWidth = 1.8;
-  if (provenance === 'ai-generated') {
-    dash = ' stroke-dasharray="1.4 3"';
-    strokeWidth = 1.1;
-    fillOpacity *= 0.55;
-    // an astronomer's "unconfirmed candidate" ring for an unverified draft
-    pre.push(
-      `<circle cx="${cx}" cy="${cy}" r="${f(baseR + 8)}" fill="none" stroke="${color}" stroke-opacity="0.3" stroke-dasharray="1 4" stroke-width="1" />`,
-    );
-  } else if (provenance === 'ai-assisted') {
-    dash = ' stroke-dasharray="5 3"';
-    strokeWidth = 1.5;
-  }
-
-  parts.push(...pre);
-
-  const glowAttr = showGlow ? ` filter="url(#${uid})"` : '';
-  parts.push(
-    `<g fill="${rgba(color, fillOpacity)}" stroke="${color}" stroke-width="${strokeWidth}" stroke-opacity="${strokeOpacity}"${dash}${glowAttr}>` +
-      coreShape(kind, cx, cy, baseR, rotation) +
+  // The core glyph (kind), a solid filled silhouette.
+  const coreGlow = st.glow ? ` filter="url(#${uid}g)"` : '';
+  layers.push(
+    `<g fill="url(#${uid}c)" fill-opacity="${st.fillOpacity}" stroke="${mix(color, WHITE, 0.55)}" stroke-width="1.3" stroke-linejoin="round"${coreGlow}>` +
+      coreShape(kind, cx, cy, coreR, rotation) +
       `</g>`,
   );
 
-  // The nucleus — the mind itself.
-  parts.push(
-    `<circle cx="${cx}" cy="${cy}" r="${f(Math.max(1.6, baseR * 0.14))}" fill="${mix(color, WHITE, 0.75)}"${showGlow ? ` filter="url(#${uid})"` : ''}${pulse} />`,
+  // Nucleus highlight.
+  layers.push(
+    `<circle cx="${cx}" cy="${cy}" r="${f(Math.max(1.8, coreR * 0.16))}" fill="${mix(color, WHITE, 0.85)}"${pulse} />`,
   );
 
-  // Verified + reviewers — a thin corona, brighter with each practitioner.
-  if (input.verified) {
-    const reviewers = Math.max(1, input.reviewers ?? 1);
-    const op = Math.min(0.85, 0.3 + reviewers * 0.16);
-    parts.push(
-      `<circle cx="${cx}" cy="${cy}" r="${f(baseR + 6)}" fill="none" stroke="${mix(color, WHITE, 0.6)}" stroke-width="0.9" stroke-opacity="${f(op)}" stroke-dasharray="0.2 3.4" stroke-linecap="round"${spin} />`,
-    );
-  }
-
-  // Related minds — diffraction spikes, one ray per linked mind.
-  if (related > 0) {
-    const spikeLen = 4 + related * 1.8;
-    const inner = baseR * 0.9;
-    for (let i = 0; i < related; i++) {
-      const a = ((rotation + (i * 360) / related + rng() * 8) * Math.PI) / 180;
-      parts.push(
-        `<line x1="${f(cx + inner * Math.cos(a))}" y1="${f(cy + inner * Math.sin(a))}" x2="${f(cx + (inner + spikeLen) * Math.cos(a))}" y2="${f(cy + (inner + spikeLen) * Math.sin(a))}" stroke="${color}" stroke-width="0.9" stroke-opacity="0.55" />`,
-      );
-    }
-  }
-
-  // Tags — orbiting moons at fixed, hash-derived angles (hover shows the tag).
-  tags.slice(0, 8).forEach((tag, i) => {
-    const a = ((fnv1a(tag) % 360) * Math.PI) / 180;
-    const orbitR = baseR + 9 + (i % 2) * 6;
-    parts.push(
-      `<circle cx="${f(cx + orbitR * Math.cos(a))}" cy="${f(cy + orbitR * Math.sin(a))}" r="1.6" fill="${mix(color, WHITE, 0.5)}"><title>${esc(tag)}</title></circle>`,
+  // Tags — tiny satellites on a faint outer orbit, interleaved with the nodes.
+  tags.forEach((tag, i) => {
+    const [x, y] = pt(cx, cy, tagR, rotation + 22.5 + (i * 360) / tags.length);
+    layers.push(
+      `<circle cx="${f(x)}" cy="${f(y)}" r="1.3" fill="${mix(color, WHITE, 0.4)}" fill-opacity="0.7"><title>${esc(tag)}</title></circle>`,
     );
   });
 
-  return wrap(parts.join(''), size, animate, input, opts.title);
+  return wrap(defs + layers.join(''), size, animate, input, opts.title);
 }
 
 function wrap(
