@@ -16,6 +16,7 @@ const clientData = sorted.map((s) => ({
   words: s.wordCount,
   read: s.readingTimeMinutes,
   links: s.backlinks.length,
+  skills: s.skillCount,
   updated: s.updated,
 }));
 // Per-SOUL "find similar" lists (ranked slugs), for the Explore similarity picker.
@@ -103,6 +104,16 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
         <option value="">✨ Find similar to…</option>
         {sorted.map((s) => <option value={s.slug}>{s.title}</option>)}
       </select>
+      <button
+        id="skillsonly"
+        type="button"
+        aria-pressed="false"
+        title="Show only SOULs equipped with Agent Skills"
+        class="rounded-md border px-3 py-2 text-sm"
+        style="border-color:var(--border); color:var(--ink-faint)"
+      >
+        Equipped
+      </button>
       <div class="ml-auto flex rounded-md border" style="border-color:var(--border)">
         <button
           id="view-grid"
@@ -169,6 +180,7 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
       const kind = document.getElementById('kind'); // only present with >1 kind
       const diff = document.getElementById('diff');
       const sort = document.getElementById('sort');
+      const skillsOnly = document.getElementById('skillsonly');
       const sim = document.getElementById('sim');
       const simnote = document.getElementById('simnote');
       const simname = document.getElementById('simname');
@@ -179,7 +191,7 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
         return `<a href="${root}/souls/${s.slug}" class="card group flex flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5" style="text-decoration:none">
           <div class="flex items-center justify-between gap-2">
             <span class="inline-flex items-center gap-1.5 text-xs font-medium" style="color:${c}"><span class="inline-block h-2 w-2 rounded-full" style="background:${c}"></span>${s.category}</span>
-            ${s.difficulty ? `<span class="chip capitalize">${s.difficulty}</span>` : ''}
+            <span class="flex items-center gap-1.5">${s.skills ? `<span class="chip" title="Equipped with Agent Skills">${s.skills} skill${s.skills === 1 ? '' : 's'}</span>` : ''}${s.difficulty ? `<span class="chip capitalize">${s.difficulty}</span>` : ''}</span>
           </div>
           <h3 class="text-base font-semibold leading-snug" style="color:var(--ink)">${s.title}</h3>
           ${view === 'grid' ? `<p class="text-sm leading-relaxed" style="color:var(--ink-soft)">${s.summary}</p>` : ''}
@@ -193,6 +205,7 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
           fk = kind ? kind.value : '',
           fd = diff.value,
           fs = sort.value;
+        const fSkills = skillsOnly.getAttribute('aria-pressed') === 'true';
         // Similar mode: base the list on the chosen SOUL's ranked neighbours.
         const simSlug = sim.value;
         const simMode = simSlug && bySlug.has(simSlug);
@@ -203,6 +216,7 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
           if (fc && s.category !== fc) return false;
           if (fk && s.kind !== fk) return false;
           if (fd && s.difficulty !== fd) return false;
+          if (fSkills && !s.skills) return false;
           if (term) {
             const hay = (
               s.title +
@@ -246,6 +260,13 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
         sim.value = '';
         apply();
       });
+      skillsOnly.addEventListener('click', () => {
+        const on = skillsOnly.getAttribute('aria-pressed') === 'true';
+        skillsOnly.setAttribute('aria-pressed', String(!on));
+        skillsOnly.style.color = !on ? 'var(--ink)' : 'var(--ink-faint)';
+        skillsOnly.style.borderColor = !on ? 'var(--accent)' : 'var(--border)';
+        apply();
+      });
       document.getElementById('view-grid').addEventListener('click', () => {
         view = 'grid';
         setView();
@@ -270,6 +291,11 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
       if (params.get('q')) q.value = params.get('q');
       if (params.get('similar') && similarTop[params.get('similar')])
         sim.value = params.get('similar');
+      if (params.get('skills') === '1') {
+        skillsOnly.setAttribute('aria-pressed', 'true');
+        skillsOnly.style.color = 'var(--ink)';
+        skillsOnly.style.borderColor = 'var(--accent)';
+      }
       apply();
     })();
   </script>

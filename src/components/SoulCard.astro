@@ -36,6 +36,13 @@ const badge = verificationBadge(soul);
           </span>
         )
       }
+      {
+        soul.skillCount > 0 && (
+          <span class="chip" title="Equipped with Agent Skills">
+            {soul.skillCount} skill{soul.skillCount === 1 ? '' : 's'}
+          </span>
+        )
+      }
       {soul.difficulty && <span class="chip capitalize">{soul.difficulty}</span>}
     </span>
   </div>
