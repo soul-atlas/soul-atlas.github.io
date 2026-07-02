@@ -60,8 +60,9 @@ gated). `generate.mjs` then:
 | Endpoint | Description |
 | --- | --- |
 | `/api/souls/<slug>.json` | Full record; now includes a `skills` array |
-| `/api/souls/<slug>/skills.json` | Manifest: names, descriptions, paths, files |
+| `/api/souls/<slug>/skills.json` | Manifest: names, descriptions, paths, files, and the `bundle` link |
 | `/api/souls/<slug>/skills/<name>/SKILL.md` | The skill itself (+ its `scripts/`, `references/`) |
+| `/api/souls/<slug>/bundle.zip` | The equipped SOUL as one download: `SOUL.md` + `skills/…` |
 
 ## Using an equipped SOUL
 

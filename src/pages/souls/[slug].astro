@@ -99,10 +99,13 @@ const jsonLd = {
 };
 
 const downloadHref = url(`/api/souls/${slug}.md`);
+const hasSkills = rec.skills.length > 0;
+const bundleHref = url(`/api/souls/${slug}/bundle.zip`);
 const exports = [
   { label: 'Markdown', href: downloadHref },
   { label: 'JSON', href: url(`/api/souls/${slug}.json`) },
   { label: 'YAML', href: url(`/api/souls/${slug}.yaml`) },
+  ...(hasSkills ? [{ label: 'Bundle (.zip)', href: bundleHref }] : []),
 ];
 
 // Citation strings (computed at build time for reproducibility).
@@ -489,21 +492,57 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
           <div class="text-xs font-semibold uppercase tracking-wide" style="color:var(--ink-faint)">
             This SOUL
           </div>
-          <a
-            href={downloadHref}
-            class="btn btn-accent w-full justify-center !py-2 text-sm font-semibold"
-            download={`${slug}.SOUL.md`}
-          >
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path
-                d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"></path>
-            </svg>
-            Download SOUL.md
-          </a>
+          {
+            hasSkills ? (
+              <>
+                <a
+                  href={bundleHref}
+                  class="btn btn-accent w-full justify-center !py-2 text-sm font-semibold"
+                  download={`${slug}.soul-bundle.zip`}
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path
+                      d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Download bundle
+                </a>
+                <div class="text-[11px]" style="color:var(--ink-faint)">
+                  SOUL.md + {rec.computed.skillCount} skill{rec.computed.skillCount === 1 ? '' : 's'}{' '}
+                  (.zip). Or just the{' '}
+                  <a
+                    href={downloadHref}
+                    class="underline"
+                    style="color:var(--ink-soft)"
+                    download={`${slug}.SOUL.md`}
+                  >
+                    SOUL.md
+                  </a>
+                  .
+                </div>
+              </>
+            ) : (
+              <a
+                href={downloadHref}
+                class="btn btn-accent w-full justify-center !py-2 text-sm font-semibold"
+                download={`${slug}.SOUL.md`}
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                </svg>
+                Download SOUL.md
+              </a>
+            )
+          }
           {
             !isFederated && (
               <>
