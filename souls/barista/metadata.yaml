@@ -46,3 +46,7 @@ country_variants: []
 sources:
   - { title: 'The World Atlas of Coffee by James Hoffmann', kind: 'book' }
 status: draft
+skills:
+  - name: espresso-dial-in
+    verified: false
+    note: 'AI-drafted; review the ratio math before relying on it.'

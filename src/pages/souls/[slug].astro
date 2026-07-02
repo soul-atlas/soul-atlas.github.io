@@ -100,12 +100,14 @@ const jsonLd = {
 
 const downloadHref = url(`/api/souls/${slug}.md`);
 const hasSkills = rec.skills.length > 0;
+const bundledCount = rec.skills.filter((k) => !k.referenced).length;
+const hasBundle = bundledCount > 0;
 const bundleHref = url(`/api/souls/${slug}/bundle.zip`);
 const exports = [
   { label: 'Markdown', href: downloadHref },
   { label: 'JSON', href: url(`/api/souls/${slug}.json`) },
   { label: 'YAML', href: url(`/api/souls/${slug}.yaml`) },
-  ...(hasSkills ? [{ label: 'Bundle (.zip)', href: bundleHref }] : []),
+  ...(hasBundle ? [{ label: 'Bundle (.zip)', href: bundleHref }] : []),
 ];
 
 // Citation strings (computed at build time for reproducibility).
@@ -333,7 +335,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
         <!-- Skills: Agent Skills that equip this mind (the SOUL is how it thinks;
              a skill is a procedure it can run). Reuses the agentskills.io spec. -->
         {
-          rec.skills.length > 0 && (
+          hasSkills && (
             <section class="mt-12 border-t pt-8" style="border-color:var(--border)" id="skills">
               <div class="flex items-baseline justify-between gap-3">
                 <h2 class="text-xl font-semibold tracking-tight" style="color:var(--ink)">
@@ -369,45 +371,74 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
                         {skill.name}
                       </h3>
                       <span class="chip">Agent Skill</span>
-                      {!skill.valid && (
+                      {skill.referenced && <span class="chip">referenced</span>}
+                      {!skill.valid ? (
                         <span
                           class="badge badge-unverified"
-                          title="Does not fully match the Agent Skills spec (name must match the folder; description required)"
+                          title="Does not match the Agent Skills spec (name must match the folder; description required)"
                         >
                           <span class="dot" /> invalid
                         </span>
+                      ) : (
+                        !skill.verified && (
+                          <span
+                            class="badge badge-unverified"
+                            title="No human has reviewed this skill yet — read its code before running it"
+                          >
+                            <span class="dot" /> unverified
+                          </span>
+                        )
                       )}
                     </div>
-                    <p class="mt-2 text-sm leading-relaxed" style="color:var(--ink-soft)">
-                      {skill.description}
-                    </p>
-                    <div
-                      class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs"
-                      style="color:var(--ink-faint)"
-                    >
-                      {skill.license && <span>License: {skill.license}</span>}
-                      {skill.files.length > 0 && (
-                        <span>
-                          {skill.files.length} resource{skill.files.length === 1 ? '' : 's'}:{' '}
-                          {skill.files.map((f) => f.path).join(', ')}
+                    {skill.description && (
+                      <p class="mt-2 text-sm leading-relaxed" style="color:var(--ink-soft)">
+                        {skill.description}
+                      </p>
+                    )}
+                    {skill.note && (
+                      <p class="mt-2 text-xs" style="color:var(--ink-faint)">
+                        {skill.note}
+                      </p>
+                    )}
+                    {skill.referenced ? (
+                      <div class="mt-3 text-xs" style="color:var(--ink-faint)">
+                        Referenced skill — maintained at{' '}
+                        <span class="font-mono" style="color:var(--ink-soft)">
+                          {skill.source}
                         </span>
-                      )}
-                    </div>
-                    <div class="mt-3 text-sm">
-                      <a
-                        href={url(`/api/souls/${slug}/skills/${skill.dir}/SKILL.md`)}
-                        class="hover:underline"
-                        style="color:var(--accent)"
-                      >
-                        View SKILL.md →
-                      </a>
-                    </div>
-                    <details class="mt-3">
-                      <summary class="cursor-pointer text-sm" style="color:var(--ink-soft)">
-                        Read the skill
-                      </summary>
-                      <div class="prose mt-3" set:html={skill.bodyHtml} />
-                    </details>
+                        . Not bundled here.
+                      </div>
+                    ) : (
+                      <>
+                        <div
+                          class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs"
+                          style="color:var(--ink-faint)"
+                        >
+                          {skill.license && <span>License: {skill.license}</span>}
+                          {skill.files.length > 0 && (
+                            <span>
+                              {skill.files.length} resource{skill.files.length === 1 ? '' : 's'}:{' '}
+                              {skill.files.map((f) => f.path).join(', ')}
+                            </span>
+                          )}
+                        </div>
+                        <div class="mt-3 text-sm">
+                          <a
+                            href={url(`/api/souls/${slug}/skills/${skill.dir}/SKILL.md`)}
+                            class="hover:underline"
+                            style="color:var(--accent)"
+                          >
+                            View SKILL.md →
+                          </a>
+                        </div>
+                        <details class="mt-3">
+                          <summary class="cursor-pointer text-sm" style="color:var(--ink-soft)">
+                            Read the skill
+                          </summary>
+                          <div class="prose mt-3" set:html={skill.bodyHtml} />
+                        </details>
+                      </>
+                    )}
                   </div>
                 ))}
               </div>
@@ -493,7 +524,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
             This SOUL
           </div>
           {
-            hasSkills ? (
+            hasBundle ? (
               <>
                 <a
                   href={bundleHref}
@@ -512,8 +543,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
                   Download bundle
                 </a>
                 <div class="text-[11px]" style="color:var(--ink-faint)">
-                  SOUL.md + {rec.computed.skillCount} skill{rec.computed.skillCount === 1 ? '' : 's'}{' '}
-                  (.zip). Or just the{' '}
+                  SOUL.md + {bundledCount} skill{bundledCount === 1 ? '' : 's'} (.zip). Or just the{' '}
                   <a
                     href={downloadHref}
                     class="underline"
@@ -537,7 +567,8 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
                     stroke="currentColor"
                     stroke-width="2"
                     stroke-linecap="round"
-                    stroke-linejoin="round"></path>
+                    stroke-linejoin="round"
+                  />
                 </svg>
                 Download SOUL.md
               </a>

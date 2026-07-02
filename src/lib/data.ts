@@ -97,7 +97,8 @@ export interface Citation {
 
 export interface SoulSkill {
   name: string;
-  dir: string;
+  /** Bundled skill's directory name; null for a referenced (external) skill. */
+  dir: string | null;
   description: string;
   license: string | null;
   compatibility: string | null;
@@ -106,6 +107,13 @@ export interface SoulSkill {
   bodyHtml: string;
   bodyMarkdown: string;
   files: { path: string; bytes: number }[];
+  /** True when the skill lives elsewhere (declared via metadata `skills:`). */
+  referenced: boolean;
+  /** Where a referenced skill is maintained; null for bundled skills. */
+  source: string | null;
+  /** Whether a human has reviewed the skill's behaviour. */
+  verified: boolean;
+  note: string | null;
   valid: boolean;
 }
 

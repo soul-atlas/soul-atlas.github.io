@@ -235,6 +235,39 @@
       "type": "string",
       "description": "Editorial maturity of the SOUL.",
       "enum": ["stub", "draft", "review", "stable"]
+    },
+    "skills": {
+      "type": "array",
+      "description": "Agent Skills that equip this SOUL (agentskills.io spec, reused unchanged). An entry without a `source` annotates a skill bundled in ./skills/<name>/; an entry with a `source` references a shared skill maintained elsewhere. Optional and additive.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Agent Skill name. For a bundled skill this must match skills/<name>/.",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 64
+          },
+          "source": {
+            "type": "string",
+            "description": "Where a referenced (non-bundled) skill lives, e.g. 'git+https://github.com/org/skills#web-research' or a registry id. Absent means the skill is bundled in ./skills/.",
+            "minLength": 1
+          },
+          "verified": {
+            "type": "boolean",
+            "description": "Whether a human has reviewed this skill's behaviour, mirroring the SOUL verification ethos.",
+            "default": false
+          },
+          "note": {
+            "type": "string",
+            "description": "Short human note about the skill.",
+            "maxLength": 200
+          }
+        }
+      },
+      "default": []
     }
   }
 }

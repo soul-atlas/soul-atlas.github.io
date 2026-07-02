@@ -316,39 +316,62 @@ for (const s of corpus.souls) {
   // valid Agent Skill), assemble a single downloadable bundle (SOUL.md + the
   // skills, mirroring the source layout), and emit a manifest.
   if (s.skills.length) {
-    const bundleFiles = [{ name: 'SOUL.md', data: fm + bodyMd }];
-    for (const skill of s.skills) {
-      const skillRoot = path.join(s.dir, 'skills', skill.dir);
-      fs.cpSync(skillRoot, path.join(PUBLIC_API_SOULS_DIR, s.slug, 'skills', skill.dir), {
-        recursive: true,
-      });
-      bundleFiles.push({
-        name: `skills/${skill.dir}/SKILL.md`,
-        data: fs.readFileSync(path.join(skillRoot, 'SKILL.md')),
-      });
-      for (const file of skill.files) {
-        bundleFiles.push({
-          name: `skills/${skill.dir}/${file.path}`,
-          data: fs.readFileSync(path.join(skillRoot, file.path)),
-        });
-      }
-    }
+    const bundled = s.skills.filter((k) => !k.referenced);
     ensureDir(path.join(PUBLIC_API_SOULS_DIR, s.slug));
-    fs.writeFileSync(path.join(PUBLIC_API_SOULS_DIR, s.slug, 'bundle.zip'), zipStore(bundleFiles));
+    // Only bundled skills have bytes on disk, so only they enter the bundle and
+    // get their files copied. Referenced skills are recorded as pointers.
+    let bundle = null;
+    if (bundled.length) {
+      const bundleFiles = [{ name: 'SOUL.md', data: fm + bodyMd }];
+      for (const skill of bundled) {
+        const skillRoot = path.join(s.dir, 'skills', skill.dir);
+        fs.cpSync(skillRoot, path.join(PUBLIC_API_SOULS_DIR, s.slug, 'skills', skill.dir), {
+          recursive: true,
+        });
+        bundleFiles.push({
+          name: `skills/${skill.dir}/SKILL.md`,
+          data: fs.readFileSync(path.join(skillRoot, 'SKILL.md')),
+        });
+        for (const file of skill.files) {
+          bundleFiles.push({
+            name: `skills/${skill.dir}/${file.path}`,
+            data: fs.readFileSync(path.join(skillRoot, file.path)),
+          });
+        }
+      }
+      fs.writeFileSync(
+        path.join(PUBLIC_API_SOULS_DIR, s.slug, 'bundle.zip'),
+        zipStore(bundleFiles),
+      );
+      bundle = `/api/souls/${s.slug}/bundle.zip`;
+    }
     writeJSON(path.join(PUBLIC_API_SOULS_DIR, s.slug, 'skills.json'), {
       soul: s.slug,
       count: s.skills.length,
-      bundle: `/api/souls/${s.slug}/bundle.zip`,
-      skills: s.skills.map((k) => ({
-        name: k.name,
-        description: k.description,
-        license: k.license,
-        compatibility: k.compatibility,
-        path: `/api/souls/${s.slug}/skills/${k.dir}/`,
-        skillMd: `/api/souls/${s.slug}/skills/${k.dir}/SKILL.md`,
-        files: k.files.map((f) => f.path),
-        valid: k.valid,
-      })),
+      bundledCount: bundled.length,
+      bundle,
+      skills: s.skills.map((k) =>
+        k.referenced
+          ? {
+              name: k.name,
+              referenced: true,
+              source: k.source,
+              verified: k.verified,
+              valid: k.valid,
+            }
+          : {
+              name: k.name,
+              referenced: false,
+              description: k.description,
+              license: k.license,
+              compatibility: k.compatibility,
+              verified: k.verified,
+              path: `/api/souls/${s.slug}/skills/${k.dir}/`,
+              skillMd: `/api/souls/${s.slug}/skills/${k.dir}/SKILL.md`,
+              files: k.files.map((f) => f.path),
+              valid: k.valid,
+            },
+      ),
     });
   }
 }
