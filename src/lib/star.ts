@@ -22,7 +22,9 @@
 //
 // This is pure and framework-free: it returns an SVG string and touches no DOM,
 // so it renders identically at build time in Astro, in the API, or in a test.
-import { categoryColor } from './data';
+// It imports only the corpus-free colour palette, so it is also safe to bundle
+// into client-side scripts (e.g. the Explore filter).
+import { categoryColor } from './colors';
 
 export interface SigilInput {
   title: string;
@@ -42,6 +44,60 @@ export interface SigilOptions {
   size?: number; // rendered px (viewBox is a fixed 100x100)
   animate?: boolean; // add classes the stylesheet animates (pulse / spin)
   title?: string; // <title> for accessibility; defaults to "<name> sigil"
+}
+
+// One place that turns a corpus summary or a (possibly serialised) record into a
+// SigilInput, so every surface — cards, hero, compare, the SVG endpoint — builds
+// the emblem from exactly the same fields.
+type SummaryLike = {
+  title: string;
+  category: string;
+  kind?: string | null;
+  difficulty?: string | null;
+  status?: string | null;
+  provenance?: string | null;
+  tags?: string[];
+  related?: unknown[];
+  reviewers?: unknown[];
+  verified?: boolean;
+  wordCount?: number;
+};
+
+export function sigilInputFromSummary(s: SummaryLike): SigilInput {
+  return {
+    title: s.title,
+    category: s.category,
+    kind: s.kind ?? 'occupation',
+    difficulty: s.difficulty ?? null,
+    status: s.status ?? null,
+    provenance: s.provenance ?? null,
+    tags: s.tags ?? [],
+    related: (s.related ?? []).length,
+    reviewers: (s.reviewers ?? []).length,
+    verified: s.verified ?? false,
+    wordCount: s.wordCount,
+  };
+}
+
+export function sigilInputFromRecord(rec: {
+  title: string;
+  metadata: any;
+  computed?: { verified?: boolean; wordCount?: number };
+}): SigilInput {
+  const m = rec.metadata ?? {};
+  return {
+    title: rec.title,
+    category: m.category,
+    kind: m.kind ?? 'occupation',
+    difficulty: m.difficulty ?? null,
+    status: m.status ?? null,
+    provenance: m.provenance ?? null,
+    tags: m.tags ?? [],
+    related: (m.related ?? []).length,
+    reviewers: (m.reviewers ?? []).length,
+    verified: rec.computed?.verified ?? false,
+    wordCount: rec.computed?.wordCount,
+  };
 }
 
 const DIFFICULTY_RADIUS: Record<string, number> = {
@@ -81,6 +137,77 @@ function mix(hex: string, target: [number, number, number], t: number): string {
 function rgba(hex: string, alpha: number): string {
   const [r, g, b] = hexToRgb(hex);
   return `rgba(${r},${g},${b},${alpha})`;
+}
+
+// --- identity layer ----------------------------------------------------------
+// The mapping above is the *semantic* layer: it turns metadata into the most
+// salient channels (hue, silhouette, size…). But a cohort that shares
+// category + kind + difficulty collapses to a near-identical emblem. So we add
+// an *identity* layer that routes the title hash into channels the semantic
+// layer does not use — tone (saturation + lightness; hue, i.e. the category, is
+// deliberately preserved) and a small inner core motif. Still deterministic.
+
+function hexToHsl(hex: string): [number, number, number] {
+  const [r, g, b] = hexToRgb(hex).map((v) => v / 255);
+  const max = Math.max(r, g, b);
+  const min = Math.min(r, g, b);
+  const l = (max + min) / 2;
+  const d = max - min;
+  let h = 0;
+  let s = 0;
+  if (d !== 0) {
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    if (max === r) h = ((g - b) / d) % 6;
+    else if (max === g) h = (b - r) / d + 2;
+    else h = (r - g) / d + 4;
+    h *= 60;
+    if (h < 0) h += 360;
+  }
+  return [h, s, l];
+}
+
+function hslToHex(h: number, s: number, l: number): string {
+  h = ((h % 360) + 360) % 360;
+  s = Math.min(1, Math.max(0, s));
+  l = Math.min(1, Math.max(0, l));
+  const c = (1 - Math.abs(2 * l - 1)) * s;
+  const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
+  const m = l - c / 2;
+  let r = 0;
+  let g = 0;
+  let b = 0;
+  if (h < 60) [r, g, b] = [c, x, 0];
+  else if (h < 120) [r, g, b] = [x, c, 0];
+  else if (h < 180) [r, g, b] = [0, c, x];
+  else if (h < 240) [r, g, b] = [0, x, c];
+  else if (h < 300) [r, g, b] = [x, 0, c];
+  else [r, g, b] = [c, 0, x];
+  const to = (v: number) =>
+    Math.round((v + m) * 255)
+      .toString(16)
+      .padStart(2, '0');
+  return `#${to(r)}${to(g)}${to(b)}`;
+}
+
+// Nudge hue slightly (staying inside the category's colour family) along with
+// saturation + lightness, so every SOUL gets its own shade while the category
+// stays recognisable. Lightness is clamped to a legible band on the dark panel.
+function tonalShift(hex: string, dH: number, dS: number, dL: number): string {
+  const [h, s, l] = hexToHsl(hex);
+  return hslToHex(h + dH, s + dS, Math.min(0.62, Math.max(0.3, l + dL)));
+}
+
+// A small deterministic value stream from the 32-bit seed (xorshift32).
+function seedStream(seed: number): () => number {
+  let s = seed >>> 0 || 0x9e3779b9;
+  return () => {
+    s ^= s << 13;
+    s >>>= 0;
+    s ^= s >> 17;
+    s ^= s << 5;
+    s >>>= 0;
+    return s / 4294967296;
+  };
 }
 
 const WHITE: [number, number, number] = [255, 255, 255];
@@ -167,6 +294,50 @@ function coreShape(kind: string, cx: number, cy: number, r: number, rot: number)
   }
 }
 
+// A light figure set into the core. Same silhouette (kind) + different motif =
+// two SOULs that still read as their own; it also makes the core rotation
+// legible on otherwise symmetric shapes. Kept simple so it survives at ~32px.
+const CORE_MOTIFS = 6;
+function coreMotif(
+  motif: number,
+  cx: number,
+  cy: number,
+  r: number,
+  rot: number,
+  tone: string,
+): string {
+  const sw = f(Math.max(0.7, r * 0.06));
+  switch (motif) {
+    case 1: // inner counter-triangle
+      return `<polygon points="${polygon(cx, cy, r * 0.52, 3, rot)}" fill="none" stroke="${tone}" stroke-width="${sw}" stroke-linejoin="round" />`;
+    case 2: {
+      // radial spokes
+      let s = '';
+      const n = 4;
+      for (let i = 0; i < n; i++) {
+        const [x, y] = pt(cx, cy, r * 0.66, rot + (i * 360) / n);
+        s += `<line x1="${cx}" y1="${cy}" x2="${f(x)}" y2="${f(y)}" stroke="${tone}" stroke-width="${sw}" stroke-linecap="round" />`;
+      }
+      return s;
+    }
+    case 3: // inner ring
+      return `<circle cx="${cx}" cy="${cy}" r="${f(r * 0.5)}" fill="none" stroke="${tone}" stroke-width="${sw}" />`;
+    case 4: {
+      // triad of pips
+      let s = '';
+      for (let i = 0; i < 3; i++) {
+        const [x, y] = pt(cx, cy, r * 0.48, rot + i * 120);
+        s += `<circle cx="${f(x)}" cy="${f(y)}" r="${f(Math.max(1, r * 0.11))}" fill="${tone}" />`;
+      }
+      return s;
+    }
+    case 5: // inner star outline
+      return `<polygon points="${starPolygon(cx, cy, r * 0.55, r * 0.24, 5, rot)}" fill="none" stroke="${tone}" stroke-width="${sw}" stroke-linejoin="round" />`;
+    default: // 0 — clean, nucleus only
+      return '';
+  }
+}
+
 interface StatusStyle {
   fillOpacity: number; // core fill strength
   orbitOpacity: number; // main orbit ring strength
@@ -204,7 +375,17 @@ export function soulSigilSvg(input: SigilInput, opts: SigilOptions = {}): string
 
   const seed = fnv1a(`${input.title}|${input.category}|${kind}`);
   const rotation = seed % 360; // a stable orientation so the family isn't uniform
-  const color = categoryColor(input.category);
+  // Identity layer: hue (category) is preserved; tone + inner motif carry the
+  // per-SOUL individuality so a same-category/kind/difficulty cohort isn't uniform.
+  const rnd = seedStream(seed);
+  const color = tonalShift(
+    categoryColor(input.category),
+    (rnd() - 0.5) * 16, // ±8° hue — a distinct shade, still in the category family
+    (rnd() - 0.5) * 0.26,
+    (rnd() - 0.5) * 0.16,
+  );
+  const motif = Math.floor(rnd() * CORE_MOTIFS);
+  const motifRot = Math.floor(rnd() * 360);
   const coreR = DIFFICULTY_RADIUS[input.difficulty || ''] ?? 15;
   const orbitR = coreR + 13;
   const tagR = orbitR + 7;
@@ -274,6 +455,10 @@ export function soulSigilSvg(input: SigilInput, opts: SigilOptions = {}): string
       `</g>`,
   );
 
+  // Identity motif — a light figure set into the core (see coreMotif).
+  const motifSvg = coreMotif(motif, cx, cy, coreR, motifRot, mix(color, WHITE, 0.72));
+  if (motifSvg) layers.push(motifSvg);
+
   // Nucleus highlight.
   layers.push(
     `<circle cx="${cx}" cy="${cy}" r="${f(Math.max(1.8, coreR * 0.16))}" fill="${mix(color, WHITE, 0.85)}"${pulse} />`,
@@ -299,8 +484,11 @@ function wrap(
 ): string {
   const label = esc(titleText ?? `${input.title} sigil`);
   const cls = animate ? 'soul-sigil soul-sigil--animate' : 'soul-sigil';
+  // The xmlns is required for the emblem to render as a standalone file (e.g.
+  // the /sigils/<slug>.svg used as the search-result thumbnail); it is harmless
+  // when the same markup is inlined into a page.
   return (
-    `<svg class="${cls}" width="${size}" height="${size}" viewBox="0 0 100 100" ` +
+    `<svg xmlns="http://www.w3.org/2000/svg" class="${cls}" width="${size}" height="${size}" viewBox="0 0 100 100" ` +
     `role="img" aria-label="${label}" style="overflow:visible;display:block">` +
     `<title>${label}</title>${inner}</svg>`
   );

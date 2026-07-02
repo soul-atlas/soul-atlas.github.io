@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import GraphView from '../../components/GraphView.astro';
 import SoulSigil from '../../components/SoulSigil.astro';
+import { sigilInputFromRecord } from '../../lib/star';
 import SuggestEdit from '../../components/SuggestEdit.astro';
 import SpecializationTree from '../../components/SpecializationTree.astro';
 import ChatPanel from '../../components/ChatPanel.astro';
@@ -56,7 +57,7 @@ const source = m.source || null;
 // Resolve typed relationships (only those that exist), grouped by type.
 const relations = (m.related || [])
   .filter((r: any) => getSummary(r.slug))
-  .map((r: any) => ({ ...r, title: titleOf(r.slug) }));
+  .map((r: any) => ({ ...r, title: titleOf(r.slug), soul: getSummary(r.slug) }));
 const relationsByType = relations.reduce((acc: Record<string, any[]>, r: any) => {
   (acc[r.type] ??= []).push(r);
   return acc;
@@ -127,7 +128,7 @@ const specializations = (m.specializations || [])
 const specTree = getSpecializationTree(slug);
 
 // Content-similar SOULs beyond the explicit graph edges (TF-IDF cosine).
-const similar = getSimilar(slug, 6);
+const similar = getSimilar(slug, 6).map((s) => ({ ...s, soul: getSummary(s.slug) }));
 
 // High-stakes domains get a stronger chat disclaimer + refusal posture.
 const SENSITIVE_CATEGORIES = new Set(['Healthcare', 'Law', 'Finance']);
@@ -183,6 +184,12 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
     <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px]">
       <!-- Main column -->
       <article data-pagefind-body data-pagefind-meta={`category:${m.category}`}>
+        {
+          /* The SOUL's sigil, exposed as the Pagefind result thumbnail. One meta
+            per element — Pagefind does not split a comma-separated attribute. */
+        }
+        <span data-pagefind-meta={`image:${url(`/sigils/${slug}.svg`)}`}></span>
+        <span data-pagefind-meta={`image_alt:${rec.title.replace(/[,:]/g, '')} sigil`}></span>
         <header class="mb-8">
           <div class="mb-3 flex flex-wrap items-center gap-2">
             <span
@@ -214,24 +221,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
             }
           </div>
           <div class="flex items-center gap-4">
-            <SoulSigil
-              size={72}
-              animate
-              class="shrink-0"
-              input={{
-                title: rec.title,
-                category: m.category,
-                kind,
-                difficulty: m.difficulty,
-                status: m.status,
-                provenance: m.provenance,
-                tags: m.tags,
-                related: (m.related || []).length,
-                wordCount: rec.computed.wordCount,
-                verified: rec.computed.verified,
-                reviewers: (m.reviewers || []).length,
-              }}
-            />
+            <SoulSigil size={72} animate class="shrink-0" input={sigilInputFromRecord(rec)} />
             <h1 class="text-4xl font-bold tracking-tight" style="color:var(--ink)">{rec.title}</h1>
           </div>
           <p class="mt-3 max-w-2xl text-lg leading-relaxed" style="color:var(--ink-soft)">
@@ -723,11 +713,9 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
               <ul class="space-y-2 text-sm">
                 {similar.map((s) => (
                   <li class="flex items-center gap-2">
-                    <span
-                      class="inline-block h-2 w-2 shrink-0 rounded-full"
-                      style={`background:${categoryColor(s.category)}`}
-                      aria-hidden="true"
-                    />
+                    <span class="grid h-6 w-6 shrink-0 place-items-center">
+                      <SoulSigil soul={s.soul} size={22} />
+                    </span>
                     <a
                       href={url(`/souls/${s.slug}`)}
                       class="hover:underline"
@@ -796,7 +784,12 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
                           href={soulUrl(r.slug)}
                           class="card flex items-center justify-between gap-3 p-3 text-sm hover:-translate-y-0.5"
                         >
-                          <span style="color:var(--ink)">{r.title}</span>
+                          <span class="flex items-center gap-2.5">
+                            <span class="grid h-7 w-7 shrink-0 place-items-center">
+                              <SoulSigil soul={r.soul} size={26} />
+                            </span>
+                            <span style="color:var(--ink)">{r.title}</span>
+                          </span>
                           {r.note && (
                             <span class="text-xs" style="color:var(--ink-faint)">
                               {r.note}

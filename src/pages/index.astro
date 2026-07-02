@@ -2,6 +2,7 @@
 import CodeTabs from '../components/CodeTabs.astro';
 import Layout from '../layouts/Layout.astro';
 import SoulCard from '../components/SoulCard.astro';
+import SoulSigil from '../components/SoulSigil.astro';
 import Constellation from '../components/Constellation.astro';
 import { souls, stats, categories } from '../lib/data';
 import { url, GITHUB_URL, SITE } from '../lib/site';
@@ -228,13 +229,20 @@ const jsonLd = {
             class="card mt-4 block p-6 transition-transform hover:-translate-y-0.5"
             style="text-decoration:none"
           >
-            <div class="text-sm" style="color:var(--ink-faint)">
-              {ofTheDay.category}
+            <div class="flex items-center gap-4">
+              <span class="grid h-14 w-14 shrink-0 place-items-center">
+                <SoulSigil soul={ofTheDay} size={52} />
+              </span>
+              <div>
+                <div class="text-sm" style="color:var(--ink-faint)">
+                  {ofTheDay.category}
+                </div>
+                <div class="mt-0.5 text-2xl font-semibold" style="color:var(--ink)">
+                  {ofTheDay.title}
+                </div>
+              </div>
             </div>
-            <div class="mt-1 text-2xl font-semibold" style="color:var(--ink)">
-              {ofTheDay.title}
-            </div>
-            <p class="mt-2 max-w-3xl leading-relaxed" style="color:var(--ink-soft)">
+            <p class="mt-3 max-w-3xl leading-relaxed" style="color:var(--ink-soft)">
               {ofTheDay.summary}
             </p>
           </a>

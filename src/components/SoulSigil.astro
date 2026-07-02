@@ -2,7 +2,7 @@
 // Renders a SOUL's generative "star" — a deterministic SVG derived purely from
 // its metadata (see src/lib/star.ts). Accepts either a SoulSummary or the loose
 // fields, so it works from a card, the detail hero, or anywhere else.
-import { soulSigilSvg, type SigilInput } from '../lib/star';
+import { soulSigilSvg, sigilInputFromSummary, type SigilInput } from '../lib/star';
 import type { SoulSummary } from '../lib/data';
 
 interface Props {
@@ -16,22 +16,7 @@ interface Props {
 const { soul, input, size = 48, animate = false, class: className = '' } = Astro.props;
 
 const data: SigilInput =
-  input ??
-  (soul
-    ? {
-        title: soul.title,
-        category: soul.category,
-        kind: soul.kind,
-        difficulty: soul.difficulty,
-        status: soul.status,
-        provenance: soul.provenance,
-        tags: soul.tags,
-        related: soul.related?.length ?? 0,
-        wordCount: soul.wordCount,
-        verified: soul.verified,
-        reviewers: soul.reviewers?.length ?? 0,
-      }
-    : { title: 'Unknown', category: '' });
+  input ?? (soul ? sigilInputFromSummary(soul) : { title: 'Unknown', category: '' });
 
 const svg = soulSigilSvg(data, { size, animate });
 ---
