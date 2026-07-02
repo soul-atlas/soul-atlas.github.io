@@ -327,6 +327,95 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
           {rec.sections.map((sec) => <Fragment set:html={sec.html} />)}
         </div>
 
+        <!-- Skills: Agent Skills that equip this mind (the SOUL is how it thinks;
+             a skill is a procedure it can run). Reuses the agentskills.io spec. -->
+        {
+          rec.skills.length > 0 && (
+            <section class="mt-12 border-t pt-8" style="border-color:var(--border)" id="skills">
+              <div class="flex items-baseline justify-between gap-3">
+                <h2 class="text-xl font-semibold tracking-tight" style="color:var(--ink)">
+                  Skills
+                </h2>
+                <a
+                  href={url(`/api/souls/${slug}/skills.json`)}
+                  class="text-sm hover:underline"
+                  style="color:var(--accent)"
+                >
+                  skills.json →
+                </a>
+              </div>
+              <p class="mt-2 max-w-2xl text-sm" style="color:var(--ink-soft)">
+                Executable{' '}
+                <a
+                  href="https://agentskills.io/specification"
+                  class="underline"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  Agent Skills
+                </a>{' '}
+                that equip this mind — the SOUL is <em>how it thinks</em>; a skill is a procedure it
+                can <em>run</em>. Mount them into any Agent-Skills-compatible runtime, or read them
+                here.
+              </p>
+              <div class="mt-5 grid gap-4">
+                {rec.skills.map((skill) => (
+                  <div class="card p-5">
+                    <div class="flex flex-wrap items-center gap-2">
+                      <h3 class="text-base font-semibold" style="color:var(--ink)">
+                        {skill.name}
+                      </h3>
+                      <span class="chip">Agent Skill</span>
+                      {!skill.valid && (
+                        <span
+                          class="badge badge-unverified"
+                          title="Does not fully match the Agent Skills spec (name must match the folder; description required)"
+                        >
+                          <span class="dot" /> invalid
+                        </span>
+                      )}
+                    </div>
+                    <p class="mt-2 text-sm leading-relaxed" style="color:var(--ink-soft)">
+                      {skill.description}
+                    </p>
+                    <div
+                      class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs"
+                      style="color:var(--ink-faint)"
+                    >
+                      {skill.license && <span>License: {skill.license}</span>}
+                      {skill.files.length > 0 && (
+                        <span>
+                          {skill.files.length} resource{skill.files.length === 1 ? '' : 's'}:{' '}
+                          {skill.files.map((f) => f.path).join(', ')}
+                        </span>
+                      )}
+                    </div>
+                    <div class="mt-3 text-sm">
+                      <a
+                        href={url(`/api/souls/${slug}/skills/${skill.dir}/SKILL.md`)}
+                        class="hover:underline"
+                        style="color:var(--accent)"
+                      >
+                        View SKILL.md →
+                      </a>
+                    </div>
+                    <details class="mt-3">
+                      <summary class="cursor-pointer text-sm" style="color:var(--ink-soft)">
+                        Read the skill
+                      </summary>
+                      <div class="prose mt-3" set:html={skill.bodyHtml} />
+                    </details>
+                  </div>
+                ))}
+              </div>
+              <p class="mt-4 text-xs" style="color:var(--ink-faint)">
+                Skills can include runnable scripts. Treat an unverified skill as a starting point
+                and review its code before running it.
+              </p>
+            </section>
+          )
+        }
+
         <!-- Prev / Next -->
         <nav
           class="mt-12 grid gap-3 border-t pt-6 sm:grid-cols-2"

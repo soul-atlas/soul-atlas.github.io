@@ -68,6 +68,7 @@ export interface SoulSummary {
   completeness: number;
   backlinks: string[];
   related: Related[];
+  skillCount: number;
   created: string | null;
   updated: string | null;
 }
@@ -94,11 +95,26 @@ export interface Citation {
   text: string;
 }
 
+export interface SoulSkill {
+  name: string;
+  dir: string;
+  description: string;
+  license: string | null;
+  compatibility: string | null;
+  allowedTools: string | null;
+  metadata: Record<string, string> | null;
+  bodyHtml: string;
+  bodyMarkdown: string;
+  files: { path: string; bytes: number }[];
+  valid: boolean;
+}
+
 export interface SoulRecord {
   slug: string;
   title: string;
   metadata: Record<string, any>;
   sections: Section[];
+  skills: SoulSkill[];
   computed: {
     wordCount: number;
     readingTimeMinutes: number;
@@ -108,6 +124,7 @@ export interface SoulRecord {
     aiDrafted: boolean;
     unverifiedAiDraft: boolean;
     federated: boolean;
+    skillCount: number;
   };
   git: GitHistory;
   citation: Citation;

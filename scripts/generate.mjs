@@ -202,6 +202,7 @@ const lightList = corpus.souls.map((s) => ({
   completeness: s.computed.completeness,
   backlinks: s.computed.backlinks,
   related: s.metadata.related,
+  skillCount: s.computed.skillCount,
   created: gitBySlug[s.slug]?.created || s.metadata.created,
   updated: gitBySlug[s.slug]?.updated || s.metadata.updated,
 }));
@@ -209,7 +210,10 @@ const lightList = corpus.souls.map((s) => ({
 // ---- Full records (with rendered HTML + git history + citation) ----
 function fullRecord(s) {
   const git = gitBySlug[s.slug];
-  return { ...s, git, citation: buildCitation(s, git) };
+  // `dir` is an absolute filesystem path used only during generation — never
+  // leak it into the public record.
+  const { dir: _dir, ...rest } = s;
+  return { ...rest, git, citation: buildCitation(s, git) };
 }
 
 // ---- Search documents (headings + summary; body indexed by Pagefind) ----
@@ -307,6 +311,31 @@ for (const s of corpus.souls) {
       sections: s.sections.map((x) => ({ heading: x.heading, markdown: x.markdown })),
     }),
   );
+  // Bundled Agent Skills: copy each skill directory verbatim (it is already a
+  // valid Agent Skill) and emit a manifest, so an agent can fetch and mount them.
+  if (s.skills.length) {
+    for (const skill of s.skills) {
+      fs.cpSync(
+        path.join(s.dir, 'skills', skill.dir),
+        path.join(PUBLIC_API_SOULS_DIR, s.slug, 'skills', skill.dir),
+        { recursive: true },
+      );
+    }
+    writeJSON(path.join(PUBLIC_API_SOULS_DIR, s.slug, 'skills.json'), {
+      soul: s.slug,
+      count: s.skills.length,
+      skills: s.skills.map((k) => ({
+        name: k.name,
+        description: k.description,
+        license: k.license,
+        compatibility: k.compatibility,
+        path: `/api/souls/${s.slug}/skills/${k.dir}/`,
+        skillMd: `/api/souls/${s.slug}/skills/${k.dir}/SKILL.md`,
+        files: k.files.map((f) => f.path),
+        valid: k.valid,
+      })),
+    });
+  }
 }
 
 console.log(`✓ Generated ${corpus.souls.length} SOULs in ${Date.now() - t0}ms`);
