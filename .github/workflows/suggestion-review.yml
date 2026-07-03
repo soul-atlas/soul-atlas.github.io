@@ -51,7 +51,7 @@ jobs:
           node scripts/review-suggestion.mjs ${{ steps.changed.outputs.files }}
 
       - name: Comment and label
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         env:
           PASS: ${{ steps.review.outputs.pass }}
           COMMENT_FILE: ${{ runner.temp }}/review.md
