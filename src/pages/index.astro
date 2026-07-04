@@ -67,6 +67,38 @@ const res = await ai.models.generateContent({
   },
 ];
 
+// An equipped SOUL carries Agent Skills, so it downloads as a bundle
+// (SOUL.md + skills/) instead of one file. Feature one — with a per-runtime
+// "how to equip" snippet — when the corpus has any.
+const equipped = souls.find((s) => s.skillCount > 0) || null;
+const equippedTabs = equipped
+  ? [
+      {
+        label: 'Claude Code',
+        code: `# ${equipped.title} carries skills, so it ships as a bundle:
+# SOUL.md (the mindset) + skills/ (runnable Agent Skills).
+curl -L https://soul-atlas.github.io/api/souls/${equipped.slug}/bundle.zip -o soul.zip
+unzip -o soul.zip -d ${equipped.slug}
+
+# Claude Code auto-discovers skills — each loaded only when relevant
+mkdir -p .claude/skills && cp -r ${equipped.slug}/skills/* .claude/skills/
+cat ${equipped.slug}/SOUL.md >> CLAUDE.md`,
+      },
+      {
+        label: 'Any model',
+        code: `// No native skills (OpenAI, Gemini, …)? Ground the model in the SOUL and
+// offer the skills as a capability menu you run on request.
+const base = "https://soul-atlas.github.io/api/souls/${equipped.slug}";
+const soul = await fetch(base + ".md").then((r) => r.text());
+const { skills } = await fetch(base + "/skills.json").then((r) => r.json());
+
+const menu = skills.map((s) => \`- \${s.name}: \${s.description}\`).join("\\n");
+const system = "Reason with the mindset below.\\n\\n" + soul +
+  "\\n\\nSkills you can run:\\n" + menu;`,
+      },
+    ]
+  : [];
+
 // Prefer practitioner-verified SOULs; fall back to the most complete drafts so
 // the homepage always has something to feature while the corpus is being reviewed.
 const verifiedFeatured = souls.filter((s) => s.verified);
@@ -206,6 +238,47 @@ const jsonLd = {
             . Swap the slug for any of the {souls.length.toLocaleString('en-US')} minds in the
             Atlas.
           </p>
+        )
+      }
+      {
+        equipped && (
+          <div class="mt-5 border-t pt-4" style="border-color:var(--border)">
+            <div class="text-sm font-semibold" style="color:var(--ink)">
+              Equip it with skills
+            </div>
+            <p class="mt-2 max-w-3xl text-sm leading-relaxed" style="color:var(--ink-soft)">
+              Some SOULs carry{' '}
+              <a
+                href="https://agentskills.io/specification"
+                class="underline"
+                rel="noopener"
+                target="_blank"
+              >
+                Agent Skills
+              </a>{' '}
+              — runnable capabilities. Those download as a <strong>bundle</strong> (
+              <code class="code-inline">SOUL.md</code> + <code class="code-inline">skills/</code>),
+              not a single file: mount it into a skill-aware runtime, or expose the skills to any
+              model.
+            </p>
+            <CodeTabs tabs={equippedTabs} />
+            <p class="mt-3 text-xs" style="color:var(--ink-faint)">
+              Example —{' '}
+              <a
+                href={url(`/souls/${equipped.slug}`)}
+                class="underline"
+                style="color:var(--accent)"
+              >
+                {equipped.title}
+              </a>{' '}
+              ({equipped.skillCount} skill{equipped.skillCount === 1 ? '' : 's'}). The Claude API
+              path is in{' '}
+              <a href={url('/about')} class="underline" style="color:var(--accent)">
+                using a SOUL in your code
+              </a>
+              .
+            </p>
+          </div>
         )
       }
     </div>

@@ -226,6 +226,23 @@ const response = await client.messages.create({
 });
 ```
 
+**Equip an agent with its skills** — some SOULs carry
+[Agent Skills](https://agentskills.io/specification): runnable, progressively-disclosed
+capabilities. An equipped SOUL downloads as a *bundle* (`SOUL.md` + `skills/`) from
+`/api/souls/<slug>/bundle.zip`. Mount it into a skill-aware runtime like Claude Code,
+which loads each skill only when it's relevant:
+
+```bash
+# Barista carries a skill, so it ships as a bundle (SOUL.md + skills/)
+curl -L https://soul-atlas.github.io/api/souls/barista/bundle.zip -o soul.zip
+unzip -o soul.zip -d barista
+mkdir -p .claude/skills && cp -r barista/skills/* .claude/skills/
+cat barista/SOUL.md >> CLAUDE.md
+```
+
+Models without native skills can use them too: inline each skill's name and description
+as a capability menu, and expose its `scripts/` as callable tools.
+
 It's all MIT-licensed, and using SOULs to ground or train AI is explicitly welcome.
 
 ## Honest about provenance

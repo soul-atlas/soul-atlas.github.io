@@ -85,6 +85,74 @@ const res = await ai.models.generateContent({
 console.log(res.text);`,
   },
 ];
+
+// A SOUL that carries Agent Skills downloads as a bundle (SOUL.md + skills/),
+// so "use" grows past a single system-prompt string. The SOUL stays the mindset;
+// each skill is a capability the runtime loads only when it's relevant.
+const equippedTabs = [
+  {
+    label: 'Claude Code',
+    code: `# Barista carries a skill, so it ships as a bundle:
+# SOUL.md (the mindset) + skills/ (runnable Agent Skills).
+curl -L https://soul-atlas.github.io/api/souls/barista/bundle.zip -o soul.zip
+unzip -o soul.zip -d barista
+
+# Claude Code auto-discovers skills from .claude/skills, loading each one's
+# SKILL.md only when it's relevant (progressive disclosure).
+mkdir -p .claude/skills && cp -r barista/skills/* .claude/skills/
+
+# Ground the agent in the mindset — append SOUL.md to your project's CLAUDE.md
+cat barista/SOUL.md >> CLAUDE.md`,
+  },
+  {
+    label: 'Claude API',
+    code: `import Anthropic from "@anthropic-ai/sdk";
+import fs from "node:fs";
+const client = new Anthropic();
+
+// Upload the skill once — zip skills/espresso-dial-in/ from the bundle.
+// The API returns a skill_id you reuse across requests.
+const skill = await client.beta.skills.create(
+  {
+    display_title: "espresso-dial-in",
+    files: [await Anthropic.toFile(fs.createReadStream("espresso-dial-in.zip"))],
+  },
+  { betas: ["skills-2025-10-02"] },
+);
+
+const soul = await fetch(
+  "https://soul-atlas.github.io/api/souls/barista.md",
+).then((r) => r.text());
+
+// SOUL = mindset (system prompt); the skill runs in the code-execution sandbox,
+// loaded only when the model judges it relevant.
+const res = await client.beta.messages.create(
+  {
+    model: "claude-opus-4-8",
+    max_tokens: 1024,
+    system: "Reason with the mindset below.\\n\\n" + soul,
+    container: { skills: [{ type: "custom", skill_id: skill.id, version: "latest" }] },
+    tools: [{ type: "code_execution_20250825", name: "code_execution" }],
+    messages: [{ role: "user", content: "${Q}" }],
+  },
+  { betas: ["code-execution-2025-08-25", "skills-2025-10-02"] },
+);`,
+  },
+  {
+    label: 'Any model',
+    code: `// OpenAI, Gemini, and others have no native skills — so ground them in the
+// SOUL (mindset) and offer the skills as a capability menu you execute.
+const base = "https://soul-atlas.github.io/api/souls/barista";
+const soul = await fetch(base + ".md").then((r) => r.text());
+const { skills } = await fetch(base + "/skills.json").then((r) => r.json());
+
+const menu = skills.map((s) => \`- \${s.name}: \${s.description}\`).join("\\n");
+const system =
+  "Reason with the mindset below.\\n\\n" + soul +
+  "\\n\\nSkills you can run (fetch its SKILL.md, then its scripts):\\n" + menu;
+// Expose each skill's scripts/ as function tools your runner executes.`,
+  },
+];
 ---
 
 <Layout title="About" description="What a SOUL is, why this project exists, and how to use it.">
@@ -190,6 +258,25 @@ console.log(res.text);`,
         OpenAI, or Gemini:
       </p>
       <CodeTabs tabs={groundingTabs} />
+
+      <h3>Equip an agent with its skills</h3>
+      <p>
+        Some SOULs carry <a href="https://agentskills.io/specification" rel="noopener"
+          >Agent Skills</a
+        >
+        — runnable, progressively-disclosed capabilities. A plain SOUL is one file; an equipped SOUL is
+        a <strong>bundle</strong> (<code>SOUL.md</code>, the mindset, plus <code>skills/</code>).
+        Download <code>/api/souls/&lt;slug&gt;/bundle.zip</code> and mount it — a skill-aware runtime
+        loads each skill only when it's relevant, and any other model can treat the skills as a capability
+        menu.
+      </p>
+      <CodeTabs tabs={equippedTabs} />
+      <p>
+        Skills can include runnable scripts, so treat an unverified skill as a starting point and
+        review its code before running it. See a SOUL's <code>skills.json</code> manifest or the
+        <a href={`${GITHUB_URL}/blob/main/docs/SKILLS.md`} rel="noopener">skills guide</a> for the full
+        contract.
+      </p>
       <p>
         Everything is static, open, and released under the MIT License — free to reuse, remix, and
         train on. Using SOULs to ground or train AI is explicitly welcome.

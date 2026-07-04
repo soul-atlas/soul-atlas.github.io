@@ -68,6 +68,101 @@ function parseMetadata(slug, dir) {
   return meta;
 }
 
+// Recursively list files under a directory as posix-relative paths + sizes.
+function walkFiles(root, base = root) {
+  const out = [];
+  for (const e of fs.readdirSync(root, { withFileTypes: true })) {
+    if (e.name.startsWith('.')) continue;
+    const full = path.join(root, e.name);
+    if (e.isDirectory()) out.push(...walkFiles(full, base));
+    else
+      out.push({
+        path: path.relative(base, full).split(path.sep).join('/'),
+        bytes: fs.statSync(full).size,
+      });
+  }
+  return out;
+}
+
+/**
+ * Discover the Agent Skills bundled with a SOUL. Each subdirectory of skills/
+ * that contains a SKILL.md is a spec-compliant Agent Skill (agentskills.io) — we
+ * deliberately reuse that format rather than invent a new one. The SOUL supplies
+ * the mindset; a skill supplies an executable, progressively-disclosed capability.
+ */
+const SKILL_NAME_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+function loadSkills(dir, metaSkills = []) {
+  const skillsDir = path.join(dir, 'skills');
+  // metadata.yaml `skills:` entries annotate bundled skills (verified/note) and
+  // may declare referenced (shared) skills maintained elsewhere. Index by name.
+  const annotations = new Map();
+  for (const s of metaSkills) {
+    if (s && typeof s.name === 'string') annotations.set(s.name, s);
+  }
+  const skills = [];
+  const bundledNames = new Set();
+  if (fs.existsSync(skillsDir)) {
+    for (const e of fs.readdirSync(skillsDir, { withFileTypes: true })) {
+      if (!e.isDirectory() || e.name.startsWith('.')) continue;
+      const sdir = path.join(skillsDir, e.name);
+      const skillMd = path.join(sdir, 'SKILL.md');
+      if (!fs.existsSync(skillMd)) continue;
+      const f = matter(fs.readFileSync(skillMd, 'utf8'));
+      const fm = f.data || {};
+      const name = typeof fm.name === 'string' ? fm.name : e.name;
+      const description = typeof fm.description === 'string' ? fm.description : '';
+      const { html } = renderWithToc(f.content);
+      const annot = annotations.get(name) || annotations.get(e.name) || {};
+      skills.push({
+        name,
+        dir: e.name,
+        description,
+        license: fm.license || null,
+        compatibility: fm.compatibility || null,
+        allowedTools: fm['allowed-tools'] || null,
+        metadata: fm.metadata || null,
+        bodyHtml: html,
+        bodyMarkdown: f.content.trim(),
+        files: walkFiles(sdir).filter((x) => x.path !== 'SKILL.md'),
+        referenced: false,
+        source: null,
+        verified: Boolean(annot.verified),
+        note: annot.note || null,
+        // Statically checkable spec conformance: name matches its directory and a
+        // non-empty description is present. Anything else is surfaced, not gated.
+        valid: fm.name === e.name && description.length > 0,
+      });
+      bundledNames.add(e.name);
+      bundledNames.add(name);
+    }
+  }
+  // Referenced skills: metadata entries with no bundled directory of their own.
+  // They point at a shared skill maintained elsewhere — we record the pointer
+  // (name + source) but never fetch or execute it at build time.
+  for (const s of metaSkills) {
+    if (!s || typeof s.name !== 'string' || bundledNames.has(s.name)) continue;
+    skills.push({
+      name: s.name,
+      dir: null,
+      description: typeof s.description === 'string' ? s.description : '',
+      license: null,
+      compatibility: null,
+      allowedTools: null,
+      metadata: null,
+      bodyHtml: '',
+      bodyMarkdown: '',
+      files: [],
+      referenced: true,
+      source: s.source || null,
+      verified: Boolean(s.verified),
+      note: s.note || null,
+      valid: SKILL_NAME_RE.test(s.name) && Boolean(s.source),
+    });
+  }
+  return skills.sort((a, b) => a.name.localeCompare(b.name));
+}
+
 /**
  * Discover every SOUL on disk and map its slug to its directory: the authored
  * corpus (souls/<slug>/) plus federated mirrors (mirrored/<origin>/<slug>/).
@@ -147,11 +242,15 @@ export function loadSoul(slug) {
   // attributed, badged, and kept out of authored headline stats — never absorbed.
   const federated = Boolean(metadata.source && metadata.source.origin);
 
+  const skills = loadSkills(dir, metadata.skills || []);
+
   return {
     slug,
+    dir,
     title: metadata.title || docTitle || slug,
     metadata,
     sections,
+    skills,
     computed: {
       wordCount: totalWords,
       readingTimeMinutes: readingTime(totalWords),
@@ -163,6 +262,7 @@ export function loadSoul(slug) {
       aiDrafted,
       unverifiedAiDraft: aiDrafted && !verified,
       federated,
+      skillCount: skills.length,
     },
   };
 }

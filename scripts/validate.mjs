@@ -17,6 +17,11 @@ const ANSI = {
 };
 const c = (color, s) => `${ANSI[color]}${s}${ANSI.reset}`;
 
+// Agent Skills naming rules (agentskills.io + Anthropic): lowercase slug names,
+// no reserved words, no XML tags.
+const SKILL_NAME_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const RESERVED_SKILL_WORDS = ['anthropic', 'claude'];
+
 const ajv = new Ajv({ allErrors: true, strict: false });
 addFormats(ajv);
 const metaSchema = JSON.parse(
@@ -92,6 +97,31 @@ for (const slug of slugs) {
       slug,
       `status is "stable" but completeness is ${Math.round(soul.computed.completeness * 100)}%`,
     );
+  }
+
+  // Agent Skills conformance (agentskills.io + Anthropic constraints). Bundled
+  // skills are gated; referenced skills only need a valid name and a source.
+  for (const k of soul.skills) {
+    const label = k.referenced ? `referenced skill "${k.name}"` : `skill "${k.dir}"`;
+    if (!SKILL_NAME_RE.test(k.name))
+      err(slug, `${label}: name "${k.name}" must be lowercase letters, numbers and hyphens`);
+    if (k.name.length > 64) err(slug, `${label}: name exceeds 64 characters`);
+    if (RESERVED_SKILL_WORDS.some((w) => k.name.toLowerCase().includes(w)))
+      err(slug, `${label}: name must not contain a reserved word (anthropic, claude)`);
+    if (/[<>]/.test(k.name)) err(slug, `${label}: name must not contain XML tags`);
+    if (k.referenced) {
+      if (!k.source) err(slug, `${label}: referenced skills need a "source"`);
+      continue;
+    }
+    if (k.name !== k.dir) err(slug, `${label}: name must match its directory "${k.dir}"`);
+    if (!k.description.trim()) err(slug, `${label}: a non-empty description is required`);
+    if (k.description.length > 1024) err(slug, `${label}: description exceeds 1024 characters`);
+    if (/[<>]/.test(k.description)) err(slug, `${label}: description must not contain XML tags`);
+    if (k.compatibility && k.compatibility.length > 500)
+      err(slug, `${label}: compatibility exceeds 500 characters`);
+    const bodyLines = k.bodyMarkdown.split('\n').length;
+    if (bodyLines > 500)
+      warn(slug, `${label}: SKILL.md body is ${bodyLines} lines (recommend < 500)`);
   }
 }
 

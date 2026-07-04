@@ -13,6 +13,7 @@ import { buildCorpus, loadSectionSpec } from './lib/corpus.mjs';
 import { soulHistory, repoActivity } from './lib/git.mjs';
 import { computeStats } from './lib/stats.mjs';
 import { computeSimilarity } from './lib/similarity.mjs';
+import { zipStore } from './lib/zip.mjs';
 import {
   SCHEMA_DIR,
   GENERATED_DIR,
@@ -202,6 +203,7 @@ const lightList = corpus.souls.map((s) => ({
   completeness: s.computed.completeness,
   backlinks: s.computed.backlinks,
   related: s.metadata.related,
+  skillCount: s.computed.skillCount,
   created: gitBySlug[s.slug]?.created || s.metadata.created,
   updated: gitBySlug[s.slug]?.updated || s.metadata.updated,
 }));
@@ -209,7 +211,10 @@ const lightList = corpus.souls.map((s) => ({
 // ---- Full records (with rendered HTML + git history + citation) ----
 function fullRecord(s) {
   const git = gitBySlug[s.slug];
-  return { ...s, git, citation: buildCitation(s, git) };
+  // `dir` is an absolute filesystem path used only during generation — never
+  // leak it into the public record.
+  const { dir: _dir, ...rest } = s;
+  return { ...rest, git, citation: buildCitation(s, git) };
 }
 
 // ---- Search documents (headings + summary; body indexed by Pagefind) ----
@@ -307,6 +312,68 @@ for (const s of corpus.souls) {
       sections: s.sections.map((x) => ({ heading: x.heading, markdown: x.markdown })),
     }),
   );
+  // Bundled Agent Skills: copy each skill directory verbatim (it is already a
+  // valid Agent Skill), assemble a single downloadable bundle (SOUL.md + the
+  // skills, mirroring the source layout), and emit a manifest.
+  if (s.skills.length) {
+    const bundled = s.skills.filter((k) => !k.referenced);
+    ensureDir(path.join(PUBLIC_API_SOULS_DIR, s.slug));
+    // Only bundled skills have bytes on disk, so only they enter the bundle and
+    // get their files copied. Referenced skills are recorded as pointers.
+    let bundle = null;
+    if (bundled.length) {
+      const bundleFiles = [{ name: 'SOUL.md', data: fm + bodyMd }];
+      for (const skill of bundled) {
+        const skillRoot = path.join(s.dir, 'skills', skill.dir);
+        fs.cpSync(skillRoot, path.join(PUBLIC_API_SOULS_DIR, s.slug, 'skills', skill.dir), {
+          recursive: true,
+        });
+        bundleFiles.push({
+          name: `skills/${skill.dir}/SKILL.md`,
+          data: fs.readFileSync(path.join(skillRoot, 'SKILL.md')),
+        });
+        for (const file of skill.files) {
+          bundleFiles.push({
+            name: `skills/${skill.dir}/${file.path}`,
+            data: fs.readFileSync(path.join(skillRoot, file.path)),
+          });
+        }
+      }
+      fs.writeFileSync(
+        path.join(PUBLIC_API_SOULS_DIR, s.slug, 'bundle.zip'),
+        zipStore(bundleFiles),
+      );
+      bundle = `/api/souls/${s.slug}/bundle.zip`;
+    }
+    writeJSON(path.join(PUBLIC_API_SOULS_DIR, s.slug, 'skills.json'), {
+      soul: s.slug,
+      count: s.skills.length,
+      bundledCount: bundled.length,
+      bundle,
+      skills: s.skills.map((k) =>
+        k.referenced
+          ? {
+              name: k.name,
+              referenced: true,
+              source: k.source,
+              verified: k.verified,
+              valid: k.valid,
+            }
+          : {
+              name: k.name,
+              referenced: false,
+              description: k.description,
+              license: k.license,
+              compatibility: k.compatibility,
+              verified: k.verified,
+              path: `/api/souls/${s.slug}/skills/${k.dir}/`,
+              skillMd: `/api/souls/${s.slug}/skills/${k.dir}/SKILL.md`,
+              files: k.files.map((f) => f.path),
+              valid: k.valid,
+            },
+      ),
+    });
+  }
 }
 
 console.log(`✓ Generated ${corpus.souls.length} SOULs in ${Date.now() - t0}ms`);

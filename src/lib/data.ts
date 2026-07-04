@@ -68,6 +68,7 @@ export interface SoulSummary {
   completeness: number;
   backlinks: string[];
   related: Related[];
+  skillCount: number;
   created: string | null;
   updated: string | null;
 }
@@ -94,11 +95,34 @@ export interface Citation {
   text: string;
 }
 
+export interface SoulSkill {
+  name: string;
+  /** Bundled skill's directory name; null for a referenced (external) skill. */
+  dir: string | null;
+  description: string;
+  license: string | null;
+  compatibility: string | null;
+  allowedTools: string | null;
+  metadata: Record<string, string> | null;
+  bodyHtml: string;
+  bodyMarkdown: string;
+  files: { path: string; bytes: number }[];
+  /** True when the skill lives elsewhere (declared via metadata `skills:`). */
+  referenced: boolean;
+  /** Where a referenced skill is maintained; null for bundled skills. */
+  source: string | null;
+  /** Whether a human has reviewed the skill's behaviour. */
+  verified: boolean;
+  note: string | null;
+  valid: boolean;
+}
+
 export interface SoulRecord {
   slug: string;
   title: string;
   metadata: Record<string, any>;
   sections: Section[];
+  skills: SoulSkill[];
   computed: {
     wordCount: number;
     readingTimeMinutes: number;
@@ -108,6 +132,7 @@ export interface SoulRecord {
     aiDrafted: boolean;
     unverifiedAiDraft: boolean;
     federated: boolean;
+    skillCount: number;
   };
   git: GitHistory;
   citation: Citation;
