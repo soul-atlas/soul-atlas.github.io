@@ -49,5 +49,21 @@ const bundlePath = `${base}/pagefind/`;
       --pagefind-ui-border-radius: 0.6rem;
       --pagefind-ui-font: inherit;
     }
+    /* The result thumbnail is the SOUL's sigil (see the image meta on each
+       soul page). Keep it small and emblem-like rather than a wide banner. */
+    .pagefind-ui__result-thumb {
+      width: 3rem;
+      height: 3rem;
+      min-width: 3rem;
+      margin-top: 0.2rem;
+      border-radius: 0;
+      background: transparent;
+    }
+    .pagefind-ui__result-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 0;
+    }
   </style>
 </Layout>

@@ -2,6 +2,7 @@
 import type { SoulSummary } from '../lib/data';
 import { categoryColor, verificationBadge } from '../lib/data';
 import { soulUrl, categoryUrl } from '../lib/site';
+import SoulSigil from './SoulSigil.astro';
 
 interface Props {
   soul: SoulSummary;
@@ -46,7 +47,12 @@ const badge = verificationBadge(soul);
       {soul.difficulty && <span class="chip capitalize">{soul.difficulty}</span>}
     </span>
   </div>
-  <h3 class="text-base font-semibold leading-snug" style="color:var(--ink)">{soul.title}</h3>
+  <div class="flex items-center gap-2.5">
+    <span class="grid h-10 w-10 shrink-0 place-items-center">
+      <SoulSigil soul={soul} size={36} />
+    </span>
+    <h3 class="text-base font-semibold leading-snug" style="color:var(--ink)">{soul.title}</h3>
+  </div>
   {
     !compact && (
       <p class="text-sm leading-relaxed" style="color:var(--ink-soft)">

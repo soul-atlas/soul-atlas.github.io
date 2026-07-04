@@ -3,18 +3,29 @@
 // aliases, tags, summaries, and section headings against the lightweight index
 // generated at build time. Full-text body search is provided by Pagefind on the
 // dedicated /search page; this is the fast jump-to surface.
-import { searchDocs } from '../lib/data';
+import { searchDocs, getSummary } from '../lib/data';
 import { url } from '../lib/site';
 
-const docs = searchDocs.map((d: any) => ({
-  s: d.slug,
-  t: d.title,
-  c: d.category,
-  a: d.aliases ?? [],
-  g: d.tags ?? [],
-  d: d.summary ?? '',
-  h: d.headings ?? [],
-}));
+const docs = searchDocs.map((d: any) => {
+  const s = getSummary(d.slug);
+  return {
+    s: d.slug,
+    t: d.title,
+    c: d.category,
+    a: d.aliases ?? [],
+    g: d.tags ?? [],
+    d: d.summary ?? '',
+    h: d.headings ?? [],
+    // Sigil inputs, so results carry the same emblem as the rest of the Atlas.
+    k: s?.kind ?? null,
+    df: s?.difficulty ?? null,
+    st: s?.status ?? null,
+    pv: s?.provenance ?? null,
+    rel: s?.related.length ?? 0,
+    vf: s?.verified ?? false,
+    rv: s?.reviewers.length ?? 0,
+  };
+});
 
 const commands = [
   { label: 'Go to Explore', href: url('/souls'), kind: 'page' },
@@ -24,6 +35,9 @@ const commands = [
   { label: 'Random SOUL', href: url('/random'), kind: 'page' },
   { label: 'Full-text search', href: url('/search'), kind: 'page' },
 ];
+
+// Serialised for the bundled search script below; escaping "<" keeps it inert.
+const cmdkJson = JSON.stringify({ docs, commands }).replace(/</g, '\\u003c');
 ---
 
 <div
@@ -77,8 +91,15 @@ const commands = [
   </div>
 </div>
 
-<script is:inline define:vars={{ docs, commands, base: import.meta.env.BASE_URL }}>
+<script type="application/json" id="cmdk-data" is:inline set:html={cmdkJson} />
+<script>
+  import { soulSigilSvg } from '../lib/star';
+
   (function () {
+    const payload = JSON.parse(document.getElementById('cmdk-data').textContent);
+    const docs = payload.docs;
+    const commands = payload.commands;
+    const base = import.meta.env.BASE_URL;
     const modal = document.getElementById('cmdk');
     const input = document.getElementById('cmdk-input');
     const list = document.getElementById('cmdk-results');
@@ -86,6 +107,37 @@ const commands = [
     let current = [];
 
     const soulUrl = (slug) => `${base.replace(/\/$/, '')}/souls/${slug}`;
+
+    const sigilCache = new Map();
+    function sigilFor(d) {
+      let svg = sigilCache.get(d.s);
+      if (svg === undefined) {
+        svg = soulSigilSvg(
+          {
+            title: d.t,
+            category: d.c,
+            kind: d.k,
+            difficulty: d.df,
+            status: d.st,
+            provenance: d.pv,
+            tags: d.g,
+            related: d.rel,
+            verified: d.vf,
+            reviewers: d.rv,
+          },
+          { size: 20 },
+        );
+        sigilCache.set(d.s, svg);
+      }
+      return svg;
+    }
+    function esc(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
 
     function score(doc, q) {
       const hay = (
@@ -128,12 +180,12 @@ const commands = [
           .filter((x) => x.sc > 0)
           .sort((a, b) => b.sc - a.sc)
           .slice(0, 24)
-          .map((x) => ({ label: x.d.t, href: soulUrl(x.d.s), sub: x.d.c }));
+          .map((x) => ({ label: x.d.t, href: soulUrl(x.d.s), sub: x.d.c, soul: x.d }));
         items = [...matchedSouls, ...matchedCmds];
       }
       current = items;
       if (items.length === 0) {
-        list.innerHTML = `<li class="px-4 py-6 text-center text-sm" style="color:var(--ink-faint)">No matches for “${q}”. Try the full-text search.</li>`;
+        list.innerHTML = `<li class="px-4 py-6 text-center text-sm" style="color:var(--ink-faint)">No matches for “${esc(q)}”. Try the full-text search.</li>`;
         return;
       }
       items.forEach((it, idx) => {
@@ -142,7 +194,10 @@ const commands = [
         li.dataset.idx = idx;
         li.className =
           'cmdk-item flex cursor-pointer items-center justify-between gap-3 px-4 py-2.5 text-sm';
-        li.innerHTML = `<span style="color:var(--ink)">${it.label}</span><span class="chip">${it.sub}</span>`;
+        const left = it.soul
+          ? `<span class="flex min-w-0 items-center gap-2.5"><span class="grid h-6 w-6 shrink-0 place-items-center">${sigilFor(it.soul)}</span><span class="truncate" style="color:var(--ink)">${esc(it.label)}</span></span>`
+          : `<span class="truncate" style="color:var(--ink)">${esc(it.label)}</span>`;
+        li.innerHTML = `${left}<span class="chip shrink-0">${esc(it.sub)}</span>`;
         li.addEventListener('mouseenter', () => setActive(idx));
         li.addEventListener('click', () => go(idx));
         list.appendChild(li);
