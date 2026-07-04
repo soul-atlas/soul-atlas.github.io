@@ -62,9 +62,17 @@ const options = [...souls]
     </div>
   </div>
 
-  <script is:inline define:vars={{ base: import.meta.env.BASE_URL }}>
+  <script>
+    import { soulSigilSvg, sigilInputFromRecord } from '../lib/star';
+
     (function () {
-      const root = base.replace(/\/$/, '');
+      const root = import.meta.env.BASE_URL.replace(/\/$/, '');
+      const esc = (str) =>
+        String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
       const a = document.getElementById('sel-a');
       const b = document.getElementById('sel-b');
       const out = document.getElementById('compare');
@@ -121,13 +129,18 @@ const options = [...souls]
         const secs = rec.sections
           .map((s) => {
             const shared = sharedHeadings.has(s.heading);
+            // The <h3> label below already names the section (with the shared
+            // marker), so drop the leading heading the rendered markdown repeats.
+            const body = s.html.replace(/^\s*<h2\b[^>]*>[\s\S]*?<\/h2>\s*/i, '');
             return `<section class="compare-sec" data-heading="${s.heading}">
             <h3 class="mt-6 mb-2 text-sm font-semibold uppercase tracking-wide" style="color:${shared ? 'var(--accent)' : 'var(--ink-faint)'}">${s.heading}${shared ? ' <span title=\"Shared section\">●</span>' : ''}</h3>
-            <div class="prose" style="font-size:0.95rem">${s.html}</div>
+            <div class="prose" style="font-size:0.95rem">${body}</div>
           </section>`;
           })
           .join('');
-        return `<div class="card p-5"><a href="${root}/souls/${rec.slug}" class="text-xl font-semibold hover:underline" style="color:var(--ink)">${rec.title}</a><div class="text-sm" style="color:var(--ink-faint)">${rec.metadata.category} · ${rec.computed.wordCount.toLocaleString('en-US')} words</div>${secs}</div>`;
+        const m = rec.metadata;
+        const sig = soulSigilSvg(sigilInputFromRecord(rec), { size: 44 });
+        return `<div class="card p-5"><div class="flex items-center gap-3"><span class="grid h-12 w-12 shrink-0 place-items-center">${sig}</span><div><a href="${root}/souls/${rec.slug}" class="text-xl font-semibold hover:underline" style="color:var(--ink)">${esc(rec.title)}</a><div class="text-sm" style="color:var(--ink-faint)">${esc(m.category)} · ${rec.computed.wordCount.toLocaleString('en-US')} words</div></div></div>${secs}</div>`;
       }
 
       async function render() {

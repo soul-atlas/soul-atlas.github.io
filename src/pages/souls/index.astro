@@ -1,7 +1,14 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { souls, categories, kinds, kindLabel, topSimilarSlugs } from '../../lib/data';
-import { url, soulUrl, categoryColor } from '../../lib/site';
+import {
+  souls,
+  categories,
+  kinds,
+  kindLabel,
+  topSimilarSlugs,
+  verificationBadge,
+} from '../../lib/data';
+import { url, soulUrl } from '../../lib/site';
 
 const sorted = [...souls].sort((a, b) => a.title.localeCompare(b.title));
 const difficulties = ['foundational', 'intermediate', 'advanced', 'expert'];
@@ -11,17 +18,27 @@ const clientData = sorted.map((s) => ({
   category: s.category,
   kind: s.kind,
   difficulty: s.difficulty,
+  status: s.status,
+  provenance: s.provenance,
   summary: s.summary,
   tags: s.tags,
   words: s.wordCount,
   read: s.readingTimeMinutes,
   links: s.backlinks.length,
+  related: s.related.length,
+  reviewers: s.reviewers.length,
+  verified: s.verified,
   updated: s.updated,
+  // Precomputed so the client renders the exact same badge as <SoulCard>.
+  badge: verificationBadge(s),
 }));
 // Per-SOUL "find similar" lists (ranked slugs), for the Explore similarity picker.
 const similarTop: Record<string, string[]> = Object.fromEntries(
   sorted.map((s) => [s.slug, topSimilarSlugs(s.slug, 8)]),
 );
+// Serialised once for the bundled filter script below. Escaping "<" keeps the
+// JSON from prematurely closing the <script> tag.
+const exploreJson = JSON.stringify({ data: clientData, similarTop }).replace(/</g, '\\u003c');
 ---
 
 <Layout title="Explore" description="Browse every SOUL — filter by domain, difficulty, and more.">
@@ -134,33 +151,17 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
     </div>
   </div>
 
-  <script is:inline define:vars={{ data: clientData, similarTop, base: import.meta.env.BASE_URL }}>
+  <script type="application/json" id="explore-data" is:inline set:html={exploreJson} />
+  <script>
+    import { soulSigilSvg } from '../../lib/star';
+    import { categoryColor } from '../../lib/colors';
+
     (function () {
-      const root = base.replace(/\/$/, '');
+      const payload = JSON.parse(document.getElementById('explore-data').textContent);
+      const data = payload.data;
+      const similarTop = payload.similarTop;
+      const root = import.meta.env.BASE_URL.replace(/\/$/, '');
       const bySlug = new Map(data.map((s) => [s.slug, s]));
-      const colors = {
-        Technology: '#3b82f6',
-        Healthcare: '#ef4444',
-        'Skilled Trades': '#f59e0b',
-        Engineering: '#8b5cf6',
-        Science: '#06b6d4',
-        Education: '#10b981',
-        Business: '#6366f1',
-        Government: '#64748b',
-        Military: '#4b5563',
-        Law: '#0ea5e9',
-        Transportation: '#14b8a6',
-        Agriculture: '#84cc16',
-        Hospitality: '#ec4899',
-        Creative: '#f472b6',
-        Sports: '#22c55e',
-        Entertainment: '#a855f7',
-        Finance: '#eab308',
-        'Public Service': '#0891b2',
-        Historical: '#a16207',
-        Emerging: '#d946ef',
-        'Life Roles': '#fb7185',
-      };
       const results = document.getElementById('results');
       const empty = document.getElementById('empty');
       const count = document.getElementById('count');
@@ -174,15 +175,42 @@ const similarTop: Record<string, string[]> = Object.fromEntries(
       const simname = document.getElementById('simname');
       let view = 'grid';
 
+      // The sigil is deterministic, so compute each SOUL's emblem once and reuse
+      // it — filtering/sorting rebuilds the list on every keystroke.
+      const sigilCache = new Map();
+      function sigilFor(s) {
+        let svg = sigilCache.get(s.slug);
+        if (svg === undefined) {
+          svg = soulSigilSvg(s, { size: 36 });
+          sigilCache.set(s.slug, svg);
+        }
+        return svg;
+      }
+      function esc(str) {
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+      function badgeHtml(s) {
+        const b = s.badge || { tone: 'unverified', label: 'Unverified', title: '' };
+        return b.tone === 'verified'
+          ? `<span class="badge badge-verified" title="${esc(b.title)}"><span class="dot"></span>${esc(b.label)}</span>`
+          : `<span class="badge badge-unverified" title="${esc(b.title)}"><span class="dot"></span>Unverified</span>`;
+      }
       function card(s) {
-        const c = colors[s.category] || '#94a3b8';
+        const c = categoryColor(s.category);
         return `<a href="${root}/souls/${s.slug}" class="card group flex flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5" style="text-decoration:none">
           <div class="flex items-center justify-between gap-2">
-            <span class="inline-flex items-center gap-1.5 text-xs font-medium" style="color:${c}"><span class="inline-block h-2 w-2 rounded-full" style="background:${c}"></span>${s.category}</span>
-            ${s.difficulty ? `<span class="chip capitalize">${s.difficulty}</span>` : ''}
+            <span class="inline-flex items-center gap-1.5 text-xs font-medium" style="color:${c}"><span class="inline-block h-2 w-2 rounded-full" style="background:${c}"></span>${esc(s.category)}</span>
+            <span class="flex items-center gap-1.5">${badgeHtml(s)}${s.difficulty ? `<span class="chip capitalize">${esc(s.difficulty)}</span>` : ''}</span>
           </div>
-          <h3 class="text-base font-semibold leading-snug" style="color:var(--ink)">${s.title}</h3>
-          ${view === 'grid' ? `<p class="text-sm leading-relaxed" style="color:var(--ink-soft)">${s.summary}</p>` : ''}
+          <div class="flex items-center gap-2.5">
+            <span class="grid h-10 w-10 shrink-0 place-items-center">${sigilFor(s)}</span>
+            <h3 class="text-base font-semibold leading-snug" style="color:var(--ink)">${esc(s.title)}</h3>
+          </div>
+          ${view === 'grid' ? `<p class="text-sm leading-relaxed" style="color:var(--ink-soft)">${esc(s.summary)}</p>` : ''}
           <div class="mt-auto flex items-center gap-3 pt-1 text-xs" style="color:var(--ink-faint)"><span>${s.read} min</span><span>·</span><span>${s.words.toLocaleString('en-US')} words</span>${s.links ? `<span>·</span><span>${s.links} links</span>` : ''}</div>
         </a>`;
       }

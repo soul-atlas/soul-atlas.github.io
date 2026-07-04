@@ -343,33 +343,10 @@ export const RELATION_LABELS: Record<RelationshipType, string> = {
   progression: 'Progression',
 };
 
-export const CATEGORY_COLORS: Record<string, string> = {
-  Technology: '#3b82f6',
-  Healthcare: '#ef4444',
-  'Skilled Trades': '#f59e0b',
-  Engineering: '#8b5cf6',
-  Science: '#06b6d4',
-  Education: '#10b981',
-  Business: '#6366f1',
-  Government: '#64748b',
-  Military: '#4b5563',
-  Law: '#0ea5e9',
-  Transportation: '#14b8a6',
-  Agriculture: '#84cc16',
-  Hospitality: '#ec4899',
-  Creative: '#f472b6',
-  Sports: '#22c55e',
-  Entertainment: '#a855f7',
-  Finance: '#eab308',
-  'Public Service': '#0891b2',
-  Historical: '#a16207',
-  Emerging: '#d946ef',
-  'Life Roles': '#fb7185',
-};
-
-export function categoryColor(cat: string): string {
-  return CATEGORY_COLORS[cat] ?? '#94a3b8';
-}
+// Category colours live in ./colors — a corpus-free module so the same palette
+// can be reused from client bundles (Explore, command palette, sigils) without
+// pulling in the generated corpus. Re-exported here so existing imports work.
+export { CATEGORY_COLORS, categoryColor } from './colors';
 
 export interface VerificationBadge {
   tone: 'verified' | 'unverified';
